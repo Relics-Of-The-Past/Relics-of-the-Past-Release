@@ -1,0 +1,21 @@
+aabbMax: {X: 0.519743979, Y: 1.02054, Z: 0.519743979}
+aabbMin: {X: -0.519743979, Y: 0.0, Z: -0.519743979}
+attackPower: 4
+bfres: DgnObj_Barrel_A
+boundingForTraverse: 1.02054
+bugMask: 3
+drops:
+  Normal: [PutRupee, PutRupee_Blue, Item_Ore_F, Item_Ore_E, Item_Ore_D, Item_Ore_C]
+elink: Barrel_CDungeon
+generalLife: 20
+instSize: 42584
+mainModel: DgnObj_Barrel_A_01
+name: Barrel_CDungeon
+profile: MapDynamicActive
+rigidBodyCenterY: 0.513248026
+slink: Barrel
+sortKey: -2
+systemIsGetItemSelf: false
+systemSameGroupActorName: ''
+tags: {tag25cd2b4d: 634202957, tagb51794dc: !u 0xb51794dc, tagc2ac3213: !u 0xc2ac3213, tagff2ecb67: !u 0xff2ecb67}
+yLimitAlgorithm: NoLimit
