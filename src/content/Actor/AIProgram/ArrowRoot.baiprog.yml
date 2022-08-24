@@ -159,7 +159,7 @@ param_root: !list
             BehaviorIdx: !obj
               1721623982: 3
             SInst: !obj
-              SubAngMax: 1.04719758
+              SubAngMax: 1.04719996
               HomingRate: 1.0
               NearDist: 6.0
               FallSpeedRatioByRange: 0.0
@@ -214,7 +214,7 @@ param_root: !list
               SizeUpTime: 3
               ExplodeTime: 5
               UseDefaultEffect: true
-              IsDelete: false
+              IsDelete: true
               IsDamageGuarantee: false
               AttackIntensity: 3
               IsVanish: true

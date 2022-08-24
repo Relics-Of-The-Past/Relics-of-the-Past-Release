@@ -65,7 +65,7 @@ param_root: !list
       WeaponHoldTransOffsetShield: !vec3 [0.0, 0.0, 0.0]
       WeaponHoldRotOffsetShield: !vec3 [0.0, 0.0, 0.0]
       IsUseTargetTag: true
-      TargetActorType: Player,NPC,ClerkNPC
+      TargetActorType: Player, NPC
       EscapeAttackedActorType: ''
       ReactionBalloon: false
       SmallRagdollTime: 8

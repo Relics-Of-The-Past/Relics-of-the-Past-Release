@@ -152,6 +152,11 @@ OptionalWeapon:
   class: OptionalWeapon
   priority: AllAfter
 PauseMenuPlayer: {class: PauseMenuPlayer, priority: PlayerAfter}
+PetGuardian:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: Guardian
+  priority: PlayerAfter
 Player: {class: Player, priority: Player}
 Player2: {class: Player2, priority: Player}
 PlayerItem:

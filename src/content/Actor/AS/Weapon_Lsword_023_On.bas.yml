@@ -1,0 +1,59 @@
+!io
+version: 0
+type: xml
+param_root: !list
+  objects: {}
+  lists:
+    Elements: !list
+      objects: {}
+      lists:
+        Element0: !list
+          objects:
+            Parameters: !obj
+              TypeIndex: 80
+            Children: !obj
+              Child0: 1
+              Child1: 2
+          lists: {}
+        Element1: !list
+          objects:
+            Parameters: !obj
+              TypeIndex: 67
+              FileName: !str64 Weapon_Lsword_023_Cycle
+              Morph: 0.0
+          lists:
+            Extend: !list
+              objects: {}
+              lists:
+                HoldEvents: !list
+                  objects:
+                    Event0: !obj
+                      TypeIndex: 3
+                      StartFrame: 1.0
+                      EndFrame: 3.0
+                      Value: !str32 Left
+                    Event1: !obj
+                      TypeIndex: 3
+                      StartFrame: 6.0
+                      EndFrame: 9.0
+                      Value: !str32 Left
+                    Event2: !obj
+                      TypeIndex: 3
+                      StartFrame: 12.0
+                      EndFrame: 15.0
+                      Value: !str32 Left
+                  lists: {}
+        Element2: !list
+          objects:
+            Parameters: !obj
+              TypeIndex: 62
+              FileName: !str64 Weapon_Lsword_023_ToReady
+          lists:
+            Extend: !list
+              objects: {}
+              lists:
+                FrameCtrl: !list
+                  objects:
+                    FrameCtrl0: !obj
+                      StartFrame: 20.0
+                  lists: {}

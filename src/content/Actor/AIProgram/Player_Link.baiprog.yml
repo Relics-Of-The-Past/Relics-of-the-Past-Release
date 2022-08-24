@@ -204,7 +204,7 @@ param_root: !list
               EquipNoiseValue: 0.100000001
               AttackNoiseValue: 1.0
               ArrowReadyNoiseValue: 0.100000001
-              ParashawlInvalidHeight: 1.20000005
+              ParashawlInvalidHeight: 0.100000001
               ParashawlInvalidHeightSurfing: 1.0
               ForceSlipSpeed: -5.25
               DoForbidTime: 10.0
@@ -737,7 +737,7 @@ param_root: !list
               EnergyUseDiam3: 2.0
               JumpHeight: 0.620000005
               JumpHeightAddByAngle: 0.00999999978
-              JumpHeightAddBySpeed: 2.0
+              JumpHeightAddBySpeed: 2.1099999
               JumpHeightMaxDecRateByWater: 0.5
               IgnoreWaterHeight: 0.300000012
           lists: {}
@@ -787,7 +787,7 @@ param_root: !list
               FallSpAttackCheckUnderDist: 1.0
               FallSpLargeAttackRadius: 5.0
               AimDistOffset: 1.0
-              ParashawlInvalidTime: 10.0
+              ParashawlInvalidTime: 1.0
               SwingFrameBeforeGround: 4.0
               RumbleType: 4
               RumblePowerMin: 1.0
@@ -829,7 +829,7 @@ param_root: !list
             BehaviorIdx: !obj
               1721623982: 27
             SInst: !obj
-              ChargeTime: 30.0
+              ChargeTime: 5.0
           lists: {}
         Action_25: !list
           objects:
@@ -1011,10 +1011,10 @@ param_root: !list
               ClassName: !str32 PlayerSlippingDown
               GroupName: バリア吹き飛び
             SInst: !obj
-              DamageInterval: 30.0
+              DamageInterval: 3.0
               DamageVal: 1
-              ChangeableInterval: 90.0
-              ChangeableIntervalInAir: 30.0
+              ChangeableInterval: 1.0
+              ChangeableIntervalInAir: 1.0
               EnableSpeedDamage: 5.0
           lists: {}
         Action_42: !list
@@ -1117,9 +1117,9 @@ param_root: !list
               MaxSpeedF: 0.101999998
               MaxSpeedS: 0.101999998
               MaxSpeedB: 0.0496000014
-              MaxSpeedDash: 0.685599983
+              MaxSpeedDash: 0.985599995
               EnergyMove: 30.0
-              EnergyDash: 30.0
+              EnergyDash: 35.0
               DecSpeedRate: 0.25
           lists: {}
         Action_51: !list
@@ -1188,10 +1188,10 @@ param_root: !list
               1721623982: 12
               295359800: 5
             SInst: !obj
-              DamageInterval: 15.0
+              DamageInterval: 3.0
               DamageVal: 1
-              ChangeableInterval: 90.0
-              ChangeableIntervalInAir: 40.0
+              ChangeableInterval: 1.0
+              ChangeableIntervalInAir: 1.0
               EnableSpeedDamage: 15.0
           lists: {}
         Action_57: !list
@@ -1364,8 +1364,8 @@ param_root: !list
               1721623982: 4
             SInst: !obj
               EnergyMove: 0.0
-              MaxSpeed: 1.39999998
-              JumpSpeedF: 0.25
+              MaxSpeed: 2.5
+              JumpSpeedF: 1.19000006
               ContJumpSpeedF: 0.170000002
               JumpHeight: 1.0
               ContJumpInterval: 90.0
@@ -1652,10 +1652,10 @@ param_root: !list
               InitSpeedWind: 0.400000006
               JumpHeightWind: 1.29999995
               NoRagdollTime: 12.0
-              InitSpeedToss: 0.200000003
-              JumpHeightToss: 4.0
-              AddLinearImpulse: 20.0
-              AddRollImpulse: 30.0
+              InitSpeedToss: 5.0
+              JumpHeightToss: 5.0
+              AddLinearImpulse: 0.0
+              AddRollImpulse: 0.0
               InitSpeedHorse: 0.0500000007
               JumpHeightHorse: 0.0
               AddLinearImpulseHorse: 0.0
@@ -2228,7 +2228,7 @@ param_root: !list
               ClassName: !str32 PlayerCutFall
               GroupName: ジャンプ斬り
             SInst: !obj
-              ParashawlInvalidTime: 10.0
+              ParashawlInvalidTime: 1.0
               FallSpAttackHeight: 1.0
               FallSpAttackRadiusMin: 0.00999999978
               FallSpAttackRadiusMax: 10.0

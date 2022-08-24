@@ -1404,7 +1404,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 3
     RotAngle: 60.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -2678,7 +2678,7 @@ Objs:
   SRTHash: 1571045109
   Translate: [-588.406799, 130.564911, 1368.46252]
   UnitConfigName: Obj_TreeWhiteBirch_A_04
-- '!Parameters': {EquipItem1: Weapon_Lsword_023, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Lsword_023, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 2,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x2c6f27c6
   SRTHash: -863589064
@@ -4114,6 +4114,12 @@ Objs:
   Scale: 0.963557839
   Translate: [-849.795471, 173.912186, 1578.93005]
   UnitConfigName: Obj_TreeBroadleaf_A_LL
+- '!Parameters': {NonAutoPlacementAnimal: true, NonAutoPlacementBird: true, NonAutoPlacementEnemy: true, NonAutoPlacementFish: true,
+    NonAutoPlacementInsect: true, NonAutoPlacementMaterial: true, NonEnemySearchPlayer: true}
+  HashId: !u 0x41150615
+  SRTHash: 1360763847
+  Translate: [-544.5, 230.5, 1822.5]
+  UnitConfigName: PlayerInAreaAutoEnemyForbidTag
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x41349579
   Rotate: 0.673569381
@@ -4710,8 +4716,8 @@ Objs:
   Translate: [-966.873901, 145.98439, 1485.81055]
   UnitConfigName: FldObj_RockYellowOcher_A_L_02
 - '!Parameters':
-    AddParam: 15
-    AddSpecialFlag: 1
+    AddParam: 25
+    AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: true
     IsCreateSharpWeapon: false
@@ -5537,7 +5543,7 @@ Objs:
   Translate: [-737.203125, 171.145752, 1650.78906]
   UnitConfigName: Obj_Plant_HopBush_A_01
 - '!Parameters': {EquipItem1: Weapon_Lsword_012, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
-    RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+    RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x55b39f62
   SRTHash: 808901005
   Translate: [-396.963745, 125.973999, 1511.43542]
@@ -6405,24 +6411,6 @@ Objs:
   SRTHash: 0
   Translate: [-471.253906, 127.292969, 1452.54297]
   UnitConfigName: EnvSeEmitPointInsectTemperate
-- '!Parameters':
-    AddParam: 0
-    AddSpecialFlag: 0
-    DropTable: Normal
-    EnemyOwnItem: false
-    IsCreateSharpWeapon: false
-    IsEmitLandNoise: false
-    IsFixedPlace: false
-    IsPlayerPut: false
-    IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
-    Life: -1
-    SharpWeaponJudgeType: 0
-  HashId: !u 0x63b3352c
-  Rotate: [-0.0372026041, 1.08033466, -0.0410009958]
-  SRTHash: 2116288839
-  Translate: [-894.999939, 181.207153, 1664.99707]
-  UnitConfigName: Weapon_Sword_043
 - HashId: !u 0x63bab946
   Rotate: [0.299127638, 0.0119672008, -0.0793744177]
   SRTHash: -866253845
@@ -6998,7 +6986,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 2
     Life: -1
     SharpWeaponJudgeType: 1
   HashId: !u 0x6bbe6c13
@@ -7057,7 +7045,7 @@ Objs:
     SharpWeaponJudgeType: 0}
   HashId: !u 0x6d3702d4
   SRTHash: -1142421819
-  Translate: [-964.010315, 206.300003, 1607.25598]
+  Translate: [-964.099976, 206.300003, 1609.90002]
   UnitConfigName: TBox_Field_Wood
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x6d464845
@@ -7385,12 +7373,6 @@ Objs:
   SRTHash: 72518928
   Translate: [-111.247406, 127.138092, 1174.15015]
   UnitConfigName: FlyLocater
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
-  HashId: !u 0x73d193e2
-  Rotate: [-0.525654376, 0.00103601825, 0.0480425209]
-  SRTHash: 1143695669
-  Translate: [-744.06488, 171.467346, 1559.38416]
-  UnitConfigName: DgnObj_BoxIron_A_01
 - HashId: !u 0x73d3e616
   Rotate: [-0.159618258, 0.273497105, 0.0197998118]
   SRTHash: -1930342366
@@ -11405,7 +11387,7 @@ Objs:
   Translate: [-795.207153, 220.805069, 1996.24524]
   UnitConfigName: TwnObj_TempleOfTime_Debris_B_01
 - '!Parameters': {EquipItem1: Weapon_Lsword_012, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
-    RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+    RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xb20bb265
   SRTHash: 660703244
   Translate: [-340.59375, 129.572311, 1472.74402]
@@ -12267,11 +12249,6 @@ Objs:
   Scale: 1.05720842
   Translate: [-681.139038, 128.512421, 1309.35828]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- HashId: !u 0xbf3e8074
-  Rotate: [2.76202655, -0.580663502, -2.85976601]
-  SRTHash: -1275941238
-  Translate: [-243.97583, 112.561913, 1689.09082]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0xbf427bf4
   Rotate: 4.52203226
   SRTHash: 587732023
@@ -12348,7 +12325,7 @@ Objs:
     EnemyOwnItem: true
     IsCreateSharpWeapon: false
     IsEmitLandNoise: false
-    IsFixedPlace: false
+    IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
     LevelSensorMode: 0
@@ -12357,7 +12334,7 @@ Objs:
   HashId: !u 0xc0815f2b
   Rotate: [-0.991510987, 3.70090008, 3.0838995]
   SRTHash: -2129451814
-  Translate: [-298.338928, 115.084015, 1658.59656]
+  Translate: [-298.554413, 115.084015, 1658.75769]
   UnitConfigName: Weapon_Spear_032
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xc09dd831
@@ -14331,13 +14308,13 @@ Objs:
   Translate: [-685.731934, 171.402451, 1486.09753]
   UnitConfigName: Item_Plant_A
 - '!Parameters':
-    ArrowName: NormalArrow
-    EquipItem1: Weapon_Bow_004
+    ArrowName: IceArrow
+    EquipItem1: Weapon_Bow_001
     EquipItem3: BokoblinPipe
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 3
     RotAngle: 60.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -14524,7 +14501,7 @@ Objs:
     IsFixedPlace: false
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 3
     Life: -1
     SharpWeaponJudgeType: 3
   HashId: !u 0xdcdea1e5
@@ -16572,7 +16549,7 @@ Objs:
     IsFixedPlace: false
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xfdfc75da
@@ -16734,51 +16711,60 @@ Objs:
   SRTHash: 0
   Translate: [-1032.17603, 250.083633, 1839.18286]
   UnitConfigName: Weapon_Shield_002
-- HashId: !u 0xfffd4892
+- '!Parameters': {NoFlag: true}
+  HashId: !u 0xfffd4892
   Rotate: [-1.43846881, 0.400000006, -0.268342286]
   SRTHash: 0
   Translate: [-972.311829, 188.714905, 1560.90015]
   UnitConfigName: BarrelBomb
-- HashId: !u 0xfffd4893
+- '!Parameters': {NoFlag: true}
+  HashId: !u 0xfffd4893
   SRTHash: 0
   Translate: [-971.939941, 188.714905, 1555.40222]
   UnitConfigName: BarrelBomb
-- HashId: !u 0xfffd4894
+- '!Parameters': {NoFlag: true}
+  HashId: !u 0xfffd4894
   SRTHash: 0
   Translate: [-976.945129, 188.714905, 1562.19763]
   UnitConfigName: BarrelBomb
-- HashId: !u 0xfffd4895
+- '!Parameters': {NoFlag: true}
+  HashId: !u 0xfffd4895
   SRTHash: 0
   Translate: [-989.337341, 189.914902, 1553.13928]
   UnitConfigName: BarrelBomb
-- HashId: !u 0xfffd4896
+- '!Parameters': {NoFlag: true}
+  HashId: !u 0xfffd4896
   SRTHash: 0
   Scale: 1.0
   Translate: [-593.461487, 171.302444, 1808.64001]
   UnitConfigName: DgnObj_BoxShutter_4x4x4
-- HashId: !u 0xfffd4899
+- '!Parameters': {NoFlag: true}
+  HashId: !u 0xfffd4899
   Rotate: 0.600000024
   SRTHash: 0
   Scale: 0.579914689
   Translate: [-661.926514, 170.498947, 1514.20813]
   UnitConfigName: DgnObj_BoxShutter_4x4x4
-- HashId: !u 0xfffd48a6
+- '!Parameters': {NoFlag: true}
+  HashId: !u 0xfffd48a6
   SRTHash: 0
   Scale: 1.0
   Translate: [-593.546753, 173.302444, 1796.06165]
   UnitConfigName: DgnObj_BoxShutter_4x4x4
-- HashId: !u 0xfffd48a7
+- '!Parameters': {NoFlag: true}
+  HashId: !u 0xfffd48a7
   SRTHash: 0
   Scale: 1.0
   Translate: [-593.322327, 173.302444, 1821.66406]
   UnitConfigName: DgnObj_BoxShutter_4x4x4
-- HashId: !u 0xfffd48aa
+- '!Parameters': {NoFlag: true}
+  HashId: !u 0xfffd48aa
   Rotate: 0.600000024
   SRTHash: 0
   Scale: 4.16114044
   Translate: [-570.272522, 172.902451, 1810.54395]
   UnitConfigName: DgnObj_BoxShutter_4x4x4
-- '!Parameters': {AddParam: 0, IsFixedPlace: true}
+- '!Parameters': {AddParam: 0, IsFixedPlace: true, NoFlag: true}
   HashId: !u 0xfffd48ab
   Rotate: 0.600000024
   SRTHash: 0
@@ -16821,13 +16807,13 @@ Objs:
   SRTHash: 0
   Translate: [-766.375305, 171.193161, 1562.75574]
   UnitConfigName: Weapon_Sword_024
-- '!Parameters': {AddParam: 0, IsFixedPlace: true}
+- '!Parameters': {AddParam: 0, IsFixedPlace: true, NoFlag: true}
   HashId: !u 0xfffd48b7
   Rotate: 0.600000024
   SRTHash: 0
   Translate: [-574.88147, 189.697693, 1804.64038]
   UnitConfigName: DgnObj_BoxNet_A
-- '!Parameters': {AddParam: 0, IsFixedPlace: true}
+- '!Parameters': {AddParam: 0, IsFixedPlace: true, NoFlag: true}
   HashId: !u 0xfffd48b8
   Rotate: 0.600000024
   SRTHash: 0
@@ -16897,7 +16883,7 @@ Objs:
   SRTHash: 0
   Translate: [-631.530151, 176.684296, 1916.75378]
   UnitConfigName: Enemy_Keese_Electric
-- '!Parameters': {AddParam: 0, IsFixedPlace: true}
+- '!Parameters': {AddParam: 0, IsFixedPlace: true, NoFlag: true}
   HashId: !u 0xfffd48c3
   Rotate: 0.600000024
   SRTHash: 0
@@ -17006,12 +16992,6 @@ Objs:
   Scale: 1.20000005
   Translate: [-962.66217, 210.9599, 1611.52222]
   UnitConfigName: FldObj_RuinGuardianArm_A_01
-- '!Parameters': {NonAutoPlacementAnimal: true, NonAutoPlacementBird: true, NonAutoPlacementEnemy: true, NonAutoPlacementFish: true,
-    NonAutoPlacementInsect: true, NonAutoPlacementMaterial: true, NonEnemySearchPlayer: true}
-  HashId: !u 0x41150615
-  SRTHash: 1360763847
-  Translate: [-544.5, 230.5, 1822.5]
-  UnitConfigName: PlayerInAreaAutoEnemyForbidTag
 - '!Parameters': {DropActor: Obj_ArrowBundle_A_100, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xfffd48f3
   Rotate: 4.76837165e-08
@@ -17037,5 +17017,31 @@ Objs:
   Rotate: [0.0, 1.55996573, 0.000556845567]
   SRTHash: -1910341356
   Translate: [-284.980469, 157.089996, 1582.14075]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {EquipItem1: Weapon_Sword_005, EquipItem2: Weapon_Shield_005, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfffd4902
+  Rotate: -3.69999981
+  SRTHash: -198612228
+  Translate: [10.3948736, 117.253578, 1593.3335]
+  UnitConfigName: Enemy_Bokoblin_Dark
+- '!Parameters': {EquipItem1: Weapon_Sword_005, EquipItem2: Weapon_Shield_005, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfffd4903
+  Rotate: -3.69999981
+  SRTHash: -198612228
+  Translate: [33.375843, 118.458656, 1544.61938]
+  UnitConfigName: Enemy_Lizalfos_Dark
+- '!Parameters': {DropActor: Item_Enemy_55, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffd4904
+  Rotate: 1.39999998
+  SRTHash: -1709674313
+  Translate: [-467.468109, 136.698685, 1274.04395]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_50, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffd4905
+  Rotate: 1.39999998
+  SRTHash: -1709674313
+  Translate: [-467.107086, 136.698685, 1271.88647]
   UnitConfigName: TBox_Field_Iron
 Rails: []

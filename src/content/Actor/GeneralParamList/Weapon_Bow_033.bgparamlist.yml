@@ -68,10 +68,10 @@ param_root: !list
       PoweredSharpWeaponAddGuardMax: 0
       PoweredSharpAddThrowMin: 1.0
       PoweredSharpAddThrowMax: 1.0
-      PoweredSharpAddSpreadFire: false
+      PoweredSharpAddSpreadFire: true
       PoweredSharpAddZoomRapid: false
-      PoweredSharpAddRapidFireMin: 1.10000002
-      PoweredSharpAddRapidFireMax: 1.29999995
+      PoweredSharpAddRapidFireMin: false
+      PoweredSharpAddRapidFireMax: false
       PoweredSharpAddSurfMaster: false
     Bow: !obj
       QuiverName: !str32 Weapon_Quiver_001
@@ -81,10 +81,10 @@ param_root: !list
       BaseAttackPowerRatio: 1.0
       IsLeadShot: false
       LeadShotNum: 0
-      LeadShotAng: 45.0
+      LeadShotAng: 5
       LeadShotInterval: 0
       IsRapidFire: false
-      RapidFireNum: 0
+      RapidFireNum: 5
       RapidFireInterval: 0
       IsLongRange: false
       ArrowFirstSpeed: 8.0
@@ -107,8 +107,8 @@ param_root: !list
       EnemyEquipRotOffset: !vec3 [0.0, 0.0, 0.0]
       StandEquipTransOffset: !vec3 [0.0, 0.0, 0.0]
       StandEquipRotOffset: !vec3 [0.0, 0.0, 0.0]
-      ArrowChargeRate: 1.5
-      ArrowReloadRate: 0.800000012
+      ArrowChargeRate: 2.5
+      ArrowReloadRate: 0.300000012
       WeaponSubType: !str32 0
     Item: !obj
       PlayerUseItem: false

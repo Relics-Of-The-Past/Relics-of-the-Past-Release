@@ -474,7 +474,10 @@
     - {name: Weapon_Spear_011, prob: 90.0}
     - {name: Weapon_Bow_002, prob: 10.0}
     - {name: Weapon_Lsword_011, prob: 90.0}
-  - {name: Enemy_Assassin_Middle, num: 1.0}
+  - name: Enemy_Assassin_Middle
+    num: 1.0
+    weapons:
+    - {name: Weapon_Lsword_055, prob: 90.0}
   - {name: Enemy_Golem_Little, num: 1.0}
   - name: Enemy_Octarock
     num: 2.0
@@ -2797,7 +2800,10 @@
     - {name: Weapon_Spear_008, prob: 90.0}
     - {name: Weapon_Bow_035, prob: 10.0}
     - {name: Weapon_Bow_011, prob: 90.0}
-  - {name: Enemy_Assassin_Middle, num: 1.0}
+  - name: Enemy_Assassin_Middle
+    num: 3.0
+    weapons:
+    - {name: Weapon_Lsword_055, prob: 90.0}
   - {name: Enemy_Golem_Little, num: 1.0}
   - name: Enemy_Octarock
     num: 2.0
@@ -3400,7 +3406,10 @@
     - {name: Weapon_Spear_011, prob: 90.0}
     - {name: Weapon_Bow_002, prob: 10.0}
     - {name: Weapon_Lsword_011, prob: 90.0}
-  - {name: Enemy_Assassin_Middle, num: 1.0}
+  - name: Enemy_Assassin_Middle
+    num: 3.0
+    weapons:
+    - {name: Weapon_Lsword_055, prob: 90.0}
   - {name: Enemy_Golem_Little, num: 1.0}
   - name: Enemy_Octarock
     num: 2.0
@@ -4479,7 +4488,10 @@
     - {name: Weapon_Spear_011, prob: 90.0}
     - {name: Weapon_Bow_002, prob: 10.0}
     - {name: Weapon_Lsword_011, prob: 90.0}
-  - {name: Enemy_Assassin_Middle, num: 1.0}
+  - name: Enemy_Assassin_Middle
+    num: 3.0
+    weapons:
+    - {name: Weapon_Lsword_055, prob: 90.0}
   - {name: Enemy_Golem_Little, num: 1.0}
   - name: Enemy_Octarock
     num: 2.0
@@ -5228,7 +5240,10 @@
     - {name: Weapon_Spear_004, prob: 90.0}
     - {name: Weapon_Bow_001, prob: 10.0}
     - {name: Weapon_Bow_004, prob: 90.0}
-  - {name: Enemy_Assassin_Middle, num: 1.0}
+  - name: Enemy_Assassin_Middle
+    num: 3.0
+    weapons:
+    - {name: Weapon_Lsword_055, prob: 90.0}
   - {name: Enemy_Golem_Little, num: 1.0}
   - name: Enemy_Octarock
     num: 2.0
@@ -7589,7 +7604,10 @@
     - {name: Weapon_Spear_004, prob: 90.0}
     - {name: Weapon_Bow_001, prob: 10.0}
     - {name: Weapon_Bow_004, prob: 90.0}
-  - {name: Enemy_Assassin_Middle, num: 1.0}
+  - name: Enemy_Assassin_Middle
+    num: 3.0
+    weapons:
+    - {name: Weapon_Lsword_055, prob: 90.0}
   - {name: Enemy_Golem_Little, num: 1.0}
   - name: Enemy_Octarock_Forest
     num: 2.0
@@ -7916,7 +7934,10 @@
     - {name: Weapon_Spear_011, prob: 90.0}
     - {name: Weapon_Bow_002, prob: 10.0}
     - {name: Weapon_Lsword_011, prob: 90.0}
-  - {name: Enemy_Assassin_Middle, num: 1.0}
+  - name: Enemy_Assassin_Middle
+    num: 3.0
+    weapons:
+    - {name: Weapon_Lsword_055, prob: 90.0}
   - {name: Enemy_Golem_Little, num: 1.0}
   - name: Enemy_Octarock
     num: 2.0
@@ -7979,7 +8000,10 @@
     - {name: Weapon_Spear_011, prob: 90.0}
     - {name: Weapon_Bow_002, prob: 10.0}
     - {name: Weapon_Lsword_011, prob: 90.0}
-  - {name: Enemy_Assassin_Middle, num: 1.0}
+  - name: Enemy_Assassin_Middle
+    num: 3.0
+    weapons:
+    - {name: Weapon_Lsword_055, prob: 90.0}
   - name: Enemy_Lizalfos_Senior
     num: 2.0
     weapons:
@@ -10272,7 +10296,10 @@
     - {name: Weapon_Spear_004, prob: 90.0}
     - {name: Weapon_Bow_001, prob: 10.0}
     - {name: Weapon_Bow_004, prob: 90.0}
-  - {name: Enemy_Assassin_Middle, num: 1.0}
+  - name: Enemy_Assassin_Middle
+    num: 3.0
+    weapons:
+    - {name: Weapon_Lsword_055, prob: 90.0}
   - {name: Enemy_Golem_Little, num: 1.0}
   - name: Enemy_Octarock
     num: 2.0
@@ -10454,7 +10481,10 @@
     - {name: Weapon_Spear_011, prob: 90.0}
     - {name: Weapon_Bow_002, prob: 10.0}
     - {name: Weapon_Lsword_011, prob: 90.0}
-  - {name: Enemy_Assassin_Middle, num: 1.0}
+  - name: Enemy_Assassin_Middle
+    num: 3.0
+    weapons:
+    - {name: Weapon_Lsword_055, prob: 90.0}
   - {name: Enemy_Golem_Little, num: 1.0}
   - name: Enemy_Octarock
     num: 2.0
@@ -11127,7 +11157,10 @@
     - {name: Weapon_Spear_011, prob: 90.0}
     - {name: Weapon_Bow_002, prob: 10.0}
     - {name: Weapon_Lsword_011, prob: 90.0}
-  - {name: Enemy_Assassin_Middle, num: 1.0}
+  - name: Enemy_Assassin_Middle
+    num: 3.0
+    weapons:
+    - {name: Weapon_Lsword_055, prob: 90.0}
   - {name: Enemy_Golem_Little, num: 1.0}
   - name: Enemy_Octarock
     num: 2.0
@@ -11911,7 +11944,10 @@
     - {name: Weapon_Spear_011, prob: 90.0}
     - {name: Weapon_Bow_002, prob: 10.0}
     - {name: Weapon_Lsword_011, prob: 90.0}
-  - {name: Enemy_Assassin_Middle, num: 1.0}
+  - name: Enemy_Assassin_Middle
+    num: 3.0
+    weapons:
+    - {name: Weapon_Lsword_055, prob: 90.0}
   - {name: Enemy_Golem_Little, num: 1.0}
   - name: Enemy_Octarock
     num: 2.0

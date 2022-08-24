@@ -908,8 +908,8 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 100
-  MinValue: 40
+  MaxValue: 80
+  MinValue: 0
   ResetType: 0
 - DataName: Horse_UnreachableCause
   DeleteRev: -1
@@ -10041,7 +10041,7 @@ s32_data:
   IsProgramWritable: true
   IsSave: true
   MaxValue: 80
-  MinValue: 15
+  MinValue: 0
   ResetType: 0
 - DataName: ShieldPorchStockNum
   DeleteRev: -1
@@ -10052,8 +10052,8 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 100
-  MinValue: 20
+  MaxValue: 80
+  MinValue: 0
   ResetType: 0
 - DataName: EquipTime_Armor_060_Head
   DeleteRev: -1
@@ -26216,7 +26216,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Sandworm_Num
@@ -26228,7 +26228,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Guardian_Mini_Baby_Num
@@ -26240,7 +26240,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Guardian_Mini_Junior_Num
@@ -26252,7 +26252,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Guardian_Mini_Middle_Num
@@ -26264,7 +26264,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Guardian_Mini_Senior_Num
@@ -26276,7 +26276,55 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
+  MinValue: 0
+  ResetType: 0
+- DataName: Defeated_Enemy_Guardian_Mini_Baby_Dark_Num
+  DeleteRev: -1
+  HashValue: 1307689264
+  InitValue: 0
+  IsEventAssociated: false
+  IsOneTrigger: false
+  IsProgramReadable: true
+  IsProgramWritable: true
+  IsSave: true
+  MaxValue: 20
+  MinValue: 0
+  ResetType: 0
+- DataName: Defeated_Enemy_Guardian_Mini_Junior_Dark_Num
+  DeleteRev: -1
+  HashValue: 1410479180
+  InitValue: 0
+  IsEventAssociated: false
+  IsOneTrigger: false
+  IsProgramReadable: true
+  IsProgramWritable: true
+  IsSave: true
+  MaxValue: 20
+  MinValue: 0
+  ResetType: 0
+- DataName: Defeated_Enemy_Guardian_Mini_Middle_Dark_Num
+  DeleteRev: -1
+  HashValue: 1484380772
+  InitValue: 0
+  IsEventAssociated: false
+  IsOneTrigger: false
+  IsProgramReadable: true
+  IsProgramWritable: true
+  IsSave: true
+  MaxValue: 20
+  MinValue: 0
+  ResetType: 0
+- DataName: Defeated_Enemy_Guardian_Mini_Senior_Dark_Num
+  DeleteRev: -1
+  HashValue: 594140191
+  InitValue: 0
+  IsEventAssociated: false
+  IsOneTrigger: false
+  IsProgramReadable: true
+  IsProgramWritable: true
+  IsSave: true
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Guardian_A_Num
@@ -26288,7 +26336,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Guardian_B_Num
@@ -26300,7 +26348,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Guardian_C_Num
@@ -26312,7 +26360,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Assassin_Middle_Num
@@ -26324,7 +26372,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Assassin_Junior_Num
@@ -26336,7 +26384,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Assassin_Senior_Num
@@ -26348,7 +26396,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Bokoblin_Bone_Junior_Num
@@ -26360,7 +26408,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Bokoblin_Dark_Num
@@ -26372,7 +26420,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Bokoblin_Junior_Num
@@ -26384,7 +26432,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Bokoblin_Middle_Num
@@ -26396,7 +26444,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Bokoblin_Senior_Num
@@ -26408,7 +26456,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Chuchu_Electric_Junior_Num
@@ -26420,7 +26468,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Chuchu_Fire_Junior_Num
@@ -26432,7 +26480,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Chuchu_Ice_Junior_Num
@@ -26444,7 +26492,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Chuchu_Junior_Num
@@ -26456,7 +26504,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_GanonGrudge_Num
@@ -26468,7 +26516,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_GanonGrudge_01_Num
@@ -26480,7 +26528,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_GanonGrudge_02_Num
@@ -26492,7 +26540,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Giant_Bone_Num
@@ -26504,7 +26552,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Giant_Junior_Num
@@ -26516,7 +26564,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Giant_Middle_Num
@@ -26528,7 +26576,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Giant_Senior_Num
@@ -26540,7 +26588,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Golem_Fire_Num
@@ -26552,7 +26600,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Golem_Ice_Num
@@ -26564,7 +26612,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Golem_Junior_Num
@@ -26576,7 +26624,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Golem_Little_Num
@@ -26588,7 +26636,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Golem_Little_Fire_Num
@@ -26600,7 +26648,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Golem_Little_Ice_Num
@@ -26612,7 +26660,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Keese_Num
@@ -26624,7 +26672,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Keese_Electric_Num
@@ -26636,7 +26684,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Keese_Fire_Num
@@ -26648,7 +26696,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Keese_Ice_Num
@@ -26660,7 +26708,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Lizalfos_Bone_Junior_Num
@@ -26672,7 +26720,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Lizalfos_Dark_Num
@@ -26684,7 +26732,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Lizalfos_Electric_Num
@@ -26696,7 +26744,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Lizalfos_Fire_Num
@@ -26708,7 +26756,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Lizalfos_Junior_Num
@@ -26720,7 +26768,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Lizalfos_Ice_Num
@@ -26732,7 +26780,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Lizalfos_Middle_Num
@@ -26744,7 +26792,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Lizalfos_Senior_Num
@@ -26756,7 +26804,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Lynel_Junior_Num
@@ -26768,7 +26816,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Lynel_Middle_Num
@@ -26780,7 +26828,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Lynel_Senior_Num
@@ -26792,7 +26840,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Moriblin_Bone_Junior_Num
@@ -26804,7 +26852,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Moriblin_Dark_Num
@@ -26816,7 +26864,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Moriblin_Junior_Num
@@ -26828,7 +26876,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Moriblin_Middle_Num
@@ -26840,7 +26888,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Moriblin_Senior_Num
@@ -26852,7 +26900,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Octarock_Num
@@ -26864,7 +26912,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Octarock_Desert_Num
@@ -26876,7 +26924,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Octarock_Forest_Num
@@ -26888,7 +26936,19 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
+  MinValue: 0
+  ResetType: 0
+- DataName: Defeated_Enemy_Octarock_Senior_Num
+  DeleteRev: -1
+  HashValue: -1556152747
+  InitValue: 0
+  IsEventAssociated: false
+  IsOneTrigger: false
+  IsProgramReadable: true
+  IsProgramWritable: true
+  IsSave: true
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Octarock_Snow_Num
@@ -26900,7 +26960,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Octarock_Stone_Num
@@ -26912,7 +26972,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_SiteBoss_Bow_Num
@@ -26972,7 +27032,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Wizzrobe_Electric_Senior_Num
@@ -26984,7 +27044,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Wizzrobe_Fire_Num
@@ -26996,7 +27056,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Wizzrobe_Fire_Senior_Num
@@ -27008,7 +27068,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Wizzrobe_Ice_Num
@@ -27020,7 +27080,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Wizzrobe_Ice_Senior_Num
@@ -27032,7 +27092,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: PictureBookSize_Enemy_Lynel_Dark
@@ -27056,7 +27116,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Location_TurasuBridge
@@ -27920,7 +27980,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_RemainsFire_Drone_A_01_Num
@@ -27932,7 +27992,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Npc_Road_015_Item_Fruit_D
@@ -29480,7 +29540,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Golem_Senior_Num
@@ -29492,7 +29552,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: JoyConWirelessStyleWarningCount
@@ -30416,7 +30476,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: TreasureHunt03_RemainingBox
@@ -30656,7 +30716,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Lizalfos_Gold_Num
@@ -30668,7 +30728,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Lynel_Gold_Num
@@ -30680,7 +30740,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: Defeated_Enemy_Moriblin_Gold_Num
@@ -30692,7 +30752,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: 100enemy_CurrentCourse
@@ -31952,7 +32012,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: EquipTime_Obj_DLC_HeroSoul_Gerudo
@@ -32072,7 +32132,7 @@ s32_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 10
+  MaxValue: 20
   MinValue: 0
   ResetType: 0
 - DataName: CurseR_Wind_Challenge

@@ -1,10 +1,51 @@
 enemy:
 - actors:
+  - {name: Enemy_FldObj_RuinGuardian_Static, value: 79.0}
+  - {name: Enemy_Guardian_A_Fixed_Moss, value: 80.0}
+  species: RuinGuardianSeries
+- actors:
+  - {name: Enemy_FldObj_RuinGuardian_Stalker, value: 110.0}
+  - {name: Enemy_Guardian_A_Moss, value: 120.0}
+  species: RuinGuardianSeries2
+- actors:
+  - {name: Enemy_Place_Holder, value: 45.0}
+  - {name: Enemy_Lizalfos_Dark, value: 65.0}
+  - {name: Enemy_Lizalfos_Gold, value: 100.0}
+  species: LateGameSeries1
+- actors:
+  - {name: Enemy_Place_Holder_02, value: 45.0}
+  - {name: Enemy_Bokoblin_Dark, value: 60.0}
+  - {name: Enemy_Bokoblin_Gold, value: 100.0}
+  species: LateGameSeries2
+- actors:
+  - {name: Enemy_Place_Holder_03, value: 45.0}
+  - {name: Enemy_Moriblin_Dark, value: 60.0}
+  - {name: Enemy_Moriblin_Gold, value: 110.0}
+  species: LateGameSeries3
+- actors:
+  - {name: Enemy_Guardian_A_Fixed_Moss, value: 16.0}
+  - {name: Enemy_Guardian_A_Fixed_Sand, value: 16.0}
+  - {name: Enemy_Guardian_A_Fixed_Snow, value: 16.0}
+  - {name: Enemy_Guardian_B, value: 55.0}
+  species: FixedGuardianSeries
+- actors:
   - {name: Enemy_Bokoblin_Junior, value: 4.0}
+  - {name: Enemy_Bokoblin_Guard_Junior, value: 4.0}
+  - {name: Enemy_Bokoblin_Guard_Junior_Ambush, value: 4.0}
+  - {name: Enemy_Bokoblin_Guard_Junior_TreeHouseTop, value: 4.0}
   - {name: Enemy_Bokoblin_Middle, value: 16.0}
+  - {name: Enemy_Bokoblin_Guard_Middle, value: 16.0}
+  - {name: Enemy_Bokoblin_Guard_Middle_Ambush, value: 16.0}
+  - {name: Enemy_Bokoblin_Guard_Middle_TreeHouseTop, value: 16.0}
   - {name: Enemy_Bokoblin_Senior, value: 32.0}
   - {name: Enemy_Bokoblin_Dark, value: 48.0}
   species: BokoblinSeries
+- actors:
+  - {name: Enemy_Guardian_Mini_Baby_Dark, value: 7.0}
+  - {name: Enemy_Guardian_Mini_Junior_Dark, value: 17.0}
+  - {name: Enemy_Guardian_Mini_Middle_Dark, value: 35.0}
+  - {name: Enemy_Guardian_Mini_Senior_Dark, value: 60.0}
+  species: DarkMiniGuardian
 - actors:
   - {name: Enemy_Moriblin_Junior, value: 11.0}
   - {name: Enemy_Moriblin_Middle, value: 37.0}
@@ -14,21 +55,54 @@ enemy:
   species: MoriblinSeries
 - actors:
   - {name: Enemy_Lynel_Junior, value: 39.0}
+  - {name: Enemy_Lynel_Junior_Mountain, value: 39.0}
   - {name: Enemy_Lynel_Middle, value: 56.0}
   - {name: Enemy_Lynel_Senior, value: 84.0}
   - {name: Enemy_Lynel_Dark, value: 88.0}
   species: LynelSeries
 - actors:
   - {name: Enemy_Lizalfos_Junior, value: 18.0}
+  - {name: Enemy_Lizalfos_Guard_Junior_LongVisibility, value: 18.0}
   - {name: Enemy_Lizalfos_Middle, value: 32.0}
+  - {name: Enemy_Lizalfos_Guard_Middle_LongVisibility, value: 32.0}
+  - {name: Enemy_Lizalfos_Middle_Guard_Ambush, value: 32.0}
+  - {name: Enemy_Lizalfos_Guard_Middle, value: 32.0}
   - {name: Enemy_Lizalfos_Senior, value: 52.0}
   - {name: Enemy_Lizalfos_Dark, value: 56.0}
   species: LizalfosSeries
 - actors:
   - {name: Enemy_Assassin_Shooter_Junior, value: 16.0}
   - {name: Enemy_Assassin_Middle, value: 50.0}
+  - {name: Enemy_Assassin_Azito_Middle, value: 120.0}
   species: AssassinSeries
 flag:
+- {name: Defeated_Enemy_Lizalfos_Guard_Middle_LongVisibility, point: 4.0}
+- {name: Defeated_Enemy_Lizalfos_Guard_Junior_LongVisibility, point: 4.0}
+- {name: Defeated_Enemy_ChuChu_Electric_Junior_Num, point: 5.0}
+- {name: Defeated_Enemy_ChuChu_Electric_Senior_Num, point: 5.0}
+- {name: Defeated_Enemy_ChuChu_Electric_Middle_Num, point: 5.0}
+- {name: Defeated_Enemy_ChuChu_Fire_Junior_Num, point: 5.0}
+- {name: Defeated_Enemy_ChuChu_Fire_Senior_Num, point: 5.0}
+- {name: Defeated_Enemy_ChuChu_Fire_Middle_Num, point: 5.0}
+- {name: Defeated_Enemy_ChuChu_Ice_Junior_Num, point: 5.0}
+- {name: Defeated_Enemy_ChuChu_Ice_Senior_Num, point: 5.0}
+- {name: Defeated_Enemy_ChuChu_Ice_Middle_Num, point: 5.0}
+- {name: Defeated_Enemy_ChuChu_Junior_Num, point: 5.0}
+- {name: Defeated_Enemy_ChuChu_Senior_Num, point: 5.0}
+- {name: Defeated_Enemy_ChuChu_Middle_Num, point: 5.0}
+- {name: Defeated_Enemy_Lizalfos_Middle, point: 4.0}
+- {name: Defeated_Enemy_Bokoblin_Junior, point: 4.0}
+- {name: Defeated_Enemy_Bokoblin_Guard_Junior, point: 4.0}
+- {name: Defeated_Enemy_Bokoblin_Guard_Junior_Ambush, point: 4.0}
+- {name: Defeated_Enemy_Bokoblin_Guard_Junior_TreeHouseTop, point: 4.0}
+- {name: Defeated_Enemy_Bokoblin_Middle, point: 16.0}
+- {name: Defeated_Enemy_Bokoblin_Guard_Middle, point: 16.0}
+- {name: Defeated_Enemy_Bokoblin_Guard_Middle_Ambush, point: 16.0}
+- {name: Defeated_Enemy_Bokoblin_Guard_Middle_TreeHouseTop, point: 16.0}
+- {name: Defeated_Enemy_Guardian_Mini_Baby_Dark_Num, point: 7.0}
+- {name: Defeated_Enemy_Guardian_Mini_Junior_Dark_Num, point: 15.0}
+- {name: Defeated_Enemy_Guardian_Mini_Middle_Dark_Num, point: 25.0}
+- {name: Defeated_Enemy_Guardian_Mini_Senior_Dark_Num, point: 30.0}
 - {name: Defeated_Enemy_Wizzrobe_Electric_Num, point: 5.0}
 - {name: Defeated_Enemy_Wizzrobe_Fire_Num, point: 5.0}
 - {name: Defeated_Enemy_Wizzrobe_Ice_Num, point: 5.0}
@@ -36,6 +110,7 @@ flag:
 - {name: Defeated_Enemy_Golem_Junior_Num, point: 15.0}
 - {name: Defeated_Enemy_Giant_Junior_Num, point: 15.0}
 - {name: Defeated_Enemy_Assassin_Middle_Num, point: 15.0}
+- {name: Defeated_Enemy_Assassin_Azito_Middle_Num, point: 15.0}
 - {name: Defeated_Enemy_Bokoblin_Senior_Num, point: 15.0}
 - {name: Defeated_Enemy_Wizzrobe_Ice_Senior_Num, point: 15.0}
 - {name: Defeated_Enemy_Wizzrobe_Fire_Senior_Num, point: 15.0}
@@ -47,7 +122,7 @@ flag:
 - {name: Defeated_Enemy_Lizalfos_Ice_Num, point: 20.0}
 - {name: Defeated_Enemy_Lizalfos_Senior_Num, point: 20.0}
 - {name: Defeated_Enemy_Lizalfos_Fire_Num, point: 20.0}
-- {name: Defeated_Enemy_Bokoblin_Gold_Num, point: 25.0}
+- {name: Defeated_Enemy_Bokoblin_Gold_Num, point: 35.0}
 - {name: Defeated_Enemy_Giant_Bone_Num, point: 25.0}
 - {name: Defeated_Enemy_Bokoblin_Dark_Num, point: 35.0}
 - {name: Defeated_Enemy_Golem_Middle_Num, point: 25.0}
@@ -71,15 +146,15 @@ flag:
 - {name: Defeated_Enemy_Lynel_Middle_Num, point: 60.0}
 - {name: Defeated_Enemy_Lynel_Senior_Num, point: 80.0}
 - {name: Defeated_Enemy_Assassin_Senior_Num, point: 100.0}
-- {name: Defeated_Enemy_Lynel_Gold_Num, point: 120.0}
+- {name: Defeated_Enemy_Lynel_Gold_Num, point: 150.0}
 - {name: Defeated_Enemy_Lynel_Dark_Num, point: 120.0}
-- {name: Defeated_Enemy_SiteBoss_Lsword_Num, point: 300.0}
-- {name: Defeated_Enemy_SiteBoss_Spear_Num, point: 300.0}
-- {name: Defeated_Enemy_SiteBoss_Sword_Num, point: 300.0}
-- {name: Defeated_Enemy_SiteBoss_Bow_Num, point: 300.0}
+- {name: Defeated_Enemy_SiteBoss_Lsword_Num, point: 250.0}
+- {name: Defeated_Enemy_SiteBoss_Spear_Num, point: 250.0}
+- {name: Defeated_Enemy_SiteBoss_Sword_Num, point: 250.0}
+- {name: Defeated_Enemy_SiteBoss_Bow_Num, point: 250.0}
 - {name: Defeated_Priest_Boss_Normal_Num, point: 500.0}
 - {name: Defeated_Enemy_GanonBeast_Num, point: 800.0}
-setting: {Level2EnemyPower: 0.0140000004, Level2WeaponPower: 0.0120000001}
+setting: {Level2EnemyPower: 0.0140000004, Level2WeaponPower: 0.0130000003}
 weapon:
 - actorType: WeaponSmallSword
   actors:
@@ -209,7 +284,7 @@ weapon:
   - {name: Weapon_Sword_015, plus: -1, value: 40.0}
   - {name: Weapon_Sword_015, plus: 0, value: 47.0}
   - {name: Weapon_Sword_015, plus: 1, value: 55.0}
-  not_rank_up: true
+  not_rank_up: false
   series: GuardianMiniSeries
 - actorType: WeaponLargeSword
   actors:
@@ -222,7 +297,7 @@ weapon:
   - {name: Weapon_Lsword_015, plus: -1, value: 40.0}
   - {name: Weapon_Lsword_015, plus: 0, value: 44.0}
   - {name: Weapon_Lsword_015, plus: 1, value: 48.0}
-  not_rank_up: true
+  not_rank_up: false
   series: GuardianMiniSeries
 - actorType: WeaponSpear
   actors:
@@ -235,7 +310,7 @@ weapon:
   - {name: Weapon_Spear_015, plus: -1, value: 40.0}
   - {name: Weapon_Spear_015, plus: 0, value: 46.0}
   - {name: Weapon_Spear_015, plus: 1, value: 52.0}
-  not_rank_up: true
+  not_rank_up: false
   series: GuardianMiniSeries
 - actorType: WeaponShield
   actors:
@@ -248,7 +323,7 @@ weapon:
   - {name: Weapon_Shield_015, plus: -1, value: 42.0}
   - {name: Weapon_Shield_015, plus: 0, value: 46.0}
   - {name: Weapon_Shield_015, plus: 1, value: 51.0}
-  not_rank_up: true
+  not_rank_up: false
   series: GuardianMiniSeries
 - actorType: WeaponSmallSword
   actors:
@@ -505,6 +580,9 @@ weapon:
   - {name: Weapon_Bow_015, plus: -1, value: 14.0}
   - {name: Weapon_Bow_015, plus: 0, value: 19.0}
   - {name: Weapon_Bow_015, plus: 1, value: 24.0}
+  - {name: Weapon_Bow_036, plus: -1, value: 30.0}
+  - {name: Weapon_Bow_036, plus: 0, value: 40.0}
+  - {name: Weapon_Bow_036, plus: 1, value: 55.0}
   not_rank_up: false
   series: OasisSeries
 - actorType: WeaponShield
@@ -568,28 +646,18 @@ weapon:
   - {name: Weapon_Sword_021, plus: 1, value: 14.0}
   - {name: Weapon_Sword_051, plus: 1, value: 19.0}
   - {name: Weapon_Sword_034, plus: -1, value: 20.0}
-  - {name: Weapon_Sword_059, plus: -1, value: 20.0}
   - {name: Weapon_Sword_035, plus: -1, value: 22.0}
-  - {name: Weapon_Sword_058, plus: -1, value: 22.0}
   - {name: Weapon_Sword_033, plus: -1, value: 24.0}
-  - {name: Weapon_Sword_059, plus: 0, value: 25.0}
   - {name: Weapon_Sword_034, plus: 0, value: 26.0}
   - {name: Weapon_Sword_035, plus: 0, value: 28.0}
-  - {name: Weapon_Sword_057, plus: -1, value: 28.0}
-  - {name: Weapon_Sword_058, plus: 0, value: 28.0}
-  - {name: Weapon_Sword_070, plus: -1, value: 30.0}
-  - {name: Weapon_Sword_059, plus: 1, value: 30.0}
   - {name: Weapon_Sword_033, plus: 0, value: 31.0}
   - {name: Weapon_Sword_034, plus: 1, value: 32.0}
-  - {name: Weapon_Sword_058, plus: 1, value: 33.0}
   - {name: Weapon_Sword_035, plus: 1, value: 35.0}
-  - {name: Weapon_Sword_057, plus: 0, value: 36.0}
   - {name: Weapon_Sword_033, plus: 1, value: 38.0}
-  - {name: Weapon_Sword_057, plus: 1, value: 42.0}
   - {name: Weapon_Sword_047, plus: -1, value: 48.0}
   - {name: Weapon_Sword_047, plus: 0, value: 60.0}
   - {name: Weapon_Sword_047, plus: 1, value: 73.0}
-  not_rank_up: true
+  not_rank_up: false
   series: UniqueSeries
 - actorType: WeaponLargeSword
   actors:
@@ -617,20 +685,11 @@ weapon:
   - {name: Weapon_Lsword_033, plus: 0, value: 28.6667004}
   - {name: Weapon_Lsword_034, plus: 1, value: 30.0}
   - {name: Weapon_Lsword_035, plus: 1, value: 32.0}
-  - {name: Weapon_Lsword_057, plus: -1, value: 32.0}
-  - {name: Weapon_Lsword_059, plus: -1, value: 33.3333015}
   - {name: Weapon_Lsword_033, plus: 1, value: 34.0}
-  - {name: Weapon_Lsword_057, plus: 0, value: 36.6666985}
-  - {name: Weapon_Lsword_059, plus: 0, value: 38.0}
-  - {name: Weapon_Lsword_060, plus: -1, value: 40.0}
-  - {name: Weapon_Lsword_057, plus: 1, value: 42.0}
-  - {name: Weapon_Lsword_059, plus: 1, value: 43.3333015}
-  - {name: Weapon_Lsword_060, plus: 0, value: 46.0}
   - {name: Weapon_Lsword_047, plus: -1, value: 48.0}
-  - {name: Weapon_Lsword_060, plus: 1, value: 52.0}
   - {name: Weapon_Lsword_047, plus: 0, value: 61.3333015}
   - {name: Weapon_Lsword_047, plus: 1, value: 71.3332977}
-  not_rank_up: true
+  not_rank_up: false
   series: UniqueSeries
 - actorType: WeaponSpear
   actors:
@@ -667,24 +726,20 @@ weapon:
   - {name: Weapon_Spear_047, plus: 0, value: 84.0}
   - {name: Weapon_Spear_023, plus: 1, value: 96.0}
   - {name: Weapon_Spear_047, plus: 1, value: 102.0}
-  not_rank_up: true
+  not_rank_up: false
   series: UniqueSeries
 - actorType: WeaponBow
   actors:
   - {name: Weapon_Bow_038, plus: -1, value: 4.0}
   - {name: Weapon_Bow_038, plus: 0, value: 7.0}
   - {name: Weapon_Bow_038, plus: 1, value: 10.0}
-  - {name: Weapon_Bow_072, plus: -1, value: 30.0}
-  - {name: Weapon_Bow_072, plus: 0, value: 35.0}
-  - {name: Weapon_Bow_072, plus: 1, value: 40.0}
   - {name: Weapon_Bow_023, plus: -1, value: 44.0}
   - {name: Weapon_Bow_033, plus: -1, value: 50.0}
   - {name: Weapon_Bow_023, plus: 0, value: 51.0}
   - {name: Weapon_Bow_033, plus: 0, value: 58.0}
-  - {name: Weapon_Bow_023, plus: 1, value: 58.0}
-  - {name: Weapon_Bow_033, plus: 1, value: 66.0}
-  - {name: Weapon_Bow_071, plus: -1, value: 100.0}
-  not_rank_up: true
+  - {name: Weapon_Bow_033, plus: 1, value: 58.0}
+  - {name: Weapon_Bow_023, plus: 1, value: 66.0}
+  not_rank_up: false
   series: UniqueSeries
 - actorType: WeaponShield
   actors:
@@ -695,14 +750,11 @@ weapon:
   - {name: Weapon_Shield_021, plus: 1, value: 10.0}
   - {name: Weapon_Shield_031, plus: 1, value: 12.0}
   - {name: Weapon_Shield_033, plus: -1, value: 70.0}
-  - {name: Weapon_Shield_038, plus: -1, value: 70.0}
   - {name: Weapon_Shield_033, plus: 0, value: 80.0}
-  - {name: Weapon_Shield_038, plus: 0, value: 80.0}
   - {name: Weapon_Shield_030, plus: -1, value: 90.0}
   - {name: Weapon_Shield_033, plus: 1, value: 90.0}
-  - {name: Weapon_Shield_038, plus: 1, value: 90.0}
-  - {name: Weapon_Shield_030, plus: 0, value: 113.0}
-  - {name: Weapon_Shield_030, plus: 1, value: 133.0}
+  - {name: Weapon_Shield_030, plus: 0, value: 125.0}
+  - {name: Weapon_Shield_030, plus: 1, value: 150.0}
   not_rank_up: false
   series: UniqueSeries
 - actorType: WeaponSmallSword
@@ -710,6 +762,9 @@ weapon:
   - {name: Weapon_Sword_041, plus: -1, value: 15.0}
   - {name: Weapon_Sword_041, plus: 0, value: 20.0}
   - {name: Weapon_Sword_041, plus: 1, value: 24.0}
+  - {name: Weapon_Sword_047, plus: -1, value: 48.0}
+  - {name: Weapon_Sword_047, plus: 0, value: 60.0}
+  - {name: Weapon_Sword_047, plus: 1, value: 73.0}
   not_rank_up: false
   series: KakarikoSeries
 - actorType: WeaponLargeSword
@@ -734,6 +789,9 @@ weapon:
   - {name: Weapon_Bow_029, plus: -1, value: 10.0}
   - {name: Weapon_Bow_029, plus: 0, value: 18.0}
   - {name: Weapon_Bow_029, plus: 1, value: 23.0}
+  - {name: Weapon_Bow_033, plus: -1, value: 30.0}
+  - {name: Weapon_Bow_033, plus: 0, value: 40.0}
+  - {name: Weapon_Bow_033, plus: 1, value: 55.0}
   not_rank_up: false
   series: KakarikoSeries
 - actorType: WeaponShield
@@ -795,6 +853,9 @@ weapon:
   - {name: Weapon_Lsword_074, plus: -1, value: 26.6667004}
   - {name: Weapon_Lsword_074, plus: 0, value: 30.6667004}
   - {name: Weapon_Lsword_074, plus: 1, value: 34.0}
+  - {name: Weapon_Lsword_047, plus: -1, value: 48.0}
+  - {name: Weapon_Lsword_047, plus: 0, value: 61.3333015}
+  - {name: Weapon_Lsword_047, plus: 1, value: 71.3332977}
   not_rank_up: false
   series: AssassinSeries
 - actorType: WeaponBow
@@ -862,6 +923,9 @@ weapon:
   - {name: Weapon_Shield_032, plus: -1, value: 3.0}
   - {name: Weapon_Shield_032, plus: 0, value: 7.0}
   - {name: Weapon_Shield_032, plus: 1, value: 12.0}
+  - {name: Weapon_Shield_038, plus: -1, value: 30.0}
+  - {name: Weapon_Shield_038, plus: 0, value: 70.0}
+  - {name: Weapon_Shield_038, plus: 1, value: 120.0}
   not_rank_up: false
   series: SouthernSeries
 - actorType: WeaponShield
@@ -869,5 +933,18 @@ weapon:
   - {name: Weapon_Shield_034, plus: -1, value: 3.0}
   - {name: Weapon_Shield_034, plus: 0, value: 7.0}
   - {name: Weapon_Shield_034, plus: 1, value: 12.0}
+  - {name: Weapon_Shield_037, plus: -1, value: 30.0}
+  - {name: Weapon_Shield_037, plus: 0, value: 70.0}
+  - {name: Weapon_Shield_037, plus: 1, value: 120.0}
   not_rank_up: false
   series: HatenoSeries
+- actorType: WeaponShield
+  actors:
+  - {name: Weapon_Shield_001, plus: -1, value: 3.0}
+  - {name: Weapon_Shield_001, plus: 0, value: 7.0}
+  - {name: Weapon_Shield_001, plus: 1, value: 12.0}
+  - {name: Weapon_Shield_037, plus: -1, value: 60.0}
+  - {name: Weapon_Shield_037, plus: 0, value: 70.0}
+  - {name: Weapon_Shield_037, plus: 1, value: 120.0}
+  not_rank_up: false
+  series: OldSeries

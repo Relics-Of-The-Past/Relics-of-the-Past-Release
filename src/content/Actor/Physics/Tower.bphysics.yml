@@ -1,0 +1,1409 @@
+!io
+version: 0
+type: xml
+param_root: !list
+  objects: {}
+  lists:
+    ParamSet: !list
+      objects:
+        1258832850: !obj
+          use_rigid_body_set_num: 1
+          use_ragdoll: false
+          use_cloth: false
+          use_support_bone: false
+          use_character_controller: false
+          use_contact_info: true
+          use_edge_rigid_body_num: 0
+          use_system_group_handler: true
+      lists:
+        RigidContactInfo: !list
+          objects:
+            3387849585: !obj
+              contact_point_info_num: 1
+              collision_info_num: 1
+            ContactPointInfo_0: !obj
+              name: !str32 Body
+              type: !str32 Body
+              num: 64
+            CollisionInfo_0: !obj
+              name: !str32 Body
+              type: !str32 Body
+          lists: {}
+        RigidBodySet: !list
+          objects: {}
+          lists:
+            RigidBodySet_0: !list
+              objects:
+                4288596824: !obj
+                  set_name: !str32 Body
+                  type: !str32 from_shape_type
+                  num: 1
+              lists:
+                RigidBody_0: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Leaking_1__Mt_Wall_HyliaLeaking_A
+                      mass: 1.0
+                      inertia: !vec3 [99.1292038, 16.5025997, 98.4341965]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 34.6039009
+                      toi: true
+                      center_of_mass: !vec3 [-0.0154600004, 16.8757, 0.013359]
+                      bounding_center: !vec3 [0.0, 16.3752995, 0.0]
+                      bounding_extents: !vec3 [12.2755003, 33.7505989, 12.2755003]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      contact_point_info: !str32 Body
+                      collision_info: !str32 Body
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 STATIC_WALKABLE_AND_CUTTING
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      max_angular_velocity_rad: 198.968002
+                      motion_type: !str32 Fixed
+                      shape_num: 82
+                    ShapeParam_0: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [-3.36578012, 1.10538995, -5.61126995]
+                      vertex_1: !vec3 [3.31984997, 1.10977995, -5.64077997]
+                      vertex_2: !vec3 [3.34861994, 1.13826001, -5.66462994]
+                      vertex_3: !vec3 [-3.36568999, 1.10537004, -5.67660999]
+                      vertex_4: !vec3 [3.36833, 1.16852999, -5.62268019]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_1: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 7
+                      vertex_0: !vec3 [-3.3448, 3.55553007, -3.8036201]
+                      vertex_1: !vec3 [-2.76541996, 3.88550997, -4.26202011]
+                      vertex_2: !vec3 [-2.76811004, 3.54801989, -4.26198006]
+                      vertex_3: !vec3 [-4.43885994, 3.8878901, -0.135444]
+                      vertex_4: !vec3 [-4.42602015, 3.87610006, -2.67928004]
+                      vertex_5: !vec3 [-4.48221016, 3.54645991, -0.133773997]
+                      vertex_6: !vec3 [-4.42468977, 3.55576992, -2.7320199]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_2: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [4.30081987, 4.04114008, 2.38458991]
+                      vertex_1: !vec3 [0.960385025, 4.07459021, 0.0266517997]
+                      vertex_2: !vec3 [0.960385025, 4.07459021, 2.62400007]
+                      vertex_3: !vec3 [0.960385025, 4.05843019, 0.0266519003]
+                      vertex_4: !vec3 [4.28775978, 4.03703022, 0.0252353009]
+                      vertex_5: !vec3 [0.960309029, 4.05839014, 2.62396002]
+                      vertex_6: !vec3 [4.31301022, 4.02726984, 2.59758997]
+                      vertex_7: !vec3 [4.17956018, 4.04137993, 0.0355154984]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_3: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 6
+                      vertex_0: !vec3 [5.57203007, 1.03077996, 3.53546]
+                      vertex_1: !vec3 [4.59060001, 0.990184009, 4.40547991]
+                      vertex_2: !vec3 [5.72162008, -0.433192998, 3.38177991]
+                      vertex_3: !vec3 [4.81953001, -0.42533499, 4.43892002]
+                      vertex_4: !vec3 [5.5783, 1.03901994, 3.42097998]
+                      vertex_5: !vec3 [4.75773001, 0.978385985, 4.40222979]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_4: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 7
+                      vertex_0: !vec3 [-5.56566, 1.02857995, -3.49283004]
+                      vertex_1: !vec3 [-3.5056901, -0.453242987, -5.69804001]
+                      vertex_2: !vec3 [-3.53451991, 0.98081398, -5.69571018]
+                      vertex_3: !vec3 [-5.68697023, 0.988503993, -3.53471994]
+                      vertex_4: !vec3 [-5.73246002, -0.433542013, -3.45868993]
+                      vertex_5: !vec3 [-3.49617004, 0.979766011, -5.57485008]
+                      vertex_6: !vec3 [-3.4962399, -0.454899013, -5.71361017]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_5: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [-5.71303988, 1.11882997, 3.29067993]
+                      vertex_1: !vec3 [-5.66115999, 1.17070997, -3.34186006]
+                      vertex_2: !vec3 [-5.75760984, 1.14136004, -3.34503007]
+                      vertex_3: !vec3 [-5.68360996, 1.14824998, 3.29059005]
+                      vertex_4: !vec3 [-5.6905098, 1.07426, -3.34503007]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_6: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 7
+                      vertex_0: !vec3 [5.46604013, 1.26095998, -3.33731008]
+                      vertex_1: !vec3 [0.0366374999, 1.24089003, -5.57189989]
+                      vertex_2: !vec3 [0.0334456004, 1.22534001, -5.54031992]
+                      vertex_3: !vec3 [3.45416999, 1.14989996, -5.52368021]
+                      vertex_4: !vec3 [5.51366997, 1.15321004, -3.29562998]
+                      vertex_5: !vec3 [3.25832009, 1.24690998, -5.48746014]
+                      vertex_6: !vec3 [0.0465764999, 1.28511, -5.50208998]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_7: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [-4.45172977, 3.56234002, 0.0249774009]
+                      vertex_1: !vec3 [-2.94765997, 4.05837011, 2.62400007]
+                      vertex_2: !vec3 [-2.95588994, 4.06259012, 2.62192011]
+                      vertex_3: !vec3 [-2.94679999, 4.05764008, 0.0267798994]
+                      vertex_4: !vec3 [-4.33319998, 4.05302, 2.62207007]
+                      vertex_5: !vec3 [-4.44613981, 3.55754995, 2.6252501]
+                      vertex_6: !vec3 [-4.44006014, 4.0021801, 0.0271946993]
+                      vertex_7: !vec3 [-2.95588994, 4.06259012, 0.0287302006]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_8: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 31
+                      vertex_0: !vec3 [-3.98422003, 4.23917007, -2.82577991]
+                      vertex_1: !vec3 [4.4108901, 7.07391977, 2.71332002]
+                      vertex_2: !vec3 [4.14087009, 7.07195997, 2.97570992]
+                      vertex_3: !vec3 [-4.42315006, 7.07510996, -2.6763401]
+                      vertex_4: !vec3 [-2.73093009, 4.1986599, 4.29274988]
+                      vertex_5: !vec3 [4.29738998, 4.1989398, -2.73470998]
+                      vertex_6: !vec3 [2.71229005, 7.08073997, -4.42451]
+                      vertex_7: !vec3 [-4.42291021, 7.07589006, 2.71257997]
+                      vertex_8: !vec3 [2.71758008, 4.1986599, 4.29274988]
+                      vertex_9: !vec3 [-2.41396999, 7.09622002, 4.38855982]
+                      vertex_10: !vec3 [-2.73036003, 4.19824982, -4.31442022]
+                      vertex_11: !vec3 [-4.31072998, 4.1989398, 2.71377993]
+                      vertex_12: !vec3 [-2.41332006, 7.09632015, -4.41016006]
+                      vertex_13: !vec3 [4.4095602, 7.07589006, -2.73351002]
+                      vertex_14: !vec3 [4.29738998, 4.1989398, 2.71377993]
+                      vertex_15: !vec3 [2.71757007, 4.19866991, -4.31368017]
+                      vertex_16: !vec3 [2.40051007, 7.09616995, 4.38870001]
+                      vertex_17: !vec3 [-4.31041002, 4.19834995, -2.73418999]
+                      vertex_18: !vec3 [-2.72112012, 6.6240201, 4.3846302]
+                      vertex_19: !vec3 [3.96442008, 7.08801985, -2.41795993]
+                      vertex_20: !vec3 [-2.66318011, 6.62352991, -4.40545988]
+                      vertex_21: !vec3 [2.71231008, 7.08071995, 4.4035902]
+                      vertex_22: !vec3 [-3.97777009, 7.08801985, 2.39703012]
+                      vertex_23: !vec3 [4.38841009, 6.62401009, 2.70398998]
+                      vertex_24: !vec3 [-4.40174007, 6.62401009, 2.70402002]
+                      vertex_25: !vec3 [2.40061998, 7.09638023, -4.40996981]
+                      vertex_26: !vec3 [2.70777011, 6.6240201, -4.40556002]
+                      vertex_27: !vec3 [-2.72565007, 7.08071995, 4.4035902]
+                      vertex_28: !vec3 [-2.66687989, 7.08216, -4.42375994]
+                      vertex_29: !vec3 [2.70777988, 6.6240201, 4.3846302]
+                      vertex_30: !vec3 [4.38841009, 6.62401009, -2.72492003]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_9: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [-2.72972012, 3.55147004, -4.44814014]
+                      vertex_1: !vec3 [0.827030003, 4.00036001, -4.46149015]
+                      vertex_2: !vec3 [0.824391007, 4.08400011, -4.44705009]
+                      vertex_3: !vec3 [0.823177993, 4.04125977, -4.42436981]
+                      vertex_4: !vec3 [-2.67102003, 4.00124979, -4.40337992]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_10: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [-4.87855005, 3.15411997, 2.41138005]
+                      vertex_1: !vec3 [-2.96348, 3.20931005, -4.8934598]
+                      vertex_2: !vec3 [-2.96346998, 3.12331009, -4.89346981]
+                      vertex_3: !vec3 [2.99376011, 3.15883994, -4.66195011]
+                      vertex_4: !vec3 [3.01692009, 3.1824801, -4.78219986]
+                      vertex_5: !vec3 [-4.8945899, 3.1607101, 2.43505001]
+                      vertex_6: !vec3 [-4.89012003, 3.12313008, -2.96711993]
+                      vertex_7: !vec3 [-4.89012003, 3.20949006, -2.96711993]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_11: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 24
+                      vertex_0: !vec3 [-3.90683007, 16.8082008, -2.33720994]
+                      vertex_1: !vec3 [4.0384202, 18.4085999, 2.4175899]
+                      vertex_2: !vec3 [3.89058995, 20.7161999, 2.37143993]
+                      vertex_3: !vec3 [2.36527991, 20.7210007, -4.37249994]
+                      vertex_4: !vec3 [-3.90389991, 20.7161999, 2.37143993]
+                      vertex_5: !vec3 [-2.37873006, 16.7992001, 4.3513999]
+                      vertex_6: !vec3 [3.89331007, 16.8075008, -2.39407992]
+                      vertex_7: !vec3 [-2.37834001, 20.7210007, -4.37263012]
+                      vertex_8: !vec3 [-2.37905002, 16.7994003, -4.3723402]
+                      vertex_9: !vec3 [2.36492991, 20.7212009, 4.35161018]
+                      vertex_10: !vec3 [2.3654201, 16.7992001, 4.3513999]
+                      vertex_11: !vec3 [2.36589003, 16.7994003, -4.37225008]
+                      vertex_12: !vec3 [-2.37824011, 20.7212009, 4.35161018]
+                      vertex_13: !vec3 [3.89073992, 20.7157993, -2.39284992]
+                      vertex_14: !vec3 [-3.90633011, 16.8069992, 2.37226009]
+                      vertex_15: !vec3 [-3.90411997, 20.7154007, -2.33561993]
+                      vertex_16: !vec3 [3.89301991, 16.8069992, 2.37226009]
+                      vertex_17: !vec3 [-4.05208015, 18.4081001, -2.49503994]
+                      vertex_18: !vec3 [4.03885984, 18.0128002, -2.49619007]
+                      vertex_19: !vec3 [-4.05178022, 18.0121994, 2.41794991]
+                      vertex_20: !vec3 [-4.05226994, 18.0133991, -2.49517012]
+                      vertex_21: !vec3 [4.03875017, 18.4083996, -2.49594998]
+                      vertex_22: !vec3 [4.03845978, 18.0121994, 2.41794991]
+                      vertex_23: !vec3 [-4.05174017, 18.4085999, 2.4175899]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_12: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [-5.72037983, 1.02442002, 3.26501012]
+                      vertex_1: !vec3 [-5.71922016, -0.455476999, -3.34186006]
+                      vertex_2: !vec3 [-5.71917009, 0.980441988, -3.34159994]
+                      vertex_3: !vec3 [-5.68002987, 0.982704997, -3.34208989]
+                      vertex_4: !vec3 [-5.71922016, -0.455478013, 3.26285005]
+                      vertex_5: !vec3 [-5.7918601, -0.454346001, 3.26242995]
+                      vertex_6: !vec3 [-5.70779991, 0.998412013, 3.25958991]
+                      vertex_7: !vec3 [-5.79074001, -0.453316003, -3.34139991]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_13: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [-1.87131, 1.36029994, -5.42118979]
+                      vertex_1: !vec3 [5.4472599, 1.33240998, 2.77474999]
+                      vertex_2: !vec3 [5.4472599, 1.39937997, 2.77474999]
+                      vertex_3: !vec3 [5.39949989, 1.32272005, -3.25771999]
+                      vertex_4: !vec3 [-1.84772003, 1.35380995, -5.40512991]
+                      vertex_5: !vec3 [3.24060011, 1.40907001, -5.41662979]
+                      vertex_6: !vec3 [5.39949989, 1.40907001, -3.25771999]
+                      vertex_7: !vec3 [3.24060988, 1.32271004, -5.41661978]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_14: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [5.24891996, 2.93139005, 0.0634652004]
+                      vertex_1: !vec3 [5.36945009, 1.52252996, -2.9345901]
+                      vertex_2: !vec3 [5.2992301, 1.5194, -2.93552995]
+                      vertex_3: !vec3 [5.1956501, 2.94998002, -2.93684006]
+                      vertex_4: !vec3 [5.2926302, 2.90628004, -2.93347001]
+                      vertex_5: !vec3 [5.30447006, 1.54681003, 0.0687668994]
+                      vertex_6: !vec3 [5.28727007, 2.91599989, 0.0653131008]
+                      vertex_7: !vec3 [5.21402979, 2.91971993, 0.0657918006]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_15: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [2.59870005, 3.44121003, -4.49898005]
+                      vertex_1: !vec3 [-2.5278101, 3.33416009, -4.75086021]
+                      vertex_2: !vec3 [-2.52314997, 3.25833011, -4.72649002]
+                      vertex_3: !vec3 [-2.52470994, 3.39194012, -4.53972006]
+                      vertex_4: !vec3 [2.59770989, 3.29793, -4.64227009]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_16: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [3.01781011, 3.0438199, 5.11620998]
+                      vertex_1: !vec3 [-3.04766011, 3.08728004, 5.13749981]
+                      vertex_2: !vec3 [-3.05045009, 3.05802989, 5.04136992]
+                      vertex_3: !vec3 [3.05307007, 3.04124999, 5.11123991]
+                      vertex_4: !vec3 [-3.05047011, 2.99113011, 5.10826015]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_17: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 7
+                      vertex_0: !vec3 [2.89555001, 3.24985003, 4.78639984]
+                      vertex_1: !vec3 [-3.91882992, 3.26149988, 3.85979009]
+                      vertex_2: !vec3 [-3.8970499, 3.24585009, 3.79848003]
+                      vertex_3: !vec3 [3.88398004, 3.25897002, 3.83092999]
+                      vertex_4: !vec3 [-3.91272998, 3.18007994, 3.84391999]
+                      vertex_5: !vec3 [-2.90938997, 3.19892001, 4.78626013]
+                      vertex_6: !vec3 [3.88358998, 3.19068003, 3.83150005]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_18: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 6
+                      vertex_0: !vec3 [3.23575997, 1.32372999, 5.39670992]
+                      vertex_1: !vec3 [5.28647995, 1.39898002, 2.91972995]
+                      vertex_2: !vec3 [5.28648996, 1.33280003, 2.91973996]
+                      vertex_3: !vec3 [-1.85105002, 1.36773002, 5.4052]
+                      vertex_4: !vec3 [3.23575997, 1.40805995, 5.39670992]
+                      vertex_5: !vec3 [-1.86114001, 1.36952996, 5.41298008]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_19: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [-5.26902008, 2.88689995, 0.229089007]
+                      vertex_1: !vec3 [-5.15462017, 2.95494008, 2.97246003]
+                      vertex_2: !vec3 [-5.14460993, 3.03760004, 2.97217989]
+                      vertex_3: !vec3 [-5.13908005, 2.98430991, 0.231006995]
+                      vertex_4: !vec3 [-5.17208004, 3.00422001, 2.97056007]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_20: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 10
+                      vertex_0: !vec3 [3.10835004, 2.94010997, -5.21864986]
+                      vertex_1: !vec3 [5.29367018, 2.89736009, -3.06241989]
+                      vertex_2: !vec3 [5.32607985, 1.52119005, -3.08491993]
+                      vertex_3: !vec3 [3.19613004, 1.52257001, -5.29392004]
+                      vertex_4: !vec3 [3.13386989, 2.91134, -5.08023024]
+                      vertex_5: !vec3 [5.27494001, 2.84877992, -3.19134998]
+                      vertex_6: !vec3 [5.10400009, 2.94164991, -3.0787499]
+                      vertex_7: !vec3 [3.19870996, 2.85807991, -5.2796402]
+                      vertex_8: !vec3 [3.13139009, 1.52110004, -5.2990799]
+                      vertex_9: !vec3 [5.28312016, 1.52538002, -3.20005012]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_21: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 43
+                      vertex_0: !vec3 [2.36118007, 32.171299, 5.55573988]
+                      vertex_1: !vec3 [-2.00023007, 32.6016006, -5.67802]
+                      vertex_2: !vec3 [-3.12110996, 31.0858002, -5.17679977]
+                      vertex_3: !vec3 [-5.7790699, 32.6492004, 3.45201993]
+                      vertex_4: !vec3 [5.76584005, 32.6492004, -3.47229004]
+                      vertex_5: !vec3 [2.80217004, 30.7773991, 4.70284986]
+                      vertex_6: !vec3 [3.1124301, 30.8458996, -5.0967598]
+                      vertex_7: !vec3 [-5.09514999, 30.8463001, 3.10552001]
+                      vertex_8: !vec3 [-5.77907991, 32.6492004, -3.41482997]
+                      vertex_9: !vec3 [5.13504982, 30.9006996, 3.10715008]
+                      vertex_10: !vec3 [5.75705004, 32.6488991, 2.20795989]
+                      vertex_11: !vec3 [-3.4614799, 32.6665001, 5.75191021]
+                      vertex_12: !vec3 [-4.67586994, 30.7642994, -2.74283004]
+                      vertex_13: !vec3 [4.70489979, 30.7772007, -2.81935]
+                      vertex_14: !vec3 [-3.11784005, 30.8477993, 5.08220005]
+                      vertex_15: !vec3 [3.50216007, 32.6589012, -5.72208977]
+                      vertex_16: !vec3 [3.14603996, 31.4946003, 5.38074017]
+                      vertex_17: !vec3 [5.10344982, 30.8668003, -3.08747005]
+                      vertex_18: !vec3 [-3.73939991, 30.7490997, -4.38732004]
+                      vertex_19: !vec3 [0.421938986, 32.6525993, 5.74955988]
+                      vertex_20: !vec3 [-5.2484498, 30.9503994, -1.36655998]
+                      vertex_21: !vec3 [5.56818008, 32.1533012, 3.36279011]
+                      vertex_22: !vec3 [-2.81528997, 30.7773991, 4.70252991]
+                      vertex_23: !vec3 [-4.30206013, 32.6517982, -4.87356997]
+                      vertex_24: !vec3 [3.05496001, 30.8476009, 5.13455009]
+                      vertex_25: !vec3 [-5.29933977, 31.3939991, -2.89250994]
+                      vertex_26: !vec3 [4.69835997, 30.7761993, 2.79678011]
+                      vertex_27: !vec3 [-3.45070004, 32.280899, -5.51586008]
+                      vertex_28: !vec3 [2.86074996, 30.7775002, -4.6660099]
+                      vertex_29: !vec3 [-3.18054008, 30.7984009, -4.99525023]
+                      vertex_30: !vec3 [3.16430998, 32.3823013, 4.75990009]
+                      vertex_31: !vec3 [-4.7188201, 30.7772999, 2.79854989]
+                      vertex_32: !vec3 [-2.75810003, 30.8504009, 5.12882996]
+                      vertex_33: !vec3 [-1.88627005, 32.637001, -5.72607994]
+                      vertex_34: !vec3 [3.44847012, 32.6212997, -5.69153976]
+                      vertex_35: !vec3 [-3.40112996, 32.5183983, 5.67394018]
+                      vertex_36: !vec3 [5.60376978, 32.232399, 3.23929]
+                      vertex_37: !vec3 [-5.20571995, 30.8512001, 0.422531009]
+                      vertex_38: !vec3 [5.0942502, 30.8530006, -3.11756992]
+                      vertex_39: !vec3 [-5.74671984, 32.7282982, 3.43720007]
+                      vertex_40: !vec3 [-5.74714994, 32.7298012, -3.39972997]
+                      vertex_41: !vec3 [5.59174013, 32.1613998, 3.34984994]
+                      vertex_42: !vec3 [5.73337984, 32.7282982, -3.4577601]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_22: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [3.45742989, 1.03595996, 5.67662001]
+                      vertex_1: !vec3 [3.41417003, -0.447730988, 5.80042982]
+                      vertex_2: !vec3 [3.39886999, -0.456779987, 5.75882006]
+                      vertex_3: !vec3 [4.66868019, -0.437034011, 4.54192019]
+                      vertex_4: !vec3 [4.45838022, 1.02815998, 4.57314014]
+                      vertex_5: !vec3 [4.63068008, 0.988860011, 4.57421017]
+                      vertex_6: !vec3 [3.42459989, 1.03732002, 5.60751009]
+                      vertex_7: !vec3 [3.41511989, -0.450601012, 5.74314022]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_23: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [4.61290979, 3.27550006, -2.81962991]
+                      vertex_1: !vec3 [4.70402002, 3.24179006, 2.88025999]
+                      vertex_2: !vec3 [4.71757984, 3.33558989, 2.87892008]
+                      vertex_3: !vec3 [4.67691994, 3.30062008, 2.9458499]
+                      vertex_4: !vec3 [4.6117301, 3.28393006, -2.89103007]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_24: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [-4.83216, 3.2676301, -2.90842009]
+                      vertex_1: !vec3 [-0.580300987, 3.18887997, -4.69174004]
+                      vertex_2: !vec3 [-0.580030978, 3.2601099, -4.69159985]
+                      vertex_3: !vec3 [-3.83523989, 3.18887997, 3.7014401]
+                      vertex_4: !vec3 [-3.83453012, 3.26056004, 3.70173001]
+                      vertex_5: !vec3 [-4.83203983, 3.18121004, -2.90856004]
+                      vertex_6: !vec3 [-4.80514002, 3.24995995, 2.88654995]
+                      vertex_7: !vec3 [-2.89765, 3.25035, -4.81048012]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_25: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [4.30080986, 4.04114008, -2.40521002]
+                      vertex_1: !vec3 [0.960385025, 4.07459021, -2.64492989]
+                      vertex_2: !vec3 [0.960385025, 4.07459021, -0.105920002]
+                      vertex_3: !vec3 [0.960309029, 4.05840015, -2.64489007]
+                      vertex_4: !vec3 [4.31301022, 4.02724981, -2.61852002]
+                      vertex_5: !vec3 [4.17959023, 4.04138994, -0.114803001]
+                      vertex_6: !vec3 [4.28780985, 4.03704977, -0.104561001]
+                      vertex_7: !vec3 [0.960385025, 4.05843019, -0.105920002]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_26: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 7
+                      vertex_0: !vec3 [-2.9112699, 3.54905009, 4.24100018]
+                      vertex_1: !vec3 [-2.40586996, 4.02440977, 4.31976986]
+                      vertex_2: !vec3 [0.826622009, 4.00071001, 4.42471981]
+                      vertex_3: !vec3 [-2.67095995, 3.54647994, 4.45839024]
+                      vertex_4: !vec3 [0.825524986, 3.57512999, 4.4677]
+                      vertex_5: !vec3 [0.826946974, 4.01613998, 4.2787199]
+                      vertex_6: !vec3 [-2.91230989, 3.99468994, 4.22658014]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_27: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 9
+                      vertex_0: !vec3 [4.12495995, 4.0136199, -2.99536991]
+                      vertex_1: !vec3 [0.961607993, 3.55745006, -4.45252991]
+                      vertex_2: !vec3 [0.960906029, 4.00228024, -4.44372988]
+                      vertex_3: !vec3 [0.965653002, 4.05881023, -2.78513002]
+                      vertex_4: !vec3 [4.29560995, 3.55628991, -2.80673003]
+                      vertex_5: !vec3 [2.71633005, 3.55176997, -4.42462015]
+                      vertex_6: !vec3 [2.71911001, 4.04425001, -4.3200798]
+                      vertex_7: !vec3 [4.2975502, 4.06185007, -2.76349998]
+                      vertex_8: !vec3 [0.960546017, 4.05788994, -2.77659011]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_28: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [3.51343012, 3.10998011, -4.49328995]
+                      vertex_1: !vec3 [-2.84331989, 3.08295012, -5.08578014]
+                      vertex_2: !vec3 [-2.84344006, 3.07525992, -5.08576012]
+                      vertex_3: !vec3 [3.12027001, 3.03663993, -4.98513985]
+                      vertex_4: !vec3 [3.50032997, 3.08666992, -4.31564999]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_29: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [3.00409007, 3.03540993, -5.13606024]
+                      vertex_1: !vec3 [-3.04766011, 3.08728004, -5.08418989]
+                      vertex_2: !vec3 [-3.05080009, 2.99084997, -5.11353016]
+                      vertex_3: !vec3 [3.00396991, 3.06475997, -5.10667992]
+                      vertex_4: !vec3 [-3.05080009, 3.05792999, -5.18061018]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_30: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 27
+                      vertex_0: !vec3 [-5.27623987, 32.8153992, -4.54039001]
+                      vertex_1: !vec3 [5.96555996, 33.0616989, 2.26485991]
+                      vertex_2: !vec3 [-0.105995998, 33.0542984, 5.97957993]
+                      vertex_3: !vec3 [0.0897103027, 32.8119011, 5.78808022]
+                      vertex_4: !vec3 [5.77565002, 32.8132019, -3.58655]
+                      vertex_5: !vec3 [-1.73408997, 33.0509987, -6.13993979]
+                      vertex_6: !vec3 [-6.16450024, 33.0587006, 3.55666995]
+                      vertex_7: !vec3 [-5.97887993, 32.8132019, 3.42689991]
+                      vertex_8: !vec3 [3.5348599, 33.0588989, -6.14259005]
+                      vertex_9: !vec3 [-1.80891001, 32.8130989, -5.95421982]
+                      vertex_10: !vec3 [-6.16450024, 33.0587006, -3.65819001]
+                      vertex_11: !vec3 [5.96103001, 32.7988014, 2.26160002]
+                      vertex_12: !vec3 [-3.73503995, 32.7999992, 5.97675991]
+                      vertex_13: !vec3 [5.96124983, 33.0587006, -3.71632004]
+                      vertex_14: !vec3 [3.53178, 32.8002014, -6.13528013]
+                      vertex_15: !vec3 [-6.15753984, 32.7993011, -3.65535998]
+                      vertex_16: !vec3 [-3.73813009, 33.0587006, 5.98305988]
+                      vertex_17: !vec3 [5.77662992, 32.8133011, 2.03349996]
+                      vertex_18: !vec3 [-5.97852993, 32.8130989, -3.58484006]
+                      vertex_19: !vec3 [-6.15818024, 32.7999992, 3.55357003]
+                      vertex_20: !vec3 [5.95493984, 32.7999992, -3.71321988]
+                      vertex_21: !vec3 [-1.78617001, 32.8023987, -6.12889004]
+                      vertex_22: !vec3 [-4.93846989, 33.0698013, -4.86413002]
+                      vertex_23: !vec3 [-0.105692998, 32.8011017, 5.96923018]
+                      vertex_24: !vec3 [3.40508008, 32.8132019, -5.95702982]
+                      vertex_25: !vec3 [1.24704003, 32.7958984, 5.22840023]
+                      vertex_26: !vec3 [-3.60835004, 32.8132019, 5.79629993]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_31: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 9
+                      vertex_0: !vec3 [-5.41252995, 1.40910995, 3.23573995]
+                      vertex_1: !vec3 [-2.01876998, 1.32878006, 5.41172981]
+                      vertex_2: !vec3 [-3.23511004, 1.39024997, 5.37643003]
+                      vertex_3: !vec3 [-1.99891996, 1.33150005, -5.41538]
+                      vertex_4: !vec3 [-2.01815009, 1.40340996, 5.41150999]
+                      vertex_5: !vec3 [-1.99891996, 1.40029001, -5.41538]
+                      vertex_6: !vec3 [-5.41546011, 1.32475996, -3.24684]
+                      vertex_7: !vec3 [-5.41546011, 1.40702999, -3.24684]
+                      vertex_8: !vec3 [-5.41246986, 1.32271004, 3.23584008]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_32: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 7
+                      vertex_0: !vec3 [2.74601007, 3.28504992, 4.68335009]
+                      vertex_1: !vec3 [4.51497984, 3.33962989, 3.03934002]
+                      vertex_2: !vec3 [4.47197008, 3.32372999, 3.07364011]
+                      vertex_3: !vec3 [4.49881983, 3.42512012, -0.696300983]
+                      vertex_4: !vec3 [2.81217003, 3.39713001, 4.50706005]
+                      vertex_5: !vec3 [4.51914978, 3.36799002, -0.699428022]
+                      vertex_6: !vec3 [4.48483992, 3.39349008, 2.7400701]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_33: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 9
+                      vertex_0: !vec3 [2.8238399, 3.99211001, 4.29925013]
+                      vertex_1: !vec3 [0.965653002, 4.05881023, 2.76419997]
+                      vertex_2: !vec3 [0.962966025, 3.56035995, 4.43708992]
+                      vertex_3: !vec3 [4.29117012, 3.55229998, 2.78285003]
+                      vertex_4: !vec3 [4.29133987, 4.06302977, 2.73327994]
+                      vertex_5: !vec3 [0.971141994, 4.04067993, 4.1865201]
+                      vertex_6: !vec3 [2.66102004, 3.55100989, 4.46033001]
+                      vertex_7: !vec3 [0.960385025, 4.05837011, 2.75630999]
+                      vertex_8: !vec3 [0.961839974, 3.95777011, 4.47118998]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_34: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 7
+                      vertex_0: !vec3 [-0.840905011, -0.428104013, -5.7835598]
+                      vertex_1: !vec3 [3.32555008, 1.04008996, -5.68357992]
+                      vertex_2: !vec3 [3.3245399, 1.03676999, -5.66680002]
+                      vertex_3: !vec3 [3.32468009, -0.456431001, -5.72214985]
+                      vertex_4: !vec3 [-0.840430975, 0.980567992, -5.72286987]
+                      vertex_5: !vec3 [-0.840644002, 0.983937025, -5.68467999]
+                      vertex_6: !vec3 [3.32439995, -0.45333001, -5.79469013]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_35: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [-4.65292978, 3.33606005, -0.726583004]
+                      vertex_1: !vec3 [-2.63258004, 3.26971006, 4.68201017]
+                      vertex_2: !vec3 [-2.63635993, 3.32168007, 4.70012999]
+                      vertex_3: !vec3 [-4.69967985, 3.28326011, 2.87135005]
+                      vertex_4: !vec3 [-4.52186012, 3.3806901, 2.67545009]
+                      vertex_5: !vec3 [-2.66751003, 3.40405989, 4.52235985]
+                      vertex_6: !vec3 [-4.51067019, 3.43316007, -0.712247014]
+                      vertex_7: !vec3 [-4.66021013, 3.34045005, -0.722033024]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_36: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [5.48257017, 1.25555003, -3.13830996]
+                      vertex_1: !vec3 [5.6318202, 1.1286, 3.08256006]
+                      vertex_2: !vec3 [5.68324995, 1.19487, 3.09130001]
+                      vertex_3: !vec3 [5.65642977, 1.18599999, -3.13750005]
+                      vertex_4: !vec3 [5.60048008, 1.26586998, 3.08834004]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_37: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [-4.35808992, 4.00956011, -2.73288012]
+                      vertex_1: !vec3 [-2.71602011, 4.05850983, -0.105665997]
+                      vertex_2: !vec3 [-4.19484997, 4.04117012, -0.1153]
+                      vertex_3: !vec3 [-2.78505993, 4.05919981, -4.30284977]
+                      vertex_4: !vec3 [-2.71701002, 4.07291985, -0.106253996]
+                      vertex_5: !vec3 [-2.76004004, 4.00602007, -4.30957985]
+                      vertex_6: !vec3 [-4.41702986, 3.97763991, -0.104736999]
+                      vertex_7: !vec3 [-4.32117987, 4.03997993, -2.73651004]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_38: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 7
+                      vertex_0: !vec3 [-3.28112006, -0.427278012, 5.76744986]
+                      vertex_1: !vec3 [-0.799872994, 1.03719997, 5.70417023]
+                      vertex_2: !vec3 [-0.798784971, 1.04145002, 5.72145987]
+                      vertex_3: !vec3 [-3.27393007, 1.02236998, 5.73413992]
+                      vertex_4: !vec3 [-0.802686989, -0.431008995, 5.81966019]
+                      vertex_5: !vec3 [-3.28039002, 1.04059005, 5.72081995]
+                      vertex_6: !vec3 [-3.27414989, 1.01329005, 5.74350977]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_39: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [4.51087999, 3.82314992, -0.135646999]
+                      vertex_1: !vec3 [4.44386005, 3.55559993, -2.7644701]
+                      vertex_2: !vec3 [4.3688302, 3.55296993, -2.76355004]
+                      vertex_3: !vec3 [4.38449001, 3.97886992, -2.75369]
+                      vertex_4: !vec3 [4.41373014, 3.9535799, -0.133952007]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_40: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 6
+                      vertex_0: !vec3 [3.23739004, 1.38145006, 5.3380599]
+                      vertex_1: !vec3 [4.7009902, 1.45726001, 3.72618008]
+                      vertex_2: !vec3 [4.70100021, 1.39066994, 3.72619009]
+                      vertex_3: !vec3 [-3.07229996, 1.42437005, 5.35175991]
+                      vertex_4: !vec3 [3.23740005, 1.46650004, 5.3380599]
+                      vertex_5: !vec3 [-3.07856011, 1.42684996, 5.35835981]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_41: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 6
+                      vertex_0: !vec3 [2.90061998, 3.18577003, 4.93561983]
+                      vertex_1: !vec3 [-4.89134979, 3.1995399, 2.56785989]
+                      vertex_2: !vec3 [-4.89136982, 3.13305998, 2.56785989]
+                      vertex_3: !vec3 [-2.90056992, 3.12406993, 4.93224001]
+                      vertex_4: !vec3 [2.99421, 3.14496994, 4.64833021]
+                      vertex_5: !vec3 [-2.90058994, 3.20854998, 4.93223]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_42: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 9
+                      vertex_0: !vec3 [5.7572298, 1.01381004, 3.26062012]
+                      vertex_1: !vec3 [5.83414984, -0.452288002, -3.34117007]
+                      vertex_2: !vec3 [5.66796017, 0.98388499, -3.34228992]
+                      vertex_3: !vec3 [5.76394987, 0.980443001, -3.34159994]
+                      vertex_4: !vec3 [5.83523989, -0.453249991, 3.26220012]
+                      vertex_5: !vec3 [5.7353301, 1.00109005, 3.25985003]
+                      vertex_6: !vec3 [5.76399994, -0.455478013, 3.26285005]
+                      vertex_7: !vec3 [5.76399994, -0.455476999, -3.34186006]
+                      vertex_8: !vec3 [5.74796009, 1.01231003, 3.25677991]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_43: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 9
+                      vertex_0: !vec3 [4.75035, 1.38951004, -3.66988993]
+                      vertex_1: !vec3 [-3.19466996, 1.46717, -5.35854006]
+                      vertex_2: !vec3 [-3.25901008, 1.44694996, -5.26985979]
+                      vertex_3: !vec3 [4.75035, 1.45843005, -3.66988993]
+                      vertex_4: !vec3 [-5.33296013, 1.43331003, -1.71413004]
+                      vertex_5: !vec3 [-3.19259, 1.38036001, -5.35978985]
+                      vertex_6: !vec3 [-5.30135012, 1.46923006, -1.75107002]
+                      vertex_7: !vec3 [3.17877007, 1.38126004, -5.35908985]
+                      vertex_8: !vec3 [3.17877007, 1.46668005, -5.35908985]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_44: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [-5.62481022, 1.14943004, -3.13815999]
+                      vertex_1: !vec3 [-5.48696995, 1.25586998, 3.09097004]
+                      vertex_2: !vec3 [-5.50981998, 1.33501995, 3.08657002]
+                      vertex_3: !vec3 [-5.48121023, 1.29299998, -3.13761997]
+                      vertex_4: !vec3 [-5.5802598, 1.25301003, 3.09019995]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_45: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 6
+                      vertex_0: !vec3 [-2.92489004, 4.0049901, 4.11373997]
+                      vertex_1: !vec3 [-4.4409399, 3.55009007, 2.75769997]
+                      vertex_2: !vec3 [-4.41969013, 3.54924011, 2.71111012]
+                      vertex_3: !vec3 [-4.31411982, 4.04966021, 2.72969007]
+                      vertex_4: !vec3 [-2.96261001, 3.98856997, 2.76865005]
+                      vertex_5: !vec3 [-2.97245002, 3.55900002, 4.11830997]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_46: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 7
+                      vertex_0: !vec3 [-3.42812991, 1.02769995, 5.74567986]
+                      vertex_1: !vec3 [-4.69992018, -0.454070985, 4.57412004]
+                      vertex_2: !vec3 [-4.65818024, -0.44937399, 4.51402998]
+                      vertex_3: !vec3 [-3.40089011, -0.436342001, 5.77291012]
+                      vertex_4: !vec3 [-4.48125982, 0.979835987, 4.57847977]
+                      vertex_5: !vec3 [-4.64873981, 0.982358992, 4.57560015]
+                      vertex_6: !vec3 [-3.4379499, 0.997009993, 5.72583008]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_47: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 9
+                      vertex_0: !vec3 [4.75703001, 1.19940996, 4.12707996]
+                      vertex_1: !vec3 [5.45016003, 1.29431999, 3.2655201]
+                      vertex_2: !vec3 [5.38364983, 1.25076997, 3.21982002]
+                      vertex_3: !vec3 [0.0456981994, 1.27432001, 5.50065994]
+                      vertex_4: !vec3 [3.3099401, 1.23851001, 5.48132992]
+                      vertex_5: !vec3 [0.0370077007, 1.15823996, 5.63917017]
+                      vertex_6: !vec3 [3.35136008, 1.14690006, 5.61120987]
+                      vertex_7: !vec3 [5.50305986, 1.14630997, 3.20597005]
+                      vertex_8: !vec3 [0.0357118994, 1.25059998, 5.50965977]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_48: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [3.13807988, 3.19998002, -4.71357012]
+                      vertex_1: !vec3 [4.87661982, 3.12312007, 3.00440001]
+                      vertex_2: !vec3 [3.15134001, 3.1385901, 4.73977995]
+                      vertex_3: !vec3 [4.87662983, 3.20949006, 3.00439]
+                      vertex_4: !vec3 [4.87678003, 3.12327003, -2.96655011]
+                      vertex_5: !vec3 [3.17026997, 3.17547989, 4.75640011]
+                      vertex_6: !vec3 [3.13807988, 3.13263011, -4.71357012]
+                      vertex_7: !vec3 [4.87678003, 3.2093401, -2.96655011]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_49: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [-2.58304, 4.07459021, -4.32875013]
+                      vertex_1: !vec3 [0.827392995, 4.05843019, -0.106085002]
+                      vertex_2: !vec3 [-2.58304, 4.05843019, -0.106085002]
+                      vertex_3: !vec3 [0.827392995, 4.07459021, -0.106085002]
+                      vertex_4: !vec3 [0.818781018, 4.04126978, -4.1961298]
+                      vertex_5: !vec3 [-2.58304, 4.07459021, -0.106085002]
+                      vertex_6: !vec3 [-2.58309007, 4.05841017, -4.32873011]
+                      vertex_7: !vec3 [0.829559028, 4.03677988, -4.30418015]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_50: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 7
+                      vertex_0: !vec3 [-4.77156019, 0.97805202, 4.40232992]
+                      vertex_1: !vec3 [-5.74764013, -0.455646008, 3.41479993]
+                      vertex_2: !vec3 [-5.70360994, -0.449393988, 3.4681499]
+                      vertex_3: !vec3 [-4.73429012, -0.435187012, 4.43627024]
+                      vertex_4: !vec3 [-5.61091995, 1.03053999, 3.41649008]
+                      vertex_5: !vec3 [-4.60280991, 0.987807989, 4.40615988]
+                      vertex_6: !vec3 [-5.68768978, 0.986553013, 3.49716997]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_51: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 11
+                      vertex_0: !vec3 [-3.06494999, 2.9412601, 5.19813013]
+                      vertex_1: !vec3 [-5.24163008, 2.85089993, 3.1215899]
+                      vertex_2: !vec3 [-5.25289011, 2.89404011, 3.10045004]
+                      vertex_3: !vec3 [-3.20598006, 2.85454011, 5.26160002]
+                      vertex_4: !vec3 [-3.08618999, 1.52045, 5.27561998]
+                      vertex_5: !vec3 [-5.23159981, 1.52316999, 3.25458002]
+                      vertex_6: !vec3 [-5.06760979, 2.8968699, 3.12466002]
+                      vertex_7: !vec3 [-3.20591998, 1.52319002, 5.27431011]
+                      vertex_8: !vec3 [-5.23057985, 2.84854007, 3.22843003]
+                      vertex_9: !vec3 [-5.24445009, 1.52523005, 3.24225998]
+                      vertex_10: !vec3 [-3.08982992, 2.91434002, 5.1189599]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_52: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [-5.10274982, 3.06489992, -3.02120996]
+                      vertex_1: !vec3 [-5.15462017, 3.01303005, 3.03053999]
+                      vertex_2: !vec3 [-5.1252799, 3.10946012, 3.03367996]
+                      vertex_3: !vec3 [-5.13213015, 3.0355401, -3.02109003]
+                      vertex_4: !vec3 [-5.05819988, 3.04238009, 3.03367996]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_53: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [-5.26924992, 2.88663006, -2.96522999]
+                      vertex_1: !vec3 [-5.15462017, 2.95494008, 0.0685750023]
+                      vertex_2: !vec3 [-5.14453983, 3.03780007, 0.0684567988]
+                      vertex_3: !vec3 [-5.13894987, 2.9842999, -2.96349001]
+                      vertex_4: !vec3 [-5.17171001, 3.00436997, 0.0671223029]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_54: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [2.59431005, 3.32967997, 4.72735977]
+                      vertex_1: !vec3 [2.54401994, 3.4061799, 4.49808979]
+                      vertex_2: !vec3 [-2.5251801, 3.40347004, 4.57797003]
+                      vertex_3: !vec3 [-2.52594995, 3.39266992, 4.56355]
+                      vertex_4: !vec3 [-2.52916002, 3.30684996, 4.70068979]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_55: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [-2.81535006, 4.07459021, 0.0266519003]
+                      vertex_1: !vec3 [0.827392995, 4.05843019, 4.13401985]
+                      vertex_2: !vec3 [-2.73176003, 4.04252005, 4.12750006]
+                      vertex_3: !vec3 [0.827392995, 4.07459021, 4.13401985]
+                      vertex_4: !vec3 [0.827392995, 4.05843019, 0.0266519003]
+                      vertex_5: !vec3 [-2.79370999, 4.04540014, 4.13649988]
+                      vertex_6: !vec3 [-2.81534004, 4.05842018, 0.0266309995]
+                      vertex_7: !vec3 [0.827392995, 4.07459021, 0.0266517997]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_56: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 9
+                      vertex_0: !vec3 [5.58112001, 0.991223991, -3.57862997]
+                      vertex_1: !vec3 [3.44054008, -0.432116985, -5.73702002]
+                      vertex_2: !vec3 [3.45889997, 0.989457011, -5.71587992]
+                      vertex_3: !vec3 [5.57019997, 0.988866985, -3.50225997]
+                      vertex_4: !vec3 [5.73643017, -0.457035989, -3.48123002]
+                      vertex_5: !vec3 [3.47031999, 0.983416975, -5.70040989]
+                      vertex_6: !vec3 [3.46918988, 1.02541995, -5.5844698]
+                      vertex_7: !vec3 [5.7259798, -0.451498985, -3.4977901]
+                      vertex_8: !vec3 [5.73508978, 0.988731027, -3.49519992]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_57: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [-5.38692999, 2.83879995, 3.14669991]
+                      vertex_1: !vec3 [-5.31269979, 1.51931, -3.16762996]
+                      vertex_2: !vec3 [-5.38692999, 1.51931, -3.16762996]
+                      vertex_3: !vec3 [-5.31269979, 1.51931, 3.14669991]
+                      vertex_4: !vec3 [-5.31269979, 2.83879995, -3.16762996]
+                      vertex_5: !vec3 [-5.38692999, 2.83879995, -3.16762996]
+                      vertex_6: !vec3 [-5.38692999, 1.51931, 3.14669991]
+                      vertex_7: !vec3 [-5.31269979, 2.83879995, 3.14669991]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_58: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [3.16722012, 3.08281994, 4.96780014]
+                      vertex_1: !vec3 [3.48779011, 3.14251995, 4.31504011]
+                      vertex_2: !vec3 [3.4886601, 3.07164001, 4.31359005]
+                      vertex_3: !vec3 [-2.78436995, 3.08109999, 4.97832012]
+                      vertex_4: !vec3 [-2.78610992, 3.07593989, 4.98115015]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_59: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [-5.3419199, 1.26042998, -3.31114006]
+                      vertex_1: !vec3 [-3.48354006, 1.17711997, -5.53398991]
+                      vertex_2: !vec3 [-3.47040009, 1.12256002, -5.51961994]
+                      vertex_3: !vec3 [-0.116475001, 1.27195001, -5.52160978]
+                      vertex_4: !vec3 [-5.51219988, 1.13716996, -3.28221989]
+                      vertex_5: !vec3 [-3.27460003, 1.24407995, -5.49068022]
+                      vertex_6: !vec3 [-0.106265001, 1.22931004, -5.55411005]
+                      vertex_7: !vec3 [-0.104933999, 1.25478005, -5.51666021]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_60: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 6
+                      vertex_0: !vec3 [-5.02686977, 3.05295992, -0.470420003]
+                      vertex_1: !vec3 [-2.93615007, 3.07518005, 4.99187994]
+                      vertex_2: !vec3 [-2.9361999, 3.08316994, 4.99188995]
+                      vertex_3: !vec3 [-5.00144005, 3.07055998, 3.09836006]
+                      vertex_4: !vec3 [-4.95293999, 3.09907007, -0.460909992]
+                      vertex_5: !vec3 [-5.00848007, 3.05701995, 3.02062011]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_61: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [4.85003996, 1.39599001, -3.64211988]
+                      vertex_1: !vec3 [5.33976984, 1.38107002, 3.23995996]
+                      vertex_2: !vec3 [5.31441021, 1.37199998, 3.26582003]
+                      vertex_3: !vec3 [5.33989, 1.46650004, 3.23878002]
+                      vertex_4: !vec3 [4.9031601, 1.39829004, 3.69622993]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_62: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 7
+                      vertex_0: !vec3 [2.72996998, 3.33628011, -4.63949013]
+                      vertex_1: !vec3 [4.58701992, 3.36683989, -0.889524996]
+                      vertex_2: !vec3 [4.58712006, 3.3731699, -0.888994992]
+                      vertex_3: !vec3 [4.5163002, 3.33909011, -3.00013995]
+                      vertex_4: !vec3 [4.48935986, 3.39038992, -2.7030201]
+                      vertex_5: !vec3 [2.78164005, 3.41316009, -4.40797997]
+                      vertex_6: !vec3 [2.74299002, 3.33862996, -4.6261301]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_63: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 6
+                      vertex_0: !vec3 [-5.35444021, 1.46668994, 3.23546004]
+                      vertex_1: !vec3 [-3.22250009, 1.39098001, 5.33782005]
+                      vertex_2: !vec3 [-3.22250009, 1.45695996, 5.33782005]
+                      vertex_3: !vec3 [-5.30771017, 1.39128006, -1.57001996]
+                      vertex_4: !vec3 [-5.30771017, 1.45666003, -1.57001996]
+                      vertex_5: !vec3 [-5.35444021, 1.38125002, 3.23546004]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_64: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 7
+                      vertex_0: !vec3 [-3.33544993, -0.430141985, -5.78350019]
+                      vertex_1: !vec3 [-0.97259903, 1.04059005, -5.68367004]
+                      vertex_2: !vec3 [-0.973850012, 1.03717995, -5.66702986]
+                      vertex_3: !vec3 [-3.33929992, 1.03085995, -5.67403984]
+                      vertex_4: !vec3 [-0.973133028, -0.453272015, -5.79485989]
+                      vertex_5: !vec3 [-3.33577991, 0.992989004, -5.71430016]
+                      vertex_6: !vec3 [-0.973163009, -0.456310987, -5.72235012]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_65: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [-3.3206501, 1.23892999, 5.48150015]
+                      vertex_1: !vec3 [-5.58974981, 1.17418003, 3.19959998]
+                      vertex_2: !vec3 [-5.57304001, 1.17286003, 3.19508004]
+                      vertex_3: !vec3 [-0.116599999, 1.2744, 5.50058985]
+                      vertex_4: !vec3 [-3.36188006, 1.14648998, 5.61195993]
+                      vertex_5: !vec3 [-0.107836001, 1.15823996, 5.63917017]
+                      vertex_6: !vec3 [-5.43066978, 1.25629997, 3.23661995]
+                      vertex_7: !vec3 [-0.106562003, 1.25063002, 5.50961018]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_66: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 10
+                      vertex_0: !vec3 [-2.93078995, 1.52262998, 5.36554003]
+                      vertex_1: !vec3 [2.90886998, 2.9372201, 5.22567987]
+                      vertex_2: !vec3 [2.91880989, 2.95840001, 5.19945002]
+                      vertex_3: !vec3 [-2.92656994, 2.9312501, 5.24530983]
+                      vertex_4: !vec3 [2.91819, 1.51932001, 5.29552984]
+                      vertex_5: !vec3 [-2.92824006, 2.91493011, 5.28410006]
+                      vertex_6: !vec3 [-2.92891002, 2.91945004, 5.21021986]
+                      vertex_7: !vec3 [2.91493011, 2.91493011, 5.28410006]
+                      vertex_8: !vec3 [2.91747999, 1.52251995, 5.3656702]
+                      vertex_9: !vec3 [-2.93150997, 1.51932001, 5.29552984]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_67: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 9
+                      vertex_0: !vec3 [-2.98958993, 1.51932001, -5.31650019]
+                      vertex_1: !vec3 [2.97738004, 2.95923996, -5.1634798]
+                      vertex_2: !vec3 [2.97044992, 2.93864989, -5.23257017]
+                      vertex_3: !vec3 [2.97531009, 1.52350998, -5.38516998]
+                      vertex_4: !vec3 [-2.99091005, 2.89482999, -5.15789986]
+                      vertex_5: !vec3 [-2.98791003, 2.84656, -5.31096983]
+                      vertex_6: !vec3 [2.97020006, 2.87075996, -5.30045986]
+                      vertex_7: !vec3 [-2.98862004, 1.52365005, -5.38500023]
+                      vertex_8: !vec3 [2.97626996, 1.51932001, -5.31650019]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_68: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 10
+                      vertex_0: !vec3 [-0.423940003, 3.21146989, -4.83234978]
+                      vertex_1: !vec3 [4.81955004, 3.18228006, 2.8822701]
+                      vertex_2: !vec3 [4.81955004, 3.26648998, 2.8822701]
+                      vertex_3: !vec3 [4.81820011, 3.18120003, -2.90857005]
+                      vertex_4: !vec3 [-0.393117011, 3.21316004, -4.75794983]
+                      vertex_5: !vec3 [2.89201999, 3.26756001, -4.83499002]
+                      vertex_6: !vec3 [3.81709003, 3.26037002, 3.70067]
+                      vertex_7: !vec3 [3.81709003, 3.18840003, 3.70065999]
+                      vertex_8: !vec3 [4.81820011, 3.26756001, -2.90857005]
+                      vertex_9: !vec3 [2.89204001, 3.18120003, -4.83499002]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_69: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 17
+                      vertex_0: !vec3 [-3.28869009, 24.2423992, -2.53725004]
+                      vertex_1: !vec3 [3.6565299, 28.3281994, 2.1937499]
+                      vertex_2: !vec3 [3.6565299, 24.2343006, 2.1937499]
+                      vertex_3: !vec3 [-2.14745998, 24.2331009, 3.88626003]
+                      vertex_4: !vec3 [-3.61187005, 28.3283997, 2.25079012]
+                      vertex_5: !vec3 [2.19466996, 28.3288994, -3.61620998]
+                      vertex_6: !vec3 [3.65717006, 24.2336006, -2.15375996]
+                      vertex_7: !vec3 [-3.61237001, 28.3288994, -2.21155]
+                      vertex_8: !vec3 [2.19152999, 28.3295002, 3.88646007]
+                      vertex_9: !vec3 [-2.20808005, 24.2336006, -3.61620998]
+                      vertex_10: !vec3 [-3.61187005, 24.2341995, 2.25079012]
+                      vertex_11: !vec3 [2.19152999, 24.2329998, 3.88646007]
+                      vertex_12: !vec3 [-2.14745998, 28.3293991, 3.88626003]
+                      vertex_13: !vec3 [2.19466996, 24.2336006, -3.61620998]
+                      vertex_14: !vec3 [3.65717006, 28.3288994, -2.15375996]
+                      vertex_15: !vec3 [-2.20807004, 28.3288994, -3.61620998]
+                      vertex_16: !vec3 [-3.61236, 24.2336006, -2.21157002]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_70: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [4.43135023, 3.99976993, 2.71329999]
+                      vertex_1: !vec3 [4.55166006, 3.5575099, 0.0290089995]
+                      vertex_2: !vec3 [4.47691011, 3.54262996, 0.0252250005]
+                      vertex_3: !vec3 [4.39868021, 3.98165011, 0.0347266011]
+                      vertex_4: !vec3 [4.38685989, 3.55088997, 2.71245003]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_71: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 10
+                      vertex_0: !vec3 [-5.23066998, 1.52223003, -3.27642012]
+                      vertex_1: !vec3 [-3.1366899, 2.94043994, -5.04208994]
+                      vertex_2: !vec3 [-3.16037989, 2.96836996, -5.08019018]
+                      vertex_3: !vec3 [-3.23887992, 2.84696007, -5.28411007]
+                      vertex_4: !vec3 [-5.20535994, 2.94629002, -3.12489009]
+                      vertex_5: !vec3 [-3.13893008, 1.52096999, -5.34251022]
+                      vertex_6: !vec3 [-5.07569981, 2.91406012, -3.15280008]
+                      vertex_7: !vec3 [-5.22201014, 2.8582201, -3.25718999]
+                      vertex_8: !vec3 [-5.24404001, 1.52394998, -3.26395011]
+                      vertex_9: !vec3 [-3.19618011, 1.52538002, -5.30046988]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_72: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 33
+                      vertex_0: !vec3 [-3.86431003, 21.0991001, -3.17162991]
+                      vertex_1: !vec3 [4.74382019, 23.7705002, 2.8798399]
+                      vertex_2: !vec3 [4.44754982, 24.0580006, 2.72944999]
+                      vertex_3: !vec3 [-2.83728004, 21.5261002, 4.73956013]
+                      vertex_4: !vec3 [-4.46084976, 24.0580006, -2.69245005]
+                      vertex_5: !vec3 [4.21098995, 20.8943005, -2.57364988]
+                      vertex_6: !vec3 [2.82745004, 23.7703991, -4.76149988]
+                      vertex_7: !vec3 [2.3851099, 20.8910007, 4.37323999]
+                      vertex_8: !vec3 [-2.68867993, 24.0580006, 4.44382]
+                      vertex_9: !vec3 [-4.22223997, 20.8931007, 2.55236006]
+                      vertex_10: !vec3 [-2.39828992, 20.8883991, -4.38990021]
+                      vertex_11: !vec3 [2.88455009, 23.7700996, 4.7410202]
+                      vertex_12: !vec3 [4.44754982, 24.0580006, -2.69246006]
+                      vertex_13: !vec3 [-4.75719023, 23.7696991, 2.82236004]
+                      vertex_14: !vec3 [-2.84078002, 23.7703991, -4.76148987]
+                      vertex_15: !vec3 [4.7424202, 21.5294991, 2.82216001]
+                      vertex_16: !vec3 [2.88075995, 21.5258999, -4.70206022]
+                      vertex_17: !vec3 [-4.7549901, 21.5849991, -2.84257007]
+                      vertex_18: !vec3 [4.74241018, 21.5289993, -2.84265995]
+                      vertex_19: !vec3 [-4.75494003, 21.5848999, 2.82175994]
+                      vertex_20: !vec3 [2.82445002, 21.5265999, 4.73952007]
+                      vertex_21: !vec3 [2.67534995, 24.0580006, -4.4647398]
+                      vertex_22: !vec3 [-2.89390993, 21.5818996, -4.70141983]
+                      vertex_23: !vec3 [-2.84038997, 23.7695999, 4.74105978]
+                      vertex_24: !vec3 [4.74385977, 23.7700005, -2.84328008]
+                      vertex_25: !vec3 [-4.75719023, 23.7696991, -2.84328008]
+                      vertex_26: !vec3 [4.21097994, 20.8943005, 2.55365992]
+                      vertex_27: !vec3 [-2.39843011, 20.8910007, 4.37323999]
+                      vertex_28: !vec3 [2.38581991, 20.8894997, -4.39134979]
+                      vertex_29: !vec3 [-4.22224998, 20.8931999, -2.57339001]
+                      vertex_30: !vec3 [-4.46084976, 24.0580006, 2.67153001]
+                      vertex_31: !vec3 [-2.68867993, 24.0580006, -4.4647398]
+                      vertex_32: !vec3 [2.73326993, 24.0580006, 4.44382]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_73: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 10
+                      vertex_0: !vec3 [3.17604995, 2.92823005, 5.18043995]
+                      vertex_1: !vec3 [5.08254004, 2.89225006, 3.12881994]
+                      vertex_2: !vec3 [5.09761, 2.96594, 3.17807007]
+                      vertex_3: !vec3 [3.24884009, 1.52358997, 5.27519989]
+                      vertex_4: !vec3 [5.2695899, 2.84214997, 3.27052999]
+                      vertex_5: !vec3 [5.32495022, 1.51986003, 3.12270999]
+                      vertex_6: !vec3 [3.07401991, 1.51887, 5.27404022]
+                      vertex_7: !vec3 [3.07824993, 2.9548099, 5.12748003]
+                      vertex_8: !vec3 [3.25976992, 2.8601799, 5.25727987]
+                      vertex_9: !vec3 [5.28334999, 1.52538002, 3.23717999]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_74: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 7
+                      vertex_0: !vec3 [-0.668042004, -0.426993996, 5.76711988]
+                      vertex_1: !vec3 [3.26604009, 1.03725004, 5.70388985]
+                      vertex_2: !vec3 [3.26697993, 1.04156005, 5.72162008]
+                      vertex_3: !vec3 [-0.660426974, 1.02236998, 5.73413992]
+                      vertex_4: !vec3 [3.26365995, -0.430509001, 5.81975985]
+                      vertex_5: !vec3 [-0.666894019, 1.04059005, 5.72081995]
+                      vertex_6: !vec3 [-0.660598993, 1.01343, 5.74350023]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_75: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [5.11573982, 3.04119992, -3.01237011]
+                      vertex_1: !vec3 [5.10908985, 3.00693989, 3.0625]
+                      vertex_2: !vec3 [5.1865201, 3.05444002, 3.05640006]
+                      vertex_3: !vec3 [5.14681005, 3.11750007, 3.05330992]
+                      vertex_4: !vec3 [5.12052011, 3.04352999, -2.97592998]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_76: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 31
+                      vertex_0: !vec3 [2.69794989, 30.3637009, 4.50770998]
+                      vertex_1: !vec3 [-2.75660992, 30.5158005, -4.52928019]
+                      vertex_2: !vec3 [-2.77182007, 30.5004997, -4.56240988]
+                      vertex_3: !vec3 [4.59237003, 30.5181007, -2.71380997]
+                      vertex_4: !vec3 [2.19578004, 28.5454998, -3.61220002]
+                      vertex_5: !vec3 [-3.60842991, 28.5454998, 2.25114012]
+                      vertex_6: !vec3 [-4.54890013, 30.5191994, 2.80447006]
+                      vertex_7: !vec3 [3.64914989, 28.5422993, 2.1926899]
+                      vertex_8: !vec3 [-3.61076999, 28.5470009, -2.21493006]
+                      vertex_9: !vec3 [-2.14884996, 28.5370998, 3.87012005]
+                      vertex_10: !vec3 [4.53948021, 30.5174007, 2.7969799]
+                      vertex_11: !vec3 [-2.76428008, 30.5198994, 4.58797979]
+                      vertex_12: !vec3 [2.7594099, 30.5004997, -4.56240988]
+                      vertex_13: !vec3 [-4.52698994, 30.5196991, -2.76089001]
+                      vertex_14: !vec3 [2.19197011, 28.5368004, 3.87024999]
+                      vertex_15: !vec3 [3.65191007, 28.5438995, -2.1547699]
+                      vertex_16: !vec3 [-2.20992994, 28.5457001, -3.61215997]
+                      vertex_17: !vec3 [2.57751989, 29.6375008, -4.30991983]
+                      vertex_18: !vec3 [-4.30431986, 29.6331005, 2.57528996]
+                      vertex_19: !vec3 [4.34952021, 29.7485008, -2.59360003]
+                      vertex_20: !vec3 [-2.59032011, 29.6355991, -4.30916977]
+                      vertex_21: !vec3 [2.75206995, 30.5172997, 4.58966017]
+                      vertex_22: !vec3 [4.23426008, 29.6368999, 2.51871991]
+                      vertex_23: !vec3 [-2.58746004, 29.7416, 4.34258986]
+                      vertex_24: !vec3 [-4.24871016, 29.6916008, -2.58985996]
+                      vertex_25: !vec3 [2.62737012, 29.6282997, 4.28805017]
+                      vertex_26: !vec3 [-4.55952978, 30.5004997, -2.77592993]
+                      vertex_27: !vec3 [-4.29220009, 29.6296997, -1.48831999]
+                      vertex_28: !vec3 [2.74418998, 30.4594994, -4.52954006]
+                      vertex_29: !vec3 [-3.91293001, 29.0195007, -2.42244005]
+                      vertex_30: !vec3 [4.50760984, 30.4747009, 2.70430994]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_77: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 27
+                      vertex_0: !vec3 [-2.37810993, 7.27463007, -4.37272978]
+                      vertex_1: !vec3 [2.36616993, 16.6553001, 4.35142994]
+                      vertex_2: !vec3 [4.09743023, 14.6306, 2.53196001]
+                      vertex_3: !vec3 [-2.37812996, 7.27453995, 4.35170984]
+                      vertex_4: !vec3 [-3.90596008, 16.6483994, -2.3369]
+                      vertex_5: !vec3 [2.36578012, 16.6553993, -4.37238979]
+                      vertex_6: !vec3 [3.8907001, 7.27926016, -2.3926301]
+                      vertex_7: !vec3 [2.36488008, 7.27461004, 4.35173988]
+                      vertex_8: !vec3 [-2.37910008, 16.6553993, 4.35146999]
+                      vertex_9: !vec3 [-3.90389991, 7.27897978, 2.37128997]
+                      vertex_10: !vec3 [3.89254999, 16.6487999, -2.39320993]
+                      vertex_11: !vec3 [-2.37888002, 16.6553993, -4.37250996]
+                      vertex_12: !vec3 [2.36508012, 7.27462006, -4.37259007]
+                      vertex_13: !vec3 [-4.11039019, 14.6299, 2.47456002]
+                      vertex_14: !vec3 [-4.0515399, 9.99532986, -2.49618006]
+                      vertex_15: !vec3 [3.89057994, 7.27897978, 2.37128997]
+                      vertex_16: !vec3 [4.09735012, 13.8816004, -2.49442005]
+                      vertex_17: !vec3 [-3.9040699, 7.27965021, -2.33535004]
+                      vertex_18: !vec3 [3.89271998, 16.6485004, 2.37282991]
+                      vertex_19: !vec3 [-3.90585995, 16.6487999, 2.37227988]
+                      vertex_20: !vec3 [-4.11035013, 14.6300001, -2.49557996]
+                      vertex_21: !vec3 [4.03746986, 9.99596977, 2.41913009]
+                      vertex_22: !vec3 [-4.05097008, 9.99553967, 2.41854]
+                      vertex_23: !vec3 [4.03816986, 9.99526978, -2.49631]
+                      vertex_24: !vec3 [4.09707022, 14.6308002, -2.49549007]
+                      vertex_25: !vec3 [-4.11066008, 13.8816996, 2.47351003]
+                      vertex_26: !vec3 [4.09769011, 13.8816996, 2.53094006]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_78: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 7
+                      vertex_0: !vec3 [-4.69940996, 3.28506994, -2.83615994]
+                      vertex_1: !vec3 [-2.65493011, 3.39490008, -4.42393017]
+                      vertex_2: !vec3 [-2.69860005, 3.45183992, -4.48503017]
+                      vertex_3: !vec3 [-4.48746014, 3.39596009, -0.898559988]
+                      vertex_4: !vec3 [-4.52226019, 3.3807199, -2.69590998]
+                      vertex_5: !vec3 [-2.63840008, 3.28985, -4.58708]
+                      vertex_6: !vec3 [-4.73042011, 3.27936006, -0.884069026]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_79: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 5
+                      vertex_0: !vec3 [-4.98838997, 3.08036995, -3.11871004]
+                      vertex_1: !vec3 [-2.99919009, 3.07470989, -4.78449011]
+                      vertex_2: !vec3 [-2.99960995, 3.14081001, -4.78404999]
+                      vertex_3: !vec3 [-4.94106007, 3.08769989, -0.66188401]
+                      vertex_4: !vec3 [-4.97187996, 3.06260991, -0.651822984]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_80: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 8
+                      vertex_0: !vec3 [5.24887991, 2.93141007, 2.96732998]
+                      vertex_1: !vec3 [5.36945009, 1.52252996, 0.201899007]
+                      vertex_2: !vec3 [5.29921007, 1.51941001, 0.200921997]
+                      vertex_3: !vec3 [5.30453014, 1.54658997, 2.97234988]
+                      vertex_4: !vec3 [5.19566011, 2.95000005, 0.199674994]
+                      vertex_5: !vec3 [5.2926302, 2.90631008, 0.203033999]
+                      vertex_6: !vec3 [5.28730011, 2.9159801, 2.96918988]
+                      vertex_7: !vec3 [5.21402979, 2.91977, 2.96965003]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                    ShapeParam_81: !obj
+                      shape_type: !str32 polytope
+                      vertex_num: 10
+                      vertex_0: !vec3 [3.67496991, 3.04946995, -4.40014982]
+                      vertex_1: !vec3 [4.98386002, 3.02717996, 3.16696]
+                      vertex_2: !vec3 [4.99316978, 3.09315991, 3.1777401]
+                      vertex_3: !vec3 [3.66127992, 3.02655005, 4.51221991]
+                      vertex_4: !vec3 [3.65583992, 3.05265999, -4.4642601]
+                      vertex_5: !vec3 [4.99505997, 3.05703998, -3.04111004]
+                      vertex_6: !vec3 [3.69087005, 3.04713988, 4.41083002]
+                      vertex_7: !vec3 [4.98761988, 3.07103992, -3.12005997]
+                      vertex_8: !vec3 [3.66107988, 3.08385992, 4.51849985]
+                      vertex_9: !vec3 [4.99483013, 3.05580997, 3.03165007]
+                      material: !str32 Stone
+                      sub_material: !str32 Stone
+                      wall_code: !str32 None
+                      floor_code: !str32 None
+                  lists: {}
