@@ -1,13 +1,13 @@
 Chemical: {Capaciter: 1}
 aabbMax: {X: 0.389324993, Y: 0.0650139973, Z: 0.403672993}
 aabbMin: {X: -0.138781995, Y: -0.199541003, Z: -0.532746017}
-attackPower: 0
+attackPower: 60
 bfres: Weapon_Shield_033
 boundingForTraverse: 0.264555991
 bugMask: 3
 cursorOffsetY: 0.300000012
 elink: Weapon_Shield
-generalLife: 14
+generalLife: 35
 instSize: 41840
 itemBuyingPrice: 300
 itemCreatingPrice: 10
@@ -30,8 +30,8 @@ tags: {tag2755f107: 659943687, tag289f28b5: 681519285, tag2cef9fdc: 753901532, t
   tage0194f30: !u 0xe0194f30}
 traverseDist: 80.0
 weaponCommonGuardPower: 70
-weaponCommonPoweredSharpAddAtkMax: 0
-weaponCommonPoweredSharpAddAtkMin: 0
+weaponCommonPoweredSharpAddAtkMax: 30
+weaponCommonPoweredSharpAddAtkMin: 40
 weaponCommonPoweredSharpAddLifeMax: 7
 weaponCommonPoweredSharpAddLifeMin: 4
 weaponCommonPoweredSharpAddRapidFireMax: 1.0
@@ -43,9 +43,9 @@ weaponCommonPoweredSharpAddThrowMin: 1.0
 weaponCommonPoweredSharpAddZoomRapid: false
 weaponCommonPoweredSharpWeaponAddGuardMax: 26
 weaponCommonPoweredSharpWeaponAddGuardMin: 14
-weaponCommonRank: 0
-weaponCommonSharpWeaponAddAtkMax: 0
-weaponCommonSharpWeaponAddAtkMin: 0
+weaponCommonRank: 16
+weaponCommonSharpWeaponAddAtkMax: 10
+weaponCommonSharpWeaponAddAtkMin: 20
 weaponCommonSharpWeaponAddCrit: false
 weaponCommonSharpWeaponAddGuardMax: 13
 weaponCommonSharpWeaponAddGuardMin: 7

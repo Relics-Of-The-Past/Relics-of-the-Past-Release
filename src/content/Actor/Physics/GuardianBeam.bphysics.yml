@@ -60,7 +60,7 @@ param_root: !list
                       max_linear_velocity: 2000.0
                       bounding_center: !vec3 [0.0, 0.0, -0.200000003]
                       bounding_extents: !vec3 [0.400000006, 0.400000006, 0.400000006]
-                      max_angular_velocity_rad: 198.967529
+                      max_angular_velocity_rad: 198.968002
                       motion_type: !str32 Dynamic
                       contact_point_info: !str32 GuardianBeam
                       bone: !str64 ''
@@ -101,13 +101,13 @@ param_root: !list
                       max_impulse: -1.0
                       col_impulse_scale: 1.0
                       ignore_normal_for_impulse: false
-                      volume: 113.097336
+                      volume: 113.097
                       toi: true
                       center_of_mass: !vec3 [1.0, 1.0, 1.0]
                       max_linear_velocity: 200.0
                       bounding_center: !vec3 [0.0, 0.3125, 0.0]
                       bounding_extents: !vec3 [6.0, 6.0, 6.0]
-                      max_angular_velocity_rad: 198.967529
+                      max_angular_velocity_rad: 198.968002
                       motion_type: !str32 Keyframed
                       bone: !str64 ''
                       layer: !str32 SensorAttackCommon
@@ -138,12 +138,12 @@ param_root: !list
                       max_linear_velocity: 2000.0
                       bounding_center: !vec3 [0.0, 0.0, 0.0]
                       bounding_extents: !vec3 [0.5, 0.5, 0.5]
-                      max_angular_velocity_rad: 198.967529
+                      max_angular_velocity_rad: 198.968002
                       motion_type: !str32 Keyframed
                       contact_point_info: !str32 AttackCommon
                       collision_info: !str32 AttackCommon
                       bone: !str64 ''
-                      layer: !str32 SensorAttackEnemy
+                      layer: !str32 SensorAttackCommon
                       link_matrix: ''
                       link_entity_set: ''
                       link_entity_body: ''

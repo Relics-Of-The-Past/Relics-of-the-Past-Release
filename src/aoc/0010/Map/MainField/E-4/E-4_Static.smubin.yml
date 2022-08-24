@@ -1737,7 +1737,7 @@ Objs:
   SRTHash: 429354692
   Translate: [-254.0, 292.933685, -1061.76709]
   UnitConfigName: TwnObj_HyruleCastle_A_01
-- '!Parameters': {DropTable: __none__, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: PutRupee_Gold, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x15851de8
   LinksToObj:
   - '!Parameters': {NoAutoDemoMember: false}
@@ -4187,7 +4187,7 @@ Objs:
   UnitConfigName: TwnObj_HyruleCastleObject_Wallcrack_After_A_01
 - '!Parameters': {ChaseRange: 1650.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
     GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: true, SharpWeaponJudgeType: 0}
+    IsSuspended: true, LevelSensorMode: 1}
   HashId: !u 0x2b9e91e6
   Rotate: [2.42987204, 1.44865966, 2.42617249]
   SRTHash: 1388760939
@@ -11535,13 +11535,13 @@ Objs:
   SRTHash: -309451816
   Translate: [123.362061, 134.48053, -693.728027]
   UnitConfigName: TwnObj_HyruleCastleWallConnect_A_01
-- '!Parameters': {EquipItem1: Weapon_Lsword_035, IsWatchKeeping: false, LevelSensorMode: 3, RotAngle: 60.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {EquipItem1: Weapon_Lsword_035, IsNearCreate: true, LevelSensorMode: 1, RotAngle: 60.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 15.0}
   HashId: !u 0x77ea0cc1
   Rotate: 1.28000104
   SRTHash: 14566
-  Translate: [120.982201, 135.981003, -498.565521]
-  UnitConfigName: Enemy_Assassin_Azito_Middle
+  Translate: [121.313507, 135.781006, -498.799835]
+  UnitConfigName: Enemy_Yiga_New
 - HashId: !u 0x77ea49ba
   Rotate: [0.347043008, 1.31169522, 0.16026625]
   SRTHash: 938604712
@@ -13922,13 +13922,13 @@ Objs:
   Scale: 0.700000048
   Translate: [-545.333984, 164.634598, -930.458374]
   UnitConfigName: TwnObj_HyruleCastleGround_Cliff_A_03
-- '!Parameters': {EquipItem1: Weapon_Lsword_035, IsWatchKeeping: false, LevelSensorMode: 3, RotAngle: 60.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {EquipItem1: Weapon_Lsword_035, IsNearCreate: true, LevelSensorMode: 3, RotAngle: 60.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 15.0}
   HashId: !u 0x91d38210
   Rotate: 0.0800010711
   SRTHash: 14566
-  Translate: [-68.4158096, 132.797638, -315.583008]
-  UnitConfigName: Enemy_Assassin_Azito_Middle
+  Translate: [-68.4314194, 133.197632, -315.548676]
+  UnitConfigName: Enemy_Yiga_New
 - HashId: !u 0x91e41203
   LinksToObj:
   - {DefinitionName: DeadUp, DestUnitHashId: !u 0x4cfc2481}
@@ -20070,7 +20070,7 @@ Objs:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xd90230b5}
   OnlyOne: true
   SRTHash: 801840772
-  Translate: [-237.277313, 180.947998, -794.594971]
+  Translate: [-237.257355, 180.947998, -794.59613]
   UnitConfigName: TwnObj_HyruleCastleGround_Culling_A_09
 - HashId: !u 0xcb520159
   Rotate: -0.299999923
@@ -23308,13 +23308,13 @@ Objs:
   SRTHash: 241164172
   Translate: [-233.475739, 138.804947, -583.652222]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {EquipItem1: Weapon_Lsword_034, IsWatchKeeping: false, LevelSensorMode: 3, RotAngle: 60.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {EquipItem1: Weapon_Lsword_034, IsNearCreate: true, LevelSensorMode: 0, RotAngle: 60.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 15.0}
   HashId: !u 0xeb13c6f6
   Rotate: -1.11999893
   SRTHash: 1456655
   Translate: [-314.251343, 126.988419, -393.951355]
-  UnitConfigName: Enemy_Assassin_Azito_Middle
+  UnitConfigName: Enemy_Yiga_New
 - '!Parameters': {ASFrame: 1.0, DropTable: Normal, EyeballFirstState: 0, SharpWeaponJudgeType: 0}
   HashId: !u 0xeb200059
   LinksToObj:
@@ -24719,13 +24719,13 @@ Objs:
   SRTHash: 0
   Translate: [-296.74527, 147.130524, -261.921265]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {EquipItem1: Weapon_Lsword_035, IsWatchKeeping: false, LevelSensorMode: 3, RotAngle: 60.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {EquipItem1: Weapon_Lsword_035, IsNearCreate: true, LevelSensorMode: 3, RotAngle: 60.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 15.0}
   HashId: !u 0xf84b1def
   Rotate: 0.0800010711
   SRTHash: 14566
-  Translate: [48.1284981, 132.98053, -400.623138]
-  UnitConfigName: Enemy_Assassin_Azito_Middle
+  Translate: [48.1084976, 133.780533, -400.623138]
+  UnitConfigName: Enemy_Yiga_New
 - HashId: !u 0xf88305ab
   Rotate: -0.052359879
   SRTHash: -1516512352
@@ -25312,9 +25312,9 @@ Objs:
     GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
     IsSuspended: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xffcd8684
-  Rotate: [0.347430617, 1.40193725, 0.543582797]
+  Rotate: [-0.0385712534, 3.2019372, 0.110682629]
   SRTHash: 873983009
-  Translate: [-171.602173, 124.944229, -131.687836]
+  Translate: [-179.60051, 125.544228, -131.414276]
   UnitConfigName: Enemy_Guardian_A_Fixed_Moss
 - '!Parameters': {ChaseRange: 1650.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
     GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
@@ -25329,6 +25329,385 @@ Objs:
   SRTHash: -2064702081
   Translate: [-275.340302, 159.980988, -1166.38794]
   UnitConfigName: TwnObj_HyruleCastleWallConnect_D_02_Far
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffecf66b
+  Rotate: [0.0, 0.0, 0.0]
+  SRTHash: 1466309386
+  Translate: [-490.316467, 168.370544, -899.594604]
+  UnitConfigName: Enemy_Guardian_A
+- '!Parameters': {EquipItem1: Weapon_Sword_009, EquipItem2: Weapon_Shield_033, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffecf66c
+  Rotate: -2.4000001
+  SRTHash: 564413069
+  Translate: [-296.569855, 214.995712, -860.733398]
+  UnitConfigName: Enemy_Lizalfos_Gold
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Weapon_Sword_014, EquipItem2: Weapon_Shield_015,
+    EquipItem3: Default, IsAnnihilateDungeonEnemy: true, IsWatchKeeping: true, LevelSensorMode: 1, RotAngle: 60.0, SharpWeaponJudgeType: 3}
+  HashId: !u 0xffecf66d
+  Rotate: [0.0797477067, -4.00040007, 0.0100222193]
+  SRTHash: -1609697573
+  Translate: [-338.068817, 215.971542, -899.309875]
+  UnitConfigName: Enemy_Guardian_Mini_Senior_Dark
+- '!Parameters': {EquipItem1: Weapon_Sword_047, EquipItem2: Weapon_Shield_033, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffecf66e
+  Rotate: 4.0
+  SRTHash: 564413069
+  Translate: [-362.804169, 239.381866, -923.1297]
+  UnitConfigName: Enemy_Moriblin_Dark
+- '!Parameters': {EquipItem1: Weapon_Sword_047, EquipItem2: Weapon_Shield_033, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffecf66f
+  Rotate: 1.79999995
+  SRTHash: 564413069
+  Translate: [-343.323029, 238.78186, -906.46405]
+  UnitConfigName: Enemy_Moriblin_Dark
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xffecf670
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xffecf671
+  SRTHash: 0
+  Scale: 15.0
+  Translate: [-356.605133, 244.146591, -910.172546]
+  UnitConfigName: Area
+- HashId: !u 0xffecf671
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xffecf672}
+  SRTHash: 0
+  Translate: [-357.44043, 244.29689, -916.788208]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {EquipItem1: Weapon_Lsword_055, EquipItem2: Default, FortressEatPer: -1, IsNearCreate: true, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffecf672
+  Rotate: 2.79999995
+  SRTHash: 564413069
+  Translate: [-358.08429, 240.324707, -911.234375]
+  UnitConfigName: Enemy_Yiga_New
+- '!Parameters': {EquipItem1: Default, EquipItem2: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffecf673
+  Rotate: -4.76837165e-08
+  SRTHash: 564413069
+  Translate: [-78.1576843, 128.587936, -769.157227]
+  UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters': {EquipItem1: Default, EquipItem2: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffecf674
+  Rotate: -2.60000014
+  SRTHash: 564413069
+  Translate: [-57.5886955, 128.587936, -766.777344]
+  UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters': {EquipItem1: Default, EquipItem2: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffecf675
+  Rotate: 0.199999958
+  SRTHash: 564413069
+  Translate: [-64.8634186, 128.587936, -761.941956]
+  UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffecf676
+  Rotate: [0.017913973, 0.200000003, 0.00889323]
+  SRTHash: 1466309386
+  Translate: [-6.20906496, 127.893234, -791.976868]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
+  HashId: !u 0xffecf678
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xffecf679
+  SRTHash: 0
+  Scale: 15.5
+  Translate: [123.701591, 138.647003, -498.781189]
+  UnitConfigName: Area
+- HashId: !u 0xffecf679
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0x77ea0cc1}
+  SRTHash: 0
+  Translate: [121.354897, 137.324814, -501.094604]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xffecf67a
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0x91d38210}
+  SRTHash: 0
+  Translate: [-69.1857681, 136.186493, -317.706757]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
+  HashId: !u 0xffecf67b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xffecf67a
+  SRTHash: 0
+  Scale: 15.5
+  Translate: [-68.5888596, 133.986496, -315.880157]
+  UnitConfigName: Area
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
+  HashId: !u 0xffecf67c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xffecf67d
+  SRTHash: 0
+  Scale: 15.5
+  Translate: [-314.318573, 128.415634, -393.808044]
+  UnitConfigName: Area
+- HashId: !u 0xffecf67d
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xeb13c6f6}
+  SRTHash: 0
+  Translate: [-311.853363, 130.615646, -393.231232]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xffecf67e
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xf84b1def}
+  SRTHash: 0
+  Translate: [50.3097153, 137.98053, -400.725433]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
+  HashId: !u 0xffecf67f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xffecf67e
+  SRTHash: 0
+  Scale: 15.5
+  Translate: [48.301712, 137.460556, -399.734955]
+  UnitConfigName: Area
+- HashId: !u 0xffecf680
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x3c8d976e}
+  SRTHash: 0
+  Translate: [-614.408875, 137.702087, -172.376312]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x3c8d976e
+  Rotate: [2.88231254, -0.714728892, 3.04396701]
+  SRTHash: -1750570648
+  Translate: [-612.925903, 131.672623, -176.741364]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xffecf681
+  Rotate: [2.88231254, -0.714728892, 3.04396701]
+  SRTHash: 1466309386
+  Translate: [-612.925903, 131.672623, -176.741364]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- '!Parameters': {EquipItem1: Weapon_Spear_034, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffecf682
+  Rotate: 5.19999981
+  SRTHash: 564413069
+  Translate: [-896.25531, 127.329094, -330.249817]
+  UnitConfigName: Enemy_Lizalfos_Gold
+- '!Parameters': {EquipItem1: Weapon_Spear_034, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffecf683
+  Rotate: 9.0
+  SRTHash: 564413069
+  Translate: [-926.937073, 125.729095, -332.087128]
+  UnitConfigName: Enemy_Lizalfos_Gold
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
+  HashId: !u 0xffecf686
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xffecf687
+  Rotate: 0.400000006
+  SRTHash: 0
+  Scale: 35.5
+  Translate: [-1006.72198, 135.190033, -396.142975]
+  UnitConfigName: Area
+- HashId: !u 0xffecf687
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xffecf689}
+  SRTHash: 0
+  Translate: [-1008.34235, 152.985214, -402.762115]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xffecf688
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xffecf689}
+  SRTHash: 0
+  Translate: [-925.455383, 130.750504, -371.696167]
+  UnitConfigName: AnchorAction1
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsNearCreate: true, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffecf689
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xffecf688}
+  Rotate: -2.20000005
+  SRTHash: 1466309386
+  Translate: [-793.531982, 123.641876, -351.202942]
+  UnitConfigName: Enemy_Guardian_A
+- HashId: !u 0xffecf68a
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x780c9fd4}
+  SRTHash: 0
+  Translate: [-397.754578, 127.452461, -161.763016]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x780c9fd4
+  Rotate: [-0.210969925, 0.113363698, -0.323537737]
+  SRTHash: 18425004
+  Translate: [-401.430695, 123.431839, -164.874329]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xffecf68b
+  Rotate: [-0.210969925, 0.113363698, -0.323537737]
+  SRTHash: 1466309386
+  Translate: [-401.430695, 123.431839, -164.874329]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xffecf68c
+  Rotate: [0.0, 0.0, 0.160000011]
+  SRTHash: 1466309386
+  Translate: [-155.144989, 126.866409, -125.91864]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- HashId: !u 0xffecf68d
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x9e48a747}
+  SRTHash: 0
+  Translate: [-151.391724, 130.395554, -126.290276]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x9e48a747
+  Rotate: [0.0, 0.0, 0.160000011]
+  SRTHash: 18425004
+  Translate: [-155.144989, 126.866409, -125.91864]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- HashId: !u 0xea79ffd2
+  Rotate: [0.136030808, 0.0465526171, -0.125505]
+  SRTHash: 18425004
+  Translate: [-117.651276, 126.624588, -203.777344]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- HashId: !u 0xffecf68e
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xea79ffd2}
+  SRTHash: 0
+  Translate: [-112.030731, 131.56105, -202.754211]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xffecf68f
+  Rotate: [0.136030808, 0.0465526171, -0.125505]
+  SRTHash: 1466309386
+  Translate: [-117.651276, 126.624588, -203.777344]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- HashId: !u 0xbee03b49
+  Rotate: [-0.210181922, 0.240256533, 0.165968597]
+  SRTHash: -1617491492
+  Translate: [-76.7356033, 126.826973, -188.739975]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xffecf690
+  Rotate: [-0.210181922, 0.240256533, 0.165968597]
+  SRTHash: 1466309386
+  Translate: [-76.7356033, 126.826973, -188.739975]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- HashId: !u 0xffecf691
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xbee03b49}
+  SRTHash: 0
+  Translate: [-71.7556, 131.826981, -188.739975]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xffecf692
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x3699b8c4}
+  SRTHash: 0
+  Translate: [-197.573837, 152.771286, -262.395721]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xffecf693
+  Rotate: [-0.21655637, 0.0390795693, 0.175751254]
+  SRTHash: 1466309386
+  Translate: [-196.69458, 146.34935, -260.924316]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- HashId: !u 0x3699b8c4
+  Rotate: [-0.21655637, 0.0390795693, 0.175751254]
+  SRTHash: 17421495
+  Translate: [-196.69458, 146.34935, -260.924316]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xffecf694
+  Rotate: [-0.0647600591, -0.90217793, 0.130651042]
+  SRTHash: 1466309386
+  Translate: [-665.710327, 119.323677, -751.277283]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- HashId: !u 0x8821330b
+  Rotate: [-0.0647600591, -0.90217793, 0.130651042]
+  SRTHash: 18425004
+  Translate: [-665.710327, 119.323677, -751.277283]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- HashId: !u 0xffecf695
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x8821330b}
+  SRTHash: 0
+  Translate: [-660.710327, 124.323677, -751.277283]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xffecf696
+  Rotate: [0.0, 0.0, 0.0]
+  SRTHash: 1466309386
+  Translate: [-605.198242, 147.608398, -382.483612]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- HashId: !u 0xdad0d86c
+  SRTHash: 18425004
+  Translate: [-605.198242, 147.608398, -382.483612]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- HashId: !u 0xffecf697
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xdad0d86c}
+  SRTHash: 0
+  Translate: [-600.280579, 151.19635, -381.694427]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xffecf698
+  Rotate: [0.582704723, 0.28244257, -0.334344566]
+  SRTHash: 1466309386
+  Translate: [-532.290039, 153.026596, -131.372375]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- HashId: !u 0xffecf699
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x97044595}
+  SRTHash: 0
+  Translate: [-527.290039, 158.026596, -131.372375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x97044595
+  Rotate: [0.582704723, 0.28244257, -0.334344566]
+  SRTHash: 18425004
+  Translate: [-532.290039, 153.026596, -131.372375]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- HashId: !u 0x799e45b6
+  Rotate: [-0.21068196, 2.83537555, -0.0794579014]
+  SRTHash: -1600652088
+  Translate: [-447.10498, 124.522171, -97.4076538]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xffecf69a
+  Rotate: [-0.21068196, 2.83537555, -0.0794579014]
+  SRTHash: 1466309386
+  Translate: [-447.10498, 124.522171, -97.4076538]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- HashId: !u 0xffecf69b
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x799e45b6}
+  SRTHash: 0
+  Translate: [-450.604218, 129.46965, -97.6964035]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xffecf69d
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x3e253ca2}
+  SRTHash: 0
+  Translate: [-321.735046, 133.085968, -214.843948]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x3e253ca2
+  Rotate: [0.0, 0.320000142, -0.119999997]
+  SRTHash: 18425004
+  Translate: [-325.286377, 124.840096, -215.459442]
+  UnitConfigName: FldObj_RuinGuardian_A_01
 Rails:
 - '!Parameters': {DisableRenderMap: false, IsEnableHorseTrace: true, IsWalkable: false}
   HashId: !u 0x017ab246

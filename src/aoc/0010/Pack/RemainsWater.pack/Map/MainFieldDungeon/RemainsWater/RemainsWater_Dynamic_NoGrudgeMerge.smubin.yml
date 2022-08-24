@@ -1,0 +1,191 @@
+Objs:
+- '!Parameters': {EventFlowEntryName: Access, EventFlowName: Demo044_0, IsEndlessEvent: false, LaunchEventByOffSignal: false,
+    LaunchEventByOnSignal: true}
+  HashId: !u 0x0a5e3b97
+  SRTHash: -2018217838
+  Translate: [-19.0, 12.0, -6.5]
+  UnitConfigName: EventTag
+- '!Parameters': {Direction: 4, Shape: Box, WindSpeed: 12.0}
+  HashId: !u 0x0adb388c
+  SRTHash: -1218873258
+  Scale: [250.0, 150.0, 40.0]
+  Translate: [3.0, 31.5, 273.0]
+  UnitConfigName: PointWindSetTag
+- HashId: !u 0x12dc7b72
+  Rotate: -0.980000615
+  SRTHash: 1221840367
+  Scale: [1.0, 6.28100014, 3.07999992]
+  Translate: [-14.0685596, 18.9500008, -70.4521332]
+  UnitConfigName: AirWallCurseGanon
+- HashId: !u 0x15827e3a
+  Rotate: -0.280000061
+  SRTHash: -1905314993
+  Scale: [1.0, 6.28097153, 3.08020759]
+  Translate: [-24.1686726, 18.8875008, -54.9504929]
+  UnitConfigName: AirWallCurseGanon
+- '!Parameters': {FieldBodyGroup: 2}
+  HashId: !u 0x23acd70a
+  SRTHash: -1215043731
+  Translate: [0.0, 33.5, -22.5]
+  UnitConfigName: DgnObj_IbutsuWaterWheel_A_02
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Weapon_Sword_013
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: false
+    IsNearCreate: false
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x304e22a6
+  Rotate: -1.57079637
+  SRTHash: 1203963246
+  Translate: [-12.0, 30.0, -24.0]
+  UnitConfigName: Enemy_Guardian_Mini_Junior_Dark
+- HashId: !u 0x36e66ff6
+  Rotate: 0.200000182
+  SRTHash: 1281164015
+  Scale: [1.0, 6.28100014, 3.07999992]
+  Translate: [24.4364109, 18.9500008, -54.6248665]
+  UnitConfigName: AirWallCurseGanon
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Weapon_Spear_013
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: false
+    IsNearCreate: false
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x3b60e6a2
+  Rotate: 3.14159274
+  SRTHash: 1460885945
+  Translate: [0.0, 50.0, 43.0]
+  UnitConfigName: Enemy_Guardian_Mini_Junior_Dark
+- HashId: !u 0x5f32f214
+  Rotate: 1.34000385
+  SRTHash: 1156189849
+  Scale: [1.0, 6.28100014, 3.07999992]
+  Translate: [4.69590187, 18.9500008, -74.2919464]
+  UnitConfigName: AirWallCurseGanon
+- HashId: !u 0x67bad4b3
+  SRTHash: -1713585454
+  Scale: 1.45000005
+  Translate: [45.5, 9.5, -15.5]
+  UnitConfigName: Obj_MapModel_A_01
+- HashId: !u 0x69bcf639
+  Rotate: 0.5200001
+  SRTHash: 1360005055
+  Scale: [1.0, 6.28100014, 3.07999992]
+  Translate: [20.4444599, 18.9500008, -63.808403]
+  UnitConfigName: AirWallCurseGanon
+- HashId: !u 0x741e0df9
+  SRTHash: -1749934308
+  Translate: [4.0, 43.0, 11.5]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {DropTable: Normal, FlowSpeedFactor: 1.0, RiseLength: 3.5, RiseSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7dbf5ca3
+  Rotate: [1.57079637, 0.0, 0.0]
+  SRTHash: -1331970399
+  Translate: [0.0, 39.0, -38.8828125]
+  UnitConfigName: DgnObj_IbutsuWaterPlane_A_06
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: false
+    IsNearCreate: false
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x7dce6e7e
+  Rotate: 1.57079637
+  SRTHash: 345842409
+  Translate: [-21.0, 12.0, 9.0]
+  UnitConfigName: Enemy_Guardian_Mini_Baby_Dark
+- '!Parameters': {AirWallCollision: 0, EnableCharacterOn: false, Shape: Box}
+  HashId: !u 0x8968ceb1
+  SRTHash: 1832817932
+  Scale: [8.0, 1.60000002, 10.0]
+  Translate: [0.0, 24.1000004, -21.0]
+  UnitConfigName: AirWallForE3
+- HashId: !u 0x932c8dcf
+  Rotate: -0.580000222
+  SRTHash: -1813634520
+  Scale: [1.0, 6.28100014, 3.07999992]
+  Translate: [-20.2490482, 18.9500008, -63.6851387]
+  UnitConfigName: AirWallCurseGanon
+- HashId: !u 0x971a0ce4
+  Rotate: 0.960000634
+  SRTHash: -531903363
+  Scale: [1.0, 6.28100014, 3.07999992]
+  Translate: [14.0572701, 18.9500008, -70.479126]
+  UnitConfigName: AirWallCurseGanon
+- HashId: !u 0xc8217944
+  Rotate: -1.40000391
+  SRTHash: 1419183717
+  Scale: [1.0, 6.28100014, 3.07999992]
+  Translate: [-5.00232792, 18.9500008, -74.250351]
+  UnitConfigName: AirWallCurseGanon
+- '!Parameters': {Direction: 6, Shape: Box, WindSpeed: 12.0}
+  HashId: !u 0xceac9f72
+  SRTHash: -928229450
+  Scale: [40.0, 150.0, 200.0]
+  Translate: [-106.0, 31.5, 50.0]
+  UnitConfigName: PointWindSetTag
+- '!Parameters': {DropTable: Normal, FieldBodyGroup: 1, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcedc30aa
+  SRTHash: 2041138887
+  Translate: [-0.5, 52.0, 6.5]
+  UnitConfigName: DgnObj_WallSpike_B_01
+- HashId: !u 0xd0ce1b19
+  SRTHash: -1492780062
+  Scale: [15.0, 10.0, 17.0]
+  Translate: [0.0, 67.0, 74.5]
+  UnitConfigName: SoundOcclusionTagRemainsWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 0, WaterfallAngle: 90.0, WaterfallLength: 0.0,
+    WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0xd79dc157
+  SRTHash: 282558719
+  Scale: [400.0, 100.0, 1000.0]
+  Translate: [0.0, -18.5, 300.0]
+  UnitConfigName: BoxWaterCancelIceMaker
+- '!Parameters': {Direction: 2, Shape: Box, WindSpeed: 12.0}
+  HashId: !u 0xe6b227b7
+  SRTHash: -1061349922
+  Scale: [40.0, 150.0, 200.0]
+  Translate: [107.5, 31.5, 50.0]
+  UnitConfigName: PointWindSetTag
+- '!Parameters': {AirWallCollision: 0, EnableCharacterOn: false, Shape: Box}
+  HashId: !u 0xf16abb4e
+  SRTHash: 1025539601
+  Scale: [4.0, 1.60000002, 4.0]
+  Translate: [-11.5, 24.1000004, -14.5]
+  UnitConfigName: AirWallForE3
+- '!Parameters': {Direction: 0, Shape: Box, WindSpeed: 12.0}
+  HashId: !u 0xfda68e9f
+  SRTHash: 512257863
+  Scale: [250.0, 150.0, 40.0]
+  Translate: [4.0, 31.5, -154.734375]
+  UnitConfigName: PointWindSetTag
+- '!Parameters': {DropTable: Normal, FlowSpeedFactor: 1.0, RiseLength: 5.0, RiseSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfe3cff19
+  SRTHash: -1235812496
+  Translate: [-13.5, 11.5500002, -3.5]
+  UnitConfigName: DgnObj_IbutsuWaterPlane_A_02
+Rails: []

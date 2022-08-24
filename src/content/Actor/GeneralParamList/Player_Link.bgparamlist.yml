@@ -4,8 +4,8 @@ type: xml
 param_root: !list
   objects:
     Player: !obj
-      BombReloadTime1: 6.0
-      BombReloadTime2: 3.0
+      BombReloadTime1: 2.0
+      BombReloadTime2: 1.0
       StopTimerReloadTime: 300.0
       StopTimerBlowAngle: 15.0
       StopTimerBlowSpeedLimit: 3.0
@@ -33,9 +33,9 @@ param_root: !list
       VelDiamTired: 0.850000024
       StickDiamTired: 0.850000024
       AutoRecoverNum: 0.0
-      AutoRecoverIntervalMin: 120.0
-      AutoRecoverIntervalMax: 60.0
-      AutoRecoverInvalidTime: 30.0
+      AutoRecoverIntervalMin: 1.0
+      AutoRecoverIntervalMax: 15.0
+      AutoRecoverInvalidTime: 15.0
       BowSubjectContTime: 30.0
       LNGStickScale: 0.200000003
       LATStickScale: 0.200000003
@@ -119,7 +119,7 @@ param_root: !list
       FireSupportTimerRate: 3.0
       ElectricSupportTimerRate: 3.0
       WaterSupportTimerRate: 3.0
-      ChemicalInvalidTime: 45.0
+      ChemicalInvalidTime: 10.0
       AutoDashUpTime: 5.0
       AutoDashUpAngle: 15.0
       ClimbRestartHeight: 20.0
@@ -145,19 +145,19 @@ param_root: !list
       ArmorCompWeaponBrakeRate: 0.5
       ArmorCompSwordBeamAttackRate: 1.5
       ArmorCompAncientAttackRate: 1.79999995
-      ArmorCompBoneAttackRate: 1.79999995
+      ArmorCompBoneAttackRate: 2.0
       ArmorCompTerrorLevel: 1.0
       ArmorCompTerrorRadius: 1.5
       ArmorCompNakedSwimSpeedRate: 1.20000005
       ArmorCompNakedSwimAnimeRate: 1.20000005
       ArmorCompNakedSwimEnergyRate: 0.800000012
-      ArmorAncientAttackRate: 1.20000005
+      ArmorAncientAttackRate: 1.5
       SupportWindNum: 3
       SupportElectricNum: 3
       SupportElectricEnergy: 500.0
       SupportFireNum: 3
       SupportWaterLifeAdd: 20
-      SupportWaterEnergyAdd: 0.0
+      SupportWaterEnergyAdd: 250.0
       StickRInputFrame: 5.0
       DiffAngleFromLookVec: 175.0
       LookPosOffset: 20.0
@@ -167,7 +167,7 @@ param_root: !list
       WaitUnsteadyApplyVel: 0.300000012
       CurseAddWeight: 500.0
       RoofCrashVel: 0.100000001
-      CutJumpInvalidTime: 20.0
+      CutJumpInvalidTime: 3.0
       WaterDepthInGrudge: 1.0
       LargeHorseLegBendAngY: 15.0
       LargeHorseLegBendAngX: 5.0

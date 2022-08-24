@@ -932,7 +932,7 @@ Objs:
   Scale: 1.20539212
   Translate: [519.749451, 124.724609, -298.128937]
   UnitConfigName: Obj_TreeApple_A_M_01
-- '!Parameters': {DropActor: PutRupee_Purple, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: PutRupee_Gold, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x1d75c9f4
   Rotate: [-3.03046775, 0.417042881, -3.110039]
   SRTHash: 1976065449
@@ -1002,7 +1002,7 @@ Objs:
   Rotate: 2.5415926
   SRTHash: 2038737557
   Translate: [381.712891, 121.627991, -697.59613]
-  UnitConfigName: Enemy_Keese_AllDay
+  UnitConfigName: Enemy_Keese_Fire_AllDay
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x1eee816c
   Rotate: 2.42318511
@@ -1227,11 +1227,6 @@ Objs:
   SRTHash: -224103959
   Translate: [39.8659363, 132.265366, -487.624329]
   UnitConfigName: TwnObj_HyruleCity_HouseBreakParts_A_05
-- HashId: !u 0x25e0a3ff
-  Rotate: [-0.166873977, 0.659575701, -0.259545833]
-  SRTHash: 18425004
-  Translate: [373.769531, 132.680771, -196.799652]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0x25e63105
   SRTHash: -1909118778
   Translate: [244.0, 141.646118, -917.0]
@@ -1867,7 +1862,7 @@ Objs:
   SRTHash: -1929284073
   Translate: [941.813538, 165.016403, -86.7780762]
   UnitConfigName: Animal_Boar_A
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: NormalHigh, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0x36b1b603
   Rotate: [3.07784247, -1.12038302, -3.1235044]
   SRTHash: 1768709708
@@ -2237,11 +2232,6 @@ Objs:
   SRTHash: 1369222761
   Translate: [232.294983, 129.6008, -572.259033]
   UnitConfigName: FldObj_RuinGuardianArm_A_03
-- HashId: !u 0x4202f3b8
-  Rotate: [0.137766838, -0.0249849427, 0.178276017]
-  SRTHash: 18425004
-  Translate: [47.6304321, 131.238083, -81.190094]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0x426ed676
   Rotate: 4.69521141
   SRTHash: 1043813428
@@ -3475,7 +3465,7 @@ Objs:
   SRTHash: 1785194793
   Translate: [619.530884, 123.986122, -284.551788]
   UnitConfigName: Obj_TreeBroadleaf_A_SS
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: NormalHigh, SharpWeaponJudgeType: 0}
   HashId: !u 0x65970dbb
   Rotate: [-0.0417783447, -0.00182582613, -0.0118592428]
   SRTHash: -986279122
@@ -4624,7 +4614,7 @@ Objs:
   Rotate: 2.22318506
   SRTHash: 1459119630
   Translate: [379.325775, 119.840828, -699.953735]
-  UnitConfigName: Enemy_Keese_AllDay
+  UnitConfigName: Enemy_Keese_Fire_AllDay
 - HashId: !u 0x82feab8a
   Rotate: 1.74041808
   SRTHash: -75142268
@@ -5269,7 +5259,7 @@ Objs:
   Scale: 0.938809693
   Translate: [473.597809, 124.636536, -253.527939]
   UnitConfigName: Obj_TreeApple_A_L_01
-- '!Parameters': {DropActor: Weapon_Shield_002, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Shield_002, EnableRevival: false, IsInGround: false, LevelSensorMode: 1}
   HashId: !u 0x978b4864
   Rotate: [-2.99763966, 0.938484192, -2.83500576]
   SRTHash: 947045364
@@ -5577,7 +5567,7 @@ Objs:
   UnitConfigName: Obj_Plant_HopBush_A_02
 - '!Parameters':
     AddParam: 50
-    AddSpecialFlag: 1
+    AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: false
     IsCreateSharpWeapon: false
@@ -5886,8 +5876,8 @@ Objs:
   Translate: [477.824219, 124.242188, -217.183594]
   UnitConfigName: EnvSeEmitPointInsectTemperate
 - '!Parameters':
-    AddParam: 0
-    AddSpecialFlag: 0
+    AddParam: 49
+    AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: true
     IsCreateSharpWeapon: false
@@ -5902,7 +5892,7 @@ Objs:
   Rotate: [1.82769322, -1.21209157, -0.39426437]
   SRTHash: -465262218
   Translate: [709.798828, 115.816147, -70.9925232]
-  UnitConfigName: Weapon_Sword_024
+  UnitConfigName: Weapon_Sword_047
 - HashId: !u 0xa955c1fc
   Rotate: [2.96291804, 1.43042278, -2.37877202]
   SRTHash: -589040952
@@ -6385,7 +6375,7 @@ Objs:
   UnitConfigName: Obj_TreeBroadleafLow_A_02
 - '!Parameters':
     AddParam: 15
-    AddSpecialFlag: 4
+    AddSpecialFlag: 256
     DropTable: Normal
     EnemyOwnItem: false
     IsCreateSharpWeapon: false
@@ -6393,7 +6383,7 @@ Objs:
     IsFixedPlace: false
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xb5f00812
@@ -6854,7 +6844,7 @@ Objs:
   SRTHash: -579016742
   Translate: [732.461243, 180.074768, -739.480896]
   UnitConfigName: Obj_TreeGashamahi_A_01
-- '!Parameters': {DropActor: Obj_BombArrow_A_02, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_BombArrow_A_04, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xc5565c47
   Rotate: [2.85441709, 1.28387964, 2.68741107]
   SRTHash: -1384670365
@@ -7567,11 +7557,6 @@ Objs:
   Scale: 0.93863833
   Translate: [519.498779, 124.522018, -279.396057]
   UnitConfigName: Obj_TreeApple_A_L_01
-- HashId: !u 0xdb0ba202
-  Rotate: [0.242525131, 0.701640606, 0.000320450024]
-  SRTHash: 18425004
-  Translate: [397.005981, 129.311981, -171.375031]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xdb4a03fd
   Rotate: [-2.41381812, -1.07055664, -2.94213843]
@@ -8374,7 +8359,7 @@ Objs:
   SRTHash: -768236033
   Translate: [524.972168, 127.262283, -362.967957]
   UnitConfigName: Obj_TreeBroadleaf_A_SS
-- '!Parameters': {DropActor: Obj_FireArrow_A_03, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_100, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xf10799e7
   Rotate: [0.134394452, 0.00323278853, -0.0309340507]
   SRTHash: -1626017000
@@ -8894,11 +8879,6 @@ Objs:
   Scale: 25.0
   Translate: [911.5, 148.319916, -254.0]
   UnitConfigName: Area
-- HashId: !u 0xfd474042
-  Rotate: [3.09457016, 1.3619889, -2.93286443]
-  SRTHash: 18425004
-  Translate: [233.048218, 129.204391, -569.850159]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0xfd5e1817
   Rotate: [-0.15303126, -0.770485699, 0.0648395792]
   SRTHash: -1779771266
@@ -8961,15 +8941,16 @@ Objs:
     TerritoryArea: 0.0
   HashId: !u 0xfdb2c736
   SRTHash: -576582262
-  Translate: [963.886353, 189.349274, -657.213135]
-  UnitConfigName: Enemy_Octarock_Forest
+  Scale: 2.0
+  Translate: [965.53479, 189.149277, -653.169617]
+  UnitConfigName: Enemy_Octarock_Senior
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xfdd96bdf
   Rotate: [-2.60622215, 0.178540751, 1.27988482]
   SRTHash: -608049018
   Translate: [702.178589, 115.315231, -82.4161377]
   UnitConfigName: Item_Fruit_G
-- '!Parameters': {DropTable: Item_Plant_C, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropActor: Item_Plant_C, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xfded65a6
   Rotate: [0.833661854, -1.44586122, -1.10207498]
   SRTHash: 1768709708
@@ -9126,11 +9107,11 @@ Objs:
 - HashId: !u 0xfff05a69
   SRTHash: 0
   Translate: [681.200134, 121.350677, -83.0750809]
-  UnitConfigName: Obj_ArrowBundle_A_02
+  UnitConfigName: Obj_ArrowBundle_A_30
 - HashId: !u 0xfff05a6a
   SRTHash: 0
   Translate: [681.4151, 121.350677, -82.4125671]
-  UnitConfigName: Obj_ArrowBundle_A_02
+  UnitConfigName: Obj_ArrowBundle_A_30
 - '!Parameters': {ArrowName: BombArrow_A, EquipItem1: Weapon_Bow_032, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true,
     LevelSensorMode: 0, RotAngle: 60.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 0.0}
   HashId: !u 0xfff05a6c
@@ -9139,11 +9120,12 @@ Objs:
   Scale: 1.0
   Translate: [399.060883, 142.280701, -440.632141]
   UnitConfigName: Enemy_Moriblin_Gold
-- '!Parameters': {DropActor: Item_Cook_C_16, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 3}
+- '!Parameters': {DropActor: Item_Enemy_30, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0xfff05a6d
+  Rotate: -3.20000005
   SRTHash: 0
-  Translate: [694.586731, 185.840057, -811.535156]
-  UnitConfigName: Tbox_Field_Iron
+  Translate: [693.020447, 183.440063, -802.534729]
+  UnitConfigName: Tbox_Dungeon_Wood
 - '!Parameters': {ArrowName: BombArrow_A, EquipItem1: Weapon_Bow_032, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true,
     LevelSensorMode: 0, RotAngle: 60.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 150.0}
   HashId: !u 0xfff05a75
@@ -9151,4 +9133,60 @@ Objs:
   SRTHash: -1710991915
   Translate: [919.853821, 161.915161, -275.851166]
   UnitConfigName: Enemy_Bokoblin_Gold
+- '!Parameters': {ArrowName: BombArrow_A, EquipItem1: Weapon_Bow_003, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfff05a7f
+  Rotate: -3.17079639
+  SRTHash: -1658582254
+  Translate: [802.480896, 156.662613, -487.144501]
+  UnitConfigName: Enemy_Moriblin_Gold
+- '!Parameters': {DropActor: PutRupee_Gold, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff05a84
+  Rotate: [-3.03046775, 0.417042881, -3.110039]
+  SRTHash: 1976065449
+  Translate: [385.816925, 115.184845, -700.578552]
+  UnitConfigName: TBox_Field_Wood
+- '!Parameters': {DropActor: PutRupee_Gold, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff05a85
+  Rotate: [-3.03046775, 0.417042881, -3.110039]
+  SRTHash: 1976065449
+  Translate: [389.008392, 115.184845, -699.199219]
+  UnitConfigName: TBox_Field_Wood
+- '!Parameters': {DropTable: Normal}
+  HashId: !u 0xfff05a95
+  SRTHash: 0
+  Scale: 3.0
+  Translate: [634.65033, 184.908386, -767.12439]
+  UnitConfigName: Enemy_Octarock_Senior
+- '!Parameters': {ArrowName: NormalArrow, BeamRange: 0.0, DropTable: Normal, IsAnnihilateDungeonEnemy: false, IsNearCreate: false,
+    LevelSensorMode: 2, NearCreateAppearID: 0, SharpWeaponJudgeType: 2, TerritoryArea: 0.0}
+  HashId: !u 0xfff05a96
+  Rotate: -6.74390411
+  SRTHash: 0
+  Translate: [644.575073, 181.406937, -798.16803]
+  UnitConfigName: Enemy_Guardian_Mini_Junior_Dark
+- '!Parameters': {DropActor: Item_Ore_B, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff05a97
+  Rotate: [-0.0346040837, 0.00735758059, 0.280212849]
+  SRTHash: 1815269092
+  Translate: [654.383789, 191.596832, -870.190613]
+  UnitConfigName: TBox_Field_Wood
+- '!Parameters': {DropActor: Item_Ore_B, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff05a98
+  Rotate: [-0.0346040837, 0.00735758059, 0.280212849]
+  SRTHash: 1815269092
+  Translate: [654.536987, 191.596832, -868.592712]
+  UnitConfigName: TBox_Field_Wood
+- '!Parameters': {DropActor: Item_Ore_B, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff05a99
+  Rotate: [-0.0346040837, 0.00735758059, 0.280212849]
+  SRTHash: 1815269092
+  Translate: [653.879395, 191.596832, -871.887817]
+  UnitConfigName: TBox_Field_Wood
+- '!Parameters': {DropActor: Item_Ore_B, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff05a9a
+  Rotate: [-0.0346040837, 0.00735758059, 0.280212849]
+  SRTHash: 1815269092
+  Translate: [652.067749, 190.796829, -872.101318]
+  UnitConfigName: TBox_Field_Wood
 Rails: []

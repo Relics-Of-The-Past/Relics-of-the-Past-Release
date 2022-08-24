@@ -65,7 +65,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RideHorseName: GameRomHorse23
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
@@ -106,7 +106,7 @@ Objs:
   SRTHash: -1772264509
   Translate: [58.9689941, 158.579636, 2917.07861]
   UnitConfigName: FldObj_RockDislocation_D_01
-- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x02dd633a
   LinksToObj:
@@ -985,7 +985,7 @@ Objs:
     EquipItem4: Default
     IsHardModeActor: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -1077,7 +1077,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -1134,7 +1134,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -1293,7 +1293,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -1411,7 +1411,7 @@ Objs:
   SRTHash: -1377675391
   Translate: [-866.288818, 190.007812, 2258.87061]
   UnitConfigName: FldObj_CliffWhiteEdgeParts_A_03
-- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x20c5a0ee
   LinksToObj:
@@ -1463,7 +1463,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -1697,7 +1697,7 @@ Objs:
     IsIchigekiActor: true
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -1745,7 +1745,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -2027,7 +2027,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -2513,7 +2513,7 @@ Objs:
     EquipItem4: Default
     IsHardModeActor: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -2788,7 +2788,7 @@ Objs:
     EquipItem4: Default
     IsIchigekiActor: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     PatternID: -1
     SharpWeaponJudgeType: 0
     SubUnitNum: 0
@@ -2803,7 +2803,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -2817,7 +2817,7 @@ Objs:
   SRTHash: 249134331
   Translate: [-112.999969, 189.093613, 2985.0]
   UnitConfigName: Enemy_Bokoblin_Middle
-- '!Parameters': {EquipItem1: Weapon_Lsword_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Lsword_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x3fcb453c
   LinksToObj:
@@ -3069,7 +3069,7 @@ Objs:
     IsCreateStalPart: true
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
@@ -3283,7 +3283,7 @@ Objs:
     EquipItem4: Default
     IsHardModeActor: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 3
     TerritoryArea: 0.0
   HashId: !u 0x4ccde79f
@@ -3303,7 +3303,7 @@ Objs:
     IsIchigekiActor: true
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
@@ -3611,7 +3611,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x5210f289
@@ -3890,7 +3890,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x57e5253c
@@ -3909,7 +3909,7 @@ Objs:
     EquipItem4: Default
     IsHardModeActor: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -4007,7 +4007,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -4098,7 +4098,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -4481,7 +4481,7 @@ Objs:
   SRTHash: 1116620301
   Translate: [-639.858154, 180.049103, 2862.50464]
   UnitConfigName: FldObj_CliffGashamahi_A_05
-- '!Parameters': {EquipItem1: Weapon_Spear_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Spear_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x67a7fcfd
   LinksToObj:
@@ -4681,7 +4681,7 @@ Objs:
     IsIchigekiActor: true
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
@@ -4755,7 +4755,7 @@ Objs:
     IsIchigekiActor: true
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -4805,7 +4805,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -4853,7 +4853,7 @@ Objs:
     IsHardModeActor: true
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 45.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -4961,7 +4961,7 @@ Objs:
   Translate: [-629.582214, 82.8622208, 2422.91431]
   UnitConfigName: FldObj_CliffGashamahi_A_06_Far
 - '!Parameters': {ArrowName: NormalArrow, EquipItem1: Weapon_Bow_003, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true,
-    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x711bf50c
   LinksToObj:
   - {DefinitionName: Reference, DestUnitHashId: !u 0xc856e271}
@@ -5035,7 +5035,7 @@ Objs:
   SRTHash: -988895845
   Translate: [-898.235229, 179.751175, 2293.46313]
   UnitConfigName: FldObj_CliffWhiteParts_A_03
-- '!Parameters': {EquipItem1: Weapon_Spear_011, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Spear_011, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x720adbb6
   LinksToObj:
@@ -5061,7 +5061,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -5156,7 +5156,7 @@ Objs:
   SRTHash: 1678394397
   Translate: [-581.15625, 90.0038071, 2637.46094]
   UnitConfigName: DragonDropItemTarget
-- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x740c3cda
   LinksToObj:
@@ -5184,7 +5184,7 @@ Objs:
     EquipItem4: Default
     IsHardModeActor: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -6247,7 +6247,7 @@ Objs:
   Scale: 3.0
   Translate: [-779.390442, 199.636841, 2133.01538]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {EquipItem1: Weapon_Spear_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Spear_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x8b9c6262
   LinksToObj:
@@ -6286,7 +6286,7 @@ Objs:
   Scale: 0.699999988
   Translate: [-36.1726379, 174.174545, 2869.05566]
   UnitConfigName: FldObj_RockDislocation_D_03
-- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x8c7d7cd0
   LinksToObj:
@@ -6331,7 +6331,7 @@ Objs:
     IsIchigekiActor: true
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RideHorseName: GameRomHorseBone_AllDay
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
@@ -6389,7 +6389,7 @@ Objs:
     IsCreateStalPart: true
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
@@ -6519,7 +6519,7 @@ Objs:
   SRTHash: 568704686
   Translate: [-757.674194, 122.933823, 2386.22949]
   UnitConfigName: FldObj_CliffWhiteLumpRock_A_01
-- '!Parameters': {EquipItem1: Weapon_Sword_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Sword_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x9283f557
   LinksToObj:
@@ -6633,7 +6633,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 90.0
@@ -6656,7 +6656,7 @@ Objs:
     EquipItem4: Default
     IsHardModeActor: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -7394,7 +7394,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RideHorseName: GameRomHorse21
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
@@ -7614,7 +7614,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 60.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -7854,7 +7854,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -8007,7 +8007,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -8037,7 +8037,7 @@ Objs:
     IsIchigekiActor: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 1
   HashId: !u 0xb5020bdd
@@ -8413,7 +8413,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xbbff1737
@@ -8505,7 +8505,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -8589,7 +8589,7 @@ Objs:
     EquipItem4: Default
     IsHardModeActor: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -9150,7 +9150,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -9186,7 +9186,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xcbf29488
@@ -9202,7 +9202,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -9322,7 +9322,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     StartNoDraw: true
@@ -9489,7 +9489,7 @@ Objs:
     IsIchigekiActor: true
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -9953,7 +9953,7 @@ Objs:
     EquipItem4: Default
     IsHardModeActor: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -10111,7 +10111,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 90.0
@@ -10192,7 +10192,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xe2c9810b
@@ -10271,7 +10271,7 @@ Objs:
     IsHardModeActor: true
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 45.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -10323,7 +10323,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xe5647494
@@ -10333,7 +10333,7 @@ Objs:
   SRTHash: 1394630280
   Translate: [-778.0, 194.949997, 2254.0]
   UnitConfigName: Weapon_Lsword_032
-- '!Parameters': {EquipItem1: Weapon_Sword_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Sword_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xe584c5c1
   LinksToObj:
@@ -10484,7 +10484,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 90.0
@@ -10620,7 +10620,7 @@ Objs:
   Scale: 0.5
   Translate: [-69.7895508, 93.3909454, 2334.32861]
   UnitConfigName: KorokAnswerResponce
-- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xea68a979
   LinksToObj:
@@ -10981,7 +10981,7 @@ Objs:
     EquipItem4: Default
     IsHardModeActor: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -11083,7 +11083,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -11516,7 +11516,7 @@ Objs:
   Translate: [-981.987183, 247.931396, 2017.42725]
   UnitConfigName: FldObj_FirstGateSnowEntrance_A_01
 - '!Parameters': {ArrowName: NormalArrow, EquipItem1: Weapon_Bow_003, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true,
-    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfd5ff0f9
   LinksToObj:
   - {DefinitionName: Reference, DestUnitHashId: !u 0x99fe0c33}
@@ -11538,7 +11538,7 @@ Objs:
   Translate: [-909.871826, 190.0, 2283.55273]
   UnitConfigName: FldObj_CliffWhiteEdgeParts_A_03_Far
 - '!Parameters': {ArrowName: NormalArrow, EquipItem1: Weapon_Bow_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
-    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfe459afc
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xfd48b8cc}
@@ -11620,7 +11620,7 @@ Objs:
     IsIchigekiActor: true
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RideHorseName: GameRomHorseBone_AllDay
     RotAngle: 0.0
     SharpWeaponJudgeType: 0

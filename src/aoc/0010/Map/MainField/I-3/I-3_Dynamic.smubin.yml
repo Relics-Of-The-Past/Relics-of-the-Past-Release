@@ -214,7 +214,7 @@ Objs:
   Scale: 1.0723511
   Translate: [3904.37598, 350.166504, -1211.77063]
   UnitConfigName: Obj_Plant_HopBush_A_01
-- '!Parameters': {DropActor: Weapon_Shield_025, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Shield_038, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x02a1726a
   Rotate: [-0.000319072657, 0.999991357, 3.71104179e-05]
   SRTHash: -306440560
@@ -1791,11 +1791,6 @@ Objs:
   SRTHash: -234587148
   Translate: [3743.23218, 339.824707, -1046.50513]
   UnitConfigName: Obj_TreeMaple_C_02
-- HashId: !u 0x2351a1af
-  Rotate: [-3.1247282, -0.291155547, 3.06553769]
-  SRTHash: -1275941238
-  Translate: [3662.2959, 195.161896, -1566.71387]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x236605c8
   Rotate: 4.84045649
@@ -2350,11 +2345,6 @@ Objs:
   SRTHash: -381127813
   Translate: [3429.80786, 337.915863, -1103.68896]
   UnitConfigName: FldObj_SoilRockZora_A_L_01
-- HashId: !u 0x2e907216
-  Rotate: [-3.08159232, 0.187826052, -3.14159226]
-  SRTHash: -1275941238
-  Translate: [3374.3999, 491.899994, -1456.19995]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0x2e9b5e27
   Rotate: [-2.96466613, 0.0198708046, -1.58411598]
   SRTHash: -689834211
@@ -2431,12 +2421,6 @@ Objs:
   SRTHash: 0
   Translate: [3321.75757, 517.917419, -1507.90625]
   UnitConfigName: EfLocater_GrudgeSolid_LL
-- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
-  HashId: !u 0x30923bb8
-  Rotate: 6.2460165
-  SRTHash: 1285263222
-  Translate: [3658.29883, 194.801987, -1599.36768]
-  UnitConfigName: Obj_TreeMaple_A_LL_01
 - HashId: !u 0x30d87147
   Rotate: 2.13999963
   SRTHash: 961572468
@@ -4654,6 +4638,12 @@ Objs:
   SRTHash: 1756745183
   Translate: [3730.8501, 194.209534, -1599.59717]
   UnitConfigName: FldObj_RuinGuardianArm_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x58835a23
+  Rotate: 4.58819342
+  SRTHash: 1813524836
+  Translate: [3641.79858, 195.350464, -1627.41882]
+  UnitConfigName: Obj_TreeMaple_A_02
 - HashId: !u 0x588b7d56
   Rotate: -1.17999971
   SRTHash: 1194958684
@@ -5321,26 +5311,6 @@ Objs:
   Scale: 1.06215215
   Translate: [3381.14697, 325.036316, -1246.10913]
   UnitConfigName: Obj_Plant_CypressLow_A_01
-- '!Parameters':
-    AddParam: 7
-    AddSpecialFlag: 5
-    DropTable: Normal
-    EnemyOwnItem: true
-    IsCreateSharpWeapon: false
-    IsEmitLandNoise: false
-    IsFixedPlace: true
-    IsPlayerPut: false
-    IsWeaponCreateByRawLife: false
-    LevelSensorMode: 2
-    Life: -1
-    SharpWeaponJudgeType: 3
-  HashId: !u 0x669262e4
-  LinksToObj:
-  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9ed2c6e2}
-  Rotate: [-1.32906163, -0.776596367, 2.8657608]
-  SRTHash: 0
-  Translate: [3707.04907, 200.636566, -1809.29626]
-  UnitConfigName: Weapon_Sword_024
 - HashId: !u 0x66a2ec84
   Rotate: [-1.13822663, 0.218312323, -0.432588875]
   SRTHash: 1101226564
@@ -5751,7 +5721,7 @@ Objs:
   UnitConfigName: Item_Mushroom_F
 - '!Parameters':
     AddParam: 22
-    AddSpecialFlag: 1
+    AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: false
     IsCreateSharpWeapon: false
@@ -6121,12 +6091,6 @@ Objs:
   SRTHash: 1634721029
   Translate: [2966.31763, 390.596283, -1470.71582]
   UnitConfigName: Obj_TreeMaple_B_02
-- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
-  HashId: !u 0x74a0958e
-  Rotate: -1.98000026
-  SRTHash: -1336625918
-  Translate: [3677.86816, 195.435379, -1639.94312]
-  UnitConfigName: Obj_TreeMaple_A_LL_01
 - HashId: !u 0x74a25ecc
   Rotate: [3.12577271, 1.00204885, 3.07496667]
   SRTHash: 961572468
@@ -6337,8 +6301,9 @@ Objs:
   UnitConfigName: FldObj_RuinGuardianArm_A_01
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x7813ad17
+  Rotate: [-0.433466166, 0.0, 0.159081966]
   SRTHash: 1653779844
-  Translate: [3398.22266, 208.988205, -1661.77124]
+  Translate: [3397.99463, 208.788208, -1661.77148]
   UnitConfigName: Obj_Mineral_B_01
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
   HashId: !u 0x78216f76
@@ -6715,13 +6680,13 @@ Objs:
     IsFixedPlace: false
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 3
     Life: -1
-    SharpWeaponJudgeType: 0
+    SharpWeaponJudgeType: 3
   HashId: !u 0x7f7cc177
   Rotate: [0.000177309528, 0.00275120838, -0.000208311103]
   SRTHash: 2076947417
-  Translate: [3257.16089, 489.919556, -1442.90967]
+  Translate: [3257.1731, 489.919556, -1442.8938]
   UnitConfigName: Weapon_Bow_002
 - HashId: !u 0x7f7fd823
   Rotate: [0.470441788, 0.152168512, -0.615929902]
@@ -7116,7 +7081,7 @@ Objs:
   SRTHash: 0
   Translate: [3301.66406, 323.023438, -1262.34766]
   UnitConfigName: EnvSeEmitPointInsectTemperate
-- '!Parameters': {DropActor: Weapon_Bow_014, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Bow_036, EnableRevival: false, LevelSensorMode: 1, SharpWeaponJudgeType: 3}
   HashId: !u 0x856ab5e2
   Rotate: [0.0175445843, -0.618275106, 0.0714346021]
   SRTHash: 388865725
@@ -7536,7 +7501,7 @@ Objs:
   Scale: 0.883001506
   Translate: [3376.88086, 323.954163, -1206.47192]
   UnitConfigName: Obj_Plant_CypressLow_A_01
-- '!Parameters': {DropActor: Obj_IceArrow_A_03, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_IceArrow_A_02, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x8d555dab
   Rotate: [-0.000448682753, 1.02011645, -0.000361415092]
   SRTHash: -1380656107
@@ -7962,10 +7927,6 @@ Objs:
   SRTHash: -1251616428
   Translate: [3475.71606, 206.661545, -1796.97485]
   UnitConfigName: Obj_LiftRockWhite_A_01
-- HashId: !u 0x9519645c
-  SRTHash: 1296348421
-  Translate: [3682.86011, 194.528534, -1610.96313]
-  UnitConfigName: Obj_TreeMaple_A_LL_01
 - HashId: !u 0x955d3bf5
   Rotate: [0.0469056107, 0.000546239782, -0.0232857019]
   SRTHash: 421051540
@@ -8493,11 +8454,6 @@ Objs:
   SRTHash: -1221272102
   Translate: [3169.32446, 303.046997, -1659.57288]
   UnitConfigName: EnvSeEmitPointInsectTemperate
-- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
-  HashId: !u 0x9ed2c6e2
-  SRTHash: -468716401
-  Translate: [3707.26929, 194.436569, -1809.5]
-  UnitConfigName: Obj_TreeBroadleafDead_B_L_01
 - HashId: !u 0x9edebfc0
   Rotate: [0.00878446549, 0.205288246, 0.0547213778]
   SRTHash: 1833659498
@@ -8519,24 +8475,6 @@ Objs:
   Scale: 0.955565989
   Translate: [3554.58203, 194.699615, -1857.01953]
   UnitConfigName: Obj_Plant_HopBush_A_02
-- '!Parameters':
-    AddParam: 5
-    AddSpecialFlag: 1
-    DropTable: Normal
-    EnemyOwnItem: true
-    IsCreateSharpWeapon: false
-    IsEmitLandNoise: false
-    IsFixedPlace: true
-    IsPlayerPut: false
-    IsWeaponCreateByRawLife: true
-    LevelSensorMode: 0
-    Life: -1
-    SharpWeaponJudgeType: 1
-  HashId: !u 0x9f2c07fb
-  Rotate: [-0.934067369, -0.776596367, 3.08064532]
-  SRTHash: 0
-  Translate: [3141.50537, 307.669556, -1699.90112]
-  UnitConfigName: Obj_AncientArrow_B_01
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x9f566b93
   Rotate: [-2.26329327, 0.740368724, -3.04096222]
@@ -8877,7 +8815,7 @@ Objs:
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xa3fd884c
   SRTHash: 1653779844
-  Translate: [3391.17798, 211.588211, -1666.8053]
+  Translate: [3391.18066, 211.588211, -1666.78552]
   UnitConfigName: Obj_Mineral_B_01
 - HashId: !u 0xa437639c
   Rotate: [0.0393680893, 0.744257092, -0.075299859]
@@ -9077,7 +9015,7 @@ Objs:
   UnitConfigName: EnvSeEmitPointInsectTemperate
 - '!Parameters':
     AddParam: 20
-    AddSpecialFlag: 1
+    AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: false
     IsCreateSharpWeapon: false
@@ -9496,7 +9434,7 @@ Objs:
   SRTHash: 1418857651
   Translate: [3626.93066, 340.940918, -1007.2793]
   UnitConfigName: Obj_Plant_HopBush_C_03
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 3}
   HashId: !u 0xafd6e9d9
   SRTHash: 1653779844
   Translate: [3398.69995, 208.988205, -1660.67822]
@@ -10765,28 +10703,8 @@ Objs:
   HashId: !u 0xc8f13615
   Rotate: [1.78871155, 0.0304571502, -0.136667997]
   SRTHash: -477795407
-  Translate: [3383.0, 493.900024, -1464.40002]
+  Translate: [3382.9873, 492.700012, -1464.38452]
   UnitConfigName: Weapon_Spear_014
-- '!Parameters':
-    AddParam: 5
-    AddSpecialFlag: 1
-    DropTable: Normal
-    EnemyOwnItem: true
-    IsCreateSharpWeapon: false
-    IsEmitLandNoise: false
-    IsFixedPlace: true
-    IsPlayerPut: false
-    IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
-    Life: -1
-    SharpWeaponJudgeType: 1
-  HashId: !u 0xc8f3eabe
-  LinksToObj:
-  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9ed2c6e2}
-  Rotate: [-2.54184699, -0.776596367, 2.19051886]
-  SRTHash: 0
-  Translate: [3708.36011, 198.236572, -1808.49548]
-  UnitConfigName: Obj_ElectricArrow_A_01
 - HashId: !u 0xc9071efb
   Rotate: [-0.0801670626, 0.477883607, 0.0120665357]
   SRTHash: 300122116
@@ -11444,7 +11362,7 @@ Objs:
   UnitConfigName: Item_Mushroom_J
 - '!Parameters':
     AddParam: 35
-    AddSpecialFlag: 1
+    AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: true
     IsCreateSharpWeapon: false
@@ -11860,24 +11778,6 @@ Objs:
   SRTHash: 352406977
   Translate: [3112.62329, 424.98764, -1298.40991]
   UnitConfigName: Obj_LiftRockWhite_Korok_A_01
-- '!Parameters':
-    AddParam: 5
-    AddSpecialFlag: 1
-    DropTable: Normal
-    EnemyOwnItem: true
-    IsCreateSharpWeapon: false
-    IsEmitLandNoise: false
-    IsFixedPlace: true
-    IsPlayerPut: false
-    IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
-    Life: -1
-    SharpWeaponJudgeType: 1
-  HashId: !u 0xdef1e20e
-  Rotate: [-0.934067369, -0.776596367, 3.08064532]
-  SRTHash: 0
-  Translate: [3141.27563, 307.669556, -1699.72876]
-  UnitConfigName: Obj_AncientArrow_B_01
 - HashId: !u 0xdf02cdca
   Rotate: 3.73103428
   SRTHash: -1090381727
@@ -11885,7 +11785,7 @@ Objs:
   UnitConfigName: Obj_TreeBroadleafLow_B_02
 - '!Parameters':
     AddParam: 0
-    AddSpecialFlag: 0
+    AddSpecialFlag: 4
     DropTable: Normal
     EnemyOwnItem: false
     IsCreateSharpWeapon: false
@@ -11893,7 +11793,7 @@ Objs:
     IsFixedPlace: false
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 3
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xdf0fe790
@@ -12480,11 +12380,6 @@ Objs:
   SRTHash: -433476938
   Translate: [3611.72021, 193.976334, -1235.16614]
   UnitConfigName: Animal_Fish_A
-- HashId: !u 0xeb8db6f0
-  Rotate: [0.0992665142, 0.277711928, 0.047901392]
-  SRTHash: -1275941238
-  Translate: [3687.48853, 200.668365, -1908.11694]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0xebbaf756
   Rotate: [-0.0874084234, 0.40373677, -1.34939349]
   SRTHash: -882065228
@@ -13447,8 +13342,8 @@ Objs:
   Translate: [3382.23901, 492.0, -1458.21082]
   UnitConfigName: FldObj_AkkareFortFlowerbed_A_01
 - '!Parameters':
-    AddParam: 5
-    AddSpecialFlag: 1
+    AddParam: 35
+    AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: true
     IsCreateSharpWeapon: false
@@ -13503,18 +13398,6 @@ Objs:
   Scale: 1.5
   Translate: [3662.36523, 199.91861, -1797.68091]
   UnitConfigName: PutRupee_Blue
-- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
-  HashId: !u 0x58835a23
-  Rotate: 4.58819342
-  SRTHash: 1813524836
-  Translate: [3641.79858, 195.350464, -1627.41882]
-  UnitConfigName: Obj_TreeMaple_A_02
-- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
-  HashId: !u 0x0324ccc4
-  Rotate: -0.359999985
-  SRTHash: -960699365
-  Translate: [3645.42041, 194.847641, -1614.04858]
-  UnitConfigName: Obj_TreeMaple_A_LL_01
 - '!Parameters':
     ArrowName: NormalArrow
     AttackIntervalIntensity: 100.0
@@ -13594,25 +13477,6 @@ Objs:
   SRTHash: 0
   Translate: [2971.29053, 391.304871, -1479.55139]
   UnitConfigName: Animal_Insect_F
-- '!Parameters':
-    ArrowName: NormalArrow
-    AttackIntervalIntensity: 100.0
-    DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    IsAnnihilateDungeonEnemy: false
-    IsNearCreate: false
-    LevelSensorMode: 0
-    NearCreateAppearID: 0
-    SharpWeaponJudgeType: 3
-    TerritoryArea: 0.0
-  HashId: !u 0xfffc9bda
-  Rotate: -6.5999999
-  SRTHash: 0
-  Translate: [3229.45312, 421.343475, -1848.83594]
-  UnitConfigName: Enemy_Guardian_Mini_Baby_Dark
 - '!Parameters': {DropActor: Obj_StaminaUtuwa_B, DropTable: Normal, EnableRevival: false, IsHardModeActor: false, IsInGround: false,
     SharpWeaponJudgeType: 3}
   HashId: !u 0xfffc9bdc
@@ -13646,4 +13510,20 @@ Objs:
   SRTHash: 0
   Translate: [3533.51636, 340.21991, -1156.36768]
   UnitConfigName: Item_Mushroom_L
+- '!Parameters': {LevelSensorMode: 1}
+  HashId: !u 0xfffc9bed
+  SRTHash: 0
+  Translate: [3688.37769, 337.61792, -1114.42444]
+  UnitConfigName: Enemy_Place_Holder
+- '!Parameters': {LevelSensorMode: 2}
+  HashId: !u 0xfffc9bef
+  Rotate: [-3.11568236, 1.20135045, -3.09669328]
+  SRTHash: -1800989519
+  Translate: [3374.47583, 491.899994, -1456.16699]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- HashId: !u 0x3dc5718d
+  Rotate: [-3.12557673, -0.291099757, -3.07514858]
+  SRTHash: -1800989519
+  Translate: [3690.50391, 194.552155, -1851.26697]
+  UnitConfigName: FldObj_RuinGuardian_A_Dynamic
 Rails: []

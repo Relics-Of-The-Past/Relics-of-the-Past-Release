@@ -108,7 +108,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0x029906cb
@@ -574,7 +574,7 @@ Objs:
   Scale: 1.29999995
   Translate: [-1452.45654, 321.727875, 1942.05774]
   UnitConfigName: Obj_RockSnow_A_01
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Rupee, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x0b011748
   Rotate: [0.0191038288, 0.000637519232, -0.0667157769]
   SRTHash: 1675612834
@@ -2123,7 +2123,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0x29f3ff6f
@@ -3100,7 +3100,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0x3d101608
@@ -3441,7 +3441,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -4392,7 +4392,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0x56eb8435
@@ -5294,7 +5294,7 @@ Objs:
   Translate: [-1657.15857, 152.266541, 2306.8645]
   UnitConfigName: Obj_TreeDead_A_01
 - '!Parameters': {ArrowName: NormalArrow, EquipItem1: Weapon_Bow_003, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true,
-    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x66b4cc0f
   Rotate: 2.81999993
   SRTHash: -1810924481
@@ -5306,7 +5306,7 @@ Objs:
   Scale: 1.04783666
   Translate: [-1663.94824, 263.103394, 2713.5752]
   UnitConfigName: Obj_Plant_HopBush_C_02
-- '!Parameters': {EquipItem1: Weapon_Sword_060, IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 0,
+- '!Parameters': {EquipItem1: Weapon_Sword_060, IsNearCreate: false, LevelSensorMode: 1, NearCreateAppearID: 0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0}
   HashId: !u 0x66e93d96
   Rotate: 0.0400001816
@@ -5648,7 +5648,7 @@ Objs:
     IsDrop: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     NearCreateAppearType: 0
     RotAngle: 0.0
@@ -6514,14 +6514,14 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0x7ef25a4c
   Rotate: -2.29999828
   SRTHash: -1361032261
   Translate: [-1679.03186, 93.1254807, 2370.46167]
-  UnitConfigName: Enemy_Keese
+  UnitConfigName: Enemy_Keese_Fire
 - HashId: !u 0x7ef25d41
   Rotate: [2.96655202, 1.01150405, 2.85111332]
   SRTHash: 1923593270
@@ -6635,7 +6635,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x828b6630
@@ -7546,7 +7546,7 @@ Objs:
   Scale: 0.901761234
   Translate: [-1124.70068, 191.42244, 2436.51538]
   UnitConfigName: Obj_Plant_CypressLow_A_02
-- '!Parameters': {DropActor: Item_Ore_E, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Enemy_30, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x9537e74f
   Rotate: [-0.509420156, 0.752740681, -0.685075998]
   SRTHash: -684895329
@@ -7887,7 +7887,7 @@ Objs:
     IsFixedPlace: false
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x9ba6b84f
@@ -8443,7 +8443,7 @@ Objs:
     EquipItem4: Default
     IsMimicry: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -9021,8 +9021,8 @@ Objs:
   Translate: [-1267.43384, 175.35112, 2479.63428]
   UnitConfigName: Obj_Plant_HopBush_C_02
 - '!Parameters':
-    AddParam: 19
-    AddSpecialFlag: 1
+    AddParam: 35
+    AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: false
     IsCreateSharpWeapon: false
@@ -9030,7 +9030,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 3
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xb41f19a7
@@ -9262,7 +9262,7 @@ Objs:
     IsFixedPlace: false
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xb85bcb41
@@ -9542,14 +9542,14 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0xbf7c858c
   Rotate: -2.29999828
   SRTHash: 1127420295
   Translate: [-1676.3667, 93.1254807, 2367.47876]
-  UnitConfigName: Enemy_Keese
+  UnitConfigName: Enemy_Keese_Electric
 - HashId: !u 0xbf810cdf
   Rotate: [-0.510077834, -1.0728184, -3.13850117]
   SRTHash: 2143195625
@@ -9758,7 +9758,7 @@ Objs:
   SRTHash: 393589408
   Translate: [-1092.87891, 250.833557, 2160.08447]
   UnitConfigName: TBox_Field_Iron
-- '!Parameters': {GolemSleepType: SleepForward_A, GolemWeakPointLocation: Point_C, IsNearCreate: false, LevelSensorMode: 0,
+- '!Parameters': {GolemSleepType: SleepForward_A, GolemWeakPointLocation: Point_C, IsNearCreate: false, LevelSensorMode: 1,
     SharpWeaponJudgeType: 0, TerritoryArea: 0.0, UniqueNameMessageLabel: 'Golem_[D-7]C32368A8'}
   HashId: !u 0xc32368a8
   SRTHash: -81534789
@@ -11316,7 +11316,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 60.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -12590,7 +12590,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0xf9d7ffe6
@@ -12780,7 +12780,7 @@ Objs:
     IsDrop: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     NearCreateAppearType: 0
     RotAngle: 0.0
@@ -13005,7 +13005,7 @@ Objs:
   SRTHash: 0
   Translate: [-1396.59949, 316.27121, 2014.69324]
   UnitConfigName: Enemy_Lizalfos_Senior
-- '!Parameters': {IsFixedPlace: true}
+- '!Parameters': {IsFixedPlace: true, NoFlag: true}
   HashId: !u 0xffcf4f77
   SRTHash: 0
   Scale: 1.0
@@ -13026,7 +13026,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0xffcf4f7d
@@ -13043,7 +13043,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0xffcf4f7e
@@ -13081,7 +13081,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xffcf4f82
@@ -13116,7 +13116,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0xffcf4f88
@@ -13140,4 +13140,122 @@ Objs:
   SRTHash: -1142075352
   Translate: [-1074.0, 322.600006, 2297.1001]
   UnitConfigName: Enemy_Keese_Ice_AllDay
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_50, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffa4a74
+  Rotate: [-3.14110279, 0.760806382, -3.1411922]
+  SRTHash: -325042393
+  Translate: [-1671.12292, 130.622543, 2200.50537]
+  UnitConfigName: TBox_Field_Wood
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfffa4a7a
+  Rotate: -0.200000048
+  SRTHash: 564413069
+  Translate: [-1918.73206, 247.386383, 2382.40967]
+  UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, IsSuspended: false,
+    LevelSensorMode: 1}
+  HashId: !u 0xfffa4a7b
+  Rotate: [0.244046375, 2.79999995, 0.00643190229]
+  SRTHash: 1466309386
+  Translate: [-1932.9751, 258.523499, 2477.72534]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Sand
+- '!Parameters': {ChaseRange: 1200.0, DropTable: Normal, GuardianLegType0: Guardian_A_BrokenLeg_L_Sand, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_BrokenLeg_L_Sand, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xfffa4a7c
+  Rotate: [0.0, -0.400000006, 0.0]
+  SRTHash: 1466309386
+  Translate: [-1795.6571, 260.064423, 2668.64331]
+  UnitConfigName: Enemy_Guardian_A_Sand
+- '!Parameters':
+    EquipItem1: Weapon_Sword_009
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    TraversePos: {X: -1808.052, Y: 220.4319, Z: 2787.75708}
+    TraverseRadiusXZ: 12.2911797
+    WaitTime: 1.0
+  HashId: !u 0xfffa4a7e
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x9873d4fe}
+  Rotate: 0.50000006
+  SRTHash: -1863404717
+  Translate: [-1813.16174, 220.105469, 2794.29468]
+  UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters':
+    ArrowName: AncientArrow
+    EquipItem1: Weapon_Bow_009
+    EquipItem3: LizalfosPipe
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfffa4a7f
+  Rotate: 5.0
+  SRTHash: 564413069
+  Translate: [-1824.95886, 223.72821, 2805.64893]
+  UnitConfigName: Enemy_Lizalfos_Junior
+- '!Parameters': {DropTable: Happy, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffa4a8a
+  Rotate: [-0.340000004, 0.0, -0.800000012]
+  SRTHash: 0
+  Scale: [1.0, 1.0, 1.0]
+  Translate: [-1530.58728, 88.5926285, 2238.51685]
+  UnitConfigName: Obj_Mineral_B_01
+- '!Parameters': {DropTable: Happy, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffa4a8b
+  Rotate: [-0.789153814, 0.0, 0.376546174]
+  SRTHash: 0
+  Scale: [1.0, 1.0, 1.0]
+  Translate: [-1515.65076, 87.5926285, 2241.28296]
+  UnitConfigName: Obj_Mineral_B_01
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: true
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 1
+    Life: -1
+    SharpWeaponJudgeType: 3
+  HashId: !u 0xfffa4a8d
+  Rotate: [1.5695864, 0.0, 0.402987003]
+  SRTHash: 0
+  Translate: [-1519.60913, 88.590744, 2233.25806]
+  UnitConfigName: Weapon_Spear_024
+- '!Parameters':
+    ArrowName: NormalArrow
+    EquipItem1: Weapon_Bow_003
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RideHorseName: GameRomHorse23
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfffa4a8f
+  Rotate: -3.1400001
+  SRTHash: -413425671
+  Translate: [-1086.71045, 177.396866, 2944.85132]
+  UnitConfigName: Enemy_Place_Holder_02
 Rails: []

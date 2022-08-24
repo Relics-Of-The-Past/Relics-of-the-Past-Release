@@ -1238,7 +1238,7 @@ Objs:
     TerritoryArea: 0.0
   HashId: !u 0x0b618b64
   SRTHash: 1257283389
-  Translate: [3288.67529, 511.291321, -1574.5874]
+  Translate: [3286.62793, 511.291321, -1574.67212]
   UnitConfigName: Npc_HiddenKorokGround
 - '!Parameters':
     ArrowName: NormalArrow
@@ -4309,11 +4309,6 @@ Objs:
   SRTHash: -658680831
   Translate: [3340.62891, 406.304108, -1611.85925]
   UnitConfigName: FldObj_CliffDeathMt_E_12
-- HashId: !u 0x3dc5718d
-  Rotate: [-3.12557673, -0.291099757, -3.07514858]
-  SRTHash: -1800989519
-  Translate: [3690.50391, 194.552155, -1851.26697]
-  UnitConfigName: FldObj_RuinGuardian_A_Dynamic
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x3dd11088
   LinksToObj:
@@ -7472,11 +7467,6 @@ Objs:
   SRTHash: -2041423645
   Translate: [3169.26587, 347.993835, -1596.35754]
   UnitConfigName: FldObj_CliffDeathMt_E_14_Far
-- HashId: !u 0x6cf21212
-  Rotate: [-3.11568236, 1.20135045, -3.09669328]
-  SRTHash: -1800989519
-  Translate: [3709.27295, 194.504562, -1577.44897]
-  UnitConfigName: FldObj_RuinGuardian_A_Dynamic
 - HashId: !u 0x6d14ddbd
   Rotate: -1.94318509
   SRTHash: -1148054512
@@ -8473,13 +8463,11 @@ Objs:
   Scale: 0.899999976
   Translate: [3972.63184, 233.365555, -1619.55371]
   UnitConfigName: Obj_Plant_HopBush_D_01
-- '!Parameters': {DropTable: RuinGuardian, InitMotionStatus: 0, IsPlayerPut: false, SharpWeaponJudgeType: 0, TresasureSpotType: 1}
+- '!Parameters': {DropActor: Item_Enemy_31, InitMotionStatus: 0, IsPlayerPut: false, SharpWeaponJudgeType: 0, TresasureSpotType: 1}
   HashId: !u 0x7b890651
-  LinksToObj:
-  - {DefinitionName: Reference, DestUnitHashId: !u 0x6cf21212}
   Rotate: 1.94000006
   SRTHash: 358499500
-  Translate: [3709.27271, 195.979645, -1577.45312]
+  Translate: [3709.27051, 195.979645, -1577.43323]
   UnitConfigName: TreasureSpot_00
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 2, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x7b8956ca
@@ -13325,7 +13313,7 @@ Objs:
   HashId: !u 0xc00e8cb9
   SRTHash: 602455917
   Scale: 280.0
-  Translate: [3296.65137, 482.207642, -1415.63159]
+  Translate: [3296.66479, 482.207642, -1415.64648]
   UnitConfigName: AreaCulling_OuterNPCMementary
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xc00f5723
@@ -13623,7 +13611,7 @@ Objs:
   SRTHash: 1091069879
   Translate: [3878.90234, 344.426331, -1141.92432]
   UnitConfigName: FldObj_CliffAkkare_A_05_Far
-- '!Parameters': {DropTable: __none__, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Item_Ore_A, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xc218acad
   LinksToObj:
   - '!Parameters': {NoAutoDemoMember: false}
@@ -15103,9 +15091,9 @@ Objs:
     GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
     IsSuspended: true, SharpWeaponJudgeType: 1}
   HashId: !u 0xd67a3179
-  Rotate: [0.357229531, 1.0, 6.72647429]
+  Rotate: [0.0884215236, 1.0, 6.50344467]
   SRTHash: -400226972
-  Translate: [3704.89282, 195.261139, -1838.90247]
+  Translate: [3704.88379, 194.661133, -1838.92029]
   UnitConfigName: Enemy_Guardian_A_Fixed_Moss
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: MapTower_07_Demo, SaveFlagOnOffType: 0}
   HashId: !u 0xd67d68b9
@@ -18110,9 +18098,9 @@ Objs:
     TerritoryArea: 0.0
     WaitTime: 1.0
   HashId: !u 0xfffc9bd6
-  Rotate: 1.14159274
+  Rotate: 1.54159272
   SRTHash: -1989257685
-  Translate: [2997.7627, 387.367493, -1297.81396]
+  Translate: [3000.84033, 387.367493, -1290.27478]
   UnitConfigName: Enemy_Lizalfos_Gold
 - '!Parameters':
     ArrowName: NormalArrow
@@ -18218,12 +18206,8 @@ Objs:
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
-    TraversePos: {X: 3680.19507, Y: 336.356812, Z: -1082.01404}
-    TraverseRadiusXZ: 28.5107498
     WaitTime: 1.0
   HashId: !u 0xfffc9be0
-  LinksToRail:
-  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x30989276}
   Rotate: -0.539999962
   SRTHash: 564440225
   Translate: [3684.78564, 337.601166, -1075.34583]
@@ -18240,20 +18224,163 @@ Objs:
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
-    TraversePos: {X: 3625.17407, Y: 334.844604, Z: -1164.10303}
-    TraverseRadiusXZ: 21.0513496
     WaitTime: 1.0
   HashId: !u 0xfffc9be1
-  LinksToRail:
-  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x69910929}
-  Rotate: 2.57999992
-  SRTHash: 1528006834
+  Rotate: -0.539999962
+  SRTHash: 564440225
   Translate: [3659.25415, 336.912415, -1142.0199]
   UnitConfigName: Enemy_Lizalfos_Fire
 - HashId: !u 0xfffc9be6
   SRTHash: 0
   Translate: [3664.34375, 323.937714, -1028.36365]
   UnitConfigName: FldObj_RuinGuardian_Static
+- '!Parameters': {LevelSensorMode: 1}
+  HashId: !u 0xfffc9be8
+  Rotate: [-3.1247282, -0.291155547, 3.06553769]
+  SRTHash: -1800989519
+  Translate: [3662.2959, 195.161896, -1566.71387]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xfffc9bee
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: Delete
+    DestUnitHashId: !u 0x2e907216
+  SRTHash: -8745
+  Translate: [3371.24316, 496.939728, -1455.19922]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x30923bb8
+  Rotate: 6.2460165
+  SRTHash: 1285263222
+  Translate: [3658.29883, 194.801987, -1599.36768]
+  UnitConfigName: Obj_TreeMaple_A_LL_01
+- HashId: !u 0x9519645c
+  SRTHash: 1296348421
+  Translate: [3682.86011, 194.528534, -1610.96313]
+  UnitConfigName: Obj_TreeMaple_A_LL_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x74a0958e
+  Rotate: -1.98000026
+  SRTHash: -1336625918
+  Translate: [3677.86816, 195.435379, -1639.94312]
+  UnitConfigName: Obj_TreeMaple_A_LL_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0324ccc4
+  Rotate: -0.359999985
+  SRTHash: -960699365
+  Translate: [3645.42041, 194.847641, -1614.04858]
+  UnitConfigName: Obj_TreeMaple_A_LL_01
+- HashId: !u 0x2e907216
+  Rotate: [-3.08159232, 0.187826052, -3.14159226]
+  SRTHash: -1275941238
+  Translate: [3374.41577, 493.299988, -1456.18774]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- HashId: !u 0x6cf21212
+  Rotate: [-3.11568236, 1.20135045, -3.09669328]
+  SRTHash: -1800989519
+  Translate: [3709.27295, 194.504562, -1577.44897]
+  UnitConfigName: FldObj_RuinGuardian_A_Dynamic
+- HashId: !u 0x2351a1af
+  Rotate: [-3.1247282, -0.291155547, 3.06553769]
+  SRTHash: -1275941238
+  Translate: [3662.2959, 195.161896, -1566.71387]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- HashId: !u 0xfffc9bf1
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x2351a1af}
+  SRTHash: 0
+  Translate: [3662.66821, 201.558105, -1566.87146]
+  UnitConfigName: LinkTagAnd
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: true
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 1
+    Life: -1
+    SharpWeaponJudgeType: 3
+  HashId: !u 0x669262e4
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x9ed2c6e2}
+  Rotate: [-1.32906163, -0.776596367, 2.8657608]
+  SRTHash: 0
+  Translate: [3708.46338, 195.636566, -1810.43872]
+  UnitConfigName: Weapon_Sword_024
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: true
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 1
+  HashId: !u 0xc8f3eabe
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x9ed2c6e2}
+  Rotate: [-2.54184699, -0.776596367, 2.19051886]
+  SRTHash: 0
+  Translate: [3708.36011, 198.236572, -1808.49548]
+  UnitConfigName: Obj_ElectricArrow_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9ed2c6e2
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfffc9bf6}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x669262e4}
+  SRTHash: -468716401
+  Translate: [3707.26929, 194.436569, -1809.5]
+  UnitConfigName: Obj_TreeBroadleafDead_B_L_01
+- HashId: !u 0xeb8db6f0
+  Rotate: [0.0992665142, 0.277711928, 0.047901392]
+  SRTHash: -1275941238
+  Translate: [3687.48853, 200.668365, -1908.11694]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- HashId: !u 0xfffc9bf2
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xeb8db6f0}
+  SRTHash: 0
+  Translate: [3687.44116, 206.776672, -1907.97156]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ChaseRange: 1200.0, IsSuspended: true, LevelSensorMode: 1}
+  HashId: !u 0xfffc9bf3
+  Rotate: [0.0, 0.0, 0.0]
+  SRTHash: 1466309386
+  Translate: [3687.48853, 200.668365, -1908.11694]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Stalker
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xfffc9bf4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfffc9bf5
+  Rotate: 0.400000006
+  SRTHash: 0
+  Scale: [30.0, 10.0, 30.0]
+  Translate: [3686.46265, 211.763733, -1906.54004]
+  UnitConfigName: Area
+- HashId: !u 0xfffc9bf5
+  LinksToObj:
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfffc9bf3}
+  SRTHash: 0
+  Translate: [3685.14844, 206.815353, -1911.52673]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xfffc9bf6
+  LinksToObj:
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0x669262e4}
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xc8f3eabe}
+  SRTHash: 0
+  Translate: [3708.70044, 198.29483, -1811.32886]
+  UnitConfigName: LinkTagAnd
 Rails:
 - HashId: !u 0xfffc9bcf
   IsClosed: false

@@ -9,7 +9,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x00feab57
@@ -550,7 +550,7 @@ Objs:
     IsFixedPlace: false
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x16f776ae
@@ -572,7 +572,7 @@ Objs:
     EquipItem4: Default
     IsIchigekiActor: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     PatternID: -1
     SharpWeaponJudgeType: 0
     SubUnitNum: 0
@@ -591,7 +591,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0x17b141ae
@@ -931,7 +931,7 @@ Objs:
     EquipItem3: Default
     EquipItem4: Default
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -971,7 +971,7 @@ Objs:
   SRTHash: -1115891533
   Translate: [-470.126312, 95.8269196, 2908.3894]
   UnitConfigName: FldObj_KorokStone_A_01
-- '!Parameters': {EquipItem1: Weapon_Spear_012, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Spear_012, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x2a4c598f
   Rotate: 2.59999967
@@ -1619,7 +1619,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -1685,7 +1685,7 @@ Objs:
   SRTHash: -417677388
   Translate: [-875.615417, 233.095367, 2031.49719]
   UnitConfigName: Obj_TreeWhiteBirch_A_04
-- '!Parameters': {EquipItem1: Weapon_Sword_060, IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 0,
+- '!Parameters': {EquipItem1: Weapon_Sword_060, IsNearCreate: false, LevelSensorMode: 1, NearCreateAppearID: 0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0}
   HashId: !u 0x46490821
   Rotate: 2.78000045
@@ -1702,7 +1702,7 @@ Objs:
     IsFixedPlace: false
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x46c80df3
@@ -1952,7 +1952,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0x4fddf86f
@@ -2108,7 +2108,7 @@ Objs:
   SRTHash: 749139092
   Translate: [-892.916992, 265.094666, 2670.40454]
   UnitConfigName: Obj_TreeConiferous_A_01
-- '!Parameters': {EquipItem1: Weapon_Sword_060, IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 0,
+- '!Parameters': {EquipItem1: Weapon_Sword_060, IsNearCreate: false, LevelSensorMode: 1, NearCreateAppearID: 0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0}
   HashId: !u 0x577ca1ed
   Rotate: -0.680000186
@@ -2143,7 +2143,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -2439,7 +2439,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x6795eb60
@@ -2644,7 +2644,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x7266d6ef
@@ -2884,7 +2884,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x7e979c69
@@ -2942,7 +2942,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0x8186f0a5
@@ -2983,7 +2983,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 40.0
@@ -3068,7 +3068,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x86d8c5e9
@@ -3143,7 +3143,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x89f24e88
@@ -3242,7 +3242,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0x8e5327af
@@ -4073,7 +4073,7 @@ Objs:
     EquipItem4: Default
     IsMimicry: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
@@ -4144,7 +4144,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -4173,7 +4173,7 @@ Objs:
   Scale: 0.933104992
   Translate: [-722.675781, 190.041962, 2177.46094]
   UnitConfigName: Obj_Plant_CypressLow_A_02
-- '!Parameters': {EquipItem1: Weapon_Sword_003, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Sword_003, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xb428cc2c
   Rotate: 3.0
@@ -4580,7 +4580,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xc4a5808e
@@ -4881,7 +4881,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 60.0
@@ -5068,7 +5068,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 60.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -5150,7 +5150,7 @@ Objs:
     EquipItem4: Default
     IsIchigekiActor: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     PatternID: -1
     SharpWeaponJudgeType: 0
     SubUnitNum: 0
@@ -5242,7 +5242,7 @@ Objs:
     IsFixedPlace: false
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xe0bf0647
@@ -5429,7 +5429,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -5632,7 +5632,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xeb5c1f51
@@ -5702,7 +5702,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 40.0
@@ -6037,7 +6037,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xfc406908

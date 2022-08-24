@@ -1403,7 +1403,7 @@ Objs:
   HashId: !u 0x11a11f9b
   Rotate: 0.00214340654
   SRTHash: 1954440254
-  Translate: [-498.39093, 166.730377, -935.971252]
+  Translate: [-481.498596, 157.930374, -1035.82373]
   UnitConfigName: Enemy_Guardian_A_Moss
 - HashId: !u 0x11b3a342
   Rotate: [3.12514949, 4.11478567, 3.12514949]
@@ -3952,11 +3952,6 @@ Objs:
   SRTHash: -1667639341
   Translate: [-444.88266, 161.464813, -1025.72424]
   UnitConfigName: Pot
-- HashId: !u 0x3699b8c4
-  Rotate: [-0.21655637, 0.0390795693, 0.175751254]
-  SRTHash: 17421495
-  Translate: [-196.69458, 146.34935, -260.924316]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0x369b1d60
   Rotate: 1.15999937
   SRTHash: 1158560873
@@ -4345,11 +4340,6 @@ Objs:
   SRTHash: -1037286778
   Translate: [-98.5073242, 133.295151, -300.539978]
   UnitConfigName: Obj_TreeBurned_A_01
-- HashId: !u 0x3c8d976e
-  Rotate: [2.88231254, -0.714728892, 3.04396701]
-  SRTHash: -1750570648
-  Translate: [-612.925903, 131.672623, -176.741364]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x3cb524fb
   Rotate: [0.0455315076, 0.00493220054, -0.0128546339]
@@ -4439,11 +4429,6 @@ Objs:
   SRTHash: 830716977
   Translate: [-854.824463, 120.099503, -730.164246]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- HashId: !u 0x3e253ca2
-  Rotate: [0.0, 0.320000142, -0.119999997]
-  SRTHash: 18425004
-  Translate: [-325.286377, 124.840096, -215.459442]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0x3e630a70
   SRTHash: -60413210
   Translate: [-356.475677, 229.156738, -972.307678]
@@ -8822,11 +8807,6 @@ Objs:
   SRTHash: 1599474614
   Translate: [-920.444275, 141.287949, -697.383911]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- HashId: !u 0x780c9fd4
-  Rotate: [-0.210969925, 0.113363698, -0.323537737]
-  SRTHash: 18425004
-  Translate: [-401.430695, 123.431839, -164.874329]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - '!Parameters':
     AddParam: 0
     AddSpecialFlag: 0
@@ -8949,11 +8929,6 @@ Objs:
   SRTHash: 1374846307
   Translate: [-459.799316, 133.042313, -282.499664]
   UnitConfigName: Obj_TreeBroadleafLow_Branch_B_01
-- HashId: !u 0x799e45b6
-  Rotate: [0.491115153, 0.635375559, 0.42736271]
-  SRTHash: -1600652088
-  Translate: [-447.10498, 124.522171, -97.4076538]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0x79db196e
   Rotate: [0.793150365, -1.29363954, -0.812592208]
   SRTHash: 1206471067
@@ -10147,11 +10122,6 @@ Objs:
   SRTHash: 1266349564
   Translate: [-717.11084, 120.294113, -856.611389]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- HashId: !u 0x8821330b
-  Rotate: [-0.0647600591, -0.90217793, 0.130651042]
-  SRTHash: 18425004
-  Translate: [-665.710327, 119.323677, -751.277283]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0x8838d31e
   Rotate: [2.96940756, 0.292306751, 2.82713294]
   SRTHash: 1689569519
@@ -11090,11 +11060,6 @@ Objs:
   SRTHash: -1139359262
   Translate: [-772.046997, 120.431946, -735.757874]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- HashId: !u 0x97044595
-  Rotate: [0.582704723, 0.28244257, -0.334344566]
-  SRTHash: 18425004
-  Translate: [-532.290039, 153.026596, -131.372375]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0x97049a0d
   Rotate: [-0.386895537, -0.906655133, 0.363582492]
   SRTHash: 0
@@ -11306,7 +11271,7 @@ Objs:
   SRTHash: 244654367
   Translate: [-52.4541626, 145.113373, -1093.94788]
   UnitConfigName: Obj_TreeBroadleafLow_Branch_B_02
-- '!Parameters': {DropActor: Obj_FireArrow_A_03, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_50, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x9b64ed7a
   Rotate: [0.126924619, 0.0210510623, -0.148295626]
   SRTHash: 379669900
@@ -11521,11 +11486,6 @@ Objs:
   Scale: 1.50000012
   Translate: [-666.482117, 139.803345, -425.94165]
   UnitConfigName: Item_Material_04
-- HashId: !u 0x9e48a747
-  Rotate: [0.0, 0.0, 0.160000011]
-  SRTHash: 18425004
-  Translate: [-155.144989, 126.866409, -125.91864]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0x9e688bbd
   Rotate: 2.87728977
   SRTHash: 1739659242
@@ -12817,7 +12777,7 @@ Objs:
   SRTHash: -422388686
   Translate: [-323.541077, 124.946999, -214.016846]
   UnitConfigName: FldObj_RuinGuardianArm_A_01
-- '!Parameters': {DropActor: Obj_IceArrow_A_03, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_AncientArrow_B_01, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xafbb04ae
   Rotate: 0.139999986
   SRTHash: 997115593
@@ -13893,11 +13853,6 @@ Objs:
   SRTHash: -2003954561
   Translate: [-693.538879, 125.25779, -158.032135]
   UnitConfigName: FldObj_RuinGuardianArm_A_04
-- HashId: !u 0xbee03b49
-  Rotate: [-0.210181922, 0.240256533, 0.165968597]
-  SRTHash: -1617491492
-  Translate: [-76.7190857, 126.626976, -188.751251]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0xbeeaebd4
   Rotate: [-0.150577217, 0.00318507105, 0.0422187448]
   SRTHash: 1032938765
@@ -15858,10 +15813,6 @@ Objs:
   SRTHash: -64976339
   Translate: [-221.221161, 125.946793, -43.2323914]
   UnitConfigName: Item_Mushroom_A
-- HashId: !u 0xdad0d86c
-  SRTHash: 18425004
-  Translate: [-605.198242, 147.608398, -382.483612]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - '!Parameters':
     AddParam: 0
     AddSpecialFlag: 0
@@ -16862,7 +16813,7 @@ Objs:
   HashId: !u 0xe9336b24
   Rotate: [0.0797477067, -2.20039988, 0.0100222193]
   SRTHash: -1609697573
-  Translate: [-282.521301, 219.853943, -804.677856]
+  Translate: [-282.501343, 219.853943, -804.679016]
   UnitConfigName: Enemy_Guardian_Mini_Senior_Dark
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xe94c2591
@@ -16962,11 +16913,6 @@ Objs:
   SRTHash: 55615837
   Translate: [-844.754272, 124.115692, -277.573608]
   UnitConfigName: Obj_TreeDeadLeaf_A_01
-- HashId: !u 0xea79ffd2
-  Rotate: [0.336920708, 0.0465526171, -0.132081226]
-  SRTHash: 18425004
-  Translate: [-117.651276, 126.624588, -203.777344]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0xea9003a6
   Rotate: -0.703186512
   SRTHash: -1857639288
@@ -17367,7 +17313,7 @@ Objs:
   SRTHash: 868687403
   Translate: [-717.207153, 119.804718, -838.750183]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- '!Parameters': {DropActor: PutRupee_Silver, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_100, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xefc095ed
   Rotate: [-0.145808294, 0.0280698407, 0.192786932]
   SRTHash: -1432821188
@@ -18691,4 +18637,60 @@ Objs:
   SRTHash: 740260748
   Translate: [-658.552979, 120.239502, -830.483398]
   UnitConfigName: Obj_TreeBurned_A_02
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Weapon_Sword_014, EquipItem2: Weapon_Shield_015,
+    EquipItem3: Weapon_Lsword_015, IsAnnihilateDungeonEnemy: true, IsWatchKeeping: true, LevelSensorMode: 3, RotAngle: 60.0,
+    SharpWeaponJudgeType: 3}
+  HashId: !u 0xffecf677
+  Rotate: [0.0797477067, -1.20039988, 0.0100222193]
+  SRTHash: -1609697573
+  Translate: [-207.923004, 179.679535, -720.197693]
+  UnitConfigName: Enemy_Guardian_Mini_Senior_Dark
+- '!Parameters':
+    ArrowName: AncientArrow
+    EquipItem1: Weapon_Bow_032
+    EquipItem3: MoriblinPipe
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffecf684
+  Rotate: -3.53999996
+  SRTHash: -1923163669
+  Translate: [-1050.6554, 151.066925, -392.539764]
+  UnitConfigName: Enemy_Moriblin_Gold
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffecf685
+  Rotate: [0.0, 0.0, 0.0]
+  SRTHash: 1466309386
+  Translate: [-950.544312, 164.322342, -624.890381]
+  UnitConfigName: Enemy_Guardian_B
+- '!Parameters':
+    ArrowName: AncientArrow
+    EquipItem1: Weapon_Bow_032
+    EquipItem3: MoriblinPipe
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffecf69c
+  Rotate: -0.339999974
+  SRTHash: -1923163669
+  Translate: [-1006.80884, 148.466919, -451.608368]
+  UnitConfigName: Enemy_Moriblin_Gold
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xffecf69e
+  Rotate: [0.0, 0.320000142, -0.119999997]
+  SRTHash: 1466309386
+  Translate: [-325.286377, 124.840096, -215.459442]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
 Rails: []

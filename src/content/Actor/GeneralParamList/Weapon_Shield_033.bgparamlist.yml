@@ -8,7 +8,7 @@ param_root: !list
       IsGetItemSelf: false
     General: !obj
       Speed: 35.0
-      Life: 30
+      Life: 35
       IsLifeInfinite: false
       ElectricalDischarge: 1.0
       IsBurnOutBorn: false
@@ -16,7 +16,7 @@ param_root: !list
       IsBurnOutBornIdent: false
       ChangeDropTableName: ''
     Attack: !obj
-      Power: 15
+      Power: 60
       Impulse: 2
       ImpulseLarge: 0
       Range: 0.5
@@ -30,7 +30,7 @@ param_root: !list
       PlayerEqScale: 1.0
       EnemyEqScale: 1.5
       GuardPower: 70
-      Rank: 0
+      Rank: 16
       IsHammer: false
       IsWeakBreaker: false
       IsBoomerang: false
@@ -53,15 +53,15 @@ param_root: !list
       ShootBeam: ''
       DropFromPorchRot: !vec3 [0.0, 0.0, 116.0]
       SharpWeaponPer: 10.0
-      SharpWeaponAddAtkMin: 0
-      SharpWeaponAddAtkMax: 0
+      SharpWeaponAddAtkMin: 10
+      SharpWeaponAddAtkMax: 20
       SharpWeaponAddLifeMin: 2
       SharpWeaponAddLifeMax: 3
       SharpWeaponAddCrit: false
       SharpWeaponAddGuardMin: 7
       SharpWeaponAddGuardMax: 13
-      PoweredSharpAddAtkMin: 0
-      PoweredSharpAddAtkMax: 0
+      PoweredSharpAddAtkMin: 30
+      PoweredSharpAddAtkMax: 40
       PoweredSharpAddLifeMin: 4
       PoweredSharpAddLifeMax: 7
       PoweredSharpWeaponAddGuardMin: 19

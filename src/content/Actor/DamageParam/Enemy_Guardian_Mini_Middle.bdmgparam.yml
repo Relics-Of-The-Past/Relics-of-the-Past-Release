@@ -15,10 +15,11 @@ param_root: !list
           Arrow: 1.0
           Bomb: 1.0
           Body: 1.0
-          Ancient: 1.0
+          Ancient: 2.0
           ShockWave: 1.0
           Impulse: 1.0
           GanonBeam: 1.0
+          SpAffectRatio: 1.0
         ReactionTable: !obj
           Sword-Small: !str32 通常ダメージ
           Sword-Middle: !str32 通常ダメージ
@@ -65,7 +66,7 @@ param_root: !list
           HammerAffect: false
           WeakBreakerAffect: false
           ChemicalAttackAffect: true
-          SpAffectRatio: 1.0
+          SpAffectRatio: 2.0
           SpAffectDamage: 0
           VanishAffect: false
           IsCriticalBlowOff: true
@@ -92,7 +93,7 @@ param_root: !list
           WeakPointCalcOffset: !vec3 [0.0, 0.0, 0.0]
           WeakPointArea: 0.150000006
           WeakPointOffset: !vec3 [0.0, 0.0, 0.0]
-          WeakPointRatio: 2.0
+          WeakPointRatio: 3.0
           WeakPointNoUIFlag: false
           WeakPointBone2: ''
           WeakPointCalcArea2: 0.0

@@ -6,6 +6,20 @@ param_root: !list
   lists:
     TerrorFilter: !list
       objects:
+        1906633807: !obj
+          TerrorPlayer: 0
+          TerrorNpc: 0
+          TerrorEnemy: 1
+          TerrorGuardian: 0
+          TerrorImpulse: 0
+          TerrorFire: 1
+          TerrorInsect: 0
+          TerrorHorse: 0
+          TerrorAnimal: 0
+          TerrorWolfLink: 0
+          TerrorIce: 0
+          TerrorElectric: 0
+          TerrorManMadeFire: 0
         Enemy: !obj
           TerrorPlayer: 0
           TerrorNpc: 0

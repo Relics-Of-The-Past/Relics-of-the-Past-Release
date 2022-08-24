@@ -1224,7 +1224,7 @@ Objs:
   SRTHash: -1255451871
   Translate: [-222.118103, 112.765404, 1672.33105]
   UnitConfigName: FldObj_HyliaStoneRuinGate_A_01
-- '!Parameters': {EquipItem1: Weapon_Lsword_030, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Lsword_030, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 3,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x114e1dca
   LinksToObj:
@@ -4852,7 +4852,7 @@ Objs:
   Translate: [-183.396103, 112.778, 1659.50598]
   UnitConfigName: FldObj_HyliaStoneRuinRightAngleWall_A_02
 - '!Parameters': {EquipItem1: Weapon_Sword_002, EquipItem2: Weapon_Shield_031, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
-    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+    LevelSensorMode: 3, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x41838c79
   LinksToObj:
   - {DefinitionName: Reference, DestUnitHashId: !u 0xe7f487cd}
@@ -5028,7 +5028,7 @@ Objs:
   - {DefinitionName: Reference, DestUnitHashId: !u 0x8eae3466}
   Rotate: 1.28000104
   SRTHash: 415731661
-  Translate: [-681.799988, 192.240311, 1950.09998]
+  Translate: [-681.880554, 192.240311, 1950.08228]
   UnitConfigName: Enemy_Bokoblin_Junior
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x43cbfbd6
@@ -5175,13 +5175,6 @@ Objs:
   SRTHash: 1654059009
   Translate: [-320.5, 128.923904, 1916.0]
   UnitConfigName: LinkTagOr
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
-  HashId: !u 0x45c0d2b6
-  Rotate: 1.77250004
-  SRTHash: -215768870
-  Scale: 2.0139389
-  Translate: [-154.589294, 129.8004, 1601.47302]
-  UnitConfigName: DgnObj_SpikeBall_A
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x45cd3bbf
   LinksToObj:
@@ -6483,7 +6476,7 @@ Objs:
   SRTHash: 1672556063
   Translate: [-508.18985, 173.5, 1802.25623]
   UnitConfigName: LinkTagNAnd
-- '!Parameters': {EquipItem1: Weapon_Spear_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Spear_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x581d1933
   LinksToObj:
@@ -8409,8 +8402,6 @@ Objs:
   UnitConfigName: LinkTagAnd
 - '!Parameters': {DropTable: RuinGuardian, InitMotionStatus: 0, IsPlayerPut: false, SharpWeaponJudgeType: 0, TresasureSpotType: 1}
   HashId: !u 0x72a55d52
-  LinksToObj:
-  - {DefinitionName: Reference, DestUnitHashId: !u 0xbe0f5dcc}
   SRTHash: 358499500
   Translate: [-234.073395, 113.805901, 1686.83105]
   UnitConfigName: TreasureSpot_00
@@ -14441,11 +14432,6 @@ Objs:
   SRTHash: 567524154
   Translate: [-479.235107, 177.735001, 1944.68506]
   UnitConfigName: TwnObj_FirstHighlandRuin_A_03_Far
-- HashId: !u 0xbe0f5dcc
-  Rotate: [0.00874103699, 3.84535706e-05, -0.00112945004]
-  SRTHash: -1800989519
-  Translate: [-234.0737, 112.3088, 1686.828]
-  UnitConfigName: FldObj_RuinGuardian_A_Dynamic
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
@@ -19707,7 +19693,7 @@ Objs:
   Scale: 0.980000019
   Translate: [-202.264603, 122.088997, 1835.15503]
   UnitConfigName: Obj_Plant_KorokColor_A_01
-- '!Parameters': {EquipItem1: Weapon_Spear_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Spear_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfe6a1287
   LinksToObj:
@@ -20329,9 +20315,18 @@ Objs:
   SRTHash: -249436013
   Translate: [-633.192993, 171.309998, 1921.005]
   UnitConfigName: Enemy_Bokoblin_Senior
-- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_BrokenLeg_S, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_BrokenLeg_L, GuardianLegType4: Guardian_A_BrokenLeg_S,
-    GuardianLegType5: Guardian_A_Leg, IsSuspended: false, SharpWeaponJudgeType: 0}
+- '!Parameters':
+    ChaseRange: 200.0
+    DropTable: Normal
+    GuardianLegType0: Guardian_A_BrokenLeg_S
+    GuardianLegType1: Guardian_A_Leg
+    GuardianLegType2: Guardian_A_Leg
+    GuardianLegType3: Guardian_A_BrokenLeg_L
+    GuardianLegType4: Guardian_A_BrokenLeg_S
+    GuardianLegType5: Guardian_A_Leg
+    IsSuspended: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 0
   HashId: !u 0xfffd48cb
   Rotate: 3.4000001
   SRTHash: 0
@@ -20341,11 +20336,12 @@ Objs:
   SRTHash: 0
   Translate: [-1006.37299, 190.503494, 1554.84094]
   UnitConfigName: FldObj_RuinGuardian_Static
-- HashId: !u 0xfffd48d1
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xfffd48d1
   Rotate: -3.79999995
   SRTHash: -1800989519
   Translate: [-938.606079, 235.190308, 1905.10803]
-  UnitConfigName: FldObj_RuinGuardian_Static
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
 - '!Parameters': {DropActor: Item_Enemy_31, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xfffd48d5
   Rotate: 2.19446492
@@ -20480,6 +20476,64 @@ Objs:
   Scale: [25.6778297, 4.75382519, 15.7299204]
   Translate: [-461.301025, 179.619583, 1948.55261]
   UnitConfigName: Area
+- '!Parameters':
+    ArrowName: FireArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_002
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 3
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfffd4906
+  Rotate: 1.28000104
+  SRTHash: 415731661
+  Translate: [-681.808899, 192.240311, 1950.11792]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, IsIchigekiActor: true, Shape: Box}
+  HashId: !u 0xfffd4908
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfffd490a
+  SRTHash: -1406266874
+  Scale: 23.0
+  Translate: [-239.304062, 118.811165, 1682.63049]
+  UnitConfigName: Area
+- '!Parameters': {IsSuspended: true, LevelSensorMode: 1}
+  HashId: !u 0xfffd4909
+  Rotate: [2.76202655, -0.580663502, -2.85976601]
+  SRTHash: -1800989519
+  Translate: [-243.97583, 112.561913, 1689.09082]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- HashId: !u 0xfffd490a
+  LinksToObj:
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfffd4909}
+  SRTHash: 0
+  Translate: [-244.317902, 118.031921, 1690.67065]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xbe0f5dcc
+  Rotate: [0.00874103699, 3.84535742e-05, -0.00112945004]
+  SRTHash: -1800989519
+  Translate: [-234.073746, 112.30883, 1686.82837]
+  UnitConfigName: FldObj_RuinGuardian_A_Dynamic
+- HashId: !u 0xbf3e8074
+  Rotate: [2.76202655, -0.580663502, -2.85976601]
+  SRTHash: -1275941238
+  Translate: [-243.97583, 112.561913, 1689.09082]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- HashId: !u 0xfffd490c
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xbf3e8074}
+  SRTHash: 0
+  Translate: [-242.008987, 118.158501, 1689.59033]
+  UnitConfigName: LinkTagAnd
 Rails:
 - HashId: !u 0x00e28a4d
   IsClosed: false
