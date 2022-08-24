@@ -13,22 +13,4 @@ param_root: !list
               TypeIndex: 67
               FileName: !str64 Damage_Large
               Morph: 1.0
-          lists:
-            Extend: !list
-              objects: {}
-              lists:
-                TriggerEvents: !list
-                  objects:
-                    Event0: !obj
-                      TypeIndex: 45
-                      Frame: 32.0
-                      Value: Teleport
-                  lists: {}
-                HoldEvents: !list
-                  objects:
-                    Event0: !obj
-                      TypeIndex: 45
-                      StartFrame: 1.0
-                      EndFrame: 33.0
-                      Value: !str32 ''
-                  lists: {}
+          lists: {}

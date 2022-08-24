@@ -1385,7 +1385,7 @@ Objs:
   Scale: 1.02694321
   Translate: [-3413.85791, 174.932892, 172.165802]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- '!Parameters': {EquipItem1: Weapon_Sword_002, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Sword_002, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x29d91d1b
   Rotate: -2.57999992
@@ -1534,7 +1534,7 @@ Objs:
   Translate: [-3419.31934, 395.288879, 534.072937]
   UnitConfigName: Obj_Plant_HopBush_C_02
 - '!Parameters': {ArrowName: ElectricArrow, EquipItem1: Weapon_Bow_003, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
-    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x2cd83090
   Rotate: 2.3561945
   SRTHash: -1070472349
@@ -2131,7 +2131,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     OnCliff: true
     OnCliffTurn: true
@@ -2472,7 +2472,7 @@ Objs:
   SRTHash: -2028429531
   Translate: [-3517.4104, 380.212097, 557.558105]
   UnitConfigName: FldObj_StageGerdo_S_A_02
-- '!Parameters': {EquipItem1: Weapon_Sword_002, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Sword_002, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x4347e580
   Rotate: 0.199999988
@@ -3804,7 +3804,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     OnCliff: true
     OnCliffTurn: true
@@ -4173,7 +4173,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x6eba00ae
@@ -5417,7 +5417,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     OnCliff: true
     OnCliffTurn: true
@@ -6153,7 +6153,7 @@ Objs:
   SRTHash: 969463480
   Translate: [-3649.98438, 716.467407, 782.095642]
   UnitConfigName: FldObj_GerudoHighlandRock_A_05
-- '!Parameters': {GolemSleepType: SleepForward_A, GolemWeakPointLocation: Point_B, IsNearCreate: false, LevelSensorMode: 0,
+- '!Parameters': {GolemSleepType: SleepForward_A, GolemWeakPointLocation: Point_B, IsNearCreate: false, LevelSensorMode: 1,
     SharpWeaponJudgeType: 0, TerritoryArea: 0.0, UniqueNameMessageLabel: 'Golem_[B-5]A4B34A2A'}
   HashId: !u 0xa4b34a2a
   SRTHash: -750058869
@@ -6205,7 +6205,7 @@ Objs:
     EquipItem4: Default
     IsMimicry: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
@@ -6708,7 +6708,7 @@ Objs:
     EquipItem4: Default
     IsMimicry: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
@@ -9026,7 +9026,7 @@ Objs:
   SRTHash: 1624882413
   Translate: [-3428.79785, 174.148102, 203.993408]
   UnitConfigName: Obj_TreeBroadleafDead_B_L_01
-- '!Parameters': {EquipItem1: Weapon_Sword_049, IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 0,
+- '!Parameters': {EquipItem1: Weapon_Sword_049, IsNearCreate: false, LevelSensorMode: 1, NearCreateAppearID: 0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0}
   HashId: !u 0xf8450627
   Rotate: 2.96000004
@@ -9325,28 +9325,28 @@ Objs:
   Scale: 1.08374286
   Translate: [-3877.05054, 329.869263, 188.34024]
   UnitConfigName: Obj_Plant_HopBush_C_01
-- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfff26fde
   Rotate: 3.4000001
   SRTHash: 454762181
   Translate: [-3595.93091, 173.139343, 98.6417313]
   UnitConfigName: Enemy_Bokoblin_Junior
-- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfff26fdf
   Rotate: 0.400000006
   SRTHash: 454762181
   Translate: [-3595.67969, 172.739349, 130.761932]
   UnitConfigName: Enemy_Bokoblin_Junior
-- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfff26fe0
   Rotate: 1.79999995
   SRTHash: 454762181
   Translate: [-3568.50293, 172.539352, 95.8477325]
   UnitConfigName: Enemy_Bokoblin_Junior
-- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfff26fe1
   Rotate: 0.200000003

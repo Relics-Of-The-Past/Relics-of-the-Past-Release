@@ -1,4 +1,115 @@
 ---
-group_count: 11
+group_count: 12
 atr1_unknown: 4
-entries: {}
+entries:
+  "0000":
+    attributes: NPC_GodVoice
+    contents:
+      - text: Refight Blights
+  "0001":
+    attributes: NPC_GodVoice
+    contents:
+      - text: Explore Sanctum
+  DecideRefight:
+    attributes: NPC_GodVoice
+    contents:
+      - text: "Would you like to replay the sanctum\nbossfights or explore the sanctum?"
+      - control:
+          kind: choice
+          choice_labels:
+            - 0
+            - 1
+          selected_index: 0
+          cancel_index: 2
+          unknown: 6
+  IsInvalidEnterSanctum:
+    attributes: EventSystemActor
+    contents:
+      - text: "You must defeat both gatehouses\nin order to enter the sanctum."
+  IsValidEnterSanctum:
+    attributes: EventSystemActor
+    contents:
+      - text: "You have done well to defeat both gatehouses,\nfor that is no easy feat.\nNow go, finish what you started 100 years ago!"
+  Slate_DownloadMap00:
+    attributes: NPC_DRCVoice
+    contents:
+      - control:
+          kind: animation
+          name: Activate
+      - text: Installing...
+  Slate_DownloadMap01:
+    attributes: NPC_DRCVoice
+    contents:
+      - control:
+          kind: animation
+          name: Activate
+      - text: "Hyrule Castle Map\ninstalled successfully!"
+  Zelda_Map_Get00:
+    attributes: NPC_CaptionVoice
+    contents:
+      - text: "Link, this item is a component for\nthe sheikah slate that can hold more map data.\nIt's called "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "<insert item name here>"
+      - control:
+          kind: reset_colour
+      - text: "."
+  Zelda_Map_Get01:
+    attributes: NPC_CaptionVoice
+    contents:
+      - text: "Install it in the "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: sheikah slate
+      - control:
+          kind: reset_colour
+      - text: " with\nthe utmost care so as not to damage it."
+  Zelda_QuestInit00:
+    attributes: NPC_CaptionVoice
+    contents:
+      - text: "You have done well to make it this far\nin your quest, but it only gets more difficult\nfrom here."
+  Zelda_QuestInit01:
+    attributes: NPC_CaptionVoice
+    contents:
+      - text: "In order to even get close to "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Calamity Ganon
+      - control:
+          kind: reset_colour
+      - text: ",\nyou will need to defeat both of the "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: gatehouses
+      - control:
+          kind: reset_colour
+      - text: "\nguarding the "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: sanctum
+      - control:
+          kind: reset_colour
+      - text: "."
+  Zelda_QuestInit02:
+    attributes: NPC_CaptionVoice
+    contents:
+      - text: "But first, you will need a "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: map
+      - control:
+          kind: reset_colour
+      - text: " of the castle,\nwhich you can find in my "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: study
+      - control:
+          kind: reset_colour
+      - text: "."

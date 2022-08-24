@@ -14,12 +14,12 @@ param_root: !list
       BoneControlUser: Dummy
       ActorCaptureUser: Dummy
       ChemicalUser: Dummy
-      DamageParamUser: Guardian_Fixed
+      DamageParamUser: Guardian_B
       DropTableUser: Enemy_Guardian_B
       ElinkUser: Guardian_A
       GParamUser: Enemy_Guardian_B
       LifeConditionUser: Enemy_Guardian_B
-      LODUser: Guardian
+      LODUser: EnemyNoCalcSkip
       ModelUser: Enemy_Guardian_B
       PhysicsUser: Enemy_Guardian_B
       ProfileUser: Guardian

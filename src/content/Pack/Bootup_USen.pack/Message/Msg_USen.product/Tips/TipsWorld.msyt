@@ -2,24 +2,6 @@
 group_count: 17
 atr1_unknown: 0
 entries:
-  Bonfire_00:
-    contents:
-      - text: Time Flies
-      - control:
-          kind: raw
-          zero:
-            four:
-              field_1: 0
-      - text: "If you ever want to advance time, seek out a cozy campfire.\nThere, you can pass the time until morning, noon, or night."
-  Bonfire_01:
-    contents:
-      - text: Making a Campfire
-      - control:
-          kind: raw
-          zero:
-            four:
-              field_1: 0
-      - text: "To start a campfire, simply set some wood ablaze. You can use\na torch or some flint to do just that."
   Bonfire_02:
     contents:
       - text: Time Flies
@@ -141,6 +123,60 @@ entries:
             four:
               field_1: 0
       - text: "These ancient monuments depict the Goddess worshipped in Hyrule\nsince time out of mind. You can trade four Spirit Orbs to one for \na Stamina Vessel or a Heart Container."
+  RelicsTip01:
+    contents:
+      - text: "Relics: Revamped Scaling"
+      - control:
+          kind: raw
+          zero:
+            four:
+              field_1: 0
+      - text: "In this mod, the impact of scaling is game changing.\nYou need to be mindful of the difficulty progression\nin order to continuously counteract the ever changing difficulty"
+  RelicsTip02:
+    contents:
+      - text: "Relics Combat #1"
+      - control:
+          kind: raw
+          zero:
+            four:
+              field_1: 0
+      - text: "A ton of improvements were made to your ability to deal damage.\nUnlike the base game, Charge/Spin attacks deal 2x damage\nWhere as Jump Attack deals 1.5x the damage. These changes buff spears especially."
+  RelicsTip03:
+    contents:
+      - text: "Relics Combat #2"
+      - control:
+          kind: raw
+          zero:
+            four:
+              field_1: 0
+      - text: "Guardian tier and Ancient weapons have recieved a overall increase in damage output.\nThey now weild more effectiveness even against regular monsters,\nwhile now dealing a whopping 3x damage to Guardians."
+  RelicsTip04:
+    contents:
+      - text: "Relics Combat #3"
+      - control:
+          kind: raw
+          zero:
+            four:
+              field_1: 0
+      - text: "Two-Handed weapons have a 1.4x damage modifier on them that\ngenerally makes them hit much harder than normal."
+  RelicsTip05:
+    contents:
+      - text: Heavy Weapon Revamp
+      - control:
+          kind: raw
+          zero:
+            four:
+              field_1: 0
+      - text: "The second swing is now faster and more efficient.\nDash attack now multi-hits and charge spin connects more frequently."
+  RelicsTip06:
+    contents:
+      - text: Ancient Bladesaw Update
+      - control:
+          kind: raw
+          zero:
+            four:
+              field_1: 0
+      - text: "The Ancient Bladesaw now awards a unique moveset change\nas well as deals multi-hitting damage like a real saw!\nThis also applies to the Mark II variant."
   Temperature_00:
     contents:
       - text: Temperature Changes

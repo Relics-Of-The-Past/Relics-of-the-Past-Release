@@ -1117,11 +1117,16 @@ param_root: !list
                       Frame: 6.0
                       Value: FaceShieldGuard
                   lists: {}
+                FrameCtrl: !list
+                  objects:
+                    FrameCtrl0: !obj
+                      Rate: 3.0
+                  lists: {}
                 HoldEvents: !list
                   objects:
                     Event0: !obj
                       TypeIndex: 45
-                      StartFrame: 5.0
+                      StartFrame: 1.0
                       EndFrame: -1.0
                       Value: !str32 ''
                     Event1: !obj

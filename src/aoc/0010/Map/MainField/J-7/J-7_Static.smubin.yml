@@ -3656,18 +3656,6 @@ Objs:
   SRTHash: 0
   Translate: [4034.06909, 109.401955, 2281.7981]
   UnitConfigName: Enemy_Guardian_Mini_Middle_Dark
-- '!Parameters': {DropActor: Item_Ore_C, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
-  HashId: !u 0xff9185ce
-  Rotate: [0.0998590961, -1.0, -0.00530666066]
-  SRTHash: 2104824807
-  Translate: [4564.07861, 101.911987, 2160.47534]
-  UnitConfigName: TBox_Field_Iron
-- '!Parameters': {DropActor: Item_Ore_B, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
-  HashId: !u 0xff9185d0
-  Rotate: [0.021068627, -4.0, 0.0203112122]
-  SRTHash: 2104824807
-  Translate: [4565.25537, 100.911987, 2170.84863]
-  UnitConfigName: TBox_Field_Iron
 Rails:
 - HashId: !u 0x0f2daeb0
   IsClosed: true

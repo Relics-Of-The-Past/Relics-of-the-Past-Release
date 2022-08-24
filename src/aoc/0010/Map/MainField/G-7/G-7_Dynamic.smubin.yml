@@ -7690,4 +7690,42 @@ Objs:
   SRTHash: -2086364719
   Translate: [1503.74036, 292.525726, 2661.10913]
   UnitConfigName: Enemy_Octarock_Forest
+- '!Parameters':
+    ArrowName: FireArrow
+    EquipItem1: Weapon_Bow_003
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RideHorseName: GameRomHorse23
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfffcd5f9
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x857307fa}
+  Rotate: -0.520000756
+  SRTHash: -413425671
+  Translate: [1348.61194, 181.263, 2654.62256]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters':
+    ArrowName: FireArrow
+    EquipItem1: Weapon_Bow_003
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RideHorseName: GameRomHorse23
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfffcd5fa
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x857307fa}
+  Rotate: -4.12000084
+  SRTHash: -413425671
+  Translate: [1332.79846, 182.462997, 2663.26367]
+  UnitConfigName: Enemy_Bokoblin_Middle
 Rails: []

@@ -78,7 +78,7 @@ param_root: !list
       WeaponHoldTransOffsetShield: !vec3 [0.0, 0.0, 0.0]
       WeaponHoldRotOffsetShield: !vec3 [0.0, 0.0, 0.0]
       IsUseTargetTag: false
-      TargetActorType: Player, Enemy
+      TargetActorType: Player
       EscapeAttackedActorType: ''
       ReactionBalloon: false
       SmallRagdollTime: 8
@@ -1200,7 +1200,7 @@ param_root: !list
       GroundCollidableOffset: 0.0500000007
       UseGroundCollidableResetPos: false
       GroundCollidableResetPos: !vec3 [0.0, -1.0, 0.0]
-      GroundCollidableMoveSpeed: 0.0
+      GroundCollidableMoveSpeed: 300.0
       WallCollidableName: !str32 ''
       WallCollidableBoneName: !str32 ''
       WallCollidableOffset: 0.0500000007
@@ -1366,13 +1366,13 @@ param_root: !list
       InvinceableCounterRand: 30.0
       CallDelayMinLength: 10.0
       CallOverrideCounterLength: 900.0
-      GiveUpShiekSensorLength: 0.0
+      GiveUpShiekSensorLength: 300.0
       RetryShiekSensorLength: 900.0
       BattleWallHitLength: 10.0
       FollowRetryLength: 30.0
       PowerUpFoodLength: 3600.0
       SafePosFailCounter: 3600.0
-      RestrictedTargetTimeNormal: 0.0
+      RestrictedTargetTimeNormal: 300.0
       RestrictedTargetTimeSpecial: 500.0
       PowerUpFoodAttackMod: 5
       PowerUpFoodChainAttackCharge: 25.0
@@ -1444,7 +1444,7 @@ param_root: !list
       SlipStartAngle: 50.0
       SlipThresholdPower: 2500.0
       SlipPowerMax: 1800.0
-      WristBindRotation: !vec3 [-1.72000003, -1.84000003, -2.9000001]
+      WristBindRotation: !vec3 [-1.72000003, -1.83999991, -2.9000001]
       WristBindTranslation: !vec3 [0.354999989, 0.0799999982, -0.144999996]
       PostureLimitAngle: 90.0
       InvalidPostureLimitSec: 0.600000024

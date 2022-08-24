@@ -19,7 +19,7 @@ param_root: !list
       ElinkUser: Bokoblin_Red
       GParamUser: Enemy_Bokoblin_Gold
       LifeConditionUser: Enemy
-      LODUser: Dummy
+      LODUser: EnemyNoCalcSkip
       ModelUser: Enemy_Bokoblin_Gold
       PhysicsUser: Bokoblin
       ProfileUser: Enemy

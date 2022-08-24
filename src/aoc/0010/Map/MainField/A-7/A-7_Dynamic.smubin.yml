@@ -1,0 +1,1540 @@
+Objs:
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x01e5067a
+  Rotate: [1.30432117, 0.268554688, -0.283569336]
+  SRTHash: 0
+  Translate: [-4652.91797, 170.085938, 1755.0625]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x02a5536b
+  Rotate: [-3.01882863, -0.679532766, 2.11755872]
+  SRTHash: 1317656135
+  Translate: [-4407.01514, 172.30687, 2390.13574]
+  UnitConfigName: Weapon_Lsword_001
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x03093b88
+  Rotate: [1.84814441, -1.08483875, -0.664794922]
+  SRTHash: 0
+  Translate: [-3911.21875, 176.277344, 2158.05859]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x03286243
+  Rotate: -0.526245117
+  SRTHash: -529516346
+  Translate: [-4615.77344, 146.823715, 2036.73047]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0x03b23aa5
+  Rotate: [2.22001386, 0.0611602329, 3.08999133]
+  SRTHash: 333729379
+  Translate: [-4715.06348, 175.218475, 2195.13672]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0x0457787e
+  Rotate: 0.785398185
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4490.0, 147.763367, 2710.0]
+  UnitConfigName: Area
+- HashId: !u 0x059daf34
+  Rotate: 2.61799383
+  SRTHash: 386050114
+  Translate: [-4895.2998, 137.751556, 2355.19995]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0x07514301
+  Rotate: 0.785398185
+  SRTHash: 616567522
+  Scale: 40.0
+  Translate: [-4490.0, 147.763367, 2710.0]
+  UnitConfigName: Area
+- HashId: !u 0x079e62b6
+  Rotate: -1.66318524
+  SRTHash: -707551228
+  Translate: [-4480.89746, 155.277313, 2163.20093]
+  UnitConfigName: FldObj_StageGerdo_SS_A_02
+- HashId: !u 0x0880affe
+  Rotate: -2.53072739
+  SRTHash: 386050114
+  Translate: [-4270.0, 162.470001, 2531.69995]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- HashId: !u 0x08f60676
+  Rotate: 1.27999985
+  SRTHash: 1328008639
+  Translate: [-4500.68359, 165.167801, 2170.04468]
+  UnitConfigName: FldObj_StageGerdo_S_A_03
+- HashId: !u 0x0ab46138
+  SRTHash: -944772422
+  Translate: [-4591.03613, 139.990219, 2639.29077]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_02
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_01, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0e39e857
+  SRTHash: -996068950
+  Translate: [-4065.90771, 153.594376, 2297.625]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0e8f2cba
+  Rotate: [3.14147925, -0.474243134, 3.14147925]
+  SRTHash: -1146881750
+  Translate: [-4956.78125, 139.420959, 2142.98828]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0x0f7f55c4
+  Rotate: [-2.87612104, 1.35267484, -3.1357224]
+  SRTHash: -230741098
+  Scale: 1.21656704
+  Translate: [-4642.58594, 132.951324, 2408.27295]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- HashId: !u 0x0fe455b2
+  SRTHash: 755835489
+  Translate: [-4819.37646, 113.119232, 2824.12939]
+  UnitConfigName: FldObj_GerudoDesertRock_A_10
+- HashId: !u 0x10764398
+  Rotate: [2.7571404, 0.102591917, 3.05744267]
+  SRTHash: -1183783264
+  Scale: 1.21656716
+  Translate: [-4703.58838, 195.515244, 2172.36157]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x12298717
+  Rotate: [3.14147925, -0.991577089, 3.14147925]
+  SRTHash: 1293975731
+  Translate: [-4113.20703, 148.023926, 2140.21875]
+  UnitConfigName: Item_Plant_F
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x16a362e0
+  Rotate: [-2.4517858, -0.833770692, 1.72157621]
+  SRTHash: 1317656135
+  Translate: [-4147.3291, 164.399994, 2376.44653]
+  UnitConfigName: Weapon_Lsword_001
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x18de4050
+  Rotate: [1.58056629, -0.680908144, -0.00195312803]
+  SRTHash: 0
+  Translate: [-4332.47266, 193.71875, 2068.19531]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1991a967
+  Rotate: [0.784179628, 0.748168886, -0.635009706]
+  SRTHash: 0
+  Translate: [-4916.79297, 221.203125, 1911.44922]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x1c869e75
+  Rotate: -3.05432606
+  SRTHash: 386050114
+  Translate: [-4642.97998, 151.670776, 2221.58984]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x1cebcce5
+  Rotate: [2.06435394, 0.41161567, 2.33052969]
+  SRTHash: 1317656135
+  Translate: [-4941.01123, 145.970001, 2115.48145]
+  UnitConfigName: Weapon_Lsword_001
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1d8078fe
+  Rotate: [2.90991211, -1.32849109, -1.38366687]
+  SRTHash: 0
+  Translate: [-4195.97656, 185.226562, 2064.01562]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x1e12ef35
+  Rotate: [2.06410742, -1.34327483, -2.07507515]
+  SRTHash: -17136103
+  Translate: [-4823.72607, 126.321747, 2768.89648]
+  UnitConfigName: FldObj_GerudoDesertRock_A_11
+- HashId: !u 0x1f40a5a0
+  Rotate: -2.99640155
+  SRTHash: -1711163608
+  Translate: [-4467.66113, 145.626099, 2726.60986]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0x21345c10
+  Rotate: 2.61799383
+  SRTHash: -1902117070
+  Translate: [-4587.20068, 147.74295, 2711.33057]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x21614146
+  Rotate: [1.01599121, -1.14257801, 0.113281243]
+  SRTHash: 0
+  Translate: [-3944.49219, 194.9375, 2112.64453]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x216a09ca
+  Rotate: 0.52359879
+  SRTHash: -1053035575
+  Translate: [-4472.71094, 147.039948, 2734.12939]
+  UnitConfigName: Obj_TreeBroadleafLow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x22291774
+  Rotate: [3.14147925, -1.04443347, 3.14147925]
+  SRTHash: 1419570548
+  Translate: [-4935.89062, 137.211243, 2181.69141]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0x226e5c30
+  SRTHash: 2079636222
+  Translate: [-4572.69531, 140.384613, 2604.95312]
+  UnitConfigName: FldObj_TravelerTrace_Mark_A_01
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x244ad299
+  Rotate: [2.61355805, -0.16714333, 2.40217996]
+  SRTHash: 1317656135
+  Translate: [-4714.64795, 173.670013, 2186.94604]
+  UnitConfigName: Weapon_Lsword_001
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x25a565e0
+  Rotate: -0.6328125
+  SRTHash: -1724166474
+  Translate: [-4233.98438, 178.872421, 2427.94141]
+  UnitConfigName: Item_Plant_F
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0x2780c0b2
+  SRTHash: -759412359
+  Scale: 100.0
+  Translate: [-4497.56592, 172.810791, 2140.62964]
+  UnitConfigName: Area
+- HashId: !u 0x27e0fb0a
+  Rotate: [-0.573930323, -0.549935102, 0.286514997]
+  SRTHash: 1126286764
+  Scale: 1.25
+  Translate: [-4390.75586, 156.731232, 2250.09619]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x298298f8
+  Rotate: [3.14147925, 0.271484345, 3.14147925]
+  SRTHash: 106750964
+  Translate: [-4433.75391, 151.451508, 2197.62891]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {DropActor: Weapon_Spear_029, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2b7074d5
+  Rotate: [-1.57079637, 1.19079638, -1.57079637]
+  SRTHash: 744250428
+  Translate: [-4089.33008, 150.959991, 2777.92993]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2d122343
+  Rotate: [2.26171851, -1.015625, -0.709106386]
+  SRTHash: 0
+  Translate: [-4031.42578, 163.828125, 2360.17969]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x2f3dcc51
+  Rotate: [2.35386348, -0.303746074, -1.8139497]
+  SRTHash: 1166293360
+  Translate: [-4597.6001, 134.88472, 2360.97168]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x2f3f42d5
+  Rotate: [2.06410742, -1.34327483, -2.07507515]
+  SRTHash: -256342199
+  Translate: [-4771.53076, 126.368622, 2766.30273]
+  UnitConfigName: FldObj_GerudoDesertRock_A_11
+- HashId: !u 0x2fcdf87e
+  SRTHash: 1778169583
+  Translate: [-4253.58984, 148.940002, 2165.18994]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x309331e9
+  Rotate: [-2.8126781, -0.760261893, 1.98125887]
+  SRTHash: 1317656135
+  Translate: [-4027.13477, 155.930008, 2707.96655]
+  UnitConfigName: Weapon_Lsword_001
+- HashId: !u 0x30d2d4ca
+  Rotate: -2.47640133
+  SRTHash: -1263662082
+  Translate: [-4464.42432, 147.57486, 2719.50708]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x315ac6c1
+  Rotate: [1.11535633, 0.222534165, -0.323852509]
+  SRTHash: 0
+  Translate: [-4307.91406, 202.34375, 2053.30078]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 1
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x340017de
+  Rotate: [2.86125231, -0.411310047, 2.33066988]
+  SRTHash: 1317656135
+  Translate: [-4597.94336, 169.970001, 2499.99634]
+  UnitConfigName: Weapon_Lsword_001
+- HashId: !u 0x342b21b5
+  Rotate: [0.329917252, -1.37416184, -0.0103816064]
+  SRTHash: -1183783264
+  Scale: 1.21656704
+  Translate: [-4646.73779, 150.756256, 2222.15576]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x37c8cfb9
+  Rotate: [1.34680176, -0.424316406, -0.234374985]
+  SRTHash: 0
+  Translate: [-3914.48047, 217.203125, 2134.5625]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x37fe7947
+  Rotate: [1.25512695, -0.705566347, 0.43359372]
+  SRTHash: 0
+  Translate: [-4366.76953, 235.710938, 2016.71484]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x392b953c
+  Rotate: -2.11999941
+  SRTHash: 1243945957
+  Translate: [-4582.54248, 136.60051, 2623.89746]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x39968a11
+  Rotate: [0.811645448, -0.927612245, 0.42968747]
+  SRTHash: 0
+  Translate: [-3889.51953, 175.0625, 2227.33594]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x3ab6cd7c
+  Rotate: -2.26892805
+  SRTHash: 386050114
+  Translate: [-4312.7002, 170.496124, 2298.90991]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- HashId: !u 0x3ab95936
+  Rotate: [-1.5159843, -1.3455236, 1.29867435]
+  SRTHash: -1969954505
+  Scale: 1.25
+  Translate: [-4272.90088, 164.311462, 2275.06104]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x3b5a33d7
+  Rotate: 0.859999955
+  SRTHash: -299833032
+  Translate: [-4508.54297, 165.284988, 2184.01538]
+  UnitConfigName: FldObj_StageGerdo_S_A_03
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x3d51e3d8
+  Rotate: [2.94289088, -0.478948623, 2.29548216]
+  SRTHash: 1317656135
+  Translate: [-4596.80273, 146.87001, 2341.61865]
+  UnitConfigName: Weapon_Lsword_001
+- HashId: !u 0x3d8bb3e4
+  Rotate: 0.218407989
+  SRTHash: -205735930
+  Translate: [-4648.40967, 136.814972, 2773.71582]
+  UnitConfigName: FldObj_GerudoDesertRock_A_10
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x3d8e3123
+  Rotate: [-3.11123466, -0.632037282, 2.17394733]
+  SRTHash: 1317656135
+  Translate: [-4582.55029, 149.22345, 2107.6709]
+  UnitConfigName: Weapon_Lsword_001
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3f0548f9
+  Rotate: [0.827392519, 0.422851533, -0.455322236]
+  SRTHash: 0
+  Translate: [-4306.23828, 216.195312, 2043.96094]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x3f5989c2
+  Rotate: 2.61799383
+  SRTHash: 822910169
+  Translate: [-4570.34912, 148.968033, 2717.5603]
+  UnitConfigName: Obj_TreeBroadleafLow_A_02
+- HashId: !u 0x403ccc06
+  Rotate: 0.52359879
+  SRTHash: -787557189
+  Translate: [-4458.89014, 147.24823, 2722.65063]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_02
+- HashId: !u 0x4685f779
+  Rotate: [-0.162898704, -0.587394059, 0.303165913]
+  SRTHash: 1817562678
+  Scale: 1.24999988
+  Translate: [-4410.23486, 163.229492, 2274.625]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x47e8642c
+  Rotate: [0.616210938, -1.03503406, 0.544799745]
+  SRTHash: 0
+  Translate: [-4194.00391, 163.484375, 1980.58203]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x47f82aff
+  Rotate: [3.14147925, -0.334716767, 3.14147925]
+  SRTHash: -1299577646
+  Translate: [-4954.68359, 140.1689, 2127.10547]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0x482d56c8
+  Rotate: -1.94318521
+  SRTHash: 1134059488
+  Translate: [-4478.72168, 159.917938, 2161.05151]
+  UnitConfigName: FldObj_StageGerdo_SS_A_02
+- HashId: !u 0x485b5351
+  Rotate: -1.25999999
+  SRTHash: -1306685509
+  Translate: [-4510.11523, 173.983795, 2145.52173]
+  UnitConfigName: FldObj_StageGerdoGate_A_01
+- '!Parameters': {DropActor: Obj_ElectricArrow_A_03, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x48acebf2
+  Rotate: [0.157079637, -0.34906584, -0.226892799]
+  SRTHash: -411215426
+  Translate: [-4044.34009, 149.589996, 2715.55127]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x4a13aa45
+  Rotate: -2.70159149
+  SRTHash: 455318425
+  Scale: 1.20000005
+  Translate: [-4659.21045, 131.87883, 2842.69214]
+  UnitConfigName: FldObj_GerudoDesertRock_A_10
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x4a8901b5
+  Rotate: [-2.08641171, -0.837390304, 1.4492234]
+  SRTHash: 1317656135
+  Translate: [-4585.86328, 164.861679, 2002.15308]
+  UnitConfigName: Weapon_Lsword_001
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4d4a69e6
+  Rotate: [3.14147925, -1.54724109, 3.14147925]
+  SRTHash: 356716712
+  Translate: [-4453.80859, 150.231247, 2522.74219]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0x4db1fdea
+  Rotate: -2.79252672
+  SRTHash: 386050114
+  Translate: [-4465.7002, 150.807846, 2515.06006]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- HashId: !u 0x4dc152cf
+  SRTHash: 967619232
+  Translate: [-4817.86084, 135.472595, 2824.04346]
+  UnitConfigName: FldObj_GerudoDesertRock_A_13
+- '!Parameters':
+    AddParam: 50
+    AddSpecialFlag: -2147483647
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x4de4c5ac
+  Rotate: [2.21436906, 0.269982785, 2.38088036]
+  SRTHash: 1317656135
+  Translate: [-4941.20068, 145.970001, 2195.32568]
+  UnitConfigName: Weapon_Lsword_003
+- HashId: !u 0x4e779cb1
+  Rotate: [0.695410073, -1.26942647, -0.498381138]
+  SRTHash: -1866120365
+  Scale: 1.24999988
+  Translate: [-4458.17676, 145.124283, 2512.78979]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- '!Parameters':
+    EquipItem1: Weapon_Sword_009
+    EquipItem2: Weapon_Shield_009
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0x4e92bc83
+  Rotate: -0.99999994
+  SRTHash: 1297263001
+  Translate: [-4497.56592, 172.810791, 2140.62964]
+  UnitConfigName: Enemy_Lizalfos_Senior
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0x4ef1057c
+  Rotate: -1.03999996
+  SRTHash: -759412359
+  Scale: 100.0
+  Translate: [-4131.86719, 159.280762, 2592.83594]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4f8cb0c6
+  Rotate: [3.14147925, -1.2116698, 3.14147925]
+  SRTHash: 1971028676
+  Translate: [-4460.60156, 157.786209, 2419.70703]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0x50c310c7
+  SRTHash: -1219123898
+  Translate: [-4237.5, 185.319992, 2408.04004]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- HashId: !u 0x5118e520
+  Rotate: 2.05410242
+  SRTHash: 1245029238
+  Translate: [-4589.3667, 149.063324, 2718.41504]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x528f41b5
+  Rotate: [1.35913086, 0.754272401, 0.162841782]
+  SRTHash: 0
+  Translate: [-4901.76953, 199.339844, 1907.08984]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x52f8c3f9
+  Rotate: [1.72290027, -0.321533203, -0.30847165]
+  SRTHash: 0
+  Translate: [-4585.75, 159.34375, 2039.65234]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x549df128
+  Rotate: [1.38317859, -0.328735352, 0.248901352]
+  SRTHash: 0
+  Translate: [-4335.60547, 210.804688, 2040.60156]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x556c51b6
+  Rotate: [3.14147925, -0.66015619, 3.14147925]
+  SRTHash: -1030117393
+  Translate: [-4948.17188, 139.008942, 2109.66406]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0x5834c27b
+  Rotate: -0.902006149
+  SRTHash: -986805410
+  Translate: [-4579.38623, 146.677094, 2716.94678]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x59d30d26
+  Rotate: [1.34912109, 0.24792479, 0.137695312]
+  SRTHash: 0
+  Translate: [-4659.75781, 192.585938, 1751.87109]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5a4d8582
+  Rotate: [1.81347644, -0.200195283, -0.304077148]
+  SRTHash: 0
+  Translate: [-4530.97656, 163.746094, 2185.54297]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5a846cc7
+  Rotate: [1.09924304, 0.9841308, -0.239257798]
+  SRTHash: 0
+  Translate: [-4973.78516, 184.632812, 2023.83984]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5aafdeba
+  Rotate: 0.969726503
+  SRTHash: 804803214
+  Translate: [-4553.19141, 148.363892, 2050.37891]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0x5c5f6bd0
+  Rotate: -2.70159149
+  SRTHash: -907051805
+  Scale: 1.20000005
+  Translate: [-4644.09668, 131.105103, 2736.84399]
+  UnitConfigName: FldObj_GerudoDesertRock_A_10
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5cfb469e
+  Rotate: 0.564575195
+  SRTHash: 1757257409
+  Translate: [-4965.62891, 137.041794, 2174.22656]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5d75f81d
+  Rotate: [1.36389148, -0.438354492, 0.478759736]
+  SRTHash: 0
+  Translate: [-4475.79688, 179.316406, 1972.67188]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x5e8f303e
+  Rotate: [-2.19070745, -0.84316498, 1.52693748]
+  SRTHash: 1317656135
+  Translate: [-4258.44922, 146.809998, 2163.91968]
+  UnitConfigName: Weapon_Lsword_001
+- HashId: !u 0x5eda0878
+  Rotate: -1.91986215
+  SRTHash: 386050114
+  Translate: [-4392.79004, 158.835388, 2082.67993]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- '!Parameters': {DropActor: Obj_FireArrow_A_03, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5f8db9fb
+  Rotate: [-0.157079637, -0.366519153, 0.436332315]
+  SRTHash: 880717926
+  Translate: [-4118.08984, 151.309998, 2051.17993]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x61f6777b
+  Rotate: [1.68981922, -0.143798813, -0.298339814]
+  SRTHash: 0
+  Translate: [-4058.39062, 213.023438, 1972.69922]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x6348831b
+  Rotate: [-1.93118787, 1.40146148, -1.96623683]
+  SRTHash: 1047877750
+  Scale: 1.24999988
+  Translate: [-4365.22656, 171.10881, 2381.18774]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x65106081
+  Rotate: [1.69457996, -0.64465332, -0.110351562]
+  SRTHash: 0
+  Translate: [-3861.99609, 273.101562, 2058.23438]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x656e112a
+  Rotate: 0.803737938
+  SRTHash: 1587090906
+  Translate: [-4587.8418, 140.409088, 2621.00879]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_01
+- HashId: !u 0x66d67d4c
+  Rotate: 0.52359879
+  SRTHash: -1160864207
+  Translate: [-4468.15283, 146.575256, 2736.14355]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_02
+- HashId: !u 0x674d8b69
+  Rotate: -1.06000006
+  SRTHash: 176778481
+  Translate: [-4586.99023, 141.878799, 2624.60474]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_02
+- HashId: !u 0x68c45b55
+  Rotate: 0.930517554
+  SRTHash: -1110110177
+  Translate: [-4582.7915, 150.393326, 2726.84131]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_01
+- HashId: !u 0x6b81aee3
+  Rotate: -2.44346094
+  SRTHash: 386050114
+  Translate: [-4434.8999, 162.179993, 2261.5]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- HashId: !u 0x6dcae681
+  Rotate: [2.85692024, -0.406489581, -1.96684349]
+  SRTHash: -1886370453
+  Translate: [-4622.84424, 141.937775, 2330.36816]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- HashId: !u 0x6ef5d6ae
+  Rotate: [2.63803434, 0.0916893482, 3.06406903]
+  SRTHash: 1649086410
+  Translate: [-4710.97119, 196.195801, 2171.33521]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x6fb8aac5
+  Rotate: -2.70159149
+  SRTHash: 1576612721
+  Scale: 1.20000005
+  Translate: [-4647.16357, 129.033722, 2774.25293]
+  UnitConfigName: FldObj_GerudoDesertRock_A_10
+- HashId: !u 0x70af81fe
+  Rotate: [-3.00159216, 1.34000003, -3.14159226]
+  SRTHash: -2137290171
+  Translate: [-4643.96631, 132.83078, 2400.91748]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x71d867fc
+  SRTHash: 2079636222
+  Translate: [-4598.58594, 139.445435, 2648.16406]
+  UnitConfigName: FldObj_TravelerTrace_Mark_A_01
+- HashId: !u 0x729a9fa2
+  Rotate: 2.91469979
+  SRTHash: 386050114
+  Translate: [-4812.7998, 139.160873, 2429.5]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x75436a2d
+  Rotate: [3.14147925, -0.229003891, 3.14147925]
+  SRTHash: 481454083
+  Translate: [-4407.65234, 166.411865, 2405.07422]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x776b7852
+  Rotate: [1.20458984, 0.283813477, -0.342285126]
+  SRTHash: 0
+  Translate: [-4121.86719, 163.644531, 2007.11719]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7a491f94
+  Rotate: [3.14147925, 0.800414979, 3.14147925]
+  SRTHash: 804575426
+  Translate: [-4926.55859, 137.791931, 2169.55078]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7a8a15b5
+  Rotate: [1.09252918, -1.2442627, 0.299926728]
+  SRTHash: 0
+  Translate: [-4491.44922, 194.410156, 1936.57812]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x7b61ae80
+  Rotate: [0.220793277, -1.23371542, -0.440868765]
+  SRTHash: -1464313628
+  Scale: 1.25
+  Translate: [-4427.25635, 144.893982, 2504.59229]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x7bf80e58
+  Rotate: [0.20000039, -1.36159241, 4.20947032e-07]
+  SRTHash: 1649086410
+  Translate: [-4645.5083, 150.615631, 2229.53784]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x7c411790
+  Rotate: 2.65072727
+  SRTHash: 386050114
+  Translate: [-4715.7002, 148.199997, 2052.3999]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_02, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7d1e4b1b
+  Rotate: [0.743938982, -0.71894151, -0.55425334]
+  SRTHash: 1588802926
+  Translate: [-4126.99268, 158.867371, 2585.33667]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropActor: Weapon_Shield_026, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7d7df2e4
+  Rotate: [-0.000940114085, -0.537037194, 0.000840283756]
+  SRTHash: -1969517944
+  Translate: [-4498.39355, 172.791122, 2137.47852]
+  UnitConfigName: TBox_Field_Wood
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: true
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 1
+    Life: -1
+    SharpWeaponJudgeType: 1
+  HashId: !u 0x7e970b8a
+  Rotate: [-1.46162033, 1.33810103, 2.97740412]
+  SRTHash: -2129451814
+  Translate: [-4130.11523, 162.346222, 2581.96167]
+  UnitConfigName: Weapon_Spear_021
+- HashId: !u 0x8196ac1d
+  Rotate: 5.98881149
+  SRTHash: 1332461502
+  Translate: [-4588.42676, 140.69426, 2636.93481]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x81b8d703
+  Rotate: [3.14147925, -1.50793457, 3.14147925]
+  SRTHash: 90659337
+  Translate: [-4443.33984, 166.352142, 2281.88672]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0x81b9dd31
+  Rotate: -2.8215909
+  SRTHash: 1561736080
+  Scale: 1.20000005
+  Translate: [-4681.94434, 132.340927, 2685.11475]
+  UnitConfigName: FldObj_GerudoDesertRock_A_10
+- HashId: !u 0x824c69c3
+  Rotate: [0.0158130433, 0.879757941, -0.0313835964]
+  SRTHash: 1811015024
+  Translate: [-4769.35889, 129.749496, 2829.25635]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0x83c3d543
+  Rotate: -0.536401272
+  SRTHash: 1819539248
+  Translate: [-4463.94238, 147.677155, 2717.23267]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_02
+- HashId: !u 0x840cf593
+  Rotate: 2.61799383
+  SRTHash: -1351691168
+  Translate: [-4569.74463, 140.175476, 2636.56519]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x841847ae
+  Rotate: [1.27221668, -1.46459961, 0.155883774]
+  SRTHash: 0
+  Translate: [-3972.44141, 195.128906, 2040.46094]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x84845b2e
+  Rotate: [2.78186679, -0.274158448, -1.84203291]
+  SRTHash: 909123883
+  Translate: [-4620.37207, 134.945908, 2338.50488]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x84f23a40
+  Rotate: 2.88635468
+  SRTHash: -1013258011
+  Translate: [-4580.40137, 150.336716, 2726.04565]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x85a70bb9
+  Rotate: [1.18786609, 0.214721665, -0.134277344]
+  SRTHash: 0
+  Translate: [-4855.58594, 209.585938, 1866.3125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x86cf6b80
+  Rotate: [3.14147925, 0.0118408194, 3.14147925]
+  SRTHash: -1492005932
+  Translate: [-4609.14062, 151.496109, 2223.83984]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0x879e5ce5
+  Rotate: -0.536401272
+  SRTHash: -1174964929
+  Translate: [-4475.0332, 149.452591, 2721.1814]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_02
+- HashId: !u 0x87ee0d8a
+  Rotate: [-0.219999582, -1.32159233, 3.5418222e-07]
+  SRTHash: 333729379
+  Translate: [-4614.17041, 149.904694, 2223.15625]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x8bae5b48
+  SRTHash: 1263200413
+  Translate: [-4819.37646, 130.411911, 2824.12939]
+  UnitConfigName: FldObj_GerudoDesertRock_A_12
+- HashId: !u 0x94d51112
+  Rotate: [-2.84713674, 0.645633042, -2.80610919]
+  SRTHash: 2024081253
+  Scale: 1.25
+  Translate: [-4483.66846, 165.521484, 2277.49316]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x96a5be09
+  Rotate: [3.04436493, 0.880479574, 3.01576304]
+  SRTHash: -1905842351
+  Translate: [-4457.71533, 163.028976, 2150.76367]
+  UnitConfigName: FldObj_BridgeGerdoQuarry_A_02
+- HashId: !u 0x96e43a5d
+  Rotate: -2.44346094
+  SRTHash: 386050114
+  Translate: [-4026.1001, 150.660004, 2709.19995]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x995983d0
+  Rotate: [3.14147925, 0.660766542, 3.14147925]
+  SRTHash: -2032346192
+  Translate: [-4689.77734, 152.629456, 2176.85547]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0x9bf93a97
+  Rotate: -2.70526028
+  SRTHash: 386050114
+  Translate: [-4581.87012, 143.953445, 2109.12988]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x9cc1c6c8
+  Rotate: [-2.57797241, -0.816647351, 1.81434417]
+  SRTHash: 1317656135
+  Translate: [-4313.93311, 175.766129, 2297.875]
+  UnitConfigName: Weapon_Lsword_001
+- HashId: !u 0x9ce6d383
+  Rotate: [-2.5253334, 1.37724161, -2.14326096]
+  SRTHash: -1823329760
+  Scale: 1.25
+  Translate: [-4396.57617, 165.347168, 2383.8916]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x9ebbb784
+  Rotate: [-1.27071559, -1.35300756, 1.47775817]
+  SRTHash: 1921638448
+  Scale: 1.24999988
+  Translate: [-4304.88525, 164.798462, 2275.33887]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9f07c181
+  Rotate: [3.14147925, 0.467529267, 3.14147925]
+  SRTHash: 1498548282
+  Translate: [-4667.82812, 135.170197, 2005.0625]
+  UnitConfigName: Item_Plant_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa1814f2e
+  Rotate: [1.68835437, -0.955200136, -0.270751923]
+  SRTHash: 0
+  Translate: [-4546.96484, 162.519531, 2173.19922]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xa1bbb45e
+  Rotate: [2.90351987, -0.263454616, -1.84920347]
+  SRTHash: -596067148
+  Scale: 1.21656716
+  Translate: [-4618.30615, 141.936996, 2336.80786]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xa2ca9be3
+  Rotate: -1.03999996
+  SRTHash: -788680952
+  Scale: 50.0
+  Translate: [-4131.86719, 159.280762, 2592.83594]
+  UnitConfigName: Area
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0xa301d20f
+  Rotate: -1.03999996
+  SRTHash: -586586217
+  Scale: 0.25
+  Translate: [-4130.90967, 159.349884, 2582.02808]
+  UnitConfigName: AnchorAction1
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 1
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xa3eaa480
+  Rotate: [2.43091393, 0.0360412262, 2.41423965]
+  SRTHash: 1317656135
+  Translate: [-4894.49512, 143.021561, 2353.80566]
+  UnitConfigName: Weapon_Lsword_055
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa4a83c9c
+  Rotate: [1.54724109, -0.590820312, -0.187988266]
+  SRTHash: 0
+  Translate: [-4343.5625, 187.1875, 2059.19141]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xa4d258df
+  Rotate: -2.61799383
+  SRTHash: 386050114
+  Translate: [-4406.20996, 167.036865, 2391.53003]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- HashId: !u 0xa6e36817
+  SRTHash: -407375716
+  Translate: [-4443.06982, 184.580002, 2270.6499]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- '!Parameters': {DropActor: Weapon_Spear_029, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa7e0f8a6
+  Rotate: [0.261799395, -0.52359879, -0.785398185]
+  SRTHash: -1502577858
+  Translate: [-4190.6001, 149.039993, 2068.05005]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropActor: PutRupee_Gold, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xaa6ee004
+  Rotate: 1.57079637
+  SRTHash: -1561697472
+  Translate: [-4938.5, 140.098801, 2156.8999]
+  UnitConfigName: TBox_Field_Stone
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xaef7a44a
+  Rotate: [-2.91941667, -0.722532928, 2.0533917]
+  SRTHash: 1317656135
+  Translate: [-4270.92334, 167.740005, 2530.3811]
+  UnitConfigName: Weapon_Lsword_001
+- HashId: !u 0xb0d46954
+  Rotate: -2.18166161
+  SRTHash: 386050114
+  Translate: [-4146.00977, 159.12999, 2377.37012]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- '!Parameters': {IsStopWithoutReductionY: false, Shape: Sphere, Sound: CmnWildBgm, SpotBgmLifeScaleMargin: 0.0}
+  HashId: !u 0xb3516d73
+  SRTHash: 666103121
+  Scale: 40.0
+  Translate: [-4798.3667, 133.0, 2799.0874]
+  UnitConfigName: SpotBgmTag
+- HashId: !u 0xb44d92d1
+  Rotate: [-2.41155291, 0.68030256, -2.78079486]
+  SRTHash: -1976489678
+  Scale: 1.24999988
+  Translate: [-4461.53369, 157.248184, 2255.9314]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, ForbidSystemDeleteDistance: false, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xb6429b76
+  SRTHash: 953732110
+  Translate: [-4609.49121, 145.338486, 2683.42065]
+  UnitConfigName: Animal_Sunazarashi_A
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb6b46bce
+  Rotate: -0.318359375
+  SRTHash: -288850017
+  Translate: [-4670.39258, 132.296829, 2413.11523]
+  UnitConfigName: Item_Plant_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb707fb53
+  Rotate: [3.14147925, -1.5385741, 3.14147925]
+  SRTHash: -74067709
+  Translate: [-4738.86719, 161.179016, 2169.71875]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0xb8328bcb
+  Rotate: 6.04813194
+  SRTHash: -107978390
+  Translate: [-4467.0708, 146.683746, 2732.79858]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_01
+- '!Parameters':
+    ArrowName: NormalArrow
+    EquipItem1: Weapon_Bow_011
+    EquipItem3: LizalfosPipe
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 60.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 150.0
+  HashId: !u 0xb8dacc6a
+  Rotate: 1.87999988
+  SRTHash: 488221277
+  Translate: [-4482.55176, 173.683929, 2133.98315]
+  UnitConfigName: Enemy_Lizalfos_Guard_Junior
+- HashId: !u 0xba71ef93
+  Rotate: -0.659999907
+  SRTHash: 1904343434
+  Scale: 0.899999976
+  Translate: [-4775.74561, 132.353607, 2770.09155]
+  UnitConfigName: FldObj_GerudoDesertRock_A_12
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xbaf195c1
+  Rotate: [2.85977602, -0.410023063, 2.33125925]
+  SRTHash: 1317656135
+  Translate: [-4643.12012, 156.940781, 2219.98608]
+  UnitConfigName: Weapon_Lsword_001
+- HashId: !u 0xbe61a1ca
+  SRTHash: -1814725669
+  Scale: 1.20000005
+  Translate: [-4717.71826, 132.845123, 2653.49805]
+  UnitConfigName: FldObj_GerudoDesertRock_A_20
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbed3457a
+  Rotate: [1.71630847, -0.750122011, -0.43725583]
+  SRTHash: 0
+  Translate: [-4371.05078, 185.503906, 2042.03516]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xbf23b7a2
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4497.56592, 172.810791, 2140.62964]
+  UnitConfigName: Area
+- HashId: !u 0xbf62e7e4
+  Rotate: [2.87028098, 1.30006135, -3.13262606]
+  SRTHash: 514737206
+  Translate: [-4675.06201, 130.203461, 2407.95117]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0xbfa1290e
+  Rotate: [2.40314317, 0.156811491, 1.94327223]
+  SRTHash: 1468534643
+  Scale: 1.25
+  Translate: [-4822.67969, 134.103607, 2773.65112]
+  UnitConfigName: FldObj_GerudoDesertRock_A_13
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbff765b0
+  Rotate: 1.41296375
+  SRTHash: 171085761
+  Translate: [-4917.11719, 137.761642, 2169.59375]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, ForbidSystemDeleteDistance: false, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xc145abe0
+  SRTHash: -749821025
+  Translate: [-4634.15186, 146.594559, 2704.93848]
+  UnitConfigName: Animal_Sunazarashi_A
+- HashId: !u 0xc34e552c
+  SRTHash: -1787070983
+  Translate: [-4819.37646, 122.039719, 2824.12939]
+  UnitConfigName: FldObj_GerudoDesertRock_A_11
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xcbbb5e2d
+  SRTHash: -788680952
+  Scale: 50.0
+  Translate: [-4497.56592, 172.810791, 2140.62964]
+  UnitConfigName: Area
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 1
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xcdf6a557
+  Rotate: [-2.8126781, -0.760261893, 1.98125887]
+  SRTHash: 1317656135
+  Translate: [-4435.93506, 167.449997, 2260.2666]
+  UnitConfigName: Weapon_Lsword_001
+- HashId: !u 0xce4c0cd0
+  SRTHash: -1895595494
+  Translate: [-4385.0, 164.23999, 2580.70996]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- HashId: !u 0xcea0c16e
+  Rotate: 2.76318502
+  SRTHash: 2108642101
+  Translate: [-4585.84326, 138.116135, 2631.28027]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0xcf5a8c67
+  Rotate: [-0.547827601, 0.0599998832, -1.58133364]
+  SRTHash: 920354150
+  Scale: 1.21656704
+  Translate: [-4131.18018, 145.539993, 2373.5]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- HashId: !u 0xcfb73e12
+  SRTHash: -2094443205
+  Translate: [-4583.57373, 142.940445, 2632.53369]
+  UnitConfigName: Obj_TreePalmMini_A_01
+- HashId: !u 0xd041cc7b
+  Rotate: 2.10128784
+  SRTHash: 386050114
+  Translate: [-4942.3999, 140.699997, 2116.2959]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- '!Parameters': {DropActor: Weapon_Sword_030, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd066f726
+  Rotate: [0.318469614, 0.791466415, 0.433983177]
+  SRTHash: -1034380991
+  Translate: [-4020.97998, 158.979996, 2201.3501]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0xd06bca51
+  Rotate: 2.94318533
+  SRTHash: 1841387813
+  Scale: 1.03601372
+  Translate: [-4647.58594, 132.682739, 2787.01172]
+  UnitConfigName: FldObj_GerudoDesertRock_A_20
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, SwitchTorchSpType: 0}
+  HashId: !u 0xd16d804e
+  Rotate: 0.159999982
+  SRTHash: 1913879681
+  Translate: [-4649.0498, 146.322098, 2775.58936]
+  UnitConfigName: SwitchCandlestickOn
+- HashId: !u 0xd265a0d2
+  Rotate: 4.73236322
+  SRTHash: 451007498
+  Translate: [-4474.52734, 148.542953, 2718.71387]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_01
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 1
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xd4ed9416
+  Rotate: [2.62999129, -0.184833094, 2.39930296]
+  SRTHash: 1317656135
+  Translate: [-4812.43799, 144.430878, 2427.93115]
+  UnitConfigName: Weapon_Lsword_001
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xd652726c
+  Rotate: -1.03999996
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4131.86719, 159.280762, 2592.83594]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd7d2d529
+  Rotate: [1.55493164, 0.564086854, 0.408935517]
+  SRTHash: 0
+  Translate: [-4879.90234, 184.292969, 1901.71484]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xd97aaf81
+  Rotate: 0.785398185
+  SRTHash: -1909118778
+  Translate: [-4491.76758, 147.524139, 2708.23218]
+  UnitConfigName: GrassCutTag
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xda361c24
+  Rotate: [2.45267797, 0.0115847802, 2.41475797]
+  SRTHash: 1317656135
+  Translate: [-4714.94092, 153.470001, 2050.97998]
+  UnitConfigName: Weapon_Lsword_015
+- HashId: !u 0xdb5c6d29
+  SRTHash: 2099636412
+  Translate: [-4228.6001, 185.319992, 2432.23999]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdb6940af
+  Rotate: [-0.165603966, -1.03770208, 0.206071496]
+  SRTHash: 1211734492
+  Translate: [-4119.75244, 159.424606, 2592.69019]
+  UnitConfigName: Obj_BreakBoxIron
+- HashId: !u 0xdd17634a
+  Rotate: [2.66818643, -0.0396391451, 2.94529843]
+  SRTHash: 1707287493
+  Translate: [-4702.69678, 199.861023, 2165.37134]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- HashId: !u 0xdd24678a
+  Rotate: -1.59640265
+  SRTHash: -438408586
+  Translate: [-4468.49365, 144.110474, 2718.56592]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, SwitchTorchSpType: 0}
+  HashId: !u 0xdd2e80be
+  Rotate: 0.159999982
+  SRTHash: 1149178518
+  Translate: [-4649.6084, 146.332443, 2772.30225]
+  UnitConfigName: SwitchCandlestickOn
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe21aa531
+  Rotate: [1.46301258, -0.281372041, 0.0511474498]
+  SRTHash: 0
+  Translate: [-4521.44922, 179.535156, 1883.14844]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe47848d8
+  Rotate: [2.14794922, -1.03796387, -0.891235292]
+  SRTHash: 0
+  Translate: [-4567.28906, 169.972656, 1807.45312]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe5612de6
+  Rotate: [3.14147925, -0.952392519, 3.14147925]
+  SRTHash: -595949966
+  Translate: [-4146.73828, 145.708801, 2118.09375]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0xe5709812
+  SRTHash: 1875904477
+  Translate: [-4228.6001, 185.319992, 2408.04004]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- HashId: !u 0xe5c99a92
+  OnlyOne: true
+  Rotate: [3.07993388, 0.336196274, 2.95659304]
+  SRTHash: -1862996298
+  Translate: [-4491.04053, 163.012817, 2182.47827]
+  UnitConfigName: FldObj_StageGerdoNarrow_A_02_A10
+- '!Parameters': {DropActor: Obj_IceArrow_A_03, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe603a67a
+  SRTHash: 900982473
+  Translate: [-4109.42188, 147.819992, 2112.02808]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0xe6242ea6
+  Rotate: 5.15528297
+  SRTHash: -463571426
+  Translate: [-4585.64697, 148.979904, 2716.22437]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_02
+- HashId: !u 0xe671e786
+  SRTHash: -239416328
+  Translate: [-4521.0249, 143.240005, 2672.29517]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_02
+- HashId: !u 0xe8e0d207
+  Rotate: 2.89072704
+  SRTHash: 386050114
+  Translate: [-4715.04736, 168.400009, 2188.50586]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe99004be
+  Rotate: [3.14147925, 0.534667909, 3.14147925]
+  SRTHash: -1692457581
+  Translate: [-4221.82422, 149.020233, 2095.8125]
+  UnitConfigName: Item_Plant_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xeab0fc39
+  Rotate: [0.993286014, 0.983642519, -0.380615205]
+  SRTHash: 0
+  Translate: [-4910.51562, 234.289062, 1899.09375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xeac4aac4
+  SRTHash: -859704315
+  Translate: [-4593.97656, 140.808777, 2635.26758]
+  UnitConfigName: Obj_TreeBroadleafLow_A_02
+- HashId: !u 0xeb93ce18
+  Rotate: 2.30128789
+  SRTHash: 386050114
+  Translate: [-4942.3999, 140.699997, 2196.3999]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xebc6f65e
+  Rotate: [3.08599186, -0.580752909, 2.22297263]
+  SRTHash: 1317656135
+  Translate: [-4466.25049, 156.07785, 2513.54712]
+  UnitConfigName: Weapon_Lsword_001
+- HashId: !u 0xecfe0a01
+  Rotate: -1.93731534
+  SRTHash: 386050114
+  Translate: [-4584.35986, 159.591675, 2002.72998]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- HashId: !u 0xed33dfd1
+  Rotate: 2.78159332
+  SRTHash: 2104636368
+  Scale: 1.24927521
+  Translate: [-4644.70654, 130.963409, 2780.70215]
+  UnitConfigName: FldObj_GerudoDesertRock_A_10
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xed5c93bc
+  Rotate: [1.24670398, 0.790649354, 0.235107407]
+  SRTHash: 0
+  Translate: [-4968.37891, 227.386719, 1983.05859]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xee1578dd
+  Rotate: 0.90991205
+  SRTHash: 191999414
+  Translate: [-4947.98047, 137.263977, 2169.79688]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xeed92571
+  Rotate: 0.309570312
+  SRTHash: -876500962
+  Translate: [-4386.78711, 170.212112, 2394.35938]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0xf1fbe346
+  Rotate: -2.95245743
+  SRTHash: 386050114
+  Translate: [-4596.5, 141.600006, 2343.19995]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- HashId: !u 0xf4a05c82
+  Rotate: 1.22480893
+  SRTHash: 242873291
+  Translate: [-4574.32178, 148.321594, 2713.34155]
+  UnitConfigName: Obj_TreeBroadleafLow_Branch_A_01
+- HashId: !u 0xf54da874
+  Rotate: [0.0, 0.00318571716, -0.199999973]
+  SRTHash: 1166808862
+  Translate: [-4641.07422, 139.563202, 2775.90771]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf7c2f4c5
+  Rotate: [3.14147925, -0.153198242, 3.14147925]
+  SRTHash: 389992771
+  Translate: [-4959.70703, 137.302414, 2169.79297]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0xf8aa1740
+  Rotate: -3.05245829
+  SRTHash: 386050114
+  Translate: [-4597.7998, 164.699997, 2501.6001]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xf8ad03cc
+  Rotate: [-2.06059504, -0.835107565, 1.43006349]
+  SRTHash: 1317656135
+  Translate: [-4394.30273, 164.105392, 2082.12939]
+  UnitConfigName: Weapon_Lsword_001
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf8e0d858
+  Rotate: [3.14147925, -0.741210938, 3.14147925]
+  SRTHash: 587146256
+  Translate: [-4971.00391, 140.398132, 2130.55859]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0xf8f83b8a
+  Rotate: -2.00712872
+  SRTHash: 386050114
+  Translate: [-4256.99023, 141.539993, 2164.6001]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf943e1e1
+  Rotate: [1.1101073, -1.0098877, 0.404907197]
+  SRTHash: 0
+  Translate: [-3941.78906, 203.363281, 2110.0625]
+  UnitConfigName: Item_Plant_O
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsMimicry: false
+    IsNearCreate: false
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xf9fd6a07
+  SRTHash: 1304894426
+  Translate: [-4196.6001, 150.797363, 2046.59998]
+  UnitConfigName: Enemy_Octarock_Desert
+- HashId: !u 0xfa3bad28
+  Rotate: [-0.255574733, 0.85440737, -0.305469275]
+  SRTHash: 682371238
+  Translate: [-4821.79639, 126.321747, 2829.60742]
+  UnitConfigName: FldObj_GerudoDesertRock_A_11
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsMimicry: false
+    IsNearCreate: false
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfe4eeb8c
+  Rotate: 0.785398185
+  SRTHash: 909426171
+  Translate: [-4105.27002, 151.242203, 2773.16992]
+  UnitConfigName: Enemy_Octarock_Desert
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfe50cbe1
+  Rotate: [1.04248047, -0.0832519457, -0.444335908]
+  SRTHash: 0
+  Translate: [-4736.11328, 142.875, 2655.22656]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropActor: Item_Enemy_30, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff7bffa
+  Rotate: 2.79999995
+  SRTHash: -1709674313
+  Translate: [-4716.33838, 161.247299, 2051.44629]
+  UnitConfigName: TBox_Field_Iron
+Rails: []

@@ -1,7 +1,5 @@
-- {ConditionEntry: FindDungeon_Activated, ConditionFile: TipsCommon, Interval: None, IntervalOption: 0, MessageId: Bonfire_00,
-  Priority: Priority_2}
-- {ConditionEntry: FindDungeon_Activated, ConditionFile: TipsCommon, Interval: None, IntervalOption: 0, MessageId: Bonfire_01,
-  Priority: Priority_2}
+- {ConditionEntry: Always, ConditionFile: TipsCommon, Interval: None, IntervalOption: 0, MessageId: RelicsTip01, Priority: Priority_4}
+- {ConditionEntry: Always, ConditionFile: TipsCommon, Interval: None, IntervalOption: 0, MessageId: RelicsTip02, Priority: Priority_4}
 - {ConditionEntry: FindDungeon_Activated, ConditionFile: TipsCommon, Interval: None, IntervalOption: 0, MessageId: Bonfire_02,
   Priority: Priority_2}
 - {ConditionEntry: Always, ConditionFile: TipsCommon, Interval: None, IntervalOption: 0, MessageId: Temperature_00, Priority: Priority_2}
@@ -29,3 +27,7 @@
 - {ConditionEntry: Arrive_Hateno, ConditionFile: TipsField, Interval: None, IntervalOption: 0, MessageId: Knowledge_05, Priority: Priority_2}
 - {ConditionEntry: FirstTouchdown, ConditionFile: TipsCommon, Interval: None, IntervalOption: 0, MessageId: Knowledge_06,
   Priority: Priority_2}
+- {ConditionEntry: Always, ConditionFile: TipsCommon, Interval: None, IntervalOption: 0, MessageId: RelicsTip03, Priority: Priority_4}
+- {ConditionEntry: Always, ConditionFile: TipsCommon, Interval: None, IntervalOption: 0, MessageId: RelicsTip04, Priority: Priority_4}
+- {ConditionEntry: Always, ConditionFile: TipsCommon, Interval: None, IntervalOption: 0, MessageId: RelicsTip05, Priority: Priority_4}
+- {ConditionEntry: Always, ConditionFile: TipsCommon, Interval: None, IntervalOption: 0, MessageId: RelicsTip06, Priority: Priority_4}

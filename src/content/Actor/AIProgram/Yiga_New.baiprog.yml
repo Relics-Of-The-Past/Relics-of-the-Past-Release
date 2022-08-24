@@ -87,12 +87,12 @@ param_root: !list
               NoPlayerTerritoryArea: 30.0
               SpreadDist: 0.0
               EnlargeAwnRatio: 2.5
-              NoticeTerrorLevel: 0.0
+              NoticeTerrorLevel: 10.0
               SpeadDist2: 0.0
               HomePosRadius: 1.0
               SoundLostTimer: -1
-              NoActionReactTimeMin: 30
-              NoActionReactTimeMax: 45
+              NoActionReactTimeMin: 10
+              NoActionReactTimeMax: 25
               IsMindDoubtTarget: true
               FortressTag: EnemyFortressMgr
               SubsTerritoryArea: 20.0
@@ -172,7 +172,7 @@ param_root: !list
             SInst: !obj
               IsFinishedByFailAction: false
               IsEndChangeable: false
-              IsNoChangeable: true
+              IsNoChangeable: false
           lists: {}
         AI_8: !list
           objects:
@@ -217,7 +217,7 @@ param_root: !list
               起き上がり凍結: 46
             SInst: !obj
               DrownDepth: -1.0
-              IsForceGetUp: false
+              IsForceGetUp: true
               IsIceBreak: true
           lists: {}
         AI_11: !list
@@ -412,10 +412,10 @@ param_root: !list
               近距離: 49
               遠距離: 27
             SInst: !obj
-              FarDist: 2.0
-              BaseDist: 0.0
+              FarDist: 5.0
+              BaseDist: 3.0
               WeaponIdx: 0
-              IsSelectEveryFrame: false
+              IsSelectEveryFrame: true
               IsRangeXZ: true
           lists: {}
         AI_22: !list
@@ -1565,11 +1565,11 @@ param_root: !list
               戦闘攻撃: 112
               戦闘準備: 113
             SInst: !obj
-              AttackAngle: 0.261799008
-              RetFrmGrdAtkTimer: 20
-              RetFrmGrdAtkPrcTimer: 30
+              AttackAngle: 0.161799014
+              RetFrmGrdAtkTimer: 5
+              RetFrmGrdAtkPrcTimer: 5
               RetFrmDmgAtkTimer: -1
-              GlobalNoAtkTime: 80
+              GlobalNoAtkTime: 10
               GlobalNoAtkTimeRnd: 16
               AttackIntervalIntensity: 2.0
               DisplayCheckRadius: 0.800000012
@@ -1589,7 +1589,7 @@ param_root: !list
               1721623982: 7
             SInst: !obj
               FarDist: 4.0
-              BaseDist: 0.0
+              BaseDist: 3.0
               WeaponIdx: -1
               IsSelectEveryFrame: false
               IsRangeXZ: false
@@ -1614,9 +1614,9 @@ param_root: !list
               FarDist: 0.600000024
               WeaponIdx: -1
               OutDist: 10.8000002
-              BaseDist: 4.0
-              SpaceDist: 3.0
-              SpaceAngle: 3.0
+              BaseDist: 3.0
+              SpaceDist: 2.0
+              SpaceAngle: 2.0
               BackTimeMin: 15
               BackTimeMax: 30
               LeaveTimerMin: 4
@@ -1625,7 +1625,7 @@ param_root: !list
               IsCheckReachable: true
               PosVibrateFrame: -1
               RotVelVibrateFrame: -1
-              NoMoveDist: 0.0
+              NoMoveDist: 3.0
           lists: {}
         AI_114: !list
           objects:
@@ -1682,7 +1682,7 @@ param_root: !list
               起き上がり凍結: 46
             SInst: !obj
               DrownDepth: 1.39999998
-              IsForceGetUp: false
+              IsForceGetUp: true
               IsIceBreak: false
           lists: {}
         AI_118: !list
@@ -2183,8 +2183,8 @@ param_root: !list
               ClimbVmax: -1.0
               ClimbHmax: -1.0
               SurpriseAttackPer: 100
-              SurpriseAttackRange: 4.0
-              AttackRange: 10.0
+              SurpriseAttackRange: 13.0
+              AttackRange: 13.0
               AttackVMin: -1.70000005
               AttackVMax: 3.29999995
               SwiftAttackVMin: -4.0
@@ -2337,7 +2337,7 @@ param_root: !list
               起き上がり凍結: 46
             SInst: !obj
               DrownDepth: -1.0
-              IsForceGetUp: false
+              IsForceGetUp: true
               IsIceBreak: false
           lists: {}
         AI_160: !list
@@ -2392,7 +2392,7 @@ param_root: !list
               Power: 0.5
               UpRate: 0.400000006
               DirAngle: 0.0
-              CanKickArea: 2.20000005
+              CanKickArea: 0.0
               RotSpeed: 0.523599029
           lists: {}
         Action_1: !list
@@ -2485,7 +2485,7 @@ param_root: !list
             SInst: !obj
               HitImpactForce: 0.5
               VelReduce: 0.5
-              KnockBackTime: 3
+              KnockBackTime: 0
               WeaponIdx: -1
               WeaponDropSpeedXZ: 0.300000012
               WeaponDropSpeedY: 0.5
@@ -2517,7 +2517,7 @@ param_root: !list
               GroupName: 大落下
             SInst: !obj
               ASName: BlownOff
-              Time: 60
+              Time: 5
               PosBaseRagdollRbName: Ragdoll_Spine_1
               DownBackCtrlOffset: !vec3 [0.0, 0.0, 0.0]
               DownFrontCtrlOffset: !vec3 [0.0, 0.0, 0.0]
@@ -2525,10 +2525,10 @@ param_root: !list
               WeaponDropSpeedY: 0.5
               InWaterDownTime: 30
               IsWaitAS: false
-              ForceFinishTime: -1
+              ForceFinishTime: 3
               StableASName: DownWait
               IsItemDrop: true
-              OnGroundDownTime: 30
+              OnGroundDownTime: 5
               GetUpGroundAngle: 0.785398006
               ForceEndWaterDepth: -1.0
               IsCheckVibrate: true
@@ -2575,7 +2575,7 @@ param_root: !list
               IsRodDirHosei: false
               AngSpd: 0.157079995
               ASName: Attack
-              IsJumpType: false
+              IsJumpType: true
               IsChangeable: true
           lists: {}
         Action_14: !list
@@ -2732,7 +2732,7 @@ param_root: !list
               AngSpd: 0.157079995
               ASName: PatrolTurn
               IsJumpType: true
-              IsChangeable: true
+              IsChangeable: false
           lists: {}
         Action_24: !list
           objects:
@@ -2796,7 +2796,7 @@ param_root: !list
               AngSpd: 0.157079995
               ASName: PatrolTurn
               IsJumpType: true
-              IsChangeable: true
+              IsChangeable: false
           lists: {}
         Action_28: !list
           objects:
@@ -2995,7 +2995,7 @@ param_root: !list
               EffectName: Sign
               Timer: 40
               IsKeepLifeGage: false
-              IsChangeable: false
+              IsChangeable: true
           lists: {}
         Action_46: !list
           objects:
@@ -3151,13 +3151,13 @@ param_root: !list
               IsIgnoreSmallHit: true
               JustAvoidAngle: 0.959931016
               JustAvoidBackDist: 4.0
-              JustAvoidSideDist: 3.0
+              JustAvoidSideDist: 5.0
               WeaponIdx: 0
               ForceKillMode: true
               IsRodDirHosei: true
               AngSpd: 0.157079995
               ASName: AttackWind
-              IsJumpType: false
+              IsJumpType: true
               IsChangeable: true
           lists: {}
         Action_58: !list
@@ -3187,7 +3187,7 @@ param_root: !list
               IsRodDirHosei: true
               AngSpd: 0.157079995
               ASName: AttackWind
-              IsJumpType: false
+              IsJumpType: true
               IsChangeable: true
           lists: {}
         Action_60: !list
@@ -3198,7 +3198,7 @@ param_root: !list
               GroupName: 炎上ラグドール
             SInst: !obj
               ASName: DownWait
-              Time: 30
+              Time: 5
               PosBaseRagdollRbName: Ragdoll_Spine_1
               DownBackCtrlOffset: !vec3 [0.0, 0.0, 0.75]
               DownFrontCtrlOffset: !vec3 [0.0, 0.0, 0.0]
@@ -3206,10 +3206,10 @@ param_root: !list
               WeaponDropSpeedY: 0.5
               InWaterDownTime: 30
               IsWaitAS: false
-              ForceFinishTime: -1
+              ForceFinishTime: 5
               StableASName: DownWait
               IsItemDrop: true
-              OnGroundDownTime: 30
+              OnGroundDownTime: 5
               GetUpGroundAngle: 0.785398006
               ForceEndWaterDepth: -1.0
               IsCheckVibrate: true
@@ -3225,16 +3225,16 @@ param_root: !list
               RodAttackDelayTime: 0
               IsNoRodAttack: false
               IsIgnoreSmallHit: true
-              JustAvoidAngle: 0.959931016
+              JustAvoidAngle: 0.859930992
               JustAvoidBackDist: 4.0
-              JustAvoidSideDist: 3.0
+              JustAvoidSideDist: 5.0
               WeaponIdx: 0
               ForceKillMode: true
               IsRodDirHosei: true
               AngSpd: 0.157079995
               ASName: AttackWind
               IsJumpType: false
-              IsChangeable: false
+              IsChangeable: true
           lists: {}
         Action_62: !list
           objects:
@@ -3385,7 +3385,7 @@ param_root: !list
               GroupName: 電撃ラグドール
             SInst: !obj
               ASName: DownWait
-              Time: 30
+              Time: 5
               PosBaseRagdollRbName: Ragdoll_Spine_1
               DownBackCtrlOffset: !vec3 [0.0, 0.0, 0.75]
               DownFrontCtrlOffset: !vec3 [0.0, 0.0, 0.0]
@@ -3523,7 +3523,7 @@ param_root: !list
               DistY: 1.0
               IsNormalizeAxisY: true
               SearchClosestPointRadius: 0.5
-              WaitTime: 60
+              WaitTime: 30
               TimeRand: 0
               IsUseChangePos: true
               EffectName: DoronDisappear
@@ -3552,7 +3552,7 @@ param_root: !list
               GroupName: 感電死リアクション
             SInst: !obj
               ResetCondition: 4
-              WaitFrame: 30
+              WaitFrame: 15
               WaitFrameRand: 0
               IsChangeable: true
               EndState: 0
@@ -3596,9 +3596,9 @@ param_root: !list
               GroupName: 焼死ラグドールリアクション
             SInst: !obj
               ResetCondition: 2
-              WaitFrame: 30
+              WaitFrame: 10
               WaitFrameRand: 0
-              IsChangeable: false
+              IsChangeable: true
               EndState: 0
           lists: {}
         Action_89: !list
@@ -3642,9 +3642,9 @@ param_root: !list
               GroupName: 電撃ラグドールリアクション
             SInst: !obj
               ResetCondition: 4
-              WaitFrame: 30
+              WaitFrame: 5
               WaitFrameRand: 0
-              IsChangeable: false
+              IsChangeable: true
               EndState: 0
           lists: {}
         Action_93: !list
@@ -3655,7 +3655,7 @@ param_root: !list
               GroupName: 凍死リアクション
             SInst: !obj
               ResetCondition: 3
-              WaitFrame: 60
+              WaitFrame: 20
               WaitFrameRand: 0
               IsChangeable: true
               EndState: 0
@@ -3667,7 +3667,7 @@ param_root: !list
               ClassName: !str32 OnetimeMoveASPlay
               GroupName: 突風
             SInst: !obj
-              IsChangable: false
+              IsChangable: true
               ASName: Wind
               IsIgnoreSame: false
               PosReduceRatio: 1.0
@@ -3724,7 +3724,7 @@ param_root: !list
               ClassName: !str32 ForkTimer
               GroupName: 焼死リアクション
             SInst: !obj
-              WaitFrame: 30
+              WaitFrame: 10
               WaitFrameRand: 0
               IsChangeable: true
               EndState: 0
@@ -3738,7 +3738,7 @@ param_root: !list
             SInst: !obj
               ASName: Teleport
               EndState: 0
-              ChangeableTiming: 0
+              ChangeableTiming: 5
               IsIgnoreSame: true
               SeqBank: 0
               TargetBone: 0
@@ -3900,7 +3900,7 @@ param_root: !list
               GroupName: 死亡ラグドール中
             SInst: !obj
               ASName: DownWait
-              Time: 30
+              Time: 5
               PosBaseRagdollRbName: Ragdoll_Spine_1
               DownBackCtrlOffset: !vec3 [0.0, 0.0, 0.75]
               DownFrontCtrlOffset: !vec3 [0.0, 0.0, 0.0]
@@ -3908,7 +3908,7 @@ param_root: !list
               WeaponDropSpeedY: 0.5
               InWaterDownTime: 30
               IsWaitAS: false
-              ForceFinishTime: -1
+              ForceFinishTime: 5
               StableASName: DownWait
               IsItemDrop: true
               OnGroundDownTime: 30
@@ -4056,7 +4056,7 @@ param_root: !list
               ClassName: !str32 BattleCloseWalk
               GroupName: 近接戦闘
             SInst: !obj
-              Speed: 0.115000002
+              Speed: 0.126000002
               RotSpd: 0.157079995
               FinRadius: 0.200000003
               FinRotate: 3.14159012
@@ -4120,8 +4120,8 @@ param_root: !list
               IsRodDirHosei: false
               AngSpd: 0.157079995
               ASName: Attack
-              IsJumpType: false
-              IsChangeable: false
+              IsJumpType: true
+              IsChangeable: true
           lists: {}
         Action_131: !list
           objects:
@@ -4266,7 +4266,7 @@ param_root: !list
               EffectName: Sign
               Timer: 40
               IsKeepLifeGage: false
-              IsChangeable: false
+              IsChangeable: true
           lists: {}
         Action_144: !list
           objects:
@@ -4289,7 +4289,7 @@ param_root: !list
             SInst: !obj
               HitImpactForce: 0.5
               VelReduce: 0.5
-              KnockBackTime: 3
+              KnockBackTime: 2
               WeaponIdx: -1
               WeaponDropSpeedXZ: 0.300000012
               WeaponDropSpeedY: 0.5
@@ -4598,7 +4598,7 @@ param_root: !list
               AngSpd: 0.157079995
               ASName: Attack
               IsJumpType: false
-              IsChangeable: false
+              IsChangeable: true
           lists: {}
         Action_163: !list
           objects:
@@ -4681,7 +4681,7 @@ param_root: !list
               ClassName: !str32 OnetimeStopASPlay
               GroupName: 視界気づき
             SInst: !obj
-              ASName: Whistle
+              ASName: Drawn
               IsIgnoreSame: true
               PosReduceRatio: 0.150000006
               AngReduceRatio: 0.449999988

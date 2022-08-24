@@ -108,9 +108,9 @@ param_root: !list
               RetFrmGrdAtkTimer: 20
               RetFrmGrdAtkPrcTimer: 30
               RetFrmDmgAtkTimer: -1
-              GlobalNoAtkTime: 80
+              GlobalNoAtkTime: 10
               GlobalNoAtkTimeRnd: 16
-              AttackIntervalIntensity: 1.0
+              AttackIntervalIntensity: 2.0
               DisplayCheckRadius: 0.800000012
               IsUpdateNoticeState: true
               IsCheckLineReachable: false
@@ -206,9 +206,9 @@ param_root: !list
               RetFrmGrdAtkTimer: 20
               RetFrmGrdAtkPrcTimer: 30
               RetFrmDmgAtkTimer: -1
-              GlobalNoAtkTime: 80
+              GlobalNoAtkTime: 10
               GlobalNoAtkTimeRnd: 16
-              AttackIntervalIntensity: 1.0
+              AttackIntervalIntensity: 2.0
               DisplayCheckRadius: 0.800000012
               IsUpdateNoticeState: true
               IsCheckLineReachable: false
@@ -843,9 +843,9 @@ param_root: !list
               RetFrmGrdAtkTimer: 20
               RetFrmGrdAtkPrcTimer: 30
               RetFrmDmgAtkTimer: -1
-              GlobalNoAtkTime: 80
+              GlobalNoAtkTime: 10
               GlobalNoAtkTimeRnd: 16
-              AttackIntervalIntensity: 1.0
+              AttackIntervalIntensity: 2.0
               DisplayCheckRadius: 0.800000012
               IsUpdateNoticeState: true
               IsCheckLineReachable: false
@@ -1609,8 +1609,8 @@ param_root: !list
               ClassName: !str32 Wait
               GroupName: 隠れ追跡
             SInst: !obj
-              Time: 30
-              TimeRand: 30
+              Time: 5
+              TimeRand: 5
               PosReduceRatio: 0.0
               AngReduceRatio: 0.0
           lists: {}

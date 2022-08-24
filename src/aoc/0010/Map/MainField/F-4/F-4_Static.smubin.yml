@@ -2540,7 +2540,7 @@ Objs:
   SRTHash: 1682888761
   Translate: [884.485901, 122.728394, -8.52996826]
   UnitConfigName: FldObj_CliffGashamahi_A_05
-- '!Parameters': {DropTable: __none__, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: PutRupee_Gold, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x4a963b5b
   LinksToObj:
   - '!Parameters': {NoAutoDemoMember: false}
@@ -5312,7 +5312,7 @@ Objs:
     LinksToRail:
     - {DefinitionName: GuideRef, DestUnitHashId: !u 0xfff05aa1}
     SharpWeaponJudgeType: 1
-    TraversePos: {X: 269.160797, Y: 168.61792, Z: -715.783203}
+    TraversePos: {X: 252.160797, Y: 168.61792, Z: -755.783203}
     TraverseRadiusXZ: 45.6650009
   HashId: !u 0xfff05aa3
   Rotate: 1.79999995
@@ -9085,23 +9085,6 @@ Objs:
   SRTHash: 538492814
   Translate: [392.941742, 134.275513, -414.727234]
   UnitConfigName: FldObj_HyliaStoneRuinDebris_A_01
-- '!Parameters':
-    HiddenKorokBodyColor: 3
-    HiddenKorokLeftPlantType: 0
-    HiddenKorokMaskType: 8
-    HiddenKorokRightPlantType: 0
-    IsAppearCheck: false
-    IsHiddenKorokLiftAppear: true
-    IsInvisibleKorok: false
-    KorokEventStartWaitFrame: 20
-    PlacementType: Ground
-    RailMoveSpeed: 0.100000001
-    TerritoryArea: 0.0
-  HashId: !u 0xff1d0e25
-  Rotate: 1.57079637
-  SRTHash: 1257283389
-  Translate: [86.2337036, 138.819763, -412.085999]
-  UnitConfigName: Npc_HiddenKorokGround
 - HashId: !u 0xff25487f
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xf77b98c0}
@@ -9420,6 +9403,110 @@ Objs:
   SRTHash: 0
   Translate: [390.899811, 116.20356, -709.879822]
   UnitConfigName: LinkTagAnd
+- HashId: !u 0xfff05aa4
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x6ab8efa7}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x3f420d81}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xb86cc499}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xed5056c7}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xc9254027}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x6609a97b}
+  SRTHash: 0
+  Scale: 4.0
+  Translate: [205.220444, 153.161453, -551.968262]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x6ab8efa7
+  Rotate: [-3.01591897, 0.955357075, -2.96978402]
+  SRTHash: -495773703
+  Translate: [159.117981, 147.916107, -573.456543]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- HashId: !u 0x3f420d81
+  Rotate: [-2.56510544, 0.875544965, -3.02102447]
+  SRTHash: 18425004
+  Translate: [271.381775, 129.339981, -541.445679]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- HashId: !u 0xb86cc499
+  Rotate: [-0.433461636, 1.36539567, -0.742868662]
+  SRTHash: 18425004
+  Translate: [240.802216, 134.157928, -480.396332]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- HashId: !u 0xed5056c7
+  Rotate: [0.452815205, -0.259611666, -0.273034304]
+  SRTHash: 18425004
+  Translate: [87.2131653, 125.558403, -219.518036]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- HashId: !u 0xc9254027
+  Rotate: [-1.23756492, 1.32969201, -0.971878529]
+  SRTHash: 18425004
+  Translate: [158.847748, 134.38028, -325.247223]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- HashId: !u 0x6609a97b
+  Rotate: [2.64855671, 0.762040615, 2.85304856]
+  SRTHash: 18425004
+  Translate: [84.5202942, 125.996246, -158.297668]
+  UnitConfigName: FldObj_RuinGuardian_A_01
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0x72012484
+  Rotate: [-3.01591897, 0.955357075, -2.96978402]
+  SRTHash: 5004
+  Translate: [159.117981, 147.916107, -573.456543]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0x5e556ad1
+  Rotate: [-2.56510544, 0.875544965, -3.02102447]
+  SRTHash: 5004
+  Translate: [271.381775, 129.339981, -541.445679]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xabed884a
+  Rotate: [-0.433461636, 1.36539567, -0.742868662]
+  SRTHash: 5004
+  Translate: [240.802216, 134.157928, -480.396332]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xe4590e08
+  Rotate: [0.452815205, -0.259611666, -0.273034304]
+  SRTHash: 5004
+  Translate: [87.2131653, 125.558403, -219.518036]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0x61cca711
+  Rotate: [-1.23756492, 1.32969201, -0.971878529]
+  SRTHash: 5004
+  Translate: [158.847748, 134.38028, -325.247223]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0x0d569983
+  Rotate: [2.64855671, 0.762040615, 2.85304856]
+  SRTHash: 5004
+  Translate: [84.5202942, 125.996246, -158.297668]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- '!Parameters': {ChaseRange: 1200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xfff05aa5
+  Rotate: 0.0
+  SRTHash: -1705605155
+  Translate: [32.1989441, 135.517441, -369.063416]
+  UnitConfigName: Enemy_Guardian_A
+- '!Parameters': {ActorName: Enemy_Assassin_Shooter_Junior, Count: 6.0, Shape: Box}
+  HashId: !u 0xfff05aa6
+  SRTHash: 0
+  Translate: [1009.75537, 186.985214, -489.956299]
+  UnitConfigName: AddAutoPlacementCreator
+- HashId: !u 0xfff05aa7
+  LinksToObj:
+  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xfff05aa6}
+  SRTHash: 0
+  Translate: [1011.4812, 188.568665, -491.7229]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ArrowName: BombArrow_A, EquipItem1: Weapon_Bow_003, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfff05aa8
+  Rotate: -0.770796418
+  SRTHash: -1658582254
+  Translate: [886.208557, 188.136963, -539.698853]
+  UnitConfigName: Enemy_Moriblin_Gold
 Rails:
 - HashId: !u 0xfff05aa1
   IsClosed: false

@@ -444,6 +444,31 @@ string256_array_data:
   MaxValue: ''
   MinValue: ''
   ResetType: 0
+- DataName: MemoryPhotoSaveLocationName
+  DeleteRev: -1
+  HashValue: -407851732
+  InitValue:
+  - Values:
+    - CelebrationPark
+    - GatakaraPond
+    - StonePillers
+    - Oasis
+    - ''
+    - KakaomePlain
+    - SojijiPark
+    - ''
+    - HyruleCastle
+    - PowerFountain
+    - LanayruEastEntrance
+    - ''
+  IsEventAssociated: false
+  IsOneTrigger: false
+  IsProgramReadable: true
+  IsProgramWritable: true
+  IsSave: true
+  MaxValue: ''
+  MinValue: ''
+  ResetType: 0
 - DataName: AlbumSaveLocationName
   DeleteRev: -1
   HashValue: 798324367
@@ -906,31 +931,6 @@ string256_array_data:
     - MapArea_TamulPlateau
     - MapArea_LanayruWaterSources
     - MapArea_CentralHyrule
-  IsEventAssociated: false
-  IsOneTrigger: false
-  IsProgramReadable: true
-  IsProgramWritable: true
-  IsSave: true
-  MaxValue: ''
-  MinValue: ''
-  ResetType: 0
-- DataName: MemoryPhotoSaveLocationName
-  DeleteRev: -1
-  HashValue: -407851732
-  InitValue:
-  - Values:
-    - CelebrationPark
-    - GatakaraPond
-    - StonePillers
-    - Oasis
-    - ''
-    - KakaomePlain
-    - SojijiPark
-    - ''
-    - HyruleCastle
-    - PowerFountain
-    - LanayruEastEntrance
-    - ''
   IsEventAssociated: false
   IsOneTrigger: false
   IsProgramReadable: true

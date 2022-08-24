@@ -8,7 +8,7 @@ param_root: !list
       IsGetItemSelf: false
     General: !obj
       Speed: 1.0
-      Life: 50
+      Life: 150
       IsLifeInfinite: false
       ElectricalDischarge: 1.0
       IsBurnOutBorn: false
@@ -16,13 +16,13 @@ param_root: !list
       IsBurnOutBornIdent: false
       ChangeDropTableName: ''
     Attack: !obj
-      Power: 55
+      Power: 15
       Impulse: 3000
       ImpulseLarge: 3000
       Range: 1.79999995
       GuardBreakPower: 10
       SpHitActor: Enemy_Ganon,Enemy_SiteBoss_Sword,Enemy_SiteBoss_Lsword,Enemy_SiteBoss_Spear,Enemy_SiteBoss_Bow,Enemy_SiteBoss_Sword_Castle,Enemy_SiteBoss_Lsword_Castle,Enemy_SiteBoss_Spear_Castle,Enemy_SiteBoss_Bow_Castle,Enemy_Guardian_Mini_Baby,Enemy_Guardian_Mini_Junior,Enemy_Guardian_Mini_Middle,Enemy_Guardian_Mini_Senior,Enemy_Guardian_Mini_Baby_Dark,Enemy_Guardian_Mini_Junior_Dark,Enemy_Guardian_Mini_Middle_Dark,Enemy_Guardian_Mini_Senior_Dark,Enemy_Guardian_Mini_Junior_Wipe
-      SpHitTag: TeamGuardian,IsEffectiveAncientWeapon
+      SpHitTag: TeamGuardian,IsEffectiveAncientWeapon,TeamBokoblin,TeamMoriblin,TeamLizarfos
       SpHitRatio: 1.5
       SpWeakHitActor: ''
       PowerForPlayer: -1
@@ -53,15 +53,15 @@ param_root: !list
       ShootBeam: ''
       DropFromPorchRot: !vec3 [-30.0, 0.0, 0.0]
       SharpWeaponPer: 10.0
-      SharpWeaponAddAtkMin: 11
+      SharpWeaponAddAtkMin: 10
       SharpWeaponAddAtkMax: 20
       SharpWeaponAddLifeMin: 5
       SharpWeaponAddLifeMax: 9
       SharpWeaponAddCrit: true
       SharpWeaponAddGuardMin: 0
       SharpWeaponAddGuardMax: 0
-      PoweredSharpAddAtkMin: 21
-      PoweredSharpAddAtkMax: 33
+      PoweredSharpAddAtkMin: 11
+      PoweredSharpAddAtkMax: 57
       PoweredSharpAddLifeMin: 10
       PoweredSharpAddLifeMax: 23
       PoweredSharpWeaponAddGuardMin: 0
@@ -100,7 +100,7 @@ param_root: !list
       EnemyEquipRotOffset: !vec3 [0.0, 0.0, 0.0]
       StandEquipTransOffset: !vec3 [0.0, 0.0, 0.0]
       StandEquipRotOffset: !vec3 [0.0, 0.0, 0.0]
-      WeaponSubType: !str32 0
+      WeaponSubType: !str32 Multi
     Item: !obj
       PlayerUseItem: false
       SellingPrice: 8

@@ -649,11 +649,11 @@ Objs:
   SRTHash: -384275989
   Translate: [2653.96875, 203.815811, -71.742157]
   UnitConfigName: FldObj_EnemyLookout_B_01
-- '!Parameters': {DropActor: Obj_ArrowBundle_A_01, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_50, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x0b6d1390
   Rotate: [-0.0851054117, -0.520839632, 0.0633589327]
   SRTHash: -1191977750
-  Translate: [2240.68384, 186.017014, -64.7164459]
+  Translate: [2240.66382, 186.017014, -64.7168274]
   UnitConfigName: TBox_Field_Iron
 - HashId: !u 0x0b727626
   Rotate: -1.02000022
@@ -1362,7 +1362,7 @@ Objs:
   SRTHash: 0
   Translate: [2058.05859, 131.675781, -171.902344]
   UnitConfigName: EnvSeEmitPointBirdTemperate
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Happy, SharpWeaponJudgeType: 0}
   HashId: !u 0x19be1654
   Rotate: [0.18845512, -0.399915665, -0.101713508]
   SRTHash: -1604625374
@@ -9874,11 +9874,11 @@ Objs:
   Scale: 1.04326987
   Translate: [2666.63794, 194.878555, -1.27270508]
   UnitConfigName: FldObj_KorokStake_A_01
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Happy, SharpWeaponJudgeType: 0}
   HashId: !u 0xa9160030
   Rotate: [-0.221765399, -0.0222335868, 0.158460602]
   SRTHash: -1726229568
-  Translate: [2373.53711, 229.307907, -874.600769]
+  Translate: [2373.55469, 229.307907, -874.610229]
   UnitConfigName: Obj_Mineral_A_01
 - HashId: !u 0xa91a9880
   Rotate: [1.90893543, -0.485717744, -1.15136707]
@@ -14700,7 +14700,7 @@ Objs:
     TerritoryArea: 0.0
   HashId: !u 0xffff9449
   SRTHash: 0
-  Translate: [2243.74731, 116.871841, -687.338135]
+  Translate: [2243.77563, 116.871841, -687.338135]
   UnitConfigName: Enemy_Lynel_Senior
 - '!Parameters':
     ArrowName: NormalArrow
@@ -15457,24 +15457,29 @@ Objs:
   SRTHash: 361195767
   Translate: [2858.39453, 270.749451, -192.521759]
   UnitConfigName: TBox_Field_Iron
-- HashId: !u 0xffff9495
+- '!Parameters': {IsFixedPlace: false}
+  HashId: !u 0xffff9495
   SRTHash: 0
   Translate: [2520.38013, 213.383911, -669.437195]
   UnitConfigName: Obj_IceArrow_A_02
-- HashId: !u 0xffff9496
+- '!Parameters': {IsFixedPlace: false}
+  HashId: !u 0xffff9496
   SRTHash: 0
   Translate: [2519.25122, 213.383911, -668.734558]
   UnitConfigName: Obj_IceArrow_A_02
-- HashId: !u 0xffff9497
+- '!Parameters': {IsFixedPlace: false}
+  HashId: !u 0xffff9497
   SRTHash: 0
   Translate: [2519.88989, 213.383911, -669.049866]
   UnitConfigName: Obj_IceArrow_A_02
-- HashId: !u 0xffff9498
+- '!Parameters': {IsFixedPlace: false}
+  HashId: !u 0xffff9498
   Rotate: 2.20000005
   SRTHash: 0
   Translate: [2518.22632, 213.383911, -668.2099]
   UnitConfigName: Obj_BombArrow_A_02
-- HashId: !u 0xffff9499
+- '!Parameters': {IsFixedPlace: false}
+  HashId: !u 0xffff9499
   Rotate: 5.19999981
   SRTHash: 0
   Translate: [2519.90356, 213.383911, -667.792969]
@@ -15485,4 +15490,33 @@ Objs:
   SRTHash: -83606067
   Translate: [2265.04541, 195.379517, -26.3677521]
   UnitConfigName: Enemy_Bokoblin_Senior
+- '!Parameters': {IsFixedPlace: true}
+  HashId: !u 0xffff949d
+  SRTHash: 0
+  Translate: [2426.31372, 287.375122, -414.021423]
+  UnitConfigName: Item_Ore_J
+- '!Parameters': {IsFixedPlace: false}
+  HashId: !u 0xffff94a1
+  Rotate: 2.20000005
+  SRTHash: 0
+  Translate: [2519.31958, 213.383911, -670.128113]
+  UnitConfigName: Obj_ElectricArrow_A_02
+- '!Parameters': {IsFixedPlace: false}
+  HashId: !u 0xffff94a2
+  Rotate: 2.4000001
+  SRTHash: 0
+  Translate: [2521.48706, 213.383911, -669.65686]
+  UnitConfigName: Obj_FireArrow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xffff94a3
+  Rotate: 0.279999971
+  SRTHash: 1063387092
+  Translate: [2764.61694, 444.984283, -540.312744]
+  UnitConfigName: Item_Plant_B
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xffff94a4
+  Rotate: 0.279999971
+  SRTHash: 1063387092
+  Translate: [2761.0835, 444.984283, -536.181519]
+  UnitConfigName: Item_Plant_B
 Rails: []

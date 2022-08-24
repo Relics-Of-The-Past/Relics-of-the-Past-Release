@@ -113,7 +113,7 @@ param_root: !list
               WeaponIdx: 0
               FirstAttackResetDist: 6.0
               BattleDistOutDist: 15.0
-              FirstAttackAngle: 0.174532995
+              FirstAttackAngle: 0.174532935
               TiredDist: 100.0
               TiredTime: 25
               FirstAttackDist: 5.0
@@ -269,7 +269,7 @@ param_root: !list
               崖でない: 130
             SInst: !obj
               CheckDist: 14.0
-              CheckAngle: 3.14159012
+              CheckAngle: 3.14159274
               IsSelectFirstTime: true
           lists: {}
         AI_16: !list
@@ -296,7 +296,7 @@ param_root: !list
               角度差大: 22
               角度差小: 131
             SInst: !obj
-              SubsAngle: 2.61799002
+              SubsAngle: 2.61799383
               CheckOnce: true
               YRotOnly: false
           lists: {}
@@ -310,7 +310,7 @@ param_root: !list
               角度差大: 22
               角度差小: 131
             SInst: !obj
-              SubsAngle: 1.57079995
+              SubsAngle: 1.57079625
               CheckOnce: true
               YRotOnly: false
           lists: {}
@@ -417,7 +417,7 @@ param_root: !list
               以上: 11
               未満: 220
             SInst: !obj
-              Angle: 1.30900002
+              Angle: 1.30899692
           lists: {}
         AI_27: !list
           objects:
@@ -430,7 +430,7 @@ param_root: !list
               崖でない: 129
             SInst: !obj
               CheckDist: 7.0
-              CheckAngle: 3.14159012
+              CheckAngle: 3.14159274
               IsSelectFirstTime: true
           lists: {}
         AI_28: !list
@@ -444,7 +444,7 @@ param_root: !list
               崖でない: 129
             SInst: !obj
               CheckDist: 7.0
-              CheckAngle: 3.14159012
+              CheckAngle: 3.14159274
               IsSelectFirstTime: true
           lists: {}
         AI_29: !list
@@ -957,7 +957,7 @@ param_root: !list
               FarYMax: 3.0
               FarYMin: -10.0
               XZRange: 6.0
-              Angle: 3.14159012
+              Angle: 3.14159274
               Option: 1
           lists: {}
         AI_69: !list
@@ -1088,7 +1088,7 @@ param_root: !list
             BehaviorIdx: !obj
               1721623982: 6
             SInst: !obj
-              SubsAngle: 2.61799002
+              SubsAngle: 2.61799383
               CheckOnce: true
               YRotOnly: true
           lists: {}
@@ -1125,7 +1125,7 @@ param_root: !list
               OutDist: 15.0
               BaseDist: 17.0
               SpaceDist: 2.70000005
-              SpaceAngle: 0.349065989
+              SpaceAngle: 0.34906587
               BackTimeMin: 15
               BackTimeMax: 30
               LeaveTimerMin: 4
@@ -1148,7 +1148,7 @@ param_root: !list
             BehaviorIdx: !obj
               1721623982: 6
             SInst: !obj
-              TurnStartAngle: 0.261799008
+              TurnStartAngle: 0.261799365
               CheckOnce: false
           lists: {}
         AI_83: !list
@@ -1163,7 +1163,7 @@ param_root: !list
             BehaviorIdx: !obj
               1721623982: 6
             SInst: !obj
-              TurnStartAngle: 0.436331987
+              TurnStartAngle: 0.436332345
               CheckOnce: true
           lists: {}
         AI_84: !list
@@ -1401,7 +1401,7 @@ param_root: !list
               EnlargeTime: 60
               MagicPer: 50
               AttackPowDirect: 40
-              AttackAngle: 0.261799008
+              AttackAngle: 0.261799365
               RetFrmGrdAtkTimer: 20
               RetFrmGrdAtkPrcTimer: 30
               RetFrmDmgAtkTimer: -1
@@ -1717,13 +1717,13 @@ param_root: !list
               RodAttackDelayTime: 0
               IsNoRodAttack: true
               IsIgnoreSmallHit: true
-              JustAvoidAngle: 0.959931016
+              JustAvoidAngle: 0.959931195
               JustAvoidBackDist: 4.0
               JustAvoidSideDist: 3.0
               WeaponIdx: 0
               ForceKillMode: false
               IsRodDirHosei: false
-              AngSpd: 0.157079995
+              AngSpd: 0.157079622
               ASName: MagicAttackEndAttack
               IsJumpType: false
               IsChangeable: false
@@ -1801,7 +1801,7 @@ param_root: !list
               StableASName: DownWait
               IsItemDrop: true
               OnGroundDownTime: 30
-              GetUpGroundAngle: 0.785398006
+              GetUpGroundAngle: 0.785398185
               ForceEndWaterDepth: -1.0
               IsCheckVibrate: true
               StartUpdateFriction: -1
@@ -1816,7 +1816,7 @@ param_root: !list
               1721623982: 6
             SInst: !obj
               Speed: 0.100000001
-              RotSpd: 0.174532995
+              RotSpd: 0.174532935
               RotDist: 17.0
           lists: {}
         Action_10: !list
@@ -1860,8 +1860,8 @@ param_root: !list
               ClassName: !str32 Turn
               GroupName: 回転
             SInst: !obj
-              RotSpd: 0.104719996
-              FinRotate: 0.0523599014
+              RotSpd: 0.104719758
+              FinRotate: 0.052359879
               IsFollowGround: false
               PosReduceRatio: 0.00999999978
               BaseRotRatio: 0.0799999982
@@ -1876,7 +1876,7 @@ param_root: !list
               GroupName: 戦闘後ずさり
             SInst: !obj
               Speed: 0.119999997
-              RotSpd: 0.104719996
+              RotSpd: 0.104719758
               RotAddRatio: 0.0599999987
               Time: 4
               FinishDist: 14.0
@@ -1901,7 +1901,7 @@ param_root: !list
               GroupName: 角度差大
             SInst: !obj
               Speed: 0.119999997
-              RotSpd: 0.104719996
+              RotSpd: 0.104719758
               RotAddRatio: 0.0599999987
               Time: 4
               FinishDist: 14.0
@@ -1941,7 +1941,7 @@ param_root: !list
               GroupName: 遠距離_0
             SInst: !obj
               Speed: 0.119999997
-              RotSpd: 0.104719996
+              RotSpd: 0.104719758
               RotAddRatio: 0.0599999987
               Time: 4
               FinishDist: 14.0
@@ -1999,7 +1999,7 @@ param_root: !list
               StableASName: ''
               IsItemDrop: true
               OnGroundDownTime: 30
-              GetUpGroundAngle: 0.785398006
+              GetUpGroundAngle: 0.785398185
               ForceEndWaterDepth: -1.0
               IsCheckVibrate: true
               StartUpdateFriction: -1
@@ -2069,8 +2069,8 @@ param_root: !list
               GroupName: 子１
             SInst: !obj
               IsUpdateTarget: true
-              RotSpd: 0.157079995
-              FinRotate: 0.0174532998
+              RotSpd: 0.157079622
+              FinRotate: 0.0174532924
               PosReduceRatio: 0.699999988
               BaseRotRatio: 0.159999996
               IsFollowGround: false
@@ -2089,8 +2089,8 @@ param_root: !list
               GroupName: 子１_0
             SInst: !obj
               IsUpdateTarget: true
-              RotSpd: 0.418879002
-              FinRotate: 0.0174532998
+              RotSpd: 0.418879032
+              FinRotate: 0.0174532924
               PosReduceRatio: 1.0
               BaseRotRatio: 0.360000014
               IsFollowGround: false
@@ -2109,8 +2109,8 @@ param_root: !list
               GroupName: 子２
             SInst: !obj
               IsUpdateTarget: true
-              RotSpd: 0.698131979
-              FinRotate: 0.0174532998
+              RotSpd: 0.69813174
+              FinRotate: 0.0174532924
               PosReduceRatio: 1.0
               BaseRotRatio: 0.330000013
               IsFollowGround: false
@@ -2159,7 +2159,7 @@ param_root: !list
               StableASName: DownWait
               IsItemDrop: true
               OnGroundDownTime: 30
-              GetUpGroundAngle: 0.785398006
+              GetUpGroundAngle: 0.785398185
               ForceEndWaterDepth: -1.0
               IsCheckVibrate: true
               StartUpdateFriction: -1
@@ -2324,16 +2324,16 @@ param_root: !list
               RodAttackDelayTime: 3
               IsNoRodAttack: false
               IsIgnoreSmallHit: true
-              JustAvoidAngle: 1.57079995
+              JustAvoidAngle: 1.57079625
               JustAvoidBackDist: 4.0
               JustAvoidSideDist: 5.0
               WeaponIdx: 0
               ForceKillMode: false
               IsRodDirHosei: true
-              AngSpd: 0.157079995
+              AngSpd: 0.157079622
               ASName: AttackWind
               IsJumpType: false
-              IsChangeable: true
+              IsChangeable: false
           lists: {}
         Action_45: !list
           objects:
@@ -2355,7 +2355,7 @@ param_root: !list
               StableASName: DownWait
               IsItemDrop: true
               OnGroundDownTime: 30
-              GetUpGroundAngle: 0.785398006
+              GetUpGroundAngle: 0.785398185
               ForceEndWaterDepth: -1.0
               IsCheckVibrate: true
               StartUpdateFriction: -1
@@ -2444,7 +2444,7 @@ param_root: !list
               Dir: 1
               PosStayRatio: 0.100000001
               RotStayRatio: 0.400000006
-              AngSpd: 0.349065989
+              AngSpd: 0.34906587
               IsOnASEventChangeable: true
               IsUpdateRotSpd: false
           lists: {}
@@ -2468,7 +2468,7 @@ param_root: !list
               ClassName: !str32 ForkAlwaysRotDownGr
               GroupName: 起き上がり凍結
             SInst: !obj
-              GroundRotAngle: 0.104719996
+              GroundRotAngle: 0.104719758
           lists: {}
         Action_54: !list
           objects:
@@ -2478,8 +2478,8 @@ param_root: !list
               GroupName: 後行動
             SInst: !obj
               IsUpdateTarget: true
-              RotSpd: 0.226892993
-              FinRotate: 0.0174532998
+              RotSpd: 0.226892799
+              FinRotate: 0.0174532924
               PosReduceRatio: 0.0
               BaseRotRatio: 0.699999988
               IsFollowGround: false
@@ -2542,7 +2542,7 @@ param_root: !list
               ClassName: !str32 ForkASHoldLinearMove
               GroupName: 水中死亡逃走
             SInst: !obj
-              MoveDir: !vec3 [0.0, 0.0, -0.0174532998]
+              MoveDir: !vec3 [0.0, 0.0, -0.0174532924]
               MoveSpeed: 0.300000012
               RotRestRatio: 1.0
               PosRestRatio: 0.0500000007
@@ -2608,8 +2608,8 @@ param_root: !list
               GroupName: 保険起き上がり
             SInst: !obj
               RotRatio: 0.330000013
-              RotSpdMin: 0.0872664973
-              RotSpdMax: 0.279253006
+              RotSpdMin: 0.0872664675
+              RotSpdMax: 0.279252678
               IsUseCRBOffsetUnit: true
           lists: {}
         Action_65: !list
@@ -2705,7 +2705,7 @@ param_root: !list
               GroupName: 遠距離
             SInst: !obj
               MemoryPartsName: Grave
-              AngSpd: 0.209439993
+              AngSpd: 0.209439516
               ASName: Magic
               IsJumpType: true
               IsChangeable: false
@@ -2730,7 +2730,7 @@ param_root: !list
               StableASName: DownWait
               IsItemDrop: true
               OnGroundDownTime: 30
-              GetUpGroundAngle: 0.785398006
+              GetUpGroundAngle: 0.785398185
               ForceEndWaterDepth: -1.0
               IsCheckVibrate: true
               StartUpdateFriction: -1
@@ -2755,7 +2755,7 @@ param_root: !list
               StableASName: ''
               IsItemDrop: true
               OnGroundDownTime: 30
-              GetUpGroundAngle: 0.785398006
+              GetUpGroundAngle: 0.785398185
               ForceEndWaterDepth: -1.0
               IsCheckVibrate: true
               StartUpdateFriction: -1
@@ -2874,7 +2874,7 @@ param_root: !list
               ClassName: !str32 ForkASHoldLinearMove
               GroupName: 死亡逃走
             SInst: !obj
-              MoveDir: !vec3 [0.0, 0.0, -0.0174532998]
+              MoveDir: !vec3 [0.0, 0.0, -0.0174532924]
               MoveSpeed: 0.300000012
               RotRestRatio: 1.0
               PosRestRatio: 0.0500000007
@@ -2904,13 +2904,13 @@ param_root: !list
               RodAttackDelayTime: 0
               IsNoRodAttack: true
               IsIgnoreSmallHit: true
-              JustAvoidAngle: 0.959931016
+              JustAvoidAngle: 0.959931195
               JustAvoidBackDist: 4.0
               JustAvoidSideDist: 3.0
               WeaponIdx: 0
               ForceKillMode: false
               IsRodDirHosei: false
-              AngSpd: 0.157079995
+              AngSpd: 0.157079622
               ASName: Attack
               IsJumpType: false
               IsChangeable: false
@@ -2934,10 +2934,10 @@ param_root: !list
               ClassName: !str32 BattleWalk
               GroupName: 戦闘歩行
             SInst: !obj
-              Speed: 0.100000001
-              RotSpd: 0.174532995
+              Speed: 0.0799999982
+              RotSpd: 0.174532935
               FinRadius: 17.0
-              FinRotate: 3.14159012
+              FinRotate: 3.14159274
               WeaponIdx: -1
               BaseRotRatio: 0.140000001
               FollowGround: false
@@ -3011,7 +3011,7 @@ param_root: !list
               GroupName: 魔法攻撃
             SInst: !obj
               MemoryPartsName: Grave
-              AngSpd: 0.209439993
+              AngSpd: 0.209439516
               ASName: Magic
               IsJumpType: true
               IsChangeable: false
@@ -3224,8 +3224,8 @@ param_root: !list
               GroupName: ''
             SInst: !obj
               IsUpdateTarget: true
-              RotSpd: 0.157079995
-              FinRotate: 0.0174532998
+              RotSpd: 0.157079622
+              FinRotate: 0.0174532924
               PosReduceRatio: 0.699999988
               BaseRotRatio: 0.159999996
               IsFollowGround: false
@@ -3396,7 +3396,7 @@ param_root: !list
             SInst: !obj
               LeftEyeLidName: Eyelid_U_L
               RightEyeLidName: Eyelid_U_R
-              CloseOffset: !vec3 [2.09439993, 2.09439993, 0.0]
+              CloseOffset: !vec3 [2.09439516, 2.09439516, 0.0]
               TimerMin: 30
               TimerMax: 50
               BlinkCount: 1
@@ -3416,7 +3416,7 @@ param_root: !list
             SInst: !obj
               LeftEyeLidName: Eyelid_U_L
               RightEyeLidName: Eyelid_U_R
-              CloseOffset: !vec3 [2.09439993, 2.09439993, 0.0]
+              CloseOffset: !vec3 [2.09439516, 2.09439516, 0.0]
           lists: {}
         Behavior_17: !list
           objects:

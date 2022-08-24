@@ -7759,11 +7759,11 @@ Objs:
   SRTHash: -1262056144
   Translate: [1772.44043, 181.858154, 3064.48291]
   UnitConfigName: FldObj_CliffTropicsLumpRock_A_L_03
-- '!Parameters': {DropActor: Weapon_Shield_003, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Shield_003, EnableRevival: false, IsInGround: false, LevelSensorMode: 1, SharpWeaponJudgeType: 3}
   HashId: !u 0x95966f80
-  Rotate: [-0.325624496, 1.35988224, -0.081463024]
+  Rotate: [-0.107230648, 1.35988224, -0.0334616899]
   SRTHash: -2056508472
-  Translate: [1905.08142, 135.922485, 3669.44238]
+  Translate: [1905.08142, 224.722488, 3669.44238]
   UnitConfigName: TBox_Field_Iron
 - HashId: !u 0x95ab3d3a
   SRTHash: 81628464
@@ -13425,4 +13425,24 @@ Objs:
   SRTHash: 598192775
   Translate: [990.726074, 125.910103, 3493.21899]
   UnitConfigName: Enemy_Lynel_Middle
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff3baf5
+  SRTHash: -1754489813
+  Translate: [1414.68909, 255.801682, 3214.19531]
+  UnitConfigName: Item_Plant_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff3baf6
+  SRTHash: -1754489813
+  Translate: [1416.21472, 255.801682, 3215.04688]
+  UnitConfigName: Item_Plant_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff3baf7
+  SRTHash: -1754489813
+  Translate: [1417.33337, 255.801682, 3213.38721]
+  UnitConfigName: Item_Plant_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff3baf8
+  SRTHash: -1754489813
+  Translate: [1415.51917, 255.801682, 3212.41675]
+  UnitConfigName: Item_Plant_C
 Rails: []

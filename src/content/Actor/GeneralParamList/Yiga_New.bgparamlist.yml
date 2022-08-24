@@ -8,7 +8,7 @@ param_root: !list
       IsGetItemSelf: false
     General: !obj
       Speed: 35.0
-      Life: 610
+      Life: 3050
       IsLifeInfinite: false
       ElectricalDischarge: 1.0
       IsBurnOutBorn: false
@@ -36,12 +36,12 @@ param_root: !list
       ChangeLife: -1.0
     EnemyLevel: !obj
       IsAvoidDanger: false
-      IsGuardArrow: false
+      IsGuardArrow: true
       IsHideArrowAttack: true
       IsSwiftAttack: true
-      IsBackSwiftAttack: false
+      IsBackSwiftAttack: true
       IsCounterAttack: true
-      IsEscapeBomb: false
+      IsEscapeBomb: true
       IsKickBomb: false
       IsShootBomb: false
       IsThrowWeapon: false
@@ -82,22 +82,22 @@ param_root: !list
       EscapeAttackedActorType: ''
       ReactionBalloon: false
       SmallRagdollTime: 8
-      SmallRagdollRecoverTime: 15
-      SmallLargeRagdollTime: 30
-      SmallLargeRagdollRecoverTime: 20
+      SmallRagdollRecoverTime: 5
+      SmallLargeRagdollTime: 5
+      SmallLargeRagdollRecoverTime: 5
     AttackInterval: !obj
-      ShortAttackTimeMin: 19
-      ShortAttackTimeMax: 20
-      MiddleAttackTimeMin: 25
-      MiddleAttackTimeMax: 30
-      LongAttackTimeMin: 35
-      LongAttackTimeMax: 40
+      ShortAttackTimeMin: 10
+      ShortAttackTimeMax: 15
+      MiddleAttackTimeMin: 15
+      MiddleAttackTimeMax: 20
+      LongAttackTimeMin: 25
+      LongAttackTimeMax: 30
     Attack: !obj
       Power: 10
       Impulse: 0
       ImpulseLarge: 0
-      Range: 22.0
-      GuardBreakPower: 10
+      Range: 35.0
+      GuardBreakPower: 28
       SpHitActor: ''
       SpHitTag: ''
       SpHitRatio: 2.0

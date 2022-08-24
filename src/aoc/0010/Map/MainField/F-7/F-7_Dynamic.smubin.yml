@@ -102,11 +102,6 @@ Objs:
   SRTHash: 0
   Translate: [982.53125, 165.746094, 2862.67578]
   UnitConfigName: EnvSeEmitPointInsectSubtoropical
-- HashId: !u 0x02c7b3c2
-  Rotate: [-3.05269623, 0.634656668, -2.99237943]
-  SRTHash: 2058932993
-  Translate: [34.0652161, 110.536835, 2103.9187]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x031126cd
   Rotate: [0.0276239756, 0.617454588, -0.228448063]
   SRTHash: -429941715
@@ -170,11 +165,6 @@ Objs:
   SRTHash: 776311052
   Translate: [436.278137, 114.533882, 2058.1604]
   UnitConfigName: FldObj_HyliaWoodRuinDebris_A_02
-- HashId: !u 0x046e7ec6
-  Rotate: [3.13791633, -0.181762531, -3.12125778]
-  SRTHash: 854603152
-  Translate: [839.814148, 146.833328, 2427.57739]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x04841455
   Rotate: 5.45062351
@@ -273,11 +263,6 @@ Objs:
   SRTHash: -1326594911
   Translate: [891.103271, 123.491264, 2930.5686]
   UnitConfigName: FldObj_RuinStonePillar_A_01
-- HashId: !u 0x073d5c57
-  Rotate: -1.90001094
-  SRTHash: 1925152031
-  Translate: [646.532349, 170.10054, 2313.31274]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x07429cad
   Rotate: 1.33865917
@@ -357,11 +342,6 @@ Objs:
   SRTHash: 0
   Translate: [899.351562, 169.316406, 2048.46094]
   UnitConfigName: Item_Mushroom_D
-- HashId: !u 0x08f3c3fa
-  Rotate: [0.00367633556, 0.181762934, 0.0203348547]
-  SRTHash: 435268011
-  Translate: [839.286865, 143.845596, 2427.67798]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
     SharpWeaponJudgeType: 0}
   HashId: !u 0x08f6fb2d
@@ -369,11 +349,6 @@ Objs:
   SRTHash: 833444129
   Translate: [590.066528, 180.899994, 2786.38721]
   UnitConfigName: Animal_Insect_E
-- HashId: !u 0x09644dd5
-  SRTHash: -943685880
-  Scale: 2.9867413
-  Translate: [418.209442, 127.645264, 2876.40649]
-  UnitConfigName: AirWallHorse_HiddnKorok
 - HashId: !u 0x0977d807
   Rotate: -2.87999916
   SRTHash: 1593338288
@@ -409,11 +384,6 @@ Objs:
   SRTHash: -1673179756
   Translate: [513.456116, 125.377831, 2881.16406]
   UnitConfigName: Animal_Insect_Q
-- HashId: !u 0x0a4712a8
-  Rotate: [-0.0888963267, -0.634656727, 0.14921312]
-  SRTHash: -673710
-  Translate: [34.493988, 112.5327, 2102.97485]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x0af47202
   Rotate: -0.51034981
   SRTHash: -1930429456
@@ -477,16 +447,6 @@ Objs:
   Scale: 1.11587214
   Translate: [386.012756, 151.550781, 2173.70752]
   UnitConfigName: Obj_TreeGashamahi_A_04
-- HashId: !u 0x0c5f7ee4
-  Rotate: [-3.02159238, -0.930795848, 3.14159274]
-  SRTHash: -583203191
-  Translate: [32.757782, 109.432762, 2104.2207]
-  UnitConfigName: FldObj_KorokStone_A_01
-- HashId: !u 0x0c66b4ce
-  Rotate: -0.329208285
-  SRTHash: 1133151953
-  Translate: [645.555054, 169.10054, 2313.17896]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x0c9e6bc5
   Rotate: 2.05410242
   SRTHash: -829688273
@@ -508,11 +468,6 @@ Objs:
   SRTHash: -1139276764
   Translate: [853.945435, 124.170944, 2900.81543]
   UnitConfigName: Obj_TreeTropicalLow_A_01
-- HashId: !u 0x0d0bf7cb
-  Rotate: [-1.50321937, -0.755675077, 2.80975485]
-  SRTHash: 971044959
-  Translate: [95.1589661, 100.492455, 2137.71582]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x0d327b24
   Rotate: -2.87979269
   SRTHash: 1746500108
@@ -708,12 +663,6 @@ Objs:
   SRTHash: 946399026
   Translate: [311.380371, 142.562225, 2091.35962]
   UnitConfigName: Obj_TreeGashamahi_A_09
-- '!Parameters': {DropActor: Weapon_Spear_002, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
-  HashId: !u 0x12147484
-  Rotate: [-0.254628122, 1.04157996, -0.307829738]
-  SRTHash: 387375146
-  Translate: [606.07843, 156.608017, 2261.26221]
-  UnitConfigName: TBox_Field_Iron
 - HashId: !u 0x12385443
   Rotate: [-0.121873721, 0.588988364, -0.217007577]
   SRTHash: 994563252
@@ -763,16 +712,6 @@ Objs:
   Scale: 0.929687977
   Translate: [353.824219, 161.197998, 2204.36719]
   UnitConfigName: Obj_Plant_CypressLow_A_01
-- HashId: !u 0x132b78c0
-  Rotate: [-1.63837421, 0.755674958, -0.331838638]
-  SRTHash: 1174079240
-  Translate: [93.821106, 100.810539, 2136.26367]
-  UnitConfigName: FldObj_KorokStone_A_01
-- HashId: !u 0x13638fd3
-  Rotate: [-2.32761192, -0.0491659977, -1.85625398]
-  SRTHash: -868882831
-  Translate: [93.9078979, 98.7712326, 2138.48633]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x137c0cc2
   Rotate: [-0.377414823, -0.634675026, -0.0948386639]
   SRTHash: 68784748
@@ -982,16 +921,6 @@ Objs:
   SRTHash: 134193371
   Translate: [425.438721, 117.375282, 2934.57031]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- HashId: !u 0x197d582d
-  Rotate: [-0.813980639, 0.0491654947, 1.28533876]
-  SRTHash: -1683781784
-  Translate: [94.4636536, 100.728783, 2138.40332]
-  UnitConfigName: FldObj_KorokStone_A_01
-- HashId: !u 0x19ae6961
-  Rotate: [-3.02159238, -0.930795848, 3.14159274]
-  SRTHash: 515747552
-  Translate: [33.401886, 109.437637, 2103.42334]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x19c429a8
   Rotate: 1.94159234
   SRTHash: -504329935
@@ -1068,11 +997,6 @@ Objs:
   SRTHash: 2090245668
   Translate: [285.599548, 141.673248, 2253.20581]
   UnitConfigName: Obj_TreeBroadleafHoleStump_B_L_01
-- HashId: !u 0x1aee5777
-  Rotate: [-3.05269623, 0.634656668, -2.99237943]
-  SRTHash: 1137823426
-  Translate: [33.6394043, 113.411362, 2102.33716]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x1af2e10d
   Rotate: 3.14942455
@@ -1136,11 +1060,6 @@ Objs:
   SRTHash: -1717863731
   Translate: [591.024048, 173.509842, 2787.18896]
   UnitConfigName: TBox_Field_Iron
-- HashId: !u 0x1caa2f56
-  Rotate: 1.20158267
-  SRTHash: -301645698
-  Translate: [645.229126, 167.670853, 2314.13599]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x1cb1dc14
   SRTHash: -439996280
   Translate: [894.274109, 125.618904, 2944.46436]
@@ -1171,11 +1090,6 @@ Objs:
   SRTHash: -720491986
   Translate: [720.46582, 117.800003, 2699.0542]
   UnitConfigName: FldObj_RuinStatueDragon_A_02
-- HashId: !u 0x1d89c9c2
-  Rotate: 1.79999793
-  SRTHash: -1790877370
-  Translate: [285.27356, 145.040359, 2253.14673]
-  UnitConfigName: AirWallHorse_HiddnKorok
 - HashId: !u 0x1d934118
   Rotate: 2.10383415
   SRTHash: -1259675767
@@ -1234,22 +1148,12 @@ Objs:
   SRTHash: -1260416695
   Translate: [966.109131, 113.242188, 2477.31494]
   UnitConfigName: FldObj_RuinStoneWall_A_01
-- HashId: !u 0x1e675138
-  Rotate: [0.00367633556, 0.181762934, 0.0203348547]
-  SRTHash: 1109024833
-  Translate: [839.40332, 145.843201, 2427.6521]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x1e718507
   Rotate: [0.449683875, -1.32851875, -0.839050531]
   SRTHash: 1323638536
   Scale: 0.878906012
   Translate: [639.382812, 159.379425, 2925.14453]
   UnitConfigName: Obj_Plant_CypressLow_A_02
-- HashId: !u 0x1e8db9a5
-  Rotate: 1.20158267
-  SRTHash: 889120956
-  Translate: [645.229126, 168.670853, 2314.13599]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x1ea0d51d
   Rotate: -0.880004823
   SRTHash: -504134321
@@ -1330,12 +1234,6 @@ Objs:
   SRTHash: 1780035274
   Translate: [777.512451, 117.830696, 2802.21313]
   UnitConfigName: Obj_RockSetGray_A_02
-- HashId: !u 0x20878e2c
-  Rotate: 1.42000031
-  SRTHash: -943685880
-  Scale: [6.23424721, 6.2342, 6.2342]
-  Translate: [915.189941, 240.220413, 2193.98486]
-  UnitConfigName: AirWallHorse_HiddnKorok
 - HashId: !u 0x20a2a43e
   Rotate: [3.14147925, -0.965576112, 3.14147925]
   SRTHash: 0
@@ -1672,11 +1570,6 @@ Objs:
   Scale: 0.964356601
   Translate: [364.760834, 161.39119, 2226.8418]
   UnitConfigName: Obj_TreeBroadleafLow_A_01
-- HashId: !u 0x27d6a5b7
-  Rotate: [-0.120000258, 0.930795968, 2.36525679e-07]
-  SRTHash: -983833115
-  Translate: [33.5433655, 114.404182, 2102.26562]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x27e776de
   Rotate: [-2.0273881, 1.0752461, -2.61403823]
   SRTHash: 777147832
@@ -1742,22 +1635,12 @@ Objs:
   SRTHash: -1491999877
   Translate: [719.181152, 128.0, 2687.36646]
   UnitConfigName: FldObj_RuinStoneWall_A_04
-- HashId: !u 0x29deebc8
-  Rotate: [-1.50321865, -0.755674839, 2.80975413]
-  SRTHash: -966360176
-  Translate: [94.4900208, 100.651497, 2136.9895]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x2a15b3ce
   Rotate: [0.0788739473, 0.320906311, 0.134017661]
   SRTHash: 1468316870
   Scale: 0.855468988
   Translate: [152.527344, 118.236237, 2875.80469]
   UnitConfigName: Obj_Plant_HopBush_A_01
-- HashId: !u 0x2a16a15d
-  Rotate: [-0.0888963267, -0.634656727, 0.14921312]
-  SRTHash: -1505685561
-  Translate: [34.7820129, 109.554283, 2103.18945]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x2a33c838
   Rotate: 0.608746827
   SRTHash: -1297765148
@@ -1890,12 +1773,6 @@ Objs:
   SRTHash: -58911885
   Translate: [381.43277, 117.312561, 2986.50244]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- HashId: !u 0x2c929624
-  Rotate: -1.59999859
-  SRTHash: -943685880
-  Scale: [2.70000029, 3.34373021, 2.70000029]
-  Translate: [150.010071, 142.989227, 2980.10449]
-  UnitConfigName: AirWallHorse_HiddnKorok
 - HashId: !u 0x2cb872af
   Rotate: [1.83719456, -1.11171591, 2.66217828]
   SRTHash: -1586566260
@@ -2266,11 +2143,6 @@ Objs:
   Scale: 0.996522009
   Translate: [224.728027, 163.278931, 2082.36499]
   UnitConfigName: Obj_TreeBroadleafLow_A_02
-- HashId: !u 0x37b670e1
-  Rotate: [-1.63837421, 0.755674958, -0.331838638]
-  SRTHash: 653886411
-  Translate: [96.8950195, 99.0394135, 2139.92969]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x37ba81c1
   Rotate: 1.27547681
   SRTHash: 1829459135
@@ -2312,13 +2184,6 @@ Objs:
   Scale: 0.981445014
   Translate: [606.640625, 157.051636, 2266.79297]
   UnitConfigName: Obj_Plant_CypressLow_A_02
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
-  HashId: !u 0x388c5748
-  Rotate: [0.0167213306, -0.00144375721, 0.0933047533]
-  SRTHash: 2064350931
-  Scale: 0.800000012
-  Translate: [421.934814, 130.124664, 2882.47974]
-  UnitConfigName: FldObj_PushRock_A_M_01
 - HashId: !u 0x39057280
   Rotate: [0.0282857176, -0.152576014, 0.0951227322]
   SRTHash: -1081657509
@@ -2343,11 +2208,6 @@ Objs:
   Scale: 60.0
   Translate: [887.957214, 123.999008, 2970.01929]
   UnitConfigName: Area
-- HashId: !u 0x39772bd1
-  Rotate: 1.20158267
-  SRTHash: 259283285
-  Translate: [646.140747, 167.72554, 2314.45093]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x39e29282
   Rotate: [0.310420096, -0.026806483, 0.170914859]
   SRTHash: -1674290316
@@ -2448,18 +2308,13 @@ Objs:
   Scale: 0.91455102
   Translate: [632.726562, 174.66449, 2407.21094]
   UnitConfigName: Obj_Plant_CypressLow_A_02
-- HashId: !u 0x3c78498c
-  Rotate: [-1.63837421, 0.755674958, -0.331838638]
-  SRTHash: 1155130140
-  Translate: [94.2194519, 99.6756058, 2137.02515]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x3c7ccb0d
   Rotate: 6.07970905
   SRTHash: 4165815
   Translate: [480.081085, 120.638718, 2951.52368]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Happy, SharpWeaponJudgeType: 0}
   HashId: !u 0x3d40dad5
   Rotate: 1.56159139
   SRTHash: -496892634
@@ -2545,11 +2400,6 @@ Objs:
   SRTHash: -871563791
   Translate: [315.978882, 123.780334, 2045.7312]
   UnitConfigName: Obj_TreeGashamahi_A_08
-- HashId: !u 0x3f3db49a
-  Rotate: [0.00367633556, 0.181762934, 0.0203348547]
-  SRTHash: -1752253592
-  Translate: [839.875977, 144.857697, 2427.56836]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x3f5dfbd8
   Rotate: 1.68252182
   SRTHash: -49163735
@@ -2722,11 +2572,6 @@ Objs:
   Scale: 1.03774953
   Translate: [264.304535, 164.908295, 2143.67432]
   UnitConfigName: Obj_TreeBroadleafLow_A_01
-- HashId: !u 0x43925b0e
-  Rotate: [-0.120000258, 0.930795968, 2.36525679e-07]
-  SRTHash: -489483872
-  Translate: [33.7354431, 112.418556, 2102.40869]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
     SharpWeaponJudgeType: 0}
   HashId: !u 0x4392b91a
@@ -2764,11 +2609,6 @@ Objs:
   SRTHash: 742324516
   Translate: [761.773682, 218.130402, 2238.73706]
   UnitConfigName: Obj_TreeBroadleafMossStump_B_L_01
-- HashId: !u 0x449ed621
-  Rotate: [-3.00159526, 1.52740586, 3.14159012]
-  SRTHash: 463176963
-  Translate: [928.052856, 143.575577, 2410.13403]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x449fd9ee
   Rotate: 3.97461843
@@ -2895,11 +2735,6 @@ Objs:
   SRTHash: -692026651
   Translate: [786.650635, 119.890152, 2851.17773]
   UnitConfigName: FldObj_RuinStatueDragon_A_01
-- HashId: !u 0x46df6a95
-  Rotate: [-1.50321865, -0.755674839, 2.80975413]
-  SRTHash: 254247425
-  Translate: [97.1657715, 100.015327, 2139.89404]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x46fa730f
   Rotate: [0.0399999768, -0.860000432, 0.0]
   SRTHash: -2021025311
@@ -2956,11 +2791,6 @@ Objs:
   SRTHash: -1199770425
   Translate: [506.879547, 119.078163, 2998.10962]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- HashId: !u 0x4829b298
-  Rotate: 2.81238437
-  SRTHash: 1139938225
-  Translate: [645.817627, 169.10054, 2315.40112]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {DropTable: Fruit1, SharpWeaponJudgeType: 0}
   HashId: !u 0x4832b76c
   Rotate: [0.00611433154, -0.138998255, -0.0235799681]
@@ -3337,11 +3167,6 @@ Objs:
   SRTHash: 0
   Translate: [903.402344, 138.015625, 2847.61719]
   UnitConfigName: EnvSeEmitPointBirdWetSubtropic
-- HashId: !u 0x5229d1b8
-  Rotate: [1.83276185e-07, -0.58000052, 4.66678536e-08]
-  SRTHash: 534243300
-  Translate: [33.8012085, 109.470573, 2102.45337]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x52462bc3
   Rotate: [1.98558748, 1.24901533, 2.87367487]
   SRTHash: -996089845
@@ -3407,11 +3232,6 @@ Objs:
   SRTHash: 685317112
   Translate: [833.287598, 150.5, 2547.9729]
   UnitConfigName: FldObj_RuinStoneWall_A_12
-- HashId: !u 0x53fef339
-  Rotate: [-3.02193403, -0.66912055, 3.00735569]
-  SRTHash: 1156366661
-  Translate: [625.889832, 163.093552, 2305.66162]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x5419c2b9
   Rotate: [-0.795153499, 1.16029119, -0.379486918]
   SRTHash: -554864125
@@ -3423,11 +3243,6 @@ Objs:
   SRTHash: -278812559
   Translate: [444.431793, 117.764442, 2262.03613]
   UnitConfigName: Obj_TreeBroadleafLow_Branch_A_01
-- HashId: !u 0x543bc790
-  Rotate: [-2.99177575, 0.892684937, -3.08437228]
-  SRTHash: -488715116
-  Translate: [624.342102, 163.303879, 2306.90283]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x54757c68
   Rotate: 2.15999985
   SRTHash: -1062669315
@@ -3575,23 +3390,12 @@ Objs:
   SRTHash: 2126847678
   Translate: [953.426147, 113.242188, 2459.02783]
   UnitConfigName: FldObj_RuinStoneWall_A_07
-- HashId: !u 0x57645c66
-  Rotate: 2.81238437
-  SRTHash: 1009362410
-  Translate: [646.466736, 169.10054, 2313.49414]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x577d0e63
   Rotate: 1.05999982
   SRTHash: 609804353
   Scale: 0.800000012
   Translate: [847.677551, 124.662544, 2916.54932]
   UnitConfigName: Obj_RockLayerMoss_B_M_01
-- HashId: !u 0x5780beba
-  Rotate: 1.93999958
-  SRTHash: -943685880
-  Scale: [3.07161474, 3.07159996, 3.07161474]
-  Translate: [283.037231, 99.8351059, 2404.00195]
-  UnitConfigName: AirWallHorse_HiddnKorok
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x57899f14
   Rotate: -2.62318611
@@ -3707,16 +3511,6 @@ Objs:
   SRTHash: 1973129303
   Translate: [513.967163, 114.491501, 2292.39648]
   UnitConfigName: Obj_TreeBroadleafDead_B_L_01
-- HashId: !u 0x59e6ab5d
-  Rotate: [-1.50321865, -0.755674839, 2.80975413]
-  SRTHash: 1671090841
-  Translate: [93.7947083, 100.887825, 2137.677]
-  UnitConfigName: FldObj_KorokStone_A_01
-- HashId: !u 0x59ee050c
-  Rotate: [-0.0888963267, -0.634656727, 0.14921312]
-  SRTHash: -2062829147
-  Translate: [33.2113342, 111.407745, 2103.28149]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x5a14ecc6
   Rotate: 2.99365258
@@ -3768,12 +3562,6 @@ Objs:
   SRTHash: -625497714
   Translate: [437.791168, 122.664886, 2242.59863]
   UnitConfigName: Obj_TreeBroadleafLow_Branch_A_01
-- HashId: !u 0x5b95a6b2
-  Rotate: 1.04000056
-  SRTHash: -943685880
-  Scale: 3.0
-  Translate: [227.641693, 134.263809, 2869.17578]
-  UnitConfigName: AirWallHorse_HiddnKorok
 - HashId: !u 0x5ba08add
   Rotate: [-0.0761637613, -0.412063748, 0.186378315]
   SRTHash: -1133573904
@@ -3862,11 +3650,6 @@ Objs:
   SRTHash: -480858311
   Translate: [972.812988, 113.3125, 2547.8894]
   UnitConfigName: FldObj_RuinStoneWall_A_07
-- HashId: !u 0x5ed88598
-  Rotate: 2.81238341
-  SRTHash: -365708780
-  Translate: [644.828613, 170.10054, 2315.31152]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x5efdfcb1
   Rotate: -3.1200006
   SRTHash: -262070296
@@ -4050,11 +3833,6 @@ Objs:
   SRTHash: -944581161
   Translate: [622.5, 156.752396, 2235.0]
   UnitConfigName: Enemy_Bokoblin_Middle
-- HashId: !u 0x63fd5d52
-  Rotate: [-3.13553405, -0.0429668203, 3.00146246]
-  SRTHash: -875957784
-  Translate: [927.680664, 144.637711, 2410.1521]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
   HashId: !u 0x644190f9
   SRTHash: 1276336826
@@ -4084,11 +3862,6 @@ Objs:
   SRTHash: -894287144
   Translate: [693.887207, 116.0, 2732.61597]
   UnitConfigName: FldObj_RuinStoneWall_A_07
-- HashId: !u 0x655f025d
-  Rotate: -1.90001094
-  SRTHash: 220593539
-  Translate: [645.620728, 170.10054, 2312.99756]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x65d55e96
   Rotate: -2.81999969
@@ -4253,18 +4026,6 @@ Objs:
   SRTHash: 1965877371
   Translate: [689.441284, 116.0, 2738.96045]
   UnitConfigName: FldObj_RuinStoneWall_A_04
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
-  HashId: !u 0x6a7dbc2f
-  Rotate: [-0.261847943, 1.01666617, -0.241248295]
-  SRTHash: 2064350931
-  Scale: 0.800000012
-  Translate: [236.410339, 136.890839, 2876.46948]
-  UnitConfigName: FldObj_PushRock_A_M_01
-- HashId: !u 0x6a8ef954
-  Rotate: -1.8000021
-  SRTHash: -1790877370
-  Translate: [580.267944, 121.281311, 3007.37378]
-  UnitConfigName: AirWallHorse_HiddnKorok
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x6a981582
   Rotate: 5.7505722
@@ -4282,11 +4043,6 @@ Objs:
   Scale: 0.921875
   Translate: [558.644531, 185.326447, 2396.39453]
   UnitConfigName: Obj_Plant_CypressLow_A_02
-- HashId: !u 0x6b92b2e5
-  Rotate: [-1.50321865, -0.755674839, 2.80975413]
-  SRTHash: -1390400970
-  Translate: [96.199707, 99.2757416, 2140.61719]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x6b9f0593
   Rotate: [-2.89347625, 0.275246799, 2.98736978]
   SRTHash: -2147018322
@@ -4597,11 +4353,6 @@ Objs:
   SRTHash: -1462860555
   Translate: [475.739227, 119.271599, 2982.4873]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- HashId: !u 0x74f3f06a
-  Rotate: [-3.05269623, 0.634656668, -2.99237943]
-  SRTHash: 1110380269
-  Translate: [32.4996033, 112.415588, 2104.02734]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x74fd88e0
   Rotate: [3.13241673, 0.508774459, 3.01742053]
   SRTHash: 1588917335
@@ -4647,11 +4398,6 @@ Objs:
   Scale: 1.07568395
   Translate: [249.164062, 145.169098, 2050.41016]
   UnitConfigName: Obj_Plant_HopBush_A_01
-- HashId: !u 0x76088289
-  Rotate: [-3.05269623, 0.634656668, -2.99237943]
-  SRTHash: 694609657
-  Translate: [33.0762634, 112.410896, 2103.18726]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x7625ebeb
   Rotate: 2.09439516
   SRTHash: 1646785207
@@ -4710,11 +4456,6 @@ Objs:
   SRTHash: -1261406526
   Translate: [377.998291, 118.698105, 2036.69043]
   UnitConfigName: Obj_TreeGashamahi_A_09
-- HashId: !u 0x77864aeb
-  Rotate: [-3.05269623, 0.634656668, -2.99237943]
-  SRTHash: 1774157694
-  Translate: [33.2580872, 112.529739, 2104.59351]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x778d88b4
   Rotate: -2.91519499
@@ -4737,21 +4478,11 @@ Objs:
   SRTHash: -1639985108
   Translate: [789.395752, 154.264435, 2560.40796]
   UnitConfigName: FldObj_RuinStatueBoar_A_01
-- HashId: !u 0x784e5456
-  Rotate: [0.0200000498, -1.38899672, 2.2818611e-07]
-  SRTHash: -338617428
-  Translate: [841.22406, 143.88504, 2427.32056]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x7863d911
   Rotate: [-0.00686256355, -0.0952055231, 0.269815356]
   SRTHash: -1989038982
   Translate: [613.029663, 185.896561, 2490.54321]
   UnitConfigName: Obj_Plant_CypressLow_A_02
-- HashId: !u 0x78a96097
-  Rotate: [-0.13999705, -1.52740729, -3.39575377e-06]
-  SRTHash: 532215972
-  Translate: [928.670898, 144.498047, 2410.10864]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x78ce3548
   SRTHash: 1754879274
@@ -4925,11 +4656,6 @@ Objs:
   SRTHash: -990868334
   Translate: [497.876404, 121.91684, 2943.69385]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- HashId: !u 0x7cd4607f
-  Rotate: [-3.13553405, -0.0429668203, 3.00146246]
-  SRTHash: 134528809
-  Translate: [929.0271, 143.438156, 2410.09204]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x7d14dafc
   Rotate: 4.72352982
   SRTHash: -1292431042
@@ -4983,16 +4709,6 @@ Objs:
   SRTHash: 769396311
   Translate: [909.289062, 125.535179, 2981.33789]
   UnitConfigName: Obj_TreeTropicalLow_A_01
-- HashId: !u 0x7e4e6fb9
-  Rotate: [-1.63837421, 0.755674958, -0.331838638]
-  SRTHash: -1410489173
-  Translate: [96.470459, 100.251656, 2140.58154]
-  UnitConfigName: FldObj_KorokStone_A_01
-- HashId: !u 0x7e52c6ae
-  Rotate: [3.12159252, 1.38899648, 3.14159274]
-  SRTHash: 614041776
-  Translate: [841.387939, 145.873077, 2427.28882]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x7e5c7f2a
   Rotate: [-0.673449159, -0.97605288, 0.502222776]
   SRTHash: 2055251442
@@ -5022,11 +4738,6 @@ Objs:
   Scale: 0.923620343
   Translate: [479.226929, 129.704727, 2359.82129]
   UnitConfigName: Obj_Plant_CypressLow_A_02
-- HashId: !u 0x7eca48cf
-  Rotate: [-3.02159238, -0.930795848, 3.14159274]
-  SRTHash: -2129245149
-  Translate: [34.1604919, 109.551773, 2103.98975]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x7eca8e18
   Rotate: -0.0847197622
   SRTHash: 391212851
@@ -5154,11 +4865,6 @@ Objs:
   SRTHash: 124543595
   Translate: [386.451294, 128.464722, 2083.89453]
   UnitConfigName: Obj_TreeGashamahi_A_07
-- HashId: !u 0x8225ee18
-  Rotate: [-1.50321865, -0.755674839, 2.80975413]
-  SRTHash: 1888251690
-  Translate: [95.5361023, 99.4335785, 2139.89673]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x8240f3c3
   Rotate: [1.41284168, 0.457275361, 0.230468705]
@@ -5247,11 +4953,6 @@ Objs:
   SRTHash: 1984866455
   Translate: [346.050964, 132.805954, 2080.26904]
   UnitConfigName: FldObj_HyliaWoodRuinDebris_A_01
-- HashId: !u 0x84809878
-  Rotate: 0.580000222
-  SRTHash: -1790877370
-  Translate: [215.128143, 168.318298, 2070.9021]
-  UnitConfigName: AirWallHorse_HiddnKorok
 - '!Parameters':
     EquipItem1: Weapon_Spear_003
     FortressEatPer: -1
@@ -5365,11 +5066,6 @@ Objs:
   SRTHash: 492192990
   Translate: [419.387299, 117.624657, 2945.56348]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- HashId: !u 0x87744b84
-  Rotate: [-2.32761192, -0.0491659977, -1.85625398]
-  SRTHash: -652774402
-  Translate: [96.2314148, 99.1972504, 2139.20923]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x87f07108
   Rotate: 0.263185591
@@ -5559,16 +5255,6 @@ Objs:
   SRTHash: 1156013289
   Translate: [762.066406, 133.733139, 2889.97266]
   UnitConfigName: Item_Mushroom_E
-- HashId: !u 0x8df2df6f
-  Rotate: [-1.50321865, -0.755674839, 2.80975413]
-  SRTHash: 829743701
-  Translate: [94.1929321, 99.7529526, 2138.43872]
-  UnitConfigName: FldObj_KorokStone_A_01
-- HashId: !u 0x8e0f1a97
-  Rotate: [-0.00605812902, 0.042966608, -0.140130639]
-  SRTHash: -1220107322
-  Translate: [927.269897, 145.705566, 2410.17114]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x8e3d6866
   Rotate: [-2.66534853, 0.902522862, -3.05612087]
   SRTHash: 492754345
@@ -5739,11 +5425,6 @@ Objs:
   Scale: 1.01074195
   Translate: [420.238281, 117.421616, 2937.01172]
   UnitConfigName: Obj_Plant_CypressLow_A_01
-- HashId: !u 0x9123d0c2
-  Rotate: [-2.99177575, 0.892684937, -3.08437228]
-  SRTHash: -196658816
-  Translate: [625.094666, 162.771729, 2306.32178]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
     SharpWeaponJudgeType: 0}
   HashId: !u 0x9125d5b3
@@ -5785,11 +5466,6 @@ Objs:
   SRTHash: 1420013667
   Translate: [307.108551, 152.461105, 2131.68848]
   UnitConfigName: Obj_TreeBroadleafLow_Branch_A_02
-- HashId: !u 0x921ed2f2
-  Rotate: [-2.32761192, -0.0491659977, -1.85625398]
-  SRTHash: -690148293
-  Translate: [94.6032104, 98.5349045, 2137.79883]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0x923b2dd6
   Rotate: [2.96813726, 0.814965367, 2.71013522]
   SRTHash: -1352239362
@@ -6335,11 +6011,6 @@ Objs:
   SRTHash: 113428697
   Translate: [962.588379, 113.242188, 2471.08521]
   UnitConfigName: FldObj_RuinStoneWall_A_01
-- HashId: !u 0x9fec6923
-  Rotate: [-1.50321865, -0.755674839, 2.80975413]
-  SRTHash: -168120281
-  Translate: [96.6098938, 98.0576706, 2139.97754]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xa089aae0
   Rotate: [0.0251515303, 0.852733254, -0.0382125825]
   SRTHash: 405108471
@@ -6366,11 +6037,6 @@ Objs:
   SRTHash: 1978477366
   Translate: [286.484406, 119.698273, 2939.1875]
   UnitConfigName: Obj_TreeBroadleafLow_A_01
-- HashId: !u 0xa126f6c2
-  Rotate: -0.329208285
-  SRTHash: -527497701
-  Translate: [644.906067, 169.10054, 2315.08618]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xa1950950
   Rotate: [-0.090134263, 1.00252748, -0.0769616365]
   SRTHash: -1669030285
@@ -6382,11 +6048,6 @@ Objs:
   SRTHash: 1264531153
   Translate: [457.304291, 122.374146, 2341.17603]
   UnitConfigName: Obj_TreeBroadleafDead_B_L_01
-- HashId: !u 0xa1f84029
-  Rotate: [-0.813980818, 0.0491660535, 1.28533864]
-  SRTHash: 1313064906
-  Translate: [95.567627, 99.3550568, 2138.48877]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xa291a4c6
   Rotate: -1.46000028
   SRTHash: -2097692439
@@ -6430,11 +6091,6 @@ Objs:
   SRTHash: -406265727
   Translate: [278.288452, 141.729858, 2219.3623]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- HashId: !u 0xa34274d1
-  Rotate: [-3.02193403, -0.66912055, 3.00735569]
-  SRTHash: 1208948068
-  Translate: [626.101379, 164.067307, 2305.45117]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xa393e4a7
   Rotate: [2.24839377, -0.974224508, 2.70643973]
   SRTHash: 373610234
@@ -6501,11 +6157,6 @@ Objs:
   SRTHash: 0
   Translate: [699.46875, 136.226562, 2813.99219]
   UnitConfigName: EnvSeEmitPointBirdWetSubtropic
-- HashId: !u 0xa54dc595
-  Rotate: [-0.813980818, 0.0491660535, 1.28533864]
-  SRTHash: 152528423
-  Translate: [94.8882446, 99.5166245, 2137.75122]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xa553c33c
   Rotate: 1.36008883
@@ -6550,11 +6201,6 @@ Objs:
   SRTHash: -1942246949
   Translate: [473.074371, 129.697174, 2360.82593]
   UnitConfigName: Obj_Plant_CypressLow_A_01
-- HashId: !u 0xa619011e
-  Rotate: [-3.00159526, 1.52740586, 3.14159012]
-  SRTHash: 996570447
-  Translate: [927.078003, 143.713089, 2410.17798]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xa627dae8
   Rotate: 2.28516722
   SRTHash: 1112970912
@@ -6770,11 +6416,6 @@ Objs:
   SRTHash: 403961595
   Translate: [590.943787, 180.899994, 2787.29785]
   UnitConfigName: Animal_Insect_F
-- HashId: !u 0xaa51f97a
-  Rotate: [-3.05269623, 0.634656668, -2.99237943]
-  SRTHash: 762439876
-  Translate: [33.3066406, 110.422676, 2103.35254]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xaa621eea
   Rotate: [-2.76006722, -0.180178687, 2.88960743]
   SRTHash: 474252159
@@ -6819,11 +6460,6 @@ Objs:
   SRTHash: -894810640
   Translate: [292.332581, 121.127693, 2916.15942]
   UnitConfigName: Obj_TreeBroadleaf_B_L_02
-- HashId: !u 0xaae67b6c
-  Rotate: 1.20158267
-  SRTHash: -281197909
-  Translate: [645.740234, 170.10054, 2315.62646]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {DropActor: Item_Ore_E, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xaaf4e224
   Rotate: [3.62222308e-05, 3.08325207e-06, -6.70985355e-06]
@@ -6913,11 +6549,6 @@ Objs:
   SRTHash: -178303684
   Translate: [670.945312, 139.95462, 2767.03125]
   UnitConfigName: Item_Mushroom_E
-- HashId: !u 0xaca221c4
-  Rotate: [-0.149816975, -0.892684937, 0.0572203882]
-  SRTHash: 534999875
-  Translate: [625.035461, 161.78537, 2306.41528]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xacdb920a
   Rotate: 0.893092692
@@ -6942,11 +6573,6 @@ Objs:
   SRTHash: 11018656
   Translate: [611.527893, 179.731979, 2454.45166]
   UnitConfigName: Animal_Fish_M
-- HashId: !u 0xadc25f3c
-  Rotate: [0.0200000498, -1.38899672, 2.2818611e-07]
-  SRTHash: -478759030
-  Translate: [840.860229, 144.877838, 2427.38672]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xadca588e
   Rotate: -0.659999967
   SRTHash: 725269630
@@ -7015,11 +6641,6 @@ Objs:
   SRTHash: 582067940
   Translate: [127.749176, 72.5491028, 2541.83936]
   UnitConfigName: TBox_Field_Iron
-- HashId: !u 0xaff478b9
-  Rotate: [-3.02159238, -0.930795848, 3.14159274]
-  SRTHash: -214775040
-  Translate: [34.3979492, 113.525505, 2102.90332]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xaff7a044
   Rotate: 0.781602085
   SRTHash: 1000404981
@@ -7160,11 +6781,6 @@ Objs:
   SRTHash: 1076050949
   Translate: [590.757385, 156.654129, 2252.3689]
   UnitConfigName: FldObj_HyliaWoodRuinBeam_A_01
-- HashId: !u 0xb31b1468
-  Rotate: [-2.32761192, -0.0491659977, -1.85625398]
-  SRTHash: 601450191
-  Translate: [94.8723145, 99.5913849, 2139.17627]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xb37749f3
   Rotate: 1.10994792
@@ -7216,11 +6832,6 @@ Objs:
   SRTHash: 956850187
   Translate: [961.298523, 125.242188, 2455.15283]
   UnitConfigName: FldObj_RuinStoneWall_A_02
-- HashId: !u 0xb484bd47
-  Rotate: [-3.13553405, -0.0429668203, 3.00146246]
-  SRTHash: -558197435
-  Translate: [927.980835, 146.614456, 2410.14111]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xb4882586
   Rotate: 1.60159206
   SRTHash: -1904592447
@@ -7446,7 +7057,7 @@ Objs:
   HashId: !u 0xb85997cb
   Rotate: -3.05999994
   SRTHash: 1994682054
-  Translate: [594.5, 156.666718, 2258.0]
+  Translate: [593.217102, 156.666718, 2253.14575]
   UnitConfigName: Enemy_Bokoblin_Guard_Junior
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xb85c1005
@@ -7527,11 +7138,6 @@ Objs:
   SRTHash: -438285111
   Translate: [882.912476, 113.242188, 2589.49585]
   UnitConfigName: FldObj_RuinStoneWall_A_04
-- HashId: !u 0xb95e5959
-  Rotate: [-0.0888963267, -0.634656727, 0.14921312]
-  SRTHash: -352274751
-  Translate: [33.9698792, 111.521873, 2103.8479]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xb96e4fb1
   Rotate: [0.0501460582, -0.583369851, -0.203882903]
   SRTHash: -127530773
@@ -7796,11 +7402,6 @@ Objs:
   SRTHash: 0
   Translate: [611.214844, 157.058594, 2263.33203]
   UnitConfigName: Weapon_Shield_001
-- HashId: !u 0xc1a601fd
-  Rotate: [-2.32761192, -0.0491659977, -1.85625398]
-  SRTHash: 1817067947
-  Translate: [95.9145813, 98.2939987, 2140.66504]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xc1cbed0b
   Rotate: -2.0199995
   SRTHash: -915996476
@@ -8126,11 +7727,6 @@ Objs:
   SRTHash: -795569123
   Translate: [453.847656, 119.84993, 2903.77734]
   UnitConfigName: Item_Mushroom_M
-- HashId: !u 0xc8b498fc
-  Rotate: [3.12159252, 1.38899648, 3.14159274]
-  SRTHash: -1704537656
-  Translate: [840.255615, 143.865219, 2427.50024]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xc8c31584
   Rotate: 1.57079637
   SRTHash: 411788779
@@ -8217,11 +7813,6 @@ Objs:
   SRTHash: 0
   Translate: [348.113281, 132.976562, 2085.29688]
   UnitConfigName: Weapon_Bow_038
-- HashId: !u 0xcab66c16
-  Rotate: -1.90001094
-  SRTHash: 1669710849
-  Translate: [646.140747, 168.670853, 2314.45093]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xcaf5abb7
   Rotate: [0.0594262667, 0.861868501, 0.16127345]
   SRTHash: -2052811932
@@ -8296,11 +7887,6 @@ Objs:
   SRTHash: -1933989248
   Translate: [709.207031, 158.521439, 2858.75391]
   UnitConfigName: Item_Mushroom_A
-- HashId: !u 0xcc72e14b
-  Rotate: [-2.99177575, 0.892684937, -3.08437228]
-  SRTHash: -1082092081
-  Translate: [624.216125, 164.322678, 2306.95679]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xcca6d599
   Rotate: [-2.57958984, 0.506591737, -2.9410398]
   SRTHash: 0
@@ -8405,11 +7991,6 @@ Objs:
   SRTHash: 1673370474
   Translate: [600.717773, 181.310822, 2562.4668]
   UnitConfigName: Item_Plant_I
-- HashId: !u 0xd02eb72c
-  Rotate: [-1.63837421, 0.755674958, -0.331838638]
-  SRTHash: -1839271760
-  Translate: [93.1257935, 101.046867, 2136.95117]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xd048836e
   Rotate: [-0.0627880022, 0.230377108, -0.479963809]
   SRTHash: -1516812758
@@ -8496,11 +8077,6 @@ Objs:
   Scale: 0.991034329
   Translate: [310.721008, 135.182495, 2067.93921]
   UnitConfigName: Obj_TreeBroadleafLow_A_01
-- HashId: !u 0xd1d32cac
-  Rotate: [-0.120000258, 0.930795968, 2.36525679e-07]
-  SRTHash: 1586817130
-  Translate: [33.5461121, 109.5513, 2104.80811]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xd209608c
   Rotate: [0.0138850948, -0.373609334, 0.141852319]
   SRTHash: 1369469020
@@ -8721,11 +8297,6 @@ Objs:
   SRTHash: -792028526
   Translate: [467.057831, 118.960632, 2981.8623]
   UnitConfigName: Obj_TreeBroadleafLow_A_02
-- HashId: !u 0xd95238c9
-  Rotate: [-3.02159238, -0.930795848, 3.14159274]
-  SRTHash: -1595802653
-  Translate: [33.8723755, 112.53022, 2103.77515]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xd9698a94
   Rotate: [0.126991168, 1.11320543, 0.363886684]
   SRTHash: 298199764
@@ -8781,11 +8352,6 @@ Objs:
   SRTHash: 0
   Translate: [594.308594, 156.988281, 2257.02734]
   UnitConfigName: Weapon_Bow_038
-- HashId: !u 0xd9fbd0b9
-  Rotate: [-2.32761192, -0.0491659977, -1.85625398]
-  SRTHash: -38778249
-  Translate: [93.5241394, 99.9119339, 2137.71265]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
     SharpWeaponJudgeType: 0}
   HashId: !u 0xda1f4302
@@ -8897,11 +8463,6 @@ Objs:
   SRTHash: -1287972920
   Translate: [747.96875, 116.726158, 2812.84766]
   UnitConfigName: FldObj_FenceWoodDamage_A_01
-- HashId: !u 0xdb42fd09
-  Rotate: [-3.13553405, -0.0429668203, 3.00146246]
-  SRTHash: 14651708
-  Translate: [929.265625, 145.424026, 2410.08594]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xdb620d61
   Rotate: [3.03295875, -1.14306629, 2.77929664]
   SRTHash: 0
@@ -9096,11 +8657,6 @@ Objs:
   Scale: 1.04638696
   Translate: [148.941406, 118.299393, 2884.57031]
   UnitConfigName: Obj_Plant_HopBush_A_01
-- HashId: !u 0xdfe45800
-  Rotate: [-0.119658634, 0.66912061, -0.134236991]
-  SRTHash: 108292888
-  Translate: [625.154236, 163.771729, 2306.22803]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xdfeb89a1
   Rotate: [3.14147925, 0.140258774, 3.14147925]
@@ -9385,7 +8941,7 @@ Objs:
   HashId: !u 0xe73b7580
   Rotate: -2.75999999
   SRTHash: -655977001
-  Translate: [596.533691, 157.833023, 2267.62036]
+  Translate: [584.116516, 157.833023, 2264.16162]
   UnitConfigName: Enemy_Bokoblin_Middle
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xe7787985
@@ -9848,11 +9404,6 @@ Objs:
   SRTHash: -1967463694
   Translate: [479.024628, 114.491501, 2281.06421]
   UnitConfigName: Obj_TreeBroadleafDead_B_L_01
-- HashId: !u 0xf2cbd7a2
-  Rotate: [-0.120000258, 0.930795968, 2.36525679e-07]
-  SRTHash: -1395060663
-  Translate: [34.3018799, 114.518326, 2102.83203]
-  UnitConfigName: FldObj_KorokStone_A_01
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xf2e1a187
   Rotate: -1.62
@@ -10143,11 +9694,6 @@ Objs:
   SRTHash: 0
   Translate: [963.675781, 145.917969, 2365.65234]
   UnitConfigName: EnvSeEmitPointBirdWetSubtropic
-- HashId: !u 0xf9e8b0c5
-  Rotate: [-3.00159526, 1.52740586, 3.14159012]
-  SRTHash: 1142647634
-  Translate: [928.99646, 146.471878, 2410.09717]
-  UnitConfigName: FldObj_KorokStone_A_01
 - HashId: !u 0xfa13340e
   Rotate: -0.952664912
   SRTHash: 1626340768
@@ -10187,11 +9733,6 @@ Objs:
   Scale: [20.0, 50.0, 80.0]
   Translate: [875.0, 105.0, 2370.0]
   UnitConfigName: SpotBgmTag
-- HashId: !u 0xfba76425
-  Rotate: [-2.69543433, -0.525878847, 2.87902808]
-  SRTHash: 0
-  Translate: [147.867188, 142.765625, 2983.88281]
-  UnitConfigName: EnvSeEmitPointInsectTemperate
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xfbbca300
   Rotate: 0.0805869028
@@ -10374,7 +9915,7 @@ Objs:
   SRTHash: 2104824807
   Translate: [885.281372, 136.749146, 2971.09863]
   UnitConfigName: TBox_Field_Wood
-- '!Parameters': {DropActor: Obj_AncientArrow_A_01, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_AncientArrow_C_01, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
   HashId: !u 0xffdee96e
   Rotate: -1.20000005
   SRTHash: -819674889
@@ -10447,8 +9988,147 @@ Objs:
     SharpWeaponJudgeType: 2
     TerritoryArea: 0.0
   HashId: !u 0xffdee974
-  Rotate: -0.800000012
+  Rotate: -1.19209291e-08
   SRTHash: -699358273
-  Translate: [877.59613, 122.961166, 2341.24292]
+  Translate: [871.714905, 122.761169, 2337.77271]
   UnitConfigName: Enemy_Guardian_Mini_Middle_Dark
+- '!Parameters': {EquipItem1: Weapon_Spear_005, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
+    RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffdee975
+  Rotate: -1.41999996
+  SRTHash: 1096395101
+  Translate: [608.370483, 156.667435, 2258.04736]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters': {EquipItem1: Weapon_Sword_005, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true, LevelSensorMode: 1,
+    RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffdee976
+  Rotate: -2.75999999
+  SRTHash: -655977001
+  Translate: [594.60376, 157.833023, 2264.23511]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters': {EquipItem1: Weapon_Spear_004, EquipItem3: BokoblinPipe, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true,
+    LevelSensorMode: 1, RotAngle: 60.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 150.0}
+  HashId: !u 0xffdee977
+  Rotate: 0.300000012
+  SRTHash: 1866530830
+  Translate: [593.702759, 156.643021, 2244.94312]
+  UnitConfigName: Enemy_Bokoblin_Guard_Junior
+- '!Parameters': {EquipItem1: Weapon_Sword_003, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
+    RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffdee979
+  Rotate: -0.73999989
+  SRTHash: -944581161
+  Translate: [619.184998, 156.752396, 2231.55371]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- HashId: !u 0xffdee981
+  SRTHash: 0
+  Translate: [964.70697, 156.461365, 2888.80713]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xffdee982
+  SRTHash: 0
+  Translate: [955.113098, 156.461365, 2896.00732]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xffdee983
+  SRTHash: 0
+  Translate: [974.97113, 157.461365, 2901.05225]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xffdee984
+  SRTHash: 0
+  Translate: [964.338623, 156.461365, 2907.61133]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xffdee985
+  SRTHash: 0
+  Translate: [975.352051, 157.461365, 2892.96191]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xffdee986
+  SRTHash: 0
+  Translate: [988.167053, 156.261368, 2873.15039]
+  UnitConfigName: Item_Plant_C
+- '!Parameters':
+    EquipItem1: Weapon_Lsword_024
+    FortressEatPer: -1
+    IsMimicry: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffdee987
+  Rotate: 0.339999974
+  SRTHash: 0
+  Translate: [967.892334, 157.661362, 2899.88574]
+  UnitConfigName: Enemy_Lizalfos_Electric
+- HashId: !u 0xffdee988
+  SRTHash: 0
+  Translate: [966.377991, 156.661362, 2860.53271]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xffdee989
+  SRTHash: 0
+  Translate: [981.028076, 156.061371, 2867.46313]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xffdee98a
+  SRTHash: 0
+  Translate: [964.540222, 156.861374, 2863.41675]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xffdee98b
+  SRTHash: 0
+  Translate: [987.138306, 155.461365, 2910.45068]
+  UnitConfigName: Item_Plant_C
+- '!Parameters':
+    EquipItem1: Weapon_Spear_013
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffdee98d
+  Rotate: -1.20000005
+  SRTHash: 1176742359
+  Translate: [1050.24426, 114.165779, 2709.70996]
+  UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters':
+    EquipItem1: Weapon_Spear_013
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffdee98e
+  SRTHash: 1176742359
+  Translate: [1021.58429, 112.996239, 2754.95264]
+  UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters':
+    EquipItem1: Weapon_Spear_013
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffdee98f
+  SRTHash: 1176742359
+  Translate: [1026.12146, 114.196236, 2766.74316]
+  UnitConfigName: Enemy_Lizalfos_Electric
 Rails: []

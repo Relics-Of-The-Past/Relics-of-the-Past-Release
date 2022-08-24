@@ -2171,11 +2171,6 @@ Objs:
   SRTHash: -986281238
   Translate: [688.658081, 123.476006, -209.190918]
   UnitConfigName: Obj_TreeBroadleafLow_A_02
-- HashId: !u 0x3f420d81
-  Rotate: [-2.56510544, 0.875544965, -3.02102447]
-  SRTHash: 18425004
-  Translate: [271.381775, 129.339981, -541.445679]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0x3f96ab89
   Rotate: [0.207856998, 0.0386665724, -0.366594166]
   SRTHash: -222305212
@@ -2527,7 +2522,7 @@ Objs:
   HashId: !u 0x4a7f3565
   Rotate: [0.0526991524, -0.000857493142, 0.0144366436]
   SRTHash: -1049639358
-  Translate: [61.5126839, 137.864029, -619.718994]
+  Translate: [61.4937363, 137.864029, -619.712585]
   UnitConfigName: Kibako_Contain_01
 - HashId: !u 0x4a851569
   Rotate: 0.119999997
@@ -3500,11 +3495,6 @@ Objs:
   SRTHash: -256571557
   Translate: [663.400024, 162.218246, -597.900024]
   UnitConfigName: Enemy_Moriblin_Gold
-- HashId: !u 0x6609a97b
-  Rotate: [2.64855671, 0.762040615, 2.85304856]
-  SRTHash: 18425004
-  Translate: [84.5202942, 125.996246, -158.297668]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0x661ac11c
   Rotate: 5.34947634
   SRTHash: -484231157
@@ -3681,11 +3671,6 @@ Objs:
   SRTHash: -1472705672
   Translate: [602.054443, 123.839943, -282.64035]
   UnitConfigName: Obj_TreeBroadleaf_A_SS
-- HashId: !u 0x6ab8efa7
-  Rotate: [-3.01591897, 0.955357075, -2.96978402]
-  SRTHash: -495773703
-  Translate: [159.117981, 147.916107, -573.456543]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0x6ac84e61
   Rotate: [0.000155419795, -0.758199155, -0.00023187515]
   SRTHash: 705451924
@@ -5591,6 +5576,7 @@ Objs:
   Translate: [533.186951, 124.245926, -276.151581]
   UnitConfigName: Obj_TreeApple_A_M_01
 - '!Parameters':
+    DropTable: BombArrow_A2
     EquipItem1: Weapon_Sword_002
     EquipItem3: BokoblinPipe
     FortressEatPer: -1
@@ -6474,11 +6460,6 @@ Objs:
   SRTHash: -1029041498
   Translate: [916.351807, 184.909012, -822.951111]
   UnitConfigName: Enemy_Golem_Little
-- HashId: !u 0xb86cc499
-  Rotate: [-0.433461636, 1.36539567, -0.742868662]
-  SRTHash: 18425004
-  Translate: [240.802216, 134.157928, -480.396332]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0xb8ca56b4
   Rotate: -1.57079637
   SRTHash: 456945707
@@ -6983,11 +6964,6 @@ Objs:
   SRTHash: 1522887652
   Translate: [59.1448669, 134.980545, -660.213501]
   UnitConfigName: TwnObj_HyruleCityStoneRuinStraightWall_A_01
-- HashId: !u 0xc9254027
-  Rotate: [-1.23756492, 1.32969201, -0.971878529]
-  SRTHash: 18425004
-  Translate: [158.847748, 134.38028, -325.247223]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0xc92c007e
   Rotate: 2.71789575
@@ -8193,11 +8169,6 @@ Objs:
   SRTHash: 1206471067
   Translate: [588.702454, 131.852722, -283.226898]
   UnitConfigName: FldObj_BirdNest_A_01
-- HashId: !u 0xed5056c7
-  Rotate: [0.452815205, -0.259611666, -0.273034304]
-  SRTHash: 18425004
-  Translate: [87.2131653, 125.558403, -219.518036]
-  UnitConfigName: FldObj_RuinGuardian_A_01
 - HashId: !u 0xed6e2104
   Rotate: [-2.88696265, 0.827514589, 1.7318114]
   SRTHash: 0
@@ -9125,7 +9096,7 @@ Objs:
   Rotate: -3.20000005
   SRTHash: 0
   Translate: [693.020447, 183.440063, -802.534729]
-  UnitConfigName: Tbox_Dungeon_Wood
+  UnitConfigName: TBox_Dungeon_Wood
 - '!Parameters': {ArrowName: BombArrow_A, EquipItem1: Weapon_Bow_032, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true,
     LevelSensorMode: 0, RotAngle: 60.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 150.0}
   HashId: !u 0xfff05a75
@@ -9158,8 +9129,8 @@ Objs:
   Scale: 3.0
   Translate: [634.65033, 184.908386, -767.12439]
   UnitConfigName: Enemy_Octarock_Senior
-- '!Parameters': {ArrowName: NormalArrow, BeamRange: 0.0, DropTable: Normal, IsAnnihilateDungeonEnemy: false, IsNearCreate: false,
-    LevelSensorMode: 2, NearCreateAppearID: 0, SharpWeaponJudgeType: 2, TerritoryArea: 0.0}
+- '!Parameters': {ArrowName: NormalArrow, BeamRange: 0.0, DropActor: Item_Enemy_30, IsAnnihilateDungeonEnemy: false, IsNearCreate: false,
+    LevelSensorMode: 1, NearCreateAppearID: 0, SharpWeaponJudgeType: 2, TerritoryArea: 0.0}
   HashId: !u 0xfff05a96
   Rotate: -6.74390411
   SRTHash: 0

@@ -17017,7 +17017,8 @@ Objs:
   SRTHash: -53626360
   Translate: [2845.62305, 241.417969, -128.646729]
   UnitConfigName: Weapon_Spear_027
-- HashId: !u 0xffff9441
+- '!Parameters': {NoFlag: true}
+  HashId: !u 0xffff9441
   Rotate: -3.20000005
   SRTHash: 0
   Translate: [2517.70117, 214.311249, -671.781311]
@@ -17232,7 +17233,7 @@ Objs:
   HashId: !u 0xffff9457
   Rotate: -3.02000022
   SRTHash: 491055558
-  Translate: [2112.09082, 122.699203, -571.542969]
+  Translate: [2112.09082, 117.699203, -571.542969]
   UnitConfigName: Enemy_Lizalfos_Gold
 - '!Parameters':
     ArrowName: BombArrow_A
@@ -17400,7 +17401,7 @@ Objs:
   SRTHash: -204571085
   Translate: [2848.87183, 188.63443, -19.2844467]
   UnitConfigName: Enemy_Lizalfos_Junior
-- '!Parameters': {DropActor: Item_Ore_C, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Ore_A, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
   HashId: !u 0xffff9491
   Rotate: [0.0720247775, 4.19999981, -0.0806263834]
   SRTHash: -819674889
@@ -17412,6 +17413,61 @@ Objs:
   SRTHash: -819674889
   Translate: [2956.30835, 309.40802, -251.957077]
   UnitConfigName: TBox_Field_Iron
+- '!Parameters': {EquipItem1: Weapon_Sword_003, EquipItem2: Weapon_Shield_003, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffff949b
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x1bec46bc}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x80490ad3}
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x09aed788}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x72fbbf37}
+  Rotate: 3.82318544
+  SRTHash: -242521855
+  Translate: [2538.75146, 221.340256, -716.163574]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters': {ArrowName: IceArrow, EquipItem2: Weapon_Bow_036, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffff949c
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x1bec46bc}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x80490ad3}
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x09aed788}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x72fbbf37}
+  Rotate: 4.42318535
+  SRTHash: -242521855
+  Translate: [2547.90991, 224.140274, -729.7099]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters': {EquipItem1: Weapon_Bow_028, FortressEatPer: -1, IsNearCreate: true, IsWatchKeeping: false, LevelSensorMode: 1,
+    RideHorseName: GameRomHorse22, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfff5f993
+  Rotate: -0.600000024
+  SRTHash: 1760948417
+  Translate: [2261.27612, 133.458496, -755.977966]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters': {EquipItem1: Weapon_Bow_002, FortressEatPer: -1, IsNearCreate: true, IsWatchKeeping: false, LevelSensorMode: 1,
+    RideHorseName: GameRomHorse22, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffff949e
+  Rotate: -0.600000024
+  SRTHash: 1760948417
+  Translate: [2266.25708, 133.658493, -756.393921]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
+  HashId: !u 0xffff949f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xffff94a0
+  SRTHash: 0
+  Scale: 25.5
+  Translate: [2234.01929, 119.354424, -676.553467]
+  UnitConfigName: Area
+- HashId: !u 0xffff94a0
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff5f993}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xffff949e}
+  SRTHash: 0
+  Translate: [2240.08813, 127.251282, -678.622131]
+  UnitConfigName: LinkTagAnd
 Rails:
 - HashId: !u 0xffff945c
   IsClosed: false

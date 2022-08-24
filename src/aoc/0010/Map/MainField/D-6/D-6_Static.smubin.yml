@@ -8795,12 +8795,6 @@ Objs:
   SRTHash: -277538479
   Translate: [-1448.09961, 137.772018, 1255.27234]
   UnitConfigName: Npc_HorseBuyer
-- '!Parameters': {EventFlowEntryName: Demo318_0, EventFlowName: Demo318_0, IsEndlessEvent: false, LaunchEventByOffSignal: false,
-    LaunchEventByOnSignal: true}
-  HashId: !u 0x88d21848
-  SRTHash: -447173689
-  Translate: [-1061.82947, 304.389893, 1848.72046]
-  UnitConfigName: EventTag
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
@@ -11150,7 +11144,7 @@ Objs:
     DefinitionName: Create
     DestUnitHashId: !u 0x8c74f041
   SRTHash: 1328061228
-  Translate: [-1124.38086, 237.421646, 1909.50513]
+  Translate: [-1124.60156, 237.621643, 1908.03247]
   UnitConfigName: LinkTagAnd
 - '!Parameters': {ActorName: FldObj_KorokStoneLift_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
     IsSendMessage: false, IsStopFromStopTimer: 0}
@@ -16040,19 +16034,8 @@ Objs:
   SRTHash: -780717684
   Translate: [-1144.54138, 255.806335, 1766.4967]
   UnitConfigName: FireWood
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    IsHardModeActor: true
-    IsNearCreate: false
-    LevelSensorMode: 0
-    NearCreateAppearID: 0
-    SharpWeaponJudgeType: 0
-    TerritoryArea: 0.0
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, IsHardModeActor: true, IsNearCreate: false, LevelSensorMode: 0,
+    NearCreateAppearID: 0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
   HashId: !u 0xf4fb3508
   LinksToObj:
   - {DefinitionName: Reference, DestUnitHashId: !u 0x33185507}
@@ -16388,19 +16371,8 @@ Objs:
   SRTHash: 460501262
   Translate: [-1308.38879, 190.408997, 1524.32117]
   UnitConfigName: FldObj_CliffWhiteEdgeParts_A_04
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    IsHardModeActor: true
-    IsNearCreate: false
-    LevelSensorMode: 0
-    NearCreateAppearID: 0
-    SharpWeaponJudgeType: 0
-    TerritoryArea: 0.0
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, IsHardModeActor: true, IsNearCreate: false, LevelSensorMode: 0,
+    NearCreateAppearID: 0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
   HashId: !u 0xfa20bd3a
   LinksToObj:
   - {DefinitionName: Reference, DestUnitHashId: !u 0x3dc3dd35}
@@ -16426,10 +16398,6 @@ Objs:
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
     IsDrop: false
     IsNearCreate: true
     IsWatchKeeping: false
@@ -16746,66 +16714,6 @@ Objs:
   SRTHash: -1537171584
   Translate: [-1054.49841, 185.744644, 1632.24683]
   UnitConfigName: LinkTagOr
-- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: false, SharpWeaponJudgeType: 0}
-  HashId: !u 0xfffb905c
-  Rotate: 2.0
-  SRTHash: 0
-  Translate: [-1369.20081, 251.878006, 1908.30383]
-  UnitConfigName: Enemy_Guardian_A_Fixed_Snow
-- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: false, SharpWeaponJudgeType: 0}
-  HashId: !u 0xfffb9064
-  Rotate: 2.79999995
-  SRTHash: 0
-  Translate: [-1424.47827, 133.655777, 1484.06702]
-  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
-- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: false, SharpWeaponJudgeType: 0}
-  HashId: !u 0xfffb9065
-  Rotate: 6.4000001
-  SRTHash: 0
-  Translate: [-1461.64246, 134.255768, 1432.36829]
-  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
-- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: false, SharpWeaponJudgeType: 0}
-  HashId: !u 0xfffb9066
-  SRTHash: 0
-  Translate: [-2079.57983, 198.231155, 1048.75598]
-  UnitConfigName: Enemy_Guardian_A
-- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: false, SharpWeaponJudgeType: 0}
-  HashId: !u 0xfffb9067
-  Rotate: 0.200000003
-  SRTHash: 0
-  Translate: [-1151.55994, 168.166763, 1213.57983]
-  UnitConfigName: Enemy_Guardian_B
-- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: false, SharpWeaponJudgeType: 0}
-  HashId: !u 0xfffb9068
-  Rotate: -0.600000024
-  SRTHash: 0
-  Translate: [-1127.42737, 168.166763, 1220.17358]
-  UnitConfigName: Enemy_Guardian_B
-- HashId: !u 0xfffd4892
-  Rotate: [1.22701526, -1.39999998, -1.21664691]
-  SRTHash: 0
-  Translate: [-1019.44617, 251.35051, 1805.50342]
-  UnitConfigName: FldObj_RuinGuardian_Static
-- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: false, SharpWeaponJudgeType: 0}
-  HashId: !u 0xfffd4894
-  Rotate: [-0.0004801701, -3.79999995, -0.285586417]
-  SRTHash: 0
-  Translate: [-1227.87659, 268.139374, 1778.06335]
-  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xfffd4896
   LinksToObj:
@@ -16837,9 +16745,7 @@ Objs:
   SRTHash: 0
   Translate: [-1072.55334, 178.825729, 1676.33008]
   UnitConfigName: Enemy_Guardian_A_Fixed_Moss
-- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, IsSuspended: true, SharpWeaponJudgeType: 0}
   HashId: !u 0xfffd489a
   Rotate: [0.019325465, -5.19999981, 0.304674447]
   SRTHash: 0
@@ -16861,18 +16767,6 @@ Objs:
   SRTHash: 0
   Translate: [-1131.19714, 179.225723, 1670.80029]
   UnitConfigName: Enemy_Guardian_A_Fixed_Moss
-- '!Parameters': {DropActor: Weapon_Bow_023, EnableRevival: true, IsInGround: false, SharpWeaponJudgeType: 3}
-  HashId: !u 0xfffd489e
-  Rotate: -3.0
-  SRTHash: -1530228499
-  Translate: [-1090.50684, 181.433014, 1682.7876]
-  UnitConfigName: TBox_Dungeon_Iron
-- '!Parameters': {DropActor: Item_Enemy_31, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
-  HashId: !u 0xfffd489f
-  Rotate: -4.30000019
-  SRTHash: -1530228499
-  Translate: [-1098.5094, 179.233017, 1671.1637]
-  UnitConfigName: TBox_Dungeon_Iron
 - HashId: !u 0xfffd48a0
   LinksToObj:
   - '!Parameters': {NoAutoDemoMember: false}
@@ -16883,14 +16777,6 @@ Objs:
   Scale: [52.7292557, 20.2936058, 33.8490562]
   Translate: [-1099.37085, 186.338348, 1671.31836]
   UnitConfigName: Area
-- '!Parameters': {DropActor: Obj_AncientArrow_C_01, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
-  HashId: !u 0xfffd48a2
-  LinksToObj:
-  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x52827619}
-  Rotate: [0.0152144525, 1.79999995, 0.0129815424]
-  SRTHash: 1450330356
-  Translate: [-1463.1958, 258.097382, 1792.14563]
-  UnitConfigName: TBox_Field_Iron
 - HashId: !u 0xfffd48a5
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xb028debd}
@@ -17000,18 +16886,8 @@ Objs:
   SRTHash: 189371410
   Translate: [-1154.43323, 255.36908, 1768.19556]
   UnitConfigName: Weapon_Sword_004
-- '!Parameters':
-    ArrowName: ElectricArrow
-    DropTable: Normal
-    EquipItem1: Weapon_Sword_016
-    EquipItem2: Weapon_Shield_016
-    EquipItem3: Weapon_Bow_009
-    EquipItem4: Default
-    IsLazyTraverse: true
-    IsNearCreate: false
-    LevelSensorMode: 0
-    SharpWeaponJudgeType: 0
-    TerritoryArea: 0.0
+- '!Parameters': {ArrowName: ElectricArrow, DropTable: Normal, EquipItem1: Weapon_Sword_016, EquipItem2: Weapon_Shield_016,
+    EquipItem3: Weapon_Bow_009, IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
   HashId: !u 0xfffd48b7
   LinksToObj:
   - {DefinitionName: DeadUp, DestUnitHashId: !u 0x394455bd}
@@ -17019,6 +16895,90 @@ Objs:
   SRTHash: 598192775
   Translate: [-1146.76477, 152.187378, 1276.52551]
   UnitConfigName: Enemy_Lynel_Middle
+- '!Parameters': {EventFlowEntryName: DecideNewGamePlus, EventFlowName: Demo700_0, IsEndlessEvent: false, LaunchEventByOffSignal: false,
+    LaunchEventByOnSignal: true}
+  HashId: !u 0xfffd48b8
+  SRTHash: 69
+  Translate: [-1130.94519, 239.021652, 1913.82605]
+  UnitConfigName: EventTag
+- '!Parameters': {SaveFlagOnOffType: 0}
+  HashId: !u 0xfffd48ba
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfffd48b8
+  SRTHash: 69
+  Translate: [-1132.47278, 238.021652, 1912.49707]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
+  HashId: !u 0xfffd48bb
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xfffd48ba
+  Rotate: -0.800000012
+  SRTHash: 0
+  Scale: [2.0, 0.5, 2.0]
+  Translate: [-1130.75952, 237.673843, 1914.80908]
+  UnitConfigName: Area
+- HashId: !u 0xfffd48bf
+  Rotate: 2.46091413
+  SRTHash: -775617244
+  Translate: [-1128.69531, 237.570419, 1912.20007]
+  UniqueName: NewGamePlus_Reload
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: IsPlayed_NewGamePlus, SaveFlagOnOffType: 0}
+  HashId: !u 0xfffd48c0
+  LinksToObj:
+  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xfffd48c5}
+  Rotate: [-0.243159249, 0.0, -0.907749176]
+  SRTHash: 0
+  Scale: 0.5
+  Translate: [-1125.77283, 242.971008, 1912.68628]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropActor: Obj_HeartUtuwa_A_01, EnableRevival: false, IsInGround: false, IsNearCreate: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffd48c1
+  Rotate: 6.0
+  SRTHash: -1709674313
+  Translate: [-1124.6897, 237.371552, 1905.72852]
+  UnitConfigName: TBox_Dungeon_Stone
+- '!Parameters': {DropActor: Obj_StaminaUtuwa_B, EnableRevival: false, IsInGround: false, IsNearCreate: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffd48c2
+  Rotate: 5.4000001
+  SRTHash: -1709674313
+  Translate: [-1122.42639, 237.371552, 1907.12659]
+  UnitConfigName: TBox_Dungeon_Stone
+- '!Parameters': {SaveFlag: IsPlayed_Demo700_0, SaveFlagOnOffType: 0}
+  HashId: !u 0xfffd48c3
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfffd48b8}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfffd48ba}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfffd48bb}
+  SRTHash: 0
+  Scale: 1.5
+  Translate: [-1128.46021, 240.971008, 1916.05273]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xfffd48c4
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfffd48c2}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfffd48c1}
+  Rotate: [-0.243159249, 0.0, -0.907749176]
+  SRTHash: 0
+  Scale: 0.5
+  Translate: [-1125.96545, 242.971008, 1911.76392]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
+  HashId: !u 0xfffd48c5
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfffd48c4
+  Rotate: [-1.57079637, 1.52159595, 0.0]
+  SRTHash: 0
+  Scale: 0.5
+  Translate: [-1125.7124, 242.961502, 1912.31665]
+  UnitConfigName: SwitchTimeLimited
 Rails:
 - '!Parameters': {DisableRenderMap: false, IsEnableHorseTrace: true, IsWalkable: false, RouteId: A}
   HashId: !u 0x09e10a24

@@ -1114,10 +1114,10 @@ param_root: !list
             BehaviorIdx: !obj
               1721623982: 11
             SInst: !obj
-              MaxSpeedF: 0.101999998
+              MaxSpeedF: 0.202000007
               MaxSpeedS: 0.101999998
               MaxSpeedB: 0.0496000014
-              MaxSpeedDash: 0.985599995
+              MaxSpeedDash: 1.28559995
               EnergyMove: 30.0
               EnergyDash: 35.0
               DecSpeedRate: 0.25
@@ -1245,7 +1245,7 @@ param_root: !list
               UpKeyInvalidTime: 10.0
               FrontSlideMaxSpeedF: 0.100000001
               BackSlideMaxSpeedF: 0.400000006
-              SlipDownTime: 90.0
+              SlipDownTime: 10.0
               LimitAngleDegStart: 25.0
               MaxSlipSpeed: 12.0
               SlipSpeedAdd: 1.0
@@ -1364,8 +1364,8 @@ param_root: !list
               1721623982: 4
             SInst: !obj
               EnergyMove: 0.0
-              MaxSpeed: 2.5
-              JumpSpeedF: 1.19000006
+              MaxSpeed: 4.5
+              JumpSpeedF: 1.28999996
               ContJumpSpeedF: 0.170000002
               JumpHeight: 1.0
               ContJumpInterval: 90.0
@@ -1652,10 +1652,10 @@ param_root: !list
               InitSpeedWind: 0.400000006
               JumpHeightWind: 1.29999995
               NoRagdollTime: 12.0
-              InitSpeedToss: 5.0
-              JumpHeightToss: 5.0
-              AddLinearImpulse: 0.0
-              AddRollImpulse: 0.0
+              InitSpeedToss: 0.200000003
+              JumpHeightToss: 4.0
+              AddLinearImpulse: 20.0
+              AddRollImpulse: 30.0
               InitSpeedHorse: 0.0500000007
               JumpHeightHorse: 0.0
               AddLinearImpulseHorse: 0.0
@@ -2019,7 +2019,7 @@ param_root: !list
               FallSpAttackRadiusAdd: 1.0
               FallSpAttackRadiusAddLSword: 2.0
               FallSpAttackCheckUnderDist: 1.0
-              ParashawlInvalidTime: 20.0
+              ParashawlInvalidTime: 1.0
               FallSpLargeAttackRadius: 5.0
               RumbleType: 4
               RumblePowerMin: 1.0

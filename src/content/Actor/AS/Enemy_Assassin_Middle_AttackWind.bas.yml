@@ -24,11 +24,6 @@ param_root: !list
                       Frame: 23.0
                       Value: EnemyAttackSmall
                   lists: {}
-                FrameCtrl: !list
-                  objects:
-                    FrameCtrl0: !obj
-                      Rate: 2.0
-                  lists: {}
                 HoldEvents: !list
                   objects:
                     Event0: !obj

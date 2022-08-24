@@ -1,0 +1,50 @@
+!io
+version: 0
+type: xml
+param_root: !list
+  objects:
+    LinkTarget: !obj
+      ActorNameJpn: 黄金リザルフォス
+      Priority: Default
+      AIProgramUser: Lizalfos_Flame_Volcano
+      AIScheduleUser: Dummy
+      ASUser: Lizalfos_Volcano
+      AttentionUser: Lizalfos
+      AwarenessUser: Lizalfos
+      BoneControlUser: Lizalfos
+      ActorCaptureUser: Dummy
+      ChemicalUser: Lizalfos_Volcano
+      DamageParamUser: Enemy_Lizalfos_Volcano
+      DropTableUser: Enemy_Lizalfos_Volcano
+      ElinkUser: Enemy_Lizalfos_Fire
+      GParamUser: Enemy_Lizalfos_Volcano
+      LifeConditionUser: Enemy
+      LODUser: EnemyNoCalcSkip
+      ModelUser: Enemy_Lizalfos_Volcano
+      PhysicsUser: Lizalfos
+      ProfileUser: Enemy
+      RgBlendWeightUser: Lizalfos
+      RgConfigListUser: Lizalfos
+      RecipeUser: Dummy
+      ShopDataUser: Dummy
+      SlinkUser: Lizalfos
+      UMiiUser: Dummy
+      XlinkUser: Biped_Enemy
+      AnimationInfo: Enemy_Lizalfos_Fire
+      ActorScale: 1.0
+    Tags: !obj
+      Tag0: IgnoreBoundingAtAreaCulling
+      Tag1: RevivalBloodyMoon
+      Tag2: StopTimerShort
+      Tag3: ZukanEnemy
+      Tag4: ZukanBoss
+      Tag5: ZukanDLCOnly
+      Tag6: ZukanHardModeOnly
+      Tag7: CancelIceMakerWithSwimMode
+      Tag8: AcceptSilentKill
+      Tag9: EnemyHornTarget
+      Tag10: BeeTarget
+      Tag11: TeamLizarfos
+    1115720914: !obj
+      Tag0: FitToUpper
+  lists: {}

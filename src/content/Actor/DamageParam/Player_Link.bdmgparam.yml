@@ -15,7 +15,7 @@ param_root: !list
           Arrow: 1.0
           Bomb: 1.0
           Body: 1.0
-          Ancient: 1.29999995
+          Ancient: 2.0
           ShockWave: 1.0
           Impulse: 1.0
           GanonBeam: 1.0
@@ -113,7 +113,7 @@ param_root: !list
           BurnDamage4: 8
           BurnDamage5: 10
           BurnTime: 30
-          BurnDamageInterval: 30
+          BurnDamageInterval: 10
           BurnContinuousDamage: 2
           BurnCritical: false
           ProofBurnAtSmallDamage: false
@@ -151,8 +151,8 @@ param_root: !list
           ColdWaterDamageDeepDepth: 1.39999998
           HotWaterBoiledTime: -1
           HotWaterHealAffect: true
-          HotWaterHeal: 2
-          HotWaterHealInterval: 60
+          HotWaterHeal: 4
+          HotWaterHealInterval: 10
           HotWaterHealStartDepth: 0.400000006
           HotWaterHealIntervalDeep: -1
           HotWaterHealDeepDepth: -1.0
@@ -166,8 +166,8 @@ param_root: !list
           LavaDeepDepth: 0.400000006
           LavaDeepDamage: 0
           CurseAffect: true
-          CurseDamage: 4
-          CurseInterval: 15
-          CurseContinuousDamage: 2
+          CurseDamage: 2
+          CurseInterval: 7
+          CurseContinuousDamage: 4
           HeavySnowColdTime: -1
       lists: {}

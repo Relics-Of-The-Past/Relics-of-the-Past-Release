@@ -54,7 +54,7 @@ param_root: !list
       DropItemVelXZItemRupeeOnly: 0.0199999996
       DropItemVelYItemRupeeOnly: 0.00999999978
       DropItemVelRandomItemRupeeOnly: 0.00999999978
-      DropItemInvincibleTime: 30.0
+      DropItemInvincibleTime: 3.0
       TreeWeaponEquipTransOffset: !vec3 [0.0, 0.0, -2.0]
       TreeWeaponEquipRotOffset: !vec3 [90.0, 0.0, 90.0]
       WetRatioToDie: 0.100000001
@@ -67,7 +67,7 @@ param_root: !list
       NPCWalkRateOnSandAndSnow: 0.800000012
       NPCDownVerticallyAngle: 12.5
       GerudoQueenSafetyAreaRadius: 12.0
-      CreateFairyLimitCount: 3
+      CreateFairyLimitCount: 4
       TerrorRegistSpeed: 10.0
       TerrorUnregistSpeed: 5.0
       TerrorRegistTimer: 30

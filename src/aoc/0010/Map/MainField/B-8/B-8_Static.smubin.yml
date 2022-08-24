@@ -1,0 +1,4898 @@
+LocationPosX: -3500.0
+LocationPosZ: 3500.0
+LocationSize: 1000.0
+Objs:
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x011ad530
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x9685c419}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: 772885513
+  Translate: [-3733.03638, 154.051956, 3602.38599]
+  UnitConfigName: Obj_TreePalm_A_02
+- '!Parameters': {NonAutoPlacementAnimal: true, NonAutoPlacementBird: true, NonAutoPlacementEnemy: true, NonAutoPlacementFish: true,
+    NonAutoPlacementInsect: true, NonAutoPlacementMaterial: true, NonEnemySearchPlayer: false}
+  HashId: !u 0x01afb4da
+  SRTHash: -697882412
+  Translate: [-3784.71997, 158.660004, 3100.5]
+  UnitConfigName: PlayerInAreaAutoEnemyForbidTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x01d132bd
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x44a7ffa4
+  SRTHash: 0
+  Translate: [-3248.7561, 122.712814, 3289.78687]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0200b0f3
+  Rotate: [1.96011788e-05, -0.0155019546, -2.01031321e-06]
+  SRTHash: -1624758904
+  Translate: [-3651.51367, 127.727348, 3436.79907]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x024ff869
+  Rotate: -0.52359879
+  SRTHash: -1997043504
+  Translate: [-3760.19995, 154.800003, 3114.80005]
+  UnitConfigName: AnchorAction1
+- '!Parameters':
+    DropTable: Normal
+    IsJoinRemainsBattle: false
+    IsLazyTraverse: true
+    SharpWeaponJudgeType: 0
+    TraversePos: {X: -3207.29199, Y: 110.684601, Z: 3270.53003}
+    TraverseRadiusXZ: 157.374298
+  HashId: !u 0x0266ec8d
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x373c7bfc}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xc050fe13}
+  Rotate: -1.57079637
+  SRTHash: 1357150979
+  Translate: [-2980.29175, 130.932846, 3257.13623]
+  UniqueName: Thunder_Relic01
+  UnitConfigName: RemainsElectric
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x03ce1a8e
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x933ad1b1
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x995b5a85
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3a24e023
+  SRTHash: -599697295
+  Translate: [-3434.0896, 215.900253, 3127.90356]
+  UnitConfigName: LinkTagAnd
+- '!Parameters':
+    BluffThunderOff: false
+    CloudShadowOff: true
+    FogMinusCorrection: false
+    IgnitedLevel: 0
+    PSelSpeed: 0
+    PaletteSel: 8
+    TemperatureDay: 0.0
+    TemperatureDirectDay: 39.0
+    TemperatureDirectNight: 20.0
+    TemperatureNight: 0.0
+    Weather: 6
+    WeatherEff: 2
+  HashId: !u 0x048614b3
+  SRTHash: 239631747
+  Translate: [-3434.36182, 222.897308, 3128.45483]
+  UnitConfigName: ChangeWeatherTag
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x04c9ce41
+  Rotate: [2.03435016, 0.284279495, 2.22763968]
+  SRTHash: -1618982970
+  Translate: [-3605.2522, 127.738197, 3746.5166]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0525bec3
+  Rotate: [3.14147925, -1.31542957, 3.14147925]
+  SRTHash: -1578108966
+  Translate: [-3359.72632, 153.107147, 3779.70386]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x0572d768
+  Rotate: -1.44000006
+  SRTHash: -349781971
+  Translate: [-3767.64648, 154.779221, 3113.30762]
+  UnitConfigName: AnchorAction1
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x05a8c24d
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x3fa2a33d
+  Rotate: 2.61799383
+  SRTHash: -1073213680
+  Translate: [-3699.56689, 151.075241, 3637.81128]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x06771129
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x91e80000}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: 772885513
+  Translate: [-3728.36987, 152.798309, 3609.87231]
+  UnitConfigName: Obj_TreePalm_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x068ee42f
+  Rotate: [3.11071467, -0.517016292, 2.0773797]
+  SRTHash: -1618982970
+  Translate: [-3156.44531, 148.856079, 3863.66919]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters':
+    IsOnHelmet: true
+    TerritoryArea: 0.0
+    TraversePos: {X: -3422.1311, Y: 189.776901, Z: 3119.70703}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0x074c8a75
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xae356e78}
+  Rotate: 0.559999704
+  SRTHash: -2015006879
+  Translate: [-3420.67505, 189.819946, 3118.96533]
+  UniqueName: RougeDefeat01
+  UnitConfigName: Npc_oasis003
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x077d7f19
+  Rotate: 1.04272461
+  SRTHash: -1578108966
+  Translate: [-3252.75732, 125.389351, 3047.13501]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x078ede68
+  Rotate: [-0.0884649307, 0.48796621, 1.03628802]
+  SRTHash: -1618982970
+  Translate: [-3522.51636, 141.208038, 3189.88843]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: SunazarashiRace_Dungeon, SaveFlagOnOffType: 0}
+  HashId: !u 0x07eeb355
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x65e6514e}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x90bada19}
+  SRTHash: 190287112
+  Translate: [-3776.84009, 161.839996, 3127.64014]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0x07f8b982
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe4c09f6c
+  SRTHash: 882070829
+  Scale: 900.0
+  Translate: [-2922.35571, 155.500015, 3075.31934]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: RemainsElectric_1st, SaveFlagOnOffType: 0}
+  HashId: !u 0x0832b5a2
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x373c7bfc
+  SRTHash: 981983815
+  Scale: 10.0
+  Translate: [-2870.46021, 196.171173, 3253.14307]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x084eaf5d
+  Rotate: [0.0427565835, -0.233846486, 0.203934535]
+  SRTHash: 851378850
+  Translate: [-3033.20068, 173.344559, 3754.30542]
+  UnitConfigName: FldObj_GerudoBase_A_01_Far
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x08ac991b
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x9f338832}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: 772885513
+  Translate: [-3726.73901, 152.606445, 3642.28174]
+  UnitConfigName: Obj_TreePalm_A_02
+- HashId: !u 0x093e01ab
+  Rotate: -1.22173023
+  SRTHash: 1257667284
+  Translate: [-3804.01392, 159.300003, 3124.94556]
+  UniqueName: Demo008_9_PlayerEndPos
+  UnitConfigName: PosAfterDemoSkip
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x09f652b6
+  Rotate: [0.230531871, 0.0790700763, -2.12293673]
+  SRTHash: 139336274
+  Translate: [-3264.41797, 123.246216, 3368.42651]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0b734a7f
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x31792b0f
+  Rotate: 2.61799383
+  SRTHash: -1073213680
+  Translate: [-3145.16479, 121.067841, 3582.78247]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0c1e8e66
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x3614ef16
+  Rotate: 2.61799383
+  SRTHash: -1073213680
+  Translate: [-3103.09424, 130.117416, 3234.95776]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0cb751cb
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x6ad022b8}
+  Rotate: 1.91986215
+  SRTHash: 994430253
+  Translate: [-3810.5, 158.300003, 3127.19995]
+  UnitConfigName: DgnObj_DungeonEntranceSP
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0cf7cdb3
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x4ed2cace}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: 772885513
+  Translate: [-3716.09229, 152.836731, 3605.08154]
+  UnitConfigName: Obj_TreePalm_A_02
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: SunazarashiRace_SetBall, SaveFlagOnOffType: 1}
+  HashId: !u 0x0d999d11
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x56c484de
+  SRTHash: -1486902928
+  Translate: [-3774.62988, 161.589996, 3126.52002]
+  UnitConfigName: LinkTagAnd
+- '!Parameters':
+    BluffThunderOff: false
+    CloudShadowOff: true
+    FogMinusCorrection: false
+    IgnitedLevel: 0
+    PSelSpeed: 0
+    PaletteSel: -1
+    TemperatureDay: 0.0
+    TemperatureDirectDay: 39.0
+    TemperatureDirectNight: 20.0
+    TemperatureNight: 0.0
+    Weather: -1
+    WeatherEff: -1
+  HashId: !u 0x0eb91f49
+  SRTHash: -1662357612
+  Translate: [-3437.68213, 219.475433, 3128.45483]
+  UnitConfigName: ChangeWeatherTag
+- HashId: !u 0x0f2398e7
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x2cef532a}
+  Rotate: [-3.14030623, 0.899983466, -3.10059309]
+  SRTHash: -920933859
+  Translate: [-3416.80884, 157.46434, 3115.47705]
+  UnitConfigName: FldObj_GerudoDesertRock_A_06
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0f3f2c04
+  Rotate: [3.14147925, -0.339965791, 3.14147925]
+  SRTHash: -1578108966
+  Translate: [-3370.65552, 135.84758, 3636.948]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x0f8c95a3
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3e648f3e
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa9fb9e17
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: -1535851103
+  Translate: [-3691.67603, 149.614243, 3632.23315]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1097f1c4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x97313a87
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc4ab6103
+  Rotate: 0.526122987
+  SRTHash: -217776218
+  Translate: [-3519.68359, 131.387085, 3821.78027]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x111dd8d6
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x20f5c24b
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb76ad362
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: -1535851103
+  Translate: [-3752.17822, 149.101913, 3609.87329]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x117b8146
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x42e1dac2}
+  Rotate: -1.08520496
+  SRTHash: -584816856
+  Translate: [-3384.87891, 143.587646, 3777.53125]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- HashId: !u 0x118f7a9a
+  Rotate: [0.0, 0.0, -0.0399999954]
+  SRTHash: 2048435973
+  Translate: [-3430.00146, 157.072495, 3144.98486]
+  UnitConfigName: FldObj_GerudoDesertRock_A_06_Far
+- '!Parameters': {EventFlowEntryName: EntryPoint1, EventFlowName: SunazarashiRace, IsEndlessEvent: false, LaunchEventByOffSignal: false,
+    LaunchEventByOnSignal: true}
+  HashId: !u 0x11b3f10d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcbcc1e1e
+  Rotate: 1.91986215
+  SRTHash: 1803724555
+  Translate: [-3810.5, 158.300003, 3127.19995]
+  UnitConfigName: EventTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x133cab28
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc7003bef
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x949a606b
+  Rotate: 1.16052234
+  SRTHash: 536506616
+  Translate: [-3307.14722, 161.146088, 3812.04028]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1383ad72
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xaf1dbeac
+  SRTHash: -1735325584
+  Translate: [-3327.72046, 139.772842, 3902.03125]
+  UnitConfigName: Item_Fruit_I
+- HashId: !u 0x13d60fcd
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x3a1ebb3f}
+  Rotate: [3.14147925, -0.918945193, 3.14147925]
+  SRTHash: -584816856
+  Translate: [-3348.85547, 125.794594, 3226.73047]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x14801cf1
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0x82385628}
+  Rotate: 1.91986215
+  SRTHash: 899526784
+  Translate: [-3809.43945, 171.665939, 3125.61475]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x14ee696b
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xa8707ab5
+  SRTHash: -1735325584
+  Translate: [-3101.54346, 128.296173, 3244.8667]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x175f478c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x95006e33
+  SRTHash: 673037259
+  Translate: [-3773.50854, 155.650269, 3115.42871]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x17b2fff4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc38e6f33
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x901434b7
+  Rotate: [3.14147925, 0.754882812, 3.14147925]
+  SRTHash: 536506616
+  Translate: [-3758.64282, 121.937096, 3487.70483]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x18ed9599
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xff7f6ffd}
+  Rotate: [0.084432371, 0.698957562, 0.13078618]
+  SRTHash: 1693412614
+  Translate: [-3745.51367, 111.669189, 3600.56738]
+  UnitConfigName: FldObj_GerudoDesertRock_A_04
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x193f3c7b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb757adea
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9e9f1918
+  Rotate: 1.52514672
+  SRTHash: -217776218
+  Translate: [-3252.41602, 120.509254, 3065.40112]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x19532cd3
+  Rotate: 0.660003603
+  SRTHash: 823788064
+  Translate: [-3435.48071, 161.141373, 3132.89795]
+  UnitConfigName: AnchorAction1
+- '!Parameters': {LocationPriority: 0, MessageID: GameZarashiRace}
+  HashId: !u 0x199848d4
+  SRTHash: 0
+  Translate: [-3776.82349, 145.52359, 3110.47876]
+  UnitConfigName: LocationTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x19cc9d0a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9e6cb869
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb7a40c9b
+  Rotate: 0.498046845
+  SRTHash: 536506616
+  Translate: [-3855.32104, 154.815277, 3124.07153]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1a6bce3b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x11b3f10d
+  SRTHash: 0
+  Translate: [-3782.30005, 163.23999, 3120.19995]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1a8d6303
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9d2ba840
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xceb1f3c4
+  Rotate: [3.14147925, 0.515869141, 3.14147925]
+  SRTHash: -217776218
+  Translate: [-3239.04614, 131.880814, 3638.03589]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1af8acf3
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x8d67bdda}
+  Rotate: -0.29681462
+  SRTHash: 772885513
+  Translate: [-3794.78491, 154.842651, 3104.01562]
+  UnitConfigName: Obj_TreePalm_A_02
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Electric_Relic_Invasion, SaveFlagOnOffType: 0}
+  HashId: !u 0x1be18cb9
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x86611e51
+  SRTHash: 529469450
+  Translate: [-3419.59497, 189.780533, 3117.46094]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, ForbidSystemDeleteDistance: false, IsLazyTraverse: true,
+    IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x1be6b15d
+  Rotate: 1.88495529
+  SRTHash: -1346335704
+  Translate: [-3760.06006, 154.860001, 3108.55005]
+  UniqueName: race
+  UnitConfigName: Animal_SunazarashiSP_A
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
+  HashId: !u 0x1c40f775
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x03ce1a8e
+  Rotate: 0.339999884
+  SRTHash: 461723549
+  Scale: [27.5, 30.0, 22.0]
+  Translate: [-3429.6731, 173.830093, 3128.75586]
+  UnitConfigName: Area
+- HashId: !u 0x1c441db1
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x4fde4635}
+  Rotate: [3.14147925, 0.877197206, 3.14147925]
+  SRTHash: -1374746521
+  Translate: [-3400.625, 129.52417, 3261.48438]
+  UnitConfigName: Obj_PlantMelonGrass_A_01
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    TraversePos: {X: -3747.08789, Y: 120.365097, Z: 3641.95605}
+    TraverseRadiusXZ: 139.234207
+    UniqueNameMessageLabel: Pa_BossGaugeSandworm_B_8_0
+  HashId: !u 0x1d72263f
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff7f6fff}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x97c8e013}
+  SRTHash: 1614779621
+  Translate: [-3799.05811, 118.763214, 3653.43335]
+  UnitConfigName: Enemy_Sandworm
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, IsLazyTraverse: true, Shape: Box}
+  HashId: !u 0x1f244a56
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf60e87ac
+  Rotate: -1.00794482
+  SRTHash: -1120863572
+  Scale: [12.0, 5.0, 0.200000003]
+  Translate: [-3592.33008, 140.050003, 3056.3999]
+  UnitConfigName: Area
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x206e8f79
+  Rotate: 2.63544726
+  SRTHash: 687667327
+  Translate: [-3761.14062, 154.787277, 3116.47266]
+  UnitConfigName: AnchorAction1
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x20cd4735
+  Rotate: 0.801269472
+  SRTHash: -1578108966
+  Translate: [-3926.02197, 125.672356, 3584.10205]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x20f5c24b
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x8682c9ff
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.519999981, -0.559999943, 0.0]
+  SRTHash: 1728195300
+  Translate: [-3753.7439, 159.5905, 3607.89844]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x212137b7
+  Rotate: -0.528066278
+  SRTHash: -1624758904
+  Translate: [-3638.98657, 125.456299, 3556.11206]
+  UnitConfigName: Item_Fruit_C
+- HashId: !u 0x2136d797
+  Rotate: 0.740000367
+  SRTHash: 2012320566
+  Translate: [-3756.67432, 148.964676, 2948.94287]
+  UniqueName: Demo330_0_Spectator068
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0x21ff315b
+  Rotate: [0.0, 0.501593232, 0.11999999]
+  SRTHash: -1064916546
+  Translate: [-3126.47705, 110.270004, 3017.37207]
+  UnitConfigName: FldObj_GerudoDesertRock_A_04_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Electric_Relic_SunazarashiRouge,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x231b259a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd91a1f80
+  SRTHash: 1276165899
+  Translate: [-3422.8606, 189.780533, 3118.76562]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x23c1abf1
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6187da03
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x199848d4
+  SRTHash: 0
+  Translate: [-3776.82349, 145.52359, 3110.47876]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x244313e9
+  Rotate: [3.14147925, 0.876830995, 3.14147925]
+  SRTHash: -1578108966
+  Translate: [-3454.37573, 141.282486, 3871.29614]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {IsLazyTraverse: true}
+  HashId: !u 0x25504fc4
+  OnlyOne: true
+  Rotate: 1.12359881
+  SRTHash: -42322545
+  Translate: [-3245.97168, 122.644905, 3291.14355]
+  UniqueName: RougeSuna
+  UnitConfigName: Animal_SunazarashiSP_B
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x26043987
+  Rotate: [1.28326046, 0.522706628, -1.77371907]
+  SRTHash: 139336274
+  Translate: [-3921.43628, 122.470795, 3627.25317]
+  UnitConfigName: Item_Fruit_F
+- HashId: !u 0x28cdcfcb
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x84070bba}
+  Rotate: [0.0198381767, -1.31981838, -0.0737152919]
+  SRTHash: -1507414471
+  Translate: [-3740.22998, 125.978188, 3417.32935]
+  UnitConfigName: FldObj_GerudoBase_A_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x294c3cef
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xd81a8e3a
+  Rotate: -2.87979317
+  SRTHash: -94270366
+  Translate: [-3726.43115, 153.920334, 3643.88208]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLazyTraverse: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0}
+  HashId: !u 0x29bc09f7
+  Rotate: 1.13999975
+  SRTHash: -1371113266
+  Translate: [-3257.10156, 122.768669, 3287.76221]
+  UniqueName: tokusei1
+  UnitConfigName: Animal_Sunazarashi_B
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2b10b66e
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x1af8acf3
+  Rotate: [0.588812411, 0.124828309, 0.127203599]
+  SRTHash: -2028497486
+  Translate: [-3794.91553, 165.310654, 3103.33667]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2b3ba570
+  Rotate: [-1.13026285, -0.301275223, 0.920552611]
+  SRTHash: -1618982970
+  Translate: [-3612.26245, 125.462242, 3439.23486]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2bd42f43
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfd8dcc5e
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb0456d55
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7b19bef0
+  SRTHash: 2014039989
+  Translate: [-3341.7688, 142.453827, 3882.59302]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2cb9eb5a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfae00847
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb728a94c
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7c747ae9
+  SRTHash: 2014039989
+  Translate: [-3152.98267, 122.248817, 3599.24707]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x2cef532a
+  Rotate: [-3.14030623, 0.899983466, -3.10059309]
+  SRTHash: -920933859
+  Translate: [-3416.80884, 157.46434, 3115.47705]
+  UnitConfigName: FldObj_GerudoDesertRock_A_06_Far
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2d0d2034
+  Rotate: 1.91986215
+  SRTHash: -282563920
+  Translate: [-3801.85962, 159.263, 3124.05518]
+  UnitConfigName: DgnObj_WarpPointSP
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2df2dbc2
+  Rotate: [0.000100593592, 0.618531346, 2.33031369e-05]
+  SRTHash: -1624758904
+  Translate: [-3296.9939, 127.282639, 3571.29663]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2e21f8f6
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xdf774a23
+  Rotate: -2.87979317
+  SRTHash: -94270366
+  Translate: [-3149.52466, 122.624619, 3598.77368]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2e466a9a
+  Rotate: [-0.999870121, -0.507494152, -1.81162179]
+  SRTHash: 139336274
+  Translate: [-3522.53149, 141.323471, 3190.76074]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2eb5cbeb
+  Rotate: -0.717275321
+  SRTHash: -1624758904
+  Translate: [-3252.88989, 126.594971, 3045.71484]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2fb5f1ac
+  Rotate: [3.1415863, 0.242910028, 3.14136457]
+  SRTHash: -1624758904
+  Translate: [-3356.88867, 146.702133, 3876.80908]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x2ffe9ef5
+  Rotate: -2.79252672
+  SRTHash: 1678162080
+  Translate: [-3760.19995, 154.800003, 3114.80005]
+  UniqueName: Demo330_0_1_020
+  UnitConfigName: AnchorAction3
+- HashId: !u 0x300429f8
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x19cc9d0a}
+  Rotate: 0.498046845
+  SRTHash: -1374746521
+  Translate: [-3857.11328, 154.815292, 3124.5]
+  UnitConfigName: Obj_PlantMelonGrass_A_01
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x3008211a
+  Rotate: -1.65999973
+  SRTHash: 1234913663
+  Translate: [-3765.5, 154.79657, 3114.0]
+  UnitConfigName: AnchorAction1
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x30f2cfad
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x011ad530
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.629442155, 0.419074684, 0.138237819]
+  SRTHash: -2028497486
+  Translate: [-3733.35962, 164.521332, 3601.7749]
+  UnitConfigName: Item_Fruit_G
+- HashId: !u 0x30f78889
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x193f3c7b}
+  Rotate: 1.52514672
+  SRTHash: -584816856
+  Translate: [-3250.77344, 120.509254, 3064.07031]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- HashId: !u 0x31792b0f
+  SRTHash: -621523570
+  Translate: [-3143.01611, 119.95784, 3582.97754]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0x31bcdbe2
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x2cb9eb5a}
+  SRTHash: -2101236802
+  Translate: [-3153.51318, 122.248817, 3601.31226]
+  UnitConfigName: Obj_Plant_ChiliPepper_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x31f15cee
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb65797ad
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe5cdcc29
+  Rotate: -0.58581543
+  SRTHash: -217776218
+  Translate: [-3452.03491, 138.012131, 3885.33667]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x33924cef
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xab313bff}
+  Rotate: 2.09439516
+  SRTHash: 413770769
+  Translate: [-3283.38721, 170.055817, 3784.69751]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x33b67680
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb410bdc3
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe78ae647
+  Rotate: -0.977661073
+  SRTHash: -217776218
+  Translate: [-3003.86938, 118.285858, 3590.87036]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x34538373
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf60e87ac
+  SRTHash: 1075793029
+  Translate: [-3589.83008, 147.410004, 3046.1001]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0x349378b0
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x67092334}
+  Rotate: -1.3742677
+  SRTHash: -584816856
+  Translate: [-3508.38672, 122.7108, 3532.42188]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: SunazarashiRace_Gate01, SaveFlagOnOffType: 0}
+  HashId: !u 0x34fc71df
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf23ae1ac
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x34538373
+  SRTHash: 1361315894
+  Translate: [-3582.42993, 147.910004, 3058.0]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x3563b27f
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x93dfed4b}
+  OnlyOne: true
+  Rotate: -1.22899699
+  SRTHash: 679735203
+  Translate: [-3757.91797, 155.699997, 3108.02661]
+  UnitConfigName: FldObj_StartGate
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x357f0832
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb2d9c371
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe14398f5
+  Rotate: -0.952758729
+  SRTHash: -217776218
+  Translate: [-3643.08057, 122.601463, 3561.99072]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x3614ef16
+  SRTHash: -621523570
+  Translate: [-3100.94556, 129.007416, 3235.15308]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0x36d11ffb
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x2bd42f43}
+  SRTHash: -2101236802
+  Translate: [-3342.29956, 142.453827, 3884.6582]
+  UnitConfigName: Obj_Plant_ChiliPepper_A_01
+- '!Parameters':
+    DropTable: Normal
+    IsJoinRemainsBattle: false
+    IsLazyTraverse: true
+    SharpWeaponJudgeType: 0
+    TraversePos: {X: -3207.29199, Y: 110.684601, Z: 3270.53003}
+    TraverseRadiusXZ: 157.374298
+  HashId: !u 0x373c7bfc
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xc050fe13}
+  Rotate: -1.57079637
+  SRTHash: 1357150979
+  Translate: [-2980.29175, 130.932846, 3257.13623]
+  UniqueName: Thunder_Relic01
+  UnitConfigName: RemainsElectric_Far
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x379f0bb4
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x06771129
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.629442155, 0.419074684, 0.138237819]
+  SRTHash: -2028497486
+  Translate: [-3728.69312, 163.267593, 3609.26123]
+  UnitConfigName: Item_Fruit_G
+- HashId: !u 0x384094c5
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x6bdacf41}
+  Rotate: -0.982299864
+  SRTHash: -584816856
+  Translate: [-3317.80078, 124.825073, 3579.35156]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x390ea31b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcbcd5398
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x595d8cba
+  SRTHash: 0
+  Translate: [-3810.5, 156.800003, 3127.19995]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x39448386
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x08ac991b
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.629442155, 0.419074684, 0.138237819]
+  SRTHash: -2028497486
+  Translate: [-3727.06226, 163.07579, 3641.67065]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x3a07beab
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xee3b2e6c
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xbda175e8
+  Rotate: [3.14147925, -0.929321229, 3.14147925]
+  SRTHash: 536506616
+  Translate: [-3301.27319, 158.226791, 3828.5564]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x3a1ebb3f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x94762aae
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xbdbe9e5c
+  Rotate: [3.14147925, -0.918945193, 3.14147925]
+  SRTHash: -217776218
+  Translate: [-3346.74756, 125.794174, 3226.57275]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x3a24e023
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0eb91f49
+  SRTHash: 1135746741
+  Translate: [-3437.27783, 216.117767, 3127.90356]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3e28004e
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: 19765457
+  Translate: [-3734.11206, 150.288925, 3637.021]
+  UnitConfigName: Obj_TreePalm_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3e648f3e
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x9813848a
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.519999981, -0.559999943, 0.0]
+  SRTHash: 1728195300
+  Translate: [-3693.2417, 160.102829, 3630.2583]
+  UnitConfigName: Item_Fruit_G
+- HashId: !u 0x3e89ea77
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x6d13b1f3}
+  Rotate: [3.14147925, 0.986450136, 3.14147925]
+  SRTHash: -584816856
+  Translate: [-3565.24609, 124.066216, 3441.97656]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: SunazarashiRace_Step3, SaveFlagOnOffType: 0}
+  HashId: !u 0x3eded049
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0x52f98213}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x175f478c
+  SRTHash: -1502640762
+  Translate: [-3775.57007, 156.039993, 3110.36011]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3f60cf49
+  OnlyOne: true
+  Rotate: 2.09010506
+  SRTHash: 72878509
+  Translate: [-3436.34595, 161.1259, 3128.93335]
+  UnitConfigName: TwnObj_ArtifactObservationPostBed_A_01
+- '!Parameters':
+    IsLazyTraverse: true
+    IsOnHelmet: true
+    TerritoryArea: 0.0
+    TraversePos: {X: -3327.49902, Y: 156.248993, Z: 3204.75293}
+    TraverseRadiusXZ: 127.233002
+  HashId: !u 0x3f883373
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xedcc0812}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xff5341c1}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xe5954b2b}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x460be4b7}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x69436ce3}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x29bc09f7}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xff383024}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xc36658fe}
+  Rotate: -2.07999992
+  SRTHash: -76221520
+  Translate: [-3248.63403, 122.715668, 3290.49414]
+  UniqueName: Demo347_2
+  UnitConfigName: Npc_oasis003
+- HashId: !u 0x3fa2a33d
+  SRTHash: -621523570
+  Translate: [-3697.41821, 149.96524, 3638.00635]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0x3fb8bee3
+  Rotate: 1.56159627
+  SRTHash: 875312252
+  Translate: [-3774.13257, 154.7509, 3114.49316]
+  UniqueName: Hoju_Warning
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0x40a6f0ac
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x133cab28}
+  Rotate: 1.16052234
+  SRTHash: -1374746521
+  Translate: [-3308.29688, 161.146088, 3813.48047]
+  UnitConfigName: Obj_PlantMelonGrass_A_01
+- HashId: !u 0x4113df80
+  SRTHash: -621523570
+  Translate: [-3340.30151, 142.453827, 3884.62964]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0x415385ba
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x689b3148}
+  Rotate: [3.14147925, -1.35607898, 3.14147925]
+  SRTHash: -1374746521
+  Translate: [-3767.60938, 146.269592, 3034.5]
+  UnitConfigName: Obj_PlantMelonGrass_A_01
+- HashId: !u 0x41a024cb
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x68689039}
+  Rotate: 1.2364502
+  SRTHash: -584816856
+  Translate: [-3040.75781, 118.823654, 3103.37109]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- HashId: !u 0x41d62f6d
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x5cd31fd5}
+  SRTHash: -2101236802
+  Translate: [-3102.94385, 129.007416, 3235.18164]
+  UnitConfigName: Obj_Plant_ChiliPepper_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x42e1dac2
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc5471181
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x96dd4a05
+  Rotate: -1.08520496
+  SRTHash: -217776218
+  Translate: [-3384.13696, 143.587646, 3775.55176]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x430daa40
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x1097f1c4}
+  Rotate: 0.526122987
+  SRTHash: -584816856
+  Translate: [-3517.67578, 131.387085, 3822.44141]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- HashId: !u 0x4428a470
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x17b2fff4}
+  Rotate: [3.14147925, 0.754882812, 3.14147925]
+  SRTHash: -1374746521
+  Translate: [-3757.67578, 121.936935, 3489.27344]
+  UnitConfigName: Obj_PlantMelonGrass_A_01
+- HashId: !u 0x4499c589
+  Rotate: [3.1336844, 0.898257732, 3.08090854]
+  SRTHash: 160306562
+  Translate: [-3745.25879, 126.453468, 3418.23804]
+  UnitConfigName: FldObj_GerudoBase_A_03_Far
+- '!Parameters': {EventFlowEntryName: Electric_Relic_BattleField03, EventFlowName: Electric_Relic, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0x44a7ffa4
+  Rotate: [0.0188111924, -0.000813381339, 0.0864220634]
+  SRTHash: -1216693225
+  Translate: [-3233.37207, 124.0, 3280.86011]
+  UnitConfigName: EventTag
+- HashId: !u 0x45ada1bd
+  SRTHash: 0
+  Translate: [-3759.3208, 148.573517, 3616.06836]
+  UnitConfigName: LinkTagNone
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x45cfe31d
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: -648328808
+  Translate: [-3718.92261, 151.257599, 3611.35547]
+  UnitConfigName: Obj_TreePalm_A_02
+- HashId: !u 0x460be4b7
+  Rotate: 1.18359864
+  SRTHash: 1691032073
+  Translate: [-3252.02173, 122.775795, 3284.61011]
+  UniqueName: ibutubattleStart2
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0x467e1b99
+  SRTHash: -621523570
+  Translate: [-3151.51514, 122.248817, 3601.28369]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0x46bbeb74
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x5bbedbcc}
+  SRTHash: -2101236802
+  Translate: [-3145.01416, 119.95784, 3583.00635]
+  UnitConfigName: Obj_Plant_ChiliPepper_A_01
+- HashId: !u 0x48606346
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x556553fe}
+  SRTHash: -2101236802
+  Translate: [-3699.41626, 149.96524, 3638.03516]
+  UnitConfigName: Obj_Plant_ChiliPepper_A_01
+- HashId: !u 0x49173887
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x1a8d6303}
+  Rotate: [3.14147925, 0.515869141, 3.14147925]
+  SRTHash: -584816856
+  Translate: [-3239.48828, 131.881042, 3635.96875]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4963bfa8
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xef14b41c
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.519999981, -0.559999943, 0.0]
+  SRTHash: 1728195300
+  Translate: [-3712.07104, 162.608444, 3640.8728]
+  UnitConfigName: Item_Fruit_G
+- HashId: !u 0x49f93737
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xaebfc4fb}
+  OnlyOne: true
+  Rotate: -1.22173047
+  SRTHash: -1751779854
+  Translate: [-3781.80005, 154.917191, 3117.1001]
+  UnitConfigName: Obj_PodiumRock
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0x4b1b06d6
+  Rotate: 1.91986215
+  SRTHash: 616567522
+  Scale: 40.0
+  Translate: [-3810.5, 158.300003, 3127.19995]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4bd73f8b
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x7a3f2516
+  Rotate: [-2.62421775, 0.412249565, 3.00377321]
+  SRTHash: -2028497486
+  Translate: [-3831.77661, 167.99736, 3118.80713]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4e9256b6
+  Rotate: 1.91986215
+  SRTHash: -1943641237
+  Translate: [-3806.9292, 159.300171, 3125.90039]
+  UnitConfigName: DgnObj_EntranceShutterSP
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x4ed2cace
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc05dcd2d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8278ca50
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: -1535851103
+  Translate: [-3714.22314, 152.827209, 3606.40039]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x4fde4635
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9be2d6f2
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc8788d76
+  Rotate: [3.14147925, 0.877197206, 3.14147925]
+  SRTHash: 536506616
+  Translate: [-3401.39355, 129.524307, 3259.80957]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x5003e552
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfdfdf2ec
+  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0x3f60cf49}
+  SRTHash: 682731624
+  Translate: [-3440.1709, 162.0, 3124.05054]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x519aeb77
+  Rotate: [3.14147925, 1.39709485, 3.14147925]
+  SRTHash: -1578108966
+  Translate: [-3650.49561, 126.521706, 3437.7981]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x523217e3
+  Rotate: -3.05432606
+  SRTHash: 992394774
+  Translate: [-3761.14062, 154.787277, 3116.47266]
+  UnitConfigName: AnchorAction2
+- HashId: !u 0x5257b13c
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x017c6d0d}
+  Rotate: 2.09439516
+  SRTHash: 413770769
+  Translate: [-3289.38721, 170.576385, 3784.69751]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x52f98213
+  LinksToObj:
+  - {DefinitionName: FixedCs, DestUnitHashId: !u 0xe9531d1e}
+  Rotate: [-0.785398185, 0.0, 0.0]
+  SRTHash: 1149596648
+  Translate: [-3775.53003, 155.800003, 3114.81006]
+  UnitConfigName: FldObj_ChampionshipBall_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5514bfab
+  Rotate: [2.07655644, 0.520565212, -1.36220348]
+  SRTHash: 139336274
+  Translate: [-3156.48096, 148.971588, 3862.79736]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x556553fe
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x833cb0e3
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcef411e8
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x05a8c24d
+  SRTHash: 2014039989
+  Translate: [-3698.88574, 149.96524, 3635.96997]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x55f8f56e
+  Rotate: -2.54930663
+  SRTHash: -1624758904
+  Translate: [-3620.23193, 139.263443, 3238.13721]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 2, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x56a51b8c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4e9256b6
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2d0d2034
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0cb751cb
+  Rotate: 1.91986215
+  SRTHash: -1754243463
+  Translate: [-3805.89429, 159.300003, 3125.34912]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x56bfe547
+  Rotate: [3.14156103, 0.444570214, 3.14135599]
+  SRTHash: -1624758904
+  Translate: [-3359.21582, 154.312622, 3781.03589]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: ChampionshipBallGenFlg, SaveFlagOnOffType: 0}
+  HashId: !u 0x56c484de
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x9ce1a079
+  SRTHash: 2146988998
+  Translate: [-3774.29004, 159.12999, 3121.47998]
+  UnitConfigName: LinkTagXOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: SunazarashiRace_Dungeon, SaveFlagOnOffType: 0}
+  HashId: !u 0x573fa38b
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xf33ad65d
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x82385628
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x4e9256b6
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xc01d5155
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x0cb751cb
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x2d0d2034
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xd2ef1576
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x9a0f1b12
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x4b1b06d6
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x87b10648
+  Rotate: 0.174532905
+  SRTHash: 2099644299
+  Translate: [-3815.77002, 166.300003, 3143.71997]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IsLazyTraverse: true}
+  HashId: !u 0x57444950
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x01d132bd
+  OnlyOne: true
+  Rotate: 1.04719758
+  SRTHash: 2033477188
+  Translate: [-3248.7561, 122.712814, 3289.78687]
+  UnitConfigName: Npc_oasis033
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x575395c5
+  Rotate: [-2.96489573, -0.0457278527, -1.01534092]
+  SRTHash: 139336274
+  Translate: [-3604.41895, 127.853615, 3746.25781]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters':
+    IsLazyTraverse: true
+    TerritoryArea: 0.0
+    TraversePos: {X: -3767.5, Y: 154.7948, Z: 3111.0}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0x57f299ff
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x9436d1f6}
+  OnlyOne: true
+  Rotate: -1.03999984
+  SRTHash: 2047691623
+  Translate: [-3767.5, 154.794815, 3111.0]
+  UnitConfigName: NPC_oasis070
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x57f2f2dd
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xf185f969
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.519999981, -0.559999943, 0.0]
+  SRTHash: 1728195300
+  Translate: [-3753.47461, 159.169403, 3622.19238]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5926c860
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xa8707ab5
+  Rotate: -2.87979317
+  SRTHash: -94270366
+  Translate: [-3101.91895, 128.366165, 3245.08008]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {LocationPriority: 1, MessageID: Dungeon093}
+  HashId: !u 0x595d8cba
+  SRTHash: 0
+  Translate: [-3810.5, 156.800003, 3127.19995]
+  UnitConfigName: LocationTag
+- HashId: !u 0x5a1659b0
+  Rotate: 2.05999994
+  SRTHash: -1667530850
+  Translate: [-3145.60986, 114.293442, 2994.9502]
+  UnitConfigName: FldObj_GerudoDesertRock_A_04_Far
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5a6c0932
+  Rotate: [-1.15996981, -0.322578937, 0.929670632]
+  SRTHash: -1618982970
+  Translate: [-3263.57007, 123.130783, 3368.2207]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {IsLazyTraverse: true, TerritoryArea: 0.0}
+  HashId: !u 0x5a82cdfe
+  Rotate: 0.740000367
+  SRTHash: 1429914619
+  Translate: [-3754.71021, 148.964691, 2948.48242]
+  UniqueName: Demo330_0_Spectator
+  UnitConfigName: Npc_oasis023
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5b378a40
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xfd4081f4
+  Rotate: [-2.62159276, -0.201592878, 3.14159274]
+  SRTHash: 1728195300
+  Translate: [-3766.61841, 165.291046, 3130.67749]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x5bbedbcc
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8de738d1
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc02f99da
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0b734a7f
+  SRTHash: 2014039989
+  Translate: [-3144.48364, 119.95784, 3580.94116]
+  UnitConfigName: LinkTagOr
+- '!Parameters':
+    BluffThunderOff: false
+    CloudShadowOff: false
+    FogMinusCorrection: false
+    IgnitedLevel: 0
+    PSelSpeed: 0
+    PaletteSel: 8
+    TemperatureDay: 0.0
+    TemperatureDirectDay: 99999.8984
+    TemperatureDirectNight: 99999.8984
+    TemperatureNight: 0.0
+    Weather: 6
+    WeatherEff: 2
+  HashId: !u 0x5c136970
+  SRTHash: 865414819
+  Translate: [-3203.83032, 576.906616, 3258.50366]
+  UnitConfigName: ChangeWeatherTag
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5c1786f8
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x6dff9c65
+  Rotate: [-2.26878405, -1.16514778, 2.81694078]
+  SRTHash: -2028497486
+  Translate: [-3812.12573, 167.983078, 3140.95215]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5ca57780
+  Rotate: [3.14088082, 1.42003441, 3.14073777]
+  SRTHash: -1624758904
+  Translate: [-3371.47217, 137.053207, 3638.11743]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x5cd31fd5
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8a8afcc8
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc7425dc3
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0c1e8e66
+  SRTHash: 2014039989
+  Translate: [-3102.41309, 129.007416, 3233.11646]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Electlic_Relic_Demo347_2, SaveFlagOnOffType: 0}
+  HashId: !u 0x5d0f3caa
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x29bc09f7
+  SRTHash: 1745913637
+  Translate: [-3259.38428, 126.381325, 3290.2063]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IsLazyTraverse: true, TerritoryArea: 0.0}
+  HashId: !u 0x5e2eac8d
+  SRTHash: 156407793
+  Translate: [-3758.92114, 148.842834, 2963.72949]
+  UniqueName: Demo330_0_Spectator
+  UnitConfigName: NPC_oasis062
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5e44bef6
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xf833b542
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.519999981, -0.559999943, 0.0]
+  SRTHash: 1728195300
+  Translate: [-3706.29639, 160.818237, 3651.77197]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5e4b0c79
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xaf1dbeac
+  Rotate: -2.87979317
+  SRTHash: -94270366
+  Translate: [-3328.09619, 139.842834, 3902.24463]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5f11c6d8
+  Rotate: [-2.57132602, -0.273543715, -1.0791142]
+  SRTHash: 139336274
+  Translate: [-3077.82446, 120.860214, 3061.15405]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5fe267a9
+  Rotate: [2.31069899, 0.0618004203, 2.27581429]
+  SRTHash: -1618982970
+  Translate: [-3071.36743, 121.749275, 3073.74512]
+  UnitConfigName: Item_Fruit_F
+- HashId: !u 0x602c2d04
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x33b67680}
+  Rotate: -0.977661073
+  SRTHash: -584816856
+  Translate: [-3004.39453, 118.285858, 3592.91797]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {IsLazyTraverse: true, TerritoryArea: 0.0}
+  HashId: !u 0x607c7146
+  SRTHash: 1437081517
+  Translate: [-3760.4563, 148.753021, 2966.62109]
+  UniqueName: Demo330_0_Spectator
+  UnitConfigName: NPC_oasis064
+- '!Parameters': {IncrementSave: true, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Location_GameZarashiRace, SaveFlagOnOffType: 0}
+  HashId: !u 0x6187da03
+  SRTHash: 0
+  Translate: [-3776.82349, 145.52359, 3110.47876]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x626b076a
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x31f15cee}
+  Rotate: -0.58581543
+  SRTHash: -584816856
+  Translate: [-3451.73828, 138.012131, 3887.42969]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x62caa3ba
+  LinksToObj:
+  - {DefinitionName: OffWaitRevival, DestUnitHashId: !u 0x3f60cf49}
+  SRTHash: -1606750468
+  Translate: [-3437.78784, 162.0, 3124.99219]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x63e959fd
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xdf774a23
+  SRTHash: -1735325584
+  Translate: [-3149.14893, 122.554619, 3598.56006]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x64849de4
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xd81a8e3a
+  SRTHash: -1735325584
+  Translate: [-3726.05542, 153.850342, 3643.66846]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters':
+    IsLazyTraverse: true
+    TerritoryArea: 0.0
+    TraversePos: {X: -3768.0, Y: 154.797897, Z: 3109.0}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0x6537219f
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xff6d73e5}
+  Rotate: -0.76000011
+  SRTHash: 17831086
+  Translate: [-3768.0, 154.797852, 3109.0]
+  UnitConfigName: NPC_oasis062
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0x65e6514e
+  Rotate: 0.174532905
+  SRTHash: -1748385586
+  Translate: [-3781.80005, 155.429993, 3117.1001]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x661ae840
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x57f2f2dd
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc06de3f4
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: -1535851103
+  Translate: [-3751.90894, 148.680817, 3624.16699]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x66e553b6
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x357f0832}
+  Rotate: -0.952758729
+  SRTHash: -584816856
+  Translate: [-3643.55469, 122.601463, 3564.05078]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x67092334
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe0afe877
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb335b3f3
+  Rotate: -1.3742677
+  SRTHash: -217776218
+  Translate: [-3507.11133, 122.7108, 3530.73608]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
+  HashId: !u 0x67104601
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x901df2cc
+  Rotate: 0.785398185
+  SRTHash: -1032185668
+  Scale: [110.0, 20.0, 110.0]
+  Translate: [-3847.06006, 146.479996, 2924.20996]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x68689039
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc60001a8
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xefc8b55a
+  Rotate: 1.2364502
+  SRTHash: -217776218
+  Translate: [-3042.71118, 118.823654, 3104.1792]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x689b3148
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xef3b142b
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc6f3a0d9
+  Rotate: [3.14147925, -1.35607898, 3.14147925]
+  SRTHash: 536506616
+  Translate: [-3768.45728, 146.26973, 3036.13623]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x69436ce3
+  Rotate: 1.19999969
+  SRTHash: 1545919646
+  Translate: [-3257.08813, 122.772209, 3286.08691]
+  UniqueName: Demo347_2_03
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0x699de52f
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x3a07beab}
+  Rotate: [3.14147925, -0.929321229, 3.14147925]
+  SRTHash: -1374746521
+  Translate: [-3299.82422, 158.226578, 3827.41797]
+  UnitConfigName: Obj_PlantMelonGrass_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6ad022b8
+  Rotate: 1.91986215
+  SRTHash: 994430253
+  Translate: [-3810.5, 158.300003, 3127.19995]
+  UnitConfigName: DgnObj_DungeonEntranceSP_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x6adf90dd
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5b378a40
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcca89b69
+  Rotate: -2.37999988
+  SRTHash: -1535851103
+  Translate: [-3769.11426, 154.80246, 3130.32861]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x6bdacf41
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xec7c0402
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xbfe65f86
+  Rotate: -0.982299864
+  SRTHash: -217776218
+  Translate: [-3317.26611, 124.825073, 3577.3064]
+  UnitConfigName: LinkTagOr
+- '!Parameters':
+    IsLazyTraverse: true
+    TerritoryArea: 0.0
+    TraversePos: {X: -3756.67407, Y: 148.964706, Z: 2948.94312}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0x6c607102
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x2136d797}
+  OnlyOne: true
+  Rotate: 0.740000367
+  SRTHash: 2102948354
+  Translate: [-3757.27808, 148.964676, 2938.90967]
+  UniqueName: Demo330_0_Spectator
+  UnitConfigName: NPC_oasis068
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x6d13b1f3
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xeab57ab0
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb92f2134
+  Rotate: [3.14147925, 0.986450136, 3.14147925]
+  SRTHash: -217776218
+  Translate: [-3565.78931, 124.066101, 3444.01953]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x6dde578c
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xcf0f243c}
+  Rotate: 0.49999997
+  SRTHash: -189740434
+  Translate: [-3718.04224, 111.775024, 3724.40918]
+  UnitConfigName: FldObj_GerudoDesertRock_A_07
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6dff9c65
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfa608d4c}
+  Rotate: -2.37999988
+  SRTHash: 772885513
+  Translate: [-3812.78149, 157.507584, 3140.73291]
+  UnitConfigName: Obj_TreePalm_A_02
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x6faca46b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5e44bef6
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc9dbafdf
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: -1535851103
+  Translate: [-3704.73071, 150.329651, 3653.74658]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x6fe5a24a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5c136970
+  SRTHash: 1444443379
+  Translate: [-3204.64746, 563.946716, 3257.98901]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Electric_Relic_Battle, SaveFlagOnOffType: 0}
+  HashId: !u 0x7058c203
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x25504fc4
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x57444950
+  Rotate: 0.52359879
+  SRTHash: 867824807
+  Translate: [-3244.43066, 126.371918, 3288.78198]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x72725919
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xbb7f13a1}
+  OnlyOne: true
+  Rotate: -2.62158513
+  SRTHash: 925936110
+  Translate: [-3429.6731, 157.825897, 3128.75586]
+  UnitConfigName: TwnObj_ArtifactObservationPost_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x72bb6c33
+  Rotate: 1.23193347
+  SRTHash: -1578108966
+  Translate: [-3638.58936, 124.250679, 3557.48193]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x73571cb1
+  Rotate: -0.958730459
+  SRTHash: -1624758904
+  Translate: [-3925.81104, 126.877975, 3582.69141]
+  UnitConfigName: Item_Fruit_C
+- HashId: !u 0x73b12d81
+  SRTHash: 955171471
+  Scale: 1.10000002
+  Translate: [-3213.13867, 122.856979, 3273.12817]
+  UnitConfigName: SandStorm_Distance_Ibutsu
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Electric_Relic_GetBack, SaveFlagOnOffType: 0}
+  HashId: !u 0x73e6c8f4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0832b5a2
+  SRTHash: -1222445142
+  Translate: [-2763.87329, 188.441574, 3253.22632]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x759e6203
+  Rotate: [-2.36003661, -0.707137465, 1.59068704]
+  SRTHash: -1618982970
+  Translate: [-3920.8584, 122.355217, 3627.90698]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x762ad35b
+  Rotate: [3.01881647, 0.138716713, -1.02942431]
+  SRTHash: 139336274
+  Translate: [-3070.67383, 121.864708, 3073.21533]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x76d9722a
+  Rotate: [1.62354493, 0.532109559, 2.06134272]
+  SRTHash: -1618982970
+  Translate: [-3078.6875, 120.744797, 3061.0249]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x77d9486d
+  Rotate: [8.28633565e-05, 0.504761815, 1.38450532e-05]
+  SRTHash: -1624758904
+  Translate: [-3455.75562, 142.488174, 3870.9353]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters':
+    IsLazyTraverse: true
+    TerritoryArea: 0.0
+    TraversePos: {X: -3754.76001, Y: 148.964706, Z: 2947.20093}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0x77ecd53d
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xab2dadc4}
+  SRTHash: -238384514
+  Translate: [-3758.55762, 148.964676, 2939.27393]
+  UniqueName: Demo330_0_Spectator
+  UnitConfigName: Npc_oasis020
+- HashId: !u 0x781b6bc0
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x084eaf5d}
+  Rotate: [0.0427565835, -0.233846486, 0.203934535]
+  SRTHash: 851378850
+  Translate: [-3033.20068, 173.344559, 3754.30542]
+  UnitConfigName: FldObj_GerudoBase_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x788ba535
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4963bfa8
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xdefcae81
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: -1535851103
+  Translate: [-3710.50537, 152.119858, 3642.84766]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x78a1fef4
+  Rotate: [0.200338334, 0.0604690351, -2.12504172]
+  SRTHash: 139336274
+  Translate: [-3613.10278, 125.577675, 3439.47021]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7a3f2516
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xeda0343f}
+  Rotate: 2.30318522
+  SRTHash: 772885513
+  Translate: [-3831.53857, 157.533722, 3118.1582]
+  UnitConfigName: Obj_TreePalm_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7b19bef0
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x4113df80
+  Rotate: 2.61799383
+  SRTHash: -1073213680
+  Translate: [-3342.4502, 143.563828, 3884.43433]
+  UnitConfigName: Item_Fruit_I
+- HashId: !u 0x7b7e7365
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xc21f464d}
+  Rotate: [-3.12536883, 0.681429923, -3.11584044]
+  SRTHash: -202502279
+  Translate: [-3716.57837, 131.942657, 3601.56982]
+  UnitConfigName: FldObj_GerudoDesertRock_A_06
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x7b980be7
+  Rotate: -2.00712872
+  SRTHash: -1815548831
+  Translate: [-3760.19995, 154.800003, 3114.80005]
+  UnitConfigName: AnchorAction2
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7c2faa28
+  Rotate: [3.14147925, -1.51709008, 3.14147925]
+  SRTHash: -1578108966
+  Translate: [-3357.65552, 145.496689, 3875.6062]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7c30419c
+  Rotate: -0.789306641
+  SRTHash: -1578108966
+  Translate: [-3621.63818, 138.057816, 3237.89844]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7c747ae9
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x467e1b99
+  Rotate: 2.61799383
+  SRTHash: -1073213680
+  Translate: [-3153.66382, 123.358818, 3601.08838]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7e688046
+  Rotate: [3.14147925, 0.763061464, 3.14147925]
+  SRTHash: -1578108966
+  Translate: [-3295.58179, 126.076942, 3571.49854]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Electric_Relic_GetBack, SaveFlagOnOffType: 0}
+  HashId: !u 0x7fac0125
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x995b5a85
+  SRTHash: -168351786
+  Translate: [-3432.23828, 217.58667, 3126.09106]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x802efb0b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x078ede68
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2e466a9a
+  Rotate: 0.61730957
+  SRTHash: 536506616
+  Translate: [-3520.77148, 141.003448, 3189.30273]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: SunazarashiRace_Field2, SaveFlagOnOffType: 0}
+  HashId: !u 0x809bd45a
+  SRTHash: 761013944
+  Translate: [-3784.70996, 158.639999, 3104.12988]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: AlwaysSleepingBed, SaveFlagOnOffType: 0}
+  HashId: !u 0x80a3ac16
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe34b4590
+  SRTHash: 1637325137
+  Translate: [-3441.99146, 162.0, 3127.54541]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x80dd5a7a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2eb5cbeb
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x077d7f19
+  Rotate: 1.04272461
+  SRTHash: -217776218
+  Translate: [-3255.04492, 123.356224, 3046.92871]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x81282f6c
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xd2b274e8}
+  Rotate: [3.14147925, -0.67553705, 3.14147925]
+  SRTHash: -1374746521
+  Translate: [-3156.46484, 148.65152, 3863.61719]
+  UnitConfigName: Obj_PlantMelonGrass_A_01
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x81929461
+  Rotate: 0.34906584
+  SRTHash: -667327569
+  Translate: [-3773.5, 154.752686, 3112.0]
+  UnitConfigName: AnchorAction3
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0x82385628
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe1b04580
+  Rotate: 1.39626324
+  SRTHash: 291600752
+  Translate: [-3805.5459, 159.300171, 3123.26855]
+  UnitConfigName: DgnObj_EntranceTerminalSP
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8278ca50
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x0cf7cdb3
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.629442155, 0.419074684, 0.138237819]
+  SRTHash: -2028497486
+  Translate: [-3716.41577, 163.30603, 3604.47046]
+  UnitConfigName: Item_Fruit_G
+- HashId: !u 0x82837580
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xd1192e04}
+  Rotate: [3.14147925, -1.31542957, 3.14147925]
+  SRTHash: -584816856
+  Translate: [-3359.35156, 151.073929, 3780.24609]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x833cb0e3
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x3fa2a33d
+  SRTHash: -1735325584
+  Translate: [-3699.21069, 150.845245, 3637.97705]
+  UnitConfigName: Item_Fruit_I
+- HashId: !u 0x836f0502
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xd0f55e86}
+  Rotate: [3.14147925, 0.635009706, 3.14147925]
+  SRTHash: -1374746521
+  Translate: [-3605.20703, 127.53363, 3746.48438]
+  UnitConfigName: Obj_PlantMelonGrass_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x84059b39
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: 1564235949
+  Translate: [-3698.08472, 150.603027, 3623.05957]
+  UnitConfigName: Obj_TreePalm_A_02
+- HashId: !u 0x84070bba
+  Rotate: [0.0198381767, -1.31981838, -0.0737152919]
+  SRTHash: -1507414471
+  Translate: [-3740.22998, 125.978188, 3417.32935]
+  UnitConfigName: FldObj_GerudoBase_A_03_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x85a67bb0
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0200b0f3
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x519aeb77
+  Rotate: [3.14147925, 1.39709485, 3.14147925]
+  SRTHash: -217776218
+  Translate: [-3652.37598, 124.488556, 3439.11719]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x86119122
+  Rotate: [3.01082134, 0.618437707, -3.09186769]
+  SRTHash: -847650181
+  Scale: 1.20000005
+  Translate: [-3715.00024, 107.351624, 3608.4812]
+  UnitConfigName: FldObj_GerudoDesertRock_A_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x86611e51
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x074c8a75
+  SRTHash: -171813977
+  Translate: [-3420.21216, 189.780533, 3118.00781]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8682c9ff
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x111dd8d6}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: 772885513
+  Translate: [-3754.04736, 149.111359, 3608.55444]
+  UnitConfigName: Obj_TreePalm_A_02
+- '!Parameters': {Shape: Capsule}
+  HashId: !u 0x87b10648
+  Rotate: 1.91986215
+  SRTHash: 536013132
+  Scale: [10.0, 25.0, 10.0]
+  Translate: [-3811.4397, 173.300003, 3127.54199]
+  UnitConfigName: Obj_SweepCollision
+- HashId: !u 0x8899e747
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xdb03bcc3}
+  Rotate: [3.14147925, -0.339965791, 3.14147925]
+  SRTHash: -584816856
+  Translate: [-3370.89453, 133.814423, 3637.5625]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- HashId: !u 0x88bdaf86
+  Rotate: [-0.0510939136, -0.628018796, -0.0492806584]
+  SRTHash: 243330079
+  Scale: 1.20000005
+  Translate: [-3732.53687, 105.638733, 3632.48413]
+  UnitConfigName: FldObj_GerudoDesertRock_A_01_Far
+- '!Parameters':
+    IsLazyTraverse: true
+    TerritoryArea: 0.0
+    TraversePos: {X: -3769.5, Y: 154.777893, Z: 3110.5}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0x89f82846
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xfa785abf}
+  OnlyOne: true
+  Rotate: -0.76000011
+  SRTHash: -426071903
+  Translate: [-3769.5, 154.777893, 3110.5]
+  UnitConfigName: NPC_oasis061
+- HashId: !u 0x8a1e388c
+  Rotate: 0.73999989
+  SRTHash: 1778743857
+  Translate: [-3035.97559, 174.4673, 3758.77881]
+  UnitConfigName: FldObj_GerudoBase_A_02_Far
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8a8afcc8
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x3614ef16
+  SRTHash: -1735325584
+  Translate: [-3102.73804, 129.887421, 3235.12354]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x8d67bdda
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xbc8fa747
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2b10b66e
+  Rotate: -0.29681462
+  SRTHash: -1535851103
+  Translate: [-3793.3833, 154.831833, 3105.82324]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: SunazarashiRace_1st_Demo330_0, SaveFlagOnOffType: 0}
+  HashId: !u 0x8dc92cd5
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x5a82cdfe
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x77ecd53d
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xad046be5
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x6c607102
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x607c7146
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x5e2eac8d
+  SRTHash: 1777939800
+  Translate: [-3759.05591, 155.75856, 2943.427]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8de738d1
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x31792b0f
+  SRTHash: -1735325584
+  Translate: [-3144.80859, 120.837837, 3582.94824]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x8e5099f5
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5a6c0932
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x09f652b6
+  Rotate: -0.698242128
+  SRTHash: 536506616
+  Translate: [-3262.56274, 122.926208, 3369.76123]
+  UnitConfigName: LinkTagOr
+- '!Parameters':
+    IsLazyTraverse: true
+    TerritoryArea: 0.0
+    TraversePos: {X: -3765.5, Y: 154.7966, Z: 3114.0}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0x8e993ea5
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x3008211a}
+  OnlyOne: true
+  Rotate: -1.66000009
+  SRTHash: -1956188493
+  Translate: [-3765.5, 154.79657, 3114.0]
+  UnitConfigName: NPC_oasis069
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Electlic_Relic_Demo347_2, SaveFlagOnOffType: 0}
+  HashId: !u 0x8f6c8114
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xdae9c408
+  SRTHash: -820787498
+  Translate: [-3247.70996, 126.369118, 3296.0542]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x901434b7
+  Rotate: [-2.8625145, -0.108604297, -1.02324414]
+  SRTHash: 139336274
+  Translate: [-3756.86621, 122.25692, 3489.14258]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x901df2cc
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe31c91aa
+  SRTHash: -1528903260
+  Translate: [-3781.3501, 159.309998, 3099.61011]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0x9049faa3
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x23c1abf1
+  SRTHash: 2017766922
+  Scale: 45.0
+  Translate: [-3776.82349, 145.52359, 3110.47876]
+  UnitConfigName: Area
+- '!Parameters': {ActorName: FldObj_ChampionshipBall_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
+    IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x90bada19
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x65e6514e}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1a6bce3b
+  Rotate: 0.174532905
+  SRTHash: -1679224789
+  Translate: [-3782.30005, 163.23999, 3120.19995]
+  UnitConfigName: ActorObserverTag
+- '!Parameters':
+    IsLazyTraverse: true
+    TerritoryArea: 0.0
+    TraversePos: {X: -3767.646, Y: 154.779205, Z: 3113.30811}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0x9169660e
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x0572d768}
+  Rotate: -1.43999958
+  SRTHash: 1574145573
+  Translate: [-3767.64648, 154.779221, 3113.30762]
+  UnitConfigName: NPC_oasis064
+- '!Parameters':
+    TerritoryArea: 0.0
+    TraversePos: {X: -3435.48096, Y: 161.141403, Z: 3132.89795}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0x917477b0
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x19532cd3}
+  OnlyOne: true
+  Rotate: -2.76318312
+  SRTHash: 771818681
+  Translate: [-3435.98291, 160.550125, 3122.44238]
+  UnitConfigName: Npc_GerudoDesert001
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x91e80000
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa0001a9d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x379f0bb4
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: -1535851103
+  Translate: [-3726.50073, 152.788773, 3611.19092]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x927a1bc5
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xa8707ab5
+  Rotate: 2.61799383
+  SRTHash: -1073213680
+  Translate: [-3101.89966, 128.526169, 3244.70068]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x933ad1b1
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6fe5a24a
+  SRTHash: 1740463723
+  Translate: [-3428.98853, 219.282974, 3105.38501]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0x93dfed4b
+  OnlyOne: true
+  Rotate: -1.22899699
+  SRTHash: 679735203
+  Translate: [-3757.91797, 155.699997, 3108.02661]
+  UnitConfigName: FldObj_StartGate_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: RemainsElectric_1st, SaveFlagOnOffType: 0}
+  HashId: !u 0x93f939c1
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x0266ec8d
+  SRTHash: 981983815
+  Scale: 10.0
+  Translate: [-2870.46021, 196.171173, 3253.14307]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x9436d1f6
+  Rotate: -1.03999984
+  SRTHash: 1297597835
+  Translate: [-3767.5, 154.794815, 3111.0]
+  UnitConfigName: AnchorAction1
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x94762aae
+  Rotate: [3.14148951, 0.841054678, 3.14131212]
+  SRTHash: -1624758904
+  Translate: [-3349.0354, 129.033325, 3227.51123]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x949a606b
+  Rotate: [-1.630023, -0.551275849, -1.48527539]
+  SRTHash: 139336274
+  Translate: [-3307.90015, 161.466095, 3814.19824]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters':
+    EventFlowEntryName: Hoju_Warning
+    EventFlowName: Npc_oasis039
+    IsEndlessEvent: false
+    LaunchEventByOffSignal: false
+    LaunchEventByOnSignal: true
+    TraversePos: {X: -3774.13306, Y: 154.7509, Z: 3114.49292}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0x95006e33
+  LinksToObj:
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0xdc326ab7}
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0xdaaaa7ef}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x3fb8bee3}
+  SRTHash: 6502894
+  Translate: [-3772.96313, 155.649353, 3113.80493]
+  UnitConfigName: EventTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: SunazarashiRace_Dungeon, SaveFlagOnOffType: 0}
+  HashId: !u 0x9510b85f
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x6ad022b8
+  Rotate: 0.174532905
+  SRTHash: 2099644299
+  Translate: [-3815.77002, 166.300003, 3143.71997]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9517dfdc
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xaf1dbeac
+  Rotate: 2.61799383
+  SRTHash: -1073213680
+  Translate: [-3328.07666, 140.002838, 3901.86523]
+  UnitConfigName: Item_Fruit_I
+- HashId: !u 0x95e5475b
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x0d46304b}
+  Rotate: 2.09439516
+  SRTHash: 413770769
+  Translate: [-3286.38721, 170.317749, 3784.69751]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x9685c419
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa76dde84
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x30f2cfad
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: -1535851103
+  Translate: [-3731.16724, 154.042511, 3603.70483]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x96dd4a05
+  Rotate: -1.08520496
+  SRTHash: -1578108966
+  Translate: [-3385.52173, 145.620773, 3777.38428]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x97313a87
+  Rotate: -1.23387682
+  SRTHash: -1624758904
+  Translate: [-3517.21021, 134.625839, 3821.78955]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9813848a
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x0f8c95a3}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: 772885513
+  Translate: [-3693.54517, 149.623718, 3630.91431]
+  UnitConfigName: Obj_TreePalm_A_02
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x995b5a85
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x048614b3
+  SRTHash: 1219328480
+  Translate: [-3434.10718, 218.95459, 3127.90356]
+  UnitConfigName: LinkTagAnd
+- '!Parameters':
+    EventFlowEntryName: Demo008_9
+    EventFlowName: Demo008_9
+    IsEndlessEvent: false
+    LaunchEventByOffSignal: false
+    LaunchEventByOnSignal: true
+    TraversePos: {X: -3804.28809, Y: 159.300003, Z: 3124.19409}
+    TraverseRadiusXZ: 0.799979985
+  HashId: !u 0x9a0f1b12
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xa38227d7}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x56a51b8c
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x093e01ab}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xc5940135}
+  Rotate: 1.39626324
+  SRTHash: 1991561031
+  Translate: [-3805.5459, 159.300003, 3123.26855]
+  UnitConfigName: EventTag
+- HashId: !u 0x9a4de0e9
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xe526e7d1}
+  Rotate: -0.199999988
+  SRTHash: 1608366972
+  Translate: [-3042.69165, 104.077255, 3055.18457]
+  UnitConfigName: FldObj_GerudoDesertRock_A_04
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 2, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x9a842f9f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6ad022b8
+  Rotate: 1.91986215
+  SRTHash: -1754243463
+  Translate: [-3805.89429, 159.300003, 3125.34912]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x9b110cd3
+  Rotate: -2.5
+  SRTHash: 1388693621
+  Translate: [-3769.5, 154.768768, 3117.5]
+  UnitConfigName: AnchorAction1
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9be2d6f2
+  Rotate: [1.82430017, 0.425599486, 2.15422034]
+  SRTHash: -1618982970
+  Translate: [-3400.67676, 129.728729, 3261.50464]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, IsFixedPlace: true, IsLazyTraverse: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9ce1a079
+  Rotate: [-0.785398185, 0.0, 0.0]
+  SRTHash: 1149596648
+  Translate: [-3775.53003, 155.800003, 3114.81006]
+  UnitConfigName: FldObj_ChampionshipBall_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9d2ba840
+  Rotate: [0.000152205059, 0.86572361, 5.84532609e-05]
+  SRTHash: -1624758904
+  Translate: [-3240.28589, 135.119843, 3635.896]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Electric_Relic_Battle, SaveFlagOnOffType: 0}
+  HashId: !u 0x9d7d1923
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd91a1f80
+  SRTHash: 266340477
+  Translate: [-3423.58765, 189.764297, 3119.11987]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Electric_Relic_GetBack, SaveFlagOnOffType: 0}
+  HashId: !u 0x9db732b5
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xa3d86b6d
+  SRTHash: 1864865326
+  Translate: [-2763.87329, 188.441574, 3288.51538]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0x9e1c5b38
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x118f7a9a}
+  Rotate: [0.0, 0.0, -0.0399999954]
+  SRTHash: 2048435973
+  Translate: [-3430.00146, 157.072495, 3144.98486]
+  UnitConfigName: FldObj_GerudoDesertRock_A_06
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9e6cb869
+  Rotate: [-0.201065212, 0.424607903, 0.986607075]
+  SRTHash: -1618982970
+  Translate: [-3857.12329, 155.019867, 3124.44531]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9e9f1918
+  Rotate: 1.52514672
+  SRTHash: -1578108966
+  Translate: [-3250.29346, 122.542381, 3064.52271]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x9f338832
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xaedb92af
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x39448386
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: -1535851103
+  Translate: [-3724.86987, 152.59697, 3643.60034]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: true, Shape: Box}
+  HashId: !u 0x9f3f5f98
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x62caa3ba
+  Rotate: -2.62158561
+  SRTHash: 819862178
+  Scale: [2.5, 1.5, 1.29999995]
+  Translate: [-3436.07959, 161.879044, 3129.36328]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa0001a9d
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x06771129
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.519999981, -0.559999943, 0.0]
+  SRTHash: 1728195300
+  Translate: [-3728.06616, 163.277359, 3609.21631]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Electric_Relic_Battle, SaveFlagOnOffType: 0}
+  HashId: !u 0xa1676603
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xc36658fe
+  Rotate: 0.52359879
+  SRTHash: 114278696
+  Translate: [-3247.17236, 126.374161, 3283.46631]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xa1a2f2c4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x759e6203
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x26043987
+  Rotate: [3.14147925, -1.35864246, 3.14147925]
+  SRTHash: 536506616
+  Translate: [-3921.75, 122.150803, 3629.51709]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: SunazarashiRace_Field1, SaveFlagOnOffType: 0}
+  HashId: !u 0xa1f3db11
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe31c91aa
+  SRTHash: 1539294586
+  Translate: [-3778.73999, 162.62999, 3100.62988]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: SunazarashiRace_Demo330_1, SaveFlagOnOffType: 0}
+  HashId: !u 0xa262bbb6
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x8e993ea5
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xdbdcb7ef
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x9169660e
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xc2483a4b
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x6537219f
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x89f82846
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x57f299ff
+  SRTHash: -797945924
+  Translate: [-3768.5, 160.0, 3113.5]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xa38227d7
+  Rotate: -1.74532938
+  SRTHash: 968218481
+  Translate: [-3804.56104, 159.300003, 3123.44214]
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xa3d86b6d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6fe5a24a
+  Rotate: 4.37113883e-08
+  SRTHash: -96923321
+  Scale: 400.0
+  Translate: [-3213.13867, 122.336121, 3273.12842]
+  UnitConfigName: Area
+- HashId: !u 0xa3e5d8aa
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xf07f832e}
+  Rotate: [3.14147925, 0.876830995, 3.14147925]
+  SRTHash: -584816856
+  Translate: [-3455.03516, 139.249374, 3871.28516]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Electric_Relic_GetBack, SaveFlagOnOffType: 0}
+  HashId: !u 0xa534e7e3
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3a24e023
+  SRTHash: -1565503514
+  Translate: [-3437.27783, 216.117767, 3125.33325]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xa687fcf4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x212137b7
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x72bb6c33
+  Rotate: 1.23193347
+  SRTHash: -217776218
+  Translate: [-3640.875, 122.217552, 3557.70947]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0xa76b43f5
+  Rotate: [3.08757138, -1.06164837, -3.13172865]
+  SRTHash: -126764642
+  Translate: [-3448.28882, 155.806503, 3119.6416]
+  UnitConfigName: FldObj_GerudoDesertRock_A_06_Far
+- HashId: !u 0xa76b8c76
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xf4f1d7f2}
+  Rotate: 0.801269472
+  SRTHash: -584816856
+  Translate: [-3926.08203, 123.639229, 3583.44531]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa76dde84
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x011ad530
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.519999981, -0.559999943, 0.0]
+  SRTHash: 1728195300
+  Translate: [-3732.73267, 164.531097, 3601.72998]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xa8133aef
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2fb5f1ac
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7c2faa28
+  Rotate: [3.14147925, -1.51709008, 3.14147925]
+  SRTHash: -217776218
+  Translate: [-3355.52661, 143.463089, 3874.74512]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0xa8707ab5
+  SRTHash: -621523570
+  Translate: [-3099.75098, 127.416168, 3244.896]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0xa8b58a58
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xb5b0bae0}
+  SRTHash: -2101236802
+  Translate: [-3149.35474, 121.674622, 3598.61816]
+  UnitConfigName: Obj_Plant_ChiliPepper_A_01
+- HashId: !u 0xa915ee88
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x80dd5a7a}
+  Rotate: 1.04272461
+  SRTHash: -584816856
+  Translate: [-3252.97266, 123.356224, 3046.51172]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa9cd8214
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0d999d11
+  Rotate: -1.22173047
+  SRTHash: 443961105
+  Translate: [-3781.80005, 155.917191, 3117.1001]
+  UnitConfigName: DgnObj_RemainsLithogragh_A_02
+- HashId: !u 0xa9e64ff9
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x802efb0b}
+  Rotate: 0.61730957
+  SRTHash: -1374746521
+  Translate: [-3522.5, 141.003464, 3189.94141]
+  UnitConfigName: Obj_PlantMelonGrass_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa9fb9e17
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x9813848a
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.629442155, 0.419074684, 0.138237819]
+  SRTHash: -2028497486
+  Translate: [-3693.86865, 160.093063, 3630.30322]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xaa541081
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2df2dbc2
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7e688046
+  Rotate: [3.14147925, 0.763061464, 3.14147925]
+  SRTHash: -217776218
+  Translate: [-3296.31543, 124.043671, 3573.67505]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0xab2dadc4
+  Rotate: 0.740000367
+  SRTHash: 1449345740
+  Translate: [-3754.76025, 148.964676, 2947.20068]
+  UniqueName: Demo330_0_Spectator020
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0xac9d6e33
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff0735b7}
+  Rotate: -0.662841737
+  SRTHash: -1374746521
+  Translate: [-3612.30859, 125.257675, 3439.26562]
+  UnitConfigName: Obj_PlantMelonGrass_A_01
+- '!Parameters':
+    IsLazyTraverse: true
+    TerritoryArea: 0.0
+    TraversePos: {X: -3755.698, Y: 148.964706, Z: 2948.052}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0xad046be5
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xc605dfc2}
+  OnlyOne: true
+  Rotate: 0.740000367
+  SRTHash: -1034390156
+  Translate: [-3756.67163, 148.964661, 2936.24951]
+  UniqueName: Demo330_0_Spectator
+  UnitConfigName: NPC_oasis067
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0xae356e78
+  Rotate: 1.03999984
+  SRTHash: -864981489
+  Translate: [-3422.13135, 189.776871, 3119.70654]
+  UnitConfigName: AnchorAction1
+- HashId: !u 0xaebfc4fb
+  OnlyOne: true
+  Rotate: -1.22173047
+  SRTHash: -1751779854
+  Translate: [-3781.80005, 154.917191, 3117.1001]
+  UnitConfigName: Obj_PodiumRock_Far
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xaedb92af
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x08ac991b
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.519999981, -0.559999943, 0.0]
+  SRTHash: 1728195300
+  Translate: [-3726.4353, 163.085556, 3641.62573]
+  UnitConfigName: Item_Fruit_G
+- HashId: !u 0xaf1dbeac
+  SRTHash: -621523570
+  Translate: [-3325.92822, 138.892838, 3902.06055]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0xafd84e41
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xb2dd7ef9}
+  SRTHash: -2101236802
+  Translate: [-3726.26099, 152.970337, 3643.72656]
+  UnitConfigName: Obj_Plant_ChiliPepper_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb0456d55
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x4113df80
+  Rotate: -2.87979317
+  SRTHash: -94270366
+  Translate: [-3342.46948, 143.403824, 3884.81372]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb101644c
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: -961743238
+  Translate: [-3715.39111, 151.540985, 3649.20483]
+  UnitConfigName: Obj_TreePalm_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb2163552
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: 1344305285
+  Translate: [-3759.3208, 148.573517, 3616.06836]
+  UnitConfigName: Obj_TreePalm_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb2d9c371
+  Rotate: -2.71275854
+  SRTHash: -1624758904
+  Translate: [-3642.86279, 125.84021, 3564.45459]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb2dd7ef9
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x64849de4
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x294c3cef
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe210ef4a
+  SRTHash: 2014039989
+  Translate: [-3725.73047, 152.970337, 3641.66138]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb335b3f3
+  Rotate: -1.3742677
+  SRTHash: -1578108966
+  Translate: [-3508.96094, 124.743927, 3532.0979]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb410bdc3
+  Rotate: -2.73766088
+  SRTHash: -1624758904
+  Translate: [-3003.71289, 121.524605, 3593.33887]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0xb52ec76c
+  Rotate: 1.03999984
+  SRTHash: -1644203288
+  Translate: [-3422.13135, 189.776794, 3119.70654]
+  UnitConfigName: AnchorAction1
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb5b0bae0
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x63e959fd
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2e21f8f6
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe57d2b53
+  SRTHash: 2014039989
+  Translate: [-3148.82397, 121.674622, 3596.55298]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb65797ad
+  Rotate: -2.34581518
+  SRTHash: -1624758904
+  Translate: [-3450.94751, 141.250885, 3887.55835]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: SunazarashiRace_Field1, SaveFlagOnOffType: 0}
+  HashId: !u 0xb6c13b24
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x1be6b15d
+  Rotate: 0.785399139
+  SRTHash: 1082287630
+  Translate: [-3761.8999, 157.699997, 3105.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb728a94c
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x467e1b99
+  Rotate: -2.87979317
+  SRTHash: -94270366
+  Translate: [-3153.68335, 123.198814, 3601.46777]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb757adea
+  Rotate: -0.234853521
+  SRTHash: -1624758904
+  Translate: [-3251.06982, 123.748001, 3063.32593]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb76ad362
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x8682c9ff
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.629442155, 0.419074684, 0.138237819]
+  SRTHash: -2028497486
+  Translate: [-3754.37085, 159.580734, 3607.94336]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb7a40c9b
+  Rotate: [-0.869540751, -0.47544688, -1.8732028]
+  SRTHash: 139336274
+  Translate: [-3857.24194, 155.1353, 3125.30981]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb92f2134
+  Rotate: [3.14147925, 0.986450136, 3.14147925]
+  SRTHash: -1578108966
+  Translate: [-3564.5918, 126.099319, 3442.05957]
+  UnitConfigName: Item_Fruit_C
+- HashId: !u 0xbb7f13a1
+  OnlyOne: true
+  Rotate: -2.62158513
+  SRTHash: 925936110
+  Translate: [-3429.6731, 157.825897, 3128.75586]
+  UnitConfigName: TwnObj_ArtifactObservationPost_A_01_Far
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbc8fa747
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x1af8acf3
+  Rotate: [0.519999981, -0.856814563, 0.0]
+  SRTHash: 1728195300
+  Translate: [-3794.30273, 165.320419, 3103.47705]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbda175e8
+  Rotate: [1.78345764, 0.55455941, -1.51310134]
+  SRTHash: 139336274
+  Translate: [-3300.04565, 158.546677, 3826.62842]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbdbe9e5c
+  Rotate: [3.14147925, -0.918945193, 3.14147925]
+  SRTHash: -1578108966
+  Translate: [-3348.9917, 127.827789, 3226.08545]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Demo347_2RougeGenFlg, SaveFlagOnOffType: 0}
+  HashId: !u 0xbef087e2
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x3f883373
+  SRTHash: -1337698941
+  Translate: [-3251.08398, 126.376167, 3291.50977]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xbf329aee
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x21ff315b}
+  Rotate: [0.0, 0.501593232, 0.11999999]
+  SRTHash: -1064916546
+  Translate: [-3126.47705, 110.270004, 3017.37207]
+  UnitConfigName: FldObj_GerudoDesertRock_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbfe65f86
+  Rotate: -0.982299864
+  SRTHash: -1578108966
+  Translate: [-3318.45532, 126.8582, 3579.27148]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {DropTable: Normal, EventFlowEntryName: Demo008_1, EventFlowName: Demo008_1, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc01d5155
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xd2ef1576}
+  Rotate: 1.91986215
+  SRTHash: -1176759073
+  Translate: [-3810.5, 159.300171, 3127.19995]
+  UnitConfigName: DgnObj_EntranceElevatorSP
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc02f99da
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x31792b0f
+  Rotate: -2.87979317
+  SRTHash: -94270366
+  Translate: [-3145.18433, 120.907837, 3583.16162]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc05dcd2d
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x0cf7cdb3
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.519999981, -0.559999943, 0.0]
+  SRTHash: 1728195300
+  Translate: [-3715.78882, 163.315796, 3604.42554]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc06de3f4
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xf185f969
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.629442155, 0.419074684, 0.138237819]
+  SRTHash: -2028497486
+  Translate: [-3754.10156, 159.159637, 3622.2373]
+  UnitConfigName: Item_Fruit_G
+- HashId: !u 0xc0c7e85e
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x88bdaf86}
+  Rotate: [-0.0510939136, -0.628018796, -0.0492806584]
+  SRTHash: 243330079
+  Scale: 1.20000005
+  Translate: [-3732.53687, 105.638733, 3632.48413]
+  UnitConfigName: FldObj_GerudoDesertRock_A_01
+- HashId: !u 0xc21f464d
+  Rotate: [-3.12536883, 0.681429923, -3.11584044]
+  SRTHash: -202502279
+  Translate: [-3716.57837, 131.942657, 3601.56982]
+  UnitConfigName: FldObj_GerudoDesertRock_A_06_Far
+- '!Parameters':
+    IsLazyTraverse: true
+    TerritoryArea: 0.0
+    TraversePos: {X: -3769.5, Y: 154.768799, Z: 3117.5}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0xc2483a4b
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x9b110cd3}
+  OnlyOne: true
+  Rotate: -2.50000095
+  SRTHash: -1332854737
+  Translate: [-3769.5, 154.768768, 3117.5]
+  UnitConfigName: NPC_oasis063
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xc2b78a76
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x14ee696b
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5926c860
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x927a1bc5
+  SRTHash: 2014039989
+  Translate: [-3101.21826, 127.416168, 3242.85938]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, ForbidSystemDeleteDistance: true, IsLazyTraverse: true,
+    IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xc36658fe
+  Rotate: 1.14359879
+  SRTHash: 2142576228
+  Translate: [-3248.27319, 122.755608, 3286.21997]
+  UniqueName: tokusei2
+  UnitConfigName: Animal_SunazarashiSP_A
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc38e6f33
+  Rotate: [1.93314672, 0.356028497, 2.19574451]
+  SRTHash: -1618982970
+  Translate: [-3757.72461, 122.141502, 3489.30005]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc4ab6103
+  Rotate: 0.526122987
+  SRTHash: -1578108966
+  Translate: [-3517.79663, 133.420212, 3823.08984]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {EventFlowEntryName: GateCnt01, EventFlowName: SunazarashiRace, IsEndlessEvent: false, LaunchEventByOffSignal: false,
+    LaunchEventByOnSignal: true}
+  HashId: !u 0xc5035f78
+  SRTHash: 1271593652
+  Translate: [-3610.03003, 152.809998, 3040.80005]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc5471181
+  Rotate: -2.84520483
+  SRTHash: -1624758904
+  Translate: [-3384.24634, 146.826401, 3778.02295]
+  UnitConfigName: Item_Fruit_C
+- HashId: !u 0xc5940135
+  Rotate: -1.22173023
+  SRTHash: -981467705
+  Translate: [-3804.01392, 159.300003, 3124.94556]
+  UniqueName: Demo008_9_PlayerEndPos
+  UnitConfigName: ForceSetPosDirAutoSaveAnchor
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xc5da4e6f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1383ad72
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5e4b0c79
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9517dfdc
+  SRTHash: 2014039989
+  Translate: [-3327.39551, 138.892838, 3900.02417]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc60001a8
+  Rotate: -0.523549676
+  SRTHash: -1624758904
+  Translate: [-3040.83008, 122.062401, 3102.57324]
+  UnitConfigName: Item_Fruit_C
+- HashId: !u 0xc605dfc2
+  Rotate: 0.740000367
+  SRTHash: -1737179295
+  Translate: [-3755.69775, 148.964661, 2948.05225]
+  UniqueName: Demo330_0_Spectator067
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc6f3a0d9
+  Rotate: [1.28615904, 0.523221135, -1.77227139]
+  SRTHash: 139336274
+  Translate: [-3768.13794, 146.589722, 3033.87305]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc7003bef
+  Rotate: [0.524282575, 0.686616838, 1.38501322]
+  SRTHash: -1618982970
+  Translate: [-3308.33838, 161.350647, 3813.4436]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc7425dc3
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x3614ef16
+  Rotate: -2.87979317
+  SRTHash: -94270366
+  Translate: [-3103.11377, 129.957413, 3235.33716]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc8788d76
+  Rotate: [-2.75659919, -0.171577305, -1.03805435]
+  SRTHash: 139336274
+  Translate: [-3399.80542, 129.844147, 3261.45337]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc9dbafdf
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xf833b542
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.629442155, 0.419074684, 0.138237819]
+  SRTHash: -2028497486
+  Translate: [-3706.92334, 160.808472, 3651.81689]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcb8897d1
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x6dff9c65
+  Rotate: [-2.62159276, -0.201592878, 3.14159274]
+  SRTHash: 1728195300
+  Translate: [-3812.54858, 167.992844, 3141.41724]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: SunazarashiRace_Dungeon, SaveFlagOnOffType: 1}
+  HashId: !u 0xcbcc1e1e
+  Rotate: 0.174532905
+  SRTHash: -1963310547
+  Translate: [-3823.33008, 169.819992, 3140.1499]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: true, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Location_Dungeon093, SaveFlagOnOffType: 0}
+  HashId: !u 0xcbcd5398
+  SRTHash: 0
+  Translate: [-3810.5, 156.800003, 3127.19995]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xcbe275be
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x8a1e388c}
+  Rotate: 0.73999989
+  SRTHash: 1778743857
+  Translate: [-3035.96387, 174.4673, 3758.79492]
+  UnitConfigName: FldObj_GerudoBase_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcca89b69
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xfd4081f4
+  Rotate: [-2.26878405, -1.16514778, 2.81694078]
+  SRTHash: -2028497486
+  Translate: [-3766.1958, 165.281281, 3130.2124]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xceb1f3c4
+  Rotate: [3.14147925, 0.515869141, 3.14147925]
+  SRTHash: -1578108966
+  Translate: [-3238.86743, 133.914154, 3635.74609]
+  UnitConfigName: Item_Fruit_C
+- HashId: !u 0xcecd2d30
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x5a1659b0}
+  Rotate: 2.05999994
+  SRTHash: -1667530850
+  Translate: [-3145.60986, 114.293442, 2994.9502]
+  UnitConfigName: FldObj_GerudoDesertRock_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcef411e8
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x3fa2a33d
+  Rotate: -2.87979317
+  SRTHash: -94270366
+  Translate: [-3699.58643, 150.915237, 3638.19043]
+  UnitConfigName: Item_Fruit_I
+- HashId: !u 0xcf0f243c
+  Rotate: 0.49999997
+  SRTHash: -189740434
+  Translate: [-3718.04224, 111.775024, 3724.40918]
+  UnitConfigName: FldObj_GerudoDesertRock_A_07_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Electric_Relic_Defeat, SaveFlagOnOffType: 0}
+  HashId: !u 0xd0747e07
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x86611e51
+  SRTHash: 460062982
+  Translate: [-3420.44165, 189.789444, 3117.18848]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd0f55e86
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x04c9ce41
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x575395c5
+  Rotate: [3.14147925, 0.635009706, 3.14147925]
+  SRTHash: 536506616
+  Translate: [-3606.35474, 127.533806, 3745.04272]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd1192e04
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x56bfe547
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0525bec3
+  Rotate: [3.14147925, -1.31542957, 3.14147925]
+  SRTHash: -217776218
+  Translate: [-3357.46802, 151.073532, 3779.28638]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Electric_Relic_GetBack, SaveFlagOnOffType: 0}
+  HashId: !u 0xd208b048
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x93f939c1
+  SRTHash: -1222445142
+  Translate: [-2763.87329, 188.441574, 3253.22632]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0xd258d00d
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfb9064ff}
+  Rotate: -0.789306641
+  SRTHash: -584816856
+  Translate: [-3620.98047, 136.024689, 3237.85156]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd2b274e8
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x068ee42f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5514bfab
+  Rotate: [3.14147925, -0.67553705, 3.14147925]
+  SRTHash: 536506616
+  Translate: [-3158.15332, 148.651764, 3864.35522]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0xd2ef1576
+  Rotate: 1.91986215
+  SRTHash: 506524522
+  Translate: [-3801.10303, 158.300003, 3123.77979]
+  UnitConfigName: LookTag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
+  HashId: !u 0xd36b3c3f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x175f478c
+  Rotate: 0.340000004
+  SRTHash: 755344900
+  Scale: [0.61555028, 1.11920929, 0.949336648]
+  Translate: [-3775.4668, 155.655762, 3114.76343]
+  UnitConfigName: Area
+- HashId: !u 0xd5c22712
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x86119122}
+  Rotate: [3.01082134, 0.618437707, -3.09186769]
+  SRTHash: -847650181
+  Scale: 1.20000005
+  Translate: [-3715.00024, 107.351624, 3608.4812]
+  UnitConfigName: FldObj_GerudoDesertRock_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: SunazarashiRace_Step3, SaveFlagOnOffType: 0}
+  HashId: !u 0xd6325614
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x56c484de
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x52f98213}
+  SRTHash: -262999279
+  Translate: [-3772.40991, 161.12999, 3125.64014]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xd63c2034
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x85a67bb0}
+  Rotate: [3.14147925, 1.39709485, 3.14147925]
+  SRTHash: -584816856
+  Translate: [-3651.0625, 124.488586, 3437.46094]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- HashId: !u 0xd6d0e965
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xa76b43f5}
+  Rotate: [3.08757138, -1.06164837, -3.13172865]
+  SRTHash: -126764642
+  Translate: [-3448.28882, 155.806503, 3119.6416]
+  UnitConfigName: FldObj_GerudoDesertRock_A_06
+- HashId: !u 0xd81a8e3a
+  SRTHash: -621523570
+  Translate: [-3724.26294, 152.970337, 3643.698]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: MapTower_07_Demo, SaveFlagOnOffType: 0}
+  HashId: !u 0xd82a1c6f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x14801cf1
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x82385628
+  Rotate: 1.91986215
+  SRTHash: 837625636
+  Translate: [-3808.63867, 172.161438, 3127.88965]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd84242ca
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5fe267a9
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x762ad35b
+  Rotate: [3.14147925, 0.283935517, 3.14147925]
+  SRTHash: 536506616
+  Translate: [-3072.90942, 121.544937, 3072.74023]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0xd8b1e3bb
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xf1795749}
+  Rotate: [3.14147925, 1.08459461, 3.14147925]
+  SRTHash: -1374746521
+  Translate: [-3078.63281, 120.54023, 3061.01562]
+  UnitConfigName: Obj_PlantMelonGrass_A_01
+- HashId: !u 0xd8df7ed7
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xc5da4e6f}
+  SRTHash: -2101236802
+  Translate: [-3327.92627, 138.892838, 3902.08936]
+  UnitConfigName: Obj_Plant_ChiliPepper_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd91a1f80
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xddad4656
+  SRTHash: -1993307168
+  Translate: [-3423.05933, 189.815887, 3119.76465]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xda07305a
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x4499c589}
+  Rotate: [3.1336844, 0.898257732, 3.08090854]
+  SRTHash: 160306562
+  Translate: [-3745.25879, 126.453468, 3418.23804]
+  UnitConfigName: FldObj_GerudoBase_A_03
+- '!Parameters':
+    TerritoryArea: 0.0
+    TraversePos: {X: -3767.32007, Y: 154.770004, Z: 3114.23608}
+    TraverseRadiusXZ: 6.57188702
+  HashId: !u 0xdaaaa7ef
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x523217e3}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x206e8f79}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x81929461}
+  OnlyOne: true
+  Rotate: -3.05432606
+  SRTHash: -696601087
+  Translate: [-3761.14062, 154.787277, 3116.47266]
+  UnitConfigName: Npc_oasis038
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLazyTraverse: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0}
+  HashId: !u 0xdae9c408
+  Rotate: [3.08536887, -0.921485662, -3.13532019]
+  SRTHash: 552052389
+  Translate: [-3245.93188, 122.602432, 3294.14844]
+  UniqueName: RougeSunaWait
+  UnitConfigName: Animal_SunazarashiSP_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xdb03bcc3
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5ca57780
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0f3f2c04
+  Rotate: [3.14147925, -0.339965791, 3.14147925]
+  SRTHash: -217776218
+  Translate: [-3369.0437, 133.814041, 3638.58374]
+  UnitConfigName: LinkTagOr
+- '!Parameters':
+    IsLazyTraverse: true
+    TerritoryArea: 0.0
+    TraversePos: {X: -3767.646, Y: 154.775299, Z: 3114.80811}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0xdbdcb7ef
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xecd6a9d1}
+  OnlyOne: true
+  Rotate: -1.76000035
+  SRTHash: -1615605582
+  Translate: [-3767.64648, 154.77533, 3114.80762]
+  UnitConfigName: NPC_oasis065
+- '!Parameters':
+    TerritoryArea: 0.0
+    TraversePos: {X: -3766.3501, Y: 154.777603, Z: 3117.3999}
+    TraverseRadiusXZ: 6.67709112
+  HashId: !u 0xdc326ab7
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x024ff869}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x7b980be7}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x2ffe9ef5}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xf3f7b01e}
+  OnlyOne: true
+  Rotate: -2.00712872
+  SRTHash: -245885311
+  Translate: [-3760.19995, 154.800003, 3114.80005]
+  UnitConfigName: Npc_oasis039
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdc482ea2
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x7a3f2516
+  Rotate: [-2.62159276, 1.39840758, 3.14159274]
+  SRTHash: 1728195300
+  Translate: [-3832.22925, 168.007126, 3118.37109]
+  UnitConfigName: Item_Fruit_G
+- '!Parameters':
+    IsLazyTraverse: true
+    IsOnHelmet: true
+    TerritoryArea: 0.0
+    TraversePos: {X: -3327.49902, Y: 156.266296, Z: 3203.98706}
+    TraverseRadiusXZ: 126.722198
+  HashId: !u 0xddad4656
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xb52ec76c}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x460be4b7}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xe5954b2b}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x69436ce3}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x29bc09f7}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xff383024}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xc36658fe}
+  Rotate: 0.559999704
+  SRTHash: 509747667
+  Translate: [-3422.56177, 189.819946, 3120.86768]
+  UniqueName: RougeInvasion01
+  UnitConfigName: Npc_oasis003
+- HashId: !u 0xddcac271
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x8e5099f5}
+  Rotate: -0.698242128
+  SRTHash: -1374746521
+  Translate: [-3263.61719, 122.926216, 3368.25]
+  UnitConfigName: Obj_PlantMelonGrass_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: SunazarashiRace_Field1, SaveFlagOnOffType: 0}
+  HashId: !u 0xddf2784a
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x1f244a56
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xf23ae1ac
+  Rotate: 0.959932029
+  SRTHash: -178574598
+  Translate: [-3598.12988, 154.610001, 3066.19995]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdefcae81
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xef14b41c
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  Rotate: [0.629442155, 0.419074684, 0.138237819]
+  SRTHash: -2028497486
+  Translate: [-3712.698, 162.598679, 3640.91772]
+  UnitConfigName: Item_Fruit_G
+- HashId: !u 0xdf774a23
+  SRTHash: -621523570
+  Translate: [-3147.35669, 121.674622, 3598.5896]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0xdfb2bace
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xc2b78a76}
+  SRTHash: -2101236802
+  Translate: [-3101.74902, 127.416168, 3244.9248]
+  UnitConfigName: Obj_Plant_ChiliPepper_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe0afe877
+  Rotate: -3.13426757
+  SRTHash: -1624758904
+  Translate: [-3507.92041, 125.949547, 3533.07349]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe14398f5
+  Rotate: -0.952758729
+  SRTHash: -1578108966
+  Translate: [-3644.21143, 124.63459, 3563.98999]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe1b04580
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9a0f1b12
+  SRTHash: 0
+  Translate: [-3805.5459, 159.300171, 3123.26855]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe210ef4a
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xd81a8e3a
+  Rotate: 2.61799383
+  SRTHash: -1073213680
+  Translate: [-3726.41162, 154.080338, 3643.50269]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe31c91aa
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x809bd45a
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x01afb4da
+  SRTHash: -1560655843
+  Translate: [-3780.25, 158.699997, 3102.80005]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe34b4590
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfdfdf2ec
+  SRTHash: 1041664985
+  Translate: [-3441.80542, 162.0, 3130.9126]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe4c09f6c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe31c91aa
+  SRTHash: 1909665193
+  Translate: [-3777.90991, 162.419998, 3103.80005]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xe526e7d1
+  Rotate: -0.199999988
+  SRTHash: 1608366972
+  Translate: [-3042.69165, 104.077255, 3055.18457]
+  UnitConfigName: FldObj_GerudoDesertRock_A_04_Far
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe57d2b53
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xdf774a23
+  Rotate: 2.61799383
+  SRTHash: -1073213680
+  Translate: [-3149.50537, 122.784622, 3598.39429]
+  UnitConfigName: Item_Fruit_I
+- HashId: !u 0xe5954b2b
+  Rotate: 1.16000009
+  SRTHash: 2143087793
+  Translate: [-3252.8855, 122.755714, 3288.26831]
+  UniqueName: Demo347_2_02
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe5cdcc29
+  Rotate: -0.58581543
+  SRTHash: -1578108966
+  Translate: [-3452.37305, 140.045258, 3887.60864]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe78ae647
+  Rotate: -0.977661073
+  SRTHash: -1578108966
+  Translate: [-3005.04956, 120.318985, 3592.84082]
+  UnitConfigName: Item_Fruit_C
+- HashId: !u 0xe9531d1e
+  SRTHash: -844703330
+  Translate: [-3775.96997, 155.389999, 3112.8501]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xeab57ab0
+  Rotate: [6.77805365e-05, 0.395142674, 7.27533097e-06]
+  SRTHash: -1624758904
+  Translate: [-3565.92407, 127.305008, 3441.55005]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Electric_Relic_GetBack, SaveFlagOnOffType: 0}
+  HashId: !u 0xeacd3ef1
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x73b12d81}
+  SRTHash: 301515858
+  Translate: [-3152.90576, 131.001495, 3295.27173]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xec7c0402
+  Rotate: -2.74229956
+  SRTHash: -1624758904
+  Translate: [-3317.12109, 128.063828, 3579.77563]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0xecd6a9d1
+  Rotate: -1.75999963
+  SRTHash: -1607906057
+  Translate: [-3767.64648, 154.77533, 3114.80762]
+  UnitConfigName: AnchorAction1
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xeda0343f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xdc482ea2
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4bd73f8b
+  Rotate: 2.30318522
+  SRTHash: -1535851103
+  Translate: [-3831.80762, 157.518539, 3115.88672]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0xedcc0812
+  Rotate: 1.03999984
+  SRTHash: 521318244
+  Translate: [-3422.13135, 189.776871, 3119.70654]
+  UnitConfigName: AnchorAction1
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xee3b2e6c
+  Rotate: [-2.89853811, -0.624106884, 1.92855704]
+  SRTHash: -1618982970
+  Translate: [-3299.79224, 158.431137, 3827.46338]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xef14b41c
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x788ba535}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: 772885513
+  Translate: [-3712.37451, 152.129349, 3641.52881]
+  UnitConfigName: Obj_TreePalm_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xef3b142b
+  Rotate: [-2.36340785, -0.707083404, 1.59287703]
+  SRTHash: -1618982970
+  Translate: [-3767.56152, 146.474152, 3034.52832]
+  UnitConfigName: Item_Fruit_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xefc8b55a
+  Rotate: 1.2364502
+  SRTHash: -1578108966
+  Translate: [-3040.42651, 120.856781, 3103.94141]
+  UnitConfigName: Item_Fruit_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf07f832e
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x77d9486d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x244313e9
+  Rotate: [3.14147925, 0.876830995, 3.14147925]
+  SRTHash: -217776218
+  Translate: [-3455.35156, 139.249237, 3873.37524]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf1795749
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x76d9722a
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5f11c6d8
+  Rotate: [3.14147925, 1.08459461, 3.14147925]
+  SRTHash: 536506616
+  Translate: [-3079.04004, 120.540321, 3059.21851]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf185f969
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x661ae840}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: 772885513
+  Translate: [-3753.77808, 148.690308, 3622.84839]
+  UnitConfigName: Obj_TreePalm_A_02
+- HashId: !u 0xf18af638
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xd84242ca}
+  Rotate: [3.14147925, 0.283935517, 3.14147925]
+  SRTHash: -1374746521
+  Translate: [-3071.33594, 121.544708, 3073.69922]
+  UnitConfigName: Obj_PlantMelonGrass_A_01
+- HashId: !u 0xf238a940
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xa1a2f2c4}
+  Rotate: [3.14147925, -1.35864246, 3.14147925]
+  SRTHash: -1374746521
+  Translate: [-3920.90625, 122.150658, 3627.87891]
+  UnitConfigName: Obj_PlantMelonGrass_A_01
+- '!Parameters': {IsLazyTraverse: true}
+  HashId: !u 0xf23ae1ac
+  Rotate: -1.02539814
+  SRTHash: 809037597
+  Translate: [-3592.33008, 135.979492, 3056.3999]
+  UnitConfigName: FldObj_CheckPointGate
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xf33ad65d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x390ea31b
+  Rotate: 0.174532905
+  SRTHash: -1631284068
+  Scale: 25.0
+  Translate: [-3810.5, 156.800003, 3127.19995]
+  UnitConfigName: Area
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0xf3f7b01e
+  Rotate: 3.02318549
+  SRTHash: -83239707
+  Translate: [-3772.5, 154.755188, 3120.0]
+  UnitConfigName: AnchorAction4
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf4f1d7f2
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x73571cb1
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x20cd4735
+  Rotate: 0.801269472
+  SRTHash: -217776218
+  Translate: [-3928.19385, 123.639229, 3583.35449]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0xf51da770
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xa687fcf4}
+  Rotate: 1.23193347
+  SRTHash: -584816856
+  Translate: [-3638.91797, 122.217552, 3556.91016]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf60e87ac
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc5035f78
+  Rotate: 0.959932029
+  SRTHash: -2142560746
+  Translate: [-3606.72998, 148.610001, 3046.30005]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf8182880
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: 1015504922
+  Translate: [-3703.66943, 150.511978, 3637.2085]
+  UnitConfigName: Obj_TreePalm_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf833b542
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x6faca46b}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x45ada1bd}
+  SRTHash: 772885513
+  Translate: [-3706.59985, 150.339142, 3652.42798]
+  UnitConfigName: Obj_TreePalm_A_02
+- HashId: !u 0xf9ce4b05
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xaa541081}
+  Rotate: [3.14147925, 0.763061464, 3.14147925]
+  SRTHash: -584816856
+  Translate: [-3296.23828, 124.043839, 3571.5625]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xfa608d4c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcb8897d1
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5c1786f8
+  Rotate: -2.37999988
+  SRTHash: -1535851103
+  Translate: [-3815.04443, 157.504257, 3141.06836]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0xfa785abf
+  Rotate: -0.76000005
+  SRTHash: -1360441903
+  Translate: [-3769.5, 154.777893, 3110.5]
+  UnitConfigName: AnchorAction1
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfae00847
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x467e1b99
+  SRTHash: -1735325584
+  Translate: [-3153.30762, 123.128815, 3601.25415]
+  UnitConfigName: Item_Fruit_I
+- HashId: !u 0xfb89616b
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xa8133aef}
+  Rotate: [3.14147925, -1.51709008, 3.14147925]
+  SRTHash: -584816856
+  Translate: [-3357.17969, 143.463455, 3876.0625]
+  UnitConfigName: Obj_TreeCactusMini_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xfb9064ff
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x55f8f56e
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7c30419c
+  Rotate: -0.789306641
+  SRTHash: -217776218
+  Translate: [-3620.8479, 136.024689, 3235.7417]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfd4081f4
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x6adf90dd}
+  Rotate: -2.37999988
+  SRTHash: 772885513
+  Translate: [-3766.85156, 154.808197, 3129.99316]
+  UnitConfigName: Obj_TreePalm_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfd8dcc5e
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.150000006, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x4113df80
+  SRTHash: -1735325584
+  Translate: [-3342.09375, 143.333832, 3884.6001]
+  UnitConfigName: Item_Fruit_I
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xfdfdf2ec
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0x3f60cf49}
+  SRTHash: 1828003490
+  Translate: [-3441.10522, 162.0, 3133.96582]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xff0735b7
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2b3ba570
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x78a1fef4
+  Rotate: -0.662841737
+  SRTHash: 536506616
+  Translate: [-3611.20142, 125.257668, 3440.73877]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0xff383024
+  Rotate: [0.101423375, -0.498556405, -0.032393273]
+  SRTHash: -1024172590
+  Translate: [-3232.86694, 123.135635, 3263.54102]
+  UniqueName: Demo347_2_04
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0xff5341c1
+  Rotate: -2.05999994
+  SRTHash: 1407331633
+  Translate: [-3249.97778, 122.721115, 3289.80005]
+  UniqueName: Demo347_2_01
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0xff6d73e5
+  Rotate: -0.75999999
+  SRTHash: 2039625990
+  Translate: [-3768.0, 154.797852, 3109.0]
+  UnitConfigName: AnchorAction1
+- HashId: !u 0xff7f6ffd
+  Rotate: [0.084432371, 0.698957562, 0.13078618]
+  SRTHash: 1693412614
+  Translate: [-3745.51367, 111.669189, 3600.56738]
+  UnitConfigName: FldObj_GerudoDesertRock_A_04_Far
+- HashId: !u 0xff7f6ffe
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x33924cef}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x95e5475b}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x5257b13c}
+  SRTHash: 0
+  Translate: [-3286.56055, 176.397659, 3789.55444]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xff7f6fff
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xff7f7000}
+  SRTHash: 0
+  Translate: [-3732.55957, 164.309692, 3624.4126]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropActor: Obj_StaminaUtuwa_A_01, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xff7f7000
+  Rotate: 3.39999986
+  SRTHash: -1709674313
+  Translate: [-3738.45825, 153.003418, 3612.94897]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {ChaseRange: 1200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xff7f7003
+  Rotate: [0.0, 0.0, 0.0]
+  SRTHash: 1466309386
+  Translate: [-3799.92432, 175.641434, 3611.37817]
+  UnitConfigName: Enemy_Guardian_C
+- '!Parameters': {ChaseRange: 1200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xff7f7004
+  Rotate: [0.0, 0.0, 0.0]
+  SRTHash: 1466309386
+  Translate: [-3732.75732, 184.223312, 3684.62329]
+  UnitConfigName: Enemy_Guardian_C
+- '!Parameters':
+    ArrowName: ElectricArrow
+    EquipItem1: Weapon_Bow_032
+    EquipItem3: BokoblinPipe
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f7006
+  Rotate: -5.53999996
+  SRTHash: -1923163669
+  Translate: [-3830.56177, 140.829163, 3586.8103]
+  UnitConfigName: Enemy_Bokoblin_Guard_Middle
+- '!Parameters': {ArrowName: ElectricArrow, EquipItem1: Weapon_Bow_032, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xff7f7007
+  Rotate: -1.0
+  SRTHash: 564413069
+  Translate: [-3765.20288, 149.765167, 3618.8855]
+  UnitConfigName: Enemy_Lizalfos_Guard_Middle_LongVisibility
+- '!Parameters': {ArrowName: ElectricArrow, EquipItem1: Weapon_Bow_032, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xff7f7008
+  Rotate: -0.600000024
+  SRTHash: 564413069
+  Translate: [-3738.63892, 150.869446, 3646.26172]
+  UnitConfigName: Enemy_Lizalfos_Guard_Middle_LongVisibility
+- '!Parameters': {ArrowName: ElectricArrow, EquipItem1: Weapon_Bow_032, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xff7f700a
+  Rotate: -0.600000024
+  SRTHash: 564413069
+  Translate: [-3722.2063, 150.823349, 3652.76611]
+  UnitConfigName: Enemy_Lizalfos_Guard_Middle_LongVisibility
+- '!Parameters': {DropActor: Weapon_Bow_023, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xff7f700b
+  Rotate: [0.963247895, -1.79999995, -0.937311828]
+  SRTHash: -1709674313
+  Translate: [-4199.64893, 124.740051, 3899.81104]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Weapon_Shield_015
+    EquipItem2: Weapon_Shield_015
+    EquipItem3: Weapon_Shield_015
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: true
+    IsNearCreate: false
+    LevelSensorMode: 2
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 2
+    TerritoryArea: 0.0
+  HashId: !u 0xff7f700c
+  Rotate: -3.34390402
+  SRTHash: 0
+  Translate: [-4185.71631, 125.077026, 3904.26074]
+  UnitConfigName: Enemy_Guardian_Mini_Senior
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Weapon_Lsword_015
+    EquipItem2: Weapon_Lsword_015
+    EquipItem3: Weapon_Shield_015
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: true
+    IsNearCreate: false
+    LevelSensorMode: 2
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 2
+    TerritoryArea: 0.0
+  HashId: !u 0xff7f700d
+  Rotate: -3.34390402
+  SRTHash: 0
+  Translate: [-4196.86182, 125.077026, 3891.16528]
+  UnitConfigName: Enemy_Guardian_Mini_Senior
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Weapon_Lsword_015
+    EquipItem2: Weapon_Spear_015
+    EquipItem3: Weapon_Shield_014
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: true
+    IsNearCreate: false
+    LevelSensorMode: 2
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 2
+    TerritoryArea: 0.0
+  HashId: !u 0xff7f700e
+  Rotate: -3.34390402
+  SRTHash: 0
+  Translate: [-4204.89893, 125.077026, 3895.05811]
+  UnitConfigName: Enemy_Guardian_Mini_Senior
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Weapon_Sword_14
+    EquipItem2: Weapon_Sword_14
+    EquipItem3: Weapon_Sword_14
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: true
+    IsNearCreate: false
+    LevelSensorMode: 2
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 2
+    TerritoryArea: 0.0
+  HashId: !u 0xff7f700f
+  Rotate: -3.34390402
+  SRTHash: 0
+  Translate: [-4201.30029, 125.677025, 3907.71655]
+  UnitConfigName: Enemy_Guardian_Mini_Senior
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Weapon_Spear_15
+    EquipItem2: Weapon_Spear_15
+    EquipItem3: Weapon_Shield_13
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: true
+    IsNearCreate: false
+    LevelSensorMode: 2
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 2
+    TerritoryArea: 0.0
+  HashId: !u 0xff7f7010
+  Rotate: -3.34390402
+  SRTHash: 0
+  Translate: [-4187.68115, 124.677025, 3895.30322]
+  UnitConfigName: Enemy_Guardian_Mini_Senior
+- HashId: !u 0xff7f7011
+  LinksToObj:
+  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0xff7f700b}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xff7f700d}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xff7f7010}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xff7f700c}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xff7f700f}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xff7f700e}
+  SRTHash: 0
+  Translate: [-4195.39111, 135.973846, 3899.22803]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropActor: Weapon_Sheild_030, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+  HashId: !u 0xff7f7015
+  Rotate: 2.79999995
+  SRTHash: -1709674313
+  Translate: [-4041.37354, 131.1698, 3456.51074]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0xff7f7016
+  SRTHash: 0
+  Translate: [-4041.31885, 129.108337, 3456.60522]
+  UnitConfigName: BoxPartTop
+- '!Parameters':
+    ArrowName: ElectricArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Sword_016
+    EquipItem2: Weapon_Shield_016
+    EquipItem3: Weapon_Bow_009
+    EquipItem4: Default
+    IsLazyTraverse: true
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+  HashId: !u 0xff7f701a
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff7f701c}
+  Rotate: -0.276814848
+  SRTHash: 598192775
+  Translate: [-4036.84009, 127.226173, 3445.06738]
+  UnitConfigName: Enemy_Lynel_Gold
+- '!Parameters': {ArrowName: ElectricArrow, DropTable: Normal, EquipItem1: Weapon_Lsword_016, EquipItem3: Weapon_Bow_009,
+    EquipItem4: Default, IsLazyTraverse: true, IsNearCreate: false, LevelSensorMode: 1, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xff7f701b
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff7f701c}
+  Rotate: 3.12318516
+  SRTHash: 598192775
+  Translate: [-4037.84863, 128.626175, 3462.68091]
+  UnitConfigName: Enemy_Lynel_Gold
+- HashId: !u 0xff7f701c
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xff7f7015}
+  SRTHash: 0
+  Translate: [-4044.26245, 143.593933, 3451.45459]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: WM_BloodyDay, SaveFlagOnOffType: 0}
+  HashId: !u 0xff7f701d
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xff7f701a}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xff7f701b}
+  SRTHash: 0
+  Translate: [-4051.2251, 145.710663, 3457.02759]
+  UnitConfigName: LinkTagAnd
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f701e
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4112.05762, 148.697556, 3081.24048]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f701f
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4105.44824, 148.69754, 3074.61304]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f7020
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4116.49268, 147.497559, 3081.50073]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f7021
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4109.93359, 148.497559, 3070.22607]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f7022
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4118.73047, 146.697556, 3081.35571]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f7023
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4111.87793, 148.297546, 3078.75317]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f7024
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4123.18506, 145.697556, 3081.43945]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f7025
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4110.56055, 148.497559, 3075.9021]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f7026
+  Rotate: 2.60036612
+  SRTHash: 1687336004
+  Translate: [-4115.70068, 147.497543, 3084.25977]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f7027
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4126.34424, 145.297546, 3076.35718]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f7028
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4128.83105, 144.897552, 3073.31909]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f7029
+  Rotate: -5.1996336
+  SRTHash: 1687336004
+  Translate: [-4116.54932, 147.297546, 3088.94043]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f702a
+  Rotate: 0.000366210908
+  SRTHash: 1687336004
+  Translate: [-4121.08936, 146.497543, 3085.30029]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f702b
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4123.81348, 145.897552, 3071.53271]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f702c
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4126.72852, 145.297546, 3079.60596]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f702d
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4122.66406, 146.297546, 3074.27368]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f702e
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4119.73242, 147.297546, 3072.58203]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f702f
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4117.06152, 147.697556, 3072.91284]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    IsDrop: false
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    NearCreateAppearType: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xff7f7030
+  Rotate: 1.60036623
+  SRTHash: 1687336004
+  Translate: [-4113.77246, 148.097549, 3073.9082]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- '!Parameters': {ChaseRange: 1200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xff7f7031
+  Rotate: [0.0, 0.0, 0.0]
+  SRTHash: 1466309386
+  Translate: [-4131.36914, 147.009995, 3281.62769]
+  UnitConfigName: Enemy_Guardian_A
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
+  HashId: !u 0xff7f7032
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xff7f7033
+  SRTHash: 20
+  Scale: 15.8058071
+  Translate: [-4119.22705, 151.986526, 3076.03931]
+  UnitConfigName: Area
+- HashId: !u 0xff7f7033
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f701e
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f701f
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f7020
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f7021
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f7022
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f7023
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f7024
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f7025
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f7026
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f7027
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f7028
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f7029
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f702a
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f702b
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f702c
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f702d
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f702e
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f702f
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xff7f7030
+  SRTHash: 20
+  Translate: [-4122.08398, 162.100739, 3079.25537]
+  UnitConfigName: LinkTagAnd
+Rails:
+- HashId: !u 0x97c8e013
+  IsClosed: true
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    ControlPoints:
+    - [-0.874023438, 0.738937378, -7.71240234]
+    - [0.874023438, -0.738937378, 7.71240234]
+    NextDistance: 63.494091
+    PrevDistance: 99.8077087
+    Translate: [-3791.32666, 118.878151, 3657.02515]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    ControlPoints:
+    - [0.0, -0.192779541, -8.859375]
+    - [0.0, 0.192779541, 8.859375]
+    NextDistance: 86.1065598
+    PrevDistance: 63.494091
+    Translate: [-3783.04492, 116.200493, 3719.89551]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    ControlPoints:
+    - [-28.3125, -1.835495, 0.4453125]
+    - [28.3125, 1.835495, -0.4453125]
+    NextDistance: 98.6777878
+    PrevDistance: 86.1065598
+    Translate: [-3713.62061, 123.737495, 3764.70068]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    ControlPoints:
+    - [2.8359375, 0.100654602, 16.7265625]
+    - [-2.8359375, -0.100654602, -16.7265625]
+    NextDistance: 48.8501701
+    PrevDistance: 98.6777878
+    Translate: [-3648.25757, 121.451004, 3698.45776]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    ControlPoints:
+    - [-1.39404297, -0.971092224, 15.1235352]
+    - [1.39404297, 0.971092224, -15.1235352]
+    NextDistance: 37.6097946
+    PrevDistance: 48.8501701
+    Rotate: [0.0730440617, 0.00368447579, -0.100753605]
+    Translate: [-3657.33911, 122.584274, 3650.7019]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    ControlPoints:
+    - [-4.19946289, 1.01237488, 10.2695312]
+    - [4.19946289, -1.01237488, -10.2692871]
+    NextDistance: 38.0996552
+    PrevDistance: 37.6097946
+    Rotate: [-0.055582989, -0.00288523175, -0.103697389]
+    Translate: [-3630.00366, 121.327858, 3627.64185]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    ControlPoints:
+    - [1.52929688, -0.013458252, 8.63574219]
+    - [-1.52929688, 0.013458252, -8.63574219]
+    NextDistance: 36.8817787
+    PrevDistance: 38.0996552
+    Translate: [-3651.30713, 123.178886, 3598.09766]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    ControlPoints:
+    - [13.9602051, -0.136810303, 23.0957031]
+    - [-13.9602051, 0.136810303, -23.0957031]
+    NextDistance: 49.3202667
+    PrevDistance: 36.8817787
+    Translate: [-3655.08838, 122.991203, 3563.13672]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    ControlPoints:
+    - [8.50976562, 0.524932861, 9.01025391]
+    - [-8.50952148, -0.524932861, -9.01025391]
+    NextDistance: 46.2555237
+    PrevDistance: 49.3202667
+    Rotate: [-0.0659762695, -0.000273332524, -0.00828273129]
+    Translate: [-3699.3479, 124.529655, 3553.31274]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    ControlPoints:
+    - [6.8671875, 0.202072144, 4.46972656]
+    - [-6.86743164, -0.202072144, -4.46972656]
+    NextDistance: 86.4850845
+    PrevDistance: 46.2555237
+    Translate: [-3730.48047, 123.492165, 3519.21118]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    ControlPoints:
+    - [16.4467773, -2.10671234, -10.972168]
+    - [-16.4465332, 2.10671234, 10.972168]
+    NextDistance: 87.3752213
+    PrevDistance: 86.4850845
+    Translate: [-3815.48486, 124.119308, 3520.67944]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    ControlPoints:
+    - [1.08227539, -0.17376709, -18.4926758]
+    - [-1.08203125, 0.17376709, 18.4929199]
+    NextDistance: 99.8077087
+    PrevDistance: 87.3752213
+    Rotate: [0.00248267432, -9.72935959e-05, 0.0783379227]
+    Translate: [-3864.17236, 122.935143, 3591.34253]
+    UnitConfigName: GuidePoint
+  RailType: Bezier
+  Translate: [-3719.95605, 122.118805, 3622.01685]
+  UnitConfigName: Guide
+- HashId: !u 0xc050fe13
+  IsClosed: true
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, MoveSpeed: 0.460000008, WaitFrame: 0.0}
+    ControlPoints:
+    - [21.9973145, -0.210845947, 41.1379395]
+    - [-21.9975586, 0.210845947, -41.1381836]
+    NextDistance: 149.774261
+    PrevDistance: 133.962891
+    Rotate: [-1.6018182, -1.53018832, 1.53977656]
+    Translate: [-3073.64844, 109.761475, 3187.75415]
+    UnitConfigName: RemainGuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, MoveSpeed: 0.460000008, WaitFrame: 0.0}
+    ControlPoints:
+    - [44.3154297, 0.191604614, 1.1496582]
+    - [-44.3156738, -0.191604614, -1.14941406]
+    NextDistance: 109.856163
+    PrevDistance: 149.774261
+    Rotate: [1.59848666, -1.50797582, -1.54310739]
+    Translate: [-3197.32227, 111.83139, 3113.7959]
+    UnitConfigName: RemainGuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, MoveSpeed: 0.460000008, WaitFrame: 0.0}
+    ControlPoints:
+    - [26.8598633, -1.53811646, -37.9064941]
+    - [-26.8601074, 1.53811646, 37.9064941]
+    NextDistance: 95.1752625
+    PrevDistance: 109.856163
+    Translate: [-3292.23804, 108.956696, 3155.75977]
+    UnitConfigName: RemainGuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, MoveSpeed: 0.460000008, WaitFrame: 0.0}
+    ControlPoints:
+    - [14.1530762, -0.461257935, -36.1323242]
+    - [-14.1530762, 0.461257935, 36.1320801]
+    NextDistance: 103.219429
+    PrevDistance: 95.1752625
+    Rotate: -1.57079637
+    Translate: [-3340.78247, 109.970688, 3237.17236]
+    UnitConfigName: RemainGuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, MoveSpeed: 0.460000008, WaitFrame: 0.0}
+    ControlPoints:
+    - [-12.920166, -1.20527649, -34.2258301]
+    - [12.920166, 1.20527649, 34.2255859]
+    NextDistance: 155.311554
+    PrevDistance: 103.219429
+    Rotate: -1.57079637
+    Translate: [-3340.93677, 112.346817, 3337.74561]
+    UnitConfigName: RemainGuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, MoveSpeed: 0.460000008, WaitFrame: 0.0}
+    ControlPoints:
+    - [-51.0131836, -2.59468079, -3.95385742]
+    - [51.0134277, 2.59468079, 3.95385742]
+    NextDistance: 99.4091187
+    PrevDistance: 155.311554
+    Rotate: [1.60975695, -1.46893072, -1.53183663]
+    Translate: [-3221.47266, 112.503998, 3427.26392]
+    UnitConfigName: RemainGuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, MoveSpeed: 0.460000008, WaitFrame: 0.0}
+    ControlPoints:
+    - [-22.2780762, -0.592926025, 25.0163574]
+    - [22.2780762, 0.592926025, -25.0161133]
+    NextDistance: 92.599617
+    PrevDistance: 99.4091187
+    Rotate: [1.54437041, -1.5673784, -1.59724784]
+    Translate: [-3135.98608, 108.865143, 3388.50366]
+    UnitConfigName: RemainGuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, MoveSpeed: 0.100000001, WaitFrame: 0.0}
+    ControlPoints:
+    - [-11.4758301, 0.356323242, 14.8359375]
+    - [11.4755859, -0.356323242, -14.8361816]
+    NextDistance: 133.962891
+    PrevDistance: 92.599617
+    Rotate: [0.0486428812, 0.000842441455, -0.0346275233]
+    Translate: [-3076.28369, 109.2547, 3317.74243]
+    UnitConfigName: RemainGuidePoint
+  RailType: Bezier
+  Translate: [-3209.83374, 110.436363, 3270.71729]
+  UniqueName: RemainsElectricDefault
+  UnitConfigName: RemainGuide

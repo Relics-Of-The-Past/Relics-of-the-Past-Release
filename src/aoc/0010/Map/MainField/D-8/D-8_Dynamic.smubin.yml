@@ -694,7 +694,7 @@ Objs:
   SRTHash: -922261949
   Translate: [-1492.62354, 481.491394, 3222.70679]
   UnitConfigName: Item_Plant_E
-- '!Parameters': {GolemSleepType: SleepForward_A, GolemWeakPointLocation: Point_B, IsNearCreate: false, LevelSensorMode: 0,
+- '!Parameters': {GolemSleepType: SleepForward_A, GolemWeakPointLocation: Point_B, IsNearCreate: false, LevelSensorMode: 1,
     SharpWeaponJudgeType: 0, TerritoryArea: 0.0, UniqueNameMessageLabel: 'Golem_[D-8]1D4D9298'}
   HashId: !u 0x1d4d9298
   SRTHash: -2099380972
@@ -753,7 +753,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x1e1941cc
@@ -1287,7 +1287,7 @@ Objs:
     IsCreateStalPart: true
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
@@ -1521,11 +1521,6 @@ Objs:
   SRTHash: -1625891183
   Translate: [-1586.86523, 307.524139, 3108.15723]
   UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
-- HashId: !u 0x434033da
-  Rotate: [0.0799999684, 0.0, 0.0]
-  SRTHash: -2078255538
-  Translate: [-1567.99341, 426.141205, 3713.96509]
-  UnitConfigName: FldObj_RuinGuardianSnow_A_01
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x436d36d6
   Rotate: [0.385086328, -1.23111856, -0.433584929]
@@ -2505,7 +2500,7 @@ Objs:
     IsCreateStalPart: true
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
@@ -2553,12 +2548,6 @@ Objs:
   SRTHash: 829364327
   Translate: [-1350.27515, 439.865295, 3766.08301]
   UnitConfigName: FldObj_CliffOrangeSnow_A_06
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0x77058eec
-  SRTHash: 1276336826
-  Scale: 25.0
-  Translate: [-1555.0, 425.018677, 3741.0]
-  UnitConfigName: Area
 - HashId: !u 0x77619260
   Rotate: [-0.209960476, 0.347328305, 0.53247112]
   SRTHash: 261270050
@@ -2811,7 +2800,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0x82cd8e8c
@@ -2891,7 +2880,7 @@ Objs:
   Scale: 0.981445014
   Translate: [-1380.63672, 483.666412, 3174.92578]
   UnitConfigName: Obj_Plant_HopBush_C_Snow_02
-- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Castle_Arrow, SharpWeaponJudgeType: 0}
   HashId: !u 0x861c2452
   Rotate: [0.000146554157, 1.96350538e-05, -0.000154168927]
   SRTHash: 1187117633
@@ -2956,7 +2945,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0x87778f8f
@@ -3732,7 +3721,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0xa70239eb
@@ -4581,7 +4570,7 @@ Objs:
     IsMimicry: true
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -4614,7 +4603,7 @@ Objs:
   SRTHash: -1909118778
   Translate: [-969.999939, 356.517731, 3234.5]
   UnitConfigName: GrassCutTag
-- '!Parameters': {EquipItem1: Weapon_Sword_049, IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 0,
+- '!Parameters': {EquipItem1: Weapon_Sword_049, IsNearCreate: false, LevelSensorMode: 1, NearCreateAppearID: 0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0}
   HashId: !u 0xcdd06481
   SRTHash: 102270810
@@ -4859,7 +4848,7 @@ Objs:
     IsCreateStalPart: true
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
@@ -5025,11 +5014,6 @@ Objs:
   SRTHash: 0
   Translate: [-1643.70703, 317.828125, 3594.26172]
   UnitConfigName: Item_Plant_O
-- HashId: !u 0xe022f9cb
-  Rotate: -1.24000025
-  SRTHash: 1059207875
-  Translate: [-1582.97437, 425.314941, 3752.97534]
-  UnitConfigName: FldObj_RuinGuardianSnow_A_01
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xe0320584
   Rotate: 5.87967777
@@ -5454,8 +5438,8 @@ Objs:
   Translate: [-1552.7063, 367.645111, 3602.62402]
   UnitConfigName: Obj_MineralBury_A_01
 - '!Parameters':
-    AddParam: 0
-    AddSpecialFlag: 0
+    AddParam: 120
+    AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: false
     IsCreateSharpWeapon: false
@@ -5821,7 +5805,7 @@ Objs:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x258ab11b}
   Rotate: -1.40000021
   SRTHash: 1474754509
-  Translate: [-1421.06372, 499.981781, 3532.06104]
+  Translate: [-1421.01819, 499.981781, 3531.99219]
   UnitConfigName: Enemy_Bokoblin_Senior
 - '!Parameters':
     ArrowName: NormalArrow
@@ -5869,7 +5853,7 @@ Objs:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x258ab11b}
   Rotate: 2.19999981
   SRTHash: 1474754509
-  Translate: [-1427.85474, 497.746735, 3535.6272]
+  Translate: [-1427.82654, 497.746735, 3535.62842]
   UnitConfigName: Enemy_Moriblin_Senior
 - '!Parameters': {DropTable: Normal, InitBurnState: true, IsDrop: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xffb41bf7
@@ -5893,7 +5877,7 @@ Objs:
   Translate: [-1801.5033, 289.308807, 3525.31128]
   UnitConfigName: Enemy_Guardian_C
 - '!Parameters': {ArrowName: NormalArrow, EquipItem1: Weapon_Lsword_016, EquipItem3: Weapon_Bow_026, IsNearCreate: false,
-    LevelSensorMode: 0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+    LevelSensorMode: 1, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
   HashId: !u 0xffb41bfe
   Rotate: 3.0
   SRTHash: -456078189
@@ -5907,4 +5891,109 @@ Objs:
   SRTHash: -528435004
   Translate: [-1110.33472, 238.743668, 3140.60254]
   UnitConfigName: Enemy_Guardian_A_Sand
+- HashId: !u 0xffb41c0b
+  SRTHash: 0
+  Translate: [-1342.41138, 484.606049, 3171.59033]
+  UnitConfigName: Item_PlantGet_J
+- HashId: !u 0xffb41c0c
+  SRTHash: 0
+  Translate: [-1342.09558, 484.606049, 3172.18872]
+  UnitConfigName: Item_PlantGet_J
+- HashId: !u 0xffb41c0d
+  SRTHash: 0
+  Translate: [-1341.45667, 484.606049, 3171.48218]
+  UnitConfigName: Item_PlantGet_J
+- '!Parameters': {ArrowName: NormalArrow, EquipItem1: Weapon_Spear_016, EquipItem3: Weapon_Bow_026, IsNearCreate: false, LevelSensorMode: 1,
+    SharpWeaponJudgeType: 3, TerritoryArea: 0.0}
+  HashId: !u 0xffb41c17
+  Rotate: 4.5999999
+  SRTHash: 0
+  Translate: [-1740.96289, 271.427124, 3836.36304]
+  UnitConfigName: Enemy_Lynel_Gold
+- '!Parameters': {EquipItem1: Weapon_Sword_023, EquipItem2: Weapon_Shield_038, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffb41c1b
+  Rotate: 2.79999995
+  SRTHash: 0
+  Translate: [-1785.4563, 178.08699, 3325.80981]
+  UnitConfigName: Enemy_Lizalfos_Middle
+- '!Parameters': {ChaseRange: 200.0, DropActor: Obj_StaminaUtuwa_B, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffb41c04
+  Rotate: [-0.0179791953, -2.79999995, 0.0087606227]
+  SRTHash: 0
+  Translate: [-1372.86023, 500.905334, 3722.36328]
+  UnitConfigName: Enemy_Guardian_B
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffb41bfb
+  SRTHash: -1889150673
+  Translate: [-1849.09351, 289.308807, 3417.27271]
+  UnitConfigName: Enemy_Guardian_C
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffb41bfd
+  SRTHash: -1889150673
+  Translate: [-1764.96191, 289.308807, 3431.41675]
+  UnitConfigName: Enemy_Guardian_C
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffb41c12
+  Rotate: 1.60000002
+  SRTHash: 0
+  Translate: [-1817.10352, 227.081848, 3404.72949]
+  UnitConfigName: Enemy_Guardian_B
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffb41c15
+  Rotate: 7.80000019
+  SRTHash: 0
+  Translate: [-1815.81885, 227.081848, 3510.14673]
+  UnitConfigName: Enemy_Guardian_B
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffb41c14
+  Rotate: 4.80000019
+  SRTHash: 0
+  Translate: [-1773.87793, 227.081848, 3509.94849]
+  UnitConfigName: Enemy_Guardian_B
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffb41c13
+  Rotate: 4.80000019
+  SRTHash: 0
+  Translate: [-1774.06689, 227.081848, 3404.64331]
+  UnitConfigName: Enemy_Guardian_B
+- '!Parameters': {ChaseRange: 1500.0, DropActor: Item_Enemy_31, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffb41bf1
+  Rotate: [0.0902092084, 7.18131924, 0.10032396]
+  SRTHash: 1003741735
+  Translate: [-947.675781, 287.754333, 3656.09912]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Sand
+- '!Parameters':
+    ArrowName: IceArrow
+    EquipItem1: Weapon_Bow_028
+    EquipItem3: Weapon_Sword_013
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffb41c0a
+  Rotate: -3.53999996
+  SRTHash: -1923163669
+  Translate: [-1382.7793, 489.836334, 3196.55713]
+  UnitConfigName: Enemy_Bokoblin_Middle
 Rails: []

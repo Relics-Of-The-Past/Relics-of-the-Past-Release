@@ -51,8 +51,8 @@ param_root: !list
               ClassName: !str32 RisingAirOneTime
               GroupName: Root
             SInst: !obj
-              LostCounter: 300.0
-              WindSpeed: 0.833333194
+              LostCounter: 500.0
+              WindSpeed: 0.933333218
           lists: {}
         Action_2: !list
           objects:
