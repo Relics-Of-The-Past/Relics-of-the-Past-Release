@@ -22,8 +22,8 @@ param_root: !list
       Range: 1.60000002
       GuardBreakPower: 40
       SpHitActor: ''
-      SpHitTag: ''
-      SpHitRatio: 2.0
+      SpHitTag: IsEffectiveAncientWeapon,TeamGuardian
+      SpHitRatio: 1.5
       SpWeakHitActor: SimpleBeam
       PowerForPlayer: -1
     WeaponCommon: !obj
@@ -122,8 +122,8 @@ param_root: !list
       TrueFormAttackPower: 110
       TrueFormMagicPower: 20
       TrueFormBreakRatio: 0.200000003
-      SearchEvilDist: 70.0
-      RecoverTime: 500
+      SearchEvilDist: 120.0
+      RecoverTime: 100
       SleepActorName: !str64 Weapon_Sword_056
       TrueFormActorName: !str64 Weapon_Sword_072
     Item: !obj

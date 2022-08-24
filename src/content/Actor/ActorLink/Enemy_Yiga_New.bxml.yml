@@ -8,18 +8,18 @@ param_root: !list
       Priority: Default
       AIProgramUser: Yiga_New
       AIScheduleUser: Dummy
-      ASUser: Enemy_Assassin_Middle
+      ASUser: Enemy_Yiga_New
       AttentionUser: Assassin
-      AwarenessUser: Assassin_Azito
+      AwarenessUser: Yiga_New
       BoneControlUser: Assassin_Middle
       ActorCaptureUser: Dummy
-      ChemicalUser: Assassin
-      DamageParamUser: Enemy_Assassin_Middle
-      DropTableUser: Assassin_Middle
+      ChemicalUser: Yiga
+      DamageParamUser: Enemy_Yiga_New
+      DropTableUser: Yiga_New
       ElinkUser: Assassin_Middle
       GParamUser: Yiga_New
       LifeConditionUser: Enemy
-      LODUser: Dummy
+      LODUser: EnemyNoCalcSkip
       ModelUser: Enemy_Yiga_New
       PhysicsUser: Assassin_Middle
       ProfileUser: Enemy

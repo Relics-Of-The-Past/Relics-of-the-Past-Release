@@ -14,7 +14,7 @@ param_root: !list
               JudgeOnce: true
             Children: !obj
               Child0: 1
-              Child1: 4
+              Child1: 18
               Child2: 7
           lists:
             Extend: !list
@@ -191,65 +191,57 @@ param_root: !list
           objects:
             Parameters: !obj
               TypeIndex: 67
-              FileName: !str64 Lsword_Attack_SF
+              FileName: !str64 Lsword_Katana_Attack_Charge
               Morph: 0.0
           lists:
             Extend: !list
               objects: {}
               lists:
-                FrameCtrl: !list
-                  objects:
-                    FrameCtrl0: !obj {}
-                  lists: {}
                 TriggerEvents: !list
                   objects:
                     Event0: !obj
                       TypeIndex: 0
-                      Frame: 11.0
-                      Value: AttackMiddle
+                      Frame: 5.0
+                      Value: AttackLarge
                     Event1: !obj
                       TypeIndex: 7
-                      Frame: -2.0
-                      Value: FaceBattle
+                      Frame: 5.0
+                      Value: FaceCutCharge
                     Event2: !obj
-                      TypeIndex: 7
-                      Frame: 12.0
-                      Value: VoiceCutSF
-                    Event3: !obj
                       TypeIndex: 4
-                      Frame: 54.0
+                      Frame: 39.0
                       Value: ''
                   lists: {}
                 HoldEvents: !list
                   objects:
                     Event0: !obj
                       TypeIndex: 3
-                      StartFrame: 11.0
-                      EndFrame: 17.0
-                      Value: !str32 Left
+                      StartFrame: 1.0
+                      EndFrame: 11.0
+                      Value: !str32 Right
                     Event1: !obj
                       TypeIndex: 2
-                      StartFrame: 40.0
+                      StartFrame: 24.0
                       EndFrame: -1.0
                       Value: !str32 ''
                     Event2: !obj
-                      TypeIndex: 0
-                      StartFrame: 13.0
-                      EndFrame: -1.0
+                      TypeIndex: 48
+                      StartFrame: 5.0
+                      EndFrame: 13.0
                       Value: !str32 ''
                     Event3: !obj
-                      TypeIndex: 48
-                      StartFrame: 10.0
-                      EndFrame: 20.0
+                      TypeIndex: 17
+                      StartFrame: 30.0
+                      EndFrame: -1.0
                       Value: !str32 ''
                     Event4: !obj
-                      TypeIndex: 17
+                      TypeIndex: 21
                       StartFrame: 0.0
                       EndFrame: -1.0
                       Value: !str32 ''
                     Event5: !obj
-                      TypeIndex: 49
-                      StartFrame: 32.0
+                      TypeIndex: 45
+                      StartFrame: 6.0
                       EndFrame: -1.0
                       Value: !str32 ''
                   lists: {}
@@ -257,65 +249,57 @@ param_root: !list
           objects:
             Parameters: !obj
               TypeIndex: 67
-              FileName: !str64 Lsword_Attack_SF_Advance
+              FileName: !str64 Lsword_Katana_Attack_Charge
               Morph: 0.0
           lists:
             Extend: !list
               objects: {}
               lists:
-                FrameCtrl: !list
-                  objects:
-                    FrameCtrl0: !obj {}
-                  lists: {}
                 TriggerEvents: !list
                   objects:
                     Event0: !obj
                       TypeIndex: 0
-                      Frame: 11.0
-                      Value: AttackMiddle
+                      Frame: 5.0
+                      Value: AttackLarge
                     Event1: !obj
                       TypeIndex: 7
-                      Frame: -2.0
-                      Value: FaceBattle
+                      Frame: 5.0
+                      Value: FaceCutCharge
                     Event2: !obj
-                      TypeIndex: 7
-                      Frame: 12.0
-                      Value: VoiceCutSF
-                    Event3: !obj
                       TypeIndex: 4
-                      Frame: 54.0
+                      Frame: 39.0
                       Value: ''
                   lists: {}
                 HoldEvents: !list
                   objects:
                     Event0: !obj
                       TypeIndex: 3
-                      StartFrame: 11.0
-                      EndFrame: 17.0
-                      Value: !str32 Left
+                      StartFrame: 1.0
+                      EndFrame: 9.0
+                      Value: !str32 Right
                     Event1: !obj
                       TypeIndex: 2
-                      StartFrame: 40.0
+                      StartFrame: 24.0
                       EndFrame: -1.0
                       Value: !str32 ''
                     Event2: !obj
-                      TypeIndex: 0
-                      StartFrame: 13.0
-                      EndFrame: -1.0
+                      TypeIndex: 48
+                      StartFrame: 5.0
+                      EndFrame: 13.0
                       Value: !str32 ''
                     Event3: !obj
-                      TypeIndex: 48
-                      StartFrame: 10.0
-                      EndFrame: 20.0
+                      TypeIndex: 17
+                      StartFrame: 30.0
+                      EndFrame: -1.0
                       Value: !str32 ''
                     Event4: !obj
-                      TypeIndex: 17
+                      TypeIndex: 21
                       StartFrame: 0.0
                       EndFrame: -1.0
                       Value: !str32 ''
                     Event5: !obj
-                      TypeIndex: 49
-                      StartFrame: 32.0
+                      TypeIndex: 45
+                      StartFrame: 6.0
                       EndFrame: -1.0
                       Value: !str32 ''
                   lists: {}
@@ -791,4 +775,470 @@ param_root: !list
                       StartFrame: 0.0
                       EndFrame: -1.0
                       Value: !str32 ''
+                  lists: {}
+        Element18: !list
+          objects:
+            Parameters: !obj
+              TypeIndex: 97
+              JudgeOnce: true
+            Children: !obj
+              Child0: 19
+              Child1: 4
+          lists:
+            Extend: !list
+              objects: {}
+              lists:
+                StringArray: !list
+                  objects:
+                    StringArray0: !obj
+                      Value0: !str64 Multi
+                      Value1: !str64 default
+                  lists: {}
+        Element19: !list
+          objects:
+            Parameters: !obj
+              TypeIndex: 16
+              NoSync: false
+              JudgeOnce: true
+            Children: !obj
+              Child0: 20
+              Child1: 21
+          lists:
+            Extend: !list
+              objects: {}
+              lists:
+                Ranges: !list
+                  objects:
+                    Range0: !obj
+                      Start: 0.0
+                      End: 5.19999981
+                    Range1: !obj
+                      Start: 3.5
+                      End: 999.0
+                  lists: {}
+        Element20: !list
+          objects:
+            Parameters: !obj
+              TypeIndex: 67
+              FileName: !str64 Lsword_Attack_Ninja
+              Morph: 0.0
+          lists:
+            Extend: !list
+              objects: {}
+              lists:
+                TriggerEvents: !list
+                  objects:
+                    Event0: !obj
+                      TypeIndex: 7
+                      Frame: 3.0
+                      Value: FaceCut
+                    Event1: !obj
+                      TypeIndex: 0
+                      Frame: -2.0
+                      Value: AttackSmall
+                    Event2: !obj
+                      TypeIndex: 4
+                      Frame: 36.0
+                      Value: ''
+                  lists: {}
+                FrameCtrl: !list
+                  objects:
+                    FrameCtrl0: !obj
+                      Rate: 1.35000002
+                  lists: {}
+                HoldEvents: !list
+                  objects:
+                    Event0: !obj
+                      TypeIndex: 3
+                      StartFrame: 1.0
+                      EndFrame: 2.0
+                      Value: !str32 Left
+                    Event1: !obj
+                      TypeIndex: 0
+                      StartFrame: 12.0
+                      EndFrame: -1.0
+                      Value: !str32 ''
+                    Event2: !obj
+                      TypeIndex: 48
+                      StartFrame: 0.0
+                      EndFrame: 15.0
+                      Value: !str32 ''
+                    Event3: !obj
+                      TypeIndex: 17
+                      StartFrame: 10.0
+                      EndFrame: -1.0
+                      Value: !str32 ''
+                    Event4: !obj
+                      TypeIndex: 45
+                      StartFrame: 16.0
+                      EndFrame: -1.0
+                      Value: !str32 ''
+                    Event5: !obj
+                      TypeIndex: 18
+                      StartFrame: 0.0
+                      EndFrame: -1.0
+                      Value: !str32 ''
+                    Event6: !obj
+                      TypeIndex: 49
+                      StartFrame: 24.0
+                      EndFrame: -1.0
+                      Value: !str32 ''
+                    Event7: !obj
+                      TypeIndex: 3
+                      StartFrame: 5.0
+                      EndFrame: 6.0
+                      Value: !str32 Left
+                    Event8: !obj
+                      TypeIndex: 3
+                      StartFrame: 7.0
+                      EndFrame: 8.0
+                      Value: !str32 Left
+                    Event9: !obj
+                      TypeIndex: 3
+                      StartFrame: 9.0
+                      EndFrame: 10.0
+                      Value: !str32 Left
+                    Event10: !obj
+                      TypeIndex: 3
+                      StartFrame: 11.0
+                      EndFrame: 12.0
+                      Value: !str32 Left
+                    Event11: !obj
+                      TypeIndex: 3
+                      StartFrame: 13.0
+                      EndFrame: 14.0
+                      Value: !str32 Stab
+                    Event12: !obj
+                      TypeIndex: 3
+                      StartFrame: 15.0
+                      EndFrame: 16.0
+                      Value: !str32 Left
+                    Event13: !obj
+                      TypeIndex: 3
+                      StartFrame: 17.0
+                      EndFrame: 18.0
+                      Value: !str32 Left
+                    Event14: !obj
+                      TypeIndex: 3
+                      StartFrame: 19.0
+                      EndFrame: 20.0
+                      Value: !str32 Left
+                    Event15: !obj
+                      TypeIndex: 3
+                      StartFrame: 21.0
+                      EndFrame: 22.0
+                      Value: !str32 Left
+                    Event16: !obj
+                      TypeIndex: 3
+                      StartFrame: 23.0
+                      EndFrame: 24.0
+                      Value: !str32 Stab
+                    Event17: !obj
+                      TypeIndex: 3
+                      StartFrame: 24.0
+                      EndFrame: 26.0
+                      Value: !str32 Left
+                    Event18: !obj
+                      TypeIndex: 3
+                      StartFrame: 27.0
+                      EndFrame: 28.0
+                      Value: !str32 Left
+                    Event19: !obj
+                      TypeIndex: 3
+                      StartFrame: 29.0
+                      EndFrame: 30.0
+                      Value: !str32 Left
+                    Event20: !obj
+                      TypeIndex: 3
+                      StartFrame: 31.0
+                      EndFrame: 32.0
+                      Value: !str32 Left
+                    Event21: !obj
+                      TypeIndex: 3
+                      StartFrame: 33.0
+                      EndFrame: 34.0
+                      Value: !str32 Stab
+                    Event22: !obj
+                      TypeIndex: 3
+                      StartFrame: 35.0
+                      EndFrame: 36.0
+                      Value: !str32 Left
+                    Event23: !obj
+                      TypeIndex: 3
+                      StartFrame: 37.0
+                      EndFrame: 38.0
+                      Value: !str32 Left
+                    Event24: !obj
+                      TypeIndex: 3
+                      StartFrame: 39.0
+                      EndFrame: 40.0
+                      Value: !str32 Left
+                    Event25: !obj
+                      TypeIndex: 3
+                      StartFrame: 41.0
+                      EndFrame: 42.0
+                      Value: !str32 Left
+                    Event26: !obj
+                      TypeIndex: 3
+                      StartFrame: 43.0
+                      EndFrame: 44.0
+                      Value: !str32 Stab
+                    Event27: !obj
+                      TypeIndex: 3
+                      StartFrame: 45.0
+                      EndFrame: 46.0
+                      Value: !str32 Left
+                    Event28: !obj
+                      TypeIndex: 3
+                      StartFrame: 47.0
+                      EndFrame: 48.0
+                      Value: !str32 Left
+                    Event29: !obj
+                      TypeIndex: 3
+                      StartFrame: 49.0
+                      EndFrame: 50.0
+                      Value: !str32 Left
+                    Event30: !obj
+                      TypeIndex: 3
+                      StartFrame: 51.0
+                      EndFrame: 52.0
+                      Value: !str32 Left
+                    Event31: !obj
+                      TypeIndex: 3
+                      StartFrame: 53.0
+                      EndFrame: 54.0
+                      Value: !str32 Stab
+                    Event32: !obj
+                      TypeIndex: 3
+                      StartFrame: 54.0
+                      EndFrame: 55.0
+                      Value: !str32 Left
+                    Event33: !obj
+                      TypeIndex: 3
+                      StartFrame: 56.0
+                      EndFrame: 57.0
+                      Value: !str32 Left
+                    Event34: !obj
+                      TypeIndex: 3
+                      StartFrame: 58.0
+                      EndFrame: 50.0
+                      Value: !str32 Left
+                    Event35: !obj
+                      TypeIndex: 3
+                      StartFrame: 59.0
+                      EndFrame: 60.0
+                      Value: !str32 Left
+                  lists: {}
+        Element21: !list
+          objects:
+            Parameters: !obj
+              TypeIndex: 67
+              FileName: !str64 Lsword_Attack_Ninja
+              Morph: 0.0
+          lists:
+            Extend: !list
+              objects: {}
+              lists:
+                TriggerEvents: !list
+                  objects:
+                    Event0: !obj
+                      TypeIndex: 7
+                      Frame: 3.0
+                      Value: FaceCut
+                    Event1: !obj
+                      TypeIndex: 0
+                      Frame: -2.0
+                      Value: AttackSmall
+                    Event2: !obj
+                      TypeIndex: 4
+                      Frame: 36.0
+                      Value: ''
+                  lists: {}
+                FrameCtrl: !list
+                  objects:
+                    FrameCtrl0: !obj
+                      Rate: 1.35000002
+                  lists: {}
+                HoldEvents: !list
+                  objects:
+                    Event0: !obj
+                      TypeIndex: 3
+                      StartFrame: 1.0
+                      EndFrame: 2.0
+                      Value: !str32 Left
+                    Event1: !obj
+                      TypeIndex: 0
+                      StartFrame: 12.0
+                      EndFrame: -1.0
+                      Value: !str32 ''
+                    Event2: !obj
+                      TypeIndex: 48
+                      StartFrame: 0.0
+                      EndFrame: 15.0
+                      Value: !str32 ''
+                    Event3: !obj
+                      TypeIndex: 17
+                      StartFrame: 10.0
+                      EndFrame: -1.0
+                      Value: !str32 ''
+                    Event4: !obj
+                      TypeIndex: 45
+                      StartFrame: 16.0
+                      EndFrame: -1.0
+                      Value: !str32 ''
+                    Event5: !obj
+                      TypeIndex: 18
+                      StartFrame: 0.0
+                      EndFrame: -1.0
+                      Value: !str32 ''
+                    Event6: !obj
+                      TypeIndex: 49
+                      StartFrame: 24.0
+                      EndFrame: -1.0
+                      Value: !str32 ''
+                    Event7: !obj
+                      TypeIndex: 3
+                      StartFrame: 5.0
+                      EndFrame: 6.0
+                      Value: !str32 Left
+                    Event8: !obj
+                      TypeIndex: 3
+                      StartFrame: 7.0
+                      EndFrame: 8.0
+                      Value: !str32 Left
+                    Event9: !obj
+                      TypeIndex: 3
+                      StartFrame: 9.0
+                      EndFrame: 10.0
+                      Value: !str32 Left
+                    Event10: !obj
+                      TypeIndex: 3
+                      StartFrame: 11.0
+                      EndFrame: 12.0
+                      Value: !str32 Left
+                    Event11: !obj
+                      TypeIndex: 3
+                      StartFrame: 13.0
+                      EndFrame: 14.0
+                      Value: !str32 Stab
+                    Event12: !obj
+                      TypeIndex: 3
+                      StartFrame: 15.0
+                      EndFrame: 16.0
+                      Value: !str32 Left
+                    Event13: !obj
+                      TypeIndex: 3
+                      StartFrame: 17.0
+                      EndFrame: 18.0
+                      Value: !str32 Left
+                    Event14: !obj
+                      TypeIndex: 3
+                      StartFrame: 19.0
+                      EndFrame: 20.0
+                      Value: !str32 Left
+                    Event15: !obj
+                      TypeIndex: 3
+                      StartFrame: 21.0
+                      EndFrame: 22.0
+                      Value: !str32 Left
+                    Event16: !obj
+                      TypeIndex: 3
+                      StartFrame: 23.0
+                      EndFrame: 24.0
+                      Value: !str32 Stab
+                    Event17: !obj
+                      TypeIndex: 3
+                      StartFrame: 24.0
+                      EndFrame: 26.0
+                      Value: !str32 Left
+                    Event18: !obj
+                      TypeIndex: 3
+                      StartFrame: 27.0
+                      EndFrame: 28.0
+                      Value: !str32 Left
+                    Event19: !obj
+                      TypeIndex: 3
+                      StartFrame: 29.0
+                      EndFrame: 30.0
+                      Value: !str32 Left
+                    Event20: !obj
+                      TypeIndex: 3
+                      StartFrame: 31.0
+                      EndFrame: 32.0
+                      Value: !str32 Left
+                    Event21: !obj
+                      TypeIndex: 3
+                      StartFrame: 33.0
+                      EndFrame: 34.0
+                      Value: !str32 Stab
+                    Event22: !obj
+                      TypeIndex: 3
+                      StartFrame: 35.0
+                      EndFrame: 36.0
+                      Value: !str32 Left
+                    Event23: !obj
+                      TypeIndex: 3
+                      StartFrame: 37.0
+                      EndFrame: 38.0
+                      Value: !str32 Left
+                    Event24: !obj
+                      TypeIndex: 3
+                      StartFrame: 39.0
+                      EndFrame: 40.0
+                      Value: !str32 Left
+                    Event25: !obj
+                      TypeIndex: 3
+                      StartFrame: 41.0
+                      EndFrame: 42.0
+                      Value: !str32 Left
+                    Event26: !obj
+                      TypeIndex: 3
+                      StartFrame: 43.0
+                      EndFrame: 44.0
+                      Value: !str32 Stab
+                    Event27: !obj
+                      TypeIndex: 3
+                      StartFrame: 45.0
+                      EndFrame: 46.0
+                      Value: !str32 Left
+                    Event28: !obj
+                      TypeIndex: 3
+                      StartFrame: 47.0
+                      EndFrame: 48.0
+                      Value: !str32 Left
+                    Event29: !obj
+                      TypeIndex: 3
+                      StartFrame: 49.0
+                      EndFrame: 50.0
+                      Value: !str32 Left
+                    Event30: !obj
+                      TypeIndex: 3
+                      StartFrame: 51.0
+                      EndFrame: 52.0
+                      Value: !str32 Left
+                    Event31: !obj
+                      TypeIndex: 3
+                      StartFrame: 53.0
+                      EndFrame: 54.0
+                      Value: !str32 Stab
+                    Event32: !obj
+                      TypeIndex: 3
+                      StartFrame: 54.0
+                      EndFrame: 55.0
+                      Value: !str32 Left
+                    Event33: !obj
+                      TypeIndex: 3
+                      StartFrame: 56.0
+                      EndFrame: 57.0
+                      Value: !str32 Left
+                    Event34: !obj
+                      TypeIndex: 3
+                      StartFrame: 58.0
+                      EndFrame: 50.0
+                      Value: !str32 Left
+                    Event35: !obj
+                      TypeIndex: 3
+                      StartFrame: 59.0
+                      EndFrame: 60.0
+                      Value: !str32 Left
                   lists: {}

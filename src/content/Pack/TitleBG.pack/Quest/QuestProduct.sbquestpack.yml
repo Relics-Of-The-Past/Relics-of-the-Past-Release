@@ -1,3 +1,39 @@
+- Location: MapArea_HyruleForest
+  Name: RelicsLostWoodsTrial
+  NotPostNote: false
+  Orderer: NPC_GodVoice
+  QuestDependencyFlag: HasAoCVer2
+  QuestDependencyFlagType: bool
+  StepDependencyFlags: []
+  Steps:
+  - {AttentionOff: false, MessageName: Desc, Name: Ready, NextFlag: RelicsLostWoodsTrial_Activated, UpdateStep: true}
+  - AttentionOff: false
+    IndicatorLocations:
+    - HasFar: false
+      InstanceName: RLW
+      Location: {X: 953.788696, Y: 279.45517, Z: -1863.72876}
+      OffFlag: MainField_Enemy_Moriblin_Gold_Volcano_4294647183
+    MessageName: Step01
+    Name: Step01
+    NextFlag: RelicsLostWoodsTrial_Step01
+    UpdateStep: true
+  - {AttentionOff: false, MessageName: Step02, Name: Step02, NextFlag: RelicsLostWoodsTrial_Step02, UpdateStep: true}
+  - {AttentionOff: false, MessageName: Finish, Name: Finish, NextFlag: RelicsLostWoodsTrial_Finished, UpdateStep: true}
+  Type: Main
+- Location: MapArea_CentralHyrule
+  Name: HyruleCastleQuest
+  NotPostNote: false
+  Orderer: NPC_GodVoice
+  QuestDependencyFlag: HasAoCVer2
+  QuestDependencyFlagType: bool
+  StepDependencyFlags: []
+  Steps:
+  - {AttentionOff: false, MessageName: Desc, Name: Ready, NextFlag: HyruleCastleQuest_Activated, UpdateStep: true}
+  - {AttentionOff: false, MessageName: Step01, Name: Step01, NextFlag: HyruleCastleQuest_Step01, UpdateStep: true}
+  - {AttentionOff: false, MessageName: Step02, Name: Step02, NextFlag: HyruleCastleQuest_Step02, UpdateStep: true}
+  - {AttentionOff: false, MessageName: Step03, Name: Step03, NextFlag: HyruleCastleQuest_Step03, UpdateStep: true}
+  - {AttentionOff: false, MessageName: Finish, Name: Finish, NextFlag: HyruleCastleQuest_Finished, UpdateStep: true}
+  Type: Main
 - Location: HopesPlateau
   Name: FirstTower
   NotPostNote: false

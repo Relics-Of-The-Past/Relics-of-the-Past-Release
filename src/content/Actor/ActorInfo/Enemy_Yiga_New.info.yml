@@ -1,7 +1,7 @@
 aabbMax: {X: 0.688262999, Y: 3.7897799, Z: 1.01874995}
 aabbMin: {X: -0.785969973, Y: -0.00462399982, Z: -1.10420001}
 attackPower: 30
-bfres: Enemy_Assassin_Leader
+bfres: Enemy_Yiga_New
 boundingForTraverse: 3.79440403
 bugMask: 3
 cursorOffsetY: 1.14999998
@@ -10,13 +10,13 @@ drops:
   Normal2: [Item_Ore_F, Item_Ore_E, Item_Ore_D, Item_Ore_B, Item_Ore_C]
 elink: Assassin_Middle
 enemyRank: 28
-generalLife: 610
+generalLife: 3050
 homeArea:
 - {name: GerudoHighlands}
 - {name: TamulPlateau}
 - {name: CentralHyrule}
-instSize: 262076
-mainModel: Enemy_Yiga_New
+instSize: 414150
+mainModel: Yiga_New
 name: Enemy_Yiga_New
 pictureBookLiveSpot1: 21
 pictureBookLiveSpot2: -1

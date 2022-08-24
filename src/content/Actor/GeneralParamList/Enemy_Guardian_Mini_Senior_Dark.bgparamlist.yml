@@ -17,7 +17,7 @@ param_root: !list
       ChangeDropTableName: ''
     Enemy: !obj
       Rank: 16
-      Power: 12
+      Power: 24
       DropLife: 0
       DyingLife: 20
       LostDist: 100.0
@@ -93,7 +93,7 @@ param_root: !list
       LongAttackTimeMin: 5
       LongAttackTimeMax: 5
     Attack: !obj
-      Power: 12
+      Power: 24
       Impulse: 0
       ImpulseLarge: 0
       Range: 0.0

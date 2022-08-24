@@ -25584,7 +25584,7 @@ Objs:
 - '!Parameters':
     ArrowName: NormalArrow
     BeamRange: 0.0
-    DropTable: Normal2
+    DropActor: Item_Enemy_30
     EquipItem1: Weapon_Sword_015
     EquipItem4: Default
     IsAnnihilateDungeonEnemy: false
@@ -25598,6 +25598,32 @@ Objs:
   SRTHash: 0
   Translate: [1280.42468, 220.664474, 3074.19849]
   UnitConfigName: Enemy_Guardian_Mini_Junior_Dark
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xfff3baf9
+  Rotate: [0.0, 0.0, 0.0]
+  SRTHash: 0
+  Translate: [1524.854, 234.313522, 3203.88428]
+  UnitConfigName: Enemy_Guardian_B
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: true
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: false
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 1
+    Life: -1
+    SharpWeaponJudgeType: 3
+  HashId: !u 0xfff3bafa
+  Rotate: [0.438957959, 5.55111512e-17, -1.67383301]
+  SRTHash: 0
+  Translate: [1568.271, 215.613373, 3186.81421]
+  UnitConfigName: Weapon_Spear_024
 Rails:
 - HashId: !u 0x0ad636dd
   IsClosed: false

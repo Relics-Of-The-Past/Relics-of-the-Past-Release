@@ -1260,9 +1260,9 @@ Objs:
     TerritoryArea: 0.0
     WaitTime: 1.0
   HashId: !u 0xff9185a1
-  Rotate: -0.839999974
+  Rotate: -0.239999995
   SRTHash: 1073251713
-  Translate: [4521.66797, 105.004723, 2475.42627]
+  Translate: [4528.6167, 112.004723, 2465.51294]
   UnitConfigName: Enemy_Lizalfos_Junior
 - '!Parameters':
     EquipItem1: Weapon_Spear_007
@@ -1278,9 +1278,9 @@ Objs:
     TerritoryArea: 0.0
     WaitTime: 1.0
   HashId: !u 0xff9185a2
-  Rotate: 0.26000002
+  Rotate: -1.13999999
   SRTHash: 1073251713
-  Translate: [4584.10547, 105.782799, 2476.62183]
+  Translate: [4581.09814, 107.582802, 2471.66406]
   UnitConfigName: Enemy_Lizalfos_Junior
 - '!Parameters':
     EquipItem1: Weapon_Sword_007
@@ -1676,143 +1676,4 @@ Objs:
   SRTHash: 1073251713
   Translate: [4221.84326, 145.817841, 2243.1062]
   UnitConfigName: Enemy_Lizalfos_Junior
-- '!Parameters':
-    EquipItem1: Weapon_Sword_007
-    EquipItem2: Weapon_Shield_007
-    FortressEatPer: -1
-    IsMimicry: false
-    IsNearCreate: false
-    IsWatchKeeping: false
-    LevelSensorMode: 1
-    OnCliff: false
-    OnCliffTurn: true
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 0
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0xff9185ca
-  Rotate: -0.239999995
-  SRTHash: 1073251713
-  Translate: [4583.50244, 105.790291, 2167.60962]
-  UnitConfigName: Enemy_Lizalfos_Junior
-- '!Parameters':
-    EquipItem1: Weapon_Spear_007
-    FortressEatPer: -1
-    IsMimicry: false
-    IsNearCreate: false
-    IsWatchKeeping: false
-    LevelSensorMode: 1
-    OnCliff: false
-    OnCliffTurn: true
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 0
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0xff9185cc
-  Rotate: 0.860000014
-  SRTHash: 1073251713
-  Translate: [4572.6167, 101.190285, 2176.97168]
-  UnitConfigName: Enemy_Lizalfos_Junior
-- '!Parameters':
-    ArrowName: NormalArrow
-    EquipItem1: Weapon_Bow_004
-    FortressEatPer: -1
-    IsMimicry: false
-    IsNearCreate: false
-    IsWatchKeeping: true
-    LevelSensorMode: 1
-    OnCliff: false
-    OnCliffTurn: true
-    RotAngle: 60.0
-    SharpWeaponJudgeType: 0
-    TerritoryArea: 0.0
-    WaitTime: 150.0
-  HashId: !u 0xff9185cd
-  Rotate: 0.14000006
-  SRTHash: 120624537
-  Translate: [4596.16162, 107.751228, 2185.81787]
-  UnitConfigName: Enemy_Lizalfos_Guard_Middle
-- '!Parameters': {DropActor: PutRupee_Purple, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
-  HashId: !u 0xff9185cf
-  Rotate: [-0.40608421, -2.5999999, -0.000682445592]
-  SRTHash: 2104824807
-  Translate: [4589.44482, 102.58326, 2174.1416]
-  UnitConfigName: TBox_Field_Iron
-- '!Parameters':
-    EquipItem1: Weapon_Spear_007
-    FortressEatPer: -1
-    IsMimicry: false
-    IsNearCreate: false
-    IsWatchKeeping: false
-    LevelSensorMode: 1
-    OnCliff: false
-    OnCliffTurn: true
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 0
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0xff9185d1
-  Rotate: -1.74000001
-  SRTHash: 1073251713
-  Translate: [4547.89062, 105.782799, 2501.94336]
-  UnitConfigName: Enemy_Lizalfos_Middle
-- '!Parameters':
-    EquipItem1: Weapon_Sword_007
-    EquipItem2: Weapon_Shield_007
-    FortressEatPer: -1
-    IsMimicry: false
-    IsNearCreate: false
-    IsWatchKeeping: false
-    LevelSensorMode: 1
-    OnCliff: false
-    OnCliffTurn: true
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 0
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0xff9185d2
-  Rotate: -1.63999999
-  SRTHash: 1073251713
-  Translate: [4534.05273, 107.20472, 2445.26733]
-  UnitConfigName: Enemy_Lizalfos_Junior
-- '!Parameters':
-    FortressEatPer: -1
-    IsMimicry: false
-    IsNearCreate: false
-    IsWatchKeeping: false
-    LevelSensorMode: 1
-    OnCliff: false
-    OnCliffTurn: true
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 0
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0xff9185d3
-  Rotate: 2.46000004
-  SRTHash: 1073251713
-  Translate: [4568.81885, 105.582802, 2436.49854]
-  UnitConfigName: Enemy_Lizalfos_Electric
-- '!Parameters':
-    FortressEatPer: -1
-    IsMimicry: false
-    IsNearCreate: false
-    IsWatchKeeping: false
-    LevelSensorMode: 1
-    OnCliff: false
-    OnCliffTurn: true
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 0
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0xff9185d4
-  Rotate: -0.74000001
-  SRTHash: 1073251713
-  Translate: [4518.07178, 106.1828, 2427.16528]
-  UnitConfigName: Enemy_Lizalfos_Electric
-- '!Parameters': {DropActor: Obj_ArrowBundle_A_30, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
-  HashId: !u 0xff9185d5
-  Rotate: [-0.168325767, -0.0196464304, 0.195525482]
-  SRTHash: -1487920567
-  Translate: [4542.60547, 107.33992, 2382.15234]
-  UnitConfigName: TBox_Field_Stone
 Rails: []

@@ -12,4 +12,12 @@ param_root: !list
             Parameters: !obj
               TypeIndex: 67
               FileName: !str64 Stun_Sword_Start
-          lists: {}
+          lists:
+            Extend: !list
+              objects: {}
+              lists:
+                FrameCtrl: !list
+                  objects:
+                    FrameCtrl0: !obj
+                      Rate: 1.39999998
+                  lists: {}

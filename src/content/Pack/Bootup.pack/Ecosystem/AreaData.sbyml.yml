@@ -230,6 +230,42 @@
     folder_name: Plant_CornFlower_Folder
     num: 100.0
   Enemy:
+  - name: Enemy_Bokoblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_013, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_003, prob: 100.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_035,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_024,Weapon_Shield_022', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
   - {name: Enemy_Chuchu_Junior, num: 1.0}
   - {name: Enemy_Keese, num: 2.0}
   - name: Enemy_Bokoblin_Bone_Junior
@@ -606,6 +642,69 @@
     folder_name: Plant_OatsGrassB_Folder
     num: 100.0
   Enemy:
+  - {name: Enemy_Chuchu_Ice_Middle, num: 5.0}
+  - {name: Enemy_Keese_Ice_AllDay, num: 15.0}
+  - name: Enemy_Moriblin_Bone_Junior_AllDay
+    num: 25.0
+    weapons:
+    - {name: 'Weapon_Sword_024,Weapon_Shield_003', prob: 10.0}
+    - {name: Weapon_Sword_002, prob: 10.0}
+    - {name: Weapon_Lsword_011, prob: 90.0}
+    - {name: Weapon_Lsword_002, prob: 10.0}
+    - {name: Weapon_Lsword_011, prob: 90.0}
+    - {name: Weapon_Spear_002, prob: 10.0}
+    - {name: Weapon_Spear_011, prob: 90.0}
+    - {name: Weapon_Bow_030, prob: 90.0}
+    - {name: Weapon_Lsword_011, prob: 90.0}
+  - name: Enemy_Lizalfos_Bone_Junior_AllDay
+    num: 25.0
+    weapons:
+    - {name: 'Weapon_Sword_002,Weapon_Shield_002', prob: 10.0}
+    - {name: Weapon_Sword_002, prob: 10.0}
+    - {name: Weapon_Lsword_011, prob: 90.0}
+    - {name: Weapon_Lsword_024, prob: 10.0}
+    - {name: Weapon_Lsword_011, prob: 90.0}
+    - {name: Weapon_Spear_002, prob: 10.0}
+    - {name: Weapon_Spear_009, prob: 90.0}
+    - {name: Weapon_Bow_003, prob: 10.0}
+    - {name: Weapon_Lsword_014, prob: 90.0}
+  - {name: Enemy_Bokoblin_Bone_Junior_AllDay, num: 10.0}
+  - name: Enemy_Bokoblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_002, prob: 100.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_033, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
   - {name: Enemy_Chuchu_Ice_Senior, num: 2.0}
   - {name: Enemy_Keese_Ice, num: 2.0}
   - name: Enemy_Moriblin_Bone_Junior
@@ -863,8 +962,33 @@
     folder_name: Plant_OatsGrassB_Folder
     num: 100.0
   Enemy:
-  - {name: Enemy_Chuchu_Ice_Middle, num: 1.0}
-  - {name: Enemy_Keese_Ice, num: 2.0}
+  - {name: Enemy_Chuchu_Ice_Middle, num: 5.0}
+  - {name: Enemy_Keese_Ice_AllDay, num: 15.0}
+  - name: Enemy_Moriblin_Bone_Junior_AllDay
+    num: 25.0
+    weapons:
+    - {name: 'Weapon_Sword_024,Weapon_Shield_003', prob: 10.0}
+    - {name: Weapon_Sword_002, prob: 10.0}
+    - {name: Weapon_Lsword_011, prob: 90.0}
+    - {name: Weapon_Lsword_002, prob: 10.0}
+    - {name: Weapon_Lsword_011, prob: 90.0}
+    - {name: Weapon_Spear_002, prob: 10.0}
+    - {name: Weapon_Spear_011, prob: 90.0}
+    - {name: Weapon_Bow_030, prob: 90.0}
+    - {name: Weapon_Lsword_011, prob: 90.0}
+  - name: Enemy_Lizalfos_Bone_Junior_AllDay
+    num: 25.0
+    weapons:
+    - {name: 'Weapon_Sword_002,Weapon_Shield_002', prob: 10.0}
+    - {name: Weapon_Sword_002, prob: 10.0}
+    - {name: Weapon_Lsword_011, prob: 90.0}
+    - {name: Weapon_Lsword_024, prob: 10.0}
+    - {name: Weapon_Lsword_011, prob: 90.0}
+    - {name: Weapon_Spear_002, prob: 10.0}
+    - {name: Weapon_Spear_009, prob: 90.0}
+    - {name: Weapon_Bow_003, prob: 10.0}
+    - {name: Weapon_Lsword_014, prob: 90.0}
+  - {name: Enemy_Bokoblin_Bone_Junior_AllDay, num: 10.0}
   - name: Enemy_Moriblin_Bone_Junior
     num: 1.0
     weapons:
@@ -892,7 +1016,7 @@
     - {name: Weapon_Bow_035, prob: 100.0}
   - {name: Enemy_Golem_Little, num: 1.0}
   - name: Enemy_Octarock_Snow
-    num: 1.0
+    num: 5.0
     weapons:
     - {name: OctObj_Grass_08}
   - {name: Enemy_Dragon_Electric, num: 1.0}
@@ -1040,7 +1164,44 @@
     folder_name: Plant_OatsGrass_Folder
     num: 60.0
   Enemy:
+  - name: Enemy_Bokoblin_Dark
+    num: 50.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_030, prob: 100.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 50.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_027, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 50.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_006, prob: 100.0}
+  - {name: Enemy_Guardian_A, num: 50.0}
   - {name: Enemy_Chuchu_Senior, num: 1.0}
+  - {name: Enemy_Moriblin_Junior, num: 20.0}
   - {name: Enemy_Keese, num: 2.0}
   - name: Enemy_Moriblin_Bone_Junior
     num: 1.0
@@ -1342,20 +1503,33 @@
     folder_name: Plant_OatsGrass_Folder
     num: 50.0
   Enemy:
-  - {name: Enemy_Chuchu_Middle, num: 1.0}
-  - {name: Enemy_Keese, num: 2.0}
-  - name: Enemy_Moriblin_Bone_Junior
-    num: 1.0
+  - {name: Enemy_Chuchu_Electric_Middle, num: 5.0}
+  - {name: Enemy_Keese_Ice_AllDay, num: 15.0}
+  - name: Enemy_Moriblin_Bone_Junior_AllDay
+    num: 25.0
     weapons:
-    - {name: 'Weapon_Sword_002,Weapon_Shield_002', prob: 10.0}
+    - {name: 'Weapon_Sword_024,Weapon_Shield_003', prob: 10.0}
     - {name: Weapon_Sword_002, prob: 10.0}
     - {name: Weapon_Lsword_011, prob: 90.0}
     - {name: Weapon_Lsword_002, prob: 10.0}
     - {name: Weapon_Lsword_011, prob: 90.0}
     - {name: Weapon_Spear_002, prob: 10.0}
     - {name: Weapon_Spear_011, prob: 90.0}
-    - {name: Weapon_Bow_002, prob: 10.0}
+    - {name: Weapon_Bow_030, prob: 90.0}
     - {name: Weapon_Lsword_011, prob: 90.0}
+  - name: Enemy_Lizalfos_Bone_Junior_AllDay
+    num: 25.0
+    weapons:
+    - {name: 'Weapon_Sword_002,Weapon_Shield_002', prob: 10.0}
+    - {name: Weapon_Sword_002, prob: 10.0}
+    - {name: Weapon_Lsword_011, prob: 90.0}
+    - {name: Weapon_Lsword_024, prob: 10.0}
+    - {name: Weapon_Lsword_011, prob: 90.0}
+    - {name: Weapon_Spear_002, prob: 10.0}
+    - {name: Weapon_Spear_009, prob: 90.0}
+    - {name: Weapon_Bow_003, prob: 10.0}
+    - {name: Weapon_Lsword_014, prob: 90.0}
+  - {name: Enemy_Bokoblin_Bone_Junior_AllDay, num: 10.0}
   - {name: Enemy_Assassin_Shooter_Junior, num: 1.0}
   - {name: Enemy_Golem_Little, num: 1.0}
   - {name: Enemy_Dragon_Electric, num: 1.0}
@@ -3530,6 +3704,28 @@
     folder_name: Plant_HopBushB_Folder
     num: 5.0
   Enemy:
+  - name: Enemy_Bokoblin_Dark
+    num: 15.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_013, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_003, prob: 100.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 15.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_035,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Bow_003, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 15.0
+    weapons:
+    - {name: Weapon_Bow_036, prob: 100.0}
   - {name: Enemy_Chuchu_Electric_Middle, num: 1.0}
   - {name: Enemy_Keese_Electric, num: 1.0}
   - name: Enemy_Lizalfos_Bone_Junior
@@ -4313,7 +4509,44 @@
     folder_name: Plant_CornFlower_Folder
     num: 250.0
   Enemy:
-  - {name: Enemy_Chuchu_Senior, num: 1.0}
+  - name: Enemy_Bokoblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_013, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_003, prob: 100.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_035,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_024,Weapon_Shield_022', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
+  - {name: Enemy_Chuchu_Junior, num: 1.0}
+  - {name: Enemy_Guardian_A, num: 5.0}
   - {name: Enemy_Keese_Swarm, num: 2.0}
   - name: Enemy_Bokoblin_Bone_Junior
     num: 1.0
@@ -4816,6 +5049,42 @@
     folder_name: Plant_OatsGrass_Folder
     num: 50.0
   Enemy:
+  - name: Enemy_Bokoblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_013, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_003, prob: 100.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_035,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_024,Weapon_Shield_022', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
   - {name: Enemy_Chuchu_Electric_Middle, num: 1.0}
   - {name: Enemy_Keese_Electric, num: 2.0}
   - name: Enemy_Bokoblin_Bone_Junior
@@ -4825,8 +5094,6 @@
     - {name: Weapon_Sword_002, prob: 10.0}
     - {name: 'Weapon_Sword_005,Weapon_Shield_005', prob: 90.0}
     - {name: Weapon_Sword_005, prob: 90.0}
-    - {name: Weapon_Lsword_002, prob: 10.0}
-    - {name: Weapon_Lsword_005, prob: 90.0}
     - {name: Weapon_Spear_002, prob: 10.0}
     - {name: Weapon_Spear_005, prob: 90.0}
     - {name: Weapon_Bow_002, prob: 10.0}
@@ -5225,7 +5492,44 @@
     folder_name: Plant_OatsGrass_Folder
     num: 60.0
   Enemy:
+  - name: Enemy_Bokoblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_013, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_003, prob: 100.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_035,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_024,Weapon_Shield_022', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
   - {name: Enemy_Chuchu_Junior, num: 1.0}
+  - {name: Enemy_Guardian_A, num: 5.0}
   - {name: Enemy_Keese_Swarm, num: 2.0}
   - name: Enemy_Bokoblin_Bone_Junior
     num: 1.0
@@ -6593,6 +6897,42 @@
     folder_name: Plant_CornFlower_Folder
     num: 50.0
   Enemy:
+  - name: Enemy_Bokoblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_002, prob: 100.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_033, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
   - {name: Enemy_Chuchu_Middle, num: 1.0}
   - {name: Enemy_Keese_Electric, num: 2.0}
   - name: Enemy_Bokoblin_Bone_Junior
@@ -6781,6 +7121,42 @@
     folder_name: Plant_OatsGrass_Folder
     num: 50.0
   Enemy:
+  - name: Enemy_Bokoblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_001, prob: 100.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
   - {name: Enemy_Chuchu_Senior, num: 1.0}
   - {name: Enemy_Keese, num: 2.0}
   - name: Enemy_Lizalfos_Bone_Junior
@@ -7589,6 +7965,42 @@
     folder_name: Plant_CornFlower_Folder
     num: 50.0
   Enemy:
+  - name: Enemy_Bokoblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_013, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_003, prob: 100.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_035,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_024,Weapon_Shield_022', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
   - {name: Enemy_Chuchu_Junior, num: 1.0}
   - {name: Enemy_Keese, num: 2.0}
   - name: Enemy_Bokoblin_Bone_Junior
@@ -9105,6 +9517,42 @@
   Enemy:
   - {name: Enemy_Chuchu_Middle, num: 1.0}
   - {name: Enemy_Keese, num: 2.0}
+  - name: Enemy_Bokoblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_033, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
   - name: Enemy_Bokoblin_Bone_Junior
     num: 1.0
     weapons:
@@ -10765,6 +11213,42 @@
     folder_name: Plant_HopBushB_Folder
     num: 50.0
   Enemy:
+  - name: Enemy_Bokoblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_013, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_023, prob: 50.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_035,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_047, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_024,Weapon_Shield_022', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_029, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
   - {name: Enemy_Chuchu_Electric_Middle, num: 1.0}
   - {name: Enemy_Keese_Electric, num: 2.0}
   - name: Enemy_Moriblin_Bone_Junior
@@ -11000,6 +11484,42 @@
     folder_name: Plant_OatsGrass_Folder
     num: 50.0
   Enemy:
+  - name: Enemy_Bokoblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_013, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_003, prob: 100.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_035,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_024,Weapon_Shield_022', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
   - {name: Enemy_Chuchu_Electric_Junior, num: 1.0}
   - {name: Enemy_Keese_Electric, num: 2.0}
   - name: Enemy_Bokoblin_Bone_Junior
@@ -11322,6 +11842,43 @@
     num: 60.0
   Enemy:
   - {name: Enemy_Chuchu_Senior, num: 1.0}
+  - {name: Enemy_Guardian_A, num: 2.0}
+  - name: Enemy_Bokoblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_035, prob: 100.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_035, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: 'Weapon_Sword_003,Weapon_Shield_003', prob: 100.0}
+    - {name: Weapon_Sword_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_003, prob: 100.0}
+    - {name: Weapon_Spear_012, prob: 100.0}
+    - {name: Weapon_Spear_003, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Bow_035, prob: 100.0}
   - {name: Enemy_Keese, num: 2.0}
   - name: Enemy_Moriblin_Bone_Junior
     num: 1.0
@@ -11930,6 +12487,42 @@
     folder_name: Plant_CornFlower_Folder
     num: 200.0
   Enemy:
+  - name: Enemy_Bokoblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_047, prob: 100.0}
+    - {name: 'Weapon_Sword_024,Weapon_Shield_022', prob: 100.0}
+    - {name: Weapon_Sword_047, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_023, prob: 100.0}
+    - {name: Weapon_Spear_024, prob: 100.0}
+    - {name: Weapon_Spear_024, prob: 100.0}
+    - {name: Weapon_Lsword_024, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
+  - name: Enemy_Lizalfos_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_047, prob: 100.0}
+    - {name: 'Weapon_Sword_024,Weapon_Shield_022', prob: 100.0}
+    - {name: Weapon_Sword_047, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_023, prob: 100.0}
+    - {name: Weapon_Spear_024, prob: 100.0}
+    - {name: Weapon_Spear_024, prob: 100.0}
+    - {name: Weapon_Lsword_024, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
+  - name: Enemy_Moriblin_Dark
+    num: 10.0
+    weapons:
+    - {name: Weapon_Lsword_047, prob: 100.0}
+    - {name: 'Weapon_Sword_024,Weapon_Shield_022', prob: 100.0}
+    - {name: Weapon_Sword_047, prob: 100.0}
+    - {name: Weapon_Lsword_012, prob: 100.0}
+    - {name: Weapon_Lsword_023, prob: 100.0}
+    - {name: Weapon_Spear_024, prob: 100.0}
+    - {name: Weapon_Spear_024, prob: 100.0}
+    - {name: Weapon_Lsword_024, prob: 100.0}
+    - {name: Weapon_Bow_036, prob: 100.0}
   - {name: Enemy_Chuchu_Senior, num: 1.0}
   - {name: Enemy_Keese, num: 2.0}
   - name: Enemy_Moriblin_Bone_Junior

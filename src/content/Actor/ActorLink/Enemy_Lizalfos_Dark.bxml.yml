@@ -19,7 +19,7 @@ param_root: !list
       ElinkUser: Lizalfos
       GParamUser: Enemy_Lizalfos_Dark
       LifeConditionUser: Enemy
-      LODUser: Dummy
+      LODUser: EnemyNoCalcSkip
       ModelUser: Enemy_Lizalfos_Dark
       PhysicsUser: Lizalfos
       ProfileUser: Enemy

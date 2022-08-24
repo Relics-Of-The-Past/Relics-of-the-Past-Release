@@ -177,7 +177,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -340,7 +340,7 @@ Objs:
     IsDrop: false
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     NearCreateAppearType: 0
     RotAngle: 0.0
@@ -867,7 +867,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0x2f49b1ad
@@ -977,7 +977,7 @@ Objs:
     IsDrop: false
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     NearCreateAppearType: 0
     RotAngle: 0.0
@@ -1918,7 +1918,7 @@ Objs:
     IsDrop: false
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     NearCreateAppearType: 0
     RotAngle: 0.0
@@ -1960,7 +1960,7 @@ Objs:
   SRTHash: 0
   Translate: [-3585.42114, 313.269867, 459.985931]
   UnitConfigName: LinkTagNone
-- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x62c1701d
   LinksToObj:
@@ -2349,7 +2349,7 @@ Objs:
   SRTHash: 1825234782
   Translate: [-3461.66284, 178.670746, 166.299103]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {EquipItem1: Weapon_Sword_006, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Sword_006, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x733932e9
   LinksToObj:
@@ -2411,7 +2411,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 60.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -2754,7 +2754,7 @@ Objs:
   SRTHash: 1649203761
   Translate: [-3011.93213, 173.253052, 39.711731]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_10_Far
-- '!Parameters': {EquipItem1: Weapon_Lsword_012, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Lsword_012, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x8797de65
   LinksToObj:
@@ -3077,7 +3077,7 @@ Objs:
   SRTHash: 0
   Translate: [-3518.30005, 326.600006, 494.600006]
   UnitConfigName: LinkTagNone
-- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x99a751b6
   LinksToObj:
@@ -3154,7 +3154,7 @@ Objs:
     IsDrop: false
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     NearCreateAppearType: 0
     RotAngle: 0.0
@@ -3394,7 +3394,7 @@ Objs:
   Translate: [-3618.72705, 599.891663, 943.479248]
   UnitConfigName: TBox_Field_Enemy
 - '!Parameters': {EquipItem1: Weapon_Sword_006, EquipItem2: Weapon_Shield_006, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
-    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xa705a22e
   LinksToObj:
   - {DefinitionName: Reference, DestUnitHashId: !u 0x7ce55e95}
@@ -3754,7 +3754,7 @@ Objs:
     IsDrop: false
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     NearCreateAppearType: 0
     RotAngle: 0.0
@@ -3773,7 +3773,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 60.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -3795,7 +3795,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -4074,7 +4074,7 @@ Objs:
   Translate: [-3510.3457, 659.014221, 943.468201]
   UnitConfigName: FldObj_GerudoHighlandRock_A_04
 - '!Parameters': {EquipItem1: Weapon_Sword_029, EquipItem2: Weapon_Shield_026, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
-    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xd40d85e1
   LinksToObj:
   - {DefinitionName: Reference, DestUnitHashId: !u 0x7ce55e95}
@@ -4314,7 +4314,7 @@ Objs:
   SRTHash: 1257283389
   Translate: [-3673.78589, 550.792297, 698.304688]
   UnitConfigName: Npc_HiddenKorokGround
-- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xdd87f8ac
   LinksToObj:
@@ -4644,7 +4644,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0xeec76e6d
@@ -4676,7 +4676,7 @@ Objs:
     IsDrop: false
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     NearCreateAppearType: 0
     RotAngle: 0.0

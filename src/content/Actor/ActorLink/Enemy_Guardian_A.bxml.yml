@@ -1,12 +1,12 @@
 !io
 version: 0
-type: xml
+type: ''
 param_root: !list
   objects:
     LinkTarget: !obj
       ActorNameJpn: ガーディアン（歩行型）
       Priority: Default
-      AIProgramUser: Guardian_A
+      AIProgramUser: Enemy_Guardian_A
       AIScheduleUser: Dummy
       ASUser: Enemy_Guardian_A
       AttentionUser: Guardian_A

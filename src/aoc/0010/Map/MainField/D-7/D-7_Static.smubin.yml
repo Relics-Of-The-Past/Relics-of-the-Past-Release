@@ -10762,8 +10762,8 @@ Objs:
   Translate: [-1662.28845, 111.383331, 2254.66333]
   UnitConfigName: Enemy_Lizalfos_Guard_Middle_LongVisibility
 - '!Parameters':
-    AddParam: 300
-    AddSpecialFlag: -2147483520
+    AddParam: 30
+    AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: true
     IsCreateSharpWeapon: false
@@ -10778,7 +10778,7 @@ Objs:
   Rotate: [3.18267465, -0.200000003, -0.469236106]
   SRTHash: 0
   Translate: [-1584.85706, 89.481636, 2209.12842]
-  UnitConfigName: Weapon_Shield_022
+  UnitConfigName: Weapon_Shield_033
 - '!Parameters':
     ArrowName: NormalArrow
     EquipItem1: Weapon_Bow_003

@@ -524,7 +524,7 @@ Objs:
     IsFixedPlace: false
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0x0d3aa9f6
@@ -10102,5 +10102,45 @@ Objs:
   HashId: !u 0xffd87955
   SRTHash: 203693185
   Translate: [-489.225739, 130.419159, 597.765686]
+  UnitConfigName: Enemy_Bokoblin_Junior
+- '!Parameters':
+    ArrowName: BombArrow_A
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_004
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RideHorseName: GameRomHorse21
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffd8795e
+  SRTHash: 203693185
+  Translate: [-545.666382, 128.494904, 525.505127]
+  UnitConfigName: Enemy_Bokoblin_Junior
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_004
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RideHorseName: GameRomHorse21
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffd8795f
+  SRTHash: 203693185
+  Translate: [-548.3255, 128.294907, 518.457214]
   UnitConfigName: Enemy_Bokoblin_Junior
 Rails: []

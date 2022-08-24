@@ -1,0 +1,34 @@
+!io
+version: 0
+type: xml
+param_root: !list
+  objects:
+    Header: !obj
+      TableNum: 2
+      Table01: !str64 Normal
+      Table02: !str64 Normal2
+    Normal: !obj
+      RepeatNumMin: 1
+      RepeatNumMax: 4
+      ApproachType: 0
+      OccurrenceSpeedType: 0
+      ColumnNum: 1
+      ItemName01: !str64 Item_Fruit_H
+      ItemProbability01: 100.0
+    Normal2: !obj
+      RepeatNumMin: 1
+      RepeatNumMax: 4
+      ApproachType: 0
+      OccurrenceSpeedType: 0
+      ColumnNum: 5
+      ItemName01: !str64 Item_Ore_A
+      ItemProbability01: 10.0
+      ItemName02: !str64 Item_Ore_E
+      ItemProbability02: 10.0
+      ItemName03: !str64 Item_Ore_D
+      ItemProbability03: 10.0
+      ItemName04: !str64 Item_Ore_B
+      ItemProbability04: 10.0
+      ItemName05: !str64 Item_Ore_C
+      ItemProbability05: 12.0
+  lists: {}

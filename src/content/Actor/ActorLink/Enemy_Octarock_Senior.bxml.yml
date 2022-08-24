@@ -13,13 +13,13 @@ param_root: !list
       AwarenessUser: UnderGroundOctarock_Senior
       BoneControlUser: Enemy_Octarock
       ActorCaptureUser: Dummy
-      ChemicalUser: Octarock
+      ChemicalUser: Octarock_Senior
       DamageParamUser: Enemy_Octarock_Senior
       DropTableUser: Octarock_Senior
       ElinkUser: Octarock
       GParamUser: Enemy_Octarock_Senior
       LifeConditionUser: Dummy
-      LODUser: Dummy
+      LODUser: EnemyNoCalcSkip
       ModelUser: Enemy_Octarock_Forest
       PhysicsUser: Enemy_Octarock_Forest
       ProfileUser: Enemy

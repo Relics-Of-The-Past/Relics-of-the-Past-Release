@@ -1803,7 +1803,7 @@ Objs:
   Scale: 1.20000005
   Translate: [2142.8623, 215.906479, 1384.84424]
   UnitConfigName: FldObj_RockSheiker_A_M_02
-- '!Parameters': {DropActor: PutRupee_Purple, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: PutRupee_Gold, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x2aff540b
   Rotate: [-0.00520521961, 0.000236950829, -0.00293349405]
   SRTHash: 130736943
@@ -11919,4 +11919,42 @@ Objs:
   SRTHash: -455447613
   Translate: [2739.2019, 141.026993, 1863.00818]
   UnitConfigName: Enemy_Place_Holder_03
+- HashId: !u 0xfffa5cfb
+  SRTHash: 0
+  Translate: [2691.68726, 221.092621, 1330.36841]
+  UnitConfigName: Obj_HeartUtuwa_A_01
+- '!Parameters':
+    ArrowName: NormalArrow
+    EquipItem1: Weapon_Bow_032
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    RideHorseName: GameRomHorse22
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfff5f993
+  Rotate: 0.0
+  SRTHash: 1760948417
+  Translate: [2533.37671, 327.219147, 1296.04822]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    EquipItem1: Weapon_Bow_032
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    RideHorseName: GameRomHorse22
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfffa5cfc
+  Rotate: 0.0
+  SRTHash: 1760948417
+  Translate: [2474.87329, 321.619141, 1306.17212]
+  UnitConfigName: Enemy_Bokoblin_Middle
 Rails: []

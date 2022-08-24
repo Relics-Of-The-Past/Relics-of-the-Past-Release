@@ -22,8 +22,8 @@ param_root: !list
       Range: 1.60000002
       GuardBreakPower: 5
       SpHitActor: Enemy_Ganon,Enemy_SiteBoss_Sword,Enemy_SiteBoss_Lsword,Enemy_SiteBoss_Spear,Enemy_SiteBoss_Bow,Enemy_SiteBoss_Sword_Castle,Enemy_SiteBoss_Lsword_Castle,Enemy_SiteBoss_Spear_Castle,Enemy_SiteBoss_Bow_Castle,Enemy_Guardian_Mini_Baby,Enemy_Guardian_Mini_Junior,Enemy_Guardian_Mini_Middle,Enemy_Guardian_Mini_Senior,Enemy_Guardian_Mini_Baby_Dark,Enemy_Guardian_Mini_Junior_Dark,Enemy_Guardian_Mini_Middle_Dark,Enemy_Guardian_Mini_Senior_Dark,Enemy_Guardian_Mini_Junior_Wipe
-      SpHitTag: TeamGuardian,IsEffectiveAncientWeapon
-      SpHitRatio: 2.0
+      SpHitTag: TeamGuardian,IsEffectiveAncientWeapon,TeamBokoblin,TeamMoriblin,TeamLizarfos
+      SpHitRatio: 1.60000002
       SpWeakHitActor: ''
       PowerForPlayer: -1
     WeaponCommon: !obj
@@ -52,7 +52,7 @@ param_root: !list
       StickDamage: 10
       ShootBeam: ''
       DropFromPorchRot: !vec3 [-45.0, 0.0, 0.0]
-      SharpWeaponPer: 10.0
+      SharpWeaponPer: 15.0
       SharpWeaponAddAtkMin: 9
       SharpWeaponAddAtkMax: 19
       SharpWeaponAddLifeMin: 6

@@ -70,8 +70,8 @@ param_root: !list
       PoweredSharpAddThrowMax: 1.0
       PoweredSharpAddSpreadFire: false
       PoweredSharpAddZoomRapid: false
-      PoweredSharpAddRapidFireMin: false
-      PoweredSharpAddRapidFireMax: false
+      PoweredSharpAddRapidFireMin: 1.10000002
+      PoweredSharpAddRapidFireMax: 1.29999995
       PoweredSharpAddSurfMaster: false
     Bow: !obj
       QuiverName: !str32 Weapon_Quiver_001

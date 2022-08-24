@@ -67,6 +67,11 @@ param_root: !list
                       EndFrame: 19.0
                       Value: !str32 Land
                   lists: {}
+                FrameCtrl: !list
+                  objects:
+                    FrameCtrl0: !obj
+                      EndFrame: 22.0
+                  lists: {}
         Element3: !list
           objects:
             Parameters: !obj
@@ -80,7 +85,7 @@ param_root: !list
                 FrameCtrl: !list
                   objects:
                     FrameCtrl0: !obj
-                      EndFrame: 55.0
+                      EndFrame: 22.0
                   lists: {}
                 HoldEvents: !list
                   objects:

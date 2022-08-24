@@ -721,7 +721,7 @@ Objs:
     IsHardModeActor: true
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 45.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -3979,9 +3979,18 @@ Objs:
   SRTHash: -1537171584
   Translate: [-116.517731, 139.549561, 903.280151]
   UnitConfigName: LinkTagOr
-- '!Parameters': {ChaseRange: 1500.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: false, SharpWeaponJudgeType: 1}
+- '!Parameters':
+    ChaseRange: 1500.0
+    DropTable: Normal
+    GuardianLegType0: Guardian_A_Leg
+    GuardianLegType1: Guardian_A_Leg
+    GuardianLegType2: Guardian_A_Leg
+    GuardianLegType3: Guardian_A_Leg
+    GuardianLegType4: Guardian_A_Leg
+    GuardianLegType5: Guardian_A_Leg
+    IsSuspended: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
   HashId: !u 0x8ad89560
   Rotate: [-0.0326022506, 0.0643167049, 0.257750541]
   SRTHash: 895778556
@@ -7631,7 +7640,7 @@ Objs:
 - '!Parameters':
     ArrowName: NormalArrow
     BeamRange: 0.0
-    DropTable: Normal
+    DropActor: Item_Enemy_30
     EquipItem1: Default
     EquipItem2: Default
     EquipItem3: Default
@@ -7719,8 +7728,18 @@ Objs:
   SRTHash: 18425004
   Translate: [-173.9375, 125.388748, 32.4621887]
   UnitConfigName: FldObj_RuinGuardian_A_01
-- '!Parameters': {EquipItem1: Weapon_Bow_003, EquipItem2: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
-    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+- '!Parameters':
+    ArrowName: BombArrow_A
+    EquipItem1: Weapon_Bow_028
+    EquipItem2: Default
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
   HashId: !u 0xffd87938
   Rotate: 2.79999995
   SRTHash: 564413069
@@ -8151,10 +8170,6 @@ Objs:
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
     IsDrop: false
     IsNearCreate: true
     IsWatchKeeping: false
@@ -8170,6 +8185,56 @@ Objs:
   SRTHash: 1687336004
   Translate: [-90.4454727, 132.232178, 901.523804]
   UnitConfigName: Enemy_Chuchu_Senior
+- '!Parameters': {EquipItem1: Weapon_Sword_003, EquipItem2: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffd87959
+  Rotate: 4.0
+  SRTHash: 564413069
+  Translate: [-881.701965, 121.926964, 983.829529]
+  UnitConfigName: Enemy_Place_Holder_03
+- '!Parameters': {EquipItem1: Weapon_Lsword_003, EquipItem2: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffd8795a
+  Rotate: 5.4000001
+  SRTHash: 564413069
+  Translate: [-884.445129, 122.126968, 976.753052]
+  UnitConfigName: Enemy_Place_Holder_03
+- '!Parameters': {EquipItem1: Weapon_Spear_003, EquipItem2: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffd8795b
+  Rotate: 5.4000001
+  SRTHash: 564413069
+  Translate: [-888.816223, 122.126968, 971.760315]
+  UnitConfigName: Enemy_Place_Holder_03
+- '!Parameters': {EquipItem1: Weapon_Lsword_015, EquipItem2: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffd8795c
+  Rotate: 5.4000001
+  SRTHash: 564413069
+  Translate: [-870.651123, 135.926971, 984.055176]
+  UnitConfigName: Enemy_Place_Holder
+- '!Parameters': {ChaseRange: 1200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffd8795d
+  Rotate: [0.0, -1.79999995, 0.0]
+  SRTHash: 0
+  Translate: [-700.867249, 128.373795, 448.561401]
+  UnitConfigName: Enemy_Guardian_A_Moss
+- '!Parameters': {ChaseRange: 500.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffd87960
+  Rotate: [0.0, 0.0, 0.0]
+  SRTHash: 0
+  Translate: [-70.3376007, 124.877289, 57.1363945]
+  UnitConfigName: Enemy_Guardian_A
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xffd87961
+  Rotate: [-0.108529188, -2.79999995, -0.128437996]
+  SRTHash: 1466309386
+  Translate: [-520.019958, 127.500435, 596.152771]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
 Rails:
 - '!Parameters': {DisableRenderMap: false, IsEnableHorseTrace: true, IsWalkable: false}
   HashId: !u 0x0361857b

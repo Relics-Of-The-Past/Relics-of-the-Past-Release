@@ -1,4 +1,16 @@
 string256_data:
+- DataName: SaveDistrictName
+  DeleteRev: -1
+  HashValue: -227599870
+  InitValue: ''
+  IsEventAssociated: false
+  IsOneTrigger: false
+  IsProgramReadable: true
+  IsProgramWritable: true
+  IsSave: true
+  MaxValue: ''
+  MinValue: ''
+  ResetType: 0
 - DataName: dummy_string256
   DeleteRev: -1
   HashValue: 1017120663
@@ -14,18 +26,6 @@ string256_data:
 - DataName: SaveLocationName
   DeleteRev: -1
   HashValue: 1188193974
-  InitValue: ''
-  IsEventAssociated: false
-  IsOneTrigger: false
-  IsProgramReadable: true
-  IsProgramWritable: true
-  IsSave: true
-  MaxValue: ''
-  MinValue: ''
-  ResetType: 0
-- DataName: SaveDistrictName
-  DeleteRev: -1
-  HashValue: -227599870
   InitValue: ''
   IsEventAssociated: false
   IsOneTrigger: false

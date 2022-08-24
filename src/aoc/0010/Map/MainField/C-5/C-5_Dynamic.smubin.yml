@@ -271,7 +271,7 @@ Objs:
   SRTHash: -1094207792
   Translate: [-2193.25684, 268.625671, 799.240723]
   UnitConfigName: Item_Mushroom_E
-- '!Parameters': {DropActor: PutRupee_Silver, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: PutRupee_Gold, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x043670df
   Rotate: [0.0, 0.0, 0.300000012]
   SRTHash: -1892940232
@@ -626,7 +626,7 @@ Objs:
     EquipItem3: Default
     EquipItem4: Default
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
@@ -948,17 +948,12 @@ Objs:
   SRTHash: -1218391351
   Translate: [-2297.50806, 452.343384, 329.608826]
   UnitConfigName: Obj_Plant_CypressLow_A_02
-- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsPlayerPut: false, SharpWeaponJudgeType: 0, TresasureSpotType: 0}
+- '!Parameters': {DropActor: Item_Enemy_30, InitMotionStatus: 0, IsPlayerPut: false, SharpWeaponJudgeType: 0, TresasureSpotType: 0}
   HashId: !u 0x0dff9ebb
   Rotate: 2.8831861
   SRTHash: 2025975442
   Translate: [-3055.1626, 163.048157, 388.770081]
   UnitConfigName: TreasureSpot_00
-- HashId: !u 0x0e1622c9
-  Rotate: 0.66687268
-  SRTHash: 972719958
-  Translate: [-2446.28345, 318.27597, 372.813568]
-  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
 - '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
   HashId: !u 0x0e357737
   SRTHash: -1620765182
@@ -1042,7 +1037,7 @@ Objs:
   SRTHash: -1412736756
   Translate: [-2750.16602, 313.767242, 68.5318298]
   UnitConfigName: Obj_RockSetYellow_A_01
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Rupee, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x100b7b65
   Rotate: [0.0, 0.0, 0.76000005]
   SRTHash: -404193492
@@ -1459,7 +1454,7 @@ Objs:
     EquipItem3: Default
     EquipItem4: Default
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -2191,7 +2186,7 @@ Objs:
   SRTHash: -988741422
   Translate: [-2141.91797, 199.735077, 976.856018]
   UnitConfigName: Obj_Plant_HopBush_A_02
-- '!Parameters': {DropActor: Weapon_Spear_025, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Enemy_30, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x1ef36980
   Rotate: [-3.1057744, -0.862199903, 3.10762978]
   SRTHash: 1701754989
@@ -2753,7 +2748,7 @@ Objs:
     EquipItem3: Default
     EquipItem4: Default
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -3681,7 +3676,7 @@ Objs:
   SRTHash: 893184165
   Translate: [-2111.79517, 300.347198, 558.499146]
   UnitConfigName: Animal_Crow_A
-- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsPlayerPut: false, SharpWeaponJudgeType: 0, TresasureSpotType: 0}
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_30, InitMotionStatus: 0, IsPlayerPut: false, SharpWeaponJudgeType: 0, TresasureSpotType: 0}
   HashId: !u 0x3472a27e
   Rotate: 2.8831861
   SRTHash: -239704092
@@ -3753,7 +3748,7 @@ Objs:
   SRTHash: -253437055
   Translate: [-2330.75146, 370.860931, 643.041016]
   UnitConfigName: Item_Fruit_K
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Ore_B, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x35fda094
   Rotate: -2.10000014
   SRTHash: -44246911
@@ -4047,7 +4042,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     OnCliff: false
     OnCliffTurn: true
@@ -4110,11 +4105,6 @@ Objs:
   SRTHash: 994250644
   Translate: [-2131.81323, 380.930115, 349.690063]
   UnitConfigName: Animal_Crow_A
-- HashId: !u 0x399ee01f
-  Rotate: -0.838184118
-  SRTHash: -1424553330
-  Translate: [-2451.82544, 317.133881, 376.971039]
-  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
 - '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x39b53c06
   Rotate: -4.07135623e-08
@@ -4637,11 +4627,6 @@ Objs:
   SRTHash: 1027933695
   Translate: [-2358.30615, 263.207306, 848.898438]
   UnitConfigName: Animal_Crow_A
-- HashId: !u 0x3fa97c6d
-  Rotate: -2.8427012
-  SRTHash: 1786936501
-  Translate: [-2453.93311, 317.330536, 371.721527]
-  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
 - HashId: !u 0x3fd1f786
   SRTHash: 96529705
   Translate: [-2116.78857, 392.951019, 276.332916]
@@ -5045,7 +5030,7 @@ Objs:
   SRTHash: 1849273559
   Translate: [-2121.54907, 300.738129, 568.421021]
   UnitConfigName: Obj_TreeBroadleafLow_A_01
-- '!Parameters': {DropTable: Ore, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_50, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x4637f59e
   Rotate: [-0.264136434, -0.00605314272, -0.0455589741]
   SRTHash: 719762950
@@ -5313,11 +5298,6 @@ Objs:
   SRTHash: 1326084015
   Translate: [-2296.01929, 233.244339, 909.509521]
   UnitConfigName: Obj_TreeBroadleaf_A_LL
-- HashId: !u 0x49cab611
-  Rotate: -2.17490673
-  SRTHash: -156586481
-  Translate: [-2450.7334, 317.643372, 369.321228]
-  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
 - HashId: !u 0x49de2991
   Rotate: [1.39233387, 1.21691895, 0.90991205]
   SRTHash: 0
@@ -5596,11 +5576,6 @@ Objs:
   SRTHash: -1245109143
   Translate: [-2539.2395, 307.16748, 659.132263]
   UnitConfigName: Animal_Insect_E
-- HashId: !u 0x4da0e921
-  Rotate: -2.19809818
-  SRTHash: 1650224292
-  Translate: [-2449.77563, 317.45694, 377.263672]
-  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
 - HashId: !u 0x4db4e772
   Rotate: [0.399550736, 0.0843921006, 0.0348936021]
   SRTHash: 2101573477
@@ -5736,7 +5711,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     OnCliff: false
     OnCliffTurn: true
@@ -5866,7 +5841,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     OnCliff: false
     OnCliffTurn: true
@@ -6516,7 +6491,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     OnCliff: false
     OnCliffTurn: true
@@ -6620,7 +6595,7 @@ Objs:
     EquipItem3: Default
     EquipItem4: Default
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
@@ -8129,7 +8104,7 @@ Objs:
     EquipItem3: Default
     EquipItem4: Default
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
@@ -9445,7 +9420,7 @@ Objs:
     EquipItem3: Default
     EquipItem4: Default
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
@@ -10979,7 +10954,7 @@ Objs:
     EquipItem3: Default
     EquipItem4: Default
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
@@ -11043,7 +11018,7 @@ Objs:
     EquipItem3: Default
     EquipItem4: Default
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -11366,7 +11341,7 @@ Objs:
     EquipItem3: Default
     EquipItem4: Default
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
@@ -13645,11 +13620,6 @@ Objs:
   SRTHash: -1042463574
   Translate: [-2259.60376, 222.031464, 905.807312]
   UnitConfigName: Obj_Plant_HopBush_A_01
-- HashId: !u 0xbc33f0db
-  Rotate: -2.42497301
-  SRTHash: 873131672
-  Translate: [-2448.68359, 317.923279, 369.613831]
-  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
 - HashId: !u 0xbc4e32b8
   Rotate: [3.08706927, 0.736772716, 2.94054246]
   SRTHash: 717775110
@@ -15489,7 +15459,7 @@ Objs:
   Scale: 0.978515983
   Translate: [-2902.96875, 215.901031, 81.5234375]
   UnitConfigName: Obj_Plant_CypressLow_A_01
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: PutRupee_Gold, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0xd2458d93
   Rotate: [0.314720482, -0.495629817, -0.600249887]
   SRTHash: 936923823
@@ -16555,7 +16525,7 @@ Objs:
   SRTHash: -2043519517
   Translate: [-2262.5127, 450.293854, 340.484039]
   UnitConfigName: CherryParticle_02
-- '!Parameters': {DropActor: Item_Ore_E, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Ore_A, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xe14e69d8
   Rotate: [3.88873887e-05, -0.735159039, 0.000333539007]
   SRTHash: 553655545
@@ -16844,11 +16814,6 @@ Objs:
   SRTHash: 153720510
   Translate: [-2336.51245, 451.229645, 422.970337]
   UnitConfigName: Obj_TreeWhiteBirch_A_04
-- HashId: !u 0xe5b7a993
-  Rotate: 2.63012671
-  SRTHash: -1699370699
-  Translate: [-2453.45435, 317.016113, 375.692749]
-  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
 - HashId: !u 0xe5d8b23f
   Rotate: [-0.28563422, 0.310628176, 0.0774562284]
   SRTHash: -1754860137
@@ -17503,11 +17468,6 @@ Objs:
   SRTHash: -1743137178
   Translate: [-2126.53638, 291.571167, 584.437683]
   UnitConfigName: Animal_Crow_A
-- HashId: !u 0xef16e50c
-  Rotate: 2.90704823
-  SRTHash: 1870347415
-  Translate: [-2452.65479, 317.428009, 370.092682]
-  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
 - '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xef18669a
   Rotate: 0.849239826
@@ -17548,7 +17508,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     OnCliff: false
     OnCliffTurn: true
@@ -17601,11 +17561,6 @@ Objs:
   SRTHash: -7983095
   Translate: [-2533.60596, 306.132599, 662.960815]
   UnitConfigName: Animal_WildDuck_A
-- HashId: !u 0xf00a1e21
-  Rotate: -0.237297267
-  SRTHash: 1885563569
-  Translate: [-2447.85425, 317.915894, 376.492188]
-  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
 - HashId: !u 0xf012f4ad
   Rotate: [-0.479105085, 1.30626929, -0.281601965]
   SRTHash: -29450728
@@ -17692,7 +17647,7 @@ Objs:
     EquipItem3: Default
     EquipItem4: Default
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
@@ -18281,11 +18236,6 @@ Objs:
   SRTHash: 1683633026
   Translate: [-2795.94458, 203.962906, 612.630005]
   UnitConfigName: Item_Mushroom_A
-- HashId: !u 0xfa21e586
-  Rotate: -2.27940917
-  SRTHash: -1161297042
-  Translate: [-2446.57593, 318.215759, 374.863342]
-  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
 - HashId: !u 0xfa28aaf5
   Rotate: [0.330074906, 0.00786810648, -0.0472334847]
   SRTHash: 995798102
@@ -18528,11 +18478,6 @@ Objs:
   SRTHash: 1935550334
   Translate: [-2336.13623, 239.677597, 898.221924]
   UnitConfigName: Obj_TreeBroadleafLow_A_02
-- HashId: !u 0xfdf438b3
-  Rotate: -1.36414075
-  SRTHash: 525734072
-  Translate: [-2454.22583, 317.178558, 373.771301]
-  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
 - '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
   HashId: !u 0xfe04d6b8
   SRTHash: 728891226
@@ -18686,6 +18631,23 @@ Objs:
   SRTHash: -1712206997
   Translate: [-2258.04712, 387.183411, 262.690033]
   UnitConfigName: Obj_Plant_HopBush_C_01
+- '!Parameters':
+    ArrowName: NormalArrow
+    EquipItem1: Weapon_Bow_003
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RideHorseName: GameRomHorse22
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfff5f993
+  Rotate: 0.0
+  SRTHash: 1760948417
+  Translate: [-2705.64697, 201.001801, 894.977356]
+  UnitConfigName: Enemy_Place_Holder_02
 - HashId: !u 0xfffe0118
   Rotate: [2.72921157, 0.926315904, 2.78689122]
   SRTHash: 18425004
@@ -18706,22 +18668,12 @@ Objs:
   SRTHash: 1369222761
   Translate: [-2308.96387, 456.446564, 352.624603]
   UnitConfigName: FldObj_RuinGuardianArm_A_03_RotP
-- '!Parameters':
-    ChaseRange: 1500.0
-    DropTable: Normal
-    GuardianLegType0: Guardian_A_Leg
-    GuardianLegType1: Guardian_A_Leg
-    GuardianLegType2: Guardian_A_Leg
-    GuardianLegType3: Guardian_A_Leg
-    GuardianLegType4: Guardian_A_Leg
-    GuardianLegType5: Guardian_A_Leg
-    IsSuspended: false
-    SharpWeaponJudgeType: 1
-    TraversePos: {X: -753.20697, Y: 126.545197, Z: 610.871094}
-    TraverseRadiusXZ: 48.2619095
+- '!Parameters': {ChaseRange: 1500.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
   HashId: !u 0xfffe011c
   SRTHash: -528435004
-  Translate: [-2678.25342, 208.402893, 837.831543]
+  Translate: [-2681.02319, 315.229065, -17.5091705]
   UnitConfigName: Enemy_Guardian_A
 - '!Parameters': {ChaseRange: 1500.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
     GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
@@ -18731,8 +18683,14 @@ Objs:
   SRTHash: 1003741735
   Translate: [-2334.19702, 369.094574, 630.617065]
   UnitConfigName: Enemy_Guardian_A_Fixed_Moss
+- '!Parameters': {IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffe011e
+  Rotate: -1.0
+  SRTHash: 0
+  Translate: [-2773.91211, 348.750122, 221.234253]
+  UnitConfigName: Obj_BombArrow_A_03
 - '!Parameters':
-    AddParam: 38
+    AddParam: 51
     AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: true
@@ -18756,6 +18714,14 @@ Objs:
   SRTHash: 1590382269
   Translate: [-2933.81372, 191.532486, 196.253433]
   UnitConfigName: Enemy_Moriblin_Middle
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xfffe0121
+  Rotate: [0.259249598, -0.600000024, -0.357756406]
+  SRTHash: 1466309386
+  Translate: [-2905.86206, 223.560013, 46.821846]
+  UnitConfigName: Enemy_Guardian_A_Moss
 - '!Parameters': {EquipItem1: Weapon_Sword_002, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfffe0122
@@ -18770,6 +18736,95 @@ Objs:
   SRTHash: -1693352175
   Translate: [-2927.32642, 203.482559, 138.4263]
   UnitConfigName: Enemy_Moriblin_Middle
+- '!Parameters':
+    EquipItem1: Weapon_Sword_004
+    EquipItem2: Weapon_Shield_004
+    EquipItem3: Default
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfffe0124
+  Rotate: -4.13999987
+  SRTHash: -1923163669
+  Translate: [-2800.81519, 202.844406, 813.277649]
+  UnitConfigName: Enemy_Place_Holder_02
+- '!Parameters':
+    EquipItem1: Weapon_Sword_004
+    EquipItem2: Weapon_Shield_004
+    EquipItem3: Default
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfffe0125
+  Rotate: -6.34000015
+  SRTHash: -1923163669
+  Translate: [-2793.75854, 203.644409, 800.991333]
+  UnitConfigName: Enemy_Place_Holder_02
+- '!Parameters':
+    ArrowName: AncientArrow
+    EquipItem1: Weapon_Bow_009
+    EquipItem3: LizalfosPipe
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfffe0126
+  Rotate: -0.200000048
+  SRTHash: 564413069
+  Translate: [-2710.75635, 212.688324, 796.583374]
+  UnitConfigName: Enemy_Place_Holder
+- '!Parameters':
+    ArrowName: AncientArrow
+    EquipItem1: Weapon_Bow_009
+    EquipItem3: LizalfosPipe
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    OnCliffTurn: true
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfffe0127
+  Rotate: -3.0
+  SRTHash: 564413069
+  Translate: [-2693.24219, 210.688324, 821.814026]
+  UnitConfigName: Enemy_Place_Holder
+- '!Parameters': {EquipItem1: Weapon_Lsword_015, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
+    RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfffe0128
+  Rotate: -0.600000024
+  SRTHash: 564413069
+  Translate: [-2643.00122, 207.061386, 886.789062]
+  UnitConfigName: Enemy_Place_Holder_03
+- '!Parameters': {EquipItem1: Weapon_Lsword_015, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
+    RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfffe0129
+  Rotate: -3.4000001
+  SRTHash: 564413069
+  Translate: [-2675.52686, 198.661377, 910.728699]
+  UnitConfigName: Enemy_Place_Holder_03
+- '!Parameters': {EquipItem1: Weapon_Lsword_015, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
+    RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfffe012a
+  Rotate: -5.20000029
+  SRTHash: 564413069
+  Translate: [-2676.25586, 202.861389, 887.78009]
+  UnitConfigName: Enemy_Place_Holder
 - '!Parameters': {EquipItem1: Weapon_Sword_014, EquipItem2: Weapon_Shield_014, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
     LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfffe012b
@@ -18798,4 +18853,37 @@ Objs:
   SRTHash: 564413069
   Translate: [-2740.14648, 202.039444, 841.612244]
   UnitConfigName: Enemy_Place_Holder
+- '!Parameters': {ArrowName: BombArrow_A, DropTable: Normal, EquipItem1: Weapon_Lsword_016, EquipItem3: Weapon_Bow_009, EquipItem4: Default,
+    IsLazyTraverse: true, IsNearCreate: false, LevelSensorMode: 1, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xfffe012f
+  Rotate: 3.12318516
+  SRTHash: 598192775
+  Translate: [-2984.04468, 166.088257, 349.683838]
+  UnitConfigName: Enemy_Lynel_Middle
+- '!Parameters': {ArrowName: BombArrow_A, DropTable: Normal, EquipItem1: Weapon_Lsword_016, EquipItem3: Weapon_Bow_009, EquipItem4: Default,
+    IsLazyTraverse: true, IsNearCreate: false, LevelSensorMode: 1, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xfffe0130
+  Rotate: 3.72318506
+  SRTHash: 598192775
+  Translate: [-2966.88818, 166.088257, 347.443817]
+  UnitConfigName: Enemy_Lynel_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    CarryActorName: OctObj_Grass_01
+    DropTable: LocalSeafood
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfffe0131
+  Rotate: 0.599999964
+  SRTHash: 0
+  Scale: 2.5
+  Translate: [-2990.12183, 173.240723, 309.434845]
+  UnitConfigName: Enemy_Octarock_Senior
 Rails: []

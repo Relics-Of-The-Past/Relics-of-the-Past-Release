@@ -56,9 +56,9 @@ param_root: !list
                   objects:
                     Event0: !obj
                       TypeIndex: 3
-                      StartFrame: 3.0
-                      EndFrame: 12.0
-                      Value: !str32 Stab
+                      StartFrame: 1.0
+                      EndFrame: 3.0
+                      Value: !str32 Left
                     Event1: !obj
                       TypeIndex: 45
                       StartFrame: 21.0
@@ -79,6 +79,46 @@ param_root: !list
                       StartFrame: 3.0
                       EndFrame: 12.0
                       Value: !str32 ''
+                    Event5: !obj
+                      TypeIndex: 3
+                      StartFrame: 3.0
+                      EndFrame: 4.0
+                      Value: !str32 Left
+                    Event6: !obj
+                      TypeIndex: 3
+                      StartFrame: 5.0
+                      EndFrame: 6.0
+                      Value: !str32 Left
+                    Event7: !obj
+                      TypeIndex: 3
+                      StartFrame: 7.0
+                      EndFrame: 8.0
+                      Value: !str32 Left
+                    Event8: !obj
+                      TypeIndex: 3
+                      StartFrame: 9.0
+                      EndFrame: 10.0
+                      Value: !str32 Left
+                    Event9: !obj
+                      TypeIndex: 3
+                      StartFrame: 11.0
+                      EndFrame: 12.0
+                      Value: !str32 Left
+                    Event10: !obj
+                      TypeIndex: 3
+                      StartFrame: 13.0
+                      EndFrame: 14.0
+                      Value: !str32 Left
+                    Event11: !obj
+                      TypeIndex: 3
+                      StartFrame: 15.0
+                      EndFrame: 16.0
+                      Value: !str32 Left
+                    Event12: !obj
+                      TypeIndex: 3
+                      StartFrame: 18.0
+                      EndFrame: -1.0
+                      Value: !str32 Left
                   lists: {}
         Element2: !list
           objects:
@@ -110,7 +150,7 @@ param_root: !list
                     Event0: !obj
                       TypeIndex: 3
                       StartFrame: 3.0
-                      EndFrame: 12.0
+                      EndFrame: 4.0
                       Value: !str32 Left
                     Event1: !obj
                       TypeIndex: 0
@@ -129,7 +169,7 @@ param_root: !list
                       Value: !str32 ''
                     Event4: !obj
                       TypeIndex: 45
-                      StartFrame: 21.0
+                      StartFrame: 10.0
                       EndFrame: -1.0
                       Value: !str32 ''
                     Event5: !obj
@@ -142,12 +182,52 @@ param_root: !list
                       StartFrame: 24.0
                       EndFrame: -1.0
                       Value: !str32 ''
+                    Event7: !obj
+                      TypeIndex: 3
+                      StartFrame: 3.0
+                      EndFrame: 4.0
+                      Value: !str32 Left
+                    Event8: !obj
+                      TypeIndex: 3
+                      StartFrame: 5.0
+                      EndFrame: 6.0
+                      Value: !str32 Left
+                    Event9: !obj
+                      TypeIndex: 3
+                      StartFrame: 7.0
+                      EndFrame: 8.0
+                      Value: !str32 Left
+                    Event10: !obj
+                      TypeIndex: 3
+                      StartFrame: 9.0
+                      EndFrame: 10.0
+                      Value: !str32 Left
+                    Event12: !obj
+                      TypeIndex: 3
+                      StartFrame: 11.0
+                      EndFrame: 12.0
+                      Value: !str32 Left
+                    Event13: !obj
+                      TypeIndex: 3
+                      StartFrame: 13.0
+                      EndFrame: 14.0
+                      Value: !str32 Left
+                    Event14: !obj
+                      TypeIndex: 3
+                      StartFrame: 15.0
+                      EndFrame: 16.0
+                      Value: !str32 Left
+                    Event15: !obj
+                      TypeIndex: 3
+                      StartFrame: 18.0
+                      EndFrame: -1.0
+                      Value: !str32 Left
                   lists: {}
         Element3: !list
           objects:
             Parameters: !obj
               TypeIndex: 67
-              FileName: !str64 Sword_Attack_Dash
+              FileName: !str64 Spear_Attack_Dash
               Morph: 0.0
           lists:
             Extend: !list
@@ -157,47 +237,42 @@ param_root: !list
                   objects:
                     Event0: !obj
                       TypeIndex: 0
-                      Frame: 2.0
+                      Frame: 3.0
                       Value: AttackSmall
                     Event1: !obj
                       TypeIndex: 7
-                      Frame: 4.0
+                      Frame: 3.0
                       Value: FaceCut
                     Event2: !obj
                       TypeIndex: 4
-                      Frame: 27.0
+                      Frame: 24.0
                       Value: ''
                   lists: {}
                 HoldEvents: !list
                   objects:
                     Event0: !obj
                       TypeIndex: 3
-                      StartFrame: 2.0
-                      EndFrame: 8.0
-                      Value: !str32 Left
+                      StartFrame: 3.0
+                      EndFrame: -1.0
+                      Value: !str32 Right
                     Event1: !obj
                       TypeIndex: 45
-                      StartFrame: 12.0
+                      StartFrame: 10.0
                       EndFrame: -1.0
                       Value: !str32 ''
                     Event2: !obj
                       TypeIndex: 17
-                      StartFrame: 10.0
+                      StartFrame: 22.0
                       EndFrame: -1.0
                       Value: !str32 ''
                     Event3: !obj
-                      TypeIndex: 48
-                      StartFrame: 0.0
-                      EndFrame: 8.0
+                      TypeIndex: 0
+                      StartFrame: 10.0
+                      EndFrame: -1.0
                       Value: !str32 ''
                     Event4: !obj
-                      TypeIndex: 18
-                      StartFrame: 0.0
-                      EndFrame: -1.0
-                      Value: !str32 ''
-                    Event5: !obj
-                      TypeIndex: 0
-                      StartFrame: 6.0
-                      EndFrame: -1.0
+                      TypeIndex: 48
+                      StartFrame: 3.0
+                      EndFrame: 12.0
                       Value: !str32 ''
                   lists: {}

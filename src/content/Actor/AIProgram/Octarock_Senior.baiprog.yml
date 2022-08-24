@@ -607,21 +607,21 @@ param_root: !list
               VacuumPartsKey: Vacuum
               IsAttackOnlyOutScreen: false
               ActorDisplayRadius: 2.0
-              IsHideMode: true
-              AttackDistMin: 20.0
+              IsHideMode: false
+              AttackDistMin: 5.0
               IsFirstAttackIntervalZero: true
               IsLostAttack: false
-              OutScreenDist: 50.0
+              OutScreenDist: 100.0
               OutScreenAttackNum: 2
               OutScrnAtkOffset: 0.0
               OutScrnAtkOffsetY: 0.5
-              AttackAngle: 3.14159274
+              AttackAngle: 10.3415928
               RetFrmGrdAtkTimer: 20
               RetFrmGrdAtkPrcTimer: 30
               RetFrmDmgAtkTimer: -1
               GlobalNoAtkTime: 10
               GlobalNoAtkTimeRnd: 0
-              AttackIntervalIntensity: 0.300000012
+              AttackIntervalIntensity: 0.5
               DisplayCheckRadius: 0.800000012
               IsUpdateNoticeState: true
               IsCheckLineReachable: false
@@ -656,10 +656,10 @@ param_root: !list
               隠れる: 68
               飛び出す: 153
             SInst: !obj
-              SafeAreaDist: 50.0
-              SafeAreaDistRange: 50.0
-              MinWaitTime: 150.0
-              MinWaitTimeRand: 150.0
+              SafeAreaDist: 5.0
+              SafeAreaDistRange: 5.0
+              MinWaitTime: 30.0
+              MinWaitTimeRand: 30.0
               NoticeTerrorLevel: 2.0
               NoticeWorryRange: 1.5
           lists: {}
@@ -723,7 +723,7 @@ param_root: !list
               近づき: 15
               隠れる: 9
             SInst: !obj
-              FarDist: 35.0
+              FarDist: 20.0
               WeaponIdx: -1
               ActorRadius: 2.0
               LostTimer: 30
@@ -746,10 +746,10 @@ param_root: !list
               1721623982: 8
               295359800: 11
             SInst: !obj
-              SafeAreaDist: 50.0
-              SafeAreaDistRange: 50.0
-              MinWaitTime: 150.0
-              MinWaitTimeRand: 150.0
+              SafeAreaDist: 20.0
+              SafeAreaDistRange: 20.0
+              MinWaitTime: 30.0
+              MinWaitTimeRand: 30.0
               NoticeTerrorLevel: 2.0
               NoticeWorryRange: 1.5
           lists: {}
@@ -774,13 +774,13 @@ param_root: !list
               ItemName: OctObj_Grass_05
               ConnectRigidBodyName: ConnectBody
               ConnectTgtBodyName: TgtConnector
-              ShootActorName: Octarock_Bullet
+              ShootActorName: BarrelBomb
               ShootActorKey1: ShootActor
               ShootActorKey2: ShootActor2
               ShootActorKey3: ShootActor3
-              IsWigBreakable: true
-              ExtraShootActorName: ''
-              ExtraShootActorKey: ''
+              IsWigBreakable: false
+              ExtraShootActorName: BarrelBomb
+              ExtraShootActorKey: ShootActor
               InWaterDepth: -1.0
               OutOfWaterOffset: 0.100000001
               SpreadDist: 8.0
@@ -834,7 +834,7 @@ param_root: !list
               SoundLostTimer: 200
               NoActionReactTimeMin: 30
               NoActionReactTimeMax: 45
-              IsMindDoubtTarget: true
+              IsMindDoubtTarget: false
               FortressTag: EnemyFortressMgr
               SubsTerritoryArea: 20.0
               LostExtinguishFireDist: 5.0
@@ -1206,7 +1206,7 @@ param_root: !list
               AngSpd: 0.174532935
               ASName: HideLookNotice
               IsJumpType: true
-              IsChangeable: false
+              IsChangeable: true
           lists: {}
         Action_14: !list
           objects:
@@ -1219,7 +1219,7 @@ param_root: !list
               AngSpd: 0.174532935
               ASName: Notice
               IsJumpType: true
-              IsChangeable: false
+              IsChangeable: true
           lists: {}
         Action_15: !list
           objects:
@@ -1807,7 +1807,7 @@ param_root: !list
               GroupName: ふっとび
             SInst: !obj
               RotSpeed: 0.52359879
-              Speed: 0.899999976
+              Speed: 9.99999975e-06
               BlownHeight: 1.0
               PosReduceRatio: 0.949999988
               RotReduceRatio: 0.5

@@ -5567,7 +5567,7 @@ Objs:
   SRTHash: -1402642429
   Translate: [2781.82422, 207.14711, 2232.15503]
   UnitConfigName: BarrelBomb
-- '!Parameters': {DropActor: Obj_FireArrow_A_03, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Ore_J, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x7faeb0d4
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xca6d0c6b}
@@ -11127,6 +11127,185 @@ Objs:
   SRTHash: -854018762
   Translate: [2519.57153, 158.112839, 2176.25952]
   UnitConfigName: Obj_RockSetGray_A_L_01
+- '!Parameters':
+    ArrowName: IceArrow
+    EquipItem1: Weapon_Bow_036
+    EquipItem2: Default
+    EquipItem3: Default
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 2
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffc94d2b
+  Rotate: -2.74000001
+  SRTHash: 0
+  Translate: [2673.19604, 219.290588, 2330.88062]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters':
+    ArrowName: IceArrow
+    EquipItem1: Weapon_Bow_001
+    EquipItem2: Default
+    EquipItem3: Default
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffc94d2c
+  Rotate: -4.94000006
+  SRTHash: 0
+  Translate: [2656.01074, 225.101074, 2355.58008]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropActor: Item_Enemy_30
+    EquipItem1: Weapon_Spear_015
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: false
+    IsNearCreate: false
+    LevelSensorMode: 2
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 2
+    TerritoryArea: 0.0
+  HashId: !u 0xffc94d2d
+  Rotate: -2.14390397
+  SRTHash: 0
+  Translate: [2544.53516, 157.626373, 2126.71777]
+  UnitConfigName: Enemy_Guardian_Mini_Senior_Dark
+- '!Parameters':
+    ArrowName: ElectricArrow
+    EquipItem1: Weapon_Bow_003
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RideHorseName: GameRomHorse22
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfff5f993
+  Rotate: 0.0
+  SRTHash: 1760948417
+  Translate: [2703.91895, 204.695496, 2247.26611]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    EquipItem1: Weapon_Bow_003
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RideHorseName: GameRomHorse22
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfff5f994
+  Rotate: 2.20000005
+  SRTHash: 1760948417
+  Translate: [2706.53857, 204.695496, 2239.19556]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    EquipItem1: Weapon_Bow_003
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RideHorseName: GameRomHorse22
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfff5f995
+  Rotate: 4.4000001
+  SRTHash: 1760948417
+  Translate: [2699.61963, 204.695496, 2240.59399]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfff5f996
+  Rotate: 2.79999995
+  SRTHash: 564413069
+  Translate: [2391.68359, 256.776703, 2547.81445]
+  UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfff5f997
+  Rotate: 2.79999995
+  SRTHash: 564413069
+  Translate: [2401.07227, 256.776703, 2544.30615]
+  UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfff5f998
+  Rotate: 2.79999995
+  SRTHash: 564413069
+  Translate: [2381.5835, 256.776703, 2526.27661]
+  UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters': {DropActor: Weapon_Bow_023, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 3}
+  HashId: !u 0xfff5f999
+  Rotate: 2.79999995
+  SRTHash: -1709674313
+  Translate: [2429.88623, 304.390411, 2594.27246]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {EquipItem1: Weapon_Sword_023, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfff5f99a
+  Rotate: 2.79999995
+  SRTHash: 564413069
+  Translate: [2432.82642, 321.359863, 2742.48926]
+  UnitConfigName: Enemy_Moriblin_Gold
+- '!Parameters':
+    EquipItem1: Weapon_Sword_003
+    EquipItem2: Weapon_Sword_003
+    EquipItem3: Default
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfff5f99b
+  Rotate: -0.74000001
+  SRTHash: -1923163669
+  Translate: [2437.93921, 319.667847, 2726.50366]
+  UnitConfigName: Enemy_Bokoblin_Dark
+- '!Parameters': {EquipItem1: Weapon_Sword_001, EquipItem2: Weapon_Shield_001, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfff5f99c
+  Rotate: 2.79999995
+  SRTHash: 564413069
+  Translate: [2919.05127, 119.708626, 2074.5144]
+  UnitConfigName: Enemy_Place_Holder
+- '!Parameters':
+    ArrowName: ElectricArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Sword_016
+    EquipItem2: Weapon_Shield_016
+    EquipItem3: Weapon_Bow_009
+    EquipItem4: Default
+    IsLazyTraverse: true
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 0.0
+  HashId: !u 0xfff5f99d
+  Rotate: 3.12318516
+  SRTHash: 598192775
+  Translate: [2241.46704, 280.052856, 2897.90479]
+  UnitConfigName: Enemy_Lynel_Senior
 Rails:
 - '!Parameters': {DisableRenderMap: false, IsEnableHorseTrace: true, IsWalkable: false}
   HashId: !u 0x088b2bff

@@ -1,0 +1,27 @@
+---
+group_count: 5
+atr1_unknown: 0
+entries:
+  QL_RelicsLostWoodsTrial_Desc:
+    contents:
+      - text: "A trial of strength and courage\nawaits you."
+  QL_RelicsLostWoodsTrial_Finish:
+    contents:
+      - text: "After overcoming the challenges you were\nmet with, You now enter Korok Forest where\ndestiny awaits."
+  QL_RelicsLostWoodsTrial_Name:
+    contents:
+      - text: "Lost Woods: Purge of Darkness"
+  QL_RelicsLostWoodsTrial_Step01:
+    contents:
+      - text: "The Trial has only begun,\nYou are filled by a familiar sensation,\nas if you've been here before. With the path\ninto the woods now clear, You steel yourself.\n\nWhat awaits you deep within these woods?\nOnly one way to find out.\n\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: You must find and eliminate the 3 Bosses.
+      - control:
+          kind: reset_colour
+      - text: "\n\n"
+      - control:
+          kind: set_colour
+          colour: red
+      - text: The Lynel. The Octorok. The Guardian.

@@ -12,12 +12,12 @@ param_root: !list
           Sword: 1.0
           LargeSword: 1.0
           Spear: 1.0
-          Arrow: 1.0
+          Arrow: 0.200000003
           Bomb: 0.100000001
           Body: 1.0
-          Ancient: 2.0
-          ShockWave: 1.0
-          Impulse: 1.0
+          Ancient: 3.0
+          ShockWave: 0.400000006
+          Impulse: 0.5
           GanonBeam: 1.0
         ReactionTable: !obj
           Sword-Small: !str32 通常ダメージ

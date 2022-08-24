@@ -338,8 +338,8 @@ param_root: !list
           IsIndoorDucking: false
         MusicDefine_55: !obj
           Name: !str64 BigMazeBgm
-          Category: !str64 SpSpotBgm
-          Volume: 1.0
+          Category: !str64 EventBgm
+          Volume: 2.0
           IsEnableWeatherFilter: false
           IsIndoorDucking: false
         MusicDefine_56: !obj
@@ -350,8 +350,8 @@ param_root: !list
           IsIndoorDucking: false
         MusicDefine_57: !obj
           Name: !str64 MazeForestBgm
-          Category: !str64 SpSpotBgm
-          Volume: 1.0
+          Category: !str64 EventBgm
+          Volume: 2.0
           IsEnableWeatherFilter: false
           IsIndoorDucking: false
         MusicDefine_58: !obj

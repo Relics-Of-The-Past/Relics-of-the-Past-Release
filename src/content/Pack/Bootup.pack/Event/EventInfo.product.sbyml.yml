@@ -8591,6 +8591,8 @@ Demo024_1<EntryPoint0>: {demo_event: true, disable_event_start_interval: true, i
 Demo024_1<NoSignalWait120SE>: {demo_event: true, disable_event_start_interval: true, is_timeline: false, mode: Seamless}
 Demo024_1<NoSignalWait60>: {demo_event: true, disable_event_start_interval: true, is_timeline: false, mode: Seamless}
 Demo024_1<NoSignalWait60SE>: {demo_event: true, disable_event_start_interval: true, is_timeline: false, mode: Seamless}
+Demo024_2<Barrier>: {demo_event: true, disable_event_start_interval: true, is_pause_non_demo_member: false, is_timeline: false,
+  mode: Seamless, slink_user: AncientBallSwitch}
 Demo024_2<EntryPoint0>: {demo_event: true, disable_event_start_interval: true, is_pause_non_demo_member: false, is_timeline: false,
   mode: Seamless}
 Demo024_2<OnlySE>: {demo_event: true, disable_event_start_interval: true, is_pause_non_demo_member: false, is_timeline: false,
@@ -10707,6 +10709,39 @@ Demo037_0<ForestFog_FadeOut>:
   slink_user: Event_MazeForestCommon
   special_actor_name: none
   vanish_motorcycle: true
+Demo037_0<NoMask4U>:
+  disable_event_start_interval: true
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: Common.bfevfl}
+Demo037_0<RelicsHetsu>:
+  exist_enable_camera_input: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: Common.bfevfl}
+Demo037_0<RelicsLWTrial>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: true
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: Common.bfevfl}
+Demo037_0<Relics_LW_Complete>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
+Demo037_0<Relics_LW_Start>:
+  disable_event_start_interval: true
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: Common.bfevfl}
+Demo037_0<Relics_LW_Step01>:
+  disable_event_start_interval: true
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: Common.bfevfl}
 Demo038_0<ForestFogSafe>:
   demo_event: true
   exist_disable_unequip_in_event: true
@@ -17566,7 +17601,7 @@ Demo169_0<Demo169_0>:
   init_camera_at: {X: -1132.83606, Y: 239.531998, Z: 1917.31604}
   init_camera_fov: 50.0
   init_camera_pos: {X: -1132.83606, Y: 239.531998, Z: 1912.34998}
-  is_timeline: true
+  is_timeline: false
   last_camera_at: {X: -1132.83606, Y: 239.593094, Z: 1917.31604}
   last_camera_fov: 50.0
   last_camera_pos: {X: -1132.83606, Y: 239.593094, Z: 1911.31702}
@@ -40829,6 +40864,7 @@ Demo681_1<Demo681_1>:
   special_actor_name: none
   sub_timelines:
   - {name: Demo681_1_effect}
+Demo700_0<DecideNewGamePlus>: {is_timeline: false, mode: Seamless}
 Demo700_0<Demo700_0>:
   as:
   - {file: Demo700_0-C01-Link-A-0}
@@ -40865,6 +40901,41 @@ Demo700_0<Demo700_0>:
   special_actor_name: none
   subfile:
   - {file: GetDemo.bfevfl}
+  vanish_motorcycle: true
+Demo700_0<OpenDoor>:
+  as:
+  - {file: Demo700_0-C01-Link-A-0}
+  - {file: Demo700_0-C01-Obj_DRCStoneStand_First-A-0}
+  - {file: Demo700_0-C01-Obj_DRCStoneStand_First-Mtr}
+  - {file: Demo700_0-C02-Link-A-0}
+  - {file: Demo700_0-C04-Link-A-0}
+  - {file: Demo700_0-C04-Obj_DRCStoneStand_First-A-0}
+  - {file: Demo700_0-C05-Link-A-0}
+  - {file: Demo700_0-C05-Obj_DRCStoneStand_First-A-0}
+  - {file: Demo700_0-C06-Link-A-0}
+  camera:
+  - {file: C10-0.bcamanim}
+  - {file: C11-0.bcamanim}
+  - {file: C12-0.bcamanim}
+  - {file: C13-0.bcamanim}
+  - {file: C14-0.bcamanim}
+  demo_event: true
+  exist_extra_model: true
+  init_camera_at: {X: -1125.26794, Y: 239.339401, Z: 1903.65698}
+  init_camera_fov: 50.0
+  init_camera_pos: {X: -1128.67297, Y: 238.186493, Z: 1907.86096}
+  is_hide_non_demo_member: true
+  is_timeline: false
+  last_camera_at: {X: -1126.16003, Y: 238.770203, Z: 1904.57996}
+  last_camera_fov: 49.9999886
+  last_camera_pos: {X: -1128.99194, Y: 239.270203, Z: 1908.07703}
+  last_player_dir: {X: 0.629320979, Y: 0.0, Z: -0.777145982}
+  last_player_pos: {X: -1126.16003, Y: 237.270203, Z: 1904.57996}
+  last_special_actor_dir: {X: 0.0, Y: 0.0, Z: 0.0}
+  last_special_actor_pos: {X: 0.0, Y: 0.0, Z: 0.0}
+  mode: Seamless
+  slink_user: Event_Demo700_0
+  special_actor_name: none
   vanish_motorcycle: true
 Demo700_0<SkipToC03>:
   as:
@@ -46470,6 +46541,8 @@ HutagoHatago_Ch_001<Ready_Npc_SouthHateru006_Talk>:
   - {file: InitTalk.bfevfl}
   - {file: Npc_SouthHateru006.bfevfl}
   - {file: Common.bfevfl}
+HyruleCastle<AdvanceQuest_Gatehouses>: {disable_event_start_interval: true, exist_enable_camera_input: false, is_timeline: false,
+  mode: Seamless}
 HyruleCastle<BeastGanonBattleReady>:
   child:
   - {entry: Demo146_0, file: Demo146_0}
@@ -46538,6 +46611,13 @@ HyruleCastle<CastleHarbor_DungeonAppear>:
   mode: Seamless
   vanish_motorcycle: true
   wait_frame: 40
+HyruleCastle<Check_IsValid_EnterSanctum>: {is_timeline: false, mode: Seamless}
+HyruleCastle<FinalBoss>:
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: Common.bfevfl}
+  vanish_motorcycle: true
 HyruleCastle<GanonDead>:
   child:
   - {entry: Demo145_0, file: Demo145_0}
@@ -46551,6 +46631,9 @@ HyruleCastle<GanonDead>:
   subfile:
   - {file: Common.bfevfl}
 HyruleCastle<GenBossAndCallDemo>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
+HyruleCastle<GetMap>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
+HyruleCastle<QuestLine_Init>: {disable_event_start_interval: true, exist_enable_camera_input: false, is_timeline: false, mode: Seamless}
+HyruleCastle<Refight>: {is_timeline: false, mode: Seamless}
 HyruleDepthMini_WhiteHorse<Demo_WhiteHorseTalk>: {is_timeline: false, mode: Seamless, vanish_motorcycle: true}
 HyruleDepthMini_WhiteHorse<Finish_Npc_HyruleDepthHatago007_Near>: {disable_event_start_interval: true, is_pause_non_demo_member: false,
   is_timeline: false, mode: Seamless}
@@ -54133,10 +54216,11 @@ Npc_OldKorok_Forest<Talk>:
   - {entry: Demo707_0_Shield_KoroguWoods, file: Demo707_0}
   - {entry: Demo707_0_Shield_Kakariko, file: Demo707_0}
   exist_enable_camera_input: true
-  is_hide_non_demo_member: true
+  is_hide_non_demo_member: false
   is_timeline: false
   mode: Seamless
   subfile:
+  - {file: Demo037_0.bfevfl}
   - {file: OldKorok_Help.bfevfl}
   - {file: Npc_OldKorok.bfevfl}
   vanish_motorcycle: true

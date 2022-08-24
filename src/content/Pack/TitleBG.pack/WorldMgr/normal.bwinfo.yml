@@ -132,7 +132,7 @@ param_root: !list
       MoistureMin: 2.5
       WindPower: 10.0
       IgnitedLevel: 0
-      FeatureColor: !color [0.791999996, 0.965799987, 1.32000005, 1.0]
+      FeatureColor: !color [0.791999996, 0.965799987, 1.31999993, 1.0]
       CalcRayleigh: 1.20000005
       CalcMieSymmetrical: 1.0
       CalcMie: 0.899999976
@@ -226,7 +226,7 @@ param_root: !list
       MoistureMin: 2.5
       WindPower: 10.0
       IgnitedLevel: 0
-      FeatureColor: !color [0.791999996, 0.965799987, 1.32000005, 1.0]
+      FeatureColor: !color [0.791999996, 0.965799987, 1.31999993, 1.0]
       CalcRayleigh: 1.20000005
       CalcMieSymmetrical: 1.0
       CalcMie: 0.899999976
@@ -2328,7 +2328,7 @@ param_root: !list
       Cloud0_IntencityHilight: 0.0799999982
       Cloud0_ColorShadow: !color [0.192000002, 0.375999987, 0.277999997, 1.0]
       Cloud0_IntencityShadow: 0.0599999987
-      Cloud0_ColorBackLight: !color [1.71800005, 1.51400006, 0.769999981, 0.0]
+      Cloud0_ColorBackLight: !color [1.71799994, 1.51399994, 0.769999981, 0.0]
       Cloud0_BacklightPower: 0.809000015
       Cloud1_ColorBase: !color [1.0, 1.0, 1.0, 1.0]
       Cloud1_IntencityBase: 0.0
@@ -2344,7 +2344,7 @@ param_root: !list
       Cloud2_IntencityHilight: 0.0799999982
       Cloud2_ColorShadow: !color [0.192000002, 0.375999987, 0.277999997, 1.0]
       Cloud2_IntencityShadow: 0.0399999991
-      Cloud2_ColorBackLight: !color [1.71800005, 1.51400006, 0.769999981, 0.0]
+      Cloud2_ColorBackLight: !color [1.71799994, 1.51399994, 0.769999981, 0.0]
       Cloud2_BacklightPower: 0.377999991
       Cloud2NoUse: !u 0
       CloudShadowOnOff: false
@@ -2442,7 +2442,7 @@ param_root: !list
       Cloud0_IntencityHilight: 0.075000003
       Cloud0_ColorShadow: !color [0.286000013, 0.375999987, 0.252000004, 1.0]
       Cloud0_IntencityShadow: 0.0799999982
-      Cloud0_ColorBackLight: !color [1.08561003, 1.17799997, 0.540494025, 0.0]
+      Cloud0_ColorBackLight: !color [1.08560801, 1.17799997, 0.540494025, 0.0]
       Cloud0_BacklightPower: 1.09000003
       Cloud1_ColorBase: !color [1.0, 1.0, 1.0, 1.0]
       Cloud1_IntencityBase: 0.0
@@ -2458,7 +2458,7 @@ param_root: !list
       Cloud2_IntencityHilight: 0.075000003
       Cloud2_ColorShadow: !color [0.286000013, 0.375999987, 0.252000004, 1.0]
       Cloud2_IntencityShadow: 0.0599999987
-      Cloud2_ColorBackLight: !color [1.08561003, 1.17799997, 0.540494025, 0.0]
+      Cloud2_ColorBackLight: !color [1.08560801, 1.17799997, 0.540494025, 0.0]
       Cloud2_BacklightPower: 0.437999994
       Cloud2NoUse: !u 0
       CloudShadowOnOff: false
@@ -2764,7 +2764,7 @@ param_root: !list
       FogColor: !color [0.463, 0.575999975, 0.458000004, 0.0]
       FogStart: -5.0
       FogEnd: 300.0
-      YFogColor: !color [1.27199996, 1.33399999, 0.639999986, 0.600000024]
+      YFogColor: !color [1.27200007, 1.33399999, 0.639999986, 0.600000024]
       YFogStart: 20.0
       SkySunColorNoUse: !u 1
       SkySunColor: !color [1.0, 0.75, 0.699999988, 15.0]
@@ -5956,7 +5956,7 @@ param_root: !list
       FogColor: !color [0.463, 0.575999975, 0.458000004, 0.0]
       FogStart: -5.0
       FogEnd: 300.0
-      YFogColor: !color [1.27199996, 1.33399999, 0.639999986, 0.600000024]
+      YFogColor: !color [1.27200007, 1.33399999, 0.639999986, 0.600000024]
       YFogStart: 20.0
       SkySunColorNoUse: !u 1
       SkySunColor: !color [1.0, 0.75, 0.699999988, 15.0]
@@ -6293,33 +6293,33 @@ param_root: !list
       AmbientIntencity: 6.0
       Exposure: 0.0
     EnvPalette_79: !obj
-      BgDifColor: !color [1.0, 0.92156899, 0.74901998, 0.0]
-      BgDifIntencity: 9.0
-      FogColor: !color [0.584999979, 1.0, 0.805999994, 0.0]
-      FogStart: 0.0
-      FogEnd: 300.0
-      YFogColor: !color [1.38800001, 0.994000018, 0.296999991, 0.400000006]
+      BgDifColor: !color [0.5, 0.5, 0.5, 0.0]
+      BgDifIntencity: 0.0
+      FogColor: !color [0.0, 0.0, 0.0, 1.0]
+      FogStart: 10.0
+      FogEnd: 200.0
+      YFogColor: !color [0.0, 0.0, 0.0, 0.0]
       YFogStart: 20.0
-      SkySunColorNoUse: !u 0
-      SkySunColor: !color [1.0, 0.92156899, 0.850000024, 18.0]
+      SkySunColorNoUse: !u 1
+      SkySunColor: !color [0.0, 0.0, 0.0, 0.0]
       SkyIsotropicfade: 0.0
       SfParam_near: 0.0
-      SfParam_attenuation: 40.0
-      SfParam_horizontal: 2.5
-      afParam_attenuationForGrd: 4.0
-      afParam_attenuationForSky: 0.0
+      SfParam_attenuation: 30.0
+      SfParam_horizontal: 3.0
+      afParam_attenuationForGrd: 2.5
+      afParam_attenuationForSky: 10.0
       SkyRParam_rayleigh_amplifier: 1.0
-      SkyRParam_mie_symmetricalProperty: 0.75
-      SkyRParam_mie_amplifier: 12.0
+      SkyRParam_mie_symmetricalProperty: 0.699999988
+      SkyRParam_mie_amplifier: 5.0
       AmplifierForEnvMap: 1.0
-      Cloud0_ColorBase: !color [0.503000021, 0.510999978, 0.455000013, 1.0]
-      Cloud0_IntencityBase: 0.949999988
-      Cloud0_ColorHilight: !color [1.0, 0.920000017, 0.699999988, 1.0]
-      Cloud0_IntencityHilight: 0.800000012
-      Cloud0_ColorShadow: !color [0.286000013, 0.375999987, 0.372000009, 1.0]
-      Cloud0_IntencityShadow: 0.899999976
-      Cloud0_ColorBackLight: !color [1.0, 0.920000017, 0.699999988, 0.0]
-      Cloud0_BacklightPower: 1.20000005
+      Cloud0_ColorBase: !color [0.5, 0.5, 0.5, 1.0]
+      Cloud0_IntencityBase: 0.0
+      Cloud0_ColorHilight: !color [0.5, 0.5, 0.5, 1.0]
+      Cloud0_IntencityHilight: 0.0
+      Cloud0_ColorShadow: !color [0.5, 0.5, 0.5, 0.994000018]
+      Cloud0_IntencityShadow: 0.0
+      Cloud0_ColorBackLight: !color [0.0, 0.0, 0.0, 0.0]
+      Cloud0_BacklightPower: 0.0
       Cloud1_ColorBase: !color [1.0, 1.0, 1.0, 1.0]
       Cloud1_IntencityBase: 0.0
       Cloud1_ColorHilight: !color [1.0, 1.0, 1.0, 1.0]
@@ -6328,27 +6328,27 @@ param_root: !list
       Cloud1_IntencityShadow: 0.0
       Cloud1_ColorBackLight: !color [1.0, 1.0, 1.0, 1.0]
       Cloud1_BacklightPower: 1.60000002
-      Cloud2_ColorBase: !color [0.503000021, 0.510999978, 0.455000013, 1.0]
-      Cloud2_IntencityBase: 0.949999988
-      Cloud2_ColorHilight: !color [1.0, 0.920000017, 0.699999988, 1.0]
-      Cloud2_IntencityHilight: 0.800000012
-      Cloud2_ColorShadow: !color [0.286000013, 0.375999987, 0.372000009, 1.0]
-      Cloud2_IntencityShadow: 0.899999976
-      Cloud2_ColorBackLight: !color [1.0, 0.920000017, 0.699999988, 0.0]
-      Cloud2_BacklightPower: 1.20000005
+      Cloud2_ColorBase: !color [0.5, 0.5, 0.5, 1.0]
+      Cloud2_IntencityBase: 0.0
+      Cloud2_ColorHilight: !color [0.5, 0.5, 0.5, 1.0]
+      Cloud2_IntencityHilight: 0.0
+      Cloud2_ColorShadow: !color [0.5, 0.5, 0.5, 0.994000018]
+      Cloud2_IntencityShadow: 0.0
+      Cloud2_ColorBackLight: !color [0.0, 0.0, 0.0, 0.0]
+      Cloud2_BacklightPower: 0.0
       Cloud2NoUse: !u 1
-      CloudShadowOnOff: true
+      CloudShadowOnOff: false
       BloomOffsetStart: 19999.0
       BloomOffsetEnd: 20000.0
       BloomOffset: 0.0
-      BloomClampedLuminance: 30.0
-      BloomThreshhold: 1.5
-      BloomIntencity: 0.100000001
-      VolumeMaskColorNoUse: !u 0
-      VolumeMaskColor: !color [1.0, 0.852999985, 0.5, 1.0]
-      VolumeMaskIntencity: 2.0
+      BloomClampedLuminance: 0.75
+      BloomThreshhold: 0.5
+      BloomIntencity: 0.25
+      VolumeMaskColorNoUse: !u 1
+      VolumeMaskColor: !color [0.0729999989, 0.187999994, 0.209999993, 1.0]
+      VolumeMaskIntencity: 0.0
       AmbientIntencity: 1.0
-      Exposure: 1.0
+      Exposure: 0.0
     EnvPalette_80: !obj
       BgDifColor: !color [0.435000002, 0.853999972, 0.837000012, 0.0]
       BgDifIntencity: 0.0
@@ -11383,7 +11383,7 @@ param_root: !list
       afParam_attenuationForSky: 2.91000009
       SkyRParam_rayleigh_amplifier: 10.6800003
       SkyRParam_mie_symmetricalProperty: 0.741999984
-      SkyRParam_mie_amplifier: 1142.78003
+      SkyRParam_mie_amplifier: 1142.78406
       AmplifierForEnvMap: 1.0
       Cloud0_ColorBase: !color [0.733332992, 0.701960981, 0.415686011, 1.0]
       Cloud0_IntencityBase: 0.100000001
@@ -11435,12 +11435,12 @@ param_root: !list
       SkyIsotropicfade: 0.0
       SfParam_near: -200.0
       SfParam_attenuation: 60.0
-      SfParam_horizontal: 2.77800012
+      SfParam_horizontal: 2.77799988
       afParam_attenuationForGrd: 3.17000008
       afParam_attenuationForSky: 0.0
       SkyRParam_rayleigh_amplifier: 2.0
       SkyRParam_mie_symmetricalProperty: 0.67900002
-      SkyRParam_mie_amplifier: 1591.30005
+      SkyRParam_mie_amplifier: 1591.29602
       AmplifierForEnvMap: 5.0
       Cloud0_ColorBase: !color [0.733332992, 0.701960981, 0.415686011, 1.0]
       Cloud0_IntencityBase: 0.100000001
@@ -12246,7 +12246,7 @@ param_root: !list
       Cloud0_IntencityHilight: 0.125
       Cloud0_ColorShadow: !color [0.286000013, 0.375999987, 0.252000004, 1.0]
       Cloud0_IntencityShadow: 0.0199999996
-      Cloud0_ColorBackLight: !color [1.08561003, 1.17799997, 0.540494025, 0.0]
+      Cloud0_ColorBackLight: !color [1.08560801, 1.17799997, 0.540494025, 0.0]
       Cloud0_BacklightPower: 1.09000003
       Cloud1_ColorBase: !color [1.0, 1.0, 1.0, 1.0]
       Cloud1_IntencityBase: 0.0
@@ -12262,7 +12262,7 @@ param_root: !list
       Cloud2_IntencityHilight: 0.125
       Cloud2_ColorShadow: !color [0.286000013, 0.375999987, 0.252000004, 1.0]
       Cloud2_IntencityShadow: 0.0149999997
-      Cloud2_ColorBackLight: !color [1.08561003, 1.17799997, 0.540494025, 0.0]
+      Cloud2_ColorBackLight: !color [1.08560801, 1.17799997, 0.540494025, 0.0]
       Cloud2_BacklightPower: 0.437999994
       Cloud2NoUse: !u 0
       CloudShadowOnOff: false

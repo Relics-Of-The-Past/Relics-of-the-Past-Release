@@ -1,5 +1,5 @@
 ---
-group_count: 7
+group_count: 9
 atr1_unknown: 4
 entries:
   "0000":
@@ -18,6 +18,65 @@ entries:
     attributes: ""
     contents:
       - text: "I'm good."
+  RelicsHetsu:
+    attributes: Npc_OldKorok_Forest
+    contents:
+      - control:
+          kind: sound
+          unknown:
+            - 7
+            - 0
+      - text: "Hey! It's You!\n\n\n"
+      - control:
+          kind: pause
+          length: short
+      - text: "What brings you out to the Lost Woods?\n\n\n"
+      - control:
+          kind: pause
+          length: short
+      - control:
+          kind: sound
+          unknown:
+            - 7
+            - 0
+      - text: "You want to visit Korok Forest!?\n Shalaka! "
+      - control:
+          kind: pause
+          length: short
+      - text: "I'd love to show you the way\nbut...\n"
+      - control:
+          kind: sound
+          unknown:
+            - 11
+            - 19
+      - text: "There is a bunch of scary Monsters!\nAnd the Entrance is blocked by\nthis purple goop.."
+      - control:
+          kind: sound
+          unknown:
+            - 11
+            - 19
+      - text: "I saw a big scary "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: Octorok
+      - control:
+          kind: reset_colour
+      - text: " And a \n"
+      - control:
+          kind: set_colour
+          colour: red
+      - text: Lynel
+      - control:
+          kind: reset_colour
+      - text: "There was even a "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: Guardian
+      - control:
+          kind: reset_colour
+      - text: " to!"
   talk00:
     attributes: Npc_OldKorok_Forest
     contents:

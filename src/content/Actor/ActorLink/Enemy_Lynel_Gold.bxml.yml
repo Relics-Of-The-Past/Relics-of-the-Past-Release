@@ -19,7 +19,7 @@ param_root: !list
       ElinkUser: Enemy_Lynel
       GParamUser: Enemy_Lynel_Gold
       LifeConditionUser: Enemy_Lynel
-      LODUser: Dummy
+      LODUser: EnemyNoCalcSkip
       ModelUser: Enemy_Lynel_Gold
       PhysicsUser: Lynel
       ProfileUser: Enemy

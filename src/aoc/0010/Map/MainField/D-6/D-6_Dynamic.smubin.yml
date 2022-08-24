@@ -454,7 +454,7 @@ Objs:
   SRTHash: -1460615407
   Translate: [-1799.97095, 121.68428, 1623.34119]
   UnitConfigName: FldObj_KorokStone_A_01
-- '!Parameters': {EquipItem1: Weapon_Lsword_010, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Lsword_010, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x0b73082d
   SRTHash: 1643392382
@@ -507,7 +507,7 @@ Objs:
   SRTHash: 41049825
   Translate: [-1156.71033, 187.922974, 1657.07092]
   UnitConfigName: Obj_TreeBroadleafLow_A_02
-- '!Parameters': {DropActor: Obj_ArrowBundle_A_02, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: PutRupee_Silver, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x0cf83a31
   SRTHash: -954804320
   Translate: [-1434.56873, 292.291809, 1733.91223]
@@ -3425,12 +3425,6 @@ Objs:
   SRTHash: 1746048529
   Translate: [-1544.10608, 140.61203, 1494.89417]
   UnitConfigName: FldObj_HyliaWoodRuinburn_A_04
-- HashId: !u 0x52ee613c
-  Rotate: [1.52421927, -1.35821974, -1.44549656]
-  SRTHash: -719237017
-  Scale: 1.02021563
-  Translate: [-1858.09839, 206.726013, 1954.68372]
-  UnitConfigName: Obj_Plant_HopBush_C_02
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x52f613ba
   Rotate: [-0.143534243, -0.229509011, -0.14313148]
@@ -5002,7 +4996,7 @@ Objs:
   Scale: 25.0
   Translate: [-1534.0, 140.011017, 1530.5]
   UnitConfigName: Area
-- '!Parameters': {DropActor: Obj_ArrowBundle_A_02, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_30, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x77c2e0b5
   SRTHash: 396490215
   Translate: [-1265.50708, 219.8638, 1563.77905]
@@ -5220,7 +5214,7 @@ Objs:
   SRTHash: 909827095
   Translate: [-1034.50256, 250.400085, 1814.55762]
   UnitConfigName: Obj_Plant_CypressLow_A_01
-- '!Parameters': {EquipItem1: Weapon_Lsword_010, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Lsword_010, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x7c7438bb
   SRTHash: 677956138
@@ -5473,7 +5467,7 @@ Objs:
   SRTHash: 0
   Translate: [-1132.31641, 271.074219, 1812.92188]
   UnitConfigName: EnvSeEmitPointInsectSubarctic
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Roast_04, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x8136b931
   Rotate: [-3.02034211, 0.263132423, -1.53916192]
   SRTHash: -1698136916
@@ -6162,9 +6156,9 @@ Objs:
 - '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: true, IsPlayerPut: false,
     SharpWeaponJudgeType: 0}
   HashId: !u 0x911bec04
-  Rotate: [1.35098374, 0.30965358, 2.69957137]
+  Rotate: [1.23455298, 1.90965354, 2.27337432]
   SRTHash: 1092116893
-  Translate: [-1005.48376, 246.609924, 1862.00476]
+  Translate: [-1005.93152, 246.409927, 1861.16455]
   UnitConfigName: Animal_Insect_G
 - HashId: !u 0x91214f6e
   Rotate: [-0.509413898, -1.18389165, 0.822143793]
@@ -10339,7 +10333,7 @@ Objs:
   Scale: 1.05749083
   Translate: [-1017.46985, 247.536072, 1878.61987]
   UnitConfigName: Obj_Plant_CypressLow_A_01
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Roast_01, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0xf0225c4d
   Rotate: [-1.39345336, 0.579346061, 0.318125188]
   SRTHash: -621658411
@@ -11121,7 +11115,7 @@ Objs:
   HashId: !u 0xfffb9063
   Rotate: -0.800000012
   SRTHash: 0
-  Translate: [-1464.13562, 253.292908, 1767.599]
+  Translate: [-1464.25232, 253.692902, 1768.0]
   UnitConfigName: Weapon_Shield_009
 - HashId: !u 0xfffd4890
   SRTHash: 0
@@ -11152,7 +11146,7 @@ Objs:
   HashId: !u 0xfffd48a3
   Rotate: [1.03574169, -2.20000005, -0.100364432]
   SRTHash: 0
-  Translate: [-1092.82825, 236.572144, 1873.75745]
+  Translate: [-1092.82471, 236.572144, 1873.73779]
   UnitConfigName: Weapon_Lsword_020
 - HashId: !u 0xfffd48a4
   SRTHash: 0
@@ -11201,9 +11195,103 @@ Objs:
   SRTHash: 0
   Translate: [-1544.7572, 184.375687, 1300.00293]
   UnitConfigName: Enemy_Guardian_Mini_Senior_Dark
-- HashId: !u 0xfffd48b4
+- '!Parameters': {IsSuspended: false, LevelSensorMode: 1}
+  HashId: !u 0xfffd48b4
   Rotate: [0.122386485, 0.800000012, 0.0246946625]
   SRTHash: 0
   Translate: [-1498.93506, 154.570633, 1086.60229]
+  UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffb9068
+  Rotate: -0.600000024
+  SRTHash: 0
+  Translate: [-1127.42737, 168.166763, 1220.17358]
+  UnitConfigName: Enemy_Guardian_B
+- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffb9067
+  Rotate: 0.200000003
+  SRTHash: 0
+  Translate: [-1151.55994, 168.166763, 1213.57983]
+  UnitConfigName: Enemy_Guardian_B
+- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffb9064
+  Rotate: 2.79999995
+  SRTHash: 0
+  Translate: [-1424.47827, 133.655777, 1484.06702]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
+- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffb9065
+  Rotate: 6.4000001
+  SRTHash: 0
+  Translate: [-1461.64246, 134.255768, 1432.36829]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
+- '!Parameters': {DropTable: Normal, InitBurnState: false, InitMotionStatus: 0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffd48bc
+  SRTHash: 0
+  Translate: [-1430.27747, 221.277039, 1569.16162]
+  UnitConfigName: Item_CookSet
+- HashId: !u 0xfffd48bd
+  SRTHash: 0
+  Translate: [-1430.04102, 221.389572, 1560.18323]
+  UnitConfigName: Item_Mushroom_L
+- HashId: !u 0xfffd48be
+  SRTHash: 0
+  Translate: [-1430.85413, 221.389572, 1560.67188]
+  UnitConfigName: Item_Mushroom_L
+- '!Parameters': {DropActor: Obj_AncientArrow_C_01, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffd48a2
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x52827619}
+  Rotate: [0.0152144525, 1.79999995, 0.0129815424]
+  SRTHash: 1450330356
+  Translate: [-1463.1958, 258.097382, 1792.14563]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffb905c
+  Rotate: 2.0
+  SRTHash: 0
+  Translate: [-1369.20081, 251.878006, 1908.30383]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Snow
+- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffb9066
+  SRTHash: 0
+  Translate: [-2079.57983, 198.231155, 1048.75598]
+  UnitConfigName: Enemy_Guardian_A
+- '!Parameters': {ChaseRange: 300.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffd4894
+  Rotate: [-0.0004801701, -3.79999995, -0.285586417]
+  SRTHash: 0
+  Translate: [-1227.87659, 268.139374, 1778.06335]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
+- '!Parameters': {DropActor: Item_Enemy_31, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffd489f
+  Rotate: -4.30000019
+  SRTHash: -1530228499
+  Translate: [-1098.5094, 179.233017, 1671.1637]
+  UnitConfigName: TBox_Dungeon_Iron
+- '!Parameters': {DropActor: Weapon_Bow_023, EnableRevival: true, IsInGround: false, SharpWeaponJudgeType: 3}
+  HashId: !u 0xfffd489e
+  Rotate: -3.0
+  SRTHash: -1530228499
+  Translate: [-1090.50684, 181.433014, 1682.7876]
+  UnitConfigName: TBox_Dungeon_Iron
+- HashId: !u 0xfffd4892
+  Rotate: [1.22701526, -1.39999998, -1.21664691]
+  SRTHash: 0
+  Translate: [-1019.44617, 251.35051, 1805.50342]
   UnitConfigName: FldObj_RuinGuardian_Static
 Rails: []

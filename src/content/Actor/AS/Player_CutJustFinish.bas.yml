@@ -75,8 +75,8 @@ param_root: !list
           objects:
             Parameters: !obj
               TypeIndex: 67
-              FileName: !str64 Lsword_Attack_Just_Finish
-              Morph: 3.0
+              FileName: !str64 Lsword_Katana_Attack_Charge
+              Morph: 0.0
           lists:
             Extend: !list
               objects: {}
@@ -85,42 +85,42 @@ param_root: !list
                   objects:
                     Event0: !obj
                       TypeIndex: 0
-                      Frame: 22.0
-                      Value: AttackMiddle
+                      Frame: 5.0
+                      Value: AttackLarge
                     Event1: !obj
                       TypeIndex: 7
-                      Frame: 0.0
-                      Value: FaceBattle
+                      Frame: 5.0
+                      Value: FaceCutCharge
                     Event2: !obj
-                      TypeIndex: 7
-                      Frame: 20.0
-                      Value: FaceCut
+                      TypeIndex: 4
+                      Frame: 39.0
+                      Value: ''
                   lists: {}
                 HoldEvents: !list
                   objects:
                     Event0: !obj
                       TypeIndex: 3
-                      StartFrame: 22.0
-                      EndFrame: 28.0
-                      Value: !str32 Lower
+                      StartFrame: 1.0
+                      EndFrame: 9.0
+                      Value: !str32 Right
                     Event1: !obj
                       TypeIndex: 2
-                      StartFrame: 60.0
+                      StartFrame: 24.0
                       EndFrame: -1.0
                       Value: !str32 ''
                     Event2: !obj
                       TypeIndex: 48
-                      StartFrame: 22.0
-                      EndFrame: 25.0
+                      StartFrame: 5.0
+                      EndFrame: 13.0
                       Value: !str32 ''
                     Event3: !obj
-                      TypeIndex: 25
-                      StartFrame: 0.0
-                      EndFrame: 21.0
-                      Value: !str32 Disable
+                      TypeIndex: 17
+                      StartFrame: 30.0
+                      EndFrame: -1.0
+                      Value: !str32 ''
                     Event4: !obj
-                      TypeIndex: 49
-                      StartFrame: 40.0
+                      TypeIndex: 21
+                      StartFrame: 0.0
                       EndFrame: -1.0
                       Value: !str32 ''
                   lists: {}

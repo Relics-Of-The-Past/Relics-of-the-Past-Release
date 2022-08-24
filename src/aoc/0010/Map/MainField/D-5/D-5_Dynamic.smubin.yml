@@ -2335,6 +2335,7 @@ Objs:
 - '!Parameters':
     ArrowName: ElectricArrow
     EquipItem1: Weapon_Bow_002
+    EquipItem3: LizalfosPipe
     FortressEatPer: -1
     IsMimicry: false
     IsNearCreate: false
@@ -2883,7 +2884,7 @@ Objs:
   HashId: !u 0x4b9dd58a
   Rotate: -1.18000031
   SRTHash: 1436920638
-  Translate: [-1135.21875, 141.969894, 420.226562]
+  Translate: [-1135.20801, 141.969894, 420.209717]
   UnitConfigName: Enemy_Lizalfos_Middle
 - HashId: !u 0x4bbefc3d
   Rotate: [-2.00878906, 0.625854433, -1.90527332]
@@ -9543,4 +9544,94 @@ Objs:
   SRTHash: 1466309386
   Translate: [-1298.43457, 114.607269, 662.797852]
   UnitConfigName: Enemy_FldObj_RuinGuardian_Static
+- '!Parameters': {DropActor: Item_Ore_B, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xffa878a1
+  Rotate: 4.19999981
+  SRTHash: -1709674313
+  Translate: [-1096.46045, 169.823303, 527.040161]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffa878a2
+  Rotate: [-0.126855955, -0.600000024, 0.139669493]
+  SRTHash: 1466309386
+  Translate: [-1028.79944, 155.989197, 290.213043]
+  UnitConfigName: Enemy_Guardian_A_Moss
+- '!Parameters':
+    ArrowName: ElectricArrow
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffa878a4
+  Rotate: 2.12159252
+  SRTHash: 0
+  Translate: [-1328.68872, 116.020821, 215.879562]
+  UnitConfigName: Enemy_Lizalfos_Junior
+- '!Parameters':
+    ArrowName: ElectricArrow
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffa878a5
+  Rotate: 2.12159252
+  SRTHash: 0
+  Translate: [-1325.75281, 114.620827, 202.741913]
+  UnitConfigName: Enemy_Lizalfos_Junior
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffa878a6
+  Rotate: 2.79999995
+  SRTHash: 564413069
+  Translate: [-1379.05261, 114.814369, 230.317917]
+  UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffa878a7
+  Rotate: 2.79999995
+  SRTHash: 564413069
+  Translate: [-1380.78394, 114.814369, 223.290924]
+  UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffa878a8
+  Rotate: 2.79999995
+  SRTHash: 564413069
+  Translate: [-1377.58826, 114.814369, 209.938522]
+  UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters':
+    ArrowName: ElectricArrow
+    EquipItem3: LizalfosPipe
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffa878a9
+  Rotate: -0.961592734
+  SRTHash: 0
+  Translate: [-1366.44604, 114.552185, 259.312927]
+  UnitConfigName: Enemy_Lizalfos_Gold
 Rails: []

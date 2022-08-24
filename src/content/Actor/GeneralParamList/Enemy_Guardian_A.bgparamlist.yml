@@ -34,6 +34,19 @@ param_root: !list
       IsMindFriend: true
       StatusChangeFlag: ''
       ChangeLife: -1.0
+    EnemyLevel: !obj
+      IsAvoidDanger: true
+      IsGuardArrow: false
+      IsHideArrowAttack: true
+      IsSwiftAttack: false
+      IsBackSwiftAttack: false
+      IsCounterAttack: false
+      IsEscapeBomb: true
+      IsKickBomb: false
+      IsShootBomb: true
+      IsThrowWeapon: false
+      GuardPer: 100
+      IsJustGuard: true
     EnemyRace: !obj
       EquipableWeapon: ''
       IsFitGroundByAnimalUnit: true
@@ -132,7 +145,7 @@ param_root: !list
       SightLimitMin: -55.0
       MaxSpeed: 30.0
       CannonBoneName: Eye
-      RapidFireDistance: 18.75
+      RapidFireDistance: 18.6499996
     HorseTargetedInfo: !obj
       HorseMoveRadius: -1.0
       HorseAvoidOffset: -1.0
