@@ -1,0 +1,15 @@
+!io
+version: 0
+type: xml
+param_root: !list
+  objects:
+    CommonData: !obj
+      UpperLimitHight: 0.200000003
+      LowerLimitHight: -0.25
+  lists:
+    ImpulseParamList: !list
+      objects: {}
+      lists: {}
+    BodyParamList: !list
+      objects: {}
+      lists: {}

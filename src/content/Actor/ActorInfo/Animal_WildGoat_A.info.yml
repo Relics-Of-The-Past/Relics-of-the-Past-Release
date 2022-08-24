@@ -1,0 +1,32 @@
+aabbMax: {X: 0.508701026, Y: 2.06752992, Z: 1.27381003}
+aabbMin: {X: -0.484562993, Y: -0.0166979991, Z: -1.38874996}
+animalUnitBasePlayRate: 1.0
+attackPower: 4
+bfres: Animal_Goat
+boundingForTraverse: 2.08422804
+bugMask: 3
+cursorOffsetY: 0.899999976
+drops:
+  Normal: [Item_Meat_01]
+elink: Animal_WildGoat_A
+enemyRank: 0
+generalLife: 8
+homeArea:
+- {name: HyruleHill}
+- {name: HyruleForest}
+- {name: EastHateru}
+instSize: 153076
+mainModel: Goat
+name: Animal_WildGoat_A
+pictureBookLiveSpot1: -1
+pictureBookLiveSpot2: -1
+pictureBookSpecialDrop: -1
+profile: Prey
+slink: Animal_WildGoat_A
+sortKey: 28020
+systemIsGetItemSelf: false
+systemSameGroupActorName: ''
+tags: {tag24cd75fe: 617444862, tag6b3d3141: 1799172417, tag9e8d2a01: !u 0x9e8d2a01, tagac9f717f: !u 0xac9f717f, tagd75d5f92: !u 0xd75d5f92}
+traverseDist: 80.0
+xlink: Quadruped_Animal
+yLimitAlgorithm: NoLimit

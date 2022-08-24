@@ -1,0 +1,24 @@
+aabbMax: {X: 1.07264996, Y: 2.09730005, Z: 1.11341}
+aabbMin: {X: -1.09346998, Y: 0.00989999995, Z: -1.08131003}
+attackPower: 0
+bfres: Obj_BoxIronBreakable_A
+boundingForTraverse: 2.08739996
+bugMask: 3
+drops:
+  Amiibo: 1
+  Amiibo2: 1
+  Normal: [Obj_ArrowNormal_A_01, Obj_ArrowBundle_A_01, Obj_ArrowBundle_A_02, Item_RoastFish_01, Item_RoastFish_15]
+  Normal2: [PutRupee, PutRupee_Blue, PutRupee_Red, PutRupee_Purple]
+elink: Obj_BreakBoxIron
+generalLife: 60
+instSize: 35080
+mainModel: Obj_BoxIronBreakable_A_01
+name: Obj_BreakBoxIron
+profile: MapDynamicActive
+rigidBodyCenterY: 1.0
+slink: Obj_BreakBoxIron
+sortKey: -25
+systemIsGetItemSelf: false
+systemSameGroupActorName: ''
+tags: {tag25cd2b4d: 634202957, tagb51794dc: !u 0xb51794dc, tagc2ac3213: !u 0xc2ac3213, tagd369c30f: !u 0xd369c30f}
+yLimitAlgorithm: LimitYDiff

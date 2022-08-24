@@ -1,0 +1,94 @@
+!io
+version: 0
+type: xml
+param_root: !list
+  objects:
+    Global: !obj
+      EnemyLifeGageDist: 60.0
+      EnemyNoSkitDist: 60.0
+      EnemyWeaponPickAllowDist: 5.0
+      EnemyWeaponPickForbidTime: 30
+      EnemyAnimalNoDamageDist: 70.0
+      EnemyNearCraeteIDDelay: 15.0
+      EnemyForceTiredLODCount: 60
+      EnemyForceTiredNoSightLODCount: 240
+      EnemyForceWarpReturnLODCount: 240
+      SilentAttackAng: 90.0
+      SilentAttackRatio: 8.0
+      BlownOffPlayerAtkDelay: 30
+      JustAvoidAcceptWpRangeSS: 1.60000002
+      JustAvoidAcceptWpRangeLS: 1.79999995
+      JustAvoidAcceptWpRangeSP: 5.0
+      ForceNoticeEnemyCount: 3
+      ForceNoticeEnemyDist: 50.0
+      WeaponRickeyLife: 3
+      WeaponDropRotSpd: 60.0
+      ShieldRideBaseFrame: 120
+      ShieldRideHitBaseDamage: 1
+      ShieldDamageratio: 0.200000003
+      ShieldSurfMasterFrictionRatio: 0.200000003
+      LoudNoiseRadius: 70.0
+      Impulse2DamageRatio: 0.00400000019
+      IceMeltSpeedOnContactFire: 15.0
+      CriticalAttackRatio: 2.0
+      BooerangAttackRatio: 1.5
+      HitImpulseClampMax: 20.0
+      DropItemVelXZFromBomb: 0.400000006
+      DropItemVelYFromBomb: 0.600000024
+      DropItemVelRandomFromBomb: 0.200000003
+      DropItemAngVelFromBomb: 8.0
+      DropItemAngVelRandomFromBomb: 0.800000012
+      DropItemVelXZSmall: 0.200000003
+      DropItemVelYSmall: 0.5
+      DropItemVelRandomSmall: 0.100000001
+      DropItemAngVelSmall: 5.0
+      DropItemAngVelRandomSmall: 0.5
+      DropItemVelXZLarge: 0.150000006
+      DropItemVelYLarge: 0.400000006
+      DropItemVelRandomLarge: 0.100000001
+      DropItemAngVelLarge: 10.0
+      DropItemAngVelRandomLarge: 1.0
+      DropItemVelXZRupeeRabbit: 0.0599999987
+      DropItemVelYRupeeRabbit: 0.400000006
+      DropItemVelRandomRupeeRabbit: 0.0599999987
+      DropItemVelXZItemRupeeOnly: 0.0199999996
+      DropItemVelYItemRupeeOnly: 0.00999999978
+      DropItemVelRandomItemRupeeOnly: 0.00999999978
+      DropItemInvincibleTime: 30.0
+      TreeWeaponEquipTransOffset: !vec3 [0.0, 0.0, -2.0]
+      TreeWeaponEquipRotOffset: !vec3 [90.0, 0.0, 90.0]
+      WetRatioToDie: 0.100000001
+      EnvWetRatioToDie: 0.949999988
+      NPCTurnAngleDiff: 60.0
+      NPCWaitFrameAfterEvent: 60
+      NPCIgnorePlayerTime: 600.0
+      NPCCancelIgnorePlayerTime: 150.0
+      NPCOpenDoorDistance: 2.0
+      NPCWalkRateOnSandAndSnow: 0.800000012
+      NPCDownVerticallyAngle: 12.5
+      GerudoQueenSafetyAreaRadius: 12.0
+      CreateFairyLimitCount: 3
+      TerrorRegistSpeed: 10.0
+      TerrorUnregistSpeed: 5.0
+      TerrorRegistTimer: 30
+      TerrorRadiusOffset: 5.0
+      SpeedTerrorLevel: 2
+      SpeedTerrorLevelHuge: 4
+      SpeedTerrorLevelCheckRadius: 1.79999995
+      AtDirTypeAffectRatio: 0.5
+      RainyAwnHearingLevel: 0.699999988
+      HorseBindOffsetYOfMaleUMii: 0.0500000007
+      HorseBindOffsetYOfFemaleUMii: 0.0500000007
+      HorseFamiliarityIncreasePerFrame: !vec3 [0.0, 0.0, 0.0]
+      HorseFamiliarityIncreaseSootheAtFirstRun: !vec3 [0.100000001, 0.0799999982, 0.0599999987]
+      HorseFamiliarityIncreaseSootheAfterRun: !vec3 [0.100000001, 0.0799999982, 0.0599999987]
+      HorseFamiliarityIncreaseSootheAfterGearTop: !vec3 [0.0500000007, 0.0399999991, 0.0299999993]
+      HorseFamiliarityIncreaseSootheAfterJump: !vec3 [0.100000001, 0.0799999982, 0.0599999987]
+      HorseFamiliarityIncreaseSootheWhileResisting: !vec3 [0.0799999982, 0.0500000007, 0.0500000007]
+      HorseFamiliarityIncreaseEat: !vec3 [0.300000012, 0.100000001, 0.100000001]
+      HorseAlertProbability: !vec3 [0.00100000005, 0.00300000003, 0.00100000005]
+      HorseAlertFramesMin: !vec3 [120.0, 120.0, 120.0]
+      HorseAlertFramesMax: !vec3 [240.0, 240.0, 240.0]
+      HorseExtraChargeNum: 3
+      PlayerGrabThrowDiffRate: 1.0
+  lists: {}
