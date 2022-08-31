@@ -1,0 +1,125 @@
+!io
+version: 0
+type: xml
+param_root: !list
+  objects: {}
+  lists:
+    ParamSet: !list
+      objects:
+        1258832850: !obj
+          use_rigid_body_set_num: 2
+          use_ragdoll: false
+          use_cloth: false
+          use_support_bone: false
+          use_character_controller: false
+          use_contact_info: false
+          use_edge_rigid_body_num: 0
+          use_system_group_handler: true
+      lists:
+        RigidBodySet: !list
+          objects: {}
+          lists:
+            RigidBodySet_0: !list
+              objects:
+                4288596824: !obj
+                  set_name: !str32 Body
+                  type: !str32 from_resource
+                  num: 2
+                  setup_file_path: !str256 DgnObj_IbutsuWind_A/DgnObj_IbutsuWindTail_A_01.hkrb
+              lists:
+                RigidBody_0: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Body_RigidBody_Hull_g
+                      mass: 1.0
+                      inertia: !vec3 [18.9316692, 51.4960899, 57.3033714]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 35.3424873
+                      toi: true
+                      center_of_mass: !vec3 [0.54202503, 13.0571966, -64.6483612]
+                      bounding_center: !vec3 [0.0, 9.72500038, -68.6756287]
+                      bounding_extents: !vec3 [18.8932877, 14.0303001, 11.5932655]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: ''
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+                882113641: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Body_RigidBody_Mesh_g
+                      mass: 1.0
+                      inertia: !vec3 [1640.58801, 1542.23804, 601.558472]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 437.416565
+                      toi: false
+                      center_of_mass: !vec3 [-0.00170599995, 5.28171396, -47.732563]
+                      bounding_center: !vec3 [0.0, 15.6784401, -78.7144089]
+                      bounding_extents: !vec3 [84.8483429, 95.4268036, 141.571182]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 STATIC_WALKABLE_AND_CUTTING
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+            RigidBodySet_1: !list
+              objects:
+                4288596824: !obj
+                  set_name: !str32 InDoor
+                  type: !str32 from_resource
+                  num: 1
+                  setup_file_path: !str256 DgnObj_IbutsuWind_A/DgnObj_IbutsuWindTail_A_01_InDoor.hkrb
+              lists:
+                RigidBody_0: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Area_Col
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 22599.8867
+                      toi: false
+                      center_of_mass: !vec3 [0.0, 8.10826397, -27.1209507]
+                      bounding_center: !vec3 [-1.99999999e-06, 10.6863632, -36.2500038]
+                      bounding_extents: !vec3 [32.1272545, 66.5, 50.4272614]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      layer: !str32 SensorInDoor
+                      link_matrix: ACTOR_MATRIX
+                      link_entity_set: ''
+                      link_entity_body: ''
+                      use_entity_shape: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}

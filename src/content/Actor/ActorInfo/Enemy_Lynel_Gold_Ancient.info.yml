@@ -1,8 +1,8 @@
 aabbMax: {X: 3.44970989, Y: 5.40150976, Z: 2.46932006}
 aabbMin: {X: -3.35235, Y: -0.00339199998, Z: -3.08593011}
 animalUnitBasePlayRate: 1.0
-attackPower: 60
-bfres: Enemy_Lynel_Gold
+attackPower: 120
+bfres: Enemy_Lynel_Gold_Ancient
 boundingForTraverse: 5.40490198
 bugMask: 3
 cursorOffsetY: 1.14999998
@@ -13,10 +13,10 @@ drops:
   Normal4: [Item_Enemy_12]
 elink: Enemy_Lynel
 enemyRank: 52
-generalLife: 7500
+generalLife: 25000
 horseUnitRiddenAnimalType: 8
-instSize: 469092
-mainModel: Lynel_Gold
+instSize: 473200
+mainModel: Lynel_Gold_Ancient
 name: Enemy_Lynel_Gold_Ancient
 pictureBookLiveSpot1: 21
 pictureBookLiveSpot2: -1

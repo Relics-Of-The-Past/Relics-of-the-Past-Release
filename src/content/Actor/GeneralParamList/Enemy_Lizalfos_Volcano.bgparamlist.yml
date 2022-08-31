@@ -4,11 +4,11 @@ type: xml
 param_root: !list
   objects:
     System: !obj
-      SameGroupActorName: !str64 Enemy_Lizalfos_Fire
+      SameGroupActorName: !str64 Enemy_Lizalfos_Gold_Volcano
       IsGetItemSelf: false
     General: !obj
       Speed: 1.0
-      Life: 1296
+      Life: 2622
       IsLifeInfinite: false
       ElectricalDischarge: 1.0
       IsBurnOutBorn: false
@@ -151,7 +151,7 @@ param_root: !list
       HorseAvoidOffset: -1.0
       IsCircularMoveAlways: false
     PictureBook: !obj
-      LiveSpot1: 21
+      LiveSpot1: -1
       LiveSpot2: -1
       SpecialDrop: -1
   lists: {}

@@ -81,26 +81,6 @@ Objs:
   Scale: [100.0, 200.0, 100.0]
   Translate: [-4500.0, 301.525787, -3350.0]
   UnitConfigName: AreaCulling_InnerHide
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
-    IsDrop: false
-    IsNearCreate: true
-    IsWatchKeeping: false
-    LevelSensorMode: 0
-    NearCreateAppearID: 0
-    NearCreateAppearType: 0
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 1
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0x07a7b476
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xb9838eb6}
-  OnlyOne: true
-  SRTHash: 459041066
-  Translate: [-4150.0, 300.416687, -3855.5]
-  UnitConfigName: Enemy_Chuchu_Senior
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x092400f4
   LinksToObj:
@@ -114,12 +94,10 @@ Objs:
     ArrowName: NormalArrow
     BeamRange: 0.0
     DropTable: Normal
-    EquipItem1: Weapon_Sword_015
-    EquipItem2: Weapon_Spear_015
-    EquipItem3: Weapon_Lsword_015
+    EquipItem1: Weapon_Lsword_026
     EquipItem4: Default
-    IsAnnihilateDungeonEnemy: true
     IsNearCreate: false
+    IsSuspended: true
     LevelSensorMode: 0
     NearCreateAppearID: 0
     SharpWeaponJudgeType: 3
@@ -130,8 +108,8 @@ Objs:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xcf08efb6}
   OnlyOne: true
   SRTHash: 1507227845
-  Translate: [-4500.07666, 294.0, -3101.1582]
-  UnitConfigName: Enemy_Guardian_Mini_Senior
+  Translate: [-4500.00439, 294.200012, -3101.26392]
+  UnitConfigName: Enemy_Moriblin_Malice
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x0b940c0a
   LinksToObj:
@@ -179,7 +157,7 @@ Objs:
   Rotate: 1.941594
   SRTHash: 331774463
   Translate: [-4526.0, 332.975006, -3343.5]
-  UnitConfigName: Enemy_Bokoblin_Gold
+  UnitConfigName: Enemy_Moriblin_Gold
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 3, WaitTime: 90.0}
   HashId: !u 0x0d44f86f
   LinksToObj:
@@ -217,7 +195,7 @@ Objs:
     DefinitionName: BasicSigOnOnly
     DestUnitHashId: !u 0x399fa23b
   SRTHash: -2071605031
-  Translate: [-4155.58057, 300.137756, -3849.38867]
+  Translate: [-4160.76904, 300.137756, -3846.66577]
   UnitConfigName: LinkTagOr
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x0ff50bbd
@@ -331,30 +309,6 @@ Objs:
   SRTHash: -1764224028
   Translate: [-4495.5, 340.992188, -3386.0]
   UnitConfigName: DgnObj_DLC_BoardWood_L
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    IsDrop: false
-    IsNearCreate: true
-    IsWatchKeeping: false
-    LevelSensorMode: 0
-    NearCreateAppearID: 0
-    NearCreateAppearType: 0
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 3
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0x16acd7f1
-  LinksToObj:
-  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x9038a55f}
-  Rotate: 2.3561945
-  SRTHash: 1367252152
-  Translate: [-4164.84912, 300.226135, -3833.15088]
-  UnitConfigName: Enemy_Chuchu_Fire_Middle
 - '!Parameters': {AnchorName: StartPos, AnchorUniqueName: Water_4, DropTable: Normal, SharpWeaponJudgeType: 3}
   HashId: !u 0x170e8b0d
   LinksToObj:
@@ -371,16 +325,6 @@ Objs:
   SRTHash: 1127043439
   Translate: [-4399.86133, 311.427307, -3874.29297]
   UnitConfigName: ConstraintDummy
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0x1aa284ce
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xd60a14f4
-  SRTHash: 616567522
-  Scale: 40.0
-  Translate: [-4150.0, 300.0, -3850.0]
-  UnitConfigName: Area
 - '!Parameters': {EventFlowEntryName: Demo203_0, EventFlowName: Demo203_0, IsEndlessEvent: false, LaunchEventByOffSignal: false,
     LaunchEventByOnSignal: true}
   HashId: !u 0x1abe257f
@@ -390,9 +334,9 @@ Objs:
     DefinitionName: BasicSigOnOnly
     DestUnitHashId: !u 0xf8117dfb
   SRTHash: 1987129467
-  Translate: [-4147.64307, 300.137756, -3847.76953]
+  Translate: [-4149.75439, 300.137756, -3847.5105]
   UnitConfigName: EventTag
-- '!Parameters': {DropActor: Obj_FireArrow_A_03, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+- '!Parameters': {DropActor: Obj_FireArrow_A_02, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x1af7e82d
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4dcbfef8}
@@ -537,7 +481,7 @@ Objs:
   SRTHash: 2062847757
   Translate: [-4136.70703, 315.482056, -3614.13916]
   UnitConfigName: Item_Fruit_G
-- '!Parameters': {DropActor: Weapon_Sword_073, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+- '!Parameters': {DropActor: Weapon_Sword_023, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x2212cca0
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4dcbfef8}
@@ -659,30 +603,6 @@ Objs:
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    IsDrop: false
-    IsNearCreate: true
-    IsWatchKeeping: false
-    LevelSensorMode: 0
-    NearCreateAppearID: 0
-    NearCreateAppearType: 0
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 3
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0x2b4a9e53
-  LinksToObj:
-  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x9038a55f}
-  Rotate: -2.3561945
-  SRTHash: 457977825
-  Translate: [-4135.15088, 300.700165, -3833.15088]
-  UnitConfigName: Enemy_Chuchu_Fire_Middle
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
     EquipItem1: Weapon_Bow_003
     EquipItem2: Default
     EquipItem3: BokoblinPipe
@@ -769,7 +689,7 @@ Objs:
     DefinitionName: BasicSig
     DestUnitHashId: !u 0x036dca9d
   SRTHash: 0
-  Translate: [-4150.0, 300.0, -3850.0]
+  Translate: [-4155.31006, 300.0, -3853.22754]
   UnitConfigName: LinkTagAnd
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: true, Shape: Box}
   HashId: !u 0x32a8765a
@@ -787,7 +707,7 @@ Objs:
   UnitConfigName: LookTag
 - HashId: !u 0x338530fc
   SRTHash: 1484153047
-  Translate: [-4150.0, 301.637756, -3847.0]
+  Translate: [-4149.55762, 301.637756, -3844.34766]
   UnitConfigName: LookTag
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x33d67a37
@@ -878,7 +798,7 @@ Objs:
   UnitConfigName: FldObj_EnemyBaseRiversideBridge_A_01
 - HashId: !u 0x399fa23b
   SRTHash: 998820196
-  Translate: [-4154.02246, 300.137756, -3851.12476]
+  Translate: [-4158.44238, 300.137756, -3850.17383]
   UnitConfigName: BattleBgmRequestFinishTag
 - HashId: !u 0x3a45ae7b
   LinksToObj:
@@ -912,7 +832,7 @@ Objs:
   Rotate: [-0.693815947, -1.4661777, -1.27305412]
   SRTHash: 1164591560
   Translate: [-4618.78613, 300.450989, -3859.99805]
-  UnitConfigName: Weapon_Sword_006
+  UnitConfigName: Weapon_Sword_009
 - '!Parameters': {Direction: 4, WindSpeed: 12.0}
   HashId: !u 0x3d802c58
   SRTHash: -1373110465
@@ -1000,15 +920,6 @@ Objs:
   Scale: [100.0, 200.0, 100.0]
   Translate: [-4150.0, 300.0, -3600.0]
   UnitConfigName: AreaCulling_InnerHide
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 3, WaitTime: 60.0}
-  HashId: !u 0x3f17fc18
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0xd1fe576b
-  SRTHash: -1384818258
-  Translate: [-4156.46582, 300.321808, -3829.16602]
-  UnitConfigName: SwitchTimeLag
 - HashId: !u 0x4142e546
   SRTHash: 998820196
   Translate: [-4504.02246, 300.095001, -3131.12476]
@@ -1034,7 +945,7 @@ Objs:
     DefinitionName: BasicSig
     DestUnitHashId: !u 0x0efe6cdb
   SRTHash: 2114876852
-  Translate: [-4154.11719, 300.137756, -3847.30469]
+  Translate: [-4157.20068, 300.137756, -3843.37427]
   UnitConfigName: LinkTagAnd
 - HashId: !u 0x42f34f26
   LinksToObj:
@@ -1121,15 +1032,6 @@ Objs:
   SRTHash: 48762285
   Translate: [-4220.04004, 344.0, -3323.0]
   UnitConfigName: DgnObj_DLC_Balloon_Stay
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x48d53c63
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x72df5d13
-  SRTHash: -913018885
-  Translate: [-4159.16699, 300.0, -3827.35913]
-  UnitConfigName: LinkTagAnd
 - '!Parameters':
     AddParam: 0
     AddSpecialFlag: 0
@@ -1254,7 +1156,7 @@ Objs:
     DefinitionName: BasicSigOnOnly
     DestUnitHashId: !u 0xf20bef3c
   SRTHash: 0
-  Translate: [-4150.0, 300.137756, -3850.0]
+  Translate: [-4145.24707, 300.137756, -3851.11768]
   UnitConfigName: LinkTagAnd
 - '!Parameters': {IgnitedLevel: 0, PaletteSel: 36, TemperatureDirectDay: 23.0, TemperatureDirectNight: 23.0, TimeForSkyEnv: 10,
     Weather: 0, WeatherEff: -1}
@@ -1262,15 +1164,6 @@ Objs:
   SRTHash: 404683811
   Translate: [-4445.13232, 361.8125, -3874.69116]
   UnitConfigName: EnduranceEnvChangeTag
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x559f9bd1
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x42d29cbe
-  SRTHash: 774227442
-  Translate: [-4165.5, 301.429688, -3866.0]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {AnchorName: StartPos, AnchorUniqueName: Air_1, DropTable: Normal, SharpWeaponJudgeType: 3}
   HashId: !u 0x55d61161
   LinksToObj:
@@ -1370,7 +1263,7 @@ Objs:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd26d016c}
   SRTHash: -311500689
   Translate: [-4396.85938, 308.115265, -3853.07812]
-  UnitConfigName: Enemy_Bokoblin_Guard_Junior
+  UnitConfigName: Enemy_Bokoblin_Gold_Sniper
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
@@ -1392,30 +1285,6 @@ Objs:
   SRTHash: 753885784
   Translate: [-4498.0, 328.093506, -3658.0]
   UnitConfigName: Enemy_Moriblin_Gold
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    IsDrop: false
-    IsNearCreate: true
-    IsWatchKeeping: false
-    LevelSensorMode: 0
-    NearCreateAppearID: 0
-    NearCreateAppearType: 0
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 3
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0x5c885e28
-  LinksToObj:
-  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x9038a55f}
-  Rotate: 0.785398185
-  SRTHash: -288856819
-  Translate: [-4164.84912, 300.279968, -3862.84912]
-  UnitConfigName: Enemy_Chuchu_Fire_Middle
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x5d04e0da
   LinksToObj:
@@ -1554,7 +1423,7 @@ Objs:
   SRTHash: 0
   Translate: [-4634.62256, 302.071136, -3878.19507]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {DropActor: Weapon_Sword_002, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+- '!Parameters': {DropActor: Weapon_Sword_024, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x6457e78e
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x03355b58}
@@ -1562,30 +1431,6 @@ Objs:
   SRTHash: -301184108
   Translate: [-4467.5625, 345.292053, -3345.0]
   UnitConfigName: TBox_Dungeon_Wood_AreaCulling
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    IsDrop: false
-    IsNearCreate: true
-    IsWatchKeeping: false
-    LevelSensorMode: 0
-    NearCreateAppearID: 0
-    NearCreateAppearType: 0
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 3
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0x66823f58
-  LinksToObj:
-  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x9038a55f}
-  Rotate: -0.785398185
-  SRTHash: 37521493
-  Translate: [-4135.15088, 300.498627, -3862.84912]
-  UnitConfigName: Enemy_Chuchu_Fire_Middle
 - HashId: !u 0x6686f970
   OnlyOne: true
   Rotate: [-0.911775947, 0.720008552, 3.14159274]
@@ -1674,30 +1519,6 @@ Objs:
   SRTHash: 0
   Translate: [-4224.0, 342.399994, -3323.0]
   UnitConfigName: LinkTagNone
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    IsDrop: false
-    IsNearCreate: true
-    IsWatchKeeping: false
-    LevelSensorMode: 0
-    NearCreateAppearID: 0
-    NearCreateAppearType: 0
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 3
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0x6d6044b5
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x48d53c63}
-  Rotate: -1.57079637
-  SRTHash: -1960195640
-  Translate: [-4139.0, 300.235596, -3848.0]
-  UnitConfigName: Enemy_Chuchu_Fire_Junior
 - '!Parameters': {EventFlowEntryName: Demo203_0, EventFlowName: Demo203_0, IsEndlessEvent: false, LaunchEventByOffSignal: false,
     LaunchEventByOnSignal: true}
   HashId: !u 0x6db915e9
@@ -1734,7 +1555,7 @@ Objs:
   Rotate: [-0.309014678, -1.48062062, -1.73768485]
   SRTHash: 1386579850
   Translate: [-4618.82715, 300.690247, -3863.55664]
-  UnitConfigName: Weapon_Bow_002
+  UnitConfigName: Weapon_Bow_035
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: true, Shape: Box}
   HashId: !u 0x711e9e71
   LinksToObj:
@@ -1753,15 +1574,6 @@ Objs:
   SRTHash: 1107384724
   Translate: [-4174.90234, 303.167664, -3583.88501]
   UnitConfigName: Obj_TreePalmBeach_A_02
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 3, WaitTime: 30.0}
-  HashId: !u 0x72df5d13
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0xddf00454
-  SRTHash: -1398158098
-  Translate: [-4162.36084, 300.0, -3827.90723]
-  UnitConfigName: SwitchTimeLag
 - '!Parameters':
     AddParam: 0
     AddSpecialFlag: 0
@@ -1802,7 +1614,7 @@ Objs:
   SRTHash: -187452520
   Translate: [-4208.01025, 300.0, -3092.6665]
   UnitConfigName: Enemy_Guardian_Mini_Senior
-- '!Parameters': {DropActor: Weapon_Bow_002, DropTable: Normal, EnableRevival: false, IsInGround: false, LevelSensorMode: 0,
+- '!Parameters': {DropActor: Weapon_Bow_030, DropTable: Normal, EnableRevival: false, IsInGround: false, LevelSensorMode: 0,
     SharpWeaponJudgeType: 3}
   HashId: !u 0x75fd2447
   LinksToObj:
@@ -1877,24 +1689,6 @@ Objs:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xcf08efb6}
   SRTHash: -1622214410
   Translate: [-4508.0, 305.0, -3100.0]
-  UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x7b870fe0
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0xb0dbdc45
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0xa63c9710
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x6d6044b5
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x9c36f660
-  SRTHash: -317777378
-  Translate: [-4153.5, 300.189911, -3845.0]
   UnitConfigName: LinkTagAnd
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x7cf01a57
@@ -2000,7 +1794,7 @@ Objs:
   Rotate: [1.37999916, 0.0, 0.0]
   SRTHash: -965200246
   Translate: [-4500.64355, 326.296875, -3385.85767]
-  UnitConfigName: Weapon_Spear_005
+  UnitConfigName: Weapon_Spear_018
 - HashId: !u 0x82ea9346
   SRTHash: 0
   Translate: [-4228.0, 329.5, -3352.0]
@@ -2257,28 +2051,14 @@ Objs:
   SRTHash: -2071605031
   Translate: [-4194.41943, 317.100006, -3320.61133]
   UnitConfigName: LinkTagOr
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Weapon_Bow_035
-    EquipItem4: Weapon_Shield_003
-    EquipItem5: Weapon_Sword_003
-    GiantArmor1: GiantGreave_Iron_R
-    GiantArmor2: GiantGreave_Iron_L
-    GiantRoamType: 0
-    IsNearCreate: false
-    LevelSensorMode: 0
-    SharpWeaponJudgeType: 3
-    TerritoryArea: 0.0
-    UniqueNameMessageLabel: Giant_Endurance
+- '!Parameters': {ArrowName: BombArrow_A, DropTable: Normal, EquipItem1: Weapon_Lsword_003, EquipItem3: Weapon_Bow_035, IsNearCreate: false,
+    LevelSensorMode: 0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0}
   HashId: !u 0x8f638167
   LinksToObj:
   - {DefinitionName: DeadUp, DestUnitHashId: !u 0x3261b29a}
   SRTHash: 1767661294
-  Translate: [-4150.0, 304.280914, -3600.0]
-  UnitConfigName: Enemy_Giant_Middle
+  Translate: [-4150.0, 304.0, -3600.0]
+  UnitConfigName: Enemy_Lynel_Gold
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x8fadfc1d
   LinksToObj:
@@ -2286,15 +2066,6 @@ Objs:
   SRTHash: 1636316503
   Translate: [-4501.48438, 328.669128, -3672.71875]
   UnitConfigName: LinkTagNAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x9038a55f
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x559f9bd1
-  SRTHash: 1350441330
-  Translate: [-4171.0, 302.039062, -3843.5]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: true, Shape: Box}
   HashId: !u 0x92329ee0
   LinksToObj:
@@ -2353,7 +2124,7 @@ Objs:
   Rotate: [1.42885959, -0.875032008, 0.109246567]
   SRTHash: 136607542
   Translate: [-4620.90674, 302.013062, -3875.92822]
-  UnitConfigName: Weapon_Lsword_020
+  UnitConfigName: Weapon_Lsword_055
 - '!Parameters':
     AddParam: 0
     AddSpecialFlag: 0
@@ -2373,7 +2144,7 @@ Objs:
   Rotate: [1.45999968, 0.0, -0.25999999]
   SRTHash: 785140507
   Translate: [-4633.23828, 300.907471, -3868.59692]
-  UnitConfigName: Weapon_Sword_003
+  UnitConfigName: Weapon_Sword_047
 - HashId: !u 0x946ffc49
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x4b15c65a}
@@ -2428,8 +2199,8 @@ Objs:
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
-    EquipItem1: Weapon_Sword_001
-    EquipItem2: Weapon_Shield_035
+    EquipItem1: Weapon_Sword_024
+    EquipItem2: Weapon_Shield_022
     EquipItem3: Default
     EquipItem4: Default
     FortressEatPer: -1
@@ -2511,30 +2282,6 @@ Objs:
   Scale: 10.0
   Translate: [-4201.00781, 317.0, -3319.89062]
   UnitConfigName: Area
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    IsDrop: false
-    IsNearCreate: true
-    IsWatchKeeping: false
-    LevelSensorMode: 0
-    NearCreateAppearID: 0
-    NearCreateAppearType: 0
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 3
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0x9c36f660
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x48d53c63}
-  Rotate: -3.14159274
-  SRTHash: -340131159
-  Translate: [-4150.0, 300.386993, -3837.0]
-  UnitConfigName: Enemy_Chuchu_Fire_Junior
 - HashId: !u 0x9c820c71
   Rotate: -1.59986341
   SRTHash: -568122993
@@ -2638,29 +2385,6 @@ Objs:
   SRTHash: 404683811
   Translate: [-4545.13232, 361.8125, -3374.69116]
   UnitConfigName: EnduranceEnvChangeTag
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    IsDrop: false
-    IsNearCreate: true
-    IsWatchKeeping: false
-    LevelSensorMode: 0
-    NearCreateAppearID: 0
-    NearCreateAppearType: 0
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 3
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0xa63c9710
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x48d53c63}
-  SRTHash: -4549575
-  Translate: [-4150.0, 300.384186, -3859.0]
-  UnitConfigName: Enemy_Chuchu_Fire_Junior
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0xa6bc377e
   LinksToObj:
@@ -2673,7 +2397,7 @@ Objs:
 - '!Parameters':
     ArrowName: FireArrow
     DropTable: Normal
-    EquipItem1: Weapon_Bow_003
+    EquipItem1: Weapon_Bow_028
     EquipItem2: Default
     EquipItem3: Default
     EquipItem4: Default
@@ -2692,7 +2416,7 @@ Objs:
   Rotate: 0.52359879
   SRTHash: -118728801
   Translate: [-4520.92188, 313.906189, -3626.22656]
-  UnitConfigName: Enemy_Bokoblin_Guard_Middle_TreeHouseTop
+  UnitConfigName: Enemy_Lizalfos_Gold_Sniper
 - '!Parameters': {EventFlowEntryName: Demo204_0, EventFlowName: Demo204_0, IsEndlessEvent: false, LaunchEventByOffSignal: false,
     LaunchEventByOnSignal: true}
   HashId: !u 0xa8ead43e
@@ -2704,7 +2428,7 @@ Objs:
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
-    EquipItem1: Weapon_Spear_005
+    EquipItem1: Weapon_Spear_024
     EquipItem2: Default
     EquipItem3: Default
     EquipItem4: Default
@@ -2757,7 +2481,7 @@ Objs:
   LinksToObj:
   - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0xdb30fabf}
   SRTHash: 1636316503
-  Translate: [-4152.40625, 300.137756, -3850.0]
+  Translate: [-4155.16309, 300.137756, -3849.72388]
   UnitConfigName: LinkTagNAnd
 - HashId: !u 0xaac2c58a
   SRTHash: 1484153047
@@ -2815,8 +2539,8 @@ Objs:
   Translate: [-4654.11719, 300.118317, -3842.30469]
   UnitConfigName: LinkTagAnd
 - '!Parameters':
-    AddParam: 0
-    AddSpecialFlag: 0
+    AddParam: 35
+    AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: true
     IsCreateSharpWeapon: false
@@ -2827,15 +2551,15 @@ Objs:
     LevelSensorMode: 0
     Life: -1
     NoFlag: true
-    SharpWeaponJudgeType: 3
+    SharpWeaponJudgeType: 0
   HashId: !u 0xadc77a19
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xe223d94d}
   OnlyOne: true
   Rotate: [1.37999976, 0.0, 0.0]
   SRTHash: 1669922207
-  Translate: [-4399.33936, 307.202515, -3866.57324]
-  UnitConfigName: Weapon_Lsword_031
+  Translate: [-4399.33936, 307.802521, -3866.57324]
+  UnitConfigName: Weapon_Spear_024
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0xade099bf
   LinksToObj:
@@ -2857,30 +2581,6 @@ Objs:
   SRTHash: 998820196
   Translate: [-4154.02246, 304.290558, -3611.12476]
   UnitConfigName: BattleBgmRequestFinishTag
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    IsDrop: false
-    IsNearCreate: true
-    IsWatchKeeping: false
-    LevelSensorMode: 0
-    NearCreateAppearID: 0
-    NearCreateAppearType: 0
-    RotAngle: 0.0
-    SharpWeaponJudgeType: 3
-    TerritoryArea: 0.0
-    WaitTime: 1.0
-  HashId: !u 0xb0dbdc45
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x48d53c63}
-  Rotate: 1.57079637
-  SRTHash: 955989161
-  Translate: [-4161.0, 300.328369, -3848.0]
-  UnitConfigName: Enemy_Chuchu_Fire_Junior
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 3, WaitTime: 90.0}
   HashId: !u 0xb13f7e45
   LinksToObj:
@@ -3017,15 +2717,6 @@ Objs:
   SRTHash: 346857370
   Translate: [-4652.58203, 300.118317, -3842.29297]
   UnitConfigName: SwitchTimeLag
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xb9838eb6
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xf44b2fbd
-  SRTHash: 1353902167
-  Translate: [-4149.85059, 300.127045, -3844.36914]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xb994e918
   LinksToObj:
@@ -3053,7 +2744,7 @@ Objs:
   SRTHash: 0
   Translate: [-4200.0, 317.100006, -3320.0]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {DropActor: Obj_FireArrow_A_02, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+- '!Parameters': {DropActor: Animal_Insect_F, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0xbd8a6833
   Rotate: -0.700000048
   SRTHash: 556073784
@@ -3205,7 +2896,7 @@ Objs:
   Scale: [75.0, 100.0, 75.0]
   Translate: [-4400.0, 300.0, -3850.0]
   UnitConfigName: Area
-- '!Parameters': {DropActor: Weapon_Spear_032, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+- '!Parameters': {DropActor: Weapon_Lsword_014, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0xcc0dde92
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x6b893673}
@@ -3293,15 +2984,6 @@ Objs:
   SRTHash: 0
   Translate: [-4500.64355, 326.296875, -3385.85767]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xd1fe576b
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x07a7b476
-  SRTHash: 1018245737
-  Translate: [-4153.22656, 300.0, -3828.58594]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0xd20ed5f3
   SRTHash: 0
   Translate: [-4399.61084, 318.184204, -3877.13086]
@@ -3373,15 +3055,6 @@ Objs:
   SRTHash: 605949090
   Translate: [-4464.0, 345.007416, -3346.84058]
   UnitConfigName: DgnObj_IvyBurn
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xd60a14f4
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x3f17fc18
-  SRTHash: 0
-  Translate: [-4150.0, 300.0, -3850.0]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0xd791c317
   SRTHash: 998820196
   Translate: [-4654.02246, 300.118317, -3846.12476]
@@ -3418,7 +3091,7 @@ Objs:
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
-    EquipItem1: Weapon_Lsword_004
+    EquipItem1: Weapon_Lsword_024
     EquipItem2: Default
     EquipItem3: Default
     EquipItem4: Default
@@ -3530,24 +3203,6 @@ Objs:
   SRTHash: 1484153047
   Translate: [-4650.0, 301.618317, -3842.0]
   UnitConfigName: LookTag
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xddf00454
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x5c885e28
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x66823f58
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x2b4a9e53
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x16acd7f1
-  SRTHash: -503042046
-  Translate: [-4157.82812, 300.221344, -3835.64062]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: OP_DRC, SaveFlagOnOffType: 0}
   HashId: !u 0xde34e49e
   LinksToObj:
@@ -3734,7 +3389,7 @@ Objs:
   Rotate: [1.36117244, -0.158775017, 0.233915612]
   SRTHash: 1884902173
   Translate: [-4627.36816, 301.183746, -3875.15186]
-  UnitConfigName: Weapon_Sword_021
+  UnitConfigName: Weapon_Sword_003
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0xe8da6db9
   LinksToObj:
@@ -3851,15 +3506,6 @@ Objs:
   SRTHash: 346857370
   Translate: [-4502.58203, 322.975006, -3371.29297]
   UnitConfigName: SwitchTimeLag
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 3, WaitTime: 30.0}
-  HashId: !u 0xf44b2fbd
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x7b870fe0
-  SRTHash: -829582994
-  Translate: [-4151.43555, 300.0, -3843.98975]
-  UnitConfigName: SwitchTimeLag
 - '!Parameters': {EventFlowEntryName: Demo203_0, EventFlowName: Demo203_0, IsEndlessEvent: false, LaunchEventByOffSignal: false,
     LaunchEventByOnSignal: true}
   HashId: !u 0xf4b04453
@@ -3883,8 +3529,8 @@ Objs:
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
-    EquipItem1: Weapon_Sword_002
-    EquipItem2: Weapon_Shield_002
+    EquipItem1: Weapon_Sword_024
+    EquipItem2: Weapon_Shield_038
     EquipItem3: Default
     EquipItem4: Default
     FortressEatPer: -1
@@ -3892,7 +3538,7 @@ Objs:
     IsWatchKeeping: false
     LevelSensorMode: 0
     RotAngle: 0.0
-    SharpWeaponJudgeType: 2
+    SharpWeaponJudgeType: 3
     TerritoryArea: 0.0
     WaitTime: 1.0
   HashId: !u 0xf56a6657
@@ -3904,8 +3550,8 @@ Objs:
   Translate: [-4491.54688, 320.598938, -3670.91406]
   UnitConfigName: Enemy_Bokoblin_Gold
 - '!Parameters':
-    AddParam: 0
-    AddSpecialFlag: 0
+    AddParam: 30
+    AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: true
     IsCreateSharpWeapon: false
@@ -3915,7 +3561,7 @@ Objs:
     IsWeaponCreateByRawLife: false
     LevelSensorMode: 0
     Life: -1
-    SharpWeaponJudgeType: 3
+    SharpWeaponJudgeType: 0
   HashId: !u 0xf6595bf6
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x3e25de19}
@@ -4158,50 +3804,6 @@ Objs:
   Translate: [-4190.86963, 300.0, -3090.68774]
   UnitConfigName: Enemy_Guardian_Mini_Middle
 - '!Parameters':
-    ArrowName: NormalArrow
-    BeamRange: 0.0
-    DropTable: Normal
-    EquipItem1: Weapon_Sword_015
-    EquipItem2: Weapon_Spear_015
-    EquipItem3: Weapon_Lsword_015
-    EquipItem4: Default
-    IsAnnihilateDungeonEnemy: true
-    IsNearCreate: false
-    LevelSensorMode: 0
-    NearCreateAppearID: 0
-    SharpWeaponJudgeType: 3
-    TerritoryArea: 0.0
-  HashId: !u 0xffd740e9
-  LinksToObj:
-  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x5de196a0}
-  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xcf08efb6}
-  OnlyOne: true
-  SRTHash: 1507227845
-  Translate: [-4495.42773, 294.0, -3103.26343]
-  UnitConfigName: Enemy_Guardian_Mini_Senior
-- '!Parameters':
-    ArrowName: NormalArrow
-    BeamRange: 0.0
-    DropTable: Normal
-    EquipItem1: Weapon_Sword_015
-    EquipItem2: Weapon_Spear_015
-    EquipItem3: Weapon_Lsword_015
-    EquipItem4: Default
-    IsAnnihilateDungeonEnemy: true
-    IsNearCreate: false
-    LevelSensorMode: 0
-    NearCreateAppearID: 0
-    SharpWeaponJudgeType: 3
-    TerritoryArea: 0.0
-  HashId: !u 0xffd740ea
-  LinksToObj:
-  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x5de196a0}
-  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xcf08efb6}
-  OnlyOne: true
-  SRTHash: 1507227845
-  Translate: [-4504.58057, 294.0, -3103.48267]
-  UnitConfigName: Enemy_Guardian_Mini_Senior
-- '!Parameters':
     AddParam: 0
     AddSpecialFlag: 0
     DropTable: Normal
@@ -4221,8 +3823,8 @@ Objs:
 - HashId: !u 0xffd740ec
   Rotate: [1.59187174, 0.0, -0.303223252]
   SRTHash: 0
-  Translate: [-4618.79346, 300.530914, -3862.74512]
-  UnitConfigName: Obj_ArrowBundle_A_01
+  Translate: [-4618.92676, 300.530914, -3862.69751]
+  UnitConfigName: Obj_ArrowBundle_A_50
 - '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
     LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xffd740ed
@@ -4312,4 +3914,166 @@ Objs:
   SRTHash: 0
   Translate: [-4719.32129, 302.578308, -3852.19556]
   UnitConfigName: LinkTagAnd
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0,
+    SharpWeaponJudgeType: 3, TerritoryArea: 0.0}
+  HashId: !u 0xffd740f8
+  LinksToObj:
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0xabecef41}
+  Rotate: -3.20000005
+  SRTHash: -508859326
+  Translate: [-4197.32861, 300.0, -3080.8938]
+  UnitConfigName: Enemy_Lizalfos_Malice
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Weapon_Spear_013, EquipItem3: Default, EquipItem4: Default,
+    IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0}
+  HashId: !u 0xffd740f9
+  LinksToObj:
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0xabecef41}
+  Rotate: -1.60000002
+  SRTHash: -508859326
+  Translate: [-4176.28711, 300.0, -3098.12134]
+  UnitConfigName: Enemy_Lizalfos_Gold_Volcano
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsDrop: false
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    NearCreateAppearType: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffd740fa
+  LinksToObj:
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x35d5ac28}
+  Rotate: 0.560000181
+  SRTHash: 1902598664
+  Translate: [-4425.83447, 300.296173, -3848.15137]
+  UnitConfigName: Enemy_Chuchu_Fire_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsDrop: false
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    NearCreateAppearType: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffd740fb
+  LinksToObj:
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x35d5ac28}
+  Rotate: 0.560000181
+  SRTHash: 1902598664
+  Translate: [-4393.22852, 300.296173, -3865.0896]
+  UnitConfigName: Enemy_Chuchu_Fire_Middle
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Lsword_047
+    EquipItem2: Default
+    EquipItem3: Weapon_Bow_032
+    EquipItem4: Default
+    IsDrop: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    NearCreateAppearType: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffd740fc
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x42d29cbe}
+  SRTHash: -4549575
+  Translate: [-4149.35596, 300.384186, -3859.32056]
+  UnitConfigName: Enemy_Lynel_Gold
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
+  HashId: !u 0xffd740fd
+  LinksToObj:
+  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xffd740fe}
+  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xffd740ff}
+  SRTHash: 0
+  Scale: 4.5
+  Translate: [-4660.00635, 301.030487, -3817.67529]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: OP_DRC, SaveFlagOnOffType: 1}
+  HashId: !u 0xffd740fe
+  SRTHash: 0
+  Translate: [-4658.96924, 303.807892, -3820.88647]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: IsGet_Weapon_Sword_023, SaveFlagOnOffType: 1}
+  HashId: !u 0xffd740ff
+  SRTHash: 0
+  Translate: [-4659.06152, 303.807892, -3818.42676]
+  UnitConfigName: LinkTagAnd
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Weapon_Sword_015
+    EquipItem2: Weapon_Spear_015
+    EquipItem3: Weapon_Lsword_015
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: true
+    IsNearCreate: false
+    IsSuspended: true
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 0.0
+  HashId: !u 0xffd74100
+  LinksToObj:
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x5de196a0}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xcf08efb6}
+  OnlyOne: true
+  Rotate: 3.5999999
+  SRTHash: 1507227845
+  Translate: [-4486.68311, 300.200012, -3080.31592]
+  UnitConfigName: Enemy_Guardian_Mini_Senior_Dark
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Weapon_Sword_015
+    EquipItem2: Weapon_Spear_015
+    EquipItem3: Weapon_Lsword_015
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: true
+    IsSuspended: true
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 0.0
+  HashId: !u 0xffd74101
+  LinksToObj:
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x5de196a0}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xcf08efb6}
+  OnlyOne: true
+  Rotate: 3.0
+  SRTHash: 1507227845
+  Translate: [-4512.04395, 300.200012, -3082.25684]
+  UnitConfigName: Enemy_Guardian_Mini_Senior_Dark
+- '!Parameters': {ArrowName: BombArrow_A, DropTable: Normal, EquipItem1: Weapon_Lsword_003, EquipItem3: Weapon_Bow_035, IsNearCreate: false,
+    LevelSensorMode: 0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0}
+  HashId: !u 0xffd74102
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x3261b29a}
+  SRTHash: 1767661294
+  Translate: [-4158.72168, 304.0, -3601.9436]
+  UnitConfigName: Enemy_Lynel_Gold
 Rails: []

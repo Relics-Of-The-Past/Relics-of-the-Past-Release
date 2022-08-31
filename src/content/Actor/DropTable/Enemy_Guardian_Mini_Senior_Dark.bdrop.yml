@@ -22,9 +22,13 @@ param_root: !list
       ItemName04: !str64 Item_Enemy_29
       ItemProbability04: 10.0
     Normal2: !obj
-      RepeatNumMin: 0
-      RepeatNumMax: 0
+      RepeatNumMin: 1
+      RepeatNumMax: 2
       ApproachType: 0
       OccurrenceSpeedType: 0
-      ColumnNum: 0
+      ColumnNum: 2
+      ItemName01: !str64 Item_Enemy_30
+      ItemProbability01: 10.0
+      ItemName02: !str64 Item_Enemy_30
+      ItemProbability02: 100.0
   lists: {}

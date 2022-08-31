@@ -18,7 +18,7 @@ param_root: !list
               burn_out_time: 0.0
             shape_00: !obj
               name: !str32 Bokoblin
-              res_type_id: !str32 enemy_fire_proof
+              res_type_id: !str32 enemy00
               volume_occupancy: 1.0
               element_occlusion: 1.0
           lists: {}

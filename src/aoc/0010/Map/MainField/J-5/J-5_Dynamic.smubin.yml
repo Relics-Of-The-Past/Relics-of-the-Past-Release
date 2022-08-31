@@ -1,0 +1,4166 @@
+Objs:
+- HashId: !u 0x00874a1b
+  Rotate: [0.119999982, 0.700000048, 0.0]
+  SRTHash: -1953238108
+  Translate: [4134.06055, 111.608772, 240.819092]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- HashId: !u 0x00c40c63
+  Rotate: [-0.24799858, -1.00841665, 0.129176646]
+  SRTHash: 1057981023
+  Translate: [4319.6792, 159.355515, 614.334717]
+  UnitConfigName: FldObj_EnemyTrace_Garbage_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x00e9657f
+  Rotate: 0.014038085
+  SRTHash: -1946359506
+  Translate: [4082.90625, 136.305817, 234.273438]
+  UnitConfigName: Item_Plant_C
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x011d7fc4
+  Rotate: -0.659999907
+  SRTHash: 1251937407
+  Translate: [4484.98535, 192.123688, 459.222778]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x0263bd0d
+  Rotate: [0.35705924, 0.79418093, 0.448544532]
+  SRTHash: -1374749211
+  Scale: 1.05517602
+  Translate: [4406.68359, 169.586807, 248.820312]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x02f61cac
+  Rotate: -0.0354632773
+  SRTHash: -1752179224
+  Scale: 1.14999998
+  Translate: [4527.88232, 170.900757, 579.266235]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0312085f
+  Rotate: [0.0681289285, -0.0401830338, 0.152133375]
+  SRTHash: -1563919801
+  Translate: [4407.80518, 119.649117, 840.273254]
+  UnitConfigName: Item_Plant_A
+- HashId: !u 0x033503c3
+  Rotate: [0.486412764, 0.651710987, 0.246004015]
+  SRTHash: -312393873
+  Scale: 1.07666004
+  Translate: [4335.25, 152.238678, 98.3398438]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x036bbd40
+  Rotate: -1.80000234
+  SRTHash: -384275989
+  Translate: [4314.5, 157.434998, 597.0]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- HashId: !u 0x04008719
+  Rotate: [0.0992892534, -0.309168071, 0.0919596329]
+  SRTHash: 1426587926
+  Scale: 0.90527302
+  Translate: [4489.32422, 169.97316, 561.832031]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x042f834c
+  Rotate: [0.105971158, 1.22520852, 0.026441738]
+  SRTHash: 332830572
+  Translate: [4571.65674, 139.550018, 362.087799]
+  UnitConfigName: Item_Plant_I
+- HashId: !u 0x044c279a
+  Rotate: [-0.161651686, 0.244358957, -0.0220756978]
+  SRTHash: -1552304986
+  Scale: 1.04931605
+  Translate: [4404.61328, 173.300018, 676.382812]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x046cdf8a
+  SRTHash: -1909118778
+  Translate: [4440.5, 161.903809, 369.5]
+  UnitConfigName: GrassCutTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x04be03dc
+  Rotate: [-2.43275952, 1.23989904, -2.40509462]
+  SRTHash: 620337371
+  Translate: [4063.01392, 180.280411, 802.074158]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x04f40d06
+  Rotate: 5.26689005
+  SRTHash: 1202036631
+  Translate: [4017.41479, 264.146179, 830.958984]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x05561289
+  SRTHash: 768118610
+  Translate: [4463.68896, 161.606415, 339.817108]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0558e238
+  Rotate: 0.719999969
+  SRTHash: 868735326
+  Translate: [4491.64307, 169.504654, 557.750488]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x0656bbc6
+  Rotate: 2.13840723
+  SRTHash: 312526976
+  Translate: [4207.45654, 105.407043, 475.887115]
+  UnitConfigName: Animal_Fish_G
+- HashId: !u 0x071688f0
+  Rotate: -0.830796123
+  SRTHash: -873894457
+  Translate: [4138.90576, 141.213104, 197.129669]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x072fc989
+  SRTHash: -174936119
+  Translate: [4145.30322, 106.740768, 269.806549]
+  UnitConfigName: FldObj_RockBeachLump_A_M_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x078480df
+  Rotate: 2.99999905
+  SRTHash: -841340570
+  Translate: [3859.66943, 106.159592, 673.780396]
+  UnitConfigName: Animal_LittleBird_C
+- HashId: !u 0x079a7d37
+  Rotate: 0.179999992
+  SRTHash: -1948292672
+  Translate: [4138.83643, 106.901154, 494.240723]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x07affec5
+  Rotate: 4.44026852
+  SRTHash: 133802059
+  Scale: 1.14999998
+  Translate: [4429.29883, 169.87233, 648.711121]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x07f7ea3b
+  Rotate: -1.42291689
+  SRTHash: -1767754321
+  Scale: 1.14999998
+  Translate: [4488.14893, 180.153015, 656.741699]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x0808df3c
+  Rotate: [-0.342031449, 0.360493541, -0.0608675182]
+  SRTHash: -1413007441
+  Translate: [4447.05713, 154.284286, 799.160706]
+  UnitConfigName: FldObj_RockBeachLump_A_M_01
+- HashId: !u 0x08300098
+  Rotate: [3.02661109, 1.12866199, -2.71069312]
+  SRTHash: 0
+  Translate: [4275.65234, 128.269531, 508.300781]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x087f9ef6
+  Rotate: -1.18000054
+  SRTHash: -1201326850
+  Translate: [4220.70166, 120.153053, 177.329041]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x08bafa34
+  Rotate: 4.44026852
+  SRTHash: -844617297
+  Scale: 1.14999998
+  Translate: [4446.27441, 167.78064, 611.2323]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x094da5bc
+  Rotate: [3.12231421, -0.117309563, -2.76647925]
+  SRTHash: 0
+  Translate: [4389.54297, 173.480469, 208.824219]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x099258e2
+  Rotate: -2.93999982
+  SRTHash: -587067302
+  Translate: [4113.53418, 103.197617, 548.543274]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x09fff65d
+  Rotate: -0.480000049
+  SRTHash: -2131695098
+  Translate: [4310.51465, 157.46402, 589.261597]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x0a4f70ae
+  Rotate: [-2.74285555, -0.61777997, 3.0982008]
+  SRTHash: -36202117
+  Translate: [4313.63818, 142.202423, 151.804016]
+  UnitConfigName: FldObj_CliffWhite_A_S_03
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0a85406d
+  Rotate: 0.779999971
+  SRTHash: -549497013
+  Translate: [4314.84912, 157.869293, 586.867249]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0x0a9039ca
+  Rotate: [-0.000503004936, -0.127636835, 0.00653036451]
+  SRTHash: -1671722891
+  Translate: [4517.71387, 156.483963, 226.268082]
+  UnitConfigName: KibakoZora_Contain_01
+- HashId: !u 0x0ae22caa
+  Rotate: [0.0485096052, 0.572578192, -0.0810319409]
+  SRTHash: 1126170616
+  Scale: 1.01904297
+  Translate: [4390.85547, 168.143875, 249.261719]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x0aff8568
+  Rotate: [0.118652329, -0.402465791, 0.167114243]
+  SRTHash: 0
+  Translate: [4281.70703, 118.902344, 442.527344]
+  UnitConfigName: EnvSeEmitPointBirdTemperate
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsMimicry: false
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x0bb41866
+  SRTHash: -938353786
+  Translate: [4230.0791, 107.311104, 596.056946]
+  UnitConfigName: Enemy_Octarock_Desert
+- HashId: !u 0x0bda6bd8
+  Rotate: 2.96000004
+  SRTHash: -1552552383
+  Translate: [4213.65283, 104.863846, 430.211853]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0c211994
+  Rotate: 1.23999977
+  SRTHash: 1945636034
+  Translate: [4295.45557, 116.157463, 457.394623]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x0c22e48e
+  Rotate: -2.35999799
+  SRTHash: -656561125
+  Translate: [4186.31982, 105.350739, 473.361237]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0x0c62e452
+  Rotate: -2.36000013
+  SRTHash: 977929097
+  Translate: [4296.34961, 113.965973, 464.843109]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- '!Parameters': {DropActor: Weapon_Spear_023, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 3}
+  HashId: !u 0x0ca4a0b6
+  Rotate: [-0.147695899, -0.0933073685, -0.147195041]
+  SRTHash: 1136954881
+  Translate: [4324.31543, 163.717957, 194.917267]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0d54c0b0
+  SRTHash: -149865219
+  Translate: [4256.10645, 256.928864, 52.449707]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x0d61bcd5
+  Rotate: [0.209327504, -0.91353786, 0.116205707]
+  SRTHash: -1799125030
+  Translate: [4272.48975, 129.668396, 616.435486]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x0e43d3da
+  SRTHash: 416107047
+  Translate: [4312.12256, 111.388733, 358.669983]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x0e71d2cc
+  Rotate: [0.314289212, 1.37071061, 0.32757479]
+  SRTHash: 858607257
+  Scale: 1.02050805
+  Translate: [4402.78516, 167.312134, 629.929688]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0eb96c7e
+  SRTHash: -1451137252
+  Translate: [4483.71436, 169.103775, 566.284668]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0f51e006
+  Rotate: [-0.0448429026, -0.00640151603, 0.0131031815]
+  SRTHash: -1402642429
+  Translate: [4323.50146, 158.666428, 597.491516]
+  UnitConfigName: BarrelBomb2
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x0f545488
+  Rotate: -2.35999799
+  SRTHash: -692352828
+  Translate: [4190.40039, 105.350739, 461.042267]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0x0f8be420
+  Rotate: -2.40159225
+  SRTHash: -114320788
+  Translate: [4137.40088, 142.213104, 198.499573]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x109da6d6
+  Rotate: [0.0814347863, -1.33413053, -0.238043085]
+  SRTHash: 2106877696
+  Translate: [4161.04395, 101.986633, 533.404297]
+  UnitConfigName: FldObj_RockBeach_A_M_04
+- HashId: !u 0x110c0a11
+  Rotate: [0.821771741, -1.35844493, -1.25003612]
+  SRTHash: 1634226672
+  Scale: 0.935546994
+  Translate: [4047.20312, 393.718994, 43.796875]
+  UnitConfigName: Obj_Plant_Shrub_A_02
+- HashId: !u 0x11177aa7
+  Rotate: [0.387082696, 0.0206521023, -0.105277129]
+  SRTHash: -2101739866
+  Translate: [4560.4541, 142.270172, 742.701782]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x116d135a
+  Rotate: [3.14147925, -0.166870117, 3.14147925]
+  SRTHash: 0
+  Translate: [4011.26172, 159.679688, 350.277344]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0x121e1539
+  Rotate: [0.00106314488, 0.700821877, 0.258823097]
+  SRTHash: 1561489806
+  Scale: 0.909179986
+  Translate: [4489.64453, 170.790817, 584.046875]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x133822f0
+  Rotate: 1.39626288
+  SRTHash: -1805198295
+  Translate: [4188.71045, 127.89032, 451.912811]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x141775d2
+  Rotate: 0.479999989
+  SRTHash: 877922229
+  Translate: [4340.03711, 155.466095, 85.6834412]
+  UnitConfigName: Animal_Fox_A
+- HashId: !u 0x15dc0244
+  Rotate: [0.00620329892, 0.918623924, -0.217306301]
+  SRTHash: -329855033
+  Scale: 1.09277296
+  Translate: [4569.75781, 155.587372, 537.378906]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x1620bfae
+  Rotate: [-2.00183082, 1.43225098, -2.28491211]
+  SRTHash: 0
+  Translate: [4051.23828, 146.433594, 332.089844]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1794fd44
+  Rotate: [-0.0329174884, 0.0206520781, -0.105277099]
+  SRTHash: -1374405094
+  Translate: [4560.05957, 141.871658, 744.049805]
+  UnitConfigName: Obj_Mineral_B_01
+- HashId: !u 0x1810a30c
+  Rotate: -1.48000002
+  SRTHash: -2034678098
+  Translate: [4318.10596, 105.101044, 282.862885]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- HashId: !u 0x19621201
+  Rotate: [-0.0142762763, 0.71163559, 0.106429487]
+  SRTHash: -553137163
+  Scale: 1.04589796
+  Translate: [4373.50391, 165.351028, 625.046875]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Ore, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1a0b7012
+  SRTHash: -413714535
+  Translate: [4446.54346, 162.824112, 468.639648]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1a893b25
+  Rotate: [-0.162351355, 0.603756785, -0.24270685]
+  SRTHash: 1054177261
+  Translate: [4176.46045, 298.768433, 51.3281555]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0x1ad2e7af
+  Rotate: [3.14147925, 0.0319824256, 3.14147925]
+  SRTHash: 0
+  Translate: [4401.70312, 176.332031, 648.679688]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1ad90dc8
+  Rotate: 1.0400002
+  SRTHash: -37192174
+  Translate: [4354.31201, 162.588577, 622.066101]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x1ae35cd1
+  Rotate: [-0.00306867762, -0.758291364, -0.0826878473]
+  SRTHash: 2052487408
+  Translate: [4428.73145, 170.784378, 427.432922]
+  UnitConfigName: FldObj_RockBeachLump_A_M_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1b4374ab
+  Rotate: [-1.27096069, -1.4524802, 1.34492779]
+  SRTHash: -924356460
+  Translate: [4312.60059, 111.847603, 358.670563]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1ba1c8d0
+  Rotate: -0.900000393
+  SRTHash: -1617085751
+  Translate: [4350.54688, 153.602768, 306.531281]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x1bb66cbf
+  Rotate: [0.0254400838, 0.409173965, 0.125876069]
+  SRTHash: 1441942122
+  Scale: 0.89892602
+  Translate: [4372.17188, 165.205002, 626.753906]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x1bd2cc62
+  Rotate: -0.830796123
+  SRTHash: -1460615407
+  Translate: [4137.46338, 141.213104, 197.069855]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x1bf6dc5c
+  Rotate: 0.955928504
+  SRTHash: 508651899
+  Scale: 0.964966059
+  Translate: [4199.35938, 97.0446777, 464.777832]
+  UnitConfigName: FldObj_KorokStake_A_01
+- HashId: !u 0x1c07491d
+  Rotate: [0.0, 0.23999998, -0.139999986]
+  SRTHash: -1500886390
+  Translate: [4219.65625, 123.978531, 140.642944]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- HashId: !u 0x1c47e14c
+  Rotate: [0.748633802, -0.729128718, -0.50589782]
+  SRTHash: -126733703
+  Translate: [4073.66431, 249.889633, 176.479462]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x1c9ad73d
+  Rotate: [-1.49625683, 1.36863256, -1.33824861]
+  SRTHash: -148206492
+  Scale: 1.02392602
+  Translate: [4038.16406, 394.335815, 50.8828125]
+  UnitConfigName: Obj_Plant_Shrub_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1d98c6aa
+  SRTHash: -1632542635
+  Translate: [4395.25928, 168.046371, 599.347412]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1dd2817f
+  Rotate: 4.44026852
+  SRTHash: 2085546214
+  Scale: 1.14999998
+  Translate: [4507.56641, 180.736206, 657.205566]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0x1e1b18f3
+  Rotate: [-0.214076728, -0.108351797, -0.142056376]
+  SRTHash: -2031205461
+  Scale: 0.993164003
+  Translate: [4102.44531, 135.362793, 251.121094]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- HashId: !u 0x1e7e9a9c
+  Rotate: [3.07662845, -0.516918659, 2.86038113]
+  SRTHash: 1235746335
+  Translate: [4130.44287, 96.7471695, 385.717041]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- HashId: !u 0x1e98fdb8
+  Rotate: [-2.9287107, 0.361206025, 2.93652344]
+  SRTHash: 0
+  Translate: [4521.04297, 183.183594, 643.648438]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0x1f733524
+  Rotate: [0.0992611945, 0.949789703, 0.153591096]
+  SRTHash: -1977766661
+  Scale: 0.899901986
+  Translate: [4440.24609, 160.501465, 722.460938]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x20c2afe8
+  Rotate: [0.0, 0.0, 0.0599999949]
+  SRTHash: -1458255702
+  Translate: [4449.08301, 157.3573, 743.51239]
+  UnitConfigName: FldObj_AncientPillar_A_04
+- HashId: !u 0x212dc3d3
+  Rotate: [-0.427601874, -1.00696826, 0.428737402]
+  SRTHash: -828785574
+  Scale: 0.851562977
+  Translate: [4483.96094, 168.130188, 553.792969]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- HashId: !u 0x2273e620
+  Rotate: 1.55999994
+  SRTHash: 79265419
+  Translate: [4051.65894, 105.403221, 526.876648]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- HashId: !u 0x22d3ab38
+  Rotate: [0.239646733, 0.728521407, 0.351746231]
+  SRTHash: -1939261350
+  Translate: [4383.9248, 169.586761, 276.177612]
+  UnitConfigName: FldObj_HyrulePrairieRock_A_02
+- HashId: !u 0x23042cd7
+  Rotate: [-0.391175836, -0.58419013, 0.389254093]
+  SRTHash: -457382661
+  Scale: 0.990723014
+  Translate: [4440.28125, 141.79686, 136.929688]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x23243010
+  Rotate: [-0.26116845, -0.787506521, 0.136505648]
+  SRTHash: 458949208
+  Translate: [4304.87646, 143.113235, 145.743958]
+  UnitConfigName: FldObj_RockBeachLump_A_M_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x237dd6c4
+  Rotate: 3.94625163
+  SRTHash: 955223641
+  Translate: [4057.30127, 185.517944, 811.405884]
+  UnitConfigName: Obj_Mineral_B_01
+- HashId: !u 0x2393b87c
+  Rotate: -1.82000005
+  SRTHash: -909623123
+  Translate: [4265.5083, 111.444443, 491.284546]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- HashId: !u 0x23bd4e9b
+  Rotate: [0.905460954, 1.46178722, 0.680686474]
+  SRTHash: -539679087
+  Scale: 1.06347704
+  Translate: [4572.37109, 155.980682, 526.539062]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x243f33de
+  Rotate: [0.271821201, -0.0279827826, -0.0328300335]
+  SRTHash: 1877514857
+  Scale: 1.02197301
+  Translate: [4340.31641, 151.359772, 100.671875]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x25046c79
+  Rotate: 4.44026852
+  SRTHash: -2125087152
+  Scale: 1.14999998
+  Translate: [4412.93848, 171.817352, 667.24231]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x254ab18b
+  Rotate: -0.479999989
+  SRTHash: 905177865
+  Translate: [4328.45508, 164.618408, 453.667084]
+  UnitConfigName: Animal_Doe_A
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x254b5098
+  Rotate: -2.94291687
+  SRTHash: 1518928218
+  Scale: 1.14999998
+  Translate: [4506.2002, 178.59436, 630.099976]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2584d546
+  Rotate: -1.91999984
+  SRTHash: 1323444496
+  Translate: [4462.17676, 164.017044, 526.478455]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x25e6bb45
+  Rotate: 2.22359776
+  SRTHash: -109190494
+  Translate: [4174.95508, 101.383759, 534.23938]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x25ea03ca
+  Rotate: 1.80364144
+  SRTHash: 155272613
+  Translate: [4168.35303, 106.452728, 450.316132]
+  UnitConfigName: Animal_Insect_K
+- HashId: !u 0x2643ef8a
+  SRTHash: 389200494
+  Translate: [4254.87842, 104.667038, 187.18219]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- HashId: !u 0x268c5ed0
+  Rotate: [-0.307318032, -1.27230573, 0.520778298]
+  SRTHash: -810832010
+  Scale: 1.06005895
+  Translate: [4495.33984, 169.587662, 553.015625]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- HashId: !u 0x26dd0bfb
+  Rotate: [-0.0777767748, 0.494614244, 0.201692238]
+  SRTHash: 1889531795
+  Scale: 0.950195014
+  Translate: [4489.32422, 170.500809, 580.898438]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- HashId: !u 0x26f57595
+  Rotate: [0.0310670249, -0.357402653, 0.306299329]
+  SRTHash: -2001046190
+  Scale: 0.970215023
+  Translate: [4496.75391, 169.606628, 547.808594]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x27015f75
+  Rotate: [-0.233979955, 0.223807111, 0.171974286]
+  SRTHash: 2143840856
+  Translate: [4079.85205, 251.424866, 171.132385]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x27058b61
+  Rotate: [-0.159330964, 0.306462675, -0.00872198399]
+  SRTHash: -430471436
+  Translate: [4177.75684, 299.08136, 53.8329468]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x278019a8
+  Rotate: -0.982916951
+  SRTHash: 2121482994
+  Scale: 1.14999998
+  Translate: [4498.7876, 172.766434, 595.824707]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x27bf086b
+  Rotate: -2.96500182
+  SRTHash: 495655659
+  Translate: [4065.48926, 179.468231, 808.858276]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x2819923b
+  Rotate: -0.779999793
+  SRTHash: -1929278799
+  Scale: 1.07136154
+  Translate: [4197.39648, 96.0837402, 461.30658]
+  UnitConfigName: FldObj_KorokStake_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x28709eb1
+  Rotate: 4.44026852
+  SRTHash: 418557
+  Scale: 1.14999998
+  Translate: [4406.79541, 170.218292, 662.215576]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x299fd759
+  SRTHash: -1496011128
+  Translate: [4382.37549, 167.913879, 610.120056]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2a03a4a0
+  SRTHash: 1611490558
+  Translate: [4373.7749, 184.310928, 498.388092]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2a7faa39
+  Rotate: 1.16000986
+  SRTHash: -708121199
+  Translate: [4178.09473, 105.588348, 443.905884]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_100, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2aaf4674
+  Rotate: [-0.678851604, -1.04371595, 0.601408243]
+  SRTHash: -567379872
+  Translate: [4149.31787, 341.693787, -1.04425049]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x2ae7204a
+  Rotate: [0.125244126, 0.379760712, -0.203979477]
+  SRTHash: 0
+  Translate: [4520.14844, 180.675781, 588.015625]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0x2ae8face
+  Rotate: [-0.562210083, 1.43111587, -0.344946712]
+  SRTHash: 745674368
+  Scale: 1.05322301
+  Translate: [4491.61328, 168.716858, 552.152344]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- HashId: !u 0x2af21726
+  Rotate: -0.439999968
+  SRTHash: 690054443
+  Translate: [4141.85742, 105.100746, 455.023529]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- HashId: !u 0x2caeca11
+  Rotate: [3.14159274, -1.51079631, 2.98159242]
+  SRTHash: -873894457
+  Translate: [4143.99316, 136.392044, 195.861908]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2cdfd425
+  Rotate: 1.08000004
+  SRTHash: -1229698850
+  Scale: 1.10000002
+  Translate: [4468.62061, 171.642715, 400.419067]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x2d3d3a29
+  Rotate: [2.98796391, -0.79127264, -2.87817192]
+  SRTHash: 599506728
+  Scale: 0.800000012
+  Translate: [4264.30811, 125.795921, 151.625824]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2d9e23f7
+  Rotate: -1.17999995
+  SRTHash: 455572289
+  Translate: [4462.43604, 166.167007, 573.200256]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2df967bd
+  Rotate: 1.38000011
+  SRTHash: 952047285
+  Translate: [4278.76025, 111.364334, 427.181854]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2e0472c3
+  Rotate: 2.44026852
+  SRTHash: -1522021242
+  Scale: 1.14999998
+  Translate: [4516.80322, 176.708206, 633.653931]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2e252ac0
+  Rotate: -0.459999949
+  SRTHash: -2086299275
+  Translate: [4491.72461, 168.279816, 542.838806]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x2e3b63c8
+  Rotate: -2.40159225
+  SRTHash: -1460615407
+  Translate: [4139.64404, 141.213104, 196.455383]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x2e4d7762
+  Rotate: [-0.00169881817, 0.197572216, 0.075008601]
+  SRTHash: -568853782
+  Scale: 0.879395008
+  Translate: [4487.47656, 167.740936, 540.363281]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x300b468a
+  Rotate: 4.44026852
+  SRTHash: 743734366
+  Scale: 1.14999998
+  Translate: [4424.33105, 169.905151, 641.005005]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x307dbafa
+  Rotate: [-3.06762671, 0.17773436, -2.86975074]
+  SRTHash: 0
+  Translate: [4424.26562, 173.039062, 537.816406]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0x3084f327
+  SRTHash: -759412359
+  Scale: 100.0
+  Translate: [4322.44531, 158.881348, 609.56842]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x318ad37d
+  Rotate: [-0.620483398, 1.14758289, -1.59130847]
+  SRTHash: 0
+  Translate: [4148.21875, 187.992188, 930.289062]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x318f5c95
+  Rotate: [0.31616208, -0.879638612, -0.451049775]
+  SRTHash: 0
+  Translate: [4413.05859, 181.074219, 301.996094]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0x319eb475
+  Rotate: [-0.112695567, -0.171206459, 0.28932628]
+  SRTHash: -473732598
+  Scale: 1.04638696
+  Translate: [4314.37891, 157.26651, 575.5]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x320b0807
+  Rotate: -2.33999515
+  SRTHash: 1120201325
+  Translate: [3841.98242, 106.428436, 683.450806]
+  UnitConfigName: Animal_LittleBird_C
+- HashId: !u 0x3273b928
+  Rotate: [0.12806192, -0.764007092, -0.310687155]
+  SRTHash: -1942998632
+  Translate: [4136.38428, 100.824203, 379.475098]
+  UnitConfigName: FldObj_RockBeach_A_M_04
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x32d8f720
+  Rotate: 4.44026852
+  SRTHash: -567013126
+  Scale: 1.14999998
+  Translate: [4469.3999, 162.724548, 681.387573]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x33889ed2
+  SRTHash: 1878558136
+  Translate: [4570.56348, 139.219711, 295.809723]
+  UnitConfigName: Animal_LittleBird_A
+- HashId: !u 0x338d4f6b
+  Rotate: [-2.6141355, -1.08422852, 2.50683594]
+  SRTHash: 0
+  Translate: [4356.30469, 164.3125, 186.652344]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x343ad4ef
+  Rotate: -2.09439611
+  SRTHash: -866962621
+  Translate: [4170.854, 120.898987, 484.325104]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x34aab75e
+  Rotate: [0.862149119, 0.0646683648, -0.140424967]
+  SRTHash: 613585672
+  Translate: [4459.63965, 105.564766, 905.547485]
+  UnitConfigName: Animal_Fish_K
+- HashId: !u 0x35108925
+  Rotate: [0.59825474, 1.38386667, 0.750494063]
+  SRTHash: 1865063324
+  Scale: 0.953125
+  Translate: [4404.52734, 167.693726, 626.214844]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x351c0b08
+  Rotate: [-2.84042239, -1.43557608, -2.50017428]
+  SRTHash: -1349725890
+  Translate: [4561.0459, 143.151962, 740.654114]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x354beb8c
+  Rotate: 4.44026852
+  SRTHash: 1877343765
+  Scale: 1.14999998
+  Translate: [4478.08789, 184.67511, 635.197754]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x36e94512
+  Rotate: [-1.08303547, 0.449581623, -0.686328411]
+  SRTHash: 1017275574
+  Translate: [4079.80859, 251.789886, 171.624634]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x37233662
+  Rotate: [0.293286949, -1.04408789, -0.47534591]
+  SRTHash: 1955778776
+  Scale: 1.09375
+  Translate: [4084.91406, 122.333893, 273.773438]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x37865bdf
+  Rotate: -2.15999794
+  SRTHash: -239054673
+  Translate: [4185.88379, 105.300362, 462.874237]
+  UnitConfigName: Animal_Fish_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x37e9e772
+  Rotate: [-2.11083961, 0.227661118, 2.95361304]
+  SRTHash: 0
+  Translate: [4055.01953, 228.792969, 831.84375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x3851ae72
+  Rotate: [0.200897664, -0.513700902, -0.0874137878]
+  SRTHash: 927866561
+  Scale: 0.926757991
+  Translate: [4434.67578, 158.411316, 736.003906]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x39393ff2
+  Rotate: 4.44026852
+  SRTHash: 873890082
+  Scale: 1.14999998
+  Translate: [4402.38867, 171.742767, 673.015869]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x394a1049
+  Rotate: -0.780000329
+  SRTHash: 100093808
+  Translate: [4529.65576, 110.865013, 1020.53442]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x399ad8f2
+  Rotate: [1.41999996, 0.840000033, 0.0]
+  SRTHash: -2036618816
+  Translate: [4462.87842, 156.780792, 811.4104]
+  UnitConfigName: FldObj_AncientPillar_A_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x39a0080e
+  Rotate: -1.07999933
+  SRTHash: 1107940501
+  Translate: [4251.54492, 107.181656, 371.572235]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x39afc5cc
+  Rotate: [-1.96289051, 0.96081537, -2.81872535]
+  SRTHash: 0
+  Translate: [4041.17969, 422.929688, 997.117188]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x39d7082d
+  Rotate: -0.859985292
+  SRTHash: -1573264529
+  Translate: [4463.98438, 158.584991, 184.558594]
+  UnitConfigName: Item_Mushroom_E
+- '!Parameters': {DropActor: Weapon_Sword_052, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+  HashId: !u 0x3b782357
+  Rotate: [-3.02924991, -1.15720963, 3.02111816]
+  SRTHash: -47397689
+  Translate: [4515.49316, 156.503601, 233.007416]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3b975c6a
+  Rotate: -0.920000136
+  SRTHash: -463598449
+  Translate: [4353.76807, 145.93924, 153.097534]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3bdc8e2e
+  Rotate: [2.9392879, -0.727824271, -3.1088562]
+  SRTHash: -1010813786
+  Translate: [4048.57764, 238.198441, 186.140625]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3c2d3390
+  SRTHash: 912700991
+  Scale: 1.10000002
+  Translate: [4050.96167, 138.389999, 331.451904]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x3c63e1c7
+  Rotate: -0.620000064
+  SRTHash: -523454468
+  Translate: [4063.40161, 179.901779, 801.427124]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x3c76ffa7
+  Rotate: 0.740000248
+  SRTHash: -873894457
+  Translate: [4138.22607, 141.213104, 196.379669]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x3caad0ff
+  Rotate: 0.740000248
+  SRTHash: -873894457
+  Translate: [4137.4043, 141.213104, 198.494141]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x3cbf049e
+  Rotate: [0.190567881, -0.356116235, 0.00859035924]
+  SRTHash: -2032282277
+  Scale: 1.07177699
+  Translate: [4439.73828, 159.594772, 731.199219]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- HashId: !u 0x3cde54f4
+  Rotate: 0.120117173
+  SRTHash: 0
+  Translate: [4517.58984, 173.578125, 616.886719]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3eb9fa9b
+  Rotate: [-0.256492943, -1.39187717, 0.264565438]
+  SRTHash: -1402642429
+  Translate: [4325.50195, 158.689529, 597.505249]
+  UnitConfigName: BarrelBomb2
+- HashId: !u 0x3ebe5eed
+  Rotate: [0.0412956439, -0.257527292, -0.123714037]
+  SRTHash: 1348671703
+  Scale: 0.800000012
+  Translate: [4330.32178, 141.392059, 119.597107]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- HashId: !u 0x3ed389e9
+  Rotate: 2.31079674
+  SRTHash: -1460615407
+  Translate: [4138.96436, 141.213104, 195.705383]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x3ee6a421
+  Rotate: [2.64758301, 1.38513184, 3.05639625]
+  SRTHash: 0
+  Translate: [4360.59375, 165.269531, 304.808594]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3f3b4b80
+  SRTHash: 984615530
+  Translate: [4425.49609, 178.718246, 246.107452]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0x3f6bd2b2
+  Rotate: [-0.440419644, 1.13146925, -0.685626268]
+  SRTHash: -642900789
+  Scale: 1.00293005
+  Translate: [4079.74219, 127.54303, 310.621094]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- HashId: !u 0x3fa1b666
+  Rotate: [-0.0796020329, 0.00797823071, 0.0996821523]
+  SRTHash: 1496687386
+  Translate: [4478.91895, 147.769821, 807.755554]
+  UnitConfigName: FldObj_AncientPillar_A_04
+- HashId: !u 0x3fe32481
+  Rotate: 1.35044396
+  SRTHash: 1001110468
+  Scale: 1.01598608
+  Translate: [4199.39062, 96.4274902, 461.317383]
+  UnitConfigName: FldObj_KorokStake_A_01
+- HashId: !u 0x417d48ed
+  Rotate: [-0.145415813, -0.751116395, 0.265836567]
+  SRTHash: -1679663381
+  Scale: 1.09668005
+  Translate: [4491.42188, 168.919128, 554.21875]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x418563aa
+  Rotate: -0.160000011
+  SRTHash: -1825460268
+  Translate: [4464.90381, 166.443146, 561.527893]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x41a1f6ba
+  Rotate: -0.388815999
+  SRTHash: 915212366
+  Translate: [4358.11377, 159.051895, 208.265503]
+  UnitConfigName: Item_Plant_A
+- HashId: !u 0x42149c96
+  Rotate: [0.0, -0.05999979, -0.159999982]
+  SRTHash: 1607204061
+  Translate: [4142.14941, 137.701401, 195.735474]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x4227b288
+  Rotate: [0.0150487814, -0.0615825094, -0.314611882]
+  SRTHash: -858392836
+  Scale: 1.09521496
+  Translate: [4517.74219, 172.668762, 605.007812]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- HashId: !u 0x4262ca6a
+  Rotate: [-0.101380847, -0.491119355, 0.135804877]
+  SRTHash: -1907150446
+  Scale: 1.07568395
+  Translate: [4458.48438, 163.701752, 370.429688]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x434bbd42
+  SRTHash: 1206053627
+  Translate: [4184.61279, 108.290558, 427.53418]
+  UnitConfigName: Animal_Insect_O
+- HashId: !u 0x4435bbf3
+  Rotate: [-0.135573968, -1.16513801, -0.189184964]
+  SRTHash: 426788987
+  Scale: 1.20000005
+  Translate: [4190.18457, 96.4864197, 499.862335]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x444651d4
+  Rotate: 2.74318767
+  SRTHash: 2082753636
+  Translate: [3841.37744, 106.356056, 682.65741]
+  UnitConfigName: Animal_LittleBird_C
+- HashId: !u 0x444a76b5
+  Rotate: [-0.467010081, 0.462448537, -0.0745993555]
+  SRTHash: 2134603692
+  Translate: [4117.27344, 95.5302734, 434.232239]
+  UnitConfigName: FldObj_RockBeach_A_M_04
+- HashId: !u 0x451beef6
+  Rotate: [1.393736, -1.50810039, -1.25372493]
+  SRTHash: 565264684
+  Scale: 0.984862983
+  Translate: [4492.28125, 168.235901, 540.320312]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- HashId: !u 0x45b4d88f
+  Rotate: [-0.338206798, -0.038886819, -0.0921525434]
+  SRTHash: -168185592
+  Translate: [4364.42676, 162.268311, 216.994232]
+  UnitConfigName: FldObj_RockBeachLump_A_M_01
+- HashId: !u 0x4604ff98
+  Rotate: -1.39999962
+  SRTHash: -549606769
+  Translate: [4248.71094, 111.927315, 612.580505]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x468652ce
+  Rotate: 2.07999945
+  SRTHash: -1515638838
+  Translate: [4246.91553, 121.799622, 156.627075]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x473f3915
+  Rotate: [-0.293430477, -0.857431352, 0.368124723]
+  SRTHash: -2006918055
+  Scale: 0.896484017
+  Translate: [4035.34766, 394.077179, 51.703125]
+  UnitConfigName: Obj_Plant_Shrub_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4771395c
+  Rotate: -0.562917054
+  SRTHash: 1107935356
+  Scale: 1.14999998
+  Translate: [4500.74268, 181.229782, 652.064758]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x47dfa91f
+  Rotate: -1.04000032
+  SRTHash: 524708998
+  Translate: [4333.55469, 159.188904, 599.886719]
+  UnitConfigName: FldObj_WeaponStand_A_01
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0x484d9a30
+  Rotate: [-0.0630410984, 0.00750043942, 0.0874935985]
+  SRTHash: -719859176
+  Translate: [4230.77832, 105.880081, 572.411133]
+  UnitConfigName: Barrel
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x48b099b3
+  Rotate: [0.230867565, 1.13326619e-10, 2.6638405e-11]
+  SRTHash: 1300667068
+  Translate: [4296.03613, 105.731133, 691.649048]
+  UnitConfigName: Animal_Fish_K
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x48cad598
+  Rotate: -1.28000033
+  SRTHash: -992711015
+  Translate: [4390.4917, 167.788177, 602.525757]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x498a8a35
+  Rotate: -1.28000009
+  SRTHash: -1948701124
+  Translate: [4450.41797, 163.550766, 538.850769]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x49a47e81
+  SRTHash: -1909118778
+  Translate: [4429.5, 160.192291, 349.5]
+  UnitConfigName: GrassCutTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4a4ba43f
+  Rotate: [-0.138548672, -0.232084244, -0.13444303]
+  SRTHash: 403092664
+  Translate: [4254.31104, 257.2211, 51.4274292]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4a741c77
+  Rotate: 0.640000105
+  SRTHash: 2134889148
+  Translate: [4568.37354, 139.078781, 298.429626]
+  UnitConfigName: Animal_LittleBird_A
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4a88b872
+  Rotate: 1.30000019
+  SRTHash: 333485120
+  Translate: [4354.77686, 177.997162, 469.720947]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4a898ae1
+  Rotate: -0.209439531
+  SRTHash: -980032625
+  Translate: [4249.75342, 106.151962, 299.910889]
+  UnitConfigName: Animal_LittleBird_C
+- HashId: !u 0x4b22ce18
+  Rotate: [0.150514454, 1.31985581, 0.00772507908]
+  SRTHash: 107157036
+  Translate: [4530.33398, 110.874336, 1018.90662]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: true
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+  HashId: !u 0x4b90a010
+  Rotate: -2.08000112
+  SRTHash: -373828147
+  Translate: [4518.49512, 160.535019, 236.57193]
+  UnitConfigName: Enemy_Keese_AllDay
+- HashId: !u 0x4c74962c
+  Rotate: [1.64780915, 1.27439821, 1.35938334]
+  SRTHash: 1148692632
+  Scale: 0.868651986
+  Translate: [4440.88672, 162.125183, 715.8125]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4c9b30ab
+  Rotate: -1.24291623
+  SRTHash: -1488922441
+  Scale: 1.14999998
+  Translate: [4487.0166, 177.792236, 612.268311]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x4ca8dadd
+  Rotate: [-0.4010095, 0.577501416, 0.0324157625]
+  SRTHash: -2021314821
+  Scale: 1.5
+  Translate: [4259.53662, 92.3693008, 274.22937]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- HashId: !u 0x4d2ec880
+  Rotate: -0.459228456
+  SRTHash: 0
+  Translate: [4482.08203, 162.414062, 371.628906]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4dbe95ba
+  Rotate: 1.18000054
+  SRTHash: -697914490
+  Translate: [4403.02539, 166.889023, 587.608521]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4df3e0be
+  SRTHash: 366810848
+  Translate: [4422.16064, 161.789703, 336.43457]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4dfad4ba
+  Rotate: 2.35999846
+  SRTHash: -411553744
+  Translate: [3860.47754, 106.304016, 675.711548]
+  UnitConfigName: Animal_LittleBird_C
+- HashId: !u 0x4e0a2bb5
+  Rotate: -1.95999992
+  SRTHash: 18706363
+  Translate: [4264.85205, 104.785271, 703.864136]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4e2bd547
+  Rotate: 2.73999977
+  SRTHash: 2009817679
+  Scale: 1.10000002
+  Translate: [4403.34033, 171.267395, 300.047485]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x4e5cbedf
+  SRTHash: -583297548
+  Translate: [4243.51514, 106.705124, 572.361511]
+  UnitConfigName: FldObj_TravelerTrace_Tent_A_01
+- HashId: !u 0x4f79c13e
+  Rotate: [0.0, 1.51079631, -0.159999907]
+  SRTHash: 1415239540
+  Translate: [4144.15137, 137.370407, 195.848175]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x508c5c84
+  Rotate: -2.4800005
+  SRTHash: 803799982
+  Translate: [3844.91797, 106.482285, 683.431519]
+  UnitConfigName: Animal_LittleBird_C
+- HashId: !u 0x51157fc8
+  Rotate: [1.06798398, 1.21005058, 1.05682588]
+  SRTHash: -58845020
+  Translate: [4087.29443, 110.367584, 341.927612]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- HashId: !u 0x527a3036
+  Rotate: [-0.108905092, 0.245852113, 0.31762439]
+  SRTHash: -1056495470
+  Scale: 0.90625
+  Translate: [4308.91406, 154.939926, 572.042969]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x52bffc4c
+  Rotate: [-0.167864636, 0.520408332, 0.00559409708]
+  SRTHash: 1111150521
+  Translate: [4362.92725, 159.937408, 209.62793]
+  UnitConfigName: Item_Plant_A
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x53de53a5
+  Rotate: 0.99999994
+  SRTHash: -1021580637
+  Translate: [4355.78027, 156.141083, 185.709595]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x543a53ba
+  Rotate: [0.48973313, -0.720131218, -0.188668281]
+  SRTHash: -267040988
+  Scale: 0.986328006
+  Translate: [4447.1875, 166.015137, 449.949219]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- HashId: !u 0x54a14e39
+  SRTHash: -1909118778
+  Translate: [4457.0, 161.857742, 357.5]
+  UnitConfigName: GrassCutTag
+- HashId: !u 0x56025336
+  Rotate: [-0.250366211, 0.498046845, 0.115600571]
+  SRTHash: 0
+  Translate: [4451.08594, 171.242188, 536.632812]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0x5635be69
+  Rotate: [-0.164672926, 1.08495843, -0.33048898]
+  SRTHash: 657323819
+  Scale: 0.894531012
+  Translate: [4510.11328, 174.264191, 608.617188]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- HashId: !u 0x573c52af
+  Rotate: [-0.323501319, 1.43238676, -0.11513675]
+  SRTHash: 639826897
+  Scale: 0.877440989
+  Translate: [4493.67188, 171.585403, 592.847656]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x57c13fd9
+  SRTHash: 118879884
+  Translate: [4360.39355, 170.18071, 365.139954]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x58106819
+  SRTHash: -115580119
+  Translate: [4226.39795, 106.968857, 603.243652]
+  UnitConfigName: FldObj_RockBeachLump_A_M_01
+- HashId: !u 0x58bffb9a
+  Rotate: [0.352977633, -1.09348691, -0.329144716]
+  SRTHash: 1521729126
+  Translate: [4366.33154, 161.56601, 603.690125]
+  UnitConfigName: FldObj_HyrulePrairieRock_A_02
+- HashId: !u 0x59bb305e
+  Rotate: 2.62000012
+  SRTHash: -1667995798
+  Translate: [4272.49268, 106.337555, 270.294495]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x59d88b49
+  Rotate: 0.900000215
+  SRTHash: -193583956
+  Translate: [4069.66821, 127.463478, 267.795471]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0x59e6f3cb
+  Rotate: [1.23660541, -1.45951414, -1.34563577]
+  SRTHash: 1454226678
+  Translate: [4527.84521, 110.986923, 1021.39575]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x59ffde9d
+  SRTHash: -1672501471
+  Translate: [4493.86621, 169.081299, 551.414368]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x5a21e408
+  Rotate: [-3.10834217, 0.460165858, -2.97750425]
+  SRTHash: 1426912614
+  Translate: [4417.88037, 169.046936, 615.439636]
+  UnitConfigName: FldObj_HyrulePrairieRock_A_01
+- HashId: !u 0x5a8002e5
+  Rotate: [-0.181925878, -0.0086022336, -0.105918325]
+  SRTHash: 1009831796
+  Translate: [4066.25366, 365.23465, 103.117706]
+  UnitConfigName: Obj_MineralGrain_A_02
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x5a8b8e79
+  Rotate: 0.940000117
+  SRTHash: -1593567678
+  Translate: [4436.58936, 104.897598, 908.681519]
+  UnitConfigName: Animal_Fish_G
+- HashId: !u 0x5b87cf3f
+  Rotate: [3.14159274, 0.0599997044, 2.98159266]
+  SRTHash: -1460615407
+  Translate: [4142.97998, 136.555573, 195.795807]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x5ba9098b
+  Rotate: [1.70831704, 1.27139127, 1.42108321]
+  SRTHash: -1267805211
+  Translate: [4420.87061, 164.888229, 479.127808]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- HashId: !u 0x5c3311bb
+  Rotate: 1.71363366
+  SRTHash: 1681876363
+  Scale: 0.906294644
+  Translate: [4196.38428, 97.3806152, 463.031372]
+  UnitConfigName: FldObj_KorokStake_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5c487908
+  Rotate: -2.58000016
+  SRTHash: 1146979377
+  Translate: [4285.27881, 106.845955, 361.514954]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x5c803392
+  Rotate: [-0.637084901, -1.13952625, 0.272094727]
+  SRTHash: 0
+  Translate: [4426.15625, 176.039062, 400.1875]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0x5d78aefb
+  Rotate: [-0.543292582, 1.41551983, -0.462495327]
+  SRTHash: 1468737237
+  Scale: 0.937012017
+  Translate: [4488.71875, 167.897125, 542.820312]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5d810351
+  SRTHash: -1551834071
+  Translate: [4459.68066, 165.433167, 546.299194]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5dd501e9
+  Rotate: 2.3402679
+  SRTHash: -1472008769
+  Scale: 1.14999998
+  Translate: [4393.8125, 170.308685, 660.976379]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0x5e148d97
+  Rotate: [0.268208057, -0.230757236, -0.502376676]
+  SRTHash: -571605410
+  Scale: 0.983887017
+  Translate: [4048.47266, 393.49295, 42.0625]
+  UnitConfigName: Obj_Plant_Shrub_A_01
+- HashId: !u 0x5e8349ec
+  Rotate: -1.69999993
+  SRTHash: 1269502557
+  Translate: [4303.81006, 113.813606, 390.343567]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5e9c3ede
+  SRTHash: 518063629
+  Translate: [4227.89355, 106.974823, 296.336182]
+  UnitConfigName: Animal_LittleBird_C
+- HashId: !u 0x5ebd896f
+  Rotate: 1.80159247
+  SRTHash: 114997717
+  Translate: [4280.50879, 105.611359, 347.298828]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5f043897
+  Rotate: 3.24112248
+  SRTHash: -1599915271
+  Translate: [4015.16357, 264.751129, 830.032715]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5f3bd0a5
+  Rotate: -1.94318557
+  SRTHash: -1075775263
+  Translate: [3858.69727, 106.430862, 676.59314]
+  UnitConfigName: Animal_LittleBird_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5f8bb251
+  Rotate: 0.478650063
+  SRTHash: 504971367
+  Translate: [4273.5708, 129.487396, 621.216064]
+  UnitConfigName: Item_Plant_B
+- HashId: !u 0x5f9893af
+  Rotate: [0.229003891, 1.1204834, 0.48034665]
+  SRTHash: 0
+  Translate: [4444.96094, 180.429688, 286.4375]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x60547e67
+  Rotate: [3.14147925, -1.56213367, 3.14147925]
+  SRTHash: -60224506
+  Translate: [4382.73047, 162.243591, 558.113281]
+  UnitConfigName: Item_Mushroom_E
+- HashId: !u 0x61c3988c
+  SRTHash: -678078115
+  Translate: [4471.95459, 154.20285, 799.252319]
+  UnitConfigName: FldObj_AncientFloor_A_01
+- '!Parameters': {DropActor: PutRupee_Purple, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6275157a
+  Rotate: [-0.241977289, -0.278980553, -0.280644]
+  SRTHash: 1130515743
+  Translate: [4123.28027, 137.508026, 220.44516]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x62b84688
+  Rotate: -2.0631845
+  SRTHash: 169954750
+  Translate: [4147.34082, 103.197617, 566.395935]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x62f27050
+  Rotate: -2.74318528
+  SRTHash: -361952428
+  Translate: [4477.78906, 104.897598, 915.498901]
+  UnitConfigName: Animal_Fish_G
+- HashId: !u 0x6383e285
+  Rotate: [1.54467535, 1.21068382, 1.54635]
+  SRTHash: 1832174260
+  Translate: [4175.72314, 120.57679, 179.955078]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x63da57e7
+  Rotate: -1.14000034
+  SRTHash: 1170400948
+  Scale: 1.10000002
+  Translate: [4427.104, 162.232544, 363.21698]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x645ca49a
+  Rotate: [0.099682264, 0.00797824096, -0.079602018]
+  SRTHash: 1027703764
+  Translate: [4456.12744, 153.108704, 782.351746]
+  UnitConfigName: FldObj_AncientPillar_A_03
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x64680552
+  Rotate: 0.23999995
+  SRTHash: 1000887948
+  Translate: [4163.11572, 103.197624, 507.420074]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x64781ee4
+  SRTHash: -865326920
+  Translate: [4415.93262, 162.247223, 515.051025]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x651c8c8e
+  Rotate: 2.28318429
+  SRTHash: -1194946905
+  Translate: [3840.78223, 106.550476, 684.614563]
+  UnitConfigName: Animal_LittleBird_C
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x654d02de
+  Rotate: -0.698133051
+  SRTHash: 292929222
+  Translate: [4177.01709, 123.425987, 465.253662]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x65a59ccd
+  Rotate: 0.859999955
+  SRTHash: 589621951
+  Translate: [4579.93506, 135.625244, 314.328857]
+  UnitConfigName: Animal_LittleBird_A
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x65c84532
+  Rotate: [1.27472472, -1.00700569, -1.25313282]
+  SRTHash: -1784683450
+  Translate: [4182.42334, 128.088593, 453.086151]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0x6701a8ab
+  Rotate: [-0.282055676, -0.9458462, 0.462053239]
+  SRTHash: 1093211248
+  Scale: 0.858887017
+  Translate: [4489.29297, 170.810669, 594.378906]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- '!Parameters': {DropActor: PutRupee_Silver, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x670308ae
+  Rotate: [0.219504938, -0.289649427, 0.172885597]
+  SRTHash: -141625
+  Translate: [4507.1167, 113.771088, 993.10376]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x67202b81
+  Rotate: 1.83999991
+  SRTHash: -1461974217
+  Translate: [4371.70068, 165.573425, 620.199097]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x67cc3594
+  SRTHash: -1667562463
+  Translate: [4178.44824, 108.004333, 436.308197]
+  UnitConfigName: Animal_Insect_O
+- HashId: !u 0x6801052e
+  Rotate: [-0.500000238, 0.40678376, 2.13168642e-18]
+  SRTHash: -1201838212
+  Translate: [4145.10352, 99.6056442, 576.588501]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- HashId: !u 0x682058f6
+  Rotate: [1.57497358, 1.14314401, -3.10541391]
+  SRTHash: 991161404
+  Scale: [4.0, 15.0, 4.0]
+  Translate: [4118.44873, 109.061996, 420.85202]
+  UnitConfigName: AscendingCurrent_Side
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x68327691
+  Rotate: 1.46000159
+  SRTHash: -949830715
+  Translate: [4307.91357, 155.113617, 575.214844]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0x6841e3d3
+  Rotate: [-2.56530738, -0.358520478, -3.09265113]
+  SRTHash: 0
+  Translate: [4018.15234, 148.445312, 317.320312]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0x69400cf0
+  Rotate: -2.27846479
+  SRTHash: -1753533987
+  Translate: [4499.01172, 156.66951, 228.55011]
+  UnitConfigName: FldObj_TorchStandBone_A_01
+- HashId: !u 0x69ab0a7d
+  Rotate: [3.14147925, 0.91003412, 3.14147925]
+  SRTHash: 0
+  Translate: [4069.84766, 135.492188, 267.191406]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x69b40e9a
+  Rotate: 0.274047822
+  SRTHash: -1554976430
+  Translate: [4428.89844, 165.86441, 544.234375]
+  UnitConfigName: Item_Mushroom_E
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6a6eb8bb
+  Rotate: 1.26000094
+  SRTHash: 1506911668
+  Translate: [4427.9082, 165.90242, 544.937866]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x6b3f694a
+  Rotate: [3.14147925, -0.680419862, 3.14147925]
+  SRTHash: 0
+  Translate: [4353.19531, 160.175781, 585.203125]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6bb46bf5
+  Rotate: [0.536527276, 0.00677632121, -0.0246499069]
+  SRTHash: -522507872
+  Translate: [4181.66309, 127.096596, 454.752167]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {Direction: 4, Shape: Box, WindSpeed: 10.0}
+  HashId: !u 0x6bb93ed5
+  Rotate: -0.479999989
+  SRTHash: 1149982543
+  Scale: [120.0, 25.0, 300.0]
+  Translate: [4145.29541, 131.422424, 485.271973]
+  UnitConfigName: PointWindSetTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0x6c81d53c
+  Rotate: [-0.0112024955, -0.739909768, 0.0097818207]
+  SRTHash: 1768709708
+  Translate: [4346.54199, 160.269089, 595.633667]
+  UnitConfigName: KibakoZora_Contain_01
+- HashId: !u 0x6cdea818
+  Rotate: [-0.217049524, 0.706696808, -0.653095841]
+  SRTHash: 321169485
+  Translate: [4065.47705, 179.205307, 807.656494]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Ore, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6d0c4084
+  SRTHash: -1094122320
+  Translate: [4432.10596, 160.622849, 480.71524]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6d79dd59
+  Rotate: [0.29350087, -0.600091636, -0.49139899]
+  SRTHash: 1598471832
+  Translate: [4288.87646, 113.148727, 460.044189]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x6d9efec2
+  Rotate: [-0.316957235, 0.557543576, 0.0652204826]
+  SRTHash: 1835257598
+  Translate: [4452.19873, 171.704681, 428.509888]
+  UnitConfigName: FldObj_RockBeachLump_A_M_01
+- HashId: !u 0x6db2a1c4
+  Rotate: [-1.55888081, -0.655814648, 0.0237523522]
+  SRTHash: -1089704653
+  Scale: [5.0, 32.0, 5.0]
+  Translate: [4046.8606, 109.492477, 519.31781]
+  UnitConfigName: AscendingCurrent_Side
+- HashId: !u 0x6df04b67
+  Rotate: [-3.03515601, 0.89428705, -2.79602027]
+  SRTHash: 0
+  Translate: [4279.45703, 119.546875, 425.234375]
+  UnitConfigName: EnvSeEmitPointBirdTemperate
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x6ea712bc
+  Rotate: 3.39817643
+  SRTHash: 1950993718
+  Translate: [4160.1958, 108.843788, 457.449158]
+  UnitConfigName: Animal_Insect_O
+- HashId: !u 0x6eeee2d9
+  Rotate: [0.34264645, -1.03408146, -0.302164882]
+  SRTHash: -1147111670
+  Scale: 1.01074195
+  Translate: [4067.36328, 133.259491, 242.484375]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6f263d80
+  Rotate: [0.0, -0.820000052, -0.219999984]
+  SRTHash: 342779933
+  Translate: [4247.7915, 255.766129, 61.133667]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6f76eb40
+  Rotate: -0.660000145
+  SRTHash: -390565288
+  Scale: 1.10000002
+  Translate: [4346.46533, 149.006561, 111.290497]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x6fa35b55
+  Rotate: [0.111040264, -0.349464625, -0.201463714]
+  SRTHash: -1959945001
+  Translate: [4525.14648, 111.770508, 1018.71936]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x6fb4f657
+  Rotate: [0.317861199, 0.650630593, -0.014313071]
+  SRTHash: -2002777262
+  Scale: 1.09619105
+  Translate: [4039.00391, 394.594818, 45.3671875]
+  UnitConfigName: Obj_Plant_Shrub_A_02
+- HashId: !u 0x6fcbb15b
+  Rotate: [-0.0151367169, -1.01098633, 0.352294892]
+  SRTHash: 0
+  Translate: [4284.44141, 112.925781, 422.503906]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- HashId: !u 0x6fd9466f
+  Rotate: [1.60312963, 0.51756084, -3.10940623]
+  SRTHash: 418696048
+  Scale: [5.0, 32.0, 5.0]
+  Translate: [4160.01172, 107.005051, 358.027191]
+  UnitConfigName: AscendingCurrent_Side
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x70432ce9
+  Rotate: -2.15999794
+  SRTHash: -557350453
+  Translate: [4188.00781, 105.307808, 471.299774]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0x709987a9
+  Rotate: 0.439999968
+  SRTHash: -1998895777
+  Translate: [4215.10352, 105.388359, 274.301788]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7127ea04
+  SRTHash: 825745752
+  Translate: [4455.29395, 161.804733, 526.993103]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x713e0c83
+  Rotate: -0.620000064
+  SRTHash: -457947569
+  Translate: [4303.89941, 151.289551, 159.874359]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x7171cf44
+  Rotate: [-2.6141355, -1.08422852, 2.50683594]
+  SRTHash: 0
+  Translate: [4356.30469, 156.253906, 186.652344]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- HashId: !u 0x717aed95
+  Rotate: [-2.73926806, 0.158959776, 2.69076729]
+  SRTHash: 863825769
+  Translate: [4550.2876, 142.153625, 723.723572]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7184b55d
+  Rotate: 0.74000001
+  SRTHash: 928362171
+  Translate: [4407.1582, 168.593643, 603.655273]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x71bc2010
+  Rotate: -0.180000007
+  SRTHash: 1088192926
+  Translate: [4512.92773, 154.513031, 212.964813]
+  UnitConfigName: FldObj_HyrulePrairieRock_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x71e3f8f8
+  SRTHash: -481298237
+  Translate: [4421.8042, 163.315323, 377.286133]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x73ab6e3b
+  Rotate: 0.480000436
+  SRTHash: 1795554898
+  Translate: [4246.60498, 107.051414, 374.454224]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x741cb746
+  Rotate: [0.0399680622, -0.00159914885, 0.0399680361]
+  SRTHash: 1232128099
+  Translate: [4513.16504, 156.779022, 217.879944]
+  UnitConfigName: FldObj_EnemyTrace_Garbage_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x745d4d6d
+  Rotate: 4.44026852
+  SRTHash: 355831549
+  Scale: 1.14999998
+  Translate: [4386.17188, 167.087158, 624.439636]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0x74b5bd1a
+  Rotate: [0.643920839, 0.412353486, 0.405883759]
+  SRTHash: 0
+  Translate: [4419.33594, 165.28125, 498.75]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x74fb7842
+  Rotate: -1.1000005
+  SRTHash: 90110318
+  Translate: [4055.22534, 135.177231, 321.802643]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x752186e5
+  Rotate: [0.30954659, 0.84495455, 0.257892489]
+  SRTHash: 300607402
+  Scale: 1.02815485
+  Translate: [4136.85547, 336.987488, 19.5916443]
+  UnitConfigName: Obj_Plant_Shrub_A_01
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x75874378
+  Rotate: 2.79252625
+  SRTHash: -776162546
+  Translate: [4188.13623, 129.46402, 442.005371]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0x75af7e62
+  Rotate: [2.50204825, -1.3449347, -2.80381298]
+  SRTHash: 2067598433
+  Translate: [4144.44287, 95.4658813, 368.493439]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x75fe245e
+  Rotate: -1.6800071
+  SRTHash: -2053619600
+  Translate: [4444.52441, 172.481857, 285.832397]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x762edc98
+  Rotate: 1.05999994
+  SRTHash: 739949192
+  Translate: [4358.24414, 156.264038, 304.603485]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0x76554e12
+  Rotate: [0.0599999949, 0.0, 0.0999999866]
+  SRTHash: 1335234995
+  Translate: [4455.82129, 163.835876, 482.854797]
+  UnitConfigName: FldObj_RockBeachLump_A_M_01
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x76658aaf
+  Rotate: 0.69813168
+  SRTHash: 352655318
+  Translate: [4168.09326, 120.953308, 481.754364]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x77ab0352
+  Rotate: 0.939999998
+  SRTHash: -1635599955
+  Translate: [4291.30957, 138.544601, 121.767456]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0x7824dad5
+  Rotate: [-0.280000001, -1.39266169, -0.420000017]
+  SRTHash: -691293914
+  Translate: [4200.22217, 99.1449356, 269.029297]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- HashId: !u 0x78a29480
+  Rotate: [3.14147925, 0.627807617, 3.14147925]
+  SRTHash: 0
+  Translate: [4385.875, 175.042969, 623.328125]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0x7903bf5b
+  Rotate: [0.0, 0.0, -0.280000001]
+  SRTHash: -843794636
+  Translate: [4014.80151, 264.483215, 829.08551]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7939168e
+  Rotate: 0.439999968
+  SRTHash: -1372464724
+  Translate: [4340.88965, 151.810715, 99.1127014]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x79468811
+  SRTHash: -346879442
+  Translate: [4423.20996, 164.780182, 536.77655]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x79b45a29
+  Rotate: 4.95632553
+  SRTHash: -519316315
+  Translate: [4174.06787, 106.786217, 443.997345]
+  UnitConfigName: Animal_Insect_O
+- HashId: !u 0x79d21934
+  Rotate: [0.0272378344, -0.442459792, 0.164481044]
+  SRTHash: -680526833
+  Scale: 0.910156012
+  Translate: [4491.41797, 168.509842, 545.8125]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7b7705a1
+  SRTHash: 1829261015
+  Translate: [4314.57031, 113.342354, 362.998627]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x7bff2c42
+  Rotate: [0.042707894, -0.60995543, 0.158188984]
+  SRTHash: -2126458493
+  Scale: 1.00927699
+  Translate: [4492.83594, 168.686386, 547.269531]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x7c643f61
+  Rotate: [-2.60159278, 1.29999161, -3.14159226]
+  SRTHash: 1469051130
+  Translate: [4058.01074, 185.591507, 811.312988]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0x7c8b79a4
+  Rotate: [-0.0335613079, 0.236387774, 0.145503908]
+  SRTHash: 1279730115
+  Scale: 0.963867009
+  Translate: [4440.61328, 139.003189, 124.546875]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7da10c87
+  Rotate: -1.48000038
+  SRTHash: 460685193
+  Translate: [4340.90918, 164.575302, 558.723083]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7db05fb3
+  Rotate: [3.14147925, 1.06909168, 3.14147925]
+  SRTHash: -1500745216
+  Translate: [4430.52344, 169.576813, 649.191406]
+  UnitConfigName: Item_Mushroom_E
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    AngleY: 0.0
+    CutRate: 0.0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: false
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 1
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x7ddb9c08
+  OnlyOne: true
+  Rotate: [0.00292630238, -0.00595698878, -1.5130831]
+  SRTHash: 574534713
+  Translate: [4230.53711, 105.999207, 569.809753]
+  UnitConfigName: Obj_TreeConiferous_C_01_Trunk
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7e42b8e9
+  SRTHash: 96828024
+  Translate: [4474.03711, 171.37912, 403.730957]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x7e767fae
+  Rotate: [-0.183128774, -0.120524086, -0.0873934031]
+  SRTHash: 1078736651
+  Scale: 0.865723014
+  Translate: [4399.12891, 170.158142, 664.5]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x7f447e59
+  Rotate: 0.720580995
+  SRTHash: 0
+  Translate: [4513.78906, 166.460938, 213.507812]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0x7fd75e53
+  Rotate: 2.72318387
+  SRTHash: 190542379
+  Translate: [4231.96875, 104.575615, 360.623444]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- HashId: !u 0x7ff1bb6f
+  Rotate: [-1.10640812, 0.843839705, -0.202375889]
+  SRTHash: -1163686076
+  Translate: [4249.6167, 106.533226, 373.801941]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x80bba859
+  Rotate: [0.052388832, 0.168007702, 0.158911988]
+  SRTHash: 1516017322
+  Scale: 0.948729992
+  Translate: [4376.62109, 161.05986, 568.011719]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x80ec1b43
+  Rotate: -1.12000012
+  SRTHash: 1623395270
+  Translate: [4445.90723, 163.587128, 388.884033]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x812863e7
+  SRTHash: 1299610365
+  Translate: [4168.33008, 106.239044, 464.320282]
+  UnitConfigName: Animal_Insect_Z
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x817aa266
+  Rotate: 1.35708296
+  SRTHash: 575250874
+  Scale: 1.14999998
+  Translate: [4382.21289, 168.612885, 639.363953]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x8182f6a3
+  Rotate: -2.15999794
+  SRTHash: -1795772529
+  Translate: [4186.25244, 105.303917, 467.55722]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0x81978f0b
+  SRTHash: -1352530030
+  Translate: [4479.69043, 154.131912, 805.819946]
+  UnitConfigName: FldObj_AncientDebris_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x81eb0732
+  Rotate: [0.0, 1.56000984, 0.0599979721]
+  SRTHash: -1849284453
+  Translate: [4587.28955, 129.426971, 428.503265]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x81f097d5
+  Rotate: -0.779999971
+  SRTHash: 1367288352
+  Translate: [4354.44287, 161.339615, 609.150208]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x82065392
+  Rotate: [-1.81750476, 0.821166933, -3.0849607]
+  SRTHash: 0
+  Translate: [4016.77734, 253.289062, 808.363281]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x824e213c
+  Rotate: [0.394529849, -0.192293331, -0.0683430806]
+  SRTHash: 1964872225
+  Scale: 0.997559011
+  Translate: [4335.42188, 150.128342, 104.347656]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x82f04207
+  Rotate: [-2.81942534, 0.339250028, 2.98746896]
+  SRTHash: -1254963874
+  Translate: [4590.25244, 129.194595, 431.997833]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x82f8ad24
+  SRTHash: -1909118778
+  Translate: [4444.5, 160.543701, 338.0]
+  UnitConfigName: GrassCutTag
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x830221a8
+  SRTHash: -1745406539
+  Translate: [4423.24951, 168.582214, 604.344788]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x83713b17
+  Rotate: -0.819999933
+  SRTHash: 355862874
+  Translate: [4500.29541, 170.565674, 553.876892]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8375ab28
+  Rotate: [-2.09338355, -0.220214829, 2.74829078]
+  SRTHash: 0
+  Translate: [4207.5625, 203.609375, 950.703125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x83b9b60d
+  Rotate: -1.18000042
+  SRTHash: -1844612071
+  Scale: 1.10000002
+  Translate: [4069.56641, 134.179871, 238.873291]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x83c7204f
+  Rotate: 0.980000079
+  SRTHash: 876867886
+  Translate: [4082.23901, 134.6026, 239.132141]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0x84a805fe
+  Rotate: [-0.69674921, 0.973867357, -1.22907901]
+  SRTHash: 1848821692
+  Translate: [4018.5957, 263.496155, 831.490234]
+  UnitConfigName: Obj_MineralGrain_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x84cfbf0f
+  Rotate: -0.819999993
+  SRTHash: 2092312196
+  Translate: [4387.58398, 164.848251, 209.522064]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x84d89343
+  SRTHash: -324072149
+  Translate: [4433.78418, 160.53334, 518.246399]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x84da140d
+  Rotate: [0.263730437, 0.316360593, -0.0547267757]
+  SRTHash: -1860858267
+  Translate: [4175.84766, 130.912384, 158.662109]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x84e9891c
+  Rotate: 0.0938547924
+  SRTHash: 1150434350
+  Translate: [4164.6416, 106.129082, 454.150848]
+  UnitConfigName: Animal_Insect_K
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x84f6d544
+  SRTHash: -1302606107
+  Translate: [4470.42676, 167.042068, 557.975708]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8607f9f9
+  Rotate: 1.1000005
+  SRTHash: -613157449
+  Scale: 1.10000002
+  Translate: [4283.11621, 112.527046, 423.590698]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0x861b178f
+  SRTHash: -1620765182
+  Scale: 75.0
+  Translate: [4442.0, 161.5, 353.0]
+  UnitConfigName: Area
+- HashId: !u 0x8652b9b5
+  Rotate: [0.298383832, -0.0401192568, -0.138294131]
+  SRTHash: 707506615
+  Scale: 0.990723014
+  Translate: [4436.77344, 160.607666, 721.847656]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x86bea413
+  Rotate: [-2.06713867, 0.136718735, 3.0882566]
+  SRTHash: 0
+  Translate: [4084.35547, 404.726562, 1006.0]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x86d27a28
+  Rotate: -2.15999985
+  SRTHash: -1974865936
+  Translate: [4372.95117, 164.167496, 594.131836]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x88266e1d
+  SRTHash: -1916384838
+  Translate: [4411.0249, 162.766724, 513.275696]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x888d9ce4
+  Rotate: 0.67999965
+  SRTHash: -1050927684
+  Translate: [4405.53125, 169.715439, 274.510559]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x88c43d89
+  SRTHash: -1596722321
+  Translate: [4314.98779, 113.067528, 362.706238]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x8a7083eb
+  Rotate: [3.10595059, -0.600573301, 2.84482265]
+  SRTHash: -1354270203
+  Translate: [4108.63818, 97.9788589, 417.06189]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- HashId: !u 0x8a8b46c3
+  Rotate: -0.259999901
+  SRTHash: -342424820
+  Scale: [4.0, 5.0, 4.0]
+  Translate: [4144.85938, 102.698708, 413.965485]
+  UnitConfigName: AscendingCurrent
+- HashId: !u 0x8a9ca694
+  Rotate: [3.02661109, 1.12866199, -2.71069312]
+  SRTHash: 0
+  Translate: [4275.65234, 136.304688, 508.300781]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8ad33842
+  Rotate: 2.11999774
+  SRTHash: 1856731931
+  Translate: [4115.70996, 113.356934, 295.369629]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x8b4b475d
+  Rotate: [-0.642700136, 1.34399402, -2.18505836]
+  SRTHash: 0
+  Translate: [4174.375, 118.214844, 210.988281]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0x8bb227ff
+  Rotate: -2.40159225
+  SRTHash: -873894457
+  Translate: [4136.72461, 141.213104, 197.744141]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x8c646d47
+  Rotate: [3.02102208, -0.875552833, -2.98510432]
+  SRTHash: 715517028
+  Scale: 0.800000012
+  Translate: [4442.53809, 152.652771, 804.112915]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8ccf6122
+  Rotate: 4.44026852
+  SRTHash: 1219973302
+  Scale: 1.14999998
+  Translate: [4400.354, 172.411407, 679.830505]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x8d00d442
+  Rotate: 0.2635988
+  SRTHash: -219331564
+  Scale: [4.0, 15.0, 4.0]
+  Translate: [4207.30176, 86.0395279, 609.161133]
+  UnitConfigName: AscendingCurrent
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8d73e2b1
+  Rotate: -1.18291748
+  SRTHash: -1461099636
+  Scale: 1.14999998
+  Translate: [4516.23877, 173.877625, 616.829041]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x8e4e010c
+  Rotate: [0.00440558745, 0.775566936, 0.197752953]
+  SRTHash: 1902509642
+  Scale: 0.907715023
+  Translate: [4392.35547, 170.378937, 663.90625]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8e870aff
+  Rotate: -0.622916698
+  SRTHash: 811202004
+  Scale: 1.14999998
+  Translate: [4512.94092, 177.840118, 640.358398]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8e9b3a33
+  Rotate: -2.54291677
+  SRTHash: 1360754511
+  Scale: 1.14999998
+  Translate: [4493.09912, 181.4944, 629.577881]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x8f1fc80c
+  Rotate: [3.14147925, -1.29663086, 3.14147925]
+  SRTHash: 0
+  Translate: [4163.12109, 114.023438, 363.027344]
+  UnitConfigName: EnvSeEmitPointBirdTemperate
+- HashId: !u 0x8f3a456f
+  Rotate: [-0.0136809666, -0.599863052, 0.024231052]
+  SRTHash: -278566812
+  Translate: [4261.4043, 107.030968, 410.724213]
+  UnitConfigName: FldObj_RockBeachLump_A_M_01
+- HashId: !u 0x8f825b9b
+  Rotate: [-0.369011372, 0.383814245, -0.00856837351]
+  SRTHash: 340877232
+  Translate: [4089.04834, 99.8711243, 477.96817]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x8fc90606
+  Rotate: 2.13840723
+  SRTHash: -653743672
+  Translate: [4210.51221, 105.215935, 471.714111]
+  UnitConfigName: Animal_Fish_G
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8fd5b055
+  Rotate: [-0.046269346, -0.00291202869, -0.125684828]
+  SRTHash: -1106023894
+  Translate: [4191.12646, 129.15155, 445.137695]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0x9024ea32
+  Rotate: [3.10766578, 0.32788083, 2.75036597]
+  SRTHash: 0
+  Translate: [4468.14453, 179.929688, 399.300781]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0x9045a77d
+  Rotate: -0.259999901
+  SRTHash: 1418251749
+  Scale: [4.0, 5.0, 4.0]
+  Translate: [4212.76953, 102.698708, 430.549469]
+  UnitConfigName: AscendingCurrent
+- HashId: !u 0x90ca3d26
+  Rotate: [-0.186157227, -0.894897401, 0.392822236]
+  SRTHash: 0
+  Translate: [4415.66797, 165.898438, 559.609375]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x90da5bd3
+  Rotate: 2.59999561
+  SRTHash: -1536108192
+  Translate: [3858.81738, 106.117798, 672.956055]
+  UnitConfigName: Animal_LittleBird_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x90dd6c91
+  Rotate: [-1.76123035, 0.899291992, -2.693115]
+  SRTHash: 0
+  Translate: [4268.13672, 222.054688, 1022.29688]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0x913575a5
+  Rotate: [0.00103926403, 1.44306576, 0.00584731391]
+  SRTHash: 1768709708
+  Translate: [4517.77686, 156.484131, 228.307983]
+  UnitConfigName: KibakoZora_Contain_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x919c2eae
+  Rotate: [-1.77197254, 0.839477479, -2.66137671]
+  SRTHash: 0
+  Translate: [4113.17578, 184.71875, 840.59375]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x91d5c6c5
+  Rotate: 2.72026873
+  SRTHash: 2138201102
+  Scale: 1.14999998
+  Translate: [4446.81885, 161.957687, 685.646606]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x920e9798
+  Rotate: [2.6415925, -0.0851911902, 3.14159274]
+  SRTHash: 30210057
+  Translate: [4129.39258, 97.3478317, 558.408813]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x926c7f30
+  Rotate: [-2.98525214, -0.0325237066, 3.11746049]
+  SRTHash: 2001802202
+  Translate: [4180.72363, 298.5448, 49.7171326]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9280cc00
+  Rotate: 1.44000137
+  SRTHash: -1053838616
+  Translate: [4018.70752, 141.4198, 319.230042]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x929a7c0c
+  Rotate: [-0.420931518, -1.25261307, 0.421269447]
+  SRTHash: -1174399642
+  Translate: [4178.67188, 298.658752, 50.454834]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x93d2fb8b
+  Rotate: 0.699999988
+  SRTHash: 1874009395
+  Translate: [4414.67822, 165.791382, 559.953979]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x9472fece
+  Rotate: [0.270362437, -0.907706201, -0.362405926]
+  SRTHash: -273972447
+  Translate: [4148.22949, 105.199875, 533.093933]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x947c3868
+  Rotate: [3.14147925, -0.557617188, 3.14147925]
+  SRTHash: 220213805
+  Translate: [4461.64453, 166.12323, 573.015625]
+  UnitConfigName: Item_Mushroom_F
+- HashId: !u 0x94987d88
+  Rotate: [3.14147925, -1.12524402, 3.14147925]
+  SRTHash: 0
+  Translate: [4353.23828, 169.148438, 608.253906]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x94b72e67
+  Rotate: 1.07999992
+  SRTHash: -1650176784
+  Translate: [4159.28906, 103.197617, 548.780029]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9524c524
+  Rotate: -0.45394814
+  SRTHash: 1734935271
+  Scale: 1.01629829
+  Translate: [4422.79053, 167.499878, 585.781677]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0x952bbb3b
+  Rotate: [-0.745305598, 1.13834155, -0.460554659]
+  SRTHash: -202595753
+  Scale: 1.07617199
+  Translate: [4450.62109, 162.147095, 531.863281]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x956e99e4
+  Rotate: 1.40000021
+  SRTHash: -1884275498
+  Translate: [4327.46631, 162.707657, 560.646912]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x95aa8c3b
+  Rotate: [-0.064283967, 0.0256159268, 0.0381755866]
+  SRTHash: 887048940
+  Translate: [4366.85156, 146.924103, 145.168762]
+  UnitConfigName: Item_Plant_A
+- HashId: !u 0x96c3819f
+  Rotate: -1.57079637
+  SRTHash: -1816649028
+  Translate: [4476.56934, 158.819565, 830.868042]
+  UnitConfigName: FldObj_AncientFloor_A_01
+- HashId: !u 0x9703c8ae
+  Rotate: [-0.0508471131, 0.695014119, 0.299399137]
+  SRTHash: -454117237
+  Translate: [4147.12695, 95.7697067, 558.877563]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x97599c74
+  Rotate: [-1.61254871, 0.0386962891, 3.13659644]
+  SRTHash: 0
+  Translate: [4150.33594, 392.703125, 1040.94531]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x97959149
+  Rotate: 0.860000014
+  SRTHash: -1973388333
+  Translate: [4402.53662, 168.281647, 648.303589]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x97e8b622
+  Rotate: [-0.198339984, 0.700129271, -0.0169187095]
+  SRTHash: 898294159
+  Scale: 1.06445301
+  Translate: [4398.90625, 170.85379, 671.84375]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x97f57f49
+  Rotate: [0.960575938, 0.0229961649, -0.0441352502]
+  SRTHash: -1088193381
+  Translate: [4457.91357, 105.3386, 905.928894]
+  UnitConfigName: Animal_Fish_K
+- '!Parameters': {DropActor: Weapon_Lsword_051, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x982c6a2f
+  Rotate: [0.00343579426, 0.940058172, -0.024267938]
+  SRTHash: 1965918518
+  Translate: [4528.25146, 97.7221832, 942.970886]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x98aa12cf
+  Rotate: 1.40000033
+  SRTHash: -873021894
+  Translate: [4354.40967, 148.769226, 111.323944]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {Direction: 4, Shape: Box, WindSpeed: 15.0}
+  HashId: !u 0x99416fc7
+  Rotate: -0.319999635
+  SRTHash: 633731779
+  Scale: [15.0, 6.0, 30.0]
+  Translate: [4167.23291, 113.055237, 456.131348]
+  UnitConfigName: PointWindSetTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9aaf512e
+  Rotate: 2.5800004
+  SRTHash: -897724442
+  Translate: [4249.73145, 106.662468, 373.310669]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9b935598
+  Rotate: -3.1231854
+  SRTHash: -365434059
+  Translate: [4425.30811, 168.198105, 399.865967]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9bff4d16
+  Rotate: -2.16291666
+  SRTHash: 722462681
+  Scale: 1.14999998
+  Translate: [4520.31104, 172.884323, 585.940186]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9d2c9240
+  Rotate: 1.16000068
+  SRTHash: -211190159
+  Translate: [4417.75195, 158.697006, 178.500092]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9d6133a1
+  Rotate: -0.580000103
+  SRTHash: 1815669759
+  Scale: 1.10000002
+  Translate: [4483.7749, 157.335693, 211.493103]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0x9e56686e
+  Rotate: [0.411223173, -0.925355613, -0.235541031]
+  SRTHash: 1885403338
+  Scale: 1.02490199
+  Translate: [4064.63672, 132.971649, 243.410156]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9f357e8d
+  Rotate: [0.0, 0.480000108, -0.179999977]
+  SRTHash: -1318471290
+  Translate: [4286.05859, 106.439796, 359.809265]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9f5f2d7c
+  Rotate: [3.14147925, 0.6953125, 3.14147925]
+  SRTHash: -953220818
+  Translate: [4382.83984, 167.662048, 609.457031]
+  UnitConfigName: Item_Mushroom_E
+- HashId: !u 0x9ffd9d9c
+  SRTHash: -1909118778
+  Translate: [4442.0, 160.803131, 353.0]
+  UnitConfigName: GrassCutTag
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa02e1992
+  Rotate: -2.05999994
+  SRTHash: -315009882
+  Translate: [4485.68604, 168.605255, 573.82843]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0xa082de00
+  Rotate: [-0.285092533, -0.902122855, 0.373676896]
+  SRTHash: 240607597
+  Scale: 1.09081995
+  Translate: [4379.10938, 161.834259, 573.078125]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa0a2abe2
+  Rotate: 1.08000028
+  SRTHash: 401692797
+  Translate: [4174.16699, 110.239311, 211.023682]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0xa0b8396f
+  Rotate: [0.969588578, -0.217438519, -1.69631052]
+  SRTHash: 184111666
+  Translate: [4228.35791, 106.226433, 573.401306]
+  UnitConfigName: Barrel
+- HashId: !u 0xa0c6a43f
+  Rotate: [-0.0931462198, 0.25345093, 0.0521089509]
+  SRTHash: 2071246956
+  Scale: 0.850585997
+  Translate: [4364.61328, 163.798264, 623.917969]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa0d55a48
+  Rotate: -0.980000138
+  SRTHash: 2076477756
+  Translate: [4452.44531, 160.837387, 345.958374]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0xa18cd08f
+  Rotate: -3.10159302
+  SRTHash: -1452460220
+  Translate: [4086.17041, 106.449783, 435.514587]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Spear_012
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsCreateStalPart: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xa201148a
+  Rotate: [-2.73498988, -1.34950292, 2.41203785]
+  SRTHash: -995089959
+  Translate: [4599.31494, 125.931137, 420.360535]
+  UnitConfigName: Enemy_Moriblin_Bone_Junior
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa26f86f2
+  Rotate: -2.68291664
+  SRTHash: 1375898739
+  Scale: 1.14999998
+  Translate: [4474.31396, 162.282501, 690.198425]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xa2eb7704
+  Rotate: 2.75999999
+  SRTHash: -1745664522
+  Translate: [4302.13672, 168.918762, 92.3477783]
+  UnitConfigName: Animal_Fox_A
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa3b9eb47
+  Rotate: 1.46964943
+  SRTHash: -1418193120
+  Scale: 1.04530323
+  Translate: [4416.21436, 166.999786, 590.998291]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0xa403920e
+  Rotate: [0.0, -0.05999979, -0.160000011]
+  SRTHash: -873894457
+  Translate: [4141.99414, 136.7146, 195.73584]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xa47241b3
+  Rotate: [0.981470346, -0.992157459, -0.740117013]
+  SRTHash: -101823120
+  Translate: [4048.21362, 238.413651, 186.248047]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0xa4d487ae
+  Rotate: 0.939999938
+  SRTHash: 567204008
+  Translate: [4080.81104, 110.63295, 387.556488]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa5244a41
+  Rotate: -0.719999969
+  SRTHash: 462695419
+  Translate: [4052.8208, 131.804916, 263.601135]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0xa55b3b03
+  Rotate: 0.297119141
+  SRTHash: 0
+  Translate: [4480.05469, 159.300781, 158.320312]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0xa59dfddb
+  Rotate: [-0.106580347, -0.543921828, 0.0834715217]
+  SRTHash: -619814687
+  Scale: 0.927245975
+  Translate: [4402.09375, 169.481537, 660.082031]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa5a04e26
+  Rotate: -2.96291661
+  SRTHash: -1964730598
+  Scale: 1.14999998
+  Translate: [4473.95361, 173.160889, 606.670044]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa5f3852d
+  Rotate: [-3.14159226, 0.32159248, -2.88159275]
+  SRTHash: -1320884169
+  Translate: [4065.70532, 247.680023, 180.229919]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa6230c60
+  Rotate: -2.79252768
+  SRTHash: 839338531
+  Translate: [4187.34717, 129.700012, 442.936707]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0xa66cb321
+  Rotate: [-2.94937944, 0.389256954, -3.03888631]
+  SRTHash: -938499804
+  Translate: [4329.29053, 144.242325, 145.053345]
+  UnitConfigName: FldObj_RockBeachLump_A_M_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa707bb3e
+  Rotate: -1.42291546
+  SRTHash: -1741798556
+  Scale: 1.14999998
+  Translate: [4449.68945, 161.579132, 677.69043]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa7178766
+  Rotate: 2.70026875
+  SRTHash: 1169128895
+  Scale: 1.14999998
+  Translate: [4484.01562, 184.107178, 638.995056]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa76a2fc0
+  SRTHash: -1573667181
+  Translate: [4480.02979, 162.384888, 373.094971]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0xa8146ed3
+  Rotate: 2.7235992
+  SRTHash: 286379678
+  Translate: [4207.89746, 105.939003, 608.427246]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xa8278437
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [4322.44531, 158.881348, 609.56842]
+  UnitConfigName: Area
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa82fe9bf
+  Rotate: -2.0800004
+  SRTHash: -2089342959
+  Translate: [4356.45752, 163.833847, 627.37085]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa862d1be
+  Rotate: [0.0378665552, 0.00138326641, -0.0730188936]
+  SRTHash: -1192464078
+  Translate: [4466.60498, 162.574677, 371.344757]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xa87a4adb
+  Rotate: [-2.80405378, -1.39267087, 2.6773169]
+  SRTHash: 1630030476
+  Translate: [4399.42578, 166.639221, 352.706573]
+  UnitConfigName: FldObj_RockYellowOcher_A_L_01
+- HashId: !u 0xa8813ec8
+  Rotate: 3.1400013
+  SRTHash: -62350376
+  Translate: [4224.11182, 105.1763, 492.190369]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- HashId: !u 0xa8e979a4
+  Rotate: [-1.4009012, 1.41944385, -1.26230824]
+  SRTHash: -2051447967
+  Scale: 0.951171994
+  Translate: [4494.6875, 169.893707, 557.734375]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa939694b
+  Rotate: -1.02000022
+  SRTHash: -1405591058
+  Scale: 1.10000002
+  Translate: [4478.53613, 162.686371, 355.0401]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa947ff48
+  Rotate: -0.379999995
+  SRTHash: -1285498317
+  Translate: [4360.06641, 161.841248, 257.36969]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xaa40e890
+  Rotate: [-2.93849826, 0.574539065, -3.05897951]
+  SRTHash: 63587977
+  Translate: [4174.71973, 298.761841, 50.2094421]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xaa882b3f
+  SRTHash: -780653005
+  Translate: [4458.07764, 170.30101, 421.422119]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xab10eb48
+  Rotate: [3.14147925, -0.818603456, 3.14147925]
+  SRTHash: 1299268696
+  Translate: [4505.04688, 178.915039, 630.199219]
+  UnitConfigName: Item_Mushroom_F
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xab50885e
+  Rotate: -2.15999985
+  SRTHash: 19975441
+  Translate: [4381.41748, 161.659729, 569.981323]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0xac5e3363
+  Rotate: [-0.194126636, -1.17241848, 0.59155935]
+  SRTHash: -121563616
+  Scale: 0.896484017
+  Translate: [4307.65234, 153.716217, 567.300781]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- HashId: !u 0xac8b0910
+  Rotate: [2.94006324, -0.143066391, -2.88183594]
+  SRTHash: 0
+  Translate: [4469.06641, 170.632812, 681.417969]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0xace7327e
+  Rotate: -2.31876945
+  SRTHash: -1753533987
+  Translate: [4506.84277, 156.361633, 215.935944]
+  UnitConfigName: FldObj_TorchStandBone_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xad95b27a
+  Rotate: 1.89999938
+  SRTHash: 457244789
+  Translate: [4383.59375, 162.244858, 557.549927]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0xaeebee06
+  Rotate: [0.151123032, -0.401245087, 0.151000962]
+  SRTHash: 0
+  Translate: [4331.15625, 182.542969, 513.28125]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xaf6c7227
+  Rotate: -2.85999918
+  SRTHash: -826709117
+  Scale: 150.0
+  Translate: [4479.35352, 154.645004, 788.933167]
+  UnitConfigName: Area
+- HashId: !u 0xb0055053
+  SRTHash: 920359879
+  Translate: [4071.81128, 106.047142, 410.482819]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb032510f
+  Rotate: -1.39626467
+  SRTHash: -1910753330
+  Translate: [4171.41602, 120.887642, 483.510376]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {DropActor: Item_Ore_B, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb063f54a
+  Rotate: [3.06293344, 1.33586824, -3.12115216]
+  SRTHash: 586187200
+  Translate: [4117.86182, 104.406052, 551.740417]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0xb172a838
+  Rotate: [0.537693083, 0.0216654371, -0.00597516447]
+  SRTHash: -1059427545
+  Scale: 0.880370975
+  Translate: [4362.375, 169.473343, 553.070312]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb1a05ece
+  Rotate: -0.209439531
+  SRTHash: -656634569
+  Translate: [4226.01562, 106.713516, 291.48288]
+  UnitConfigName: Animal_LittleBird_C
+- HashId: !u 0xb1b85448
+  Rotate: [-0.69172132, 0.0238374136, 0.150975913]
+  SRTHash: 1487073037
+  Translate: [4405.69287, 163.297501, 190.578247]
+  UnitConfigName: FldObj_RockBeachLump_A_M_01
+- HashId: !u 0xb1d884cf
+  Rotate: [-1.02246094, -0.205688462, 1.70690906]
+  SRTHash: 0
+  Translate: [4462.38281, 174.136719, 573.070312]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb1f6de0f
+  Rotate: 1.56000841
+  SRTHash: 124754734
+  Translate: [4468.99365, 166.913864, 565.794922]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0xb2411fc0
+  Rotate: 1.1000005
+  SRTHash: 1639924319
+  Translate: [4417.48535, 160.743546, 499.02298]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb281e825
+  Rotate: 1.00318742
+  SRTHash: -992232944
+  Scale: 1.10000002
+  Translate: [4458.63477, 161.49408, 335.166931]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb284f13a
+  Rotate: 0.0599992387
+  SRTHash: 21618229
+  Translate: [4504.7207, 155.314896, 210.250732]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb2f87d49
+  Rotate: -1.06291604
+  SRTHash: 360860300
+  Scale: 1.14999998
+  Translate: [4478.15186, 162.852173, 691.8526]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0xb3d2c9aa
+  Rotate: [2.68875384, -0.349111378, 3.09261107]
+  SRTHash: 1991092042
+  Translate: [4045.00439, 98.2955093, 507.48114]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- HashId: !u 0xb427ae29
+  Rotate: [-2.92810035, 1.44763172, -2.4185791]
+  SRTHash: 0
+  Translate: [4432.56641, 183.753906, 222.96875]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- HashId: !u 0xb4931083
+  Rotate: [0.754070997, 1.31549168, 0.746228755]
+  SRTHash: -925375543
+  Scale: 1.01464796
+  Translate: [4445.57422, 159.663177, 732.246094]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- HashId: !u 0xb4e3032f
+  Rotate: [3.14147925, -0.60144037, 3.14147925]
+  SRTHash: 0
+  Translate: [4068.05859, 141.535156, 240.746094]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0xb4f51754
+  Rotate: [0.379999936, 0.639999926, 0.0]
+  SRTHash: -1071691766
+  Translate: [4261.89746, 254.764877, 57.7349548]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0xb50e49f2
+  Rotate: [3.09625721, -1.04152477, -3.13526273]
+  SRTHash: -1931594009
+  Translate: [4458.45654, 167.609238, 619.512756]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb56916c9
+  Rotate: -1.4799993
+  SRTHash: -1109514493
+  Translate: [4280.12402, 110.642937, 442.014709]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0xb57bbd97
+  Rotate: [-0.173875794, 1.15819311, -0.0881523266]
+  SRTHash: -255709284
+  Scale: 0.977539003
+  Translate: [4505.05469, 173.343155, 597.789062]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb57ef06d
+  Rotate: 0.780000091
+  SRTHash: 1576826086
+  Scale: 1.10000002
+  Translate: [4352.65088, 161.412811, 579.158447]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb5ad9ae7
+  Rotate: 0.980000019
+  SRTHash: -480552915
+  Translate: [4583.37305, 134.65799, 314.733459]
+  UnitConfigName: Animal_LittleBird_A
+- HashId: !u 0xb5b96051
+  Rotate: -1.94318688
+  SRTHash: -1928056726
+  Translate: [4144.37549, 104.863846, 414.479431]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb5c9b9ae
+  Rotate: [-2.54968238, 0.794067323, 2.50915504]
+  SRTHash: 0
+  Translate: [4096.51172, 247.386719, 868.902344]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb628ecc4
+  Rotate: 4.44026852
+  SRTHash: 123451742
+  Scale: 1.14999998
+  Translate: [4478.69189, 183.136383, 641.81958]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb647e220
+  Rotate: 2.09439468
+  SRTHash: -909288225
+  Translate: [4188.83105, 128.999817, 443.020081]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb67580fe
+  Rotate: -1.38318563
+  SRTHash: 2111001106
+  Translate: [4527.20117, 105.381973, 907.707886]
+  UnitConfigName: Animal_Fish_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb6889c2a
+  Rotate: [-1.37402332, 1.18981922, -2.57678199]
+  SRTHash: 0
+  Translate: [4110.55469, 235.128906, 885.445312]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb6a8cf37
+  Rotate: -1.42000127
+  SRTHash: 1790065449
+  Translate: [4175.76514, 299.026184, 53.0054016]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb7d868d9
+  Rotate: -1.30000007
+  SRTHash: -1179620856
+  Translate: [4402.65234, 165.869415, 578.669128]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0xb80628c3
+  Rotate: -1.25999963
+  SRTHash: 451447008
+  Translate: [4224.23389, 106.441605, 227.347656]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb8440646
+  Rotate: 0.73999989
+  SRTHash: 273640011
+  Translate: [4474.72412, 162.2798, 368.232025]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb87d66e5
+  Rotate: 4.44026852
+  SRTHash: -625492734
+  Scale: 1.14999998
+  Translate: [4394.00098, 170.442902, 673.337952]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb8d9823e
+  Rotate: [-2.10400367, 0.579833925, 3.0972898]
+  SRTHash: 0
+  Translate: [4190.28125, 187.140625, 930.730469]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xb8f7f851
+  Rotate: [0.845554411, 0.967135191, 0.780326962]
+  SRTHash: 1964186073
+  Scale: 1.04638696
+  Translate: [4066.33594, 137.893707, 231.003906]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {Direction: 3, Shape: Sphere, WindSpeed: 15.0}
+  HashId: !u 0xb913a8e4
+  Rotate: -0.319999963
+  SRTHash: -1515318468
+  Scale: 50.0
+  Translate: [3950.47705, 134.65918, 467.239624]
+  UnitConfigName: PointWindSetTag
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xba12f0fd
+  Rotate: 0.299999982
+  SRTHash: 433089980
+  Translate: [4468.69922, 104.897598, 917.820557]
+  UnitConfigName: Animal_Fish_G
+- HashId: !u 0xba2cd135
+  Rotate: [3.14147925, -1.32519519, 3.14147925]
+  SRTHash: 0
+  Translate: [4464.71875, 169.621094, 338.917969]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0xba454aa5
+  Rotate: [-0.0835290849, 0.241705805, 0.251235515]
+  SRTHash: -1314423705
+  Scale: 0.939940989
+  Translate: [4412.86719, 169.918137, 621.945312]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbaccf942
+  Rotate: [-0.303503603, -0.418393493, 0.15506807]
+  SRTHash: -1756430022
+  Translate: [4176.08496, 298.367615, 48.6582642]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0xbc38282d
+  Rotate: -2.52000141
+  SRTHash: -430333500
+  Translate: [4204.09766, 105.769485, 449.334961]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbc5e7689
+  Rotate: [-0.223827869, -0.476397365, 0.330411255]
+  SRTHash: -1301645956
+  Translate: [4014.24219, 264.231445, 827.168884]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {Direction: 3, Shape: Sphere, WindSpeed: 15.0}
+  HashId: !u 0xbc629591
+  Rotate: -0.319999963
+  SRTHash: 229723221
+  Scale: 50.0
+  Translate: [3996.47705, 134.65918, 408.942749]
+  UnitConfigName: PointWindSetTag
+- HashId: !u 0xbdb1062c
+  Rotate: -0.505493164
+  SRTHash: 0
+  Translate: [4384.69531, 162.164062, 557.722656]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: true
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+  HashId: !u 0xbdd8d0f9
+  Rotate: -2.08000112
+  SRTHash: -1673982976
+  Translate: [4516.08105, 160.535019, 238.560211]
+  UnitConfigName: Enemy_Keese_AllDay
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbeec80b7
+  Rotate: [-2.28845191, 0.81237793, 2.60400367]
+  SRTHash: 0
+  Translate: [4027.84375, 240.015625, 818.046875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xbf2dd951
+  Rotate: [-0.151186019, 0.313753188, 0.076583676]
+  SRTHash: -955886466
+  Scale: 1.04980505
+  Translate: [4383.33984, 162.021362, 570.863281]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbf8124e4
+  Rotate: [0.251158297, -1.00547791, -0.216389671]
+  SRTHash: 2080602
+  Translate: [4173.87939, 298.921234, 52.1452332]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0xbf9a6638
+  Rotate: -0.960000098
+  SRTHash: -1055641098
+  Translate: [4494.13867, 165.170044, 695.134277]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- HashId: !u 0xbfa808fe
+  Rotate: [1.09811926, 1.10990214, 1.43246543]
+  SRTHash: 347778591
+  Translate: [4456.36914, 164.867584, 319.376495]
+  UnitConfigName: FldObj_RockYellowOcher_A_M_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbfb0abf9
+  SRTHash: 2009876840
+  Translate: [4432.3291, 183.555832, 223.763611]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0xbfcc4117
+  Rotate: [-0.0337862447, 0.575909853, -0.287056834]
+  SRTHash: -1766703855
+  Scale: 1.20000005
+  Translate: [4065.15747, 364.648895, 97.8417969]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropActor: PutRupee_Gold, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbfd42417
+  Rotate: [3.14153314, 1.62005043, 3.14148736]
+  SRTHash: 492190761
+  Translate: [4464.58691, 158.9021, 838.212524]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc1253207
+  Rotate: -0.779999971
+  SRTHash: -1577997945
+  Translate: [4375.60938, 165.335953, 323.63028]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0xc15499f8
+  Rotate: [0.151123032, -0.401245087, 0.151000962]
+  SRTHash: 0
+  Translate: [4331.15625, 174.480469, 513.28125]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc19760dd
+  Rotate: 0.980000019
+  SRTHash: -216627300
+  Translate: [4465.04883, 166.301651, 539.441956]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0xc1a57d71
+  Rotate: -1.4995842
+  SRTHash: -1399578834
+  Translate: [4213.80713, 106.610916, 543.98584]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc1ab50fd
+  SRTHash: -461468452
+  Scale: 1.10000002
+  Translate: [4407.55273, 170.709015, 212.570557]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0xc1f0ab7b
+  Rotate: [2.84749532, 1.14455128, -2.83672023]
+  SRTHash: 1856945096
+  Translate: [4217.32373, 96.4697266, 457.61972]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- HashId: !u 0xc20700f4
+  Rotate: 2.26159263
+  SRTHash: 676650632
+  Translate: [4234.42773, 105.461884, 385.773438]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- HashId: !u 0xc2ac3de0
+  Rotate: -0.199340805
+  SRTHash: 432293525
+  Scale: 0.909668028
+  Translate: [4440.45703, 162.914642, 562.3125]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc2c53f52
+  Rotate: 4.44026852
+  SRTHash: 1314189808
+  Scale: 1.14999998
+  Translate: [4491.20508, 171.072983, 588.34552]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc375d824
+  Rotate: -1.49267566
+  SRTHash: -636589027
+  Translate: [4008.10547, 134.709381, 302.355469]
+  UnitConfigName: Item_Plant_A
+- HashId: !u 0xc4270177
+  Rotate: -1.69999754
+  SRTHash: -1865865268
+  Translate: [4486.60449, 154.664215, 782.268127]
+  UnitConfigName: FldObj_AncientPillar_A_04
+- HashId: !u 0xc4ad3f2a
+  Rotate: [-3.08829594, 0.855032921, 2.91128612]
+  SRTHash: -1502012074
+  Translate: [4285.89941, 106.456177, 361.57016]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc4ddbcc3
+  Rotate: 1.16784656
+  SRTHash: -7073086
+  Translate: [4328.46484, 142.378235, 139.347656]
+  UnitConfigName: Item_Mushroom_E
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc4e59ea1
+  Rotate: 1.87999892
+  SRTHash: 1584595151
+  Translate: [3861.41016, 106.080826, 672.487427]
+  UnitConfigName: Animal_LittleBird_C
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xc5204250
+  Rotate: 0.759999931
+  SRTHash: 1909530971
+  Translate: [4358.3584, 168.42337, 359.854126]
+  UnitConfigName: Animal_Deer_A
+- HashId: !u 0xc5c7dd91
+  Rotate: -0.259999901
+  SRTHash: 1971070198
+  Scale: [4.0, 5.0, 4.0]
+  Translate: [4223.22852, 102.698708, 492.527985]
+  UnitConfigName: AscendingCurrent
+- HashId: !u 0xc63dce72
+  SRTHash: -968318141
+  Translate: [4168.40918, 104.81041, 446.601715]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc6ec6f7b
+  Rotate: -1.80000198
+  SRTHash: 305062673
+  Translate: [4457.99268, 169.192932, 215.241119]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xc8623293
+  Rotate: 2.13840723
+  SRTHash: 1149401103
+  Translate: [4205.81055, 105.515503, 472.088928]
+  UnitConfigName: Animal_Fish_G
+- HashId: !u 0xc98877dc
+  Rotate: [0.647944987, 1.04107332, 0.715653002]
+  SRTHash: 573742491
+  Scale: 1.01599753
+  Translate: [4140.41113, 337.546417, 18.4805298]
+  UnitConfigName: Obj_Plant_Shrub_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc9fdc918
+  Rotate: 4.44026852
+  SRTHash: 1297725616
+  Scale: 1.14999998
+  Translate: [4435.65527, 165.534668, 691.532104]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xca25f773
+  SRTHash: -186568855
+  Translate: [4244.94922, 255.900452, 57.5401001]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0xca3567aa
+  Rotate: [-3.07107186, -0.45250988, 2.91903305]
+  SRTHash: 161150187
+  Scale: 0.800000012
+  Translate: [4418.47852, 153.363129, 174.825317]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- HashId: !u 0xca9c4b8a
+  Rotate: 1.37023914
+  SRTHash: 0
+  Translate: [4457.39453, 165.644531, 593.902344]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- '!Parameters': {DropTable: Castle_Plants, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0xcaf6de88
+  Rotate: [0.0237052757, 0.000272686011, 0.0409678668]
+  SRTHash: 1768709708
+  Translate: [4347.31104, 160.413727, 605.99884]
+  UnitConfigName: KibakoZora_Contain_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcb65bb21
+  Rotate: 1.04719758
+  SRTHash: 1620738539
+  Translate: [4347.80322, 150.197906, 103.533112]
+  UnitConfigName: Item_Plant_J
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcbb46cbe
+  Rotate: -1.07999992
+  SRTHash: -735337655
+  Translate: [4463.1709, 158.934113, 183.94104]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xcc313c3b
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [4509.15527, 156.503769, 225.872711]
+  UnitConfigName: Area
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcc3afabd
+  SRTHash: 1049725177
+  Translate: [4408.04492, 163.818298, 515.638428]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0xcc6a77c1
+  Rotate: [0.564478815, 0.863276601, 0.417757422]
+  SRTHash: 415237114
+  Scale: 0.910645008
+  Translate: [4342.55078, 150.160217, 104.117188]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0xcce9f55b
+  Rotate: -2.70000172
+  SRTHash: 1802643062
+  Translate: [4324.69141, 106.092545, 741.850952]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- HashId: !u 0xcd8d2d2b
+  Rotate: [1.06660283, -0.886550188, -1.03443277]
+  SRTHash: -395705817
+  Translate: [4246.41797, 106.383636, 375.32608]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcd95489c
+  Rotate: -3.11999917
+  SRTHash: -847557107
+  Translate: [3842.59521, 106.278046, 680.751892]
+  UnitConfigName: Animal_LittleBird_C
+- HashId: !u 0xcde6bd5f
+  Rotate: [0.178109929, 0.709451139, -0.13872011]
+  SRTHash: 661280176
+  Translate: [4529.57764, 111.248413, 1016.95874]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xcdf62edf
+  Rotate: [0.17216292, 1.13309288, 0.189675197]
+  SRTHash: 1468135284
+  Translate: [4111.89941, 106.474525, 576.725647]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- HashId: !u 0xce94be37
+  Rotate: [0.20451881, 0.828108013, -0.116193525]
+  SRTHash: 1114783183
+  Translate: [4525.97852, 111.283646, 1020.4613]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xcedc36ae
+  SRTHash: -484002935
+  Translate: [4478.45898, 158.889832, 841.068665]
+  UnitConfigName: FldObj_AncientDebris_A_01
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xcf370744
+  SRTHash: -794792408
+  Scale: 60.0
+  Translate: [4509.15527, 156.503769, 225.872711]
+  UnitConfigName: Area
+- HashId: !u 0xcf499a04
+  Rotate: [2.80806661, 0.761923373, -2.96920276]
+  SRTHash: 16221277
+  Scale: 1.20000005
+  Translate: [4210.65918, 96.4317932, 489.625732]
+  UnitConfigName: FldObj_RockBeach_A_M_04
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcf7b373a
+  Rotate: -0.940000474
+  SRTHash: -329077499
+  Translate: [4438.31787, 162.813248, 559.626221]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcfb6664f
+  Rotate: [0.0900849625, -0.0107005741, 0.0617689453]
+  SRTHash: 1974616160
+  Translate: [4270.17529, 128.896667, 617.858826]
+  UnitConfigName: Item_Plant_B
+- HashId: !u 0xcfd45d9f
+  Rotate: [2.6415925, 1.1948092, 3.14159274]
+  SRTHash: 332694553
+  Translate: [4147.76758, 99.6056442, 544.283813]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd05a556e
+  Rotate: 6.13447094
+  SRTHash: 378364433
+  Translate: [4170.04248, 106.505844, 433.727966]
+  UnitConfigName: Animal_Insect_O
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd077d2d9
+  SRTHash: 1925112490
+  Translate: [4412.26709, 166.141937, 584.305664]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd0bf90cc
+  Rotate: [-0.286752105, -0.770158947, 0.0671448484]
+  SRTHash: 267538508
+  Translate: [4074.56763, 250.151688, 175.937622]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd139106c
+  Rotate: -0.880000234
+  SRTHash: 968655396
+  Translate: [4433.59863, 165.75116, 313.27594]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xd15d8c8d
+  Rotate: 1.20000017
+  SRTHash: 534368380
+  Translate: [4360.76123, 168.248474, 351.952332]
+  UnitConfigName: Animal_Doe_A
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd17afd3f
+  Rotate: 0.34906584
+  SRTHash: 904010628
+  Translate: [4137.71143, 336.743225, 20.9750366]
+  UnitConfigName: Item_Plant_J
+- HashId: !u 0xd17fa495
+  Rotate: [-0.838661551, 1.24969316, -0.40413788]
+  SRTHash: -670755296
+  Translate: [4058.96338, 97.1516113, 520.332947]
+  UnitConfigName: FldObj_RockBeach_A_M_04
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd1bc4e05
+  Rotate: [-1.76160729, -0.63729012, 2.51941633]
+  SRTHash: 1512492388
+  Translate: [4268.07959, 105.644249, 699.293213]
+  UnitConfigName: Animal_Fish_K
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd1da88f0
+  SRTHash: 615603806
+  Translate: [4072.44263, 249.518692, 176.755219]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0xd1dbdda8
+  Rotate: [0.319408476, 1.07054257, 0.425262094]
+  SRTHash: -2065311156
+  Scale: 0.85839802
+  Translate: [4109.66016, 135.229156, 251.6875]
+  UnitConfigName: Obj_Plant_HopBush_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd2bc2e50
+  Rotate: 1.54000378
+  SRTHash: -496840559
+  Scale: 1.10000002
+  Translate: [4380.41602, 185.972687, 491.586395]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd41c3c8d
+  Rotate: [-1.71728504, 0.541870058, -2.98901343]
+  SRTHash: 0
+  Translate: [4355.61719, 172.964844, 1099.96875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd4bedbd1
+  Rotate: 3.52015734
+  SRTHash: -516653244
+  Scale: 1.14243519
+  Translate: [4385.64795, 166.647781, 598.016174]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0xd53d853f
+  Rotate: [0.144253492, 0.392310649, 0.135700464]
+  SRTHash: 221655249
+  Scale: 1.01757801
+  Translate: [4433.83594, 159.102478, 731.351562]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- HashId: !u 0xd5e3bf95
+  Rotate: [0.0594519749, 0.58074832, -0.0300725736]
+  SRTHash: 407326333
+  Translate: [4254.43652, 256.864807, 51.050415]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd627b8b0
+  Rotate: -1.10291719
+  SRTHash: -1363484495
+  Scale: 1.14999998
+  Translate: [4503.56152, 179.491638, 669.201599]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd64e1313
+  SRTHash: 975937861
+  Translate: [4423.97461, 162.888153, 373.620697]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd731413d
+  Rotate: -1.40000093
+  SRTHash: 262150584
+  Translate: [4469.3291, 166.446167, 585.831543]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0xd736fd4f
+  Rotate: [0.0601806603, 0.0906982347, 0.489990205]
+  SRTHash: 0
+  Translate: [4297.38672, 119.0625, 465.121094]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- HashId: !u 0xd7e01ef5
+  Rotate: [2.58222485, 0.959083736, 3.06597209]
+  SRTHash: -1325328150
+  Scale: 1.20000005
+  Translate: [4273.14795, 100.056396, 235.374878]
+  UnitConfigName: FldObj_RockBeach_A_M_04
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd82147fd
+  SRTHash: -2093421422
+  Translate: [4160.20068, 108.842987, 455.956482]
+  UnitConfigName: Animal_Insect_K
+- HashId: !u 0xd8dfa3d1
+  Rotate: [0.154553518, 0.602896214, 0.268140942]
+  SRTHash: -2146264400
+  Translate: [4427.13721, 170.422058, 293.452271]
+  UnitConfigName: FldObj_HyrulePrairieRock_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd935917b
+  Rotate: -1.43999994
+  SRTHash: 922459681
+  Translate: [4361.0498, 162.53064, 617.930908]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0xd964fe93
+  Rotate: [-0.100523233, -0.00343075581, -0.0681738257]
+  SRTHash: -462593269
+  Translate: [4251.58252, 106.6735, 370.22644]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdaaf633e
+  SRTHash: 1279300001
+  Translate: [4331.07422, 174.245377, 514.713318]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdac8a21b
+  Rotate: 0.940000057
+  SRTHash: 445486194
+  Translate: [4458.56299, 165.718857, 592.918579]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdbb4cebb
+  Rotate: 2.89999962
+  SRTHash: -2016885940
+  Translate: [4372.43994, 161.150452, 573.926697]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdc2ac51c
+  Rotate: 1.20000041
+  SRTHash: 1325887685
+  Translate: [4426.60889, 163.481018, 380.315826]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0xdc62bc44
+  Rotate: [0.0755555332, 0.976996064, 0.398064703]
+  SRTHash: 2137879517
+  Translate: [4152.23975, 99.8205185, 388.496674]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- HashId: !u 0xdc66ef3b
+  Rotate: 0.459999979
+  SRTHash: -151036976
+  Translate: [4061.08032, 106.347328, 480.273834]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdc74252e
+  Rotate: 0.899999917
+  SRTHash: -1957736175
+  Translate: [4480.04932, 151.377579, 159.157593]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdc9e4bd8
+  Rotate: [-1.73999012, 0.754272401, -2.90246558]
+  SRTHash: 0
+  Translate: [4037.51562, 214.292969, 810.242188]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xdcbf6db8
+  SRTHash: -788680952
+  Scale: 50.0
+  Translate: [4322.44531, 158.881348, 609.56842]
+  UnitConfigName: Area
+- '!Parameters':
+    EquipItem3: Weapon_Sword_024
+    EquipItem4: Weapon_Bow_023
+    EquipItem5: Weapon_Spear_003
+    GiantArmor1: GiantGreave_Wood_R
+    GiantArmor2: GiantGreave_Wood_L
+    GiantRoamType: 0
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    UniqueNameMessageLabel: Giant_[J-5]DCE95AC8
+  HashId: !u 0xdce95ac8
+  SRTHash: 1468195859
+  Translate: [4442.0, 160.793472, 350.9375]
+  UnitConfigName: Enemy_Giant_Middle
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdd1656c8
+  Rotate: 0.740000069
+  SRTHash: -946153974
+  Translate: [4275.64014, 128.356842, 510.233826]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0xdd357956
+  Rotate: 1.14428711
+  SRTHash: 0
+  Translate: [4411.0, 166.089844, 584.328125]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- HashId: !u 0xdd707e98
+  Rotate: -0.319999963
+  SRTHash: -1529128884
+  Translate: [4180.97559, 105.719841, 556.016052]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- HashId: !u 0xdde65dce
+  Rotate: -1.04000032
+  SRTHash: -1909118778
+  Translate: [4336.14209, 159.188904, 598.368042]
+  UnitConfigName: GrassCutTag
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdf293d9c
+  Rotate: -1.38291693
+  SRTHash: 164348598
+  Scale: 1.14999998
+  Translate: [4520.71777, 175.217789, 643.456543]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0xdf8facc0
+  Rotate: [0.0, 1.51079631, -0.159999922]
+  SRTHash: -1460615407
+  Translate: [4144.97852, 136.233017, 195.921875]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xdfaf5d17
+  Rotate: [-2.93676734, -0.245239228, -3.11779761]
+  SRTHash: 0
+  Translate: [4301.79297, 158.972656, 159.46875]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe003f6b5
+  Rotate: 0.627319336
+  SRTHash: 688505383
+  Translate: [4237.82812, 116.990326, 171.8125]
+  UnitConfigName: Item_Mushroom_E
+- '!Parameters': {DropActor: Weapon_Spear_027, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe016b4aa
+  Rotate: [3.11544561, -0.659226716, -3.09989429]
+  SRTHash: -893399438
+  Translate: [4536.11865, 97.1539536, 1067.43762]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0xe0440f85
+  Rotate: -0.830796123
+  SRTHash: -1460615407
+  Translate: [4138.14307, 141.213104, 197.819855]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe04e7710
+  Rotate: [-2.140625, 0.465942353, -3.01647925]
+  SRTHash: 0
+  Translate: [4014.34375, 164.0625, 758.03125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xe070fefc
+  Rotate: -0.0435790904
+  SRTHash: 0
+  Translate: [4002.66406, 151.300781, 358.578125]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe07b2b1c
+  Rotate: -1.06000042
+  SRTHash: 1908958898
+  Translate: [4360.22559, 173.784149, 540.475281]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0xe1c76b41
+  Rotate: [0.0497915186, -0.0647726655, -0.0460940786]
+  SRTHash: -2102871556
+  Scale: 1.07226598
+  Translate: [4462.94141, 162.747131, 375.523438]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe27b33e5
+  SRTHash: -1502624538
+  Translate: [4414.354, 162.846481, 369.338379]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0xe2d8c8dd
+  Rotate: [-0.500000238, 0.40678376, 2.13168642e-18]
+  SRTHash: -1387995029
+  Scale: 1.20000005
+  Translate: [4127.69727, 97.8243866, 576.846313]
+  UnitConfigName: FldObj_RockBeach_A_M_04
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe37eae00
+  Rotate: -2.13999987
+  SRTHash: 1152922287
+  Translate: [4391.02979, 168.594727, 620.060791]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe3fcf3b4
+  Rotate: -1.22000051
+  SRTHash: 204869700
+  Translate: [4162.83105, 106.002335, 362.120911]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0xe405621b
+  Rotate: [1.77293313, 1.07790434, 2.05228019]
+  SRTHash: 778255850
+  Translate: [4065.0813, 247.165253, 180.194305]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0xe451e469
+  Rotate: [-0.114573173, -1.07103968, 0.0936165228]
+  SRTHash: -1209676858
+  Scale: 1.01122999
+  Translate: [4388.39453, 168.503952, 257.042969]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe5b09525
+  Rotate: 1.28000033
+  SRTHash: 1612245617
+  Translate: [4074.54199, 132.447922, 246.066193]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe5b66776
+  Rotate: [-2.71960425, 1.00769031, 2.50537086]
+  SRTHash: 0
+  Translate: [4283.34766, 203.082031, 1032.58203]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xe6a5c715
+  Rotate: [0.459490359, -0.0973337218, 0.00473395688]
+  SRTHash: -821772401
+  Scale: [1.00306892, 1.0, 1.0]
+  Translate: [4086.96558, 102.418907, 460.290222]
+  UnitConfigName: FldObj_RockBeach_A_M_04
+- HashId: !u 0xe71ba0c1
+  Rotate: [2.6235559, 0.311111152, -3.12065697]
+  SRTHash: -48154786
+  Translate: [4313.01416, 100.086975, 708.620728]
+  UnitConfigName: FldObj_RockBeach_A_M_04
+- HashId: !u 0xe7438929
+  Rotate: [-0.14696674, 0.769422829, -0.271991909]
+  SRTHash: -315664647
+  Translate: [4247.29199, 255.960022, 59.7698975]
+  UnitConfigName: Obj_MineralGrain_A_02
+- '!Parameters': {Direction: 3, Shape: Sphere, WindSpeed: 15.0}
+  HashId: !u 0xe74397c6
+  Rotate: -0.319999963
+  SRTHash: 665507467
+  Scale: 50.0
+  Translate: [4033.3501, 153.34668, 360.991577]
+  UnitConfigName: PointWindSetTag
+- HashId: !u 0xe8607de3
+  Rotate: [-0.114760719, 0.198231369, -0.0933740214]
+  SRTHash: -1221739497
+  Scale: 0.881348014
+  Translate: [4391.77344, 168.189819, 254.589844]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {DropActor: PutRupee_Gold, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe897ce7c
+  Rotate: 3.5999999
+  SRTHash: 1271338268
+  Translate: [4470.09619, 158.902115, 840.634644]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe8cc5dc8
+  Rotate: -0.80000025
+  SRTHash: -1904945570
+  Translate: [4414.68652, 173.532257, 297.678314]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0xe949bf15
+  Rotate: [-0.843175411, 1.39718735, -0.84299463]
+  SRTHash: -423523219
+  Translate: [4012.43188, 264.509216, 827.189209]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe955f6d4
+  Rotate: 1.76026833
+  SRTHash: 301375539
+  Scale: 1.14999998
+  Translate: [4388.50732, 168.634445, 642.030823]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0xe9f21789
+  Rotate: [-0.327637702, 1.32257104, -0.310217887]
+  SRTHash: 950142753
+  Scale: 1.07177699
+  Translate: [4443.65625, 169.062164, 414.085938]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xea266f0c
+  Rotate: 2.57999992
+  SRTHash: 1900527536
+  Translate: [4521.71875, 105.483536, 911.178589]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xea4a2bec
+  Rotate: 0.2635988
+  SRTHash: 2031730881
+  Scale: [4.0, 10.0, 4.0]
+  Translate: [4213.21143, 99.7192154, 544.719727]
+  UnitConfigName: AscendingCurrent
+- HashId: !u 0xea5d6cfc
+  SRTHash: -1380787660
+  Translate: [4472.77588, 100.494415, 1009.47113]
+  UnitConfigName: FldObj_RockBeach_A_M_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xea63adcb
+  Rotate: [-1.80651844, 0.377807587, -2.7346189]
+  SRTHash: 0
+  Translate: [4064.85156, 290.933594, 872.273438]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xeb0b6a23
+  Rotate: -1.12000036
+  SRTHash: 837833700
+  Scale: 1.10000002
+  Translate: [4459.76172, 174.332916, 291.572937]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0xeb9194fa
+  Rotate: [-0.292168647, -0.10191682, -0.218950734]
+  SRTHash: -2069207242
+  Translate: [4507.02295, 158.960663, 239.471497]
+  UnitConfigName: FldObj_RockBeachLump_A_M_01
+- HashId: !u 0xec23bea9
+  Rotate: -1.75999928
+  SRTHash: -666037053
+  Translate: [4113.7417, 105.246658, 403.687225]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- HashId: !u 0xec2c3109
+  Rotate: [3.07290483, 0.51746577, 3.00340652]
+  SRTHash: 271343124
+  Translate: [4536.19385, 152.268707, 215.9758]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- HashId: !u 0xecbcfaaf
+  Rotate: [0.837893665, 1.40382493, 0.83657968]
+  SRTHash: -1179482658
+  Scale: 1.08593798
+  Translate: [4382.27734, 161.950089, 564.753906]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xed35eca0
+  Rotate: [2.73231745, 0.213377923, 2.59148932]
+  SRTHash: -735072625
+  Translate: [4262.44141, 254.632095, 57.2587891]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0xed8d4362
+  Rotate: [-1.50170672, 1.21665645, -1.53067648]
+  SRTHash: -210106613
+  Translate: [4375.88037, 152.725311, 174.282806]
+  UnitConfigName: FldObj_HyrulePrairieRock_A_01
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xedaa1364
+  Rotate: 2.13840723
+  SRTHash: -1219349615
+  Translate: [4209.54834, 105.148979, 474.322754]
+  UnitConfigName: Animal_Fish_G
+- HashId: !u 0xedbeacb5
+  Rotate: -0.623185575
+  SRTHash: 1654016561
+  Scale: 1.04326999
+  Translate: [4200.37207, 96.2399902, 463.05304]
+  UnitConfigName: FldObj_KorokStake_A_01
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: true
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+  HashId: !u 0xede7aba4
+  Rotate: -2.08000112
+  SRTHash: 1851070311
+  Translate: [4519.06934, 160.535019, 232.876617]
+  UnitConfigName: Enemy_Keese_AllDay
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xee024a67
+  Rotate: 3.0
+  SRTHash: 1300568284
+  Translate: [4299.65625, 170.185699, 74.8408203]
+  UnitConfigName: Animal_Fox_A
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xee0ddc06
+  Rotate: -1.96000004
+  SRTHash: 1456329946
+  Translate: [4460.24805, 163.615799, 369.347961]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xee9a7e0b
+  Rotate: 2.34000063
+  SRTHash: 1421552649
+  Translate: [4118.54443, 103.197617, 558.241577]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xef242b60
+  Rotate: -0.859999955
+  SRTHash: 1917788878
+  Translate: [4581.92578, 134.528107, 318.543823]
+  UnitConfigName: Animal_LittleBird_A
+- HashId: !u 0xef293a59
+  Rotate: 2.70000005
+  SRTHash: 1566688558
+  Translate: [4478.51025, 105.125572, 996.629883]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- HashId: !u 0xefb35846
+  Rotate: [-0.633947313, 1.39509428, -0.487807453]
+  SRTHash: 723296540
+  Scale: 1.05566394
+  Translate: [4388.07812, 168.215454, 251.519531]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0xefd8e61a
+  Rotate: [1.79980457, 1.32287586, 1.74328601]
+  SRTHash: 0
+  Translate: [4237.71094, 125.0, 171.960938]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xefdf5222
+  Rotate: 1.22000003
+  SRTHash: -122569130
+  Translate: [4238.71094, 117.041718, 172.039429]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0xf035396c
+  Rotate: 0.25999999
+  SRTHash: 1650456795
+  Translate: [4206.05566, 105.795151, 351.228485]
+  UnitConfigName: FldObj_RockBeach_A_S_02
+- HashId: !u 0xf04db99d
+  Rotate: [2.91720223, -1.23972881, -3.09559989]
+  SRTHash: -1660076621
+  Translate: [4278.9043, 105.404877, 450.720795]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- HashId: !u 0xf08e1775
+  Rotate: [-0.157388747, -1.11407483, 0.563135505]
+  SRTHash: -1563376666
+  Scale: 0.966309011
+  Translate: [4313.16797, 156.679428, 571.820312]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf0deb003
+  Rotate: [-2.10925293, 0.800903261, -2.95263648]
+  SRTHash: 0
+  Translate: [4329.95703, 188.039062, 1088.73828]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xf1221d8c
+  SRTHash: 1394548617
+  Translate: [4464.27197, 158.88974, 822.192261]
+  UnitConfigName: FldObj_AncientDebris_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf14ce2aa
+  Rotate: [3.14147925, -0.461181611, 3.14147925]
+  SRTHash: -493966934
+  Translate: [4011.85156, 151.797531, 350.851562]
+  UnitConfigName: Item_Mushroom_E
+- HashId: !u 0xf16a002f
+  Rotate: [1.79980457, 1.32287586, 1.74328601]
+  SRTHash: 0
+  Translate: [4237.71094, 116.976562, 171.960938]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- HashId: !u 0xf184f46f
+  Rotate: 0.319999963
+  SRTHash: -657070490
+  Translate: [4034.75317, 106.927292, 420.076385]
+  UnitConfigName: FldObj_RockBeachLump_A_L_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf19bf13b
+  Rotate: 0.365136892
+  SRTHash: -1681921915
+  Translate: [4059.91284, 184.274765, 812.331299]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf1c8e8ec
+  Rotate: 0.560000181
+  SRTHash: 791841219
+  Scale: 1.10000002
+  Translate: [4513.69434, 158.378418, 212.572144]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf20ecea4
+  Rotate: -0.719999969
+  SRTHash: 1500009359
+  Translate: [4402.32031, 165.473679, 371.649933]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf262650c
+  Rotate: -3.02318621
+  SRTHash: 79307232
+  Translate: [3856.57788, 106.213463, 674.4198]
+  UnitConfigName: Animal_LittleBird_C
+- HashId: !u 0xf2b18caf
+  Rotate: [0.0879342929, 0.273192585, 0.0490009747]
+  SRTHash: -1231279098
+  Scale: 1.08642602
+  Translate: [4483.80859, 167.743195, 547.75]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf2df4bff
+  Rotate: [-0.149291977, 1.32495117, -1.62036121]
+  SRTHash: 0
+  Translate: [4136.6875, 181.203125, 890.921875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xf3859b45
+  Rotate: [-0.241943344, 0.24426268, 0.062377926]
+  SRTHash: 0
+  Translate: [4505.40234, 155.460938, 211.515625]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0xf38a5562
+  Rotate: [-1.63827074, 0.00212181523, -0.171399429]
+  SRTHash: -1145297406
+  Translate: [4229.42676, 106.247292, 572.19574]
+  UnitConfigName: Barrel
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf3cfb480
+  Rotate: 0.49999994
+  SRTHash: 1683665470
+  Translate: [4413.0249, 172.77037, 303.089661]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf405113e
+  SRTHash: -1452215041
+  Translate: [4402.88818, 163.289246, 566.611877]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf409d4f5
+  Rotate: [0.0, -1.36000192, -0.279999882]
+  SRTHash: 1144691003
+  Translate: [4586.09814, 129.41008, 425.955231]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {Direction: 1, Shape: Sphere, WindSpeed: 5.0}
+  HashId: !u 0xf4f78c4b
+  SRTHash: -2023028026
+  Scale: 20.0
+  Translate: [4271.60693, 126.513794, 624.800049]
+  UnitConfigName: PointWindSetTag
+- HashId: !u 0xf552f957
+  Rotate: [2.82812738, -1.25458932, 3.01172829]
+  SRTHash: 1648502457
+  Scale: 1.5
+  Translate: [4220.66943, 99.1113663, 246.342773]
+  UnitConfigName: FldObj_RockBeach_A_M_04
+- HashId: !u 0xf628932e
+  Rotate: 3.14159274
+  SRTHash: -1131026959
+  Translate: [4471.74756, 155.116501, 815.256531]
+  UnitConfigName: FldObj_AncientSteps_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf6369415
+  Rotate: 3.14026856
+  SRTHash: 623141952
+  Scale: 1.14999998
+  Translate: [4405.53125, 168.068848, 624.247925]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- HashId: !u 0xf6b48516
+  Rotate: [0.193175435, 0.085087128, -0.182269245]
+  SRTHash: 1682475160
+  Translate: [4217.97705, 106.743889, 202.246521]
+  UnitConfigName: FldObj_RockBeachLump_A_M_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf6f6c103
+  Rotate: -1.79999959
+  SRTHash: 746028375
+  Translate: [4352.9375, 160.481308, 583.668762]
+  UnitConfigName: Obj_TreeConiferous_C_03
+- HashId: !u 0xf70b7df2
+  Rotate: [0.202305287, 0.0162710007, -0.15996848]
+  SRTHash: 1989200739
+  Translate: [4525.9082, 111.884941, 1016.85193]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf716082b
+  Rotate: 1.07999992
+  SRTHash: 2147420933
+  Translate: [4247.01172, 132.740036, 132.077972]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0xf7249953
+  Rotate: [-3.13384342, -0.831507981, 3.14013767]
+  SRTHash: -1671722891
+  Translate: [4348.24854, 160.299652, 596.758545]
+  UnitConfigName: KibakoZora_Contain_01
+- HashId: !u 0xf77a07aa
+  Rotate: [-2.20324683, -0.951415956, 0.692871034]
+  SRTHash: 0
+  Translate: [4247.33203, 140.800781, 131.871094]
+  UnitConfigName: EnvSeEmitPointBirdWet
+- HashId: !u 0xf78dd1cd
+  Rotate: [-0.238476709, 1.42155325, 0.0230066385]
+  SRTHash: 1442240927
+  Scale: 0.885742009
+  Translate: [4398.80078, 171.918015, 679.492188]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xf7dfe76a
+  SRTHash: 1378135328
+  Translate: [4374.50439, 189.338928, 452.246979]
+  UnitConfigName: Animal_Deer_A
+- HashId: !u 0xf8017831
+  Rotate: -3.14159274
+  SRTHash: 1299734212
+  Translate: [4473.84326, 154.15419, 817.065674]
+  UnitConfigName: FldObj_AncientPillarStage_A_02
+- HashId: !u 0xf999c81d
+  Rotate: [-0.146976784, 0.242240727, -0.356960297]
+  SRTHash: 9508664
+  Scale: 1.02685499
+  Translate: [4079.47266, 128.032898, 313.050781]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- HashId: !u 0xfa441a0f
+  Rotate: 2.60799694
+  SRTHash: -1562557311
+  Scale: 1.08946776
+  Translate: [4197.36572, 96.1306152, 464.767029]
+  UnitConfigName: FldObj_KorokStake_A_01
+- HashId: !u 0xfb1ec415
+  Rotate: 3.06318355
+  SRTHash: -384275989
+  Translate: [4340.5, 160.099884, 616.5]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfee4d472
+  Rotate: -1.48000133
+  SRTHash: -142962824
+  Translate: [4409.90137, 167.563965, 594.318848]
+  UnitConfigName: Obj_TreeConiferous_C_02
+- HashId: !u 0xfeeba9d6
+  Rotate: [-0.559974492, 1.35875261, -0.510671377]
+  SRTHash: -1538884083
+  Scale: 1.09765601
+  Translate: [4400.40234, 170.647858, 669.238281]
+  UnitConfigName: Obj_Plant_HopBush_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xff6c3e0e
+  Rotate: -1.5799998
+  SRTHash: -1024445202
+  Translate: [4468.54834, 167.091507, 545.600403]
+  UnitConfigName: Obj_TreeConiferous_C_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xff6f7d6e
+  SRTHash: -1074608113
+  Translate: [4180.23682, 107.080788, 439.218903]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0xffbdd708
+  SRTHash: 0
+  Translate: [4485.36914, 167.800766, 551.616943]
+  UnitConfigName: Item_Plant_B
+- HashId: !u 0xffbdd709
+  SRTHash: 0
+  Translate: [4487.30225, 167.800766, 550.5625]
+  UnitConfigName: Item_Plant_B
+- HashId: !u 0xffbdd70a
+  SRTHash: 0
+  Translate: [4490.90625, 169.800766, 558.88385]
+  UnitConfigName: Item_Plant_B
+- HashId: !u 0xffbdd70b
+  SRTHash: 0
+  Translate: [4492.229, 169.400757, 556.395813]
+  UnitConfigName: Item_Plant_B
+- HashId: !u 0xffbdd70c
+  SRTHash: 0
+  Translate: [4494.91016, 169.000763, 550.154297]
+  UnitConfigName: Item_Plant_B
+- HashId: !u 0xffbdd70d
+  SRTHash: 0
+  Translate: [4493.88281, 169.000763, 552.799072]
+  UnitConfigName: Item_Plant_B
+- HashId: !u 0xffbdd70e
+  SRTHash: 0
+  Translate: [4498.96338, 170.20076, 547.441223]
+  UnitConfigName: Item_Plant_B
+- HashId: !u 0xffbdd70f
+  SRTHash: 0
+  Translate: [4499.6792, 170.400757, 552.215027]
+  UnitConfigName: Item_Plant_B
+- HashId: !u 0xffbdd710
+  SRTHash: 0
+  Translate: [4490.98633, 168.000763, 541.06366]
+  UnitConfigName: Item_Plant_B
+- HashId: !u 0xffbdd711
+  SRTHash: 0
+  Translate: [4465.77295, 166.644897, 564.707275]
+  UnitConfigName: Item_Plant_B
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xffbdd712
+  Rotate: [3.14147925, -0.557617188, 3.14147925]
+  SRTHash: 220213805
+  Translate: [4462.74658, 166.12323, 571.930847]
+  UnitConfigName: Item_Mushroom_F
+- HashId: !u 0xffbdd713
+  SRTHash: 0
+  Translate: [4485.89014, 177.222046, 610.600708]
+  UnitConfigName: Item_Plant_C
+- '!Parameters': {DropTable: Castle_Plants, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0xffbdd722
+  Rotate: [0.0237052757, 0.000272686011, 0.0409678668]
+  SRTHash: 1768709708
+  Translate: [4347.48291, 160.413727, 603.332275]
+  UnitConfigName: KibakoZora_Contain_01
+- HashId: !u 0xffbdd724
+  SRTHash: 0
+  Translate: [4499.68359, 172.422058, 594.321716]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xffbdd725
+  SRTHash: 0
+  Translate: [4509.7168, 173.822052, 594.72583]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xffbdd726
+  Rotate: 0.0
+  SRTHash: 0
+  Translate: [4393.54492, 170.282394, 674.112366]
+  UnitConfigName: Item_Mushroom_L
+- HashId: !u 0xffbdd727
+  Rotate: 0.0
+  SRTHash: 0
+  Translate: [4393.80957, 170.282394, 672.716675]
+  UnitConfigName: Item_Mushroom_L
+- HashId: !u 0xffbdd728
+  Rotate: 0.0
+  SRTHash: 0
+  Translate: [4394.12207, 170.282394, 661.663818]
+  UnitConfigName: Item_Mushroom_L
+- HashId: !u 0xffbdd729
+  Rotate: 0.0
+  SRTHash: 0
+  Translate: [4407.74463, 170.282394, 662.726379]
+  UnitConfigName: Item_Mushroom_L
+- HashId: !u 0xffbdd72a
+  Rotate: 0.0
+  SRTHash: 0
+  Translate: [4407.55322, 170.082397, 661.541138]
+  UnitConfigName: Item_Mushroom_L
+- HashId: !u 0xffbdd72b
+  Rotate: 0.0
+  SRTHash: 0
+  Translate: [4401.646, 168.282394, 648.822632]
+  UnitConfigName: Item_Mushroom_L
+- HashId: !u 0xffbdd72c
+  Rotate: 0.0
+  SRTHash: 0
+  Translate: [4402.92334, 168.282394, 649.020508]
+  UnitConfigName: Item_Mushroom_L
+- '!Parameters': {DropActor: Item_Fruit_D, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0xffbdd72d
+  Rotate: [0.00103926403, 1.44306576, 0.00584731391]
+  SRTHash: 1768709708
+  Translate: [4516.64795, 156.484131, 230.409592]
+  UnitConfigName: Barrel
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, IsNearCreate: false, LevelSensorMode: 1, NearCreateAppearID: 0,
+    SharpWeaponJudgeType: 1, TerritoryArea: 0.0}
+  HashId: !u 0xffbdd72f
+  Rotate: 0.0
+  SRTHash: -2086364719
+  Translate: [4188.87354, 106.047623, 230.07933]
+  UnitConfigName: Enemy_Octarock_Desert
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, IsNearCreate: false, LevelSensorMode: 1, NearCreateAppearID: 0,
+    SharpWeaponJudgeType: 1, TerritoryArea: 0.0}
+  HashId: !u 0xffbdd730
+  Rotate: 0.0
+  SRTHash: -2086364719
+  Translate: [4180.19824, 106.047623, 232.816055]
+  UnitConfigName: Enemy_Octarock_Desert
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xffbdd734
+  Rotate: 0.34906584
+  SRTHash: 904010628
+  Translate: [4138.66211, 336.743225, 20.7294331]
+  UnitConfigName: Item_Plant_J
+Rails: []

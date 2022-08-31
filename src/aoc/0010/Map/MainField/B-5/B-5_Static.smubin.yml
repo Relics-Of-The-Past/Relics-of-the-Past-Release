@@ -113,22 +113,6 @@ Objs:
   SRTHash: 23406013
   Translate: [-3984.23779, 797.258179, 841.574341]
   UnitConfigName: FldObj_GerudoHighlandRock_C_03_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x0a7eb8e5
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x6a220dae
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xd7e86160
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x8debb20d
-  Rotate: [0.00339932973, -8.19060879e-05, 0.0481801741]
-  SRTHash: 1578519779
-  Translate: [-3460.01904, 172.356125, 172.088257]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x0aafaa28
   Rotate: 1.91986215
@@ -252,22 +236,6 @@ Objs:
   SRTHash: 1205776602
   Translate: [-3643.47437, 415.580688, 653.60083]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_12_Far
-- '!Parameters':
-    HiddenKorokBodyColor: 2
-    HiddenKorokLeftPlantType: 1
-    HiddenKorokMaskType: 1
-    HiddenKorokRightPlantType: 0
-    IsAppearCheck: false
-    IsHiddenKorokLiftAppear: false
-    IsInvisibleKorok: false
-    KorokEventStartWaitFrame: 0
-    PlacementType: Ground
-    RailMoveSpeed: 0.100000001
-    TerritoryArea: 0.0
-  HashId: !u 0x12a1cddc
-  SRTHash: 1257283389
-  Translate: [-3461.16284, 176.170746, 166.298889]
-  UnitConfigName: Npc_HiddenKorokGround
 - HashId: !u 0x12acd413
   Rotate: [1.95115256, 0.464846879, 2.03152823]
   SRTHash: -1390719817
@@ -517,16 +485,6 @@ Objs:
   Scale: 1.10356021
   Translate: [-3732.77954, 503.45166, 757.514038]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_07
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x1dacebf2
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x9ffaf284
-  Rotate: -0.000345230103
-  SRTHash: 1040823728
-  Translate: [-3719.18896, 760.973938, 794.316406]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x1de02ed9
   Rotate: [-0.956077874, -0.11468111, -0.220683381]
   SRTHash: 866214781
@@ -633,16 +591,6 @@ Objs:
   SRTHash: 1952845415
   Translate: [-3258.00171, 520.365784, 968.077759]
   UnitConfigName: FldObj_GerudoHighlandRock_A_01_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x23a74573
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xfe319cf6
-  Rotate: 2.6431849
-  SRTHash: -299278719
-  Translate: [-3465.86987, 176.553558, 162.148651]
-  UnitConfigName: LinkTagOr
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
   HashId: !u 0x23e34a4f
   LinksToObj:
@@ -669,17 +617,6 @@ Objs:
   SRTHash: 302566076
   Translate: [-3547.80566, 704.872742, 809.655151]
   UnitConfigName: FldObj_GerudoHighlandRock_A_04
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0x2535911a
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x85d04ec7
-  Rotate: [-3.11799574, 0.0407772064, -3.07248259]
-  SRTHash: 2014685177
-  Scale: 2.0
-  Translate: [-3470.01904, 173.176468, 171.778381]
-  UnitConfigName: Area
 - HashId: !u 0x253b7283
   Rotate: [3.10763955, 0.703460574, 3.08913112]
   SRTHash: 1037231792
@@ -783,18 +720,6 @@ Objs:
   SRTHash: -2130484591
   Translate: [-4001.38525, 798.106873, 837.862183]
   UnitConfigName: FldObj_GerudoHighlandRock_C_02_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x2ccb117c
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x6a220dae
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x61957115
-  SRTHash: 0
-  Translate: [-3464.07227, 173.362076, 172.09201]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x2d1e1741
   Rotate: 0.26000005
   SRTHash: -1769097471
@@ -1037,45 +962,16 @@ Objs:
   Scale: 1.08690798
   Translate: [-3727.76465, 314.382233, 341.014984]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_11_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x36e981b1
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0xad4ccdde
-  Rotate: -0.0996366069
-  SRTHash: -939776961
-  Translate: [-3688.3501, 742.976257, 798.774414]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0x3740c720
   Rotate: [0.0670474842, 0.00638370961, -0.0514057651]
   SRTHash: -1258006443
   Translate: [-3953.69702, 798.127075, 840.091003]
   UnitConfigName: FldObj_GerudoHighlandRock_C_03_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x381a2209
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x98fffdd4
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xe58cfb8c
-  Rotate: [-3.11799574, 0.0407772064, -3.07248259]
-  SRTHash: 870571033
-  Translate: [-3471.93091, 171.841599, 171.725128]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0x3874a8d8
   Rotate: 2.74000025
   SRTHash: -1465149218
   Translate: [-3798.70996, 379.53067, 341.929047]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_11_Far
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0x38d4880d
-  Rotate: -0.000345230103
-  SRTHash: 109621062
-  Translate: [-3689.01099, 740.825134, 801.015015]
-  UnitConfigName: Area
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x396b4ed2
   LinksToObj:
@@ -1125,25 +1021,6 @@ Objs:
   SRTHash: 968218481
   Translate: [-3847.46118, 640.299988, 712.942139]
   UnitConfigName: DestinationAnchor
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x3b96a278
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x5bca1733
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xe6007bfd
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x865cceb6
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x0a7eb8e5
-  Rotate: [0.236797825, 1.39429581, 0.275858909]
-  SRTHash: 1578519779
-  Translate: [-3467.25269, 172.626312, 152.798492]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x3bc8f40d
   Rotate: 1.90000033
   SRTHash: -2060345374
@@ -1243,16 +1120,6 @@ Objs:
   Scale: 1.20000005
   Translate: [-3680.31104, 517.153137, 683.609375]
   UnitConfigName: FldObj_FallingRock_A_01
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x40777049
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x9de1a9cc
-  Rotate: [0.00263729505, -0.000106576546, 0.0807786211]
-  SRTHash: -299278719
-  Translate: [-3453.94263, 172.813553, 171.127197]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0x40e13cd1
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xdea4275a}
@@ -1260,23 +1127,6 @@ Objs:
   SRTHash: -937648005
   Translate: [-3631.72803, 614.809753, 941.212158]
   UnitConfigName: BattleBgmRequestFinishTag
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
-  HashId: !u 0x41775341
-  LinksToObj:
-  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0xad4ccdde}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x36e981b1
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x38d4880d}
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0xa077ff1d
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x0b3bc66a}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x8a33fadb}
-  Rotate: -0.0996366069
-  SRTHash: 1825234782
-  Translate: [-3689.34521, 742.976257, 798.675415]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x4185e6e0
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xcb14e6ee}
@@ -1313,16 +1163,6 @@ Objs:
   Translate: [-3686.62183, 723.717163, 828.188599]
   UnitConfigName: LinkTagOr
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x43fbf038
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x3e88f660
-  Rotate: 2.6431849
-  SRTHash: 870571033
-  Translate: [-3466.82593, 176.553558, 163.905334]
-  UnitConfigName: LinkTagOr
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x4490b884
   LinksToObj:
   - '!Parameters': {NoAutoDemoMember: false}
@@ -1343,19 +1183,6 @@ Objs:
   SRTHash: -2136421337
   Translate: [-3968.96826, 774.700317, 1008.08026]
   UnitConfigName: FldObj_GerudoHighlandRock_C_03
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x45692451
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x58469742
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xfe319cf6
-  Rotate: [-3.11799574, 0.0407772064, -3.07248259]
-  SRTHash: -1610988549
-  Translate: [-3474.21313, 174.737259, 173.570648]
-  UnitConfigName: LinkTagOr
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x45946992
   LinksToObj:
@@ -1606,18 +1433,6 @@ Objs:
   SRTHash: -2045455999
   Translate: [-3519.30078, 326.715057, 496.401642]
   UnitConfigName: Barrel
-- '!Parameters': {ActorName: Obj_LiftRockEldin_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0x4f4a5afd
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x38d4880d}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xd7e92ded
-  Rotate: -0.000345230103
-  SRTHash: -1085475964
-  Translate: [-3690.01099, 742.42511, 801.014648]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0x4faebc47
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xe6736cfd}
@@ -1629,17 +1444,6 @@ Objs:
   SRTHash: 0
   Translate: [-3597.5, 373.578705, 542.5]
   UnitConfigName: LinkTagNone
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0x507d6b88
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x2ccb117c
-  Rotate: [0.00339932973, -8.19060879e-05, 0.0481801741]
-  SRTHash: 2014685177
-  Scale: 2.0
-  Translate: [-3464.07227, 173.362076, 172.09201]
-  UnitConfigName: Area
 - HashId: !u 0x5085a4f8
   Rotate: 0.0400000624
   SRTHash: 1079695105
@@ -1800,25 +1604,6 @@ Objs:
   SRTHash: 1873162264
   Translate: [-3937.68579, 782.415039, 734.351135]
   UnitConfigName: FldObj_GerudoHighlandRock_C_04_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x58469742
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x85d04ec7
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x45692451
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x381a2209
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x9de1a9cc
-  Rotate: [-3.11799574, 0.0407772064, -3.07248259]
-  SRTHash: 1578519779
-  Translate: [-3473.92432, 171.703613, 171.643616]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x598c4208
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xd8af1998}
@@ -1835,16 +1620,6 @@ Objs:
   SRTHash: 974970746
   Translate: [-3567.10303, 579.348022, 737.653931]
   UnitConfigName: FldObj_GerudoHighlandRock_A_01_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x5bca1733
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x3b96a278
-  Rotate: [0.236797825, 1.39429581, 0.275858909]
-  SRTHash: -299278719
-  Translate: [-3465.62109, 172.60054, 155.108795]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0x5c7a302c
   Rotate: [-0.956077874, -0.11468111, -0.220683381]
   SRTHash: 866214781
@@ -1887,16 +1662,6 @@ Objs:
   SRTHash: -1896770237
   Translate: [-3622.65991, 594.84491, 946.203613]
   UnitConfigName: Enemy_Bokoblin_Senior
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x61957115
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xe6007bfd
-  Rotate: [0.236797825, 1.39429581, 0.275858909]
-  SRTHash: 422536677
-  Translate: [-3470.02563, 175.359879, 156.518555]
-  UnitConfigName: LinkTagNAnd
 - '!Parameters': {ActorName: ElectricArrow, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
     IsSendMessage: false, IsStopFromStopTimer: 0}
   HashId: !u 0x61a7327f
@@ -1989,18 +1754,6 @@ Objs:
   SRTHash: 984263832
   Translate: [-3772.05811, 628.314941, 771.242188]
   UnitConfigName: DragonDropItemTarget
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x647ffa21
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x5bca1733
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xe092af94
-  SRTHash: 0
-  Translate: [-3467.97974, 173.632904, 156.785782]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x656e1468
   Rotate: 1.74159276
   SRTHash: 2018453382
@@ -2099,16 +1852,6 @@ Objs:
   SRTHash: -815473502
   Translate: [-4002.96484, 793.04248, 926.275269]
   UnitConfigName: FldObj_RockGerudoHighland_B_02
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x6a220dae
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x0a7eb8e5
-  Rotate: [0.00339932973, -8.19060879e-05, 0.0481801741]
-  SRTHash: -299278719
-  Translate: [-3462.0166, 172.253006, 174.088074]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0x6a45b4dc
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x7a88662b}
@@ -2318,36 +2061,6 @@ Objs:
   Rotate: -0.745466769
   SRTHash: 1445814597
   Translate: [-3631.82593, 614.863342, 946.729858]
-  UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
-  HashId: !u 0x72fd7897
-  LinksToObj:
-  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0x12a1cddc}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xcf371459
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x507d6b88}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xbc03a890}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xc7e27aa1}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x2535911a}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x9e6d29bd}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xd7e86160
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x865cceb6
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xfdbd1c87
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x381a2209
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x43fbf038
-  SRTHash: 1825234782
-  Translate: [-3461.66284, 178.670746, 166.299103]
   UnitConfigName: LinkTagAnd
 - '!Parameters': {EquipItem1: Weapon_Sword_006, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
@@ -2609,19 +2322,6 @@ Objs:
   SRTHash: 1644673082
   Translate: [-3624.49976, 382.328857, 473.50647]
   UnitConfigName: BarrelBomb2
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x80ce1adf
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x58469742
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xfe319cf6
-  Rotate: [0.00263729505, -0.000106576546, 0.0807786211]
-  SRTHash: -1610988549
-  Translate: [-3452.19165, 175.975693, 167.135315]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0x8101c72e
   Rotate: -1.46380568
   SRTHash: 353827772
@@ -2680,35 +2380,6 @@ Objs:
   SRTHash: -433034653
   Translate: [-3028.76025, 175.554108, -137.383789]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_11_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x85d04ec7
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x58469742
-  Rotate: [-3.11799574, 0.0407772064, -3.07248259]
-  SRTHash: -299278719
-  Translate: [-3471.84619, 171.800156, 169.727356]
-  UnitConfigName: LinkTagOr
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x865cceb6
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x9b737da5
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x46e5a420
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x26b9116b
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xfb2fc8ee
-  Rotate: [0.236797825, 1.39429581, 0.275858909]
-  SRTHash: 870571033
-  Translate: [-3467.59058, 172.530655, 154.767426]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0x86630f04
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xdea4275a}
@@ -2812,18 +2483,6 @@ Objs:
   SRTHash: -2056385260
   Translate: [-3127.96118, 148.223236, 484.507019]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_10_Far
-- '!Parameters':
-    EffectDIspOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-    EffectDispActorName: DesignerLocaterKorokRock
-    EffectDispSize: 1.5
-    IsNoResponceSound: false
-  HashId: !u 0x8a33fadb
-  LinksToObj:
-  - {DefinitionName: Reference, DestUnitHashId: !u 0xa077ff1d}
-  Rotate: -0.000345230103
-  SRTHash: 1835260255
-  Translate: [-3721.68896, 759.973938, 794.315552]
-  UnitConfigName: KorokAnswerResponce
 - HashId: !u 0x8a5474c8
   Rotate: [-0.0465549752, -0.44877556, 0.110422]
   SRTHash: 1233929229
@@ -2861,17 +2520,6 @@ Objs:
   Translate: [-3846.91382, 640.299988, 714.445679]
   UniqueName: Demo008_9_PlayerEndPos
   UnitConfigName: PosAfterDemoSkip
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 5.0}
-  HashId: !u 0x8debb20d
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0xcf371459
-  Rotate: [-1.567397, -8.19060879e-05, 0.0481801741]
-  SRTHash: -1782513609
-  Scale: 0.5
-  Translate: [-3460.11548, 174.35379, 172.095062]
-  UnitConfigName: SwitchTimeLag
 - HashId: !u 0x8e2c767a
   LinksToObj:
   - {DefinitionName: DeadUp, DestUnitHashId: !u 0x428676e4}
@@ -2904,18 +2552,6 @@ Objs:
   SRTHash: 306226397
   Translate: [-3981.29883, 773.324951, 829.394104]
   UnitConfigName: FldObj_GerudoHighlandRock_C_01
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x9069653a
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x8a33fadb
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x36e981b1
-  SRTHash: 0
-  Translate: [-3719.18896, 761.973938, 794.316406]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {EventFlowEntryName: EntryPoint0, EventFlowName: SeekerEye, IsEndlessEvent: false, LaunchEventByOffSignal: false,
     LaunchEventByOnSignal: true}
   HashId: !u 0x90c6b765
@@ -3193,25 +2829,6 @@ Objs:
   SRTHash: 1333034977
   Translate: [-3482.30127, 706.760803, 927.738647]
   UnitConfigName: FldObj_GerudoHighlandRock_C_04
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x9de1a9cc
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x40777049
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x80ce1adf
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xfdbd1c87
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x3b96a278
-  Rotate: [0.00263729505, -0.000106576546, 0.0807786211]
-  SRTHash: 1578519779
-  Translate: [-3451.94946, 172.980209, 169.127411]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x9dec21b3
   Rotate: [2.57133293, 0.918716908, 2.66486716]
   SRTHash: 1875841046
@@ -3222,17 +2839,6 @@ Objs:
   SRTHash: -227646640
   Translate: [-3631.65356, 347.213501, 546.805115]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_12_Far
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0x9e6d29bd
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x23a74573
-  Rotate: 2.6431849
-  SRTHash: 2014685177
-  Scale: 2.0
-  Translate: [-3465.06909, 177.753555, 164.861389]
-  UnitConfigName: Area
 - HashId: !u 0x9efb838d
   SRTHash: -1809122627
   Translate: [-3933.0752, 781.352112, 803.537598]
@@ -3250,17 +2856,6 @@ Objs:
   SRTHash: 1649203761
   Translate: [-3011.93213, 173.253052, 39.711731]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_10
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
-  HashId: !u 0x9ffaf284
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x9069653a
-  Rotate: [-1.57079637, -0.000345230103, 0.0]
-  SRTHash: -1573138490
-  Scale: 0.5
-  Translate: [-3719.18896, 761.973938, 794.316406]
-  UnitConfigName: SwitchTimeLag
 - HashId: !u 0xa077ff1d
   Rotate: -0.000345230103
   SRTHash: -362586482
@@ -3294,18 +2889,6 @@ Objs:
   Scale: 1.10356021
   Translate: [-3732.77954, 503.45166, 757.514038]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_07_Far
-- '!Parameters': {ActorName: Obj_LiftRockWhite_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0xa371c462
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x38d4880d}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xd7e92ded
-  Rotate: -0.000345230103
-  SRTHash: 242113791
-  Translate: [-3688.01099, 742.42511, 801.015381]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0xa3e1687b
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xffa04850}
@@ -3501,23 +3084,6 @@ Objs:
   SRTHash: 1875841046
   Translate: [-3982.98218, 770.167175, 809.157349]
   UnitConfigName: FldObj_GerudoHighlandRock_C_01
-- '!Parameters':
-    HiddenKorokBodyColor: 4
-    HiddenKorokLeftPlantType: 0
-    HiddenKorokMaskType: 3
-    HiddenKorokRightPlantType: 2
-    IsAppearCheck: false
-    IsHiddenKorokLiftAppear: false
-    IsInvisibleKorok: false
-    KorokEventStartWaitFrame: 45
-    PlacementType: Ground
-    RailMoveSpeed: 0.100000001
-    TerritoryArea: 0.0
-  HashId: !u 0xad4ccdde
-  Rotate: -0.0996366069
-  SRTHash: 1257283389
-  Translate: [-3688.84766, 740.476257, 798.724976]
-  UnitConfigName: Npc_HiddenKorokGround
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0xad6c4dac
   LinksToObj:
@@ -3702,17 +3268,6 @@ Objs:
   SRTHash: -422169124
   Translate: [-3199.50244, 173.253052, -38.8156128]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_10_Far
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0xbc03a890
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x647ffa21
-  Rotate: [0.236797825, 1.39429581, 0.275858909]
-  SRTHash: 2014685177
-  Scale: 2.0
-  Translate: [-3467.97974, 173.632904, 156.785782]
-  UnitConfigName: Area
 - HashId: !u 0xbc61ee9e
   Rotate: -2.16539812
   SRTHash: -815473502
@@ -3904,17 +3459,6 @@ Objs:
   SRTHash: -24004773
   Translate: [-3629.0437, 614.841858, 953.498291]
   UnitConfigName: SwitchTimeLag
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0xc7e27aa1
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xe60567f0
-  Rotate: [0.00263729505, -0.000106576546, 0.0807786211]
-  SRTHash: 2014685177
-  Scale: 2.0
-  Translate: [-3456.0332, 173.853516, 169.130157]
-  UnitConfigName: Area
 - HashId: !u 0xc8797bb4
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xe72c72d3}
@@ -3994,15 +3538,6 @@ Objs:
   SRTHash: 595743551
   Translate: [-3752.67407, 125.716003, 81.6808472]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_10_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xcf371459
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x12a1cddc
-  SRTHash: -939776961
-  Translate: [-3460.66284, 178.670746, 166.298584]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0xd059cf1a
   Rotate: 1.55999982
   SRTHash: -1386759617
@@ -4092,18 +3627,6 @@ Objs:
   SRTHash: 97528191
   Translate: [-3517.84473, 712.204346, 911.551941]
   UnitConfigName: FldObj_GerudoHighlandRock_C_01
-- '!Parameters': {ActorName: Obj_LiftRockGerudo_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0xd4ef1692
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x38d4880d}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xd7e92ded
-  Rotate: -0.000345230103
-  SRTHash: -1924470694
-  Translate: [-3689.01099, 742.42511, 801.015015]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0xd5e1f563
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xdea4275a}
@@ -4150,38 +3673,6 @@ Objs:
   SRTHash: -1402642429
   Translate: [-3625.60913, 594.869019, 957.513367]
   UnitConfigName: BarrelBomb3
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xd7e86160
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xb7b4d42b
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x17510bf6
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x770dbebd
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xaa9b6738
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xcac7d273
-  Rotate: [0.00339932973, -8.19060879e-05, 0.0481801741]
-  SRTHash: 870571033
-  Translate: [-3462.01685, 172.259811, 172.088074]
-  UnitConfigName: LinkTagOr
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xd7e92ded
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x1dacebf2
-  Rotate: -0.000345230103
-  SRTHash: -1034123843
-  Translate: [-3689.01099, 743.42511, 801.015015]
-  UnitConfigName: LinkTagOr
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0xd81dbf92
   LinksToObj:
@@ -4362,16 +3853,6 @@ Objs:
   SRTHash: -590802541
   Translate: [-3582.30005, 313.314941, 462.799988]
   UnitConfigName: Barrel
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xe092af94
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x80ce1adf
-  Rotate: [0.00263729505, -0.000106576546, 0.0807786211]
-  SRTHash: 422536677
-  Translate: [-3456.17871, 175.652924, 167.134888]
-  UnitConfigName: LinkTagNAnd
 - HashId: !u 0xe119243d
   Rotate: -1.12
   SRTHash: -835831462
@@ -4467,34 +3948,6 @@ Objs:
   SRTHash: 378094328
   Translate: [-3862.19727, 497.79364, 733.660095]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_04_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xe6007bfd
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x9de1a9cc
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x58469742
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xfe319cf6
-  Rotate: [0.236797825, 1.39429581, 0.275858909]
-  SRTHash: -1610988549
-  Translate: [-3469.34985, 175.551178, 152.580688]
-  UnitConfigName: LinkTagOr
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xe60567f0
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x40777049
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xf8a3489f
-  SRTHash: 0
-  Translate: [-3456.0332, 173.853516, 169.130157]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0xe6736cfd
   Rotate: [-0.690937817, 1.47680771, -0.693111062]
   SRTHash: -429310658
@@ -4791,16 +4244,6 @@ Objs:
   SRTHash: 1952845415
   Translate: [-3258.00171, 520.365784, 968.077759]
   UnitConfigName: FldObj_GerudoHighlandRock_A_01
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xf8a3489f
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x45692451
-  Rotate: [-3.11799574, 0.0407772064, -3.07248259]
-  SRTHash: 422536677
-  Translate: [-3470.22607, 175.013245, 173.733734]
-  UnitConfigName: LinkTagNAnd
 - HashId: !u 0xf923175d
   SRTHash: -422234003
   Translate: [-3606.74878, 709.222534, 754.256348]
@@ -4881,38 +4324,6 @@ Objs:
   SRTHash: 1610144551
   Translate: [-3610.22656, 292.274719, 515.116455]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_11
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xfdbd1c87
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x5d58c35a
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x3d047611
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x202bc502
-  Rotate: [0.00263729505, -0.000106576546, 0.0807786211]
-  SRTHash: 870571033
-  Translate: [-3453.94287, 172.818817, 169.127197]
-  UnitConfigName: LinkTagOr
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xfe319cf6
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x23a74573
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x43fbf038
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x58469742
-  Rotate: 2.6431849
-  SRTHash: 1578519779
-  Translate: [-3468.58252, 176.553558, 162.94928]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0xfe3fbccf
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x2fde0cc9}

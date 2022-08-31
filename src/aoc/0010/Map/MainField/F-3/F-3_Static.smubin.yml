@@ -2117,7 +2117,7 @@ Objs:
     DefinitionName: BasicSig
     DestUnitHashId: !u 0x678845ff
   - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
+    DefinitionName: BasicSigOnOnly
     DestUnitHashId: !u 0xffa6f7f0
   SRTHash: -91541071
   Scale: 40.0
@@ -3383,7 +3383,7 @@ Objs:
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x221762d4}
   SRTHash: -1455606335
-  Translate: [936.0, 261.113922, -1637.30005]
+  Translate: [933.939575, 261.91391, -1627.24329]
   UnitConfigName: EnemyLookTag
 - HashId: !u 0x890f00ef
   LinksToObj:
@@ -4239,7 +4239,7 @@ Objs:
   HashId: !u 0xa7ddd45d
   SRTHash: -1327654049
   Translate: [759.970093, 242.453735, -1621.81311]
-  UnitConfigName: Enemy_Chuchu_Junior
+  UnitConfigName: Enemy_Chuchu_Ice_Junior
 - HashId: !u 0xa82b89cb
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xe3149a9c}
@@ -4596,7 +4596,7 @@ Objs:
   Rotate: -1.7399987
   SRTHash: -1650300007
   Translate: [763.758789, 242.13414, -1617.34607]
-  UnitConfigName: Enemy_Chuchu_Middle
+  UnitConfigName: Enemy_Chuchu_Ice_Middle
 - HashId: !u 0xb4caf3ca
   Rotate: 3.14159274
   SRTHash: -1110022579
@@ -4910,7 +4910,7 @@ Objs:
   HashId: !u 0xc3bcb994
   SRTHash: -1650300007
   Translate: [768.970093, 241.696716, -1621.81311]
-  UnitConfigName: Enemy_Chuchu_Middle
+  UnitConfigName: Enemy_Chuchu_Ice_Middle
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: MapTower_031, ForceCalcInEvent: false, Shape: Sphere}
   HashId: !u 0xc4e40dcf
   Rotate: 2.62000012
@@ -5197,7 +5197,7 @@ Objs:
   Rotate: -1.7399987
   SRTHash: -1327654049
   Translate: [765.274292, 241.984436, -1626.21753]
-  UnitConfigName: Enemy_Chuchu_Junior
+  UnitConfigName: Enemy_Chuchu_Ice_Middle
 - '!Parameters': {DropActor: Animal_Insect_F, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xd129f70a
   LinksToObj:
@@ -6563,7 +6563,7 @@ Objs:
   SRTHash: 0
   Translate: [402.538086, 132.342453, -1206.30432]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {EquipItem1: Weapon_Lsword_055, IsNearCreate: true, SharpWeaponJudgeType: 3, TerritoryArea: 0.0}
+- '!Parameters': {EquipItem1: Weapon_Lsword_100, IsNearCreate: true, SharpWeaponJudgeType: 3, TerritoryArea: 0.0}
   HashId: !u 0xffa6f75c
   Rotate: -3.34390402
   SRTHash: 0
@@ -6916,39 +6916,6 @@ Objs:
   SRTHash: -1923163669
   Translate: [945.878723, 292.718018, -1897.66821]
   UnitConfigName: Enemy_Bokoblin_Dark
-- '!Parameters': {FortressEatPer: -1, IsCreateStalPart: true, IsNearCreate: true, IsWatchKeeping: false, LevelSensorMode: 0,
-    NearCreateAppearID: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
-  HashId: !u 0xffa6f79a
-  Rotate: 1.39999998
-  SRTHash: 418781001
-  Translate: [793.77533, 280.810883, -1933.51172]
-  UnitConfigName: Enemy_Bokoblin_Bone_Junior_AllDay
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0xffa6f79b
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0xffa6f79c
-  Rotate: 1.39999998
-  SRTHash: 0
-  Scale: 10.0
-  Translate: [793.515686, 280.810883, -1930.18896]
-  UnitConfigName: Area
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xffa6f79c
-  LinksToObj:
-  - {DefinitionName: Create, DestUnitHashId: !u 0xffa6f79d}
-  - {DefinitionName: Create, DestUnitHashId: !u 0xffa6f79a}
-  SRTHash: 0
-  Translate: [793.515686, 283.810883, -1930.18896]
-  UnitConfigName: LinkTagAnd
-- '!Parameters': {FortressEatPer: -1, IsCreateStalPart: true, IsNearCreate: true, IsWatchKeeping: false, LevelSensorMode: 0,
-    NearCreateAppearID: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
-  HashId: !u 0xffa6f79d
-  Rotate: 1.39999998
-  SRTHash: 418781001
-  Translate: [793.23938, 280.810883, -1930.30762]
-  UnitConfigName: Enemy_Bokoblin_Bone_Junior_AllDay
 - '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
     GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
     IsSuspended: true, SharpWeaponJudgeType: 1}
@@ -7139,14 +7106,8 @@ Objs:
   UnitConfigName: Enemy_Place_Holder
 - HashId: !u 0xffa6f7bc
   SRTHash: 0
-  Translate: [665.500977, 318.897949, -1862.10657]
+  Translate: [665.528992, 318.897949, -1862.10254]
   UnitConfigName: LinkTagNone
-- HashId: !u 0xffa6f7bd
-  LinksToObj:
-  - {DefinitionName: Reference, DestUnitHashId: !u 0xffa6f7bc}
-  SRTHash: 0
-  Translate: [668.385315, 318.897949, -1859.13672]
-  UnitConfigName: AnchorAction1
 - '!Parameters':
     ChaseRange: 200.0
     DropTable: Normal
@@ -7161,7 +7122,6 @@ Objs:
     SharpWeaponJudgeType: 1
   HashId: !u 0xfffb1d8e
   LinksToObj:
-  - {DefinitionName: Reference, DestUnitHashId: !u 0xffa6f7bd}
   - {DefinitionName: DeadUp, DestUnitHashId: !u 0xffa6f7d4}
   - {DefinitionName: Reference, DestUnitHashId: !u 0xffa6f7bc}
   Rotate: [0.0, 0.0, 0.0]
@@ -7391,16 +7351,16 @@ Objs:
     DefinitionName: BasicSig
     DestUnitHashId: !u 0xffa6f7da
   - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0xfffb1d92
-  - '!Parameters': {NoAutoDemoMember: false}
     DefinitionName: BasicSig
     DestUnitHashId: !u 0xffa6f7db
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xfffb1d91
   Rotate: [-0.388004571, 0.0, -0.941834629]
   SRTHash: 0
   Scale: 3.0
-  Translate: [626.341919, 323.523865, -1904.60205]
-  UnitConfigName: LinkTagAnd
+  Translate: [626.350647, 323.523865, -1904.62]
+  UnitConfigName: LinkTagOr
 - '!Parameters': {DRCAppNoUseCause: 0}
   HashId: !u 0xffa6f7da
   SRTHash: 0
@@ -7476,14 +7436,15 @@ Objs:
   - {DefinitionName: Reference, DestUnitHashId: !u 0xfffb1d94}
   Rotate: 0.0
   SRTHash: 0
-  Scale: 13.0
-  Translate: [615.417664, 286.693268, -1868.06494]
+  Scale: [30.0, 15.0, 30.0]
+  Translate: [617.184692, 286.693268, -1868.49402]
   UnitConfigName: Area
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: '', SaveFlagOnOffType: 0}
   HashId: !u 0xffa6f7e4
   LinksToObj:
   - {DefinitionName: Create, DestUnitHashId: !u 0xffa6f7e2}
   - {DefinitionName: Create, DestUnitHashId: !u 0xffa6f7e5}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfffb1d8d}
   - {DefinitionName: Create, DestUnitHashId: !u 0xffa6f7e6}
   - {DefinitionName: Create, DestUnitHashId: !u 0xffa6f7e7}
   - {DefinitionName: Create, DestUnitHashId: !u 0xffa6f7e8}
@@ -7634,12 +7595,6 @@ Objs:
   SRTHash: 0
   Translate: [990.201965, 296.339752, -1861.70361]
   UnitConfigName: EventTag
-- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, IsSuspended: false, SharpWeaponJudgeType: 1}
-  HashId: !u 0xffa6f7ee
-  Rotate: [0.0199911334, -2.0, -0.000595471181]
-  SRTHash: 0
-  Translate: [974.656616, 282.491241, -1628.82104]
-  UnitConfigName: Enemy_Guardian_B
 - '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
   HashId: !u 0xffa6f7ef
   LinksToObj:
@@ -7702,14 +7657,7 @@ Objs:
   SRTHash: 0
   Translate: [469.242218, 310.534851, -1988.31665]
   UnitConfigName: EventTag
-- '!Parameters': {DropActor: Item_Enemy_31, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
-  HashId: !u 0xffa6f7fa
-  Rotate: 1.5999999
-  SRTHash: -1709674313
-  Translate: [659.713257, 279.727295, -1971.21484]
-  UnitConfigName: TBox_Dungeon_Iron
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: RelicsLostWoodsTrial_Activated,
-    SaveFlagOnOffType: 0}
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: RelicsLostWoodsTrial_Step01, SaveFlagOnOffType: 0}
   HashId: !u 0xffa6f7fd
   LinksToObj:
   - {DefinitionName: Create, DestUnitHashId: !u 0xfffb1d8e}
@@ -7727,31 +7675,18 @@ Objs:
     LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfffb1d8f
   LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfffb1d90}
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfffb1d95}
   Rotate: 1.4000001
   SRTHash: 0
   Translate: [953.788696, 279.45517, -1863.72876]
   UniqueName: RLW
   UnitConfigName: Enemy_Moriblin_Gold_Volcano
-- HashId: !u 0xfffb1d90
-  LinksToObj:
-  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xfffb1d91}
-  SRTHash: 0
-  Translate: [958.012878, 286.539154, -1860.83142]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {EventFlowEntryName: Relics_LW_Step01, EventFlowName: Demo037_0, IsEndlessEvent: false, LaunchEventByOffSignal: false,
     LaunchEventByOnSignal: true}
   HashId: !u 0xfffb1d91
   Rotate: -0.0872664601
   SRTHash: 0
-  Translate: [947.466797, 280.045288, -1864.48267]
-  UnitConfigName: EventTag
-- '!Parameters': {EventFlowEntryName: '', EventFlowName: '', IsEndlessEvent: false, LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
-  HashId: !u 0xfffb1d92
-  Rotate: -0.0872664601
-  SRTHash: 0
-  Scale: 3.0
-  Translate: [950.16449, 320.845276, -1872.18518]
+  Translate: [948.305481, 280.045288, -1866.50916]
   UnitConfigName: EventTag
 - HashId: !u 0xfffb1d94
   Rotate: -0.0872664601
@@ -7759,6 +7694,51 @@ Objs:
   Scale: 3.0
   Translate: [615.436951, 282.693268, -1868.07031]
   UnitConfigName: LinkTagNone
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: '', SaveFlagOnOffType: 0}
+  HashId: !u 0xfffb1d95
+  LinksToObj:
+  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xfffb1d91}
+  SRTHash: 0
+  Translate: [943.409668, 284.061188, -1863.23389]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: RelicsLostWoodsTrial_Finished, SaveFlagOnOffType: 0}
+  HashId: !u 0xfffb1d96
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xffa6f7d9}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xffa6f7db}
+  SRTHash: 0
+  Scale: 10.0
+  Translate: [439.211212, 342.525513, -2030.80005]
+  UnitConfigName: LinkTagAnd
+- '!Parameters':
+    AutoSave: false
+    CalcMarginXMinus: -1.0
+    CalcMarginXPlus: -1.0
+    CalcMarginYMinus: -1.0
+    CalcMarginYPlus: -1.0
+    CalcMarginZMinus: -1.0
+    CalcMarginZPlus: -1.0
+    CameraPriority: 1
+    CameraSet: '-'
+    CullingOption: 0
+    ForceCalcInEvent: false
+    HideOutSide: true
+    HideRoomNum: -1
+    IsConnectNeighborArea: false
+    LoadMarginXMinus: -1.0
+    LoadMarginXPlus: -1.0
+    LoadMarginYMinus: -1.0
+    LoadMarginYPlus: -1.0
+    LoadMarginZMinus: -1.0
+    LoadMarginZPlus: -1.0
+    MarginSize: -1.0
+    Shape: Box
+  HashId: !u 0xfffb1d98
+  Rotate: -0.0399996266
+  SRTHash: -1392532530
+  Scale: [127.507568, 91.8696671, 116.201424]
+  Translate: [916.767822, 318.363495, -1632.05762]
+  UnitConfigName: AreaCulling_InnerHide
 Rails:
 - '!Parameters': {DisableRenderMap: true, IsEnableHorseTrace: true, IsWalkable: false}
   HashId: !u 0x06f16282

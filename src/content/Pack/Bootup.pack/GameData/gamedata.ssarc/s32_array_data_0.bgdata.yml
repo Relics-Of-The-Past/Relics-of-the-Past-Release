@@ -83,7 +83,7 @@ s32_array_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 65535
+  MaxValue: 10000000
   MinValue: 0
   ResetType: 0
 - DataName: EquipStandShield_ValueSp
@@ -96,7 +96,7 @@ s32_array_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 65535
+  MaxValue: 10000000
   MinValue: 0
   ResetType: 0
 - DataName: climateWeather
@@ -403,12 +403,32 @@ s32_array_data:
     - 0
     - 0
     - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   IsEventAssociated: false
   IsOneTrigger: false
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 65535
+  MaxValue: 10000000
   MinValue: 0
   ResetType: 0
 - DataName: EquipStandBow_ValueSp
@@ -421,7 +441,7 @@ s32_array_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 65535
+  MaxValue: 10000000
   MinValue: 0
   ResetType: 0
 - DataName: PorchShield_FlagSp
@@ -429,6 +449,26 @@ s32_array_data:
   HashValue: -987525845
   InitValue:
   - Values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
     - 0
     - 0
     - 0
@@ -487,7 +527,7 @@ s32_array_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 6553500
+  MaxValue: 10000000
   MinValue: 0
   ResetType: 0
 - DataName: AlbumPictureSize
@@ -1220,6 +1260,26 @@ s32_array_data:
     - 0
     - 0
     - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   IsEventAssociated: false
   IsOneTrigger: false
   IsProgramReadable: true
@@ -1251,7 +1311,7 @@ s32_array_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 6553500
+  MaxValue: 10000000
   MinValue: 0
   ResetType: 0
 - DataName: PorchBow_ValueSp
@@ -1259,6 +1319,26 @@ s32_array_data:
   HashValue: 507499156
   InitValue:
   - Values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
     - 0
     - 0
     - 0
@@ -1500,6 +1580,26 @@ s32_array_data:
     - 0
     - 0
     - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   IsEventAssociated: false
   IsOneTrigger: false
   IsProgramReadable: true
@@ -1552,7 +1652,7 @@ s32_array_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 6553500
+  MaxValue: 10000000
   MinValue: 0
   ResetType: 0
 - DataName: PorchShield_ValueSp
@@ -1600,12 +1700,32 @@ s32_array_data:
     - 0
     - 0
     - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   IsEventAssociated: false
   IsOneTrigger: false
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 65535
+  MaxValue: 10000000
   MinValue: 0
   ResetType: 0
 - DataName: PorchItem_Value1
@@ -2038,6 +2158,6 @@ s32_array_data:
   IsProgramReadable: true
   IsProgramWritable: true
   IsSave: true
-  MaxValue: 6553500
+  MaxValue: 10000000
   MinValue: -1
   ResetType: 0

@@ -482,7 +482,7 @@ Objs:
   SRTHash: -664008518
   Translate: [1766.18408, 180.625534, 858.007324]
   UnitConfigName: Obj_Mineral_A_01
-- '!Parameters': {DropActor: PutRupee_Purple, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: PutRupee_Gold, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x0bcf631d
   Rotate: [-3.1268189, 0.818747818, -3.12441802]
   SRTHash: 1275969183
@@ -1475,7 +1475,7 @@ Objs:
   SRTHash: -755244400
   Translate: [1437.89307, 115.237129, 153.000397]
   UnitConfigName: Obj_Plant_CypressLow_A_01
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Castle_Plants, SharpWeaponJudgeType: 0}
   HashId: !u 0x246bf5a5
   Rotate: [-3.13871288, 0.838395059, 3.14130712]
   SRTHash: -291993298
@@ -2536,7 +2536,7 @@ Objs:
   SRTHash: 0
   Translate: [1809.73047, 227.210938, 953.59375]
   UnitConfigName: EnvSeEmitPointInsectSubtoropical
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Castle_Plants, SharpWeaponJudgeType: 0}
   HashId: !u 0x3e7f7973
   Rotate: [3.12879491, 0.316914648, -3.02859545]
   SRTHash: 90814565
@@ -2728,7 +2728,7 @@ Objs:
   SRTHash: -1904654192
   Translate: [1232.67773, 114.757462, 540.01532]
   UnitConfigName: Obj_TreeWhiteBirch_A_03
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Castle_Arrow, SharpWeaponJudgeType: 0}
   HashId: !u 0x43cac2f5
   Rotate: [2.3506062, -1.49191427, -2.27908134]
   SRTHash: 1922814542
@@ -3498,10 +3498,6 @@ Objs:
   SRTHash: 1844169746
   Translate: [1836.9303, 115.287186, 247.069504]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- HashId: !u 0x5ab01d4f
-  SRTHash: 95974413
-  Translate: [1726.24438, 116.862923, 252.659546]
-  UnitConfigName: Mosquito
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x5afc47a0
   Rotate: [-3.14159226, 1.17895818, 3.05432749]
@@ -3722,7 +3718,7 @@ Objs:
   HashId: !u 0x5f8470e2
   SRTHash: -1561235637
   Translate: [1969.03564, 115.442383, 97.3978577]
-  UnitConfigName: Enemy_Giant_Junior
+  UnitConfigName: Enemy_Giant_Dark
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x5fe01c27
   Rotate: 1.25999987
@@ -4084,10 +4080,6 @@ Objs:
   SRTHash: 1808525903
   Translate: [1602.33276, 112.324509, 794.151367]
   UnitConfigName: AddAutoPlacementCreator
-- HashId: !u 0x68f9ab64
-  SRTHash: 892352557
-  Translate: [1725.15588, 115.963348, 266.018219]
-  UnitConfigName: Mosquito
 - HashId: !u 0x693627e1
   Rotate: [-0.590148449, -1.18230402, 0.341302842]
   SRTHash: -316324313
@@ -5762,12 +5754,6 @@ Objs:
   Scale: 0.956054986
   Translate: [1273.42578, 114.69902, 520.558594]
   UnitConfigName: Obj_Plant_HopBush_A_01
-- HashId: !u 0x97b19e8b
-  Rotate: 0.479998529
-  SRTHash: -1790877370
-  Scale: [1.62396049, 3.85913467, 1.62396049]
-  Translate: [1435.35278, 118.012062, 136.588745]
-  UnitConfigName: AirWallHorse_HiddnKorok
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x97b6560e
   Rotate: [-1.96337879, 0.296997041, 3.03918457]
@@ -7524,7 +7510,7 @@ Objs:
   SRTHash: -1024693567
   Translate: [1450.03113, 116.013084, 172.366608]
   UnitConfigName: Obj_TreeWhiteBirch_A_02
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Castle_Arrow, SharpWeaponJudgeType: 0}
   HashId: !u 0xcd14775f
   Rotate: [-0.128731191, 0.939840794, -0.0325020216]
   SRTHash: 1394382694
@@ -7821,7 +7807,7 @@ Objs:
   SRTHash: 1557807230
   Translate: [1430.20947, 115.437378, 191.34198]
   UnitConfigName: Obj_Plant_CypressLow_A_01
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Enemy_30, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0xd3e7639f
   Rotate: [0.0384312607, -0.768416882, 0.0284889452]
   SRTHash: 655525929
@@ -8183,7 +8169,7 @@ Objs:
   OnlyOne: true
   Rotate: [1.33899939, 1.06864667, -0.204021767]
   SRTHash: -2080461964
-  Translate: [1643.3457, 385.92746, 966.113892]
+  Translate: [1643.33459, 386.527466, 966.09729]
   UnitConfigName: Weapon_Lsword_041
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xdbf3750a
@@ -8715,7 +8701,7 @@ Objs:
   SRTHash: 1576956298
   Translate: [1582.00208, 182.39949, 810.818726]
   UnitConfigName: Obj_MineralGrain_A_04
-- '!Parameters': {DropActor: Obj_BombArrow_A_02, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_BombArrow_A_03, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xec3dad4d
   Rotate: -1.34000063
   SRTHash: 1430983752
@@ -8756,7 +8742,7 @@ Objs:
   SRTHash: -919845455
   Translate: [1050.98132, 123.795021, 484.497223]
   UnitConfigName: Obj_Plant_CypressLow_A_01
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Fruit_D, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0xed73d233
   Rotate: [-0.0194203258, 0.00172595796, 0.0829468444]
   SRTHash: -988778440
@@ -9504,4 +9490,28 @@ Objs:
   Scale: 1.02246106
   Translate: [1638.01953, 114.701385, 598.605469]
   UnitConfigName: Obj_Plant_HopBush_A_02
+- '!Parameters': {DropActor: Item_Ore_J, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xffffb43e
+  Rotate: 2.79999995
+  SRTHash: -1709674313
+  Translate: [1668.61267, 113.066849, 381.403687]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters':
+    EquipItem1: Weapon_Lsword_012
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffffb43f
+  Rotate: 0.420000136
+  SRTHash: 0
+  Translate: [1429.13098, 117.143059, 126.766319]
+  UnitConfigName: Enemy_Lizalfos_Malice
 Rails: []

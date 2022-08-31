@@ -100,7 +100,7 @@ param_root: !list
               1721623982: 1
               295359800: 0
             SInst: !obj
-              JustGuardTimesMin: 5
+              JustGuardTimesMin: 14
               JustGuardTimesMax: 15
               SmallDamageCancelTimes: 0
               InComboSmallDamageNoCancel: false
@@ -133,7 +133,7 @@ param_root: !list
               後行動: 34
             SInst: !obj
               IsFinishedByFailAction: false
-              IsEndChangeable: true
+              IsEndChangeable: false
               IsNoChangeable: false
           lists: {}
         AI_7: !list
@@ -149,7 +149,7 @@ param_root: !list
               1721623982: 0
             SInst: !obj
               IsFinishedByFailAction: false
-              IsEndChangeable: true
+              IsEndChangeable: false
               IsNoChangeable: false
           lists: {}
         AI_8: !list
@@ -185,7 +185,7 @@ param_root: !list
               295359800: 0
             SInst: !obj
               IsFinishedByFailAction: false
-              IsEndChangeable: true
+              IsEndChangeable: false
               IsNoChangeable: false
           lists: {}
         AI_10: !list

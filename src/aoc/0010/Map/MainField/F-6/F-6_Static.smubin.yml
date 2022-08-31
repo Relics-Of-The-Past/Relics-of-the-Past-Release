@@ -587,7 +587,7 @@ Objs:
   SRTHash: 0
   Translate: [1047.19873, 165.680954, 1789.09399]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Castle_Arrow, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0x12a4a282
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd95a7884}
@@ -1200,7 +1200,7 @@ Objs:
   SRTHash: -1402642429
   Translate: [499.882355, 121.121033, 1267.2406]
   UnitConfigName: BarrelBomb
-- '!Parameters': {DropActor: Item_Ore_E, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_BombArrow_A_04, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x25d52c10
   LinksToObj:
   - {DefinitionName: StackLink, DestUnitHashId: !u 0x7d73b338}
@@ -7852,7 +7852,7 @@ Objs:
   SRTHash: -809323318
   Translate: [243.541946, 115.500565, 1302.86035]
   UnitConfigName: Enemy_Bokoblin_Junior
-- '!Parameters': {EquipItem1: Weapon_Spear_023, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
+- '!Parameters': {DropActor: Obj_IceArrow_A_03, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfffb096f
   LinksToObj:
@@ -7861,16 +7861,26 @@ Objs:
   SRTHash: -1573956410
   Translate: [523.881287, 115.393784, 1267.2074]
   UnitConfigName: Enemy_Bokoblin_Junior
-- '!Parameters': {EquipItem1: Weapon_Sword_004, EquipItem2: Weapon_Shield_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
-    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+- '!Parameters':
+    DropActor: Obj_IceArrow_A_03
+    EquipItem1: Weapon_Sword_004
+    EquipItem2: Weapon_Shield_004
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
   HashId: !u 0xfffb0970
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x81611243}
   Rotate: -1.5030787
-  SRTHash: -1573956410
+  SRTHash: 0
   Translate: [496.441589, 115.393784, 1275.41101]
   UnitConfigName: Enemy_Bokoblin_Junior
-- '!Parameters': {DropActor: Obj_IceArrow_A_02, EquipItem1: Weapon_Sword_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+- '!Parameters': {DropActor: Obj_IceArrow_A_03, EquipItem1: Weapon_Sword_004, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
     LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfffb0971
   LinksToObj:
@@ -7879,8 +7889,18 @@ Objs:
   SRTHash: -1573956410
   Translate: [492.14209, 115.393784, 1267.06067]
   UnitConfigName: Enemy_Bokoblin_Junior
-- '!Parameters': {EquipItem1: Weapon_Sword_005, EquipItem2: Weapon_Shield_005, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
-    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+- '!Parameters':
+    DropActor: Obj_IceArrow_A_03
+    EquipItem1: Weapon_Sword_005
+    EquipItem2: Weapon_Shield_005
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
   HashId: !u 0xfffb0972
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x81611243}
@@ -8032,6 +8052,30 @@ Objs:
   Scale: 40.0
   Translate: [339.232391, 115.312393, 1095.29675]
   UnitConfigName: Area
+- '!Parameters': {EquipItem1: Weapon_Sword_015, EquipItem2: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfffb09b7
+  Rotate: 2.79999995
+  SRTHash: 564413069
+  Translate: [964.992737, 115.071594, 1362.96838]
+  UnitConfigName: Enemy_Moriblin_Gold_Volcano
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: true
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: false
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 1
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xfffb09b8
+  SRTHash: 0
+  Translate: [485.541077, 115.985634, 1582.24475]
+  UnitConfigName: Weapon_Spear_003
 Rails:
 - HashId: !u 0xfffb0920
   IsClosed: false

@@ -1594,7 +1594,7 @@ Objs:
   Rotate: 1.92318535
   SRTHash: -1809644590
   Translate: [2785.01367, 775.48999, -2642.98828]
-  UnitConfigName: Enemy_Moriblin_Gold_Volcano
+  UnitConfigName: Enemy_Moriblin_Gold
 - '!Parameters': {EventFlowEntryName: AppearDungeon03, EventFlowName: BalladOfHeroGoron, IsEndlessEvent: false, LaunchEventByOffSignal: false,
     LaunchEventByOnSignal: true}
   HashId: !u 0x3cb7b83b
@@ -3960,13 +3960,10 @@ Objs:
 - '!Parameters': {EquipItem1: Weapon_Lsword_035, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true, LevelSensorMode: 0,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, StartNoDraw: false, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0x89c55766
-  LinksToObj:
-  - {DefinitionName: Reference, DestUnitHashId: !u 0x7bc9ccfd}
-  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x2032170f}
   Rotate: -1.78160071
   SRTHash: 1574675290
   Translate: [2695.70312, 726.695679, -2371.71875]
-  UnitConfigName: Enemy_Liazlfos_Gold_Volcano
+  UnitConfigName: Enemy_Lizalfos_Gold_Volcano
 - HashId: !u 0x89e2152c
   LinksToObj:
   - {DefinitionName: AreaCol, DestUnitHashId: !u 0x2449602c}
@@ -5184,7 +5181,7 @@ Objs:
   SRTHash: -1881904771
   Translate: [2142.43115, 634.021973, -2288.28979]
   UniqueName: Fire_Relic_Bridge_Enemy_B
-  UnitConfigName: Enemy_Moriblin_Gold_Volcano
+  UnitConfigName: Enemy_Moriblin_Gold
 - '!Parameters': {GetUpDirection: None}
   HashId: !u 0xb33ee11b
   Rotate: 1.48000014
@@ -7423,7 +7420,7 @@ Objs:
   Rotate: 130.0
   SRTHash: 564413069
   Translate: [2280.60596, 640.0, -2385.31763]
-  UnitConfigName: Enemy_Liazlfos_Gold_Volcano
+  UnitConfigName: Enemy_Lizalfos_Gold
 - '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
     GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
     IsSuspended: true, SharpWeaponJudgeType: 1}
@@ -7481,7 +7478,7 @@ Objs:
   HashId: !u 0xffe8a8b5
   Rotate: [2.79107976, 0.0, -1.6573602]
   SRTHash: 31184044
-  Scale: 3.0
+  Scale: 1.0
   Translate: [2388.79492, 648.0, -2300.0271]
   UnitConfigName: DgnObj_FirePillar
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Cylinder}
@@ -7520,7 +7517,7 @@ Objs:
   HashId: !u 0xffe8a8ba
   Rotate: [165.0, 0.0, 0.0]
   SRTHash: 31184044
-  Scale: 2.0
+  Scale: 1.0
   Translate: [2502.89185, 667.0, -2296.51343]
   UnitConfigName: DgnObj_FirePillar
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 120.0}
@@ -7546,14 +7543,14 @@ Objs:
   HashId: !u 0xffe8a8bd
   Rotate: 0.0
   SRTHash: 31184044
-  Scale: 5.0
+  Scale: 1.0
   Translate: [2788.46826, 758.835938, -2570.11548]
   UnitConfigName: DgnObj_FirePillar
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xffe8a8be
   Rotate: 0.0
   SRTHash: 31184044
-  Scale: 5.0
+  Scale: 1.0
   Translate: [2772.37207, 760.695312, -2563.65503]
   UnitConfigName: DgnObj_FirePillar
 - HashId: !u 0xffe8a8c0
@@ -7567,7 +7564,7 @@ Objs:
   HashId: !u 0xffe8a8c1
   Rotate: 0.0
   SRTHash: 31184044
-  Scale: 6.0
+  Scale: 1.0
   Translate: [2786.26953, 769.476562, -2594.38574]
   UnitConfigName: DgnObj_FirePillar
 - HashId: !u 0xffe8a8c2
@@ -7888,7 +7885,7 @@ Objs:
   HashId: !u 0xffe8a8f3
   Rotate: [0.129780158, 0.0, 0.0797315016]
   SRTHash: 31184044
-  Scale: 3.0
+  Scale: 1.0
   Translate: [2756.30371, 734.757141, -2439.51587]
   UnitConfigName: DgnObj_FirePillar
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}

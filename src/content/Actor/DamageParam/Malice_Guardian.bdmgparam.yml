@@ -9,7 +9,7 @@ param_root: !list
         DamageType: !obj
           Key: Basic
         DamageRate: !obj
-          Sword: 0..75
+          Sword: 0.075000003
           LargeSword: 0.75
           Spear: 0.75
           Arrow: 0.25
@@ -65,7 +65,7 @@ param_root: !list
           HammerAffect: false
           WeakBreakerAffect: false
           ChemicalAttackAffect: false
-          SpAffectRatio: 1.0
+          SpAffectRatio: 1.5
           SpAffectDamage: 0
           VanishAffect: false
           IsCriticalBlowOff: true
@@ -92,7 +92,7 @@ param_root: !list
           WeakPointCalcOffset: !vec3 [0.0, 0.0, 1.0]
           WeakPointArea: 0.75
           WeakPointOffset: !vec3 [0.0, 0.0, 0.600000024]
-          WeakPointRatio: 2.0
+          WeakPointRatio: 0.0
           WeakPointNoUIFlag: false
           WeakPointBone2: ''
           WeakPointCalcArea2: 0.0

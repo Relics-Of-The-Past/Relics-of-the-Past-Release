@@ -2138,7 +2138,7 @@ Objs:
   Translate: [0.0, 1.39999998, 65.5]
   UniqueName: RemainsTerminal04
   UnitConfigName: FldObj_Terminal_A_01
-- '!Parameters': {ActorName: Enemy_Keese_Fire_AllDay, CreateLimit: 5, DropTable: Normal, FieldBodyGroup: 0, SharpWeaponJudgeType: 0}
+- '!Parameters': {ActorName: Enemy_Lizalfos_Bone_Junior_AllDay, CreateLimit: 5, DropTable: Normal, FieldBodyGroup: 0, SharpWeaponJudgeType: 0}
   HashId: !u 0x7886a622
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x00b03ae1}
@@ -3484,6 +3484,7 @@ Objs:
   - '!Parameters': {NoAutoDemoMember: false}
     DefinitionName: BasicSig
     DestUnitHashId: !u 0x5f6496ea
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfeaf3d2b}
   OnlyOne: true
   SRTHash: -817071586
   Translate: [2.27469172e-08, 0.100000001, -58.4000015]
@@ -4371,7 +4372,7 @@ Objs:
     DestUnitHashId: !u 0x4297ab65
   Rotate: 55.0
   SRTHash: 1447259085
-  Translate: [8.36909199, 0.0, 35.6833687]
+  Translate: [8.38609028, 0.0, 35.6728287]
   UnitConfigName: Enemy_Lizalfos_Fire
 - '!Parameters':
     ArrowName: NormalArrow
@@ -4750,7 +4751,7 @@ Objs:
     DestUnitHashId: !u 0xfeaf3d23
   Rotate: 165.0
   SRTHash: 564413069
-  Translate: [22.5, 0.0, 25.0]
+  Translate: [20.3632336, 6.4000001, 25.045084]
   UnitConfigName: Enemy_Lizalfos_Gold
 - '!Parameters': {FieldBodyGroup: 0, IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0xfeaf3d23
@@ -4812,6 +4813,37 @@ Objs:
   SRTHash: -1042064332
   Translate: [0.0189877413, 22.5, 12.0062819]
   UnitConfigName: LinkTagAnd
+- '!Parameters': {EquipItem1: Weapon_Spear_033, EquipItem3: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfeaf3d2a
+  Rotate: 0.25999999
+  SRTHash: -1923163669
+  Translate: [-0.365554303, 22.5722294, 10.625947]
+  UnitConfigName: Enemy_Moriblin_Gold_Volcano
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: MainFieldDungeon_FldObj_DownloadTerminal_A_01_3698093779,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xfeaf3d2b
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfeaf3d2c}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfeaf3d2d}
+  SRTHash: 0
+  Scale: 2.0
+  Translate: [2.49415445, 5.80893755, -46.5933914]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {EquipItem1: Weapon_Lsword_015, FortressEatPer: -1, IsNearCreate: true, IsWatchKeeping: false, LevelSensorMode: 0,
+    RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfeaf3d2c
+  Rotate: 4.5999999
+  SRTHash: 0
+  Translate: [20.953949, -0.012633102, -25.7915668]
+  UnitConfigName: Enemy_Lizalfos_Gold_Volcano
+- '!Parameters': {EquipItem1: Weapon_Sword_003, EquipItem2: Weapon_Shield_003, FortressEatPer: -1, IsNearCreate: true, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfeaf3d2d
+  Rotate: 3.0
+  SRTHash: 0
+  Translate: [-0.0422224738, 0.297487885, -16.7449474]
+  UnitConfigName: Enemy_Moriblin_Malice
 Rails:
 - HashId: !u 0xc398be79
   IsClosed: false

@@ -131,23 +131,12 @@ Objs:
   Scale: 0.800000012
   Translate: [1980.8374, 277.052673, 799.243042]
   UnitConfigName: FldObj_MountainSheikerWall_A_08
-- '!Parameters':
-    HiddenKorokBodyColor: 2
-    HiddenKorokLeftPlantType: 0
-    HiddenKorokMaskType: 1
-    HiddenKorokRightPlantType: 0
-    IsAppearCheck: false
-    IsHiddenKorokLiftAppear: false
-    IsInvisibleKorok: false
-    KorokEventStartWaitFrame: 45
-    PlacementType: Air
-    RailMoveSpeed: 0.100000001
-    TerritoryArea: 0.0
+- '!Parameters': {TerritoryArea: 0.0}
   HashId: !u 0x042c6a5f
   Rotate: 0.479998529
   SRTHash: 1257283389
-  Translate: [1434.73584, 117.503456, 135.403687]
-  UnitConfigName: Npc_HiddenKorokFly
+  Translate: [1436.85742, 118.503456, 137.295959]
+  UnitConfigName: Obj_ArrowBundle_A_100
 - HashId: !u 0x042d0da8
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xaf47081a}
@@ -321,7 +310,7 @@ Objs:
   HashId: !u 0x0d96eaa9
   Rotate: 0.819999993
   SRTHash: 747084107
-  Translate: [1993.2113, 113.617653, 12.709137]
+  Translate: [1993.21362, 113.617653, 12.6892738]
   UnitConfigName: AnchorAction1
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x0ddfc9d7
@@ -506,7 +495,7 @@ Objs:
   - {DefinitionName: Delete, DestUnitHashId: !u 0xa1557d96}
   - {DefinitionName: Delete, DestUnitHashId: !u 0x54c72a31}
   SRTHash: 1825234782
-  Translate: [1735.86255, 131.544067, 85.6783752]
+  Translate: [1733.16602, 131.544067, 89.1921844]
   UnitConfigName: LinkTagAnd
 - '!Parameters':
     AddParam: 0
@@ -1363,7 +1352,7 @@ Objs:
   Scale: 0.899999976
   Translate: [1644.0, 256.0, 973.5]
   UnitConfigName: FldObj_MountainSheiker_A_01_Far
-- '!Parameters': {CrayLaunchSpeed: 1.0, DropTable: Normal, IsCrayShot: false, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {CrayLaunchSpeed: 1.0, DropActor: Item_Enemy_31, IsCrayShot: false, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x3af031f9
   LinksToObj:
   - '!Parameters': {NoAutoDemoMember: false}
@@ -2163,7 +2152,7 @@ Objs:
     DefinitionName: Create
     DestUnitHashId: !u 0xff570f77
   SRTHash: -939776961
-  Translate: [1736.86255, 131.544067, 85.6778564]
+  Translate: [1735.08813, 131.544067, 87.8448029]
   UnitConfigName: LinkTagOr
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x64fd8d54
@@ -3465,7 +3454,7 @@ Objs:
   Rotate: 0.479998529
   SRTHash: 1736747639
   Scale: 2.0
-  Translate: [1440.2312, 117.745644, 134.048889]
+  Translate: [1440.23328, 117.745644, 134.028992]
   UnitConfigName: ActorObserverTag
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
   HashId: !u 0x9f4a957f
@@ -4390,7 +4379,7 @@ Objs:
   Scale: 6.0
   Translate: [1977.07434, 269.939667, 844.977173]
   UnitConfigName: BoxWater
-- '!Parameters': {DropActor: Obj_ElectricArrow_A_03, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Lsword_023, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0xccde199a
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x6d2d14f2}
@@ -5495,22 +5484,6 @@ Objs:
   SRTHash: 1668786096
   Translate: [1523.30835, 114.876762, 389.410034]
   UnitConfigName: FldObj_BridgeLog_A_01_Far
-- '!Parameters':
-    HiddenKorokBodyColor: 0
-    HiddenKorokLeftPlantType: 0
-    HiddenKorokMaskType: 4
-    HiddenKorokRightPlantType: 0
-    IsAppearCheck: false
-    IsHiddenKorokLiftAppear: false
-    IsInvisibleKorok: false
-    KorokEventStartWaitFrame: 20
-    PlacementType: Air
-    RailMoveSpeed: 0.100000001
-    TerritoryArea: 0.0
-  HashId: !u 0xff570f77
-  SRTHash: 1257283389
-  Translate: [1736.36255, 129.044067, 85.6781616]
-  UnitConfigName: Npc_HiddenKorokFly
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0xff58c13b
   LinksToObj:
@@ -5554,9 +5527,9 @@ Objs:
     NearCreateAppearID: 0
     NearCreateAppearType: 1
     RotAngle: 0.0
-    SharpWeaponJudgeType: 1
+    SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
-    WaitTime: 1.0
+    WaitTime: -1.0
   HashId: !u 0xffffb42f
   LinksToObj:
   - {DefinitionName: Reference, DestUnitHashId: !u 0xffffb430}

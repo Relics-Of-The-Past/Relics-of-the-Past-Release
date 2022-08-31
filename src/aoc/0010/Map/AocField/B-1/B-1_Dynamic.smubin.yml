@@ -1229,7 +1229,7 @@ Objs:
 - '!Parameters': {DropTable: RawMeat, SharpWeaponJudgeType: 3}
   HashId: !u 0x2f9b9835
   SRTHash: 1218583938
-  Translate: [-3086.35938, 300.119965, -3742.0]
+  Translate: [-3087.87915, 302.119965, -3739.71558]
   UnitConfigName: Kibako_Contain_100enemy
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x2ff175f4
@@ -2325,7 +2325,7 @@ Objs:
   HashId: !u 0x5c5685d5
   Rotate: -2.63998938
   SRTHash: 1705870109
-  Translate: [-3105.33105, 301.863342, -3757.78442]
+  Translate: [-3104.91577, 301.863342, -3758.23389]
   UnitConfigName: Animal_Insect_F
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x5c9ad96f
@@ -3641,7 +3641,7 @@ Objs:
 - '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x8e4d0b22
   SRTHash: 1005640801
-  Translate: [-3428.0, 322.0, -3353.0]
+  Translate: [-3426.69116, 322.0, -3353.20239]
   UnitConfigName: BarrelBomb3
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x8e8793ff
@@ -5591,7 +5591,7 @@ Objs:
   HashId: !u 0xe0c34982
   Rotate: -2.95999789
   SRTHash: 843190552
-  Translate: [-3094.80469, 301.0, -3205.43164]
+  Translate: [-3094.91162, 302.200012, -3205.77246]
   UnitConfigName: Animal_Insect_F
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xe11dbbc5
@@ -6386,4 +6386,60 @@ Objs:
   SRTHash: -2110597908
   Translate: [-3085.96875, 302.731384, -3200.71875]
   UnitConfigName: Kibako_Contain_100enemy
+- HashId: !u 0xfff74c0e
+  SRTHash: 0
+  Translate: [-3096.68091, 301.940399, -3755.65698]
+  UnitConfigName: Animal_Insect_F
+- '!Parameters': {DropTable: RawMeat, SharpWeaponJudgeType: 3}
+  HashId: !u 0xfff74c0f
+  SRTHash: 1218583938
+  Translate: [-3086.35938, 300.119965, -3742.0]
+  UnitConfigName: Kibako_Contain_100enemy
+- '!Parameters': {DropTable: Castle_Plants, SharpWeaponJudgeType: 3}
+  HashId: !u 0xfff74c10
+  SRTHash: 1218583938
+  Translate: [-3088.0791, 300.119965, -3739.71631]
+  UnitConfigName: Kibako_Contain_100enemy
+- '!Parameters': {DropTable: Castle_Plants, SharpWeaponJudgeType: 3}
+  HashId: !u 0xfff74c11
+  SRTHash: 1218583938
+  Translate: [-3086.18481, 302.119965, -3742.07446]
+  UnitConfigName: Kibako_Contain_100enemy
+- '!Parameters': {DropActor: Animal_Insect_F, SharpWeaponJudgeType: 3, TurnActorNearEnemy: true}
+  HashId: !u 0xfff74c15
+  Rotate: 0.340000033
+  SRTHash: -1627367455
+  Translate: [-3606.65845, 299.735016, -3884.2146]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropTable: Normal, InitBurnState: true, InitMotionStatus: 0, SharpWeaponJudgeType: 3}
+  HashId: !u 0xfff74c16
+  SRTHash: 0
+  Translate: [-3600.98853, 299.715668, -3875.82812]
+  UnitConfigName: Item_CookSet
+- '!Parameters': {DropActor: Item_Fruit_D, IsEnemyLiftable: true, SharpWeaponJudgeType: 3, TurnActorNearEnemy: true}
+  HashId: !u 0xfff74c17
+  SRTHash: 170704471
+  Translate: [-3608.20361, 299.750671, -3877.14209]
+  UnitConfigName: Barrel_100enemy
+- '!Parameters': {DropTable: Castle_Plants, SharpWeaponJudgeType: 3, TurnActorNearEnemy: true}
+  HashId: !u 0xfff74c18
+  Rotate: 0.340000033
+  SRTHash: -767281468
+  Translate: [-3601.61865, 301.727722, -3886.95361]
+  UnitConfigName: Kibako_Contain_100enemy
+- '!Parameters': {DropTable: RawMeat, SharpWeaponJudgeType: 3, TurnActorNearEnemy: true}
+  HashId: !u 0xfff74c19
+  Rotate: 0.340000033
+  SRTHash: 1061251326
+  Translate: [-3591.40698, 301.729889, -3879.69873]
+  UnitConfigName: Kibako_Contain_100enemy
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_50, SharpWeaponJudgeType: 3, TurnActorNearEnemy: true}
+  HashId: !u 0xfff74c1c
+  SRTHash: -576962749
+  Translate: [-3833.84473, 304.0, -3315.93213]
+  UnitConfigName: Kibako_Contain_100enemy
+- HashId: !u 0xfff74c1e
+  SRTHash: 0
+  Translate: [-3095.7019, 303.140411, -3755.71655]
+  UnitConfigName: Animal_Insect_F
 Rails: []

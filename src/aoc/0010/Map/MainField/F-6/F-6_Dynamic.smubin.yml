@@ -1650,7 +1650,7 @@ Objs:
   Scale: 1.00453246
   Translate: [698.668335, 151.801315, 1361.2373]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- '!Parameters': {DropActor: Item_Ore_F, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Ore_J, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x13f3619c
   Rotate: [-0.00551784784, -1.10040081, 0.000357321609]
   SRTHash: -473183025
@@ -2418,7 +2418,7 @@ Objs:
   Scale: 1.02276456
   Translate: [688.74939, 156.729721, 1326.09937]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- '!Parameters': {DropActor: Item_Ore_F, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Shield_022, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x1ce4074e
   Rotate: [-3.11437011, -1.3086307, 3.11479187]
   SRTHash: -1447290799
@@ -8307,7 +8307,7 @@ Objs:
   SRTHash: -1010515459
   Translate: [283.051025, 126.303589, 1224.51807]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- '!Parameters': {DropActor: Item_Ore_F, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Ore_A, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x6f5718ca
   Rotate: [-3.13317299, 0.000126462008, -3.12548399]
   SRTHash: 1742252538
@@ -8669,7 +8669,7 @@ Objs:
   SRTHash: -1756980486
   Translate: [741.745972, 134.12648, 1208.6947]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- '!Parameters': {DropActor: Item_Ore_E, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Fruit_D, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x73186786
   Rotate: [3.1376667, -0.919808567, -3.12215567]
   SRTHash: 2094049364
@@ -9629,7 +9629,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 60.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -17416,7 +17416,7 @@ Objs:
   Scale: 1.00517058
   Translate: [541.273499, 129.805481, 1366.63147]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- '!Parameters': {DropActor: Item_Ore_F, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_50, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xeaac77a7
   Rotate: [-0.435349584, -1.26636422, 0.540894866]
   SRTHash: -1823127412
@@ -19844,11 +19844,11 @@ Objs:
   SRTHash: 348087009
   Translate: [820.382263, 138.077728, 1495.38721]
   UnitConfigName: TBox_Field_Stone
-- '!Parameters': {DropActor: PutRupee_Silver, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Bow_015, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xfffb098d
   Rotate: -0.439999849
   SRTHash: 348087009
-  Translate: [966.409668, 142.7117, 1620.57043]
+  Translate: [966.365051, 142.511703, 1620.57324]
   UnitConfigName: TBox_Field_Stone
 - '!Parameters':
     ArrowName: NormalArrow

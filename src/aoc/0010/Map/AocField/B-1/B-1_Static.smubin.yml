@@ -27,7 +27,7 @@ Objs:
   - {DefinitionName: LifeZero, DestUnitHashId: !u 0xffe0b733}
   SRTHash: -1697369922
   Translate: [-3599.0, 300.0, -3118.0]
-  UnitConfigName: Enemy_Guardian_Mini_Junior
+  UnitConfigName: Enemy_Guardian_Mini_Senior
 - '!Parameters': {EventFlowEntryName: Demo204_0, EventFlowName: Demo204_0, IsEndlessEvent: false, LaunchEventByOffSignal: false,
     LaunchEventByOnSignal: true}
   HashId: !u 0x01071493
@@ -185,7 +185,6 @@ Objs:
     ArrowName: NormalArrow
     BeamRange: 0.0
     DropTable: Normal
-    EquipItem1: Default
     EquipItem2: Default
     EquipItem3: Default
     EquipItem4: Default
@@ -252,11 +251,6 @@ Objs:
   SRTHash: 0
   Translate: [-3332.47241, 306.154053, -3614.07373]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 3}
-  HashId: !u 0x0b49f230
-  SRTHash: -1004946461
-  Translate: [-3605.5, 299.737091, -3869.4375]
-  UnitConfigName: BarrelBomb
 - HashId: !u 0x0b78fca1
   SRTHash: 0
   Translate: [-3605.0, 310.257446, -3870.40527]
@@ -268,7 +262,7 @@ Objs:
     DefinitionName: BasicSig
     DestUnitHashId: !u 0x7af1e5be
   SRTHash: 0
-  Translate: [-3100.0, 300.0, -3750.0]
+  Translate: [-3099.41821, 300.0, -3749.97314]
   UnitConfigName: LinkTagAnd
 - HashId: !u 0x0c812e9a
   SRTHash: -1329448698
@@ -564,7 +558,7 @@ Objs:
   Rotate: 2.22000003
   SRTHash: -1019061884
   Translate: [-3637.46704, 306.016235, -3579.24707]
-  UnitConfigName: Enemy_Lizalfos_Gold
+  UnitConfigName: Enemy_Lizalfos_Gold_Sniper
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x17b0d6ca
   LinksToObj:
@@ -933,27 +927,16 @@ Objs:
   SRTHash: -1000577474
   Translate: [-3350.0, 400.0, -3100.0]
   UnitConfigName: ChangeWindTag
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    GolemSleepType: SleepBack_B
-    GolemWeakPointLocation: Point_B
-    IsNearCreate: false
-    LevelSensorMode: 0
-    SharpWeaponJudgeType: 3
-    TerritoryArea: 0.0
-    UniqueNameMessageLabel: Golem_Endurance
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default, EquipItem2: Default, EquipItem3: Default,
+    EquipItem4: Default, IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0}
   HashId: !u 0x2bac2852
   LinksToObj:
   - {DefinitionName: DeadUp, DestUnitHashId: !u 0xaed7d4ac}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x9ef4d54c}
   OnlyOne: true
   SRTHash: -612243895
   Translate: [-3350.0, 300.187744, -3850.0]
-  UnitConfigName: Enemy_Golem_Junior
+  UnitConfigName: Enemy_Moriblin_Malice
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x2c06977a
   LinksToObj:
@@ -995,7 +978,7 @@ Objs:
   SRTHash: 1297540223
   Translate: [-3609.45703, 305.0, -3631.93823]
   UnitConfigName: FldObj_RockBeach_A_S_01_Far
-- '!Parameters': {DropActor: Weapon_Sword_009, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+- '!Parameters': {DropActor: Weapon_Shield_018, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x307701c2
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x8cf89bb2}
@@ -1061,7 +1044,7 @@ Objs:
     DefinitionName: BasicSig
     DestUnitHashId: !u 0xb192e538
   SRTHash: 0
-  Translate: [-3100.0, 300.0, -3750.0]
+  Translate: [-3099.9104, 300.0, -3750.39185]
   UnitConfigName: LinkTagAnd
 - HashId: !u 0x32440ab1
   Rotate: 0.232733458
@@ -1135,7 +1118,7 @@ Objs:
     DefinitionName: Create
     DestUnitHashId: !u 0x03df3e46
   SRTHash: 0
-  Translate: [-3854.02222, 320.142731, -3852.92627]
+  Translate: [-3852.87354, 320.142731, -3853.05566]
   UnitConfigName: LinkTagAnd
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x3436c7c5
@@ -1217,7 +1200,7 @@ Objs:
   - {DefinitionName: LifeZero, DestUnitHashId: !u 0xf88d732a}
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x1815fe1b}
   SRTHash: -1896852996
-  Translate: [-3357.0, 300.0, -3099.0]
+  Translate: [-3355.39844, 300.0, -3105.21191]
   UnitConfigName: Enemy_Guardian_Mini_Baby
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x3711d54a
@@ -1260,7 +1243,7 @@ Objs:
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
-    EquipItem1: Weapon_Bow_009
+    EquipItem1: Weapon_Bow_028
     EquipItem2: Default
     EquipItem3: Default
     EquipItem4: Default
@@ -1278,10 +1261,10 @@ Objs:
   HashId: !u 0x3c215980
   LinksToObj:
   - {DefinitionName: LifeZero, DestUnitHashId: !u 0xeb628ad9}
-  Rotate: 1.40332711
+  Rotate: 0.803327084
   SRTHash: -772718087
   Translate: [-3608.09912, 307.466583, -3634.48877]
-  UnitConfigName: Enemy_Lizalfos_Gold
+  UnitConfigName: Enemy_Lizalfos_Gold_Sniper
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x3dd4dc53
   LinksToObj:
@@ -1316,11 +1299,6 @@ Objs:
   SRTHash: 0
   Translate: [-3800.0, 300.0, -3350.0]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 3}
-  HashId: !u 0x3f60aaea
-  SRTHash: -1038793092
-  Translate: [-3604.0, 299.725891, -3868.9375]
-  UnitConfigName: BarrelBomb3
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x3fd388a9
   LinksToObj:
@@ -1582,9 +1560,10 @@ Objs:
   LinksToObj:
   - {DefinitionName: LifeZero, DestUnitHashId: !u 0x66e9e689}
   OnlyOne: true
+  Rotate: 0.0
   SRTHash: 1903510754
-  Translate: [-3782.76562, 316.0, -3348.5]
-  UnitConfigName: Enemy_Wizzrobe_Fire
+  Translate: [-3790.00732, 304.600006, -3348.25879]
+  UnitConfigName: Enemy_Guardian_B
 - HashId: !u 0x4f9b63e3
   Rotate: -2.3561945
   SRTHash: 1445491217
@@ -1809,7 +1788,7 @@ Objs:
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
-    EquipItem1: Weapon_Spear_047
+    EquipItem1: Weapon_Spear_023
     EquipItem2: Default
     EquipItem3: Default
     EquipItem4: Default
@@ -1907,11 +1886,6 @@ Objs:
   Scale: [100.0, 200.0, 100.0]
   Translate: [-3850.0, 300.0, -3850.0]
   UnitConfigName: AreaCulling_InnerHide
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 3}
-  HashId: !u 0x5cb09fd0
-  SRTHash: -600013279
-  Translate: [-3594.5, 299.757324, -3869.4375]
-  UnitConfigName: BarrelBomb3
 - HashId: !u 0x5cfe281a
   SRTHash: 0
   Translate: [-3626.72485, 306.016235, -3579.61035]
@@ -1949,11 +1923,6 @@ Objs:
   SRTHash: 1484153047
   Translate: [-3350.0, 302.0, -3124.0]
   UnitConfigName: LookTag
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 3}
-  HashId: !u 0x605b9ae9
-  SRTHash: -911477378
-  Translate: [-3594.5, 299.758362, -3869.4375]
-  UnitConfigName: BarrelBomb
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x60e59077
   LinksToObj:
@@ -2291,7 +2260,7 @@ Objs:
   SRTHash: 404683811
   Translate: [-3895.13257, 360.286713, -3874.69116]
   UnitConfigName: EnduranceEnvChangeTag
-- '!Parameters': {DropActor: Weapon_Spear_049, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+- '!Parameters': {DropActor: Weapon_Spear_033, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x6dbe9f48
   Rotate: -1.57079637
   SRTHash: 915821890
@@ -2593,7 +2562,7 @@ Objs:
   Rotate: -0.69813168
   SRTHash: 446832427
   Translate: [-3853.62427, 320.068542, -3849.73193]
-  UnitConfigName: Enemy_Bokoblin_Guard_Junior_TreeHouseTop
+  UnitConfigName: Enemy_Bokoblin_Gold_Sniper
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x7ac74038
   LinksToObj:
@@ -3215,7 +3184,7 @@ Objs:
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
-    EquipItem1: Weapon_Bow_003
+    EquipItem1: Weapon_Spear_033
     EquipItem2: Default
     EquipItem3: Default
     EquipItem4: Default
@@ -3233,7 +3202,7 @@ Objs:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xfc3ba7e4}
   Rotate: -0.787335217
   SRTHash: 704074818
-  Translate: [-3851.47046, 309.612061, -3872.89282]
+  Translate: [-3853.83057, 309.612061, -3869.92212]
   UnitConfigName: Enemy_Bokoblin_Gold
 - '!Parameters':
     ArrowName: NormalArrow
@@ -3286,11 +3255,6 @@ Objs:
   Scale: 0.666666627
   Translate: [-3629.62158, 305.577179, -3583.7063]
   UnitConfigName: Weapon_Spear_004
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 3}
-  HashId: !u 0x9917a15e
-  SRTHash: 166308452
-  Translate: [-3605.5, 299.737091, -3869.4375]
-  UnitConfigName: BarrelBomb3
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x99a4831d
   LinksToObj:
@@ -3366,8 +3330,8 @@ Objs:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x663d8739}
   Rotate: [1.59999967, 0.0, -0.180000022]
   SRTHash: 159574936
-  Translate: [-3591.69629, 303.133911, -3869.89746]
-  UnitConfigName: Weapon_Spear_005
+  Translate: [-3591.79077, 302.533905, -3869.93604]
+  UnitConfigName: Weapon_Spear_015
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x9c45fd97
   SRTHash: 209983915
@@ -3437,7 +3401,7 @@ Objs:
   HashId: !u 0x9ef4d54c
   Rotate: [1.32000005, 0.0, 0.0]
   SRTHash: 1260841518
-  Translate: [-3345.38037, 302.132294, -3885.24585]
+  Translate: [-3351.42822, 302.132294, -3862.11523]
   UnitConfigName: Weapon_Lsword_020
 - '!Parameters': {EventFlowEntryName: Demo204_0, EventFlowName: Demo204_0, IsEndlessEvent: false, LaunchEventByOffSignal: false,
     LaunchEventByOnSignal: true}
@@ -3520,11 +3484,6 @@ Objs:
   SRTHash: 5884617
   Translate: [-3100.0, 299.75, -3750.0]
   UnitConfigName: DgnObj_DLC_SupplyRoomWall_A_01
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 3}
-  HashId: !u 0xa5fca467
-  SRTHash: -1084587324
-  Translate: [-3596.0, 299.729004, -3868.9375]
-  UnitConfigName: BarrelBomb
 - HashId: !u 0xa610c789
   LinksToObj:
   - {DefinitionName: AreaCol, DestUnitHashId: !u 0x06f51854}
@@ -3614,11 +3573,6 @@ Objs:
   SRTHash: 1987129467
   Translate: [-3846.7522, 300.098785, -3842.71484]
   UnitConfigName: EventTag
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 3}
-  HashId: !u 0xad3ef984
-  SRTHash: -1243675934
-  Translate: [-3604.0, 299.725891, -3868.9375]
-  UnitConfigName: BarrelBomb
 - '!Parameters': {EventFlowEntryName: Demo204_4, EventFlowName: Demo204_0, IsEndlessEvent: false, LaunchEventByOffSignal: false,
     LaunchEventByOnSignal: true}
   HashId: !u 0xadd1efd3
@@ -3901,9 +3855,10 @@ Objs:
   HashId: !u 0xbe6a724c
   LinksToObj:
   - {DefinitionName: DeadUp, DestUnitHashId: !u 0x11eed61f}
+  Rotate: 0.800000012
   SRTHash: 279857623
-  Translate: [-3400.0, 323.975006, -3379.5]
-  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
+  Translate: [-3403.3562, 330.774994, -3354.08569]
+  UnitConfigName: Enemy_Guardian_C
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
@@ -3926,7 +3881,7 @@ Objs:
   Rotate: -0.818131685
   SRTHash: -1189046037
   Translate: [-3837.5061, 300.263855, -3860.09961]
-  UnitConfigName: Enemy_Bokoblin_Gold
+  UnitConfigName: Enemy_Lizalfos_Gold_Sniper
 - '!Parameters':
     AddParam: 0
     AddSpecialFlag: 0
@@ -4226,8 +4181,8 @@ Objs:
   Translate: [-3600.0, 303.137756, -3850.0]
   UnitConfigName: EventTag
 - '!Parameters':
-    AddParam: 0
-    AddSpecialFlag: 0
+    AddParam: 36
+    AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: true
     IsCreateSharpWeapon: false
@@ -4246,7 +4201,7 @@ Objs:
   Rotate: [1.5999999, 0.0, -0.479999959]
   SRTHash: 1028684150
   Translate: [-3592.62939, 301.152771, -3867.9248]
-  UnitConfigName: Weapon_Sword_005
+  UnitConfigName: Weapon_Sword_024
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0xce105d49
   LinksToObj:
@@ -4343,7 +4298,6 @@ Objs:
     ArrowName: NormalArrow
     BeamRange: 0.0
     DropTable: Normal
-    EquipItem1: Default
     EquipItem2: Default
     EquipItem3: Default
     EquipItem4: Default
@@ -4360,7 +4314,7 @@ Objs:
   Rotate: -0.52359879
   SRTHash: -1471234185
   Translate: [-3332.0, 300.0, -3113.0]
-  UnitConfigName: Enemy_Guardian_Mini_Baby
+  UnitConfigName: Enemy_Guardian_Mini_Junior
 - HashId: !u 0xd1db7eda
   SRTHash: 0
   Translate: [-3603.89746, 299.723816, -3871.98218]
@@ -4477,7 +4431,7 @@ Objs:
     DefinitionName: BasicSig
     DestUnitHashId: !u 0xadf1b76c
   SRTHash: 2086107435
-  Translate: [-3103.09448, 301.690002, -3756.98535]
+  Translate: [-3103.80005, 301.690002, -3757.06689]
   UnitConfigName: LinkTagAnd
 - HashId: !u 0xdefe5980
   LinksToObj:
@@ -4543,7 +4497,7 @@ Objs:
   Scale: 30.0
   Translate: [-3100.0, 300.0, -3200.0]
   UnitConfigName: Area
-- '!Parameters': {DropActor: Weapon_Bow_014, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+- '!Parameters': {DropActor: Weapon_Lsword_047, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0xe32c1556
   Rotate: 1.56000316
   SRTHash: 616065721
@@ -4917,7 +4871,7 @@ Objs:
   HashId: !u 0xf37e35c6
   Rotate: [1.24450684, 0.304164112, -0.100999683]
   SRTHash: -367263985
-  Translate: [-3383.77319, 301.91098, -3837.23047]
+  Translate: [-3366.20605, 301.91098, -3851.27612]
   UnitConfigName: Weapon_Lsword_020
 - '!Parameters':
     ArrowName: NormalArrow
@@ -4957,7 +4911,7 @@ Objs:
   SRTHash: 850094093
   Translate: [-3430.61572, 341.252991, -3316.198]
   UnitConfigName: TBox_Dungeon_Wood_AreaCulling
-- '!Parameters': {DropActor: Obj_ArrowBundle_A_02, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+- '!Parameters': {DropActor: Obj_FireArrow_A_03, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0xf52685d6
   SRTHash: -1871652758
   Translate: [-3381.0, 304.0, -3100.5]
@@ -5154,11 +5108,6 @@ Objs:
   SRTHash: 1987129467
   Translate: [-3847.64282, 305.975006, -3097.76953]
   UnitConfigName: EventTag
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 3}
-  HashId: !u 0xfac79464
-  SRTHash: -833041820
-  Translate: [-3596.0, 299.725281, -3868.9375]
-  UnitConfigName: BarrelBomb3
 - HashId: !u 0xfb40dc18
   Rotate: 3.14159274
   SRTHash: 998820196
@@ -5270,8 +5219,8 @@ Objs:
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
-    EquipItem1: Weapon_Sword_003
-    EquipItem2: Weapon_Shield_003
+    EquipItem1: Weapon_Sword_047
+    EquipItem2: Weapon_Shield_022
     EquipItem3: Default
     EquipItem4: Default
     FortressEatPer: -1
@@ -5379,7 +5328,7 @@ Objs:
   HashId: !u 0xfff74c05
   Rotate: [0.000831613259, 1.39999998, -0.019982703]
   SRTHash: 1466309386
-  Translate: [-3319.99146, 304.479706, -3100.47388]
+  Translate: [-3319.38257, 303.479706, -3100.59692]
   UnitConfigName: Enemy_Guardian_A_Fixed_Moss
 - '!Parameters':
     ArrowName: NormalArrow
@@ -5399,11 +5348,11 @@ Objs:
   Rotate: 1.13446403
   SRTHash: -1759810246
   Translate: [-3336.24634, 308.399994, -3617.62671]
-  UnitConfigName: Enemy_Lizalfos_Electric
+  UnitConfigName: Enemy_Lizalfos_Malice
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
-    EquipItem1: Default
+    EquipItem1: Weapon_Lsword_033
     EquipItem2: Default
     EquipItem3: Default
     EquipItem4: Default
@@ -5419,6 +5368,218 @@ Objs:
   SRTHash: -1759810246
   Translate: [-3329.7146, 307.399994, -3609.56372]
   UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Weapon_Sword_014
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: false
+    IsNearCreate: false
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 100.0
+  HashId: !u 0xfff74c08
+  LinksToObj:
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0xf88d732a}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x1815fe1b}
+  SRTHash: -1896852996
+  Translate: [-3349.98926, 300.200012, -3127.0813]
+  UnitConfigName: Enemy_Guardian_Mini_Senior
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: false
+    IsNearCreate: false
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 100.0
+  HashId: !u 0xfff74c09
+  LinksToObj:
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0xf88d732a}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x1815fe1b}
+  SRTHash: -1896852996
+  Translate: [-3365.92261, 300.0, -3099.07324]
+  UnitConfigName: Enemy_Guardian_Mini_Baby
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: false
+    IsNearCreate: false
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 100.0
+  HashId: !u 0xfff74c0a
+  LinksToObj:
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0xf88d732a}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x1815fe1b}
+  SRTHash: -1896852996
+  Translate: [-3338.58838, 300.0, -3090.40112]
+  UnitConfigName: Enemy_Guardian_Mini_Baby
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsAnnihilateDungeonEnemy: false
+    IsNearCreate: false
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 100.0
+  HashId: !u 0xfff74c0b
+  LinksToObj:
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0xf88d732a}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x1815fe1b}
+  SRTHash: -1896852996
+  Translate: [-3360.24121, 300.0, -3101.3667]
+  UnitConfigName: Enemy_Guardian_Mini_Baby
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Sword_003
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfff74c0c
+  LinksToObj:
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x40d9b580}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xfc3ba7e4}
+  Rotate: 0.688925147
+  SRTHash: 1676536885
+  Translate: [-3846.29688, 309.596008, -3873.06738]
+  UnitConfigName: Enemy_Moriblin_Gold_Sniper
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default, EquipItem2: Default, EquipItem3: Default,
+    EquipItem4: Default, IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0}
+  HashId: !u 0xfff74c0d
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xaed7d4ac}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xf37e35c6}
+  OnlyOne: true
+  SRTHash: -612243895
+  Translate: [-3359.94727, 300.187744, -3856.58301]
+  UnitConfigName: Enemy_Moriblin_Malice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_036
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 0.0
+  HashId: !u 0xfff74c12
+  LinksToObj:
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x9c65ba4f}
+  Rotate: -0.465535939
+  SRTHash: -1759810246
+  Translate: [-3322.59863, 307.399994, -3612.71582]
+  UnitConfigName: Enemy_Lizalfos_Gold_Sniper
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Sword_018
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfff74c13
+  LinksToObj:
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0xeb628ad9}
+  Rotate: -0.720000386
+  SRTHash: -1714823215
+  Translate: [-3569.80713, 306.821198, -3627.08911]
+  UnitConfigName: Enemy_Lizalfos_Gold_Sniper
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Lsword_018
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfff74c14
+  LinksToObj:
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0xeb628ad9}
+  Rotate: -0.32000038
+  SRTHash: -1714823215
+  Translate: [-3576.00366, 306.821198, -3630.03906]
+  UnitConfigName: Enemy_Lizalfos_Gold
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 3}
+  HashId: !u 0xfff74c1a
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x11eed61f}
+  SRTHash: 279857623
+  Translate: [-3400.0, 323.975006, -3379.5]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 3}
+  HashId: !u 0xfff74c1b
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x11eed61f}
+  Rotate: 1.20000005
+  SRTHash: 279857623
+  Translate: [-3430.5249, 321.975006, -3350.00952]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: '', SaveFlagOnOffType: 0}
+  HashId: !u 0xfff74c1d
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xf17edccd}
+  SRTHash: 0
+  Translate: [-3341.15625, 314.505951, -3109.95752]
+  UnitConfigName: LinkTagAnd
 Rails:
 - HashId: !u 0x8e70e886
   IsClosed: true

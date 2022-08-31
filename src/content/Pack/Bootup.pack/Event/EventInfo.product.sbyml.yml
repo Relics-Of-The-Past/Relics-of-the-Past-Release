@@ -10724,7 +10724,6 @@ Demo037_0<RelicsHetsu>:
   - {file: Common.bfevfl}
 Demo037_0<RelicsLWTrial>:
   disable_event_start_interval: true
-  is_pause_non_demo_member: true
   is_timeline: false
   mode: Seamless
   subfile:
@@ -40864,7 +40863,11 @@ Demo681_1<Demo681_1>:
   special_actor_name: none
   sub_timelines:
   - {name: Demo681_1_effect}
-Demo700_0<DecideNewGamePlus>: {is_timeline: false, mode: Seamless}
+Demo700_0<DecideNewGamePlus>:
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: GetDemo.bfevfl}
 Demo700_0<Demo700_0>:
   as:
   - {file: Demo700_0-C01-Link-A-0}
@@ -46561,6 +46564,7 @@ HyruleCastle<BeastGanonDead>:
   is_timeline: false
   mode: Seamless
 HyruleCastle<BossRoom0>:
+  auto_save: true
   child:
   - {entry: Demo141_4, file: Demo141_4}
   - {entry: Demo142_0, file: Demo142_0}
@@ -46580,6 +46584,26 @@ HyruleCastle<BossRoom0>:
   - {file: Common.bfevfl}
   vanish_motorcycle: true
 HyruleCastle<BossRoom1>:
+  auto_save: true
+  child:
+  - {entry: Demo142_0, file: Demo142_0}
+  - {entry: Demo143_0, file: Demo143_0}
+  - {entry: Demo143_3, file: Demo143_3}
+  - {entry: Demo143_1, file: Demo143_1}
+  - {entry: Demo143_2, file: Demo143_2}
+  - {entry: Demo143_4, file: Demo143_4}
+  - {entry: Demo720_0, file: Demo720_0}
+  - {entry: Demo141_2, file: Demo141_2}
+  - {entry: Demo141_1, file: Demo141_1}
+  - {entry: Demo141_3, file: Demo141_3}
+  - {entry: Demo141_0, file: Demo141_0}
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: Common.bfevfl}
+  vanish_motorcycle: true
+HyruleCastle<BossRoom2>:
+  auto_save: true
   child:
   - {entry: Demo142_0, file: Demo142_0}
   - {entry: Demo143_0, file: Demo143_0}
@@ -46612,6 +46636,11 @@ HyruleCastle<CastleHarbor_DungeonAppear>:
   vanish_motorcycle: true
   wait_frame: 40
 HyruleCastle<Check_IsValid_EnterSanctum>: {is_timeline: false, mode: Seamless}
+HyruleCastle<EvilMasterSword_Get>:
+  as:
+  - {file: Demo300_0-C01-Link-A-6}
+  is_timeline: false
+  mode: Seamless
 HyruleCastle<FinalBoss>:
   is_timeline: false
   mode: Seamless
@@ -46632,8 +46661,22 @@ HyruleCastle<GanonDead>:
   - {file: Common.bfevfl}
 HyruleCastle<GenBossAndCallDemo>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
 HyruleCastle<GetMap>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
+HyruleCastle<GiantsWallet>: {is_timeline: false, mode: Seamless}
+HyruleCastle<InnerSanctum_Exit>: {is_timeline: false, mode: Seamless}
+HyruleCastle<LynelFight>:
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: HyruleCastle.bfevfl}
+HyruleCastle<LynelFight_PostWarp>:
+  bgm:
+  - {name: GuardianBgm}
+  is_timeline: false
+  mode: Seamless
+HyruleCastle<PostGameQuestChecks>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
 HyruleCastle<QuestLine_Init>: {disable_event_start_interval: true, exist_enable_camera_input: false, is_timeline: false, mode: Seamless}
-HyruleCastle<Refight>: {is_timeline: false, mode: Seamless}
+HyruleCastle<Refight>: {is_timeline: 'falsemode: Seamless'}
+HyruleCastle<TriforceShooting_Complete>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
 HyruleDepthMini_WhiteHorse<Demo_WhiteHorseTalk>: {is_timeline: false, mode: Seamless, vanish_motorcycle: true}
 HyruleDepthMini_WhiteHorse<Finish_Npc_HyruleDepthHatago007_Near>: {disable_event_start_interval: true, is_pause_non_demo_member: false,
   is_timeline: false, mode: Seamless}

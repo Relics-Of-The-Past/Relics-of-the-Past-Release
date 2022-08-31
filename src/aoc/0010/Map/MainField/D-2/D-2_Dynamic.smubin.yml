@@ -2757,7 +2757,7 @@ Objs:
   Rotate: 0.87266463
   SRTHash: -1800937675
   Scale: [10.0, 50.0, 10.0]
-  Translate: [-1213.10083, -17.9739056, -2514.20117]
+  Translate: [-1213.10083, -14.7739058, -2514.20117]
   UnitConfigName: AscendingCurrent
 - HashId: !u 0x68bd8ce6
   Rotate: [0.207483023, 1.33140469, 0.364272445]
@@ -6597,4 +6597,30 @@ Objs:
   SRTHash: 0
   Translate: [-1273.14453, 212.847656, -2077.35938]
   UnitConfigName: Weapon_Spear_021
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xffe73c4f
+  Rotate: 0.723144531
+  SRTHash: 1654668803
+  Translate: [-1904.88611, 352.630615, -3001.29736]
+  UnitConfigName: Item_Mushroom_N
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xffe73c50
+  Rotate: 0.723144531
+  SRTHash: 1654668803
+  Translate: [-1906.52905, 352.630615, -3001.45947]
+  UnitConfigName: Item_Mushroom_N
+- '!Parameters': {DropActor: PutRupee_Gold, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xffe73c4e
+  Rotate: 2.79999995
+  SRTHash: 0
+  Translate: [-2074.58618, 391.277313, -2075.07861]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffe73c51
+  Rotate: [0.0, 0.0, 0.0]
+  SRTHash: 0
+  Translate: [-1503.67847, 351.839355, -2857.82471]
+  UnitConfigName: Enemy_Guardian_A_Snow
 Rails: []

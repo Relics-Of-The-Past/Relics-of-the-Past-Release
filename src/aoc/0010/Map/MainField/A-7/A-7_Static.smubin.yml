@@ -468,7 +468,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 1
+    LevelSensorMode: 0
     NearCreateAppearID: 0
     OnCliff: false
     OnCliffTurn: true
@@ -2008,6 +2008,16 @@ Objs:
   SRTHash: -1624758904
   Translate: [-4259.47803, 167.587387, 2528.57446]
   UnitConfigName: Item_Fruit_C
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Capsule}
+  HashId: !u 0x46f4f48f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe73972fa
+  SRTHash: -1599186571
+  Scale: 0.75
+  Translate: [-4384.57129, 166.881287, 2575.82153]
+  UnitConfigName: Area
 - HashId: !u 0x4729e35f
   Rotate: [-0.39064464, -0.50145638, -0.882995903]
   SRTHash: -274057171
@@ -2573,6 +2583,15 @@ Objs:
   Translate: [-4018.90747, 148.878906, 2699.09912]
   UniqueName: KirutonSmoke
   UnitConfigName: Dm_Locator
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x5d4119ae
+  LinksToObj:
+  - {DefinitionName: GimmickSuccess, DestUnitHashId: !u 0x2e7c3bb3}
+  Rotate: -2.09439492
+  SRTHash: -1730805160
+  Scale: 5.0
+  Translate: [-4628.99219, 151.5, 2328.61719]
+  UnitConfigName: LinkTagOr
 - HashId: !u 0x5d6699ae
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x5d96013c}
@@ -3413,7 +3432,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 1
+    LevelSensorMode: 0
     NearCreateAppearID: 0
     OnCliff: false
     OnCliffTurn: true
@@ -3609,7 +3628,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 1
+    LevelSensorMode: 0
     NearCreateAppearID: 0
     OnCliff: false
     OnCliffTurn: true
@@ -3959,7 +3978,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 1
+    LevelSensorMode: 0
     NearCreateAppearID: 0
     OnCliff: false
     OnCliffTurn: true
@@ -4023,7 +4042,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 1
+    LevelSensorMode: 0
     NearCreateAppearID: 0
     OnCliff: false
     OnCliffTurn: true
@@ -4125,7 +4144,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: true
     IsWatchKeeping: false
-    LevelSensorMode: 1
+    LevelSensorMode: 0
     NearCreateAppearID: 0
     OnCliff: false
     OnCliffTurn: true
@@ -5096,7 +5115,7 @@ Objs:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xe99ad777}
   SRTHash: 541367228
   Scale: 283.0
-  Translate: [-4063.49707, 138.399994, 2745.0188]
+  Translate: [-4058.0, 146.0, 2752.0]
   UnitConfigName: Area
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlag: AttackedNPC_Set8_Saved1, SaveFlagOnOffType: 0}
   HashId: !u 0xa75f8d99
@@ -7107,6 +7126,15 @@ Objs:
   SRTHash: 234448399
   Translate: [-4443.06982, 152.37999, 2265.6499]
   UnitConfigName: FldObj_DesertRuin_A_02
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe73972fa
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x82509b05
+  SRTHash: 2018958630
+  Translate: [-4386.51855, 167.243134, 2574.23145]
+  UnitConfigName: LinkTagAnd
 - HashId: !u 0xe7976b29
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x82d90e5e}
@@ -7114,6 +7142,16 @@ Objs:
   SRTHash: -1641707971
   Translate: [-4717.2002, 165.900009, 2191.69995]
   UnitConfigName: FldObj_DesertRuin_A_02
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: BalladOfHeroGerudo_Activated, SaveFlagOnOffType: 0}
+  HashId: !u 0xe7bc007a
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x46f4f48f
+  Rotate: [-0.494348556, -0.00175789325, -0.00696650334]
+  SRTHash: 1256409220
+  Translate: [-4384.59668, 165.490662, 2580.85742]
+  UnitConfigName: LinkTagAnd
 - '!Parameters':
     AddParam: 0
     AddSpecialFlag: 0
@@ -7893,7 +7931,7 @@ Objs:
   HashId: !u 0xfff7bfcc
   Rotate: [0.0, 0.0, 0.0]
   SRTHash: 1466309386
-  Translate: [-4360.12402, 144.20343, 2722.51587]
+  Translate: [-4360.10547, 144.20343, 2722.5083]
   UnitConfigName: Enemy_Guardian_A_Sand
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
   HashId: !u 0xfff7bfcd
@@ -7902,7 +7940,7 @@ Objs:
     DefinitionName: BasicSig
     DestUnitHashId: !u 0xfff7bfce
   SRTHash: 0
-  Scale: 24.2356071
+  Scale: 54.2356071
   Translate: [-4360.93066, 149.003433, 2720.70117]
   UnitConfigName: Area
 - HashId: !u 0xfff7bfce
@@ -8054,14 +8092,14 @@ Objs:
   Translate: [-4744.29932, 138.71109, 3211.10571]
   UnitConfigName: BoxPartTop
 - '!Parameters':
-    ArrowName: BombArrows
+    ArrowName: BombArrow_A
     DropTable: Normal
     EquipItem1: Weapon_Sword_018
     EquipItem2: Weapon_Shield_018
     EquipItem3: Weapon_Bow_032
     EquipItem4: Default
     IsLazyTraverse: true
-    IsNearCreate: false
+    IsNearCreate: true
     LevelSensorMode: 1
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -8073,7 +8111,7 @@ Objs:
   Translate: [-4725.15479, 140.449524, 3176.85547]
   UnitConfigName: Enemy_Lynel_Middle
 - '!Parameters': {ArrowName: ElectricArrow, DropTable: Normal, EquipItem1: Weapon_Spear_018, EquipItem3: Weapon_Bow_032, EquipItem4: Default,
-    IsLazyTraverse: true, IsNearCreate: false, LevelSensorMode: 1, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+    IsLazyTraverse: true, IsNearCreate: true, LevelSensorMode: 1, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
   HashId: !u 0xfff7bfe9
   LinksToObj:
   - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfff7bfec}
@@ -8185,28 +8223,28 @@ Objs:
   - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfff7bfed}
   SRTHash: 0
   Translate: [-4704.85205, 142.106277, 3171.1438]
-  UnitConfigName: SwitchCandleStick
+  UnitConfigName: SwitchHit
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, SwitchTorchSpType: 1}
   HashId: !u 0xfff7bff7
   LinksToObj:
   - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfff7bfed}
   SRTHash: 0
   Translate: [-4744.13379, 140.444031, 3168.00928]
-  UnitConfigName: SwitchCandleStick
+  UnitConfigName: SwitchHit
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, SwitchTorchSpType: 0}
   HashId: !u 0xfff7bff8
   LinksToObj:
   - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfff7bfed}
   SRTHash: 0
   Translate: [-4744.05127, 140.534836, 3211.23413]
-  UnitConfigName: SwitchCandleStick
+  UnitConfigName: SwitchHit
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, SwitchTorchSpType: 0}
   HashId: !u 0xfff7bff9
   LinksToObj:
   - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfff7bfed}
   SRTHash: 0
   Translate: [-4710.75781, 140.734833, 3211.39038]
-  UnitConfigName: SwitchCandleStick
+  UnitConfigName: SwitchHit
 Rails:
 - HashId: !u 0x30efa6c5
   IsClosed: false

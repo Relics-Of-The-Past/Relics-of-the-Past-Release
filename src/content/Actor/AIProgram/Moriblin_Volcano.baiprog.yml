@@ -9161,7 +9161,7 @@ param_root: !list
               ClassName: !str32 OnetimeChangeableASPlay
               GroupName: 炎上
             SInst: !obj
-              ASName: BurnEnd
+              ASName: Cry
               IsIgnoreSame: false
               PosReduceRatio: 0.150000006
               AngReduceRatio: 1.0
@@ -10256,7 +10256,7 @@ param_root: !list
               ClassName: !str32 ForkASPlay
               GroupName: 焼死アニメ
             SInst: !obj
-              ASName: Burn
+              ASName: Cry
               EndState: 1
               ChangeableTiming: 2
               IsIgnoreSame: true
@@ -11399,7 +11399,7 @@ param_root: !list
               GroupName: 炎上
             SInst: !obj
               ASName: Burn
-              Time: 60
+              Time: 1200
               TimeRand: 15
               PosReduceRatio: 0.150000006
               AngReduceRatio: 1.0

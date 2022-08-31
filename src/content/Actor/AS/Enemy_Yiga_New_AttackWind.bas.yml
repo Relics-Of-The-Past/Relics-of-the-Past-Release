@@ -11,7 +11,7 @@ param_root: !list
           objects:
             Parameters: !obj
               TypeIndex: 67
-              FileName: !str64 Attack_Wind
+              FileName: !str64 Disappear
               Morph: 12.0
           lists:
             Extend: !list
@@ -33,8 +33,8 @@ param_root: !list
                   objects:
                     Event0: !obj
                       TypeIndex: 3
-                      StartFrame: 23.0
-                      EndFrame: 27.0
+                      StartFrame: 65.0
+                      EndFrame: -1.0
                       Value: !str32 Lower
                     Event1: !obj
                       TypeIndex: 48

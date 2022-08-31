@@ -3702,7 +3702,7 @@ Objs:
   Scale: 0.998037934
   Translate: [-3454.65918, 181.14418, 179.857086]
   UnitConfigName: FldObj_BirdNest_A_01
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Fruit_D, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x635efbce
   Rotate: [-0.373394221, -0.84046185, 0.390843064]
   SRTHash: -945899843
@@ -5568,7 +5568,7 @@ Objs:
   Scale: 1.00698197
   Translate: [-3881.0481, 327.731415, 183.863403]
   UnitConfigName: Obj_Plant_HopBush_C_01
-- '!Parameters': {DropActor: Obj_ArrowBundle_A_01, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_50, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x94590b6d
   Rotate: 1.44318497
   SRTHash: 1201250631
@@ -5974,7 +5974,7 @@ Objs:
 - '!Parameters': {DropActor: Weapon_Shield_003, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x9ff7764d
   Rotate: [-2.95185757, -0.61671406, 2.82099533]
-  SRTHash: -1065806406
+  SRTHash: 0
   Translate: [-3949.6438, 794.374023, 995.647766]
   UnitConfigName: TBox_Field_Iron
 - HashId: !u 0x9ff94c99
@@ -8046,7 +8046,7 @@ Objs:
   Scale: 0.894531012
   Translate: [-3010.80469, 165.124207, 389.101562]
   UnitConfigName: Obj_Plant_CypressLow_A_01
-- '!Parameters': {DropActor: Obj_ElectricArrow_A_03, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Sword_023, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 3}
   HashId: !u 0xdc20bc0d
   Rotate: 1.44318497
   SRTHash: 953738114
@@ -9332,13 +9332,13 @@ Objs:
   SRTHash: 454762181
   Translate: [-3595.93091, 173.139343, 98.6417313]
   UnitConfigName: Enemy_Bokoblin_Junior
-- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
-    TerritoryArea: 0.0, WaitTime: 1.0}
+- '!Parameters': {EquipItem1: Weapon_Lsword_023, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
+    RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfff26fdf
   Rotate: 0.400000006
   SRTHash: 454762181
   Translate: [-3595.67969, 172.739349, 130.761932]
-  UnitConfigName: Enemy_Bokoblin_Junior
+  UnitConfigName: Enemy_Bokoblin_Gold_Volcano
 - '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfff26fe0
@@ -9353,4 +9353,137 @@ Objs:
   SRTHash: 454762181
   Translate: [-3578.11865, 172.539352, 114.474106]
   UnitConfigName: Enemy_Bokoblin_Junior
+- HashId: !u 0xfff26fe2
+  SRTHash: 0
+  Translate: [-3527.33569, 171.155365, 153.948898]
+  UnitConfigName: Animal_Fish_I
+- HashId: !u 0xfff26fe3
+  SRTHash: 0
+  Translate: [-3523.51904, 171.155365, 155.078857]
+  UnitConfigName: Animal_Fish_I
+- HashId: !u 0xfff26fe4
+  SRTHash: 0
+  Translate: [-3526.31885, 171.155365, 155.555862]
+  UnitConfigName: Animal_Fish_I
+- HashId: !u 0xfff26fe5
+  SRTHash: 0
+  Translate: [-3529.09546, 171.155365, 156.049057]
+  UnitConfigName: Animal_Fish_I
+- HashId: !u 0xfff26fe6
+  SRTHash: 0
+  Translate: [-3531.41235, 171.155365, 156.15593]
+  UnitConfigName: Animal_Fish_I
+- HashId: !u 0xfff26fe7
+  SRTHash: 0
+  Translate: [-3533.96069, 171.155365, 154.617889]
+  UnitConfigName: Animal_Fish_I
+- HashId: !u 0xfff26fe8
+  SRTHash: 0
+  Translate: [-3529.22461, 171.155365, 152.328094]
+  UnitConfigName: Animal_Fish_I
+- HashId: !u 0xfff26fe9
+  SRTHash: 0
+  Translate: [-3532.32471, 171.155365, 151.838791]
+  UnitConfigName: Animal_Fish_I
+- HashId: !u 0xfff26fea
+  SRTHash: 0
+  Translate: [-3534.53857, 171.155365, 152.041595]
+  UnitConfigName: Animal_Fish_I
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff26feb
+  Rotate: [3.14147925, 1.08142078, 3.14147925]
+  SRTHash: 1601138176
+  Translate: [-3494.59766, 171.704178, 161.981812]
+  UnitConfigName: Item_Mushroom_O
+- HashId: !u 0xfff26fec
+  SRTHash: 0
+  Translate: [-3523.70605, 172.965836, 86.549614]
+  UnitConfigName: Animal_Insect_F
+- HashId: !u 0xfff26fed
+  SRTHash: 0
+  Translate: [-3482.58008, 173.30188, 128.236465]
+  UnitConfigName: Item_Plant_B
+- HashId: !u 0xfff26fee
+  SRTHash: 0
+  Translate: [-3482.573, 173.30188, 132.535431]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xfff26fef
+  SRTHash: 0
+  Translate: [-3483.67871, 173.30188, 129.328857]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xfff26ff0
+  SRTHash: 0
+  Translate: [-3472.08936, 173.901871, 124.277985]
+  UnitConfigName: Item_Plant_B
+- HashId: !u 0xfff26ff1
+  SRTHash: 0
+  Translate: [-3473.18799, 173.901871, 125.370369]
+  UnitConfigName: Item_Plant_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff26ff3
+  Rotate: 0.110229477
+  SRTHash: -2057889757
+  Translate: [-3596.19507, 172.832016, 113.244751]
+  UnitConfigName: Item_Mushroom_E
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff26ff4
+  Rotate: 0.110229477
+  SRTHash: -2057889757
+  Translate: [-3596.49756, 172.832016, 116.402672]
+  UnitConfigName: Item_Mushroom_E
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff26ff5
+  Rotate: 0.110229477
+  SRTHash: -2057889757
+  Translate: [-3594.57275, 172.832016, 110.23835]
+  UnitConfigName: Item_Mushroom_E
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff26ff6
+  Rotate: 0.110229477
+  SRTHash: -2057889757
+  Translate: [-3598.75024, 172.832016, 111.423386]
+  UnitConfigName: Item_Mushroom_E
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff26ff7
+  Rotate: 0.110229477
+  SRTHash: -2057889757
+  Translate: [-3599.01318, 172.832016, 114.601631]
+  UnitConfigName: Item_Mushroom_E
+- '!Parameters': {IsFixedPlace: false}
+  HashId: !u 0xfff26ff8
+  SRTHash: 0
+  Translate: [-3575.06787, 172.84407, 98.7155609]
+  UnitConfigName: Item_Fruit_A
+- '!Parameters': {IsFixedPlace: false}
+  HashId: !u 0xfff26ff9
+  SRTHash: 0
+  Translate: [-3574.61597, 172.84407, 98.5250626]
+  UnitConfigName: Item_Fruit_A
+- '!Parameters': {IsFixedPlace: false}
+  HashId: !u 0xfff26ffa
+  SRTHash: 0
+  Translate: [-3574.80225, 172.84407, 97.990921]
+  UnitConfigName: Item_Fruit_A
+- '!Parameters': {IsFixedPlace: false}
+  HashId: !u 0xfff26ffb
+  SRTHash: 0
+  Translate: [-3575.3645, 172.84407, 98.3457413]
+  UnitConfigName: Item_Fruit_A
+- '!Parameters': {IsFixedPlace: false}
+  HashId: !u 0xfff26ffc
+  SRTHash: 0
+  Translate: [-3575.12549, 173.244064, 98.4211655]
+  UnitConfigName: Item_Fruit_A
+- '!Parameters': {DropActor: Animal_Insect_F, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff26ffd
+  Rotate: [-0.373394221, -0.84046185, 0.390843064]
+  SRTHash: 0
+  Translate: [-3454.95703, 184.331329, 23.7943401]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_100, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff26ff2
+  Rotate: 2.79999995
+  SRTHash: -1709674313
+  Translate: [-3541.93506, 161.40184, 163.315063]
+  UnitConfigName: TBox_Field_Iron
 Rails: []
