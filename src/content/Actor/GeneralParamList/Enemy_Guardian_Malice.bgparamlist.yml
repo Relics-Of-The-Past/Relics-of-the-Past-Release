@@ -4,7 +4,7 @@ type: xml
 param_root: !list
   objects:
     System: !obj
-      SameGroupActorName: !str64 Enemy_Guardian_A
+      SameGroupActorName: !str64 Enemy_Guardian_Malice
       IsGetItemSelf: false
     General: !obj
       Speed: 0.800000012

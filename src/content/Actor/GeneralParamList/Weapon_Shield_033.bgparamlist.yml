@@ -8,7 +8,7 @@ param_root: !list
       IsGetItemSelf: false
     General: !obj
       Speed: 35.0
-      Life: 35
+      Life: 40
       IsLifeInfinite: false
       ElectricalDischarge: 1.0
       IsBurnOutBorn: false
@@ -52,18 +52,18 @@ param_root: !list
       StickDamage: 0
       ShootBeam: ''
       DropFromPorchRot: !vec3 [0.0, 0.0, 116.0]
-      SharpWeaponPer: 10.0
+      SharpWeaponPer: 20.0
       SharpWeaponAddAtkMin: 10
       SharpWeaponAddAtkMax: 20
-      SharpWeaponAddLifeMin: 2
-      SharpWeaponAddLifeMax: 3
+      SharpWeaponAddLifeMin: 20
+      SharpWeaponAddLifeMax: 30
       SharpWeaponAddCrit: false
       SharpWeaponAddGuardMin: 7
       SharpWeaponAddGuardMax: 13
       PoweredSharpAddAtkMin: 20
       PoweredSharpAddAtkMax: 65
-      PoweredSharpAddLifeMin: 4
-      PoweredSharpAddLifeMax: 7
+      PoweredSharpAddLifeMin: 40
+      PoweredSharpAddLifeMax: 70
       PoweredSharpWeaponAddGuardMin: 19
       PoweredSharpWeaponAddGuardMax: 66
       PoweredSharpAddThrowMin: 1.0
@@ -88,10 +88,10 @@ param_root: !list
       EnemyEquipRotOffset: !vec3 [0.0, 0.0, 0.0]
       StandEquipTransOffset: !vec3 [0.0, 0.0, 0.0]
       StandEquipRotOffset: !vec3 [0.0, 0.0, 0.0]
-      RideBreakRatio: 3.0
+      RideBreakRatio: 0.400000006
       MirrorLevel: 0
       WeaponSubType: !str32 0
-      SurfingFriction: 1.0
+      SurfingFriction: 0.342000008
     Item: !obj
       PlayerUseItem: false
       SellingPrice: 100

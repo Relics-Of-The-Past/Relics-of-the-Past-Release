@@ -2741,8 +2741,8 @@ Objs:
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x4a262c45
   OnlyOne: true
-  SRTHash: -306769399
-  Translate: [-3108.60742, 300.116577, -2282.81543]
+  SRTHash: 0
+  Translate: [-3107.24438, 300.116577, -2283.69922]
   UnitConfigName: Item_Plant_B
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 3}
   HashId: !u 0x4a397b8b
@@ -3598,7 +3598,7 @@ Objs:
     SharpWeaponJudgeType: 3}
   HashId: !u 0x62de2012
   SRTHash: 847460215
-  Translate: [-3116.50391, 299.104675, -2290.32007]
+  Translate: [-3117.21753, 299.104675, -2291.2063]
   UnitConfigName: Animal_Fish_J
 - HashId: !u 0x63083785
   SRTHash: 1860286738
@@ -5303,8 +5303,8 @@ Objs:
   HashId: !u 0x93979a6f
   Rotate: -0.360000074
   SRTHash: -642170296
-  Translate: [-3584.23438, 305.875671, -2917.73413]
-  UnitConfigName: Weapon_Sword_043
+  Translate: [-3584.07617, 305.875671, -2916.48535]
+  UnitConfigName: Weapon_Sword_015
 - HashId: !u 0x93b8991f
   Rotate: [1.07814813, -1.45666194, -1.2357136]
   SRTHash: -1086570808
@@ -5716,7 +5716,7 @@ Objs:
   OnlyOne: true
   SRTHash: 629953465
   Translate: [-3371.90796, 300.0, -2691.29785]
-  UnitConfigName: Weapon_Sword_019
+  UnitConfigName: Weapon_Sword_003
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x9d675718
   Rotate: -1.57079637
@@ -6917,7 +6917,7 @@ Objs:
   Rotate: [1.57079637, 1.13479564e-08, -0.26000002]
   SRTHash: -1013338482
   Translate: [-3373.5686, 300.875, -2708.11011]
-  UnitConfigName: Weapon_Sword_021
+  UnitConfigName: Weapon_Sword_017
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xc2793ab7
   Rotate: 0.979999781
@@ -7011,7 +7011,7 @@ Objs:
     SharpWeaponJudgeType: 3}
   HashId: !u 0xc4a92ba6
   SRTHash: 1244258174
-  Translate: [-3115.72754, 299.128113, -2293.85425]
+  Translate: [-3116.44116, 299.128113, -2294.74048]
   UnitConfigName: Animal_Fish_J
 - HashId: !u 0xc4b0703a
   Rotate: [2.62788415, 1.40950215, 2.79621506]
@@ -9137,4 +9137,42 @@ Objs:
   SRTHash: 125473313
   Translate: [-3331.00732, 300.133453, -2895.10791]
   UnitConfigName: FldObj_TorchStandBone_A_01_100enemy
+- HashId: !u 0xfff68ee7
+  Rotate: -0.600000024
+  SRTHash: 0
+  Translate: [-3594.51758, 325.982086, -2475.396]
+  UnitConfigName: Obj_IceArrow_A_02
+- HashId: !u 0xfff68ee8
+  Rotate: -0.600000024
+  SRTHash: 0
+  Translate: [-3593.89429, 325.982086, -2474.32227]
+  UnitConfigName: Obj_IceArrow_A_02
+- '!Parameters': {DropTable: Castle_Plants, SharpWeaponJudgeType: 3, TurnActorNearEnemy: true}
+  HashId: !u 0xfff68eea
+  SRTHash: 1579381174
+  Translate: [-3373.66138, 302.114502, -2252.81104]
+  UnitConfigName: KibakoSnowMountain_Contain_100enemy
+- '!Parameters': {DropTable: Castle_Plants, SharpWeaponJudgeType: 3, TurnActorNearEnemy: true}
+  HashId: !u 0xfff68eeb
+  SRTHash: 1579381174
+  Translate: [-3376.33374, 302.114502, -2251.93066]
+  UnitConfigName: KibakoSnowMountain_Contain_100enemy
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true, IsLocatorCreate: false, IsPlayerPut: false,
+    SharpWeaponJudgeType: 3}
+  HashId: !u 0xfff68eee
+  SRTHash: 847460215
+  Translate: [-3116.50391, 299.104675, -2290.32007]
+  UnitConfigName: Animal_Fish_J
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 3}
+  HashId: !u 0xfff68eef
+  OnlyOne: true
+  SRTHash: -306769399
+  Translate: [-3108.38623, 300.116577, -2283.11914]
+  UnitConfigName: Item_Plant_B
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 3}
+  HashId: !u 0xfff68ef0
+  OnlyOne: true
+  SRTHash: 0
+  Translate: [-3108.34644, 300.116577, -2284.91968]
+  UnitConfigName: Item_Plant_B
 Rails: []

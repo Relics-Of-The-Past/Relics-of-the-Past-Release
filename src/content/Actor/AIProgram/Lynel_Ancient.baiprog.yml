@@ -5153,7 +5153,7 @@ param_root: !list
             SInst: !obj
               RoarFlameActorName: ExpandFireField_Lynel
               RoarFlamePartsKey: RoarFlame
-              BreathActorName: GuardianBeam
+              BreathActorName: GuardianBeam_Malice
               BreathPartsKey0: Breath0
               BreathPartsKey1: Breath1
               BreathPartsKey2: Breath2
@@ -9351,7 +9351,7 @@ param_root: !list
               GroupName: 大剣大攻撃上半身
             SInst: !obj
               WeaponIdx: 0
-              ShockWaveRadius: 4.0
+              ShockWaveRadius: 12.0
               UnderRayLength: 2.0
               SeqBank: 0
               TargetBone: 1
@@ -9562,7 +9562,7 @@ param_root: !list
               GroupName: 大剣突進切り斬り付け
             SInst: !obj
               WeaponIdx: 0
-              ShockWaveRadius: 4.0
+              ShockWaveRadius: 12.0
               UnderRayLength: 2.0
               SeqBank: 0
               TargetBone: 1
@@ -9651,7 +9651,7 @@ param_root: !list
             SInst: !obj
               AtEventValue: Lower
               WeaponIdx: 0
-              ShockWaveRadius: 1.5
+              ShockWaveRadius: 6.5
               UnderRayLength: 2.0
               SeqBank: 0
               TargetBone: 1
@@ -10211,7 +10211,7 @@ param_root: !list
               GroupName: ジャンプ攻撃衝撃波
             SInst: !obj
               WeaponIdx: 0
-              ShockWaveRadius: 4.0
+              ShockWaveRadius: 12.0
               UnderRayLength: 2.5
               SeqBank: 0
               TargetBone: 1

@@ -8,7 +8,7 @@ param_root: !list
       IsGetItemSelf: false
     General: !obj
       Speed: 1.0
-      Life: 800
+      Life: 1600
       IsLifeInfinite: false
       ElectricalDischarge: 1.0
       IsBurnOutBorn: false
@@ -82,9 +82,9 @@ param_root: !list
       EscapeAttackedActorType: ''
       ReactionBalloon: false
       SmallRagdollTime: 8
-      SmallRagdollRecoverTime: 15
-      SmallLargeRagdollTime: 60
-      SmallLargeRagdollRecoverTime: 20
+      SmallRagdollRecoverTime: 10
+      SmallLargeRagdollTime: 20
+      SmallLargeRagdollRecoverTime: 10
     AttackInterval: !obj
       ShortAttackTimeMin: 4
       ShortAttackTimeMax: 6

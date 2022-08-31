@@ -7961,8 +7961,6 @@ Objs:
     RotAngle: 60.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
-    TraversePos: {X: 3542.8999, Y: 531.780823, Z: -813.549988}
-    TraverseRadiusXZ: 13.4856195
     WaitTime: 150.0
   HashId: !u 0xffecb733
   Rotate: -0.754471958
@@ -8436,22 +8434,11 @@ Objs:
   SRTHash: 0
   Translate: [4133.64404, 295.544464, -663.899658]
   UnitConfigName: EnvSeEmitPointInsectTemperate
-- '!Parameters':
-    ArrowName: NormalArrow
-    CarryActorName: OctObj_Grass_03
-    DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    IsNearCreate: false
-    LevelSensorMode: 1
-    NearCreateAppearID: 0
-    SharpWeaponJudgeType: 1
-    TerritoryArea: 0.0
+- '!Parameters': {ArrowName: NormalArrow, CarryActorName: OctObj_Grass_03, DropTable: Normal, IsNearCreate: false, LevelSensorMode: 1,
+    NearCreateAppearID: 0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0}
   HashId: !u 0xffecb757
   Rotate: -1.76000011
-  SRTHash: -1827619233
+  SRTHash: 0
   Scale: 3.0
   Translate: [3315.89233, 537.657959, -981.024597]
   UnitConfigName: Enemy_Octarock_Senior
@@ -8470,12 +8457,12 @@ Objs:
     SharpWeaponJudgeType: 0
   HashId: !u 0xffecb758
   Rotate: [1.17999995, 0.0, 0.280000001]
-  SRTHash: -213875672
+  SRTHash: 0
   Translate: [3181.95923, 282.048401, -672.951599]
   UnitConfigName: Weapon_Sword_047
 - '!Parameters':
-    AddParam: 0
-    AddSpecialFlag: 0
+    AddParam: 40
+    AddSpecialFlag: -2147483647
     DropTable: Normal
     EnemyOwnItem: false
     IsCreateSharpWeapon: false
@@ -8483,14 +8470,14 @@ Objs:
     IsFixedPlace: false
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 1
+    LevelSensorMode: 0
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xffecb759
   Rotate: [1.83087873, 0.0, -0.087713331]
-  SRTHash: -213875672
-  Translate: [4052.677, 483.70871, -448.46283]
-  UnitConfigName: Weapon_Spear_013
+  SRTHash: 0
+  Translate: [4052.69434, 484.308716, -448.453033]
+  UnitConfigName: Weapon_Spear_015
 - '!Parameters':
     AddParam: 0
     AddSpecialFlag: 0
@@ -8506,7 +8493,7 @@ Objs:
     SharpWeaponJudgeType: 0
   HashId: !u 0xffecb75a
   Rotate: [1.83087873, 0.0, -0.087713331]
-  SRTHash: -213875672
+  SRTHash: 0
   Translate: [3631.59717, 519.253967, -901.367432]
   UnitConfigName: Weapon_Lsword_024
 - '!Parameters':
@@ -8601,18 +8588,8 @@ Objs:
   SRTHash: 758572384
   Translate: [3209.59961, 344.47641, -726.156494]
   UnitConfigName: Enemy_Lizalfos_Junior
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
-    EquipItem1: Default
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    IsCreateOnFace: false
-    IsNearCreate: false
-    LevelSensorMode: 1
-    SharpWeaponJudgeType: 0
-    TerritoryArea: 0.0
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, IsCreateOnFace: false, IsNearCreate: false, LevelSensorMode: 1,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
   HashId: !u 0xffecb760
   Rotate: 1.06159341
   SRTHash: 323340351
@@ -8686,7 +8663,7 @@ Objs:
     WaitTime: 1.0
   HashId: !u 0xffecb764
   Rotate: -0.0399994962
-  SRTHash: 536742598
+  SRTHash: 0
   Translate: [3710.65991, 462.243439, -531.198975]
   UnitConfigName: Enemy_Moriblin_Junior
 - '!Parameters':
@@ -8891,8 +8868,6 @@ Objs:
     RotAngle: 60.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
-    TraversePos: {X: 3542.8999, Y: 531.780823, Z: -813.549988}
-    TraverseRadiusXZ: 13.4856195
     WaitTime: 150.0
   HashId: !u 0xffecb772
   Rotate: -0.754471958

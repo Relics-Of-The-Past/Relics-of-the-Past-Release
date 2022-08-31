@@ -8082,7 +8082,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 60.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -10323,7 +10323,7 @@ Objs:
   Rotate: 0.540000141
   SRTHash: -1333897079
   Translate: [-3576.479, 210.839813, 2076.09277]
-  UnitConfigName: Enemy_Moriblin_Senior
+  UnitConfigName: Enemy_Moriblin_Gold_Sniper
 - '!Parameters': {GetUpDirection: None}
   HashId: !u 0x98d3d0e3
   Rotate: 2.3561945
@@ -11839,7 +11839,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 60.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -17875,9 +17875,18 @@ Objs:
   SRTHash: 1466309386
   Translate: [-3806.13159, 246.931122, 2127.75]
   UnitConfigName: Enemy_Guardian_A
-- '!Parameters': {ChaseRange: 1200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: false, SharpWeaponJudgeType: 1}
+- '!Parameters':
+    ChaseRange: 1200.0
+    DropTable: Normal
+    GuardianLegType0: Guardian_A_Leg
+    GuardianLegType1: Guardian_A_Leg
+    GuardianLegType2: Guardian_A_Leg
+    GuardianLegType3: Guardian_A_Leg
+    GuardianLegType4: Guardian_A_Leg
+    GuardianLegType5: Guardian_A_Leg
+    IsNearCreate: true
+    IsSuspended: true
+    SharpWeaponJudgeType: 1
   HashId: !u 0xffb62cdc
   LinksToObj:
   - {DefinitionName: DeadUp, DestUnitHashId: !u 0xffb62cee}
@@ -17885,9 +17894,18 @@ Objs:
   SRTHash: 50
   Translate: [-3619.33301, 281.644775, 2150.83105]
   UnitConfigName: Enemy_Guardian_A_Fixed_Sand
-- '!Parameters': {ChaseRange: 1200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: false, SharpWeaponJudgeType: 1}
+- '!Parameters':
+    ChaseRange: 1200.0
+    DropTable: Normal
+    GuardianLegType0: Guardian_A_Leg
+    GuardianLegType1: Guardian_A_Leg
+    GuardianLegType2: Guardian_A_Leg
+    GuardianLegType3: Guardian_A_Leg
+    GuardianLegType4: Guardian_A_Leg
+    GuardianLegType5: Guardian_A_Leg
+    IsNearCreate: true
+    IsSuspended: true
+    SharpWeaponJudgeType: 1
   HashId: !u 0xffb62cdd
   LinksToObj:
   - {DefinitionName: DeadUp, DestUnitHashId: !u 0xffb62cee}
@@ -17895,9 +17913,18 @@ Objs:
   SRTHash: 50
   Translate: [-3645.82056, 283.050018, 2174.85083]
   UnitConfigName: Enemy_Guardian_A_Fixed_Sand
-- '!Parameters': {ChaseRange: 1200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: false, SharpWeaponJudgeType: 1}
+- '!Parameters':
+    ChaseRange: 1200.0
+    DropTable: Normal
+    GuardianLegType0: Guardian_A_Leg
+    GuardianLegType1: Guardian_A_Leg
+    GuardianLegType2: Guardian_A_Leg
+    GuardianLegType3: Guardian_A_Leg
+    GuardianLegType4: Guardian_A_Leg
+    GuardianLegType5: Guardian_A_Leg
+    IsNearCreate: true
+    IsSuspended: true
+    SharpWeaponJudgeType: 1
   HashId: !u 0xffb62cde
   LinksToObj:
   - {DefinitionName: DeadUp, DestUnitHashId: !u 0xffb62cee}
@@ -17905,9 +17932,18 @@ Objs:
   SRTHash: 50
   Translate: [-3649.27417, 284.771942, 2128.6521]
   UnitConfigName: Enemy_Guardian_A_Fixed_Sand
-- '!Parameters': {ChaseRange: 1200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: false, SharpWeaponJudgeType: 1}
+- '!Parameters':
+    ChaseRange: 1200.0
+    DropTable: Normal
+    GuardianLegType0: Guardian_A_Leg
+    GuardianLegType1: Guardian_A_Leg
+    GuardianLegType2: Guardian_A_Leg
+    GuardianLegType3: Guardian_A_Leg
+    GuardianLegType4: Guardian_A_Leg
+    GuardianLegType5: Guardian_A_Leg
+    IsNearCreate: true
+    IsSuspended: true
+    SharpWeaponJudgeType: 1
   HashId: !u 0xffb62cdf
   LinksToObj:
   - {DefinitionName: DeadUp, DestUnitHashId: !u 0xffb62cee}
@@ -17975,8 +18011,9 @@ Objs:
   - {DefinitionName: Delete, DestUnitHashId: !u 0xffb62ce9}
   - {DefinitionName: Delete, DestUnitHashId: !u 0xffb62cea}
   - {DefinitionName: Delete, DestUnitHashId: !u 0xffb62ceb}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xffb62d0d}
   SRTHash: 0
-  Translate: [-3653.77881, 289.715149, 2158.2876]
+  Translate: [-3651.35596, 289.715149, 2151.32568]
   UnitConfigName: LinkTagAnd
 - '!Parameters':
     EquipItem1: Weapon_Spear_008
@@ -18000,25 +18037,25 @@ Objs:
   SRTHash: 1108288628
   Translate: [-3941.00903, 159.695526, 2321.22681]
   UnitConfigName: Enemy_Lizalfos_Senior
-- '!Parameters': {IsSuspended: true, LevelSensorMode: 1}
+- '!Parameters': {IsSuspended: true, LevelSensorMode: 0}
   HashId: !u 0xffb62ce8
   Rotate: [0.0, 0.0, 0.0]
   SRTHash: 1466309386
   Translate: [-3689.35938, 285.055176, 2164.74219]
   UnitConfigName: Enemy_FldObj_RuinGuardian_Static
-- '!Parameters': {IsSuspended: true, LevelSensorMode: 1}
+- '!Parameters': {IsSuspended: true, LevelSensorMode: 0}
   HashId: !u 0xffb62ce9
   Rotate: [0.0, 0.0, 0.0]
   SRTHash: 1466309386
   Translate: [-3619.33301, 281.644775, 2150.83105]
   UnitConfigName: Enemy_FldObj_RuinGuardian_Static
-- '!Parameters': {IsSuspended: true, LevelSensorMode: 1}
+- '!Parameters': {IsSuspended: true, LevelSensorMode: 0}
   HashId: !u 0xffb62cea
   Rotate: [0.0, 0.0, 0.0]
   SRTHash: 1466309386
   Translate: [-3645.82056, 283.050018, 2174.85083]
   UnitConfigName: Enemy_FldObj_RuinGuardian_Static
-- '!Parameters': {IsSuspended: true, LevelSensorMode: 1}
+- '!Parameters': {IsSuspended: true, LevelSensorMode: 0}
   HashId: !u 0xffb62ceb
   Rotate: [0.0, 0.0, 0.0]
   SRTHash: 1466309386
@@ -18030,7 +18067,7 @@ Objs:
   SRTHash: 0
   Translate: [-3659.85669, 296.365814, 2148.61743]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {DropActor: Weapon_Shield_037, IsInGround: false, IsNearCreate: true, SharpWeaponJudgeType: 1}
+- '!Parameters': {DropActor: Weapon_Shield_027, IsInGround: false, IsNearCreate: true, SharpWeaponJudgeType: 3}
   HashId: !u 0xffb62cef
   Rotate: 3.20000005
   SRTHash: -1709674313
@@ -18174,6 +18211,25 @@ Objs:
   SRTHash: -1588917886
   Translate: [-3259.44385, 128.963989, 2243.90356]
   UnitConfigName: Enemy_Lynel_Senior
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, IsNearCreate: true, Shape: Box}
+  HashId: !u 0xffb62d0d
+  LinksToObj:
+  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xffb62d0e}
+  Rotate: 0.600000024
+  SRTHash: 0
+  Scale: 40.0
+  Translate: [-3659.78198, 293.462433, 2151.21997]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xffb62d0e
+  LinksToObj:
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xffb62cdc}
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xffb62cdd}
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xffb62cde}
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xffb62cdf}
+  SRTHash: 0
+  Translate: [-3653.77881, 289.715149, 2158.2876]
+  UnitConfigName: LinkTagAnd
 Rails:
 - HashId: !u 0x003cb62d
   IsClosed: false

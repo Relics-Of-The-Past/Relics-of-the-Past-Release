@@ -1,0 +1,179 @@
+Objs:
+- HashId: !u 0x13867b2b
+  SRTHash: -392288139
+  Translate: [125.5, -2.0, 26.5]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0x1ce46afd
+  OnlyOne: true
+  SRTHash: -163843441
+  Scale: [39.2602158, 19.9274521, 7.80088997]
+  Translate: [-1.97188246, 30.578125, -18.6609554]
+  UnitConfigName: AirWallCurseGanon
+- '!Parameters': {FieldBodyGroup: 0}
+  HashId: !u 0x1dd2e80e
+  SRTHash: 928376745
+  Scale: [2.0, 10.0, 2.0]
+  Translate: [29.0, 17.0, 27.0]
+  UnitConfigName: AscendingCurrent_Side
+- HashId: !u 0x47cd5283
+  OnlyOne: true
+  SRTHash: 945658775
+  Scale: 1.5
+  Translate: [15.5, 17.0, -77.0]
+  UnitConfigName: Obj_MapModel_A_01
+- HashId: !u 0x4854dca4
+  OnlyOne: true
+  SRTHash: -500569239
+  Scale: [3.29999995, 25.0, 3.29999995]
+  Translate: [-0.107861236, -20.8999996, -15.678422]
+  UnitConfigName: AscendingCurrent_FlightTraining
+- HashId: !u 0x9e6ea337
+  SRTHash: -1046003916
+  Translate: [-44.0, -20.0, 16.0]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0xe69d4f4e
+  OnlyOne: true
+  Rotate: 1.74845553e-07
+  SRTHash: 1656005288
+  Translate: [1.97680765e-06, 3.1000011, -72.6640625]
+  UnitConfigName: DungeonResetPosTag
+- '!Parameters': {FieldBodyGroup: 0}
+  HashId: !u 0xf3dc8922
+  SRTHash: 562182475
+  Scale: [2.0, 10.0, 2.0]
+  Translate: [-29.0, 17.0, 27.0]
+  UnitConfigName: AscendingCurrent_Side
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Weapon_Spear_015
+    EquipItem2: Weapon_Spear_015
+    EquipItem3: Weapon_Spear_015
+    EquipItem4: Default
+    FieldBodyGroup: 0
+    IsAnnihilateDungeonEnemy: false
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xff8dccdb
+  OnlyOne: false
+  Rotate: 3.14159274
+  SRTHash: -2016182539
+  Translate: [3.0, -2.5, 64.0]
+  UnitConfigName: Enemy_Guardian_Mini_Middle_Dark
+- '!Parameters':
+    ArrowName: NormalArrow
+    BeamRange: 0.0
+    DropTable: Normal
+    EquipItem1: Weapon_Spear_015
+    EquipItem2: Weapon_Spear_015
+    EquipItem3: Weapon_Spear_015
+    EquipItem4: Default
+    FieldBodyGroup: 0
+    IsAnnihilateDungeonEnemy: false
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xff8dccdc
+  OnlyOne: false
+  Rotate: 3.14159274
+  SRTHash: -2016182539
+  Translate: [-3.0, -2.5, 64.0]
+  UnitConfigName: Enemy_Guardian_Mini_Middle_Dark
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, FieldBodyGroup: 0, IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xff8dcce5
+  Rotate: [0.0, 3.79999995, 3.0]
+  SRTHash: 0
+  Translate: [-76.6350555, -5.68315887, 2.21243119]
+  UnitConfigName: RemainsWind_Battery_A_01
+- '!Parameters': {DropActor: Armor_123_Head, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xff8dcce6
+  Rotate: -3.0999999
+  SRTHash: 0
+  Translate: [0.0893805325, 29.3739777, 79.4611664]
+  UnitConfigName: TBox_Dungeon_Stone
+- '!Parameters': {FieldBodyGroup: 0}
+  HashId: !u 0xff8dcced
+  SRTHash: -537137332
+  Scale: [10.0, 35.0, 10.0]
+  Translate: [-9.27963066, -36.8462372, 65.9132233]
+  UnitConfigName: AscendingCurrent_Side
+- '!Parameters': {FieldBodyGroup: 0}
+  HashId: !u 0xff8dccee
+  SRTHash: -537137332
+  Scale: [10.0, 35.0, 10.0]
+  Translate: [-7.19654512, -54.4462395, 31.1192303]
+  UnitConfigName: AscendingCurrent_Side
+- '!Parameters':
+    AddParam: 47
+    AddSpecialFlag: -2147483647
+    DropTable: Normal
+    EnemyOwnItem: true
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xff8dccef
+  Rotate: -0.800000012
+  SRTHash: 0
+  Translate: [-0.0818042234, -55.3461418, 37.7021179]
+  UnitConfigName: Weapon_Bow_028
+- HashId: !u 0xff8dccfc
+  Rotate: -1.60000002
+  SRTHash: 0
+  Translate: [0.00959516689, -57.3461418, 37.9341965]
+  UnitConfigName: BoxPartTop
+- '!Parameters': {FieldBodyGroup: 0}
+  HashId: !u 0xff8dcd06
+  SRTHash: 0
+  Scale: [30.0, 35.0, 30.0]
+  Translate: [109.490295, -60.6965866, 35.8366203]
+  UnitConfigName: AscendingCurrent_Side
+- '!Parameters': {FieldBodyGroup: 0}
+  HashId: !u 0xff8dcd07
+  SRTHash: 0
+  Scale: [20.0, 30.0, 20.0]
+  Translate: [36.4054375, -78.2965927, 25.9290886]
+  UnitConfigName: AscendingCurrent_Side
+- '!Parameters': {FieldBodyGroup: 0}
+  HashId: !u 0xff8dcd08
+  SRTHash: 0
+  Scale: [20.0, 30.0, 20.0]
+  Translate: [61.8808556, -80.4965897, 25.870615]
+  UnitConfigName: AscendingCurrent_Side
+- '!Parameters': {FieldBodyGroup: 0}
+  HashId: !u 0xff8dcd09
+  SRTHash: 0
+  Scale: [20.0, 30.0, 20.0]
+  Translate: [85.8568954, -80.4965897, 26.1502209]
+  UnitConfigName: AscendingCurrent_Side
+- '!Parameters': {EquipItem1: Weapon_Spear_034, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xff8dcd0a
+  Rotate: -0.74000001
+  SRTHash: 0
+  Translate: [92.9676437, -2.33958173, 16.875967]
+  UnitConfigName: Enemy_Bokoblin_Gold_Volcano
+- '!Parameters': {FieldBodyGroup: 0}
+  HashId: !u 0xff8dcd0d
+  Rotate: [0.0297524501, 0.0, 1.054142]
+  SRTHash: 0
+  Scale: [20.0, 30.0, 20.0]
+  Translate: [-60.5145187, -47.6363754, 26.3454437]
+  UnitConfigName: AscendingCurrent_Side
+- '!Parameters': {EquipItem1: Weapon_Spear_034, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xff8dcd16
+  Rotate: -0.74000001
+  SRTHash: 0
+  Translate: [98.2328186, -2.33958173, 21.7967033]
+  UnitConfigName: Enemy_Bokoblin_Gold_Volcano
+Rails: []

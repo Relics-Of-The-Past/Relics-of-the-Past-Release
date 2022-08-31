@@ -1,0 +1,48 @@
+---
+group_count: 5
+atr1_unknown: 0
+entries:
+  QL_TriforceShooting_Desc:
+    contents:
+      - text: "A mysterious voice told you a riddle about "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: an arrow
+      - control:
+          kind: reset_colour
+      - text: "\nflying true through the "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: center
+      - control:
+          kind: reset_colour
+      - text: "\nof "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "Courage, Wisdom, and Power "
+      - control:
+          kind: reset_colour
+      - text: "\nsomewhere in the heart of the castle.\n\nWhat could it mean?"
+  QL_TriforceShooting_Finish:
+    contents:
+      - text: "You shot an arrow through the center of "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "\nthe triforce"
+      - control:
+          kind: reset_colour
+      - text: " hanging in the sanctum,\nallowing you to obtain "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Bow of Light
+      - control:
+          kind: reset_colour
+      - text: "."
+  QL_TriforceShooting_Name:
+    contents:
+      - text: An Arrow Flies True

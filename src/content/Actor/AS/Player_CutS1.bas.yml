@@ -224,7 +224,7 @@ param_root: !list
           objects:
             Parameters: !obj
               TypeIndex: 67
-              FileName: !str64 Sword_Attack_S1
+              FileName: !str64 Sword_Attack_Just
               Morph: 0.0
           lists:
             Extend: !list
@@ -233,7 +233,7 @@ param_root: !list
                 FrameCtrl: !list
                   objects:
                     FrameCtrl0: !obj
-                      Rate: 1.14999998
+                      Rate: 1.60000002
                   lists: {}
                 TriggerEvents: !list
                   objects:
@@ -255,7 +255,7 @@ param_root: !list
                     Event0: !obj
                       TypeIndex: 3
                       StartFrame: 0.0
-                      EndFrame: 4.0
+                      EndFrame: 24.0
                       Value: !str32 Left
                     Event1: !obj
                       TypeIndex: 2
@@ -264,7 +264,7 @@ param_root: !list
                       Value: !str32 ''
                     Event2: !obj
                       TypeIndex: 45
-                      StartFrame: 8.0
+                      StartFrame: 15.0
                       EndFrame: -1.0
                       Value: !str32 ''
                     Event3: !obj
@@ -275,7 +275,7 @@ param_root: !list
                     Event4: !obj
                       TypeIndex: 48
                       StartFrame: 0.0
-                      EndFrame: 5.0
+                      EndFrame: -1.0
                       Value: !str32 ''
                     Event5: !obj
                       TypeIndex: 17
@@ -287,7 +287,7 @@ param_root: !list
           objects:
             Parameters: !obj
               TypeIndex: 67
-              FileName: !str64 Sword_Attack_S1_Advance
+              FileName: !str64 Sword_Attack_Just
               Morph: 0.0
           lists:
             Extend: !list
@@ -296,7 +296,7 @@ param_root: !list
                 FrameCtrl: !list
                   objects:
                     FrameCtrl0: !obj
-                      Rate: 1.14999998
+                      Rate: 1.60000002
                   lists: {}
                 TriggerEvents: !list
                   objects:
@@ -327,7 +327,7 @@ param_root: !list
                       Value: !str32 ''
                     Event2: !obj
                       TypeIndex: 45
-                      StartFrame: 8.0
+                      StartFrame: 15.0
                       EndFrame: -1.0
                       Value: !str32 ''
                     Event3: !obj
@@ -338,7 +338,7 @@ param_root: !list
                     Event4: !obj
                       TypeIndex: 48
                       StartFrame: 0.0
-                      EndFrame: 5.0
+                      EndFrame: -1.0
                       Value: !str32 ''
                     Event5: !obj
                       TypeIndex: 17

@@ -54,7 +54,6 @@ Objs:
   LinksToObj:
   - {DefinitionName: Delete, DestUnitHashId: !u 0x0e841fc7}
   - {DefinitionName: Delete, DestUnitHashId: !u 0x70264f93}
-  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xff597c12}
   SRTHash: -1628691642
   Translate: [-0.290102482, 12.8546877, 35.9336891]
   UnitConfigName: LinkTagOr
@@ -631,7 +630,6 @@ Objs:
   - {DefinitionName: Delete, DestUnitHashId: !u 0x328fc914}
   - {DefinitionName: Delete, DestUnitHashId: !u 0xc7e6ec0d}
   - {DefinitionName: Delete, DestUnitHashId: !u 0xee42da30}
-  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xff597c12}
   SRTHash: 1283463532
   Translate: [29.5000019, 45.4531174, -3.4375]
   UnitConfigName: LinkTagOr
@@ -792,8 +790,6 @@ Objs:
     SharpWeaponJudgeType: 3
     TerritoryArea: 0.0
   HashId: !u 0x304e22a6
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: -6.57079649
   SRTHash: 1203963246
   Translate: [-35.6839752, 30.0, -32.824646]
@@ -979,8 +975,6 @@ Objs:
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0x3b60e6a2
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 3.14159274
   SRTHash: 1460885945
   Translate: [0.0691516772, 50.0, 44.2009735]
@@ -1185,7 +1179,6 @@ Objs:
   LinksToObj:
   - {DefinitionName: Delete, DestUnitHashId: !u 0xbbd2b3c4}
   - {DefinitionName: Delete, DestUnitHashId: !u 0x004cbb1c}
-  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xff597c12}
   SRTHash: 1939915289
   Translate: [19.0625, 13.53125, 2.9375]
   UnitConfigName: LinkTagOr
@@ -2124,8 +2117,6 @@ Objs:
     SharpWeaponJudgeType: 3
     TerritoryArea: 0.0
   HashId: !u 0x7dce6e7e
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   OnlyOne: true
   Rotate: 1.57079637
   SRTHash: 345842409
@@ -2253,7 +2244,6 @@ Objs:
   - {DefinitionName: Delete, DestUnitHashId: !u 0x2fe6ed60}
   - {DefinitionName: Delete, DestUnitHashId: !u 0xed7a868d}
   - {DefinitionName: Delete, DestUnitHashId: !u 0xe2c58641}
-  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xff597c12}
   SRTHash: 959406335
   Translate: [-0.999999821, 12.225441, 182.492188]
   UnitConfigName: LinkTagOr
@@ -2779,7 +2769,6 @@ Objs:
   LinksToObj:
   - {DefinitionName: Delete, DestUnitHashId: !u 0x21980689}
   - {DefinitionName: Delete, DestUnitHashId: !u 0x774b8b8a}
-  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xff597c12}
   SRTHash: -2119196638
   Translate: [22.8949127, 118.411758, 31.1108837]
   UnitConfigName: LinkTagOr
@@ -3342,7 +3331,6 @@ Objs:
   - {DefinitionName: Delete, DestUnitHashId: !u 0xfc493a70}
   - {DefinitionName: Delete, DestUnitHashId: !u 0x5ab1fa54}
   - {DefinitionName: Delete, DestUnitHashId: !u 0x07217f05}
-  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xff597c12}
   SRTHash: -1060352225
   Translate: [0.015625, 84.5234375, 79.4765625]
   UnitConfigName: LinkTagOr
@@ -3530,7 +3518,7 @@ Objs:
     DestUnitHashId: !u 0xf568c664
   Rotate: [0.421473324, 0.361366808, -1.4135921]
   SRTHash: -1346949073
-  Translate: [0.0321521759, 9.65893078, -27.4710922]
+  Translate: [0.0882347077, 9.65893078, -27.3492126]
   UnitConfigName: LinkTagAnd
 - '!Parameters': {EventFlowEntryName: Access03, EventFlowName: Demo044_0, FieldBodyGroup: 1, IsEndlessEvent: false, LaunchEventByOffSignal: false,
     LaunchEventByOnSignal: true}
@@ -3959,9 +3947,7 @@ Objs:
   - '!Parameters': {NoAutoDemoMember: false}
     DefinitionName: BasicSig
     DestUnitHashId: !u 0x6f4bd535
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xff597bed
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xff597bed}
   OnlyOne: true
   Rotate: 3.14159274
   SRTHash: -817071586
@@ -4637,6 +4623,19 @@ Objs:
   SRTHash: -1492801839
   Translate: [-1.5, 38.5, 10.5]
   UnitConfigName: ActorObserverTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Get_HeartUtuwa_Water, SaveFlagOnOffType: 0}
+  HashId: !u 0xff597900
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xff597901}
+  SRTHash: 0
+  Translate: [0.0463762134, 5.0, -49.7157211]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropActor: Weapon_Spear_026, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+  HashId: !u 0xff597901
+  Rotate: 0.0
+  SRTHash: -171485289
+  Translate: [0.0, 2.29999995, -51.196209]
+  UnitConfigName: TBox_Dungeon_Stone
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
   HashId: !u 0xff597bcb
   SRTHash: -1529928943
@@ -4646,8 +4645,6 @@ Objs:
 - '!Parameters': {EquipItem1: Weapon_Sword_014, EquipItem2: Weapon_Shield_014, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
     LevelSensorMode: 2, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xff597bcf
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 2.39999986
   SRTHash: 0
   Translate: [0.402903646, 11.4854784, 26.6655216]
@@ -4655,29 +4652,21 @@ Objs:
 - '!Parameters': {EquipItem1: Weapon_Sword_014, EquipItem2: Weapon_Shield_014, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
     LevelSensorMode: 2, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xff597bd2
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 0.199999958
   SRTHash: 0
   Translate: [0.630460203, 12.0854778, 10.3892946]
   UnitConfigName: Enemy_Lizalfos_Middle
 - HashId: !u 0xff597bd3
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 2.20000005
   SRTHash: 0
   Translate: [-5.76412201, 16.3723984, 44.2941933]
   UnitConfigName: Enemy_Keese_Electric_AllDay
 - HashId: !u 0xff597bd4
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 2.79999995
   SRTHash: 0
   Translate: [6.13221121, 14.5723972, 43.7078972]
   UnitConfigName: Enemy_Keese_Electric_AllDay
 - HashId: !u 0xff597bd5
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 2.79999995
   SRTHash: 0
   Translate: [-0.455253482, 16.5723972, 47.827404]
@@ -4685,8 +4674,6 @@ Objs:
 - '!Parameters': {ArrowName: NormalArrow, EquipItem1: Weapon_Bow_033, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true,
     LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xff597bd8
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 4.80000019
   SRTHash: 0
   Translate: [21.2954693, 61.1603508, 12.2276754]
@@ -4694,25 +4681,19 @@ Objs:
 - '!Parameters': {ArrowName: NormalArrow, EquipItem1: Weapon_Bow_033, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true,
     LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xff597bd9
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 7.80000019
   SRTHash: 0
   Translate: [-22.102562, 61.1603508, 12.1138515]
   UnitConfigName: Enemy_Lizalfos_Junior
-- '!Parameters': {EquipItem1: Weapon_Lsword_023, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+- '!Parameters': {EquipItem1: Weapon_Lsword_015, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xff597bde
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 2.5999999
   SRTHash: 0
   Translate: [-14.8455458, 50.052681, 41.8156319]
-  UnitConfigName: Enemy_Moriblin_Dark
+  UnitConfigName: Enemy_Lizalfos_Malice
 - '!Parameters': {ChaseRange: 800.0, DropActor: Item_Enemy_31, IsSuspended: true, SharpWeaponJudgeType: 1}
   HashId: !u 0xff597bec
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: [0.303935319, 1.60000002, -1.32936954]
   SRTHash: 0
   Translate: [-22.0960846, 25.3650513, 28.0053024]
@@ -4735,8 +4716,6 @@ Objs:
 - '!Parameters': {EquipItem1: Weapon_Sword_049, EquipItem2: Weapon_Shield_013, FortressEatPer: -1, IsNearCreate: true, IsWatchKeeping: false,
     LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xff597bef
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 2.39999986
   SRTHash: 564413069
   Translate: [0.267173648, 11.4854784, 20.345335]
@@ -4744,8 +4723,6 @@ Objs:
 - '!Parameters': {ArrowName: IceArrow, EquipItem1: Weapon_Bow_027, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true,
     LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xff597bf0
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 6.20000029
   SRTHash: 0
   Translate: [-9.99009132, 35.5042305, -46.9132462]
@@ -4813,15 +4790,12 @@ Objs:
 - HashId: !u 0xff597bf5
   LinksToObj:
   - {DefinitionName: BasicSig, DestUnitHashId: !u 0xc7e6ec0d}
-  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xff597c12}
   SRTHash: 0
   Translate: [38.3267365, 35.7887497, -28.3033695]
   UnitConfigName: LinkTagAnd
 - '!Parameters': {ArrowName: IceArrow, EquipItem1: Weapon_Spear_023, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true,
     LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xff597bf7
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 6.20000029
   SRTHash: 0
   Translate: [-16.2555122, 30.0203857, -35.2519341]
@@ -4851,8 +4825,6 @@ Objs:
     GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
     IsSuspended: true, SharpWeaponJudgeType: 0}
   HashId: !u 0xff597bfb
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 3.20000005
   SRTHash: 0
   Translate: [0.0861279294, 61.0851402, 45.0814095]
@@ -4868,8 +4840,6 @@ Objs:
 - '!Parameters': {ArrowName: ElectricArrow, EquipItem1: Weapon_Bow_030, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: true,
     LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xff597bfd
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: -0.800000012
   SRTHash: 564413069
   Translate: [19.5247097, 35.8730583, -45.1431732]
@@ -4887,8 +4857,6 @@ Objs:
     TerritoryArea: 0.0
     WaitTime: 1.0
   HashId: !u 0xff597bfe
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 5.4000001
   SRTHash: 0
   Translate: [17.3374443, 30.1399021, -33.2469025]
@@ -4906,32 +4874,24 @@ Objs:
     TerritoryArea: 0.0
     WaitTime: 1.0
   HashId: !u 0xff597bff
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 5.4000001
   SRTHash: 0
   Translate: [20.2883434, 30.1399021, -26.0149517]
   UnitConfigName: Enemy_Lizalfos_Electric
 - '!Parameters': {DropActor: PutRupee_Red, IsNearCreate: true}
   HashId: !u 0xff597c00
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 3.5999999
   SRTHash: 0
   Translate: [-8.03086948, 12.2381105, 6.38066483]
   UnitConfigName: Enemy_Chuchu_Electric_Middle
 - '!Parameters': {DropActor: PutRupee_Red, IsNearCreate: true}
   HashId: !u 0xff597c01
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 2.79999995
   SRTHash: 0
   Translate: [-17.0047951, 12.2381105, 6.35374212]
   UnitConfigName: Enemy_Chuchu_Electric_Middle
 - '!Parameters': {DropActor: PutRupee_Red, IsNearCreate: true}
   HashId: !u 0xff597c02
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: 3.79999995
   SRTHash: 0
   Translate: [-12.3835392, 12.2381105, 7.63893557]
@@ -4986,7 +4946,6 @@ Objs:
 - HashId: !u 0xff597c07
   LinksToObj:
   - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0x5ab1fa54}
-  - {DefinitionName: BasicSigOnOnly, DestUnitHashId: !u 0xff597c12}
   SRTHash: 0
   Translate: [0.176409155, 82.5527115, 69.0428085]
   UnitConfigName: LinkTagAnd
@@ -5003,8 +4962,6 @@ Objs:
     IsSuspended: true
     SharpWeaponJudgeType: 1
   HashId: !u 0xff597c08
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: [0.0, 0.0, 0.0]
   SRTHash: 0
   Translate: [12.103941, 1.61390817, -30.4901352]
@@ -5022,8 +4979,6 @@ Objs:
     IsSuspended: true
     SharpWeaponJudgeType: 1
   HashId: !u 0xff597c09
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: [0.0, 0.0, 0.0]
   SRTHash: 0
   Translate: [-12.0039406, 1.61390817, -30.4901352]
@@ -5041,8 +4996,6 @@ Objs:
     IsSuspended: true
     SharpWeaponJudgeType: 1
   HashId: !u 0xff597c0a
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: [0.0, 0.0, 0.0]
   SRTHash: 0
   Translate: [-12.0853653, 2.01390815, -48.011734]
@@ -5060,8 +5013,6 @@ Objs:
     IsSuspended: true
     SharpWeaponJudgeType: 1
   HashId: !u 0xff597c0b
-  LinksToObj:
-  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xff597c12}
   Rotate: [0.0, 0.0, 0.0]
   SRTHash: 0
   Translate: [12.2741108, 2.01390815, -48.011734]
@@ -5103,50 +5054,6 @@ Objs:
   SRTHash: 0
   Translate: [1.65259361, 39.1639938, -40.986248]
   UnitConfigName: DgnObj_SwitchElectric_A_01
-- HashId: !u 0xff597c12
-  LinksToObj:
-  - {DefinitionName: Create, DestUnitHashId: !u 0xff597c13}
-  SRTHash: 0
-  Translate: [0.0, 5.0, -51.196209]
-  UnitConfigName: LinkTagAnd
-- '!Parameters': {DropActor: Weapon_Spear_026, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
-  HashId: !u 0xff597c13
-  Rotate: 0.0
-  SRTHash: -171485289
-  Translate: [0.0, 2.29999995, -51.196209]
-  UnitConfigName: TBox_Dungeon_Stone
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: BalladOfHeroZora_Activated, SaveFlagOnOffType: 0}
-  HashId: !u 0xff597c14
-  LinksToObj:
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bcf}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bd2}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bd3}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bd4}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bd5}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bd8}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bd9}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bde}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bec}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bef}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bf0}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bf1}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bf2}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bf7}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bfb}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bfd}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bfe}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597bff}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597c00}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597c01}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597c02}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597c05}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597c08}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597c09}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597c0a}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xff597c0b}
-  SRTHash: 1383263771
-  Translate: [-9.85840988, 15.7243137, 13.443697]
-  UnitConfigName: LinkTagAnd
 Rails:
 - HashId: !u 0x66615105
   IsClosed: false

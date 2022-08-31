@@ -137,7 +137,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 60.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -464,23 +464,6 @@ Objs:
   Scale: 1.07222939
   Translate: [-4065.38159, 326.088684, 1501.68835]
   UnitConfigName: FldObj_GerudoHighlandRock_B_01_Far
-- '!Parameters':
-    HiddenKorokBodyColor: 0
-    HiddenKorokLeftPlantType: 2
-    HiddenKorokMaskType: 0
-    HiddenKorokRightPlantType: 1
-    IsAppearCheck: true
-    IsHiddenKorokLiftAppear: false
-    IsInvisibleKorok: false
-    KorokEventStartWaitFrame: 0
-    PlacementType: Ground
-    RailMoveSpeed: 0.100000001
-    TerritoryArea: 0.0
-  HashId: !u 0x0eb2b0f7
-  Rotate: 0.860000134
-  SRTHash: 1388527781
-  Translate: [-4685.21387, 171.460892, 1970.38843]
-  UnitConfigName: Npc_HiddenKorokGround
 - HashId: !u 0x0ee9ca2a
   LinksToObj:
   - {DefinitionName: Reference, DestUnitHashId: !u 0xa89ec19e}
@@ -519,26 +502,6 @@ Objs:
   Scale: 1.0877744
   Translate: [-4304.90576, 116.007584, 1764.17004]
   UnitConfigName: FldObj_GerudoCave_A_07
-- '!Parameters':
-    EffectDIspOffset: {X: 0.0, Y: 0.5, Z: 0.0}
-    EffectDispActorName: FldObj_KorokStone_A_01
-    EffectDispSize: 1.0
-    IsNoResponceSound: false
-  HashId: !u 0x0f9fc449
-  LinksToObj:
-  - {DefinitionName: Reference, DestUnitHashId: !u 0x1067a253}
-  - {DefinitionName: Reference, DestUnitHashId: !u 0x703b1718}
-  - {DefinitionName: Reference, DestUnitHashId: !u 0xd0dec8c5}
-  - {DefinitionName: Reference, DestUnitHashId: !u 0x6d14a40b}
-  - {DefinitionName: Reference, DestUnitHashId: !u 0xb0827d8e}
-  - {DefinitionName: Reference, DestUnitHashId: !u 0x97f2a8bb}
-  - {DefinitionName: Reference, DestUnitHashId: !u 0x33b95040}
-  - {DefinitionName: Reference, DestUnitHashId: !u 0xee2f89c5}
-  - {DefinitionName: Reference, DestUnitHashId: !u 0x53e5e50b}
-  - {DefinitionName: Reference, DestUnitHashId: !u 0x8e733c8e}
-  SRTHash: 2128595464
-  Translate: [-4185.09375, 438.086243, 1471.43225]
-  UnitConfigName: KorokAnswerResponce
 - HashId: !u 0x10349b12
   Rotate: 0.575987875
   SRTHash: 701017102
@@ -872,7 +835,7 @@ Objs:
   SRTHash: 2125915771
   Translate: [-4436.72949, 556.681396, 1314.82129]
   UnitConfigName: FldObj_GerudoHighlandRock_A_02_Far
-- '!Parameters': {DropActor: Weapon_Bow_015, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Spear_026, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x19cc7a66
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x2345e1ad}
@@ -911,16 +874,6 @@ Objs:
   SRTHash: -1085475964
   Translate: [-4168.84326, 196.469818, 1984.61658]
   UnitConfigName: ActorObserverTag
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x1aa2ab4a
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0xc73472cf
-  Rotate: -1.96159101
-  SRTHash: -939776961
-  Translate: [-4180.95752, 442.862213, 1482.8562]
-  UnitConfigName: LinkTagOr
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x1af80f00
   LinksToObj:
@@ -1489,23 +1442,6 @@ Objs:
   SRTHash: -556143317
   Translate: [-4695.7002, 129.389999, 1951.20996]
   UnitConfigName: FldObj_DesertRuin_A_08_Far
-- '!Parameters':
-    HiddenKorokBodyColor: 4
-    HiddenKorokLeftPlantType: 0
-    HiddenKorokMaskType: 0
-    HiddenKorokRightPlantType: 2
-    IsAppearCheck: false
-    IsHiddenKorokLiftAppear: true
-    IsInvisibleKorok: false
-    KorokEventStartWaitFrame: 20
-    PlacementType: Ground
-    RailMoveSpeed: 0.100000001
-    TerritoryArea: 0.0
-  HashId: !u 0x2d0078e6
-  Rotate: -2.5799973
-  SRTHash: 1257283389
-  Translate: [-4552.23828, 623.394287, 1353.15942]
-  UnitConfigName: Npc_HiddenKorokGround
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x2d16c63c
   LinksToObj:
@@ -1727,7 +1663,7 @@ Objs:
   Scale: [2.01871276, 20.642086, 2.01871276]
   Translate: [-4246.94727, 236.829071, 1634.57043]
   UnitConfigName: Area
-- '!Parameters': {DropTable: __none__, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: PutRupee_Gold, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x31e6ace0
   LinksToObj:
   - '!Parameters': {NoAutoDemoMember: false}
@@ -1863,7 +1799,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 60.0
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
@@ -2226,15 +2162,6 @@ Objs:
   SRTHash: 167529130
   Translate: [-4213.51953, 583.709839, 1089.3291]
   UnitConfigName: FldObj_GerudoHighlandRock_A_01
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
-  HashId: !u 0x437e7c35
-  LinksToObj:
-  - {DefinitionName: Reference, DestUnitHashId: !u 0x6d14a40b}
-  - {DefinitionName: GimmickSuccess, DestUnitHashId: !u 0x886b3972}
-  Rotate: [-0.680242538, -1.35619652, 0.628135026]
-  SRTHash: -945411237
-  Translate: [-4283.19629, 435.09201, 1477.50732]
-  UnitConfigName: FldObj_KorokStoneLift_A_01
 - HashId: !u 0x43a7abf4
   LinksToObj:
   - {DefinitionName: DeadUp, DestUnitHashId: !u 0x8f0dab6a}
@@ -2350,16 +2277,6 @@ Objs:
   Rotate: 1.10000002
   SRTHash: -1034123843
   Translate: [-4131.79053, 404.761505, 1719.97974]
-  UnitConfigName: LinkTagOr
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x4652be93
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x0eb2b0f7
-  Rotate: 0.860000134
-  SRTHash: 1553151816
-  Translate: [-4684.85498, 173.960892, 1969.97168]
   UnitConfigName: LinkTagOr
 - HashId: !u 0x46b43353
   LinksToObj:
@@ -2510,16 +2427,6 @@ Objs:
   SRTHash: 2102035247
   Translate: [-4186.79834, 669.227173, 1100.99451]
   UnitConfigName: Obj_TreeSnowberry_A
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x4a64713e
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xd0dec8c5
-  Rotate: -1.9799993
-  SRTHash: 862545617
-  Translate: [-4205.68994, 443.913605, 1464.40967]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x4a6bd771
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xe54f760c}
@@ -2629,17 +2536,6 @@ Objs:
   Scale: 1.0877744
   Translate: [-4261.15918, 205.949768, 1713.10059]
   UnitConfigName: FldObj_GerudoCave_A_07_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x4e0430f5
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x6d14a40b
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x437e7c35}
-  Rotate: [-1.57079637, 0.0, 0.0]
-  SRTHash: 1613287895
-  Translate: [-4187.09375, 442.148743, 1471.43225]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0x4e39b6c4
   SRTHash: -2099345209
   Translate: [-4295.87402, 602.124695, 1100.33789]
@@ -2928,18 +2824,6 @@ Objs:
   SRTHash: -1765123246
   Translate: [-4633.40527, 246.597076, 1661.73816]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_10_Far
-- '!Parameters': {ActorName: FldObj_KorokStoneLift_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0x53e5e50b
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x33b95040}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x4a64713e
-  Rotate: -1.9799993
-  SRTHash: 1085024870
-  Translate: [-4205.81982, 442.913605, 1464.08081]
-  UnitConfigName: ActorObserverTag
 - '!Parameters': {DropActor: Weapon_Lsword_003, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x53f4192d
   LinksToObj:
@@ -3238,16 +3122,6 @@ Objs:
   SRTHash: 77722751
   Translate: [-4443.4165, 400.783142, 1348.81848]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_03_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x5b215c23
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0xec8ea726
-  Rotate: [3.10161519, -0.405262619, -1.94121993]
-  SRTHash: 836954991
-  Translate: [-4553.97559, 623.959839, 1354.3728]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x5b67e6fc
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xa4ef8abf}
@@ -3544,7 +3418,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -4002,18 +3876,6 @@ Objs:
   SRTHash: -1980026763
   Translate: [-4208.99707, 298.151886, 1625.89893]
   UnitConfigName: MoveTriggerTag
-- '!Parameters': {ActorName: FldObj_KorokStoneLift_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0x703b1718
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x1067a253}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x4a64713e
-  Rotate: -1.9799993
-  SRTHash: 590981507
-  Translate: [-4206.01904, 442.913605, 1464.53955]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0x70512549
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x6d65cb6c}
@@ -4186,18 +4048,6 @@ Objs:
   SRTHash: 1279441437
   Translate: [-4525.06787, 606.788391, 1324.4176]
   UnitConfigName: FldObj_GerudoHighlandRock_A_02
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
-  HashId: !u 0x756cc127
-  LinksToObj:
-  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0x2d0078e6}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xec8ea726
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x31e6ace0}
-  Rotate: [2.90557504, -0.542892396, -2.9568274]
-  SRTHash: 1825234782
-  Translate: [-4551.96729, 625.917786, 1353.40149]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x75b43242
   Rotate: -1.84000623
   SRTHash: -1193798795
@@ -4257,7 +4107,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     OnCliff: false
     OnCliffTurn: true
     RotAngle: 0.0
@@ -4643,13 +4493,6 @@ Objs:
   SRTHash: 1949256252
   Translate: [-4009.45312, 358.744965, 1560.0979]
   UnitConfigName: MoveTriggerTag
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x82ae306b
-  LinksToObj:
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x0f9fc449}
-  SRTHash: -1115340596
-  Translate: [-4186.09375, 444.086243, 1471.43225]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0x83632cc6
   Rotate: -2.20000005
   SRTHash: 1075896066
@@ -4788,19 +4631,6 @@ Objs:
   SRTHash: -43674442
   Translate: [-4657.5, 129.190002, 1957.51001]
   UnitConfigName: FldObj_DesertRuin_A_14
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x886b3972
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x1aa2ab4a
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0xc08b3716
-  Rotate: [-1.14762747, 0.252161205, 0.387289345]
-  SRTHash: 1751023574
-  Translate: [-4187.09375, 439.586243, 1471.43225]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0x899325e7
   Rotate: [3.06058121, -0.788146853, -2.83013439]
   SRTHash: -928437756
@@ -4836,17 +4666,6 @@ Objs:
   SRTHash: 1378068233
   Translate: [-4597.9751, 626.897827, 1223.3429]
   UnitConfigName: FldObj_GerudoHighlandRock_C_01
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0x8af8be0d
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x4652be93
-  Rotate: 0.860000134
-  SRTHash: 231680722
-  Scale: 12.0
-  Translate: [-4685.62012, 165.609467, 1969.0094]
-  UnitConfigName: Area
 - HashId: !u 0x8b4582ce
   SRTHash: 0
   Translate: [-4438.51172, 634.006348, 1083.45752]
@@ -4896,15 +4715,6 @@ Objs:
   SRTHash: 1509740218
   Translate: [-4004.45142, 586.951843, 1130.60156]
   UnitConfigName: FldObj_GerudoHighlandRock_A_02
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x8c5c1fa0
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x437e7c35
-  SRTHash: 0
-  Translate: [-4205.68994, 444.913605, 1464.40967]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x8cb2b2e2
   LinksToObj:
@@ -4943,18 +4753,6 @@ Objs:
   SRTHash: 1520665538
   Translate: [-4379.03906, 546.026733, 1384.13354]
   UnitConfigName: FldObj_GerudoHighlandRock_A_02_Far
-- '!Parameters': {ActorName: FldObj_KorokStoneLift_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0x8e733c8e
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xee2f89c5}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x4a64713e
-  Rotate: -1.9799993
-  SRTHash: 1933942687
-  Translate: [-4205.36133, 442.913605, 1464.27979]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0x8ef96d27
   Rotate: 0.219999954
   SRTHash: -1447555604
@@ -5060,17 +4858,6 @@ Objs:
   SRTHash: 1047730098
   Translate: [-4689.1001, 129.289993, 1984.81006]
   UnitConfigName: FldObj_DesertRuin_A_14
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, PulseLength: 5, SaveFlagOnOffType: 0}
-  HashId: !u 0x907d8f86
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x5b215c23
-  Rotate: [2.90557504, -0.542892396, -2.9568274]
-  SRTHash: -182953672
-  Scale: 0.25
-  Translate: [-4553.13379, 624.117126, 1353.8562]
-  UnitConfigName: LinkTagPulse
 - HashId: !u 0x908d5f89
   LinksToObj:
   - {DefinitionName: Reference, DestUnitHashId: !u 0x36fa543d}
@@ -5882,27 +5669,6 @@ Objs:
   SRTHash: 810731311
   Translate: [-4300.73242, 597.465149, 1083.18091]
   UnitConfigName: Enemy_Moriblin_Senior
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
-  HashId: !u 0xa768c784
-  LinksToObj:
-  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0xc73472cf}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x1aa2ab4a
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x1067a253}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x33b95040}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x97f2a8bb}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xee2f89c5}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x4e0430f5
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x82ae306b
-  Rotate: -1.96159101
-  SRTHash: 1825234782
-  Translate: [-4180.57715, 442.862213, 1481.9314]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {ArrowName: NormalArrow, EquipItem1: Weapon_Bow_027, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
     LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xa7856ee2
@@ -6230,18 +5996,6 @@ Objs:
   SRTHash: 1132972252
   Translate: [-4686.08984, 160.470001, 1967.56006]
   UnitConfigName: FldObj_BoneGiant_BackBone_A_01_Far
-- '!Parameters': {ActorName: FldObj_KorokStoneLift_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0xb0827d8e
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x97f2a8bb}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x4a64713e
-  Rotate: -1.9799993
-  SRTHash: 1169358776
-  Translate: [-4205.56006, 442.913605, 1464.73853]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0xb0ac7ab2
   Rotate: [-0.931202948, -0.222983599, -0.224869505]
   SRTHash: 866214781
@@ -6370,17 +6124,6 @@ Objs:
   SRTHash: -709040617
   Translate: [-4193.97852, 533.486206, 1287.02747]
   UnitConfigName: LinkTagOr
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0xb4e21ee7
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x5b215c23
-  Rotate: [2.90557504, -0.542892396, -2.9568274]
-  SRTHash: -105676283
-  Scale: 3.0
-  Translate: [-4552.29248, 624.274536, 1353.3396]
-  UnitConfigName: Area
 - HashId: !u 0xb4f30c57
   Rotate: [-0.211358234, 0.874605775, 0.0899838358]
   SRTHash: -821474249
@@ -6838,18 +6581,6 @@ Objs:
   SRTHash: 1445814597
   Translate: [-4442.69287, 654.017883, 1085.11035]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xc08b3716
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x0f9fc449
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x4e0430f5
-  SRTHash: 2075583769
-  Translate: [-4186.09375, 442.148743, 1471.43225]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0xc08d90f9
   SRTHash: 1509740218
   Translate: [-4004.45142, 586.951843, 1130.60156]
@@ -7055,23 +6786,6 @@ Objs:
   Scale: [2.01871276, 20.642086, 2.01871276]
   Translate: [-4124.42529, 279.873138, 1572.85461]
   UnitConfigName: Area
-- '!Parameters':
-    HiddenKorokBodyColor: 1
-    HiddenKorokLeftPlantType: 2
-    HiddenKorokMaskType: 1
-    HiddenKorokRightPlantType: 0
-    IsAppearCheck: false
-    IsHiddenKorokLiftAppear: false
-    IsInvisibleKorok: false
-    KorokEventStartWaitFrame: 45
-    PlacementType: Ground
-    RailMoveSpeed: 0.100000001
-    TerritoryArea: 0.0
-  HashId: !u 0xc73472cf
-  Rotate: -1.96159101
-  SRTHash: 1257283389
-  Translate: [-4180.76758, 440.362213, 1482.3938]
-  UnitConfigName: Npc_HiddenKorokGround
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
   HashId: !u 0xc7464e41
   LinksToObj:
@@ -7164,18 +6878,6 @@ Objs:
   SRTHash: 0
   Translate: [-4077.65405, 304.27536, 1592.96045]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xc8ddb970
-  LinksToObj:
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x8af8be0d}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x4652be93
-  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0x0eb2b0f7}
-  Rotate: 0.860000134
-  SRTHash: -812349416
-  Translate: [-4685.57275, 173.960892, 1970.80518]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0xc934a847
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xfe51e59c}
@@ -7487,17 +7189,6 @@ Objs:
   SRTHash: -2126199512
   Translate: [-4435.67432, 634.006287, 1087.57434]
   UnitConfigName: EnemyLookTag
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 7.0}
-  HashId: !u 0xd0dec8c5
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x8c5c1fa0
-  Rotate: [1.57079637, -1.16159332, 3.14159274]
-  SRTHash: -657272068
-  Scale: 0.5
-  Translate: [-4205.68994, 444.913605, 1464.40967]
-  UnitConfigName: SwitchTimeLag
 - HashId: !u 0xd100936c
   Rotate: 2.70159245
   SRTHash: 167529130
@@ -7554,7 +7245,7 @@ Objs:
     IsMimicry: false
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     OnCliff: false
     OnCliffTurn: true
@@ -8481,16 +8172,6 @@ Objs:
   SRTHash: 866214781
   Translate: [-4133.32861, 546.759033, 1394.25647]
   UnitConfigName: ConstraintDummy
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xec8ea726
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x2d0078e6
-  Rotate: [2.90557504, -0.542892396, -2.9568274]
-  SRTHash: -939776961
-  Translate: [-4552.80859, 625.760376, 1353.91846]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0xec9cc27c
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x6c142084}
@@ -9081,6 +8762,75 @@ Objs:
   SRTHash: -937648005
   Translate: [-4747.4873, 632.726929, 1370.51294]
   UnitConfigName: BattleBgmRequestFinishTag
+- '!Parameters':
+    EquipItem1: Weapon_Sword_009
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffdc35fa
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xa1cf3f24}
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0xcdf0eaa1}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x79e6f67a}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x2345e1ad}
+  Rotate: 1.43785501
+  SRTHash: 1490283990
+  Translate: [-4759.09082, 612.814453, 1360.94922]
+  UnitConfigName: Enemy_Lizalfos_Senior
+- '!Parameters':
+    EquipItem1: Weapon_Lsword_024
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffdc35fb
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xa1cf3f24}
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0xcdf0eaa1}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x79e6f67a}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x2345e1ad}
+  Rotate: -1.76214492
+  SRTHash: 1490283990
+  Translate: [-4770.59814, 614.214478, 1376.47253]
+  UnitConfigName: Enemy_Moriblin_Malice
+- '!Parameters':
+    EquipItem1: Weapon_Sword_009
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffdc35fc
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xa1cf3f24}
+  - {DefinitionName: LifeZero, DestUnitHashId: !u 0xcdf0eaa1}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x79e6f67a}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x2345e1ad}
+  Rotate: -0.762144983
+  SRTHash: 1490283990
+  Translate: [-4748.68457, 612.814453, 1356.922]
+  UnitConfigName: Enemy_Lizalfos_Senior
 Rails:
 - HashId: !u 0x5bb75938
   IsClosed: true

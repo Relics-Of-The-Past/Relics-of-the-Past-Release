@@ -106,15 +106,15 @@ param_root: !list
           IsDeadBurnout: false
           IsMetamorBurnout: false
           IsMatamorFromTg: true
-          Burnable: false
-          BurnDamage: 0
+          Burnable: true
+          BurnDamage: -25
           BurnDamage2: -1
-          BurnDamage3: -1
+          BurnDamage3: -10
           BurnDamage4: -1
           BurnDamage5: -1
-          BurnTime: 0
-          BurnDamageInterval: 0
-          BurnContinuousDamage: 0
+          BurnTime: 1200
+          BurnDamageInterval: 10
+          BurnContinuousDamage: -10
           BurnCritical: false
           ProofBurnAtSmallDamage: false
           IsDeadIce: false

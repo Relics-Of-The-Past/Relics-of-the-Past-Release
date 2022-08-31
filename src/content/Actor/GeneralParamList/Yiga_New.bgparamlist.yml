@@ -35,16 +35,16 @@ param_root: !list
       StatusChangeFlag: ''
       ChangeLife: -1.0
     EnemyLevel: !obj
-      IsAvoidDanger: false
+      IsAvoidDanger: true
       IsGuardArrow: true
       IsHideArrowAttack: true
       IsSwiftAttack: true
       IsBackSwiftAttack: true
       IsCounterAttack: true
       IsEscapeBomb: true
-      IsKickBomb: false
-      IsShootBomb: false
-      IsThrowWeapon: false
+      IsKickBomb: true
+      IsShootBomb: true
+      IsThrowWeapon: true
       GuardPer: 25
       IsJustGuard: false
     EnemyRace: !obj
@@ -97,7 +97,7 @@ param_root: !list
       Impulse: 0
       ImpulseLarge: 0
       Range: 35.0
-      GuardBreakPower: 28
+      GuardBreakPower: 60
       SpHitActor: ''
       SpHitTag: ''
       SpHitRatio: 2.0

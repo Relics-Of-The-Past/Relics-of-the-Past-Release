@@ -4434,22 +4434,6 @@ Objs:
   SRTHash: -1498554001
   Translate: [982.624023, 298.453674, -1746.34766]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- '!Parameters':
-    ArrowName: NormalArrow
-    DropTable: Normal
-    EquipItem1: Weapon_Sword_060
-    EquipItem2: Default
-    EquipItem3: Default
-    EquipItem4: Default
-    IsNearCreate: false
-    LevelSensorMode: 1
-    NearCreateAppearID: 0
-    SharpWeaponJudgeType: 0
-    TerritoryArea: 0.0
-  HashId: !u 0x6b405652
-  SRTHash: 175652432
-  Translate: [876.035706, 260.0, -1578.67432]
-  UnitConfigName: Enemy_Wizzrobe_Fire
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x6b503aae
   Rotate: 2.15599918
@@ -10811,8 +10795,8 @@ Objs:
     WaitTime: 1.0
   HashId: !u 0xffa6f7b8
   SRTHash: 0
-  Translate: [656.675415, 280.092285, -1887.7605]
-  UnitConfigName: Enemy_Lizalfos_Bone_Junior_AllDay
+  Translate: [657.209961, 280.092285, -1886.71228]
+  UnitConfigName: Enemy_Lizalfos_Malice
 - '!Parameters': {EquipItem1: Weapon_Lsword_024, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xffa6f7a2
@@ -10920,7 +10904,7 @@ Objs:
     FortressEatPer: -1
     IsNearCreate: false
     IsWatchKeeping: true
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     RotAngle: 0.0
     SharpWeaponJudgeType: 3
     TerritoryArea: 0.0
@@ -10935,8 +10919,8 @@ Objs:
   HashId: !u 0xffa6f7f8
   Rotate: 3.0
   SRTHash: 0
-  Translate: [843.661499, 284.968689, -1941.43689]
-  UnitConfigName: Enemy_Lizalfos_Dark
+  Translate: [843.645447, 284.968689, -1941.44885]
+  UnitConfigName: Enemy_Lizalfos_Gold_Volcano
 - HashId: !u 0xffa6f7fb
   SRTHash: 0
   Translate: [645.368896, 289.900421, -1896.33972]
@@ -10952,4 +10936,22 @@ Objs:
   SRTHash: 0
   Translate: [851.660034, 284.968689, -1942.62195]
   UnitConfigName: Enemy_Lizalfos_Dark
+- HashId: !u 0xfffb1d97
+  Rotate: -1.0
+  SRTHash: 0
+  Scale: 1.5
+  Translate: [510.828552, 274.985352, -1948.68762]
+  UnitConfigName: PutRupee_Gold
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffa6f7ee
+  Rotate: [0.0199911334, -2.0, -0.000595471181]
+  SRTHash: 0
+  Translate: [974.656616, 282.491241, -1628.82104]
+  UnitConfigName: Enemy_Guardian_B
+- '!Parameters': {DropActor: Item_Enemy_31, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xffa6f7fa
+  Rotate: 1.5999999
+  SRTHash: -1709674313
+  Translate: [659.713257, 279.727295, -1971.21484]
+  UnitConfigName: TBox_Dungeon_Iron
 Rails: []

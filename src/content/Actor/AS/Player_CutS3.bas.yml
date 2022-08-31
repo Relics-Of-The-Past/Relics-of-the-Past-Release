@@ -376,7 +376,7 @@ param_root: !list
           objects:
             Parameters: !obj
               TypeIndex: 67
-              FileName: !str64 Sword_Attack_S3
+              FileName: !str64 Sword_Blunt_Attack_S3
               Morph: 0.0
           lists:
             Extend: !list
@@ -384,7 +384,8 @@ param_root: !list
               lists:
                 FrameCtrl: !list
                   objects:
-                    FrameCtrl0: !obj {}
+                    FrameCtrl0: !obj
+                      Rate: 1.20000005
                   lists: {}
                 TriggerEvents: !list
                   objects:
@@ -438,7 +439,7 @@ param_root: !list
           objects:
             Parameters: !obj
               TypeIndex: 67
-              FileName: !str64 Sword_Attack_S3_Advance
+              FileName: !str64 Sword_Blunt_Attack_S3
               Morph: 0.0
           lists:
             Extend: !list
@@ -446,7 +447,8 @@ param_root: !list
               lists:
                 FrameCtrl: !list
                   objects:
-                    FrameCtrl0: !obj {}
+                    FrameCtrl0: !obj
+                      Rate: 1.20000005
                   lists: {}
                 TriggerEvents: !list
                   objects:

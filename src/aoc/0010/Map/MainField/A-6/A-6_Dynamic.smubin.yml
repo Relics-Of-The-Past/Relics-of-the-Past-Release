@@ -3087,8 +3087,8 @@ Objs:
   UnitConfigName: Obj_LiftRockWhite_Korok_A_01
 - HashId: !u 0xd8412bb5
   SRTHash: 1168004286
-  Scale: [20.0, 55.0, 20.0]
-  Translate: [-4318.05615, 492.497345, 1194.42334]
+  Scale: [20.0, 60.0, 20.0]
+  Translate: [-4317.97949, 503.897339, 1194.37744]
   UnitConfigName: AscendingCurrent
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xd8bdbc9c
@@ -3459,7 +3459,7 @@ Objs:
   Scale: 1.02197301
   Translate: [-4392.52734, 618.748596, 1006.45703]
   UnitConfigName: Obj_Plant_HopBush_C_Snow_01
-- '!Parameters': {DropActor: Weapon_Lsword_029, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Lsword_015, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 3}
   HashId: !u 0xf4037e04
   Rotate: [2.77220249, -0.0811144039, -3.02939916]
   SRTHash: 56417655

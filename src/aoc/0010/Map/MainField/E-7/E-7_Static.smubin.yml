@@ -2302,16 +2302,6 @@ Objs:
   Scale: 2.0
   Translate: [-5.32638836, 143.3806, 2579.03125]
   UnitConfigName: Area
-- '!Parameters': {EventFlowEntryName: Appear, EventFlowName: Npc_King_Parasail005, IsEndlessEvent: false, LaunchEventByOffSignal: false,
-    LaunchEventByOnSignal: true}
-  HashId: !u 0x35313bd1
-  LinksToObj:
-  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x56e10eeb}
-  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xb9345490}
-  Rotate: 2.3561945
-  SRTHash: 854147102
-  Translate: [-925.030029, 272.839661, 2306.12891]
-  UnitConfigName: EventTag
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x356b7aee
   SRTHash: -1241495308
@@ -2932,17 +2922,6 @@ Objs:
   SRTHash: 964883808
   Translate: [-31.7100525, 233.0, 2950.68042]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {EventFlowEntryName: Appear, EventFlowName: Npc_King_Parasail004, IsEndlessEvent: false, LaunchEventByOffSignal: false,
-    LaunchEventByOnSignal: true}
-  HashId: !u 0x42360b47
-  LinksToObj:
-  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x71d94520}
-  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x7a18148c}
-  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xf3534db6}
-  Rotate: -2.3561945
-  SRTHash: 192140693
-  Translate: [-925.030029, 272.8396, 2306.229]
-  UnitConfigName: EventTag
 - '!Parameters':
     AutoSave: false
     CalcMarginXMinus: 10.0
@@ -3805,14 +3784,6 @@ Objs:
   SRTHash: 1169358776
   Translate: [-468.392365, 98.2717819, 2908.03833]
   UnitConfigName: ActorObserverTag
-- '!Parameters': {TerritoryArea: 0.0}
-  HashId: !u 0x56e10eeb
-  LinksToObj:
-  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xb9345490}
-  Rotate: 1.74845553e-07
-  SRTHash: -1280024079
-  Translate: [-925.030029, 272.839661, 2306.12891]
-  UnitConfigName: Npc_King_Parasail005
 - HashId: !u 0x5703e700
   Rotate: [-0.519999981, -0.779999912, 0.0]
   SRTHash: 1116202575
@@ -5016,18 +4987,6 @@ Objs:
   Scale: 0.992475629
   Translate: [-6.54263306, 160.072098, 2840.05249]
   UnitConfigName: FldObj_RockDislocation_D_01_Far
-- '!Parameters':
-    TerritoryArea: 0.0
-    TraversePos: {X: -922.0, Y: 272.929291, Z: 2304.0}
-    TraverseRadiusXZ: 0.0
-  HashId: !u 0x71d94520
-  LinksToObj:
-  - {DefinitionName: Reference, DestUnitHashId: !u 0xbbce8930}
-  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xf3534db6}
-  Rotate: 1.74845553e-07
-  SRTHash: -141589968
-  Translate: [-925.030029, 272.8396, 2306.229]
-  UnitConfigName: Npc_King_Parasail004
 - HashId: !u 0x720674c0
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xc44ae23c}
@@ -8289,7 +8248,7 @@ Objs:
   UnitConfigName: FldObj_RockDislocation_D_01_Far
 - HashId: !u 0xb9345490
   SRTHash: 0
-  Translate: [-925.030029, 272.839661, 2306.12891]
+  Translate: [-925.010193, 272.839661, 2306.13135]
   UnitConfigName: LinkTagNone
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
   HashId: !u 0xb961fa01

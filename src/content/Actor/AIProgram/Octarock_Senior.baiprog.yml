@@ -1807,7 +1807,7 @@ param_root: !list
               GroupName: ふっとび
             SInst: !obj
               RotSpeed: 0.52359879
-              Speed: 9.99999975e-06
+              Speed: 0.0
               BlownHeight: 1.0
               PosReduceRatio: 0.949999988
               RotReduceRatio: 0.5
@@ -2291,13 +2291,13 @@ param_root: !list
               ClassName: !str32 SmallDamage
               GroupName: リアクション
             SInst: !obj
-              VelReduce: 0.720000029
+              VelReduce: 0.0500000007
               HitImpactForceSmallSwordS: 0.0860000029
-              HitImpactForceSmallSwordL: 0.119999997
-              HitImpactForceLargeSwordS: 0.119999997
-              HitImpactForceLargeSwordL: 0.159999996
-              HitImpactForceSpearS: 0.419999987
-              HitImpactForceSpearL: 2.27999997
+              HitImpactForceSmallSwordL: 0.0500000007
+              HitImpactForceLargeSwordS: 0.0500000007
+              HitImpactForceLargeSwordL: 0.0500000007
+              HitImpactForceSpearS: 0.0500000007
+              HitImpactForceSpearL: 0.0500000007
               HighSpeedY: -1.0
               VelReduceY: 0.0
           lists: {}

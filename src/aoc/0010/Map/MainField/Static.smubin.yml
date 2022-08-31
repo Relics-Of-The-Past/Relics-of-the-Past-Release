@@ -19961,16 +19961,6 @@ NonAutoGenArea:
   RotateY: 0.0
   Scale: {X: 5.0, Y: 5.0, Z: 5.0}
   Shape: Sphere
-  Translate: {X: -942.782593, Y: 224.748001, Z: 1879.69165}
-- EnableAutoFlower: false
-  RotateY: 0.0
-  Scale: {X: 5.0, Y: 5.0, Z: 5.0}
-  Shape: Sphere
-  Translate: {X: -942.782593, Y: 224.748001, Z: 1879.69165}
-- EnableAutoFlower: false
-  RotateY: 0.0
-  Scale: {X: 5.0, Y: 5.0, Z: 5.0}
-  Shape: Sphere
   Translate: {X: -544.200012, Y: 183.241577, Z: 1877.80005}
 - EnableAutoFlower: false
   RotateY: 0.0
@@ -31276,28 +31266,6 @@ NonAutoPlacement:
   NonAutoPlacementMaterial: true
   NonEnemySearchPlayer: true
   RotateY: -0.0
-  Scale: {X: 30.0, Y: 30.0, Z: 30.0}
-  Shape: Sphere
-  Translate: {X: -940.0, Y: 186.0, Z: 1873.0}
-- NonAutoPlacementAnimal: true
-  NonAutoPlacementBird: true
-  NonAutoPlacementEnemy: false
-  NonAutoPlacementFish: true
-  NonAutoPlacementInsect: true
-  NonAutoPlacementMaterial: true
-  NonEnemySearchPlayer: true
-  RotateY: -0.0
-  Scale: {X: 10.0, Y: 10.0, Z: 10.0}
-  Shape: Sphere
-  Translate: {X: -954.0, Y: 215.0, Z: 1879.0}
-- NonAutoPlacementAnimal: false
-  NonAutoPlacementBird: false
-  NonAutoPlacementEnemy: false
-  NonAutoPlacementFish: false
-  NonAutoPlacementInsect: false
-  NonAutoPlacementMaterial: true
-  NonEnemySearchPlayer: true
-  RotateY: -0.0
   Scale: {X: 35.0, Y: 35.0, Z: 35.0}
   Shape: Sphere
   Translate: {X: -907.0, Y: 150.0, Z: 1675.0}
@@ -38027,6 +37995,14 @@ StartPos:
   PosName: HyruleCastleExit
   Rotate: {X: 0.0, Y: 0.0, Z: 0.0}
   Translate: {X: -254.0, Y: 140.602692, Z: -544.648438}
+- Map: E-4
+  PosName: LynelFight_StartPoint
+  Rotate: {X: 0.0, Y: 0.0, Z: 0.0}
+  Translate: {X: -254.0, Y: 192.0, Z: -1061.5}
+- Map: E-4
+  PosName: InnerSanctum_ExitPoint
+  Rotate: {X: 0.0, Y: 0.0, Z: 0.0}
+  Translate: {X: -254.0, Y: 295.0, Z: -1061.5}
 - Map: E-4
   PlayerState: Wait
   PosName: StartPos_CDungeon074
