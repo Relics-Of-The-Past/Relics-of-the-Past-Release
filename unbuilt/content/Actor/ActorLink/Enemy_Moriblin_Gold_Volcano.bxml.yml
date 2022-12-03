@@ -1,0 +1,50 @@
+!io
+version: 0
+type: xml
+param_root: !list
+  objects:
+    LinkTarget: !obj
+      ActorNameJpn: 黄金モリブリン
+      Priority: Default
+      AIProgramUser: Moriblin_Volcano
+      AIScheduleUser: Moriblin
+      ASUser: Moriblin_Senior
+      AttentionUser: Moriblin_Blue
+      AwarenessUser: Moriblin
+      BoneControlUser: Moriblin
+      ActorCaptureUser: Dummy
+      ChemicalUser: Enemy_Moriblin_Volcano
+      DamageParamUser: Enemy_Moriblin_Gold_Volcano
+      DropTableUser: Enemy_Moriblin_Gold_Volcano
+      ElinkUser: Moriblin
+      GParamUser: Enemy_Moriblin_Gold_Volcano
+      LifeConditionUser: Enemy
+      LODUser: EnemyNoCalcSkip
+      ModelUser: Enemy_Moriblin_Gold_Volcano
+      PhysicsUser: Moriblin_Volcano
+      ProfileUser: Enemy
+      RgBlendWeightUser: Moriblin
+      RgConfigListUser: Moriblin_Blue
+      RecipeUser: Dummy
+      ShopDataUser: Dummy
+      SlinkUser: Moriblin
+      UMiiUser: Dummy
+      XlinkUser: Biped_Enemy
+      AnimationInfo: Dummy
+      ActorScale: 1.0
+    Tags: !obj
+      Tag0: IgnoreBoundingAtAreaCulling
+      Tag1: RevivalBloodyMoon
+      Tag2: StopTimerShort
+      Tag3: ZukanEnemy
+      Tag4: ZukanBoss
+      Tag5: ZukanDLCOnly
+      Tag6: ZukanHardModeOnly
+      Tag7: EnemyMidsize
+      Tag8: AcceptSilentKill
+      Tag9: EnemyHornTarget
+      Tag10: BeeTarget
+      Tag11: TeamMoriblin
+    1115720914: !obj
+      Tag0: FitTerrain
+  lists: {}

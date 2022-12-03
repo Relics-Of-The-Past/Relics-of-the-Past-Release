@@ -1,0 +1,32 @@
+aabbMax: {X: 0.894623995, Y: 2.41542006, Z: 0.876026988}
+aabbMin: {X: -0.885344982, Y: -0.0158309992, Z: -1.21889997}
+attackPower: 10
+bfres: Enemy_Octarock
+boundingForTraverse: 2.43125105
+bugMask: 3
+cursorOffsetY: 2.3499999
+drops:
+  Normal: [Item_Enemy_21]
+  Normal2: [Item_Enemy_20, Item_Enemy_57, LocalSeafood]
+elink: Octarock
+enemyRank: 5
+generalLife: 8
+homeArea:
+- {name: EldinCanyon}
+- {name: GerudoHighlands}
+- {name: EldinMountains}
+instSize: 203904
+mainModel: Octarock
+name: Enemy_Octarock_Stone
+pictureBookLiveSpot1: -1
+pictureBookLiveSpot2: -1
+pictureBookSpecialDrop: -1
+profile: Enemy
+rigidBodyCenterY: 0.684275985
+slink: Enemy_Octarock_Stone
+sortKey: 302
+systemIsGetItemSelf: false
+systemSameGroupActorName: ''
+tags: {tag00336c07: 3369991, tag35960905: 899025157, tag5f20e8b5: 1595992245, tag994aef4b: !u 0x994aef4b, tagaf85ec67: !u 0xaf85ec67,
+  tagb0c9e79a: !u 0xb0c9e79a}
+yLimitAlgorithm: NoLimit

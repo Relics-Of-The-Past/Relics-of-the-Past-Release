@@ -1,0 +1,45 @@
+aabbMax: {X: 3.44970989, Y: 5.40150976, Z: 2.46932006}
+aabbMin: {X: -3.35235, Y: -0.00339199998, Z: -3.08593011}
+animalUnitBasePlayRate: 1.0
+attackPower: 15
+bfres: Enemy_Lynel
+boundingForTraverse: 5.40490198
+bugMask: 3
+cursorOffsetY: 1.14999998
+drops:
+  Normal: [Item_Enemy_14]
+  Normal2: [Item_Enemy_13]
+  Normal3: [Item_Enemy_12]
+elink: Enemy_Lynel
+enemyRank: 30
+generalLife: 2000
+horseUnitRiddenAnimalType: 8
+instSize: 471588
+mainModel: Lynel
+name: Enemy_Lynel_Junior_Mountain
+pictureBookLiveSpot1: -1
+pictureBookLiveSpot2: -1
+pictureBookSpecialDrop: -1
+profile: Enemy
+rigidBodyCenterY: 1.0
+slink: Lynel
+sortKey: -1
+systemIsGetItemSelf: false
+systemSameGroupActorName: Enemy_Lynel_Junior
+tags:
+  tag27b417c1: 666113985
+  tag35960905: 899025157
+  tag42766900: 1115056384
+  tag485bf81d: 1213986845
+  tag5aa0d024: 1520488484
+  tag5de4ff3b: 1575288635
+  tag6b3d3141: 1799172417
+  tag82ed5778: !u 0x82ed5778
+  tag921c2372: !u 0x921c2372
+  tag994aef4b: !u 0x994aef4b
+  tagb0c9e79a: !u 0xb0c9e79a
+  tagf2e5b2f2: !u 0xf2e5b2f2
+  tagf97d1393: !u 0xf97d1393
+traverseDist: 300.0
+xlink: Lynel
+yLimitAlgorithm: LimitYDiff

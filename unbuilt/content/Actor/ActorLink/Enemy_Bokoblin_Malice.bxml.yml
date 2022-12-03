@@ -1,0 +1,50 @@
+!io
+version: 0
+type: xml
+param_root: !list
+  objects:
+    LinkTarget: !obj
+      ActorNameJpn: 黄金ボコブリン
+      Priority: Default
+      AIProgramUser: Bokoblin_Malice
+      AIScheduleUser: Bokoblin
+      ASUser: Bokoblin
+      AttentionUser: Bokoblin
+      AwarenessUser: MaliceBoko
+      BoneControlUser: Bokoblin
+      ActorCaptureUser: Dummy
+      ChemicalUser: MaliceBokoblin
+      DamageParamUser: Enemy_Bokoblin_Malice
+      DropTableUser: Enemy_Bokoblin_Malice
+      ElinkUser: Bokoblin_Red
+      GParamUser: Enemy_Bokoblin_Malice
+      LifeConditionUser: Enemy
+      LODUser: EnemyNoCalcSkip
+      ModelUser: Enemy_Bokoblin_Malice
+      PhysicsUser: Bokoblin
+      ProfileUser: Enemy
+      RgBlendWeightUser: Bokoblin
+      RgConfigListUser: Bokoblin
+      RecipeUser: Dummy
+      ShopDataUser: Dummy
+      SlinkUser: Bokoblin_Red
+      UMiiUser: Dummy
+      XlinkUser: Biped_Enemy
+      AnimationInfo: Dummy
+      ActorScale: 1.0
+    Tags: !obj
+      Tag0: IgnoreBoundingAtAreaCulling
+      Tag1: RevivalBloodyMoon
+      Tag2: StopTimerShort
+      Tag3: ZukanEnemy
+      Tag4: ZukanBoss
+      Tag5: ZukanDLCOnly
+      Tag6: ZukanHardModeOnly
+      Tag7: AcceptSilentKill
+      Tag8: EnemyHornTarget
+      Tag9: BeeTarget
+      Tag10: HorseRider
+      Tag11: TeamBokoblin
+    1115720914: !obj
+      Tag0: FitTerrain
+  lists: {}

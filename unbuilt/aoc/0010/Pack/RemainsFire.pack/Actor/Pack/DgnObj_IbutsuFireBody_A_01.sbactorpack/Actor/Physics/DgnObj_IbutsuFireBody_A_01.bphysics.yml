@@ -1,0 +1,442 @@
+!io
+version: 0
+type: xml
+param_root: !list
+  objects: {}
+  lists:
+    ParamSet: !list
+      objects:
+        1258832850: !obj
+          use_rigid_body_set_num: 3
+          use_ragdoll: false
+          use_cloth: false
+          use_support_bone: false
+          use_character_controller: false
+          use_contact_info: true
+          use_edge_rigid_body_num: 0
+          use_system_group_handler: true
+      lists:
+        RigidContactInfo: !list
+          objects:
+            3387849585: !obj
+              contact_point_info_num: 1
+              collision_info_num: 1
+            ContactPointInfo_0: !obj
+              name: !str32 General
+              type: !str32 InDoor
+              num: 128
+            CollisionInfo_0: !obj
+              name: !str32 General
+              type: !str32 InDoor
+          lists: {}
+        RigidBodySet: !list
+          objects: {}
+          lists:
+            RigidBodySet_0: !list
+              objects:
+                4288596824: !obj
+                  set_name: !str32 Body
+                  type: !str32 from_resource
+                  num: 10
+                  setup_file_path: !str256 DgnObj_IbutsuFire_A/DgnObj_IbutsuFireBody_A_01.hkrb
+              lists:
+                RigidBody_0: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Body_RigidBody_Box_g
+                      mass: 1.0
+                      inertia: !vec3 [1242.15198, 1461.13599, 370.090698]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 18941.4375
+                      toi: true
+                      center_of_mass: !vec3 [0.334324002, 6.02854109, -3.20433807]
+                      bounding_center: !vec3 [0.0, 18.4124451, -1.99901605]
+                      bounding_extents: !vec3 [80.4000015, 64.4751129, 135.578781]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: false
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+                882113641: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Body_RigidBody_Capsule_g
+                      mass: 1.0
+                      inertia: !vec3 [678.345276, 689.739807, 15.6266899]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 558.55365
+                      toi: true
+                      center_of_mass: !vec3 [-0.381112009, 19.2780876, 7.33768177]
+                      bounding_center: !vec3 [-8.14048004, 10.2840004, 4.96548796]
+                      bounding_extents: !vec3 [31.1809616, 20.9939003, 91.030983]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: false
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+                2912595411: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Body_RigidBody_Cylinder_g
+                      mass: 1.0
+                      inertia: !vec3 [754.438782, 1360.84094, 769.790283]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 19346.2969
+                      toi: true
+                      center_of_mass: !vec3 [-6.12594414, -3.73613095, -6.39708996]
+                      bounding_center: !vec3 [0.0, 13.9287081, -4.38500023]
+                      bounding_extents: !vec3 [80.0, 54.5574188, 132.169998]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: false
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+                3667762501: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Body_RigidBody_HitLiving_Box_g
+                      mass: 1.0
+                      inertia: !vec3 [0.411040992, 0.606873989, 0.862498999]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 2.79999995
+                      toi: true
+                      center_of_mass: !vec3 [17.6602688, 10.0, -23.1004448]
+                      bounding_center: !vec3 [17.8250008, 10.0, -23.375]
+                      bounding_extents: !vec3 [2.3499999, 2.0, 1.25]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Arrow,AttackHitEnemy,AttackHitPlayer,Bomb,Camera,CameraBody,Giant,Grudge,HitAll,IK,LineOfSight,Magnet,MovingTrolley
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+                1157171430: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Body_RigidBody_Hull_g
+                      mass: 1.0
+                      inertia: !vec3 [1165.12305, 1520.91699, 599.377991]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 66638.5
+                      toi: true
+                      center_of_mass: !vec3 [1.240062, 2.57457399, -4.48487377]
+                      bounding_center: !vec3 [-0.00080899999, 16.2861824, -3.64255095]
+                      bounding_extents: !vec3 [91.1433029, 64.5875549, 141.446777]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: false
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+                872298608: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Body_RigidBody_ladder_Mesh_g
+                      mass: 1.0
+                      inertia: !vec3 [7.5083189, 0.317387998, 7.82467985]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 0.185445994
+                      toi: true
+                      center_of_mass: !vec3 [-21.5749969, 12.7867994, 49.758152]
+                      bounding_center: !vec3 [-21.5750008, 12.6674576, 49.8775024]
+                      bounding_extents: !vec3 [1.94999695, 9.26508331, 0.244994998]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+                2868341194: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Body_RigidBody_Mesh_g
+                      mass: 1.0
+                      inertia: !vec3 [1978.62598, 1929.42505, 474.1073]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 200.380234
+                      toi: true
+                      center_of_mass: !vec3 [-2.02002907, 21.2069836, 1.37020707]
+                      bounding_center: !vec3 [-0.0249940008, 21.158638, -3.94999695]
+                      bounding_extents: !vec3 [76.2499924, 87.6172791, 141.399994]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+                3723516252: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Body_RigidBody_Sphere_g
+                      mass: 1.0
+                      inertia: !vec3 [772.520874, 772.520874, 2.5]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 392.699036
+                      toi: true
+                      center_of_mass: !vec3 [0.227045, 19.5, 0.0]
+                      bounding_center: !vec3 [0.227045, 19.5, 0.0]
+                      bounding_extents: !vec3 [5.0, 5.0, 84.4000015]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: false
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+                1297040589: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Body_RigidBody_wireNet_Box_g
+                      mass: 1.0
+                      inertia: !vec3 [2.54854107, 2.12354088, 4.34541607]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 36.3264961
+                      toi: true
+                      center_of_mass: !vec3 [7.0250001, 8.22500038, -38.8500023]
+                      bounding_center: !vec3 [7.0250001, 8.22500038, -38.8500023]
+                      bounding_extents: !vec3 [4.84999895, 5.34999895, 1.400002]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Magnet,Bomb,Arrow
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+                977826907: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Body_RigidBody_wireNet_Hull_g
+                      mass: 1.0
+                      inertia: !vec3 [1045.34094, 1104.60205, 94.9942169]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 420.486572
+                      toi: true
+                      center_of_mass: !vec3 [-1.41566396, 8.36696339, -20.7319241]
+                      bounding_center: !vec3 [1.00840902, 9.79191113, -7.07879305]
+                      bounding_extents: !vec3 [31.8581848, 16.418642, 100.201958]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Bomb,Magnet,Arrow
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+            RigidBodySet_1: !list
+              objects:
+                4288596824: !obj
+                  set_name: !str32 GeneralSensor
+                  type: !str32 from_resource
+                  num: 1
+                  setup_file_path: !str256 DgnObj_IbutsuFire_A/DgnObj_IbutsuFireBody_A_01_InDoor.hkrb
+              lists:
+                RigidBody_0: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Area_Col
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 105113.695
+                      toi: true
+                      center_of_mass: !vec3 [0.126021996, 9.17573166, 0.0398750007]
+                      bounding_center: !vec3 [-1.99999999e-06, 4.05736208, -2.15274]
+                      bounding_extents: !vec3 [63.9272728, 36.0419769, 133.232727]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      layer: !str32 SensorCustomReceiver
+                      receiver_type: !str32 PlayerTargetAreaSensor
+                      link_matrix: ACTOR_MATRIX
+                      link_entity_set: ''
+                      link_entity_body: ''
+                      use_entity_shape: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                      contact_point_info: !str32 General
+                      collision_info: !str32 General
+                  lists: {}
+            RigidBodySet_2: !list
+              objects:
+                4288596824: !obj
+                  set_name: !str32 InDoor
+                  type: !str32 from_resource
+                  num: 1
+                  setup_file_path: !str256 DgnObj_IbutsuFire_A/DgnObj_IbutsuFireBody_A_01_InDoor.hkrb
+              lists:
+                RigidBody_0: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Area_Col
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 105113.695
+                      toi: true
+                      center_of_mass: !vec3 [0.126021996, 9.17573166, 0.0398750007]
+                      bounding_center: !vec3 [-1.99999999e-06, 4.05736208, -2.15274]
+                      bounding_extents: !vec3 [63.9272728, 36.0419769, 133.232727]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      layer: !str32 SensorInDoor
+                      link_matrix: ACTOR_MATRIX
+                      link_entity_set: ''
+                      link_entity_body: ''
+                      use_entity_shape: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}

@@ -1,0 +1,43 @@
+aabbMax: {X: 0.988264978, Y: 2.25640988, Z: 1.09179997}
+aabbMin: {X: -1.01034999, Y: -0.012228, Z: -0.38389501}
+attackPower: 48
+bfres: Enemy_Bokoblin_Gold
+boundingForTraverse: 2.2686379
+bugMask: 3
+cursorOffsetY: 0.600000024
+drops:
+  Normal: [Item_Ore_D, Item_Ore_B, Item_Ore_C, Item_Ore_A]
+  Normal2: [Item_Ore_F, Item_Ore_E, Item_Ore_D, Item_Ore_B, Item_Ore_C, Item_Ore_A]
+  Normal3: [Item_Enemy_02]
+  Normal4: [Item_Enemy_01]
+  Normal5: [Item_Enemy_00]
+elink: Bokoblin_Red
+enemyRank: 40
+generalLife: 2160
+instSize: 469500
+mainModel: Bokoblin_Gold
+name: Enemy_Bokoblin_Gold
+pictureBookLiveSpot1: 21
+pictureBookLiveSpot2: -1
+pictureBookSpecialDrop: -1
+profile: Enemy
+slink: Bokoblin_Red
+sortKey: 505
+systemIsGetItemSelf: false
+systemSameGroupActorName: Enemy_Bokoblin_Gold
+tags:
+  tag33b0a8cc: 867215564
+  tag36565b66: 911629158
+  tag4806038d: 1208353677
+  tag559ef706: 1436481286
+  tag57e2e33f: 1474487103
+  tag6b536bc9: 1800629193
+  tag82ed5778: !u 0x82ed5778
+  tag8fda6cdd: !u 0x8fda6cdd
+  tag994aef4b: !u 0x994aef4b
+  taga7e979db: !u 0xa7e979db
+  tagb0c9e79a: !u 0xb0c9e79a
+  tagf2e5b2f2: !u 0xf2e5b2f2
+traverseDist: 150.0
+xlink: Biped_Enemy
+yLimitAlgorithm: LimitYDiff

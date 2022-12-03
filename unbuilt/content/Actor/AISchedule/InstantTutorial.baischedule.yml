@@ -1,0 +1,10 @@
+ConditionalTimelines:
+- Condition: WM_BloodyDay
+  Nodes: []
+  TriggerEvents:
+  - {EvflEntry: BloodMoon_Notif, IsPauseOtherActors: false, Trigger: EachFrame}
+DefaultTimeline:
+  Nodes: []
+  TriggerEvents:
+  - {EvflEntry: ClearTutorial, IsPauseOtherActors: false, Trigger: EachFrame}
+DisplayDistanceMode: None

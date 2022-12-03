@@ -1,0 +1,226 @@
+!io
+version: 0
+type: xml
+param_root: !list
+  objects: {}
+  lists:
+    ParamSet: !list
+      objects:
+        1258832850: !obj
+          use_rigid_body_set_num: 2
+          use_ragdoll: false
+          use_cloth: false
+          use_support_bone: false
+          use_character_controller: false
+          use_contact_info: false
+          use_edge_rigid_body_num: 0
+          use_system_group_handler: true
+      lists:
+        RigidBodySet: !list
+          objects: {}
+          lists:
+            RigidBodySet_0: !list
+              objects:
+                4288596824: !obj
+                  set_name: !str32 Body
+                  type: !str32 from_resource
+                  num: 5
+                  setup_file_path: !str256 DgnObj_IbutsuWater_A/DgnObj_IbutsuWaterHead_A_01.hkrb
+              lists:
+                RigidBody_0: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Head_RigidBody_Box_g
+                      mass: 1.0
+                      inertia: !vec3 [440.719696, 508.423309, 229.639801]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 1467.55981
+                      toi: true
+                      center_of_mass: !vec3 [0.0, 32.8668785, 1.10219705]
+                      bounding_center: !vec3 [0.0, 29.892128, 12.4918804]
+                      bounding_extents: !vec3 [31.6000004, 35.915741, 68.4837646]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: false
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+                882113641: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Head_RigidBody_Cylinder_g
+                      mass: 1.0
+                      inertia: !vec3 [706.063477, 1462.03296, 915.099426]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 2464.66943
+                      toi: true
+                      center_of_mass: !vec3 [0.00893600006, 0.507782996, 18.1153755]
+                      bounding_center: !vec3 [-0.00455499999, 6.14954185, 19.0690117]
+                      bounding_extents: !vec3 [91.9058609, 37.5960808, 60.6824417]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: false
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+                2912595411: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Head_RigidBody_Hull_g
+                      mass: 1.0
+                      inertia: !vec3 [16.9213791, 73.7740936, 81.6114883]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 100.251534
+                      toi: true
+                      center_of_mass: !vec3 [0.0, 41.9543724, 21.340126]
+                      bounding_center: !vec3 [0.0, 32.5848541, 33.2035217]
+                      bounding_extents: !vec3 [30.5272598, 31.7514801, 24.5343018]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: false
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+                3667762501: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Head_RigidBody_Mesh_g
+                      mass: 1.0
+                      inertia: !vec3 [938.986084, 952.684326, 1248.448]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 652.15332
+                      toi: true
+                      center_of_mass: !vec3 [-0.00286899996, 22.7070808, 8.44948387]
+                      bounding_center: !vec3 [0.0, 21.6627426, 14.6496048]
+                      bounding_extents: !vec3 [120.315529, 104.916061, 69.1992111]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+                1157171430: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Head_RigidBody_Sphere_g
+                      mass: 1.0
+                      inertia: !vec3 [3.76900005, 6.26900005, 2.64400005]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 7.23823118
+                      toi: true
+                      center_of_mass: !vec3 [0.0, 26.7499981, 4.0]
+                      bounding_center: !vec3 [0.0, 26.75, 4.0]
+                      bounding_extents: !vec3 [5.19999981, 1.200001, 6.19999981]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: false
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}
+            RigidBodySet_1: !list
+              objects:
+                4288596824: !obj
+                  set_name: !str32 InDoor
+                  type: !str32 from_resource
+                  num: 1
+                  setup_file_path: !str256 DgnObj_IbutsuWater_A/DgnObj_IbutsuWaterHead_A_01_InDoor.hkrb
+              lists:
+                RigidBody_0: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Area_Col
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 52923.6797
+                      toi: true
+                      center_of_mass: !vec3 [0.0, 29.5465031, 2.43598199]
+                      bounding_center: !vec3 [0.0, 32.8916016, 13.6156569]
+                      bounding_extents: !vec3 [31.532011, 47.7105179, 63.1585541]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      layer: !str32 SensorInDoor
+                      link_matrix: ACTOR_MATRIX
+                      link_entity_set: ''
+                      link_entity_body: ''
+                      use_entity_shape: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}

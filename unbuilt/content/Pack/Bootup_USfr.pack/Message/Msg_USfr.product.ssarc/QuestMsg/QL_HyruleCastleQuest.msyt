@@ -1,0 +1,286 @@
+---
+group_count: 6
+atr1_unknown: 4
+entries:
+  QL_HyruleCastleQuest_Desc:
+    contents:
+      - text: "En arrivant au "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "Château d'Hyrule"
+      - control:
+          kind: reset_colour
+      - text: ",\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Zelda
+      - control:
+          kind: reset_colour
+      - text: " t'a informé que pour\nte rapprocher du "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: fléau Ganon
+      - control:
+          kind: reset_colour
+      - text: " tu\ndevrais d'abord vaincre les deux "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quartiers
+      - control:
+          kind: reset_colour
+      - text: " gardant\nles "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quart. principaux
+      - control:
+          kind: reset_colour
+      - text: "."
+  QL_HyruleCastleQuest_Finish:
+    contents:
+      - text: "En arrivant au "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "Château d'Hyrule"
+      - control:
+          kind: reset_colour
+      - text: ",\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Zelda
+      - control:
+          kind: reset_colour
+      - text: " t'a informée que pour\nte rapprocher du "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: fléau Ganon
+      - control:
+          kind: reset_colour
+      - text: " tu\ndevrais d'abord vaincre les deux "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quartiers
+      - control:
+          kind: reset_colour
+      - text: " gardant\nles "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quart. principaux
+      - control:
+          kind: reset_colour
+      - text: ".\n\n\nAprès avoir obtenu la "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: carte
+      - control:
+          kind: reset_colour
+      - text: ", tu es allé vaincre les deux "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quartiers
+      - control:
+          kind: reset_colour
+      - text: ".\nEnfin, tu es allé détruire "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: Ganon
+      - control:
+          kind: reset_colour
+      - text: ".\nGrâce à la défaite des "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: quartiers
+      - control:
+          kind: reset_colour
+      - text: ", tu savais\ncontourner les sorts\ngardant "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: les quart. principaux
+      - control:
+          kind: reset_colour
+      - text: "."
+  QL_HyruleCastleQuest_Name:
+    contents:
+      - text: "Château d'Hyrule: Libérer Hyrule"
+  QL_HyruleCastleQuest_Step01:
+    contents:
+      - text: "En arrivant au "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "Château d'Hyrule"
+      - control:
+          kind: reset_colour
+      - text: ",\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Zelda
+      - control:
+          kind: reset_colour
+      - text: " t'a informé que pour\nte rapprocher du "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: fléau Ganon
+      - control:
+          kind: reset_colour
+      - text: " tu\ndevrais d'abord vaincre les deux "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quartiers
+      - control:
+          kind: reset_colour
+      - text: " gardant\nles "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quartiers principaux
+      - control:
+          kind: reset_colour
+      - text: ".\n\n\nAprès avoir obtenu la "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: carte
+      - control:
+          kind: reset_colour
+      - text: ", tu es allé vaincre les deux "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quartiers
+      - control:
+          kind: reset_colour
+      - text: ".\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: 0/2 quartiers vaincus
+  QL_HyruleCastleQuest_Step02:
+    contents:
+      - text: "En arrivant au "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "Château d'Hyrule"
+      - control:
+          kind: reset_colour
+      - text: ",\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Zelda
+      - control:
+          kind: reset_colour
+      - text: " t'a informé que pour\nte rapprocher du "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: fléau Ganon
+      - control:
+          kind: reset_colour
+      - text: " tu\ndevrais d'abord vaincre les deux "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quartiers
+      - control:
+          kind: reset_colour
+      - text: " gardant\nles "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quart. principaux
+      - control:
+          kind: reset_colour
+      - text: ".\n\n\nAprès avoir obtenu la "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: carte
+      - control:
+          kind: reset_colour
+      - text: ", tu es allé vaincre les deux "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quartiers
+      - control:
+          kind: reset_colour
+      - text: ".\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: 1/2 quartiers vaincus
+  QL_HyruleCastleQuest_Step03:
+    contents:
+      - text: "En arrivant au "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "Château d'Hyrule"
+      - control:
+          kind: reset_colour
+      - text: ",\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Zelda
+      - control:
+          kind: reset_colour
+      - text: " t'a informé que pour\nte rapprocher du "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: fléau Ganon
+      - control:
+          kind: reset_colour
+      - text: " tu\ndevrais d'abord vaincre les deux "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quartiers
+      - control:
+          kind: reset_colour
+      - text: " gardant\nles "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quart. principaux
+      - control:
+          kind: reset_colour
+      - text: ".\n\n\nAprès avoir obtenu la "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: carte
+      - control:
+          kind: reset_colour
+      - text: ", tu es allé vaincre les deux "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quartiers
+      - control:
+          kind: reset_colour
+      - text: ".\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: 2/2 quartiers vaincus

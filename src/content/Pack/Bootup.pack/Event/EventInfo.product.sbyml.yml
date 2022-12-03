@@ -920,6 +920,9 @@ BalladOfHeroes<Step04_Doushi_Event>:
 BalladOfHeroes<Test01>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
 BalladOfHeroes<Test02>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
 BalladOfHeroes<Test03>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
+BloodyDayCheck<EvilMasterSword_>: {is_timeline: false, mode: Seamless}
+BloodyDayCheck<EvilMasterSword_Awaken>: {is_timeline: false, mode: Seamless}
+BloodyDayCheck<EvilMasterSword_Sleep>: {is_timeline: false, mode: Seamless}
 BloodyMoonRelief<AppearDugeon>:
   child:
   - {entry: DungeonArrival, file: Demo016_0}
@@ -40863,11 +40866,6 @@ Demo681_1<Demo681_1>:
   special_actor_name: none
   sub_timelines:
   - {name: Demo681_1_effect}
-Demo700_0<DecideNewGamePlus>:
-  is_timeline: false
-  mode: Seamless
-  subfile:
-  - {file: GetDemo.bfevfl}
 Demo700_0<Demo700_0>:
   as:
   - {file: Demo700_0-C01-Link-A-0}
@@ -46738,6 +46736,8 @@ InitTalk<InitTalkSell_ReturnArrivalAnchor>: {exist_enable_camera_input: true, is
 InitTalk<InitTalk_Pair>: {exist_enable_camera_input: true, is_timeline: false, mode: Seamless}
 InitTalk<InitTalk_ReturnArrivalAnchor>: {exist_enable_camera_input: true, is_timeline: false, mode: Seamless}
 InitTalk<InitTalk_Trio>: {exist_enable_camera_input: true, is_timeline: false, mode: Seamless}
+InstantTutorial<ClearTutorial>: {is_pause_non_demo_member: false, is_startable_air: true, mode: Seamless}
+InstantTutorial<BloodMoon_Notif>: {is_pause_non_demo_member: false, is_startable_air: true, mode: Seamless}
 Kakariko_Ch_004<Finish_Npc_Kakariko016_Near>: {disable_event_start_interval: true, is_pause_non_demo_member: false, is_timeline: false,
   mode: Seamless}
 Kakariko_Ch_004<Finish_Npc_Kakariko016_Talk>:
@@ -62682,6 +62682,14 @@ OperationGuide<Guide_Throw>: {disable_event_start_interval: true, is_timeline: f
 OperationGuide<Guide_Whiistle>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
 OperationGuide<Guide_amiibo>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
 OperationGuide<Guide_amiibo_f>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
+RelicsEvents700<CombatMusic>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
+RelicsEvents700<CombatPractice>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
+RelicsEvents700<DecideNewGamePlus>:
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: GetDemo.bfevfl}
+RelicsEvents700<ManualBloodyDay>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
 Relief_Landing<After_Relief_Landing_Talk>:
   exist_enable_camera_input: true
   is_timeline: false

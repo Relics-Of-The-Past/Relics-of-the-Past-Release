@@ -1,0 +1,199 @@
+---
+group_count: 11
+atr1_unknown: 4
+entries:
+  "0000":
+    contents:
+      - text: Raffronter les ombres
+  "0001":
+    contents:
+      - text: Explorer les quart. principaux
+  "0002":
+    contents:
+      - text: Oui
+  "0003":
+    contents:
+      - text: Non
+  DecideRefight:
+    contents:
+      - text: "Veux-tu raffronter les boss ou\nexplorer les quart. principaux ?"
+      - control:
+          kind: choice
+          choice_labels:
+            - 0
+            - 1
+          selected_index: 0
+          cancel_index: 2
+          unknown: 6
+  InnerSanctum_Exit:
+    contents:
+      - text: "Es-tu sûr de vouloir quitter\nles quart. principaux ?"
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  IsInvalidEnterSanctum:
+    contents:
+      - text: "Tu dois vaincre les deux quartiers\npour entrer dans les quart. principaux"
+  IsValidEnterSanctum:
+    contents:
+      - text: "Tu as vaincu les deux quartiers,\nce qui n'est pas une chose facile.\n\nMaintenant va! Finis ce que tu as commencé\nil y a 100 ans!"
+  LynelFight_Attempt_Query:
+    contents:
+      - text: "Veux-tu essayer\nle défi des trois Lynels?"
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  LynelFight_PrepMsg:
+    contents:
+      - text: "Que la déesse d'Hylia veille sur toi, qui essaies cette dangereuse épreuve..."
+  LynelFight_QuestInitMsg00:
+    contents:
+      - text: "Tiens-toi là où le roi s'est assis..."
+  LynelFight_QuestInitMsg01:
+    contents:
+      - text: "Une nouvelle épreuve attend, que seul "
+      - control:
+          kind: text_size
+          percent: 125
+      - text: "un vrai "
+      - control:
+          kind: text_size
+          percent: 100
+      - text: "héros\noserait essayer..."
+  LynelFight_QuestInitMsg02:
+    contents:
+      - control:
+          kind: text_size
+          percent: 125
+      - text: CEPENDANT
+      - control:
+          kind: text_size
+          percent: 100
+  LynelFight_QuestInitMsg03:
+    contents:
+      - text: La récompense de ce défi...
+  LynelFight_QuestInitMsg04:
+    contents:
+      - text: Une ancienne relique oubliée...
+  LynelFight_QuestInitMsg05:
+    contents:
+      - text: "Es-tu prêt pour ce défi,\n"
+      - control:
+          kind: text_size
+          percent: 120
+      - text: "Sauveur d'Hyrule"
+  LynelFight_QuestInitMsg06:
+    contents:
+      - control:
+          kind: text_size
+          percent: 125
+      - text: Vainqueur des Ténèbres
+      - control:
+          kind: text_size
+          percent: 100
+      - text: "."
+  LynelFight_SuccessMsg:
+    contents:
+      - text: "Tu as vaincu tant d'ennemis puissants,\ntrès peu ont tenté cette épreuve\net encore moins y ont survécu..."
+  Slate_DownloadMap00:
+    contents:
+      - control:
+          kind: animation
+          name: Activate
+      - text: Installation...
+  Slate_DownloadMap01:
+    contents:
+      - control:
+          kind: animation
+          name: Activate
+      - text: "La carte du château d'Hyrule\na été installée!"
+  TriforceShooting_Init00:
+    contents:
+      - text: "Au coeur du Courage, de la Sagesse,\net de la Force, une flèche file."
+  TriforceShooting_Init01:
+    contents:
+      - text: Prouve ta précision au coeur du château...
+  Zelda_Map_Get00:
+    contents:
+      - text: "Link, cet object est un composant pour\nla tablette Sheikah contenant plus de données de cartes.\nAppelé "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: une unité de localisation antique
+      - control:
+          kind: reset_colour
+      - text: "."
+  Zelda_Map_Get01:
+    contents:
+      - text: "Installe la dans la "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: tablette Sheikah
+      - control:
+          kind: reset_colour
+      - text: " en faisant\nattention à ne pas la casser."
+  Zelda_QuestComplete00:
+    contents:
+      - text: "Tu peux maintenant explorer "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: les quart. principaux
+      - control:
+          kind: reset_colour
+      - text: "\nquand tu le souhaites."
+  Zelda_QuestInit00:
+    contents:
+      - text: "Tu t'es très bien débrouillé dans\nta quête, mais ça devient encore plus dur\nà partir de maintenant."
+  Zelda_QuestInit01:
+    contents:
+      - text: "Afin de se rapprocher du "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: fléau Ganon
+      - control:
+          kind: reset_colour
+      - text: ",\ntu devras vaincre les deux "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: autres quartiers
+      - control:
+          kind: reset_colour
+      - text: "\ngardant les "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: quartiers principaux
+      - control:
+          kind: reset_colour
+      - text: "."
+  Zelda_QuestInit02:
+    contents:
+      - text: "D'abord, tu as besoin de "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: la carte
+      - control:
+          kind: reset_colour
+      - text: ",\nque tu peux trouver "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: dans mes études
+      - control:
+          kind: reset_colour
+      - text: "."
