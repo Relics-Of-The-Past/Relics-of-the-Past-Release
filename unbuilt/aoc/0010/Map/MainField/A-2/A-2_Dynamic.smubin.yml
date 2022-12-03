@@ -1,0 +1,5288 @@
+Objs:
+- '!Parameters':
+    ArrowName: NormalArrow
+    CarryActorName: OctObj_Grass_08
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x007a5837
+  Rotate: -2.3599999
+  SRTHash: -335088051
+  Translate: [-3967.80469, 86.2060089, -2739.41333]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x00acb15c
+  Rotate: 3.12718916
+  SRTHash: 532634725
+  Translate: [-4156.69434, 164.809662, -2950.79541]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0x00b13a39
+  Rotate: [0.519331872, 1.10075712, 0.249001533]
+  SRTHash: -2036477254
+  Scale: 1.00146496
+  Translate: [-4076.5, 127.580643, -2834.14062]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0x00fb8a98
+  Rotate: 0.799999952
+  SRTHash: -91476596
+  Translate: [-4041.87646, 102.250641, -2528.63965]
+  UnitConfigName: Obj_RockSnow_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x012d8166
+  Rotate: -0.243652329
+  SRTHash: -1660109817
+  Translate: [-4480.32812, 215.547104, -2336.125]
+  UnitConfigName: Item_Mushroom_B
+- HashId: !u 0x0168b120
+  Rotate: -0.679999948
+  SRTHash: -1188776085
+  Translate: [-4069.57739, 128.640366, -2748.80542]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x01d9a2e4
+  SRTHash: -913152367
+  Translate: [-4123.56201, 303.678253, -1940.81592]
+  UnitConfigName: TravelersGuardianDeity_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x01e19923
+  SRTHash: 1143278819
+  Translate: [-4544.50732, 342.090668, -2951.82666]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x0203450a
+  Rotate: -1.31567371
+  SRTHash: -153235584
+  Translate: [-4102.19141, 133.628906, -2712.14453]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x022e2430
+  Rotate: 1.30925775
+  SRTHash: 1637398340
+  Translate: [-4492.46826, 336.536926, -2594.94238]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x02ad94c7
+  Rotate: [0.163730398, 0.00921421126, -0.112184912]
+  SRTHash: -1914659648
+  Translate: [-4425.05908, 214.10321, -2229.33936]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0x02bc84b2
+  SRTHash: 776849124
+  Translate: [-4028.09424, 176.490692, -2708.96924]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: false
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 1
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x04332120
+  Rotate: [0.440351099, 0.41388908, 1.46590042]
+  SRTHash: 266892544
+  Translate: [-4038.62549, 131.064117, -2677.24585]
+  UnitConfigName: Weapon_Shield_021
+- HashId: !u 0x04689c1b
+  SRTHash: 2002095967
+  Translate: [-4063.96948, 91.75383, -2523.17749]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- HashId: !u 0x04fa3034
+  Rotate: [-0.127533138, 3.57664108, -0.127533138]
+  SRTHash: 392626638
+  Translate: [-4135.02051, 215.142746, -2619.00122]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x0523365a
+  Rotate: [-3.08505368, 5.14091873, -3.08505368]
+  SRTHash: -1857631736
+  Translate: [-4344.42529, 160.891281, -2042.60718]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x05847e45
+  Rotate: [0.192037314, -0.353926122, -0.0672856122]
+  SRTHash: -386028126
+  Translate: [-4107.80078, 205.106766, -2595.84399]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x060cb8cb
+  SRTHash: 526801826
+  Translate: [-4031.58716, 292.554443, -1889.54639]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x06b188bc
+  Rotate: [0.0675720647, 0.381646574, -0.126015425]
+  SRTHash: 609593261
+  Scale: 0.852539003
+  Translate: [-4402.99219, 182.816223, -2074.64844]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0x075cf5c2
+  Rotate: 1.9599967
+  SRTHash: 1073552174
+  Translate: [-4150.69727, 137.283646, -2668.11938]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x076fc6e9
+  Rotate: 0.645487905
+  SRTHash: -1352543980
+  Translate: [-4144.11523, 235.309921, -2542.00317]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x077aeb94
+  Rotate: 0.900000393
+  SRTHash: -1271198801
+  Scale: 0.600000024
+  Translate: [-4069.88525, 101.517937, -2489.78174]
+  UnitConfigName: AirWallCreature
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x07a0ded4
+  Rotate: 1.01801193
+  SRTHash: 2092131165
+  Translate: [-4455.66553, 345.924164, -2751.83569]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x07f60c7f
+  SRTHash: 1831556990
+  Translate: [-4072.89331, 89.1808777, -2538.44434]
+  UnitConfigName: FidObj_TorchStand_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x07fb3cbe
+  SRTHash: -324967071
+  Translate: [-4090.94067, 209.953888, -2607.68433]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0896afe7
+  Rotate: 1.05611801
+  SRTHash: 2610012
+  Translate: [-4488.95654, 335.093079, -2674.77393]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x092d612d
+  Rotate: [0.0, 1.56095672, 0.220547676]
+  SRTHash: 298929016
+  Translate: [-4143.72412, 220.996277, -2060.40015]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x0966a3e4
+  Rotate: 2.88000011
+  SRTHash: -504963131
+  Translate: [-3987.33057, 146.762665, -2554.17529]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0985e36b
+  SRTHash: -2006795892
+  Translate: [-4144.42139, 221.477371, -2058.9021]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x0ad58540
+  Rotate: 1.19999993
+  SRTHash: 1038018453
+  Scale: 0.5
+  Translate: [-3867.8999, 98.3859406, -2746.3999]
+  UnitConfigName: FldObj_HeburaGeyser_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0af344db
+  SRTHash: -1280664269
+  Translate: [-4043.33081, 352.099854, -1983.36792]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0affa856
+  Rotate: [1.32006824, 1.4362793, 0.110107414]
+  SRTHash: 0
+  Translate: [-4103.39453, 159.132812, -2539.05859]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0b153f6d
+  Rotate: 0.823354423
+  SRTHash: 2012868861
+  Translate: [-4090.51123, 175.904678, -2651.6853]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0b915df0
+  Rotate: 4.13208771
+  SRTHash: 806129834
+  Translate: [-4381.6084, 370.53067, -2755.04492]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0bb6dd7e
+  Rotate: 0.835082948
+  SRTHash: -1677867035
+  Translate: [-4461.38672, 219.66362, -2405.75391]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0c34e0b0
+  Rotate: [1.42907703, -0.425903291, -0.123535156]
+  SRTHash: 0
+  Translate: [-4503.41797, 240.703125, -2510.91797]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0c502ca6
+  Rotate: 5.68984556
+  SRTHash: -500223837
+  Translate: [-4144.1167, 133.987091, -2718.11841]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0cdb4d0a
+  SRTHash: -1218327547
+  Translate: [-4483.02881, 215.915176, -2371.79297]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x0ce01b06
+  Rotate: 4.14023256
+  SRTHash: 91834760
+  Translate: [-4504.00732, 335.023773, -2710.43335]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- '!Parameters': {Direction: 5, Shape: Box, WindSpeed: 10.0}
+  HashId: !u 0x0d73fb03
+  Rotate: -0.795358777
+  SRTHash: -1293415768
+  Scale: [120.000031, 12.5, 139.502365]
+  Translate: [-4179.38379, 97.6987076, -2239.95312]
+  UnitConfigName: PointWindSetTag
+- HashId: !u 0x0de0a904
+  Rotate: 2.01999927
+  SRTHash: 623339937
+  Translate: [-4161.95361, 229.826172, -2565.60107]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0x0df0b762
+  Rotate: [0.0402856618, 0.585224569, 0.0860493779]
+  SRTHash: 2115710727
+  Scale: 0.995117009
+  Translate: [-4527.51953, 333.545837, -2593.96094]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0e1692ff
+  Rotate: 3.22725582
+  SRTHash: 992432987
+  Translate: [-4493.51172, 339.697174, -2710.63428]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {Direction: 6, Shape: Box, WindSpeed: 10.0}
+  HashId: !u 0x0e660efc
+  Rotate: -0.114600658
+  SRTHash: 1938968955
+  Scale: [52.5, 16.2999992, 121.599998]
+  Translate: [-3977.32544, 88.6132355, -2748.12646]
+  UnitConfigName: PointWindSetTag
+- HashId: !u 0x0e711a79
+  Rotate: [-0.56536901, 0.0502370745, -0.56536901]
+  SRTHash: -105251536
+  Translate: [-4169.93945, 216.941162, -2622.33521]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x0f27d4e6
+  Rotate: -1.37681448
+  SRTHash: 1834989472
+  Translate: [-4091.07617, 90.7734375, -2523.04272]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x0f42def3
+  Rotate: 0.740000069
+  SRTHash: -855376454
+  Translate: [-4096.60889, 88.9906921, -2472.36792]
+  UnitConfigName: FldObj_PierSnow_A_02
+- HashId: !u 0x0f5b4c68
+  Rotate: -2.42000008
+  SRTHash: -561048827
+  Translate: [-4084.71802, 88.7641296, -2432.12573]
+  UnitConfigName: FldObj_PierSnow_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0f7aa563
+  Rotate: [-2.91980934, -0.504927874, -2.88742137]
+  SRTHash: -1964816992
+  Translate: [-4021.52417, 175.902603, -2671.625]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0fd3093c
+  Rotate: -0.540000021
+  SRTHash: -150016612
+  Translate: [-4481.75684, 217.59668, -2420.35083]
+  UnitConfigName: Obj_TreeConiferousDead_A_Snow_01
+- HashId: !u 0x1101225f
+  Rotate: 0.87266463
+  SRTHash: -266763225
+  Translate: [-4128.24658, 303.829254, -1938.32922]
+  UnitConfigName: TravelersGuardianDeity_A_01
+- HashId: !u 0x112ffdd5
+  Rotate: 1.20776677
+  SRTHash: -563744763
+  Translate: [-4327.88672, 160.856125, -2048.38281]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x11342798
+  Rotate: [3.14147925, -0.829467773, 3.14147925]
+  SRTHash: 328090067
+  Translate: [-4443.30859, 345.428894, -2753.68359]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x11359051
+  SRTHash: -30859577
+  Translate: [-4470.7627, 217.916321, -2403.81738]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1166b443
+  SRTHash: 1313960360
+  Translate: [-4494.76221, 335.905029, -2581.96899]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0x11b57c27
+  Rotate: [-0.664683878, 1.5468365, 0.192790076]
+  SRTHash: 1285437015
+  Translate: [-4066.78784, 335.311157, -1966.62671]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x11d53c13
+  Rotate: 2.00712872
+  SRTHash: 1859002655
+  Translate: [-4127.87891, 303.738281, -1932.76221]
+  UnitConfigName: TravelersGuardianDeity_A_01
+- '!Parameters': {DropActor: Obj_BombArrow_A_02, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x11ef952d
+  Rotate: [-2.85896873, 1.00053847, -2.98056889]
+  SRTHash: -1566152988
+  Translate: [-4490.4707, 339.255646, -2535.13745]
+  UnitConfigName: TBox_Field_Wood
+- HashId: !u 0x1293b3ca
+  Rotate: [0.0166527573, -0.180069193, 0.0084887119]
+  SRTHash: -1992156246
+  Translate: [-4085.53027, 294.110382, -1849.18091]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x12d7b6a5
+  Rotate: [2.25427246, -1.05859363, -0.600097597]
+  SRTHash: 0
+  Translate: [-4650.32422, 235.777344, -3073.27344]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x133f073e
+  Rotate: 2.77999973
+  SRTHash: 1882317506
+  Translate: [-4411.92725, 217.333176, -2279.66992]
+  UnitConfigName: Animal_Elk_A
+- HashId: !u 0x1374671c
+  Rotate: 1.32000017
+  SRTHash: 858069064
+  Translate: [-4327.92236, 160.64505, -2056.88208]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x13dae470
+  Rotate: [-0.57588625, -0.3184174, 0.86163938]
+  SRTHash: 809357458
+  Translate: [-4053.04834, 341.29248, -1993.73999]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x14048764
+  Rotate: 0.320000082
+  SRTHash: -1712187764
+  Translate: [-4306.53271, 257.363739, -1978.61279]
+  UnitConfigName: Obj_RockSetYellow_A_L_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x14657ceb
+  Rotate: [0.962402284, 0.0698242113, -0.212402329]
+  SRTHash: 0
+  Translate: [-4314.15234, 128.703125, -2263.40234]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x14af4783
+  Rotate: 2.82714224
+  SRTHash: 1140829259
+  Translate: [-4143.53174, 160.249695, -2953.27588]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0x15719316
+  Rotate: [0.0669249147, 0.177128896, 0.0870991349]
+  SRTHash: -666115147
+  Translate: [-4035.24097, 336.93866, -2010.77917]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x160b5829
+  Rotate: 2.91978192
+  SRTHash: -338112397
+  Translate: [-4089.9707, 330.72467, -1918.72314]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x1613c824
+  Rotate: [-0.423549592, 1.17268527, -0.694981337]
+  SRTHash: 1691413883
+  Scale: 1.09375
+  Translate: [-4396.6875, 414.755219, -2866.66406]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- HashId: !u 0x16b78ca4
+  Rotate: [-2.91999936, 0.0, 0.859999835]
+  SRTHash: -1717629625
+  Translate: [-4035.22217, 101.184723, -2523.62305]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1719b6ca
+  Rotate: [-1.87438953, -0.3436279, -2.86535621]
+  SRTHash: 0
+  Translate: [-4079.47656, 244.699219, -2103.95703]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x17760b9c
+  Rotate: [-0.0609828755, -0.179672569, 0.010911189]
+  SRTHash: 627498087
+  Translate: [-4088.25415, 197.723694, -2613.88843]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x17db4b58
+  Rotate: [3.14147925, 0.121459961, 3.14147925]
+  SRTHash: -1622974831
+  Translate: [-4058.88672, 141.870697, -2881.80078]
+  UnitConfigName: Item_Plant_E
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    GolemSleepType: SleepForward_A
+    GolemWeakPointLocation: Point_A
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x17f694ed
+  Rotate: [0.211424306, -0.796329975, -0.23679024]
+  SRTHash: -643153168
+  Translate: [-4429.97461, 214.564026, -2228.99902]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1805082e
+  SRTHash: 2058107172
+  Translate: [-3985.54102, 180.747849, -2852.18506]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x187ff4a0
+  Rotate: -0.0200000014
+  SRTHash: 1913037514
+  Translate: [-4039.52051, 92.5179291, -2519.875]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0x1898c739
+  Rotate: [0.337366819, -1.23182118, -0.227781534]
+  SRTHash: -2010756933
+  Translate: [-4046.61768, 129.418411, -2518.96094]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x18a4f98e
+  SRTHash: 788703328
+  Translate: [-4163.21387, 242.312592, -2511.948]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x192423d2
+  Rotate: [-3.01647925, 1.05981445, 1.79211414]
+  SRTHash: 0
+  Translate: [-4300.64453, 167.777344, -2100.34766]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x195ccf69
+  Rotate: 2.75223422
+  SRTHash: 1144878016
+  Translate: [-4007.85107, 185.8349, -2629.40479]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x19a3aecb
+  Rotate: -0.440000117
+  SRTHash: -1374432332
+  Scale: 0.800000012
+  Translate: [-4173.01758, 315.163849, -1952.67871]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x19bba64d
+  Rotate: -0.307006806
+  SRTHash: -1395531919
+  Translate: [-4384.85156, 376.910645, -2990.64844]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0x19caf675
+  Rotate: 0.619999886
+  SRTHash: 1993278793
+  Translate: [-4019.85034, 88.3159866, -2533.79883]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- HashId: !u 0x19f8d47f
+  Rotate: [0.720968783, 0.776451409, 0.720968783]
+  SRTHash: 348696629
+  Translate: [-4163.41895, 220.484207, -2600.69531]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x1a7359ce
+  Rotate: [-0.138805613, 0.758171022, -0.138805613]
+  SRTHash: 888426734
+  Translate: [-4135.64502, 212.052017, -2637.45654]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1a742dc3
+  SRTHash: 348639537
+  Translate: [-4470.61719, 222.473877, -2467.58203]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1a87dc1d
+  Rotate: 5.60451603
+  SRTHash: 1060120459
+  Translate: [-4043.10767, 177.38736, -2711.16748]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0x1b60b565
+  SRTHash: 1478230678
+  Translate: [-4305.7124, 239.634048, -2009.92896]
+  UnitConfigName: Obj_RockSetYellow_A_L_03
+- HashId: !u 0x1bae25e9
+  Rotate: 0.699999452
+  SRTHash: 383435781
+  Translate: [-4491.14453, 222.081131, -2485.33496]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0x1c0f8fca
+  SRTHash: 2111336139
+  Translate: [-4034.42578, 89.5011292, -2531.43872]
+  UnitConfigName: FidObj_TorchStand_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1c1a6570
+  Rotate: 4.16299915
+  SRTHash: -1899478858
+  Translate: [-4422.43701, 344.789124, -2627.84082]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1c7b3f22
+  Rotate: 0.126220688
+  SRTHash: -556537369
+  Translate: [-4286.25, 217.620438, -2328.15625]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1d3f3bfb
+  Rotate: 4.76861954
+  SRTHash: -123447783
+  Translate: [-4468.36768, 343.391205, -2683.31592]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x1d5cbec0
+  Rotate: 1.51020956
+  SRTHash: 58640016
+  Translate: [-4345.51416, 160.671844, -2048.698]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x1d5ece4d
+  Rotate: [-3.08665967, 0.637933731, -3.03594828]
+  SRTHash: 219782094
+  Translate: [-4019.85181, 88.0095825, -2541.24292]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0x1d63540a
+  SRTHash: -26358324
+  Translate: [-4342.62451, 161.149353, -2040.67603]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x1d924013
+  Rotate: 5.23142147
+  SRTHash: -1755292605
+  Translate: [-4326.37451, 160.64505, -2058.43433]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x1dbcebf6
+  Rotate: -2.7031858
+  SRTHash: -21104968
+  Translate: [-4604.02637, 332.323486, -2859.72314]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1dd6781a
+  Rotate: [0.515749216, -0.0720715523, -0.732159257]
+  SRTHash: -763031870
+  Translate: [-4216.30273, 156.595398, -2411.25342]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1ebbef95
+  Rotate: 4.66966534
+  SRTHash: -1863979048
+  Translate: [-4443.44775, 347.552155, -2727.78101]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1ec5c3c3
+  Rotate: 3.19239664
+  SRTHash: -1767034824
+  Translate: [-4445.08545, 338.162842, -2617.08301]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x1f2768a1
+  Rotate: 1.2418443
+  SRTHash: 819151249
+  Translate: [-4428.47266, 358.274506, -2787.55371]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1f6d89b5
+  SRTHash: 764087738
+  Translate: [-4187.57373, 302.602844, -1874.17175]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x1fbd7111
+  Rotate: [2.89844584, -0.563005567, -2.99206805]
+  SRTHash: -569864457
+  Translate: [-4378.65527, 192.464752, -2140.61304]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1fed3769
+  Rotate: [0.940429628, -0.760009706, 0.1085205]
+  SRTHash: 0
+  Translate: [-3954.59766, 271.054688, -2235.24219]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1ffa514a
+  Rotate: 6.09062386
+  SRTHash: 72540599
+  Translate: [-4076.88452, 135.300293, -2863.12305]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0x204aafdc
+  Rotate: -2.27999902
+  SRTHash: -2108266697
+  Translate: [-4045.33667, 176.249863, -2714.99219]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2067e4df
+  Rotate: [2.52148414, 1.24108887, 1.1389159]
+  SRTHash: 0
+  Translate: [-4183.64844, 190.199219, -2872.0625]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2113454d
+  Rotate: [3.14147925, 0.383544892, 3.14147925]
+  SRTHash: 1990423225
+  Translate: [-4159.89453, 235.845367, -2545.44531]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0x2116879b
+  Rotate: [0.37557444, -0.622597814, -0.573530257]
+  SRTHash: 384551953
+  Scale: 0.899999976
+  Translate: [-4320.99121, 251.579819, -2387.55786]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: true
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x212b79b4
+  Rotate: 1.81999934
+  SRTHash: -1361032261
+  Translate: [-4038.60864, 196.098572, -2631.64575]
+  UnitConfigName: Enemy_Keese
+- HashId: !u 0x2134788e
+  Rotate: [-0.0999999866, -0.440000206, 0.0]
+  SRTHash: 1725526295
+  Translate: [-4112.83643, 199.507355, -2113.25806]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x218c9408
+  Rotate: [-0.389402151, 4.11908197, -0.389402151]
+  SRTHash: 577388240
+  Translate: [-4134.59375, 215.781998, -2612.68872]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x21e7d59c
+  SRTHash: -1215146996
+  Translate: [-4032.60254, 353.774841, -1958.18213]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0x221b8c79
+  SRTHash: -504187724
+  Translate: [-4480.56885, 217.162064, -2410.26318]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x222e5be7
+  Rotate: 6.04813194
+  SRTHash: -1721796283
+  Translate: [-4011.5249, 191.252731, -2606.9812]
+  UnitConfigName: Obj_TreeConiferousDead_A_Snow_01
+- HashId: !u 0x22372e8f
+  Rotate: 1.04000068
+  SRTHash: 521473672
+  Translate: [-4336.66016, 160.665985, -2057.3291]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x228f37fa
+  Rotate: [0.751781881, -1.34023404, -0.654795349]
+  SRTHash: -870128180
+  Scale: 1.05810499
+  Translate: [-4524.89453, 220.665161, -2490.91797]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0x22ec04c9
+  Rotate: 2.90637064
+  SRTHash: 1391408266
+  Translate: [-4330.6748, 160.954712, -2047.68042]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x23c2e0b0
+  Rotate: [1.46997058, 0.541015565, -0.243164048]
+  SRTHash: 0
+  Translate: [-4251.36328, 294.585938, -2469.32422]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x23c3435a
+  Rotate: -1.04000068
+  SRTHash: -1828157281
+  Translate: [-4498.93408, 336.235199, -2525.04175]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x23dc975e
+  SRTHash: 874354398
+  Translate: [-4143.4751, 230.518921, -2558.21216]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0x2436b8d5
+  SRTHash: -1508643455
+  Translate: [-4594.56787, 333.614563, -2854.59644]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0x2448f6ff
+  Rotate: [0.079999961, 0.0, -0.0999999866]
+  SRTHash: -598180289
+  Translate: [-4017.08765, 189.205261, -2596.4917]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x245ad3c7
+  Rotate: 4.49756336
+  SRTHash: 1699144289
+  Translate: [-4022.90942, 191.900269, -2612.44556]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x24672cd0
+  SRTHash: -1603213752
+  Translate: [-4029.88672, 89.5348053, -2527.89185]
+  UnitConfigName: FidObj_TorchStand_A_01
+- HashId: !u 0x24a5196a
+  SRTHash: 1025683916
+  Translate: [-4096.61523, 89.9272919, -2474.0481]
+  UnitConfigName: FidObj_TorchStand_A_01
+- HashId: !u 0x24f3c185
+  Rotate: -2.49619293
+  SRTHash: -793799718
+  Translate: [-3991.63037, 145.394196, -2538.7937]
+  UnitConfigName: FidObj_TorchStand_A-2
+- '!Parameters': {DropTable: Normal, FreezeTarget: 0, IceBreakScale: 0.800000012, SharpWeaponJudgeType: 0}
+  HashId: !u 0x24ff96f1
+  Rotate: [-0.20933181, -0.00372469984, -0.109626628]
+  SRTHash: 1891401663
+  Scale: 0.699999988
+  Translate: [-4572.95215, 335.752136, -2858.05493]
+  UnitConfigName: IceWall
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x256f30a3
+  SRTHash: 1592671521
+  Translate: [-4104.01416, 292.167847, -2038.62024]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x25799daa
+  Rotate: 3.05358601
+  SRTHash: -1450920441
+  Translate: [-4128.44043, 144.884323, -2892.98267]
+  UnitConfigName: Obj_TreeWhiteBirch_A_01
+- HashId: !u 0x259b9886
+  Rotate: [1.05588663, 6.05457115, 1.05588663]
+  SRTHash: -1522932553
+  Translate: [-4152.22852, 218.336884, -2607.27319]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x25a8934b
+  Rotate: -0.0201416053
+  SRTHash: 1536827778
+  Translate: [-4452.40625, 341.555115, -2676.80859]
+  UnitConfigName: Item_Mushroom_B
+- HashId: !u 0x25ed3f80
+  SRTHash: 526919145
+  Translate: [-4072.72827, 90.0236206, -2422.30859]
+  UnitConfigName: FidObj_TorchStand_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x26015e41
+  Rotate: 0.74000001
+  SRTHash: -783359549
+  Translate: [-4120.77832, 141.390793, -2879.56055]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0x26c3b94d
+  Rotate: [0.00806540903, -1.22525728, 0.066383481]
+  SRTHash: 492877412
+  Translate: [-4384.24951, 192.618423, -2139.82642]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2716b1e1
+  Rotate: 1.38439929
+  SRTHash: 2094355026
+  Translate: [-4604.27734, 333.757141, -2867.58203]
+  UnitConfigName: Item_Mushroom_B
+- HashId: !u 0x271a134d
+  Rotate: [2.69869781, 3.82400322, 2.69869781]
+  SRTHash: -1352124412
+  Translate: [-4159.3877, 218.137909, -2611.88428]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x275b0274
+  Rotate: 1.50000131
+  SRTHash: 1389415904
+  Translate: [-4494.89893, 332.284973, -2612.21704]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x27a23bd6
+  Rotate: [0.0700624809, 0.922926903, -0.137919754]
+  SRTHash: -2004300952
+  Translate: [-4537.64551, 217.188293, -2291.03296]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2842ad33
+  Rotate: 1.53397667
+  SRTHash: -743119010
+  Translate: [-4090.28516, 139.698975, -2879.48071]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x289ca233
+  Rotate: [0.319999903, -0.639999866, 0.0]
+  SRTHash: 544240573
+  Translate: [-4032.8064, 87.8409729, -2527.06299]
+  UnitConfigName: Obj_RockSnow_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x28d2e660
+  Rotate: -1.68000019
+  SRTHash: 572186720
+  Translate: [-4472.54688, 218.786453, -2413.44458]
+  UnitConfigName: Obj_TreeConiferousDead_A_Snow_01
+- HashId: !u 0x29ba2b39
+  Rotate: -1.80904758
+  SRTHash: 553987216
+  Translate: [-4331.52441, 160.889893, -2049.5835]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x2a14ac1d
+  Rotate: 0.720000029
+  SRTHash: -356676641
+  Translate: [-4287.93164, 88.6527863, -2189.3335]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x2a188487
+  Rotate: -2.94000006
+  SRTHash: -1179933323
+  Translate: [-4071.34546, 129.559311, -2730.74097]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x2a8eeacb
+  Rotate: -0.840013325
+  SRTHash: -360091164
+  Translate: [-4255.74609, 266.266968, -1951.57739]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x2a97acd3
+  Rotate: [2.22672534, -1.07648277, -2.42234278]
+  SRTHash: 1146241522
+  Scale: 0.899999976
+  Translate: [-4230.37891, 203.77269, -2440.17358]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x2aa715f9
+  Rotate: [0.512220323, 5.93252373, 0.512220323]
+  SRTHash: -511333624
+  Translate: [-4157.89941, 220.609406, -2597.59424]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x2ac269cb
+  Rotate: [-2.91468668, 0.0353847593, 0.297968447]
+  SRTHash: 1451023728
+  Translate: [-4035.54004, 106.903542, -2524.26953]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x2b12426a
+  SRTHash: -1909118778
+  Translate: [-4516.0, 333.730469, -2674.0]
+  UnitConfigName: GrassCutTag
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2bf089f3
+  Rotate: [-2.79047179, -1.42076719, -2.30670071]
+  SRTHash: -1499992578
+  Translate: [-4652.98047, 235.273438, -2912.375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x2caa2c0e
+  Rotate: [-0.216878995, 1.47661841, -0.216878995]
+  SRTHash: -2022550935
+  Translate: [-4141.57227, 212.462463, -2640.21045]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2cc86f94
+  Rotate: 5.18918276
+  SRTHash: -611033962
+  Translate: [-4225.9541, 279.556213, -1851.07385]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0x2cdb33f6
+  Rotate: [2.95802069, 0.455542833, -2.8186202]
+  SRTHash: 229235645
+  Translate: [-4402.93311, 305.71814, -2489.15576]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0x2d1a603b
+  Rotate: 0.419999689
+  SRTHash: -1989532518
+  Translate: [-4469.01172, 215.174622, -2315.40723]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- HashId: !u 0x2d56cec3
+  Rotate: 1.83999991
+  SRTHash: 1418022115
+  Translate: [-4171.01025, 238.891266, -2536.95801]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2d83cabe
+  Rotate: [-2.74999976, -1.25634754, -1.94018543]
+  SRTHash: 0
+  Translate: [-4640.83984, 217.296875, -2819.12891]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x2d9201b1
+  Rotate: [-1.40571034, -0.674829364, -0.0801670849]
+  SRTHash: 71257129
+  Translate: [-4022.8147, 147.558563, -2549.06763]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2dbb2023
+  SRTHash: -730175298
+  Translate: [-3846.74854, 91.8271484, -2593.23975]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x2e96629b
+  SRTHash: -1548031316
+  Translate: [-4165.10547, 317.322876, -1939.2301]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0x2ed8dad0
+  Rotate: -0.520000398
+  SRTHash: -1916854903
+  Translate: [-4267.95654, 261.879425, -2002.92505]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x2f557a2f
+  Rotate: [-2.92793155, 1.67425263, -2.92793155]
+  SRTHash: -2048753535
+  Translate: [-4153.16309, 216.034515, -2618.67188]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x2f8dde20
+  Rotate: [-0.120699689, -1.16833556, 0.217053935]
+  SRTHash: -1010018392
+  Scale: 1.00439501
+  Translate: [-4593.01953, 332.549316, -2763.50781]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2f95f728
+  Rotate: [3.14147925, -1.03356934, 3.14147925]
+  SRTHash: -2133646568
+  Translate: [-4163.10938, 234.680054, -2554.66016]
+  UnitConfigName: Item_Mushroom_N
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2fea10e6
+  Rotate: [3.14147925, 0.85925287, 3.14147925]
+  SRTHash: -1003704011
+  Translate: [-4147.87109, 175.121155, -2994.05469]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3058321e
+  Rotate: -0.921020448
+  SRTHash: 1044166759
+  Translate: [-4403.27344, 358.82901, -2736.73047]
+  UnitConfigName: Item_Mushroom_N
+- HashId: !u 0x30af9dd7
+  Rotate: 1.19999993
+  SRTHash: 1771598302
+  Scale: 0.5
+  Translate: [-4028.94458, 90.5343781, -2370.59839]
+  UnitConfigName: FldObj_HeburaGeyser_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x30eb22b8
+  Rotate: [-1.58093262, 0.938476503, -2.93176246]
+  SRTHash: 0
+  Translate: [-4186.09766, 194.292969, -2927.94531]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x31ed00a9
+  Rotate: [0.581161678, 3.50606751, 0.581161678]
+  SRTHash: 1164417745
+  Translate: [-4160.77637, 220.544037, -2599.03516]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3234bde5
+  Rotate: 3.80912662
+  SRTHash: 1699669096
+  Translate: [-4049.03198, 131.091476, -2728.41333]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x329f148a
+  Rotate: 3.61426687
+  SRTHash: 2011613748
+  Translate: [-4151.98486, 165.290253, -2960.83032]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x336c90f4
+  Rotate: [-0.139984623, 0.596691906, -0.139984623]
+  SRTHash: 830387287
+  Translate: [-4138.9209, 214.299057, -2627.91479]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x33b2052e
+  Rotate: 2.57999945
+  SRTHash: -2132496685
+  Translate: [-4156.9082, 243.972137, -2499.7522]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3430baa4
+  SRTHash: 256256005
+  Translate: [-4143.03223, 133.92218, -2719.43359]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0x347b42d1
+  Rotate: 0.659999907
+  SRTHash: -895593616
+  Translate: [-4601.47412, 330.899353, -2730.21021]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x34d8eb8e
+  Rotate: -1.43998909
+  SRTHash: 214508771
+  Translate: [-4541.93262, 213.944214, -2464.35815]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x34e9db3b
+  Rotate: [2.62195754, 3.91477489, 2.62195754]
+  SRTHash: -1258165243
+  Translate: [-4160.72607, 217.793274, -2614.60181]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x35ae558b
+  Rotate: -2.78318691
+  SRTHash: 1009825447
+  Translate: [-4534.0708, 331.355286, -2737.36548]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x35b6ad06
+  Rotate: [-0.103466861, -0.89585954, 0.1281427]
+  SRTHash: 1041461368
+  Translate: [-4201.08301, 281.733398, -1854.53345]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x35c74ed3
+  Rotate: [-0.0697317198, -0.778886795, 0.044875484]
+  SRTHash: -309897959
+  Translate: [-4322.85645, 160.913025, -2042.27136]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x35da47f3
+  Rotate: 1.99999976
+  SRTHash: 467182332
+  Translate: [-4539.14697, 334.701904, -2631.26392]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {IsStopWithoutReductionY: false, Shape: Sphere, Sound: CmnCaveBgm, SpotBgmLifeScaleMargin: 0.0}
+  HashId: !u 0x35dffa5e
+  SRTHash: -1160112582
+  Scale: 15.0
+  Translate: [-4065.3999, 99.2000046, -2508.80005]
+  UnitConfigName: SpotBgmTag
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x35f2d093
+  Rotate: 3.73103428
+  SRTHash: -317916864
+  Translate: [-4145.18799, 155.235336, -2926.14136]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x361772d2
+  SRTHash: -1909118778
+  Translate: [-4543.5, 333.711487, -2682.0]
+  UnitConfigName: GrassCutTag
+- HashId: !u 0x361bca8c
+  Rotate: 1.41841161
+  SRTHash: 2113200289
+  Translate: [-3995.69922, 344.834656, -2018.46411]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0x36209398
+  Rotate: [0.234514862, 0.341679603, -0.0151286824]
+  SRTHash: 1472724565
+  Translate: [-3985.23315, 162.465973, -2575.00024]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x36c17185
+  Rotate: -2.23999977
+  SRTHash: -273419650
+  Translate: [-4243.04785, 273.620178, -1858.36292]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0x36fd6aed
+  SRTHash: -2112622706
+  Translate: [-4514.40967, 334.469269, -2616.79663]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0x37322d24
+  Rotate: -1.54000235
+  SRTHash: 1184226892
+  Translate: [-4327.25098, 160.952377, -2046.49902]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3796f65d
+  Rotate: 5.54413462
+  SRTHash: 19198508
+  Translate: [-4034.67285, 353.416199, -1950.11975]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3872e398
+  Rotate: [3.14147925, -0.20703125, 3.14147925]
+  SRTHash: 1203327427
+  Translate: [-4017.59766, 176.096848, -2681.75391]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x387c80eb
+  SRTHash: -50735808
+  Translate: [-4302.44385, 255.584015, -1992.28711]
+  UnitConfigName: Obj_TreeWhiteBirch_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x39455b31
+  Rotate: 4.52717733
+  SRTHash: 67480074
+  Translate: [-4480.6377, 215.511383, -2335.18457]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x397bbf17
+  Rotate: 0.799997151
+  SRTHash: -1707303205
+  Translate: [-4012.59717, 179.68042, -2651.50415]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x39a0e148
+  Rotate: [2.85554719, 0.737668872, 2.85554719]
+  SRTHash: 544313477
+  Translate: [-4340.57178, 161.240448, -2039.68103]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x39e62837
+  Rotate: [-0.308150053, -0.542554677, 0.569273651]
+  SRTHash: -1742407931
+  Translate: [-4085.7002, 213.513992, -2104.25269]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x39fda751
+  Rotate: -0.600000024
+  SRTHash: 1815897883
+  Translate: [-4077.18091, 130.164566, -2697.45068]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x3a40d542
+  Rotate: [0.399999917, 0.0, 0.0]
+  SRTHash: 669135440
+  Translate: [-4363.89209, 231.551834, -2315.46338]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3b1ed271
+  Rotate: [-1.80236804, -0.359863281, 2.99255371]
+  SRTHash: 0
+  Translate: [-4101.28906, 172.648438, -2170.58203]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x3d3d67f2
+  Rotate: 5.23335648
+  SRTHash: 2073558246
+  Translate: [-4324.73535, 160.64505, -2064.1626]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x3dbd6f7f
+  Rotate: 0.900000393
+  SRTHash: 388793249
+  Scale: 0.600000024
+  Translate: [-4069.88525, 94.3851242, -2489.78174]
+  UnitConfigName: AirWallCreature
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3e4f9537
+  Rotate: [-0.453450829, 0.783997476, -0.387318283]
+  SRTHash: 990191868
+  Translate: [-4049.69043, 137.892319, -2671.92358]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3e72a8db
+  SRTHash: -982638
+  Translate: [-4168.61768, 181.480072, -2755.24048]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0x3eb770dd
+  SRTHash: -685870916
+  Translate: [-4139.45508, 133.129242, -2674.86816]
+  UnitConfigName: FldObj_HeburaGeyser_01
+- HashId: !u 0x3ec058ca
+  SRTHash: 1042536099
+  Translate: [-3992.07568, 178.201553, -2878.91357]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3f2b2509
+  Rotate: 0.245117173
+  SRTHash: -1634266524
+  Translate: [-4213.42969, 285.851593, -2646.70312]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0x3fe63f27
+  Rotate: -1.72000074
+  SRTHash: 612923897
+  Translate: [-3984.91455, 345.050842, -2007.86511]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x402672f7
+  Rotate: [-2.91718578, 3.73352385, -2.91718578]
+  SRTHash: -1238568769
+  Translate: [-4160.22363, 215.279312, -2623.67871]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropActor: Item_Ore_B, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x40866495
+  Rotate: [-2.90330505, 0.501072586, -2.66291285]
+  SRTHash: -746106842
+  Translate: [-4455.38232, 212.036713, -2159.49243]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x41eb3f7d
+  Rotate: -0.137084946
+  SRTHash: 2104375315
+  Translate: [-4048.17578, 131.667969, -2727.99219]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- HashId: !u 0x42ee1435
+  Rotate: [0.151050717, -0.0711055696, 0.250299901]
+  SRTHash: 26737692
+  Translate: [-4533.84961, 338.220123, -2763.30566]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0x430a05d2
+  Rotate: 0.0799999908
+  SRTHash: 2097936167
+  Translate: [-4247.15918, 88.4259796, -2189.06006]
+  UnitConfigName: FldObj_PierSnow_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x432b0f0f
+  Rotate: -0.740000129
+  SRTHash: 177405616
+  Translate: [-4291.77881, 248.75351, -2005.04004]
+  UnitConfigName: Obj_TreeWhiteBirch_A_01
+- HashId: !u 0x43fd5e3e
+  Rotate: -0.520000339
+  SRTHash: 1532685017
+  Translate: [-4263.98145, 89.8152008, -2176.71631]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x446aa830
+  Rotate: -0.320000023
+  SRTHash: 450433202
+  Translate: [-4132.48096, 325.710785, -2001.92517]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x44e5b831
+  Rotate: [-1.61621082, 0.0789794773, -2.78881812]
+  SRTHash: 0
+  Translate: [-4394.63281, 203.335938, -2020.06641]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4508204d
+  Rotate: 5.70622063
+  SRTHash: -504997304
+  Translate: [-4093.51392, 328.280884, -1905.53345]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x452eec4a
+  SRTHash: 900631221
+  Translate: [-4026.84766, 89.5348053, -2545.54028]
+  UnitConfigName: FidObj_TorchStand_A_01
+- HashId: !u 0x45e1c827
+  Rotate: -2.0199995
+  SRTHash: 470996157
+  Translate: [-4457.49854, 216.539246, -2327.54663]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x4792bd29
+  Rotate: [0.0142614618, 4.82122898, 0.0142614618]
+  SRTHash: -1783749756
+  Translate: [-4143.44971, 216.094513, -2615.19434]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x47f6431a
+  Rotate: [0.0787706971, -0.453681678, -0.178190216]
+  SRTHash: 2112787633
+  Translate: [-4123.98633, 144.364197, -2898.31543]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0x4837e589
+  Rotate: [0.483424664, 0.0175148882, 0.483424664]
+  SRTHash: -612389631
+  Translate: [-4145.35742, 219.531631, -2598.61328]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x4845076b
+  Rotate: -1.93999481
+  SRTHash: -982846973
+  Translate: [-4135.86768, 145.91806, -2888.71851]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x48861132
+  Rotate: 0.397949189
+  SRTHash: -920504297
+  Translate: [-4602.70312, 333.631927, -2868.73047]
+  UnitConfigName: Item_Mushroom_B
+- HashId: !u 0x48ad3930
+  Rotate: 0.660000086
+  SRTHash: -1714407725
+  Translate: [-4177.00293, 170.632904, -2838.46191]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x48fa9cc5
+  Rotate: -0.900000036
+  SRTHash: -534966081
+  Translate: [-4024.67212, 87.8845825, -2545.42261]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0x496be66c
+  Rotate: 6.14497566
+  SRTHash: -1952279357
+  Translate: [-4345.87109, 160.70433, -2046.32251]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters':
+    ArrowName: NormalArrow
+    CarryActorName: OctObj_Grass_08
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x4981f483
+  Rotate: 1.17999792
+  SRTHash: -1456355129
+  Translate: [-4250.86523, 86.3028259, -2187.17285]
+  UnitConfigName: Enemy_Octarock
+- HashId: !u 0x498c093a
+  SRTHash: -1509505723
+  Translate: [-4242.83936, 273.066956, -1853.98926]
+  UnitConfigName: Obj_RockSetYellow_A_01
+- HashId: !u 0x499d1ae4
+  Rotate: [-1.3999995, 0.0, 0.0]
+  SRTHash: -563326203
+  Translate: [-4091.13818, 316.842834, -2026.1377]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0x4a892060
+  Rotate: -0.73999989
+  SRTHash: -1197977896
+  Translate: [-4067.94897, 87.1265945, -2447.79102]
+  UnitConfigName: FldObj_PierSnowProp_A_01
+- HashId: !u 0x4b1bcd1b
+  Rotate: 5.59032393
+  SRTHash: -919749716
+  Translate: [-4319.70605, 160.830292, -2057.08838]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x4b8be442
+  Rotate: -2.67439485
+  SRTHash: -1317456539
+  Translate: [-3988.69995, 146.817017, -2551.80005]
+  UnitConfigName: FidObj_TorchStand_A-2
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4c14d06f
+  SRTHash: -1264391724
+  Translate: [-4166.18701, 180.184311, -2785.73853]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0x4cbea7e3
+  Rotate: 1.32000017
+  SRTHash: 682794300
+  Translate: [-4318.0957, 160.856873, -2042.08057]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x4d1a65d2
+  Rotate: -0.919999957
+  SRTHash: 176344059
+  Scale: 0.800000012
+  Translate: [-4036.62183, 130.417709, -2676.28564]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- HashId: !u 0x4d1d40e0
+  Rotate: [-0.821490288, -1.25035655, 0.629977465]
+  SRTHash: -284936300
+  Scale: 1.05859399
+  Translate: [-4354.59766, 382.415222, -2819.88672]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4d2bd0d5
+  Rotate: -1.43999994
+  SRTHash: -409915107
+  Translate: [-4524.99805, 220.588348, -2494.17188]
+  UnitConfigName: Obj_TreeConiferousDead_A_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4e2f696d
+  Rotate: [-1.89001453, -0.128417954, -2.90661597]
+  SRTHash: 0
+  Translate: [-4171.58594, 187.46875, -2123.06641]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4e7d6a06
+  Rotate: [-2.6297605, 0.911987245, 2.44787598]
+  SRTHash: 0
+  Translate: [-4460.52344, 251.957031, -1993.35547]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4e92083a
+  Rotate: 1.12207019
+  SRTHash: -2076823124
+  Translate: [-4132.56641, 154.285431, -2940.16406]
+  UnitConfigName: Item_Mushroom_F
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4ea00fe4
+  Rotate: 0.165684819
+  SRTHash: 326324994
+  Translate: [-4375.14014, 381.377777, -2840.12939]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 1, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4ed66a1d
+  Rotate: 0.87266463
+  SRTHash: 52412315
+  Translate: [-4126.95801, 304.011719, -1937.44165]
+  UnitConfigName: Item_Fruit_I
+- HashId: !u 0x4f127c32
+  Rotate: -0.780000329
+  SRTHash: 1983222063
+  Translate: [-4324.44971, 160.845718, -2043.25854]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x4f75c9c0
+  Rotate: [-2.30230808, 1.48585665, -2.30230808]
+  SRTHash: -1746123920
+  Translate: [-4147.80078, 212.464676, -2641.86621]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x50d555a5
+  SRTHash: -1513814711
+  Translate: [-4183.68506, 295.501221, -1849.99927]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0x51040f42
+  Rotate: 2.48637033
+  SRTHash: 472186092
+  Translate: [-4336.94385, 160.597809, -2053.72339]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x5140489b
+  Rotate: -1.20000017
+  SRTHash: 664647509
+  Translate: [-4473.94678, 214.355148, -2249.53955]
+  UnitConfigName: Animal_Elk_A
+- HashId: !u 0x5168a160
+  Rotate: [-2.64343405, -0.315263301, 2.95221496]
+  SRTHash: -166542817
+  Translate: [-4133.21973, 218.318634, -2588.90161]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x519e1597
+  Rotate: 0.98731035
+  SRTHash: 463355308
+  Translate: [-4068.34082, 140.233627, -2881.91602]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x523cf1aa
+  Rotate: 5.85377407
+  SRTHash: -2053260897
+  Translate: [-4517.80859, 334.04895, -2598.09131]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x527ead3c
+  Rotate: 0.556076229
+  SRTHash: -1118810711
+  Translate: [-4138.50586, 148.563141, -2894.52856]
+  UnitConfigName: Obj_TreeWhiteBirch_A_01
+- HashId: !u 0x52b7f15c
+  Rotate: [0.537258565, 0.706877708, 0.499104261]
+  SRTHash: -1994072602
+  Scale: 1.02343798
+  Translate: [-4393.15625, 221.229752, -2294.96094]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0x52edf734
+  Rotate: [2.07873225, -0.799830675, -3.02445412]
+  SRTHash: -1309731214
+  Translate: [-4144.03223, 213.996796, -2631.67725]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x535603ac
+  SRTHash: -1344200454
+  Translate: [-4506.91406, 333.574768, -2638.78491]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- HashId: !u 0x53a5b35a
+  Rotate: [-0.535633564, -0.0705043897, -1.47977281]
+  SRTHash: 1938658541
+  Translate: [-4536.97217, 216.094299, -2554.8855]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0x53b78096
+  Rotate: [-0.137464583, -0.0119788041, -0.173572466]
+  SRTHash: -899723552
+  Translate: [-4053.27344, 151.647079, -2665.02686]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 0, WaterfallAngle: 90.0, WaterfallLength: 8.39999962,
+    WaterfallRadius: 0.0, WaterfallThickness: 0.280000001}
+  HashId: !u 0x54b06789
+  Rotate: [2.93833518, 0.0807593912, 3.11055541]
+  SRTHash: -1527824055
+  Scale: [4.89999962, 0.00692999968, 0.0140000004]
+  Translate: [-4052.43408, 135.556976, -2672.02197]
+  UnitConfigName: BoxWater
+- '!Parameters': {ArrowName: IceArrow, EquipItem1: Weapon_Lsword_017, EquipItem3: Weapon_Bow_026, IsNearCreate: false, LevelSensorMode: 1,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x54d67792
+  Rotate: -0.099999994
+  SRTHash: -456078189
+  Translate: [-4493.3335, 218.683197, -2456.17798]
+  UnitConfigName: Enemy_Lynel_Middle
+- HashId: !u 0x54f1c8ec
+  Rotate: [-2.94504809, 3.28683114, -2.94504809]
+  SRTHash: 1299859866
+  Translate: [-4157.24561, 212.684937, -2639.87524]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x5500af8c
+  Rotate: [0.326086253, 1.18330956, 0.360022128]
+  SRTHash: 1926906221
+  Scale: 0.939940989
+  Translate: [-4029.97656, 177.712952, -2706.23438]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x55136925
+  Rotate: 0.679896891
+  SRTHash: 1466323747
+  Translate: [-4133.7876, 144.111862, -2875.56567]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0x5547410d
+  Rotate: [0.0, 0.0, 2.08000016]
+  SRTHash: -1762893285
+  Translate: [-4042.85571, 104.656067, -2508.23096]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0x55d3f11c
+  Rotate: [0.4541834, -0.771707773, -0.420387208]
+  SRTHash: -643690417
+  Translate: [-4422.2041, 193.575165, -2126.74268]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0x5685383c
+  Rotate: [0.025510693, 0.653455496, -0.0641049221]
+  SRTHash: 321550869
+  Translate: [-3977.47021, 173.64035, -2632.71484]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x56be85e5
+  Rotate: [-0.684689879, 1.36277604, -0.684689879]
+  SRTHash: -1771101476
+  Translate: [-4170.2334, 218.182739, -2616.34082]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x56d2e1c0
+  SRTHash: 1086350863
+  Translate: [-4007.9751, 178.828064, -2870.33496]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0x57237b62
+  Rotate: 0.620000005
+  SRTHash: 1959736042
+  Translate: [-4509.85205, 332.284973, -2544.1311]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x58209a04
+  Rotate: -0.300000072
+  SRTHash: -1083522771
+  Translate: [-4035.0437, 352.170593, -1953.36365]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- HashId: !u 0x585fc353
+  Rotate: [3.09004307, 1.02655649, 3.09004307]
+  SRTHash: -1866237908
+  Translate: [-4166.70654, 214.483139, -2631.24121]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x58905796
+  Rotate: [0.746505737, -1.05753541, -0.561262906]
+  SRTHash: 1877075088
+  Translate: [-4193.91797, 278.966644, -1825.43506]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x59203541
+  Rotate: 2.29999995
+  SRTHash: 1340795977
+  Translate: [-4170.6543, 317.971375, -1947.7915]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x599abd31
+  Rotate: 2.74857593
+  SRTHash: 1547873165
+  Translate: [-4339.41602, 160.748581, -2064.91992]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x59b1f6f0
+  SRTHash: 35821008
+  Translate: [-4494.95996, 220.70018, -2475.81836]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5a57418c
+  Rotate: 6.05600834
+  SRTHash: -1383752359
+  Translate: [-3986.50024, 166.903931, -2583.55835]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x5a6fcdb3
+  Rotate: -0.0999994501
+  SRTHash: 1084864365
+  Translate: [-4456.94678, 344.447998, -2719.8418]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x5ad4878f
+  Rotate: [1.30922902, -1.26396656, -1.47642195]
+  SRTHash: 1989638722
+  Scale: 0.993651986
+  Translate: [-4068.72656, 128.169144, -2841.86328]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- HashId: !u 0x5ad532c2
+  Rotate: 0.200000003
+  SRTHash: 363154975
+  Translate: [-4255.16602, 305.756226, -2904.05371]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    GolemSleepType: SleepForward_A
+    GolemWeakPointLocation: Point_A
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x5ae70edc
+  Rotate: [0.0908209532, -0.248168275, -0.136706844]
+  SRTHash: 524922380
+  Translate: [-4427.14062, 213.849304, -2225.94556]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5b62bf24
+  Rotate: -0.222534165
+  SRTHash: 1676553795
+  Translate: [-4374.34375, 381.05835, -2839.52734]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5b8abd81
+  Rotate: 2.43739963
+  SRTHash: 1208635598
+  Translate: [-4517.87793, 333.938904, -2611.65503]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5bc255e1
+  Rotate: 6.09797382
+  SRTHash: -55550885
+  Translate: [-4459.39062, 220.447495, -2349.94678]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5bc957f4
+  Rotate: [0.459350556, -1.31359863, 0.809081972]
+  SRTHash: 0
+  Translate: [-4642.80469, 260.671875, -2941.39844]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x5bdd3692
+  SRTHash: 1177719024
+  Translate: [-4174.10352, 207.605499, -2641.13525]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 1
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0x5c0a96c5
+  Rotate: [-1.14941382, 0.656786859, 0.841108918]
+  SRTHash: -1367342903
+  Translate: [-4318.3999, 99.9578171, -2258.8999]
+  UnitConfigName: Weapon_Shield_005
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5cdae5b4
+  Rotate: 0.61706543
+  SRTHash: 2036399639
+  Translate: [-4493.90625, 335.917358, -2581.29297]
+  UnitConfigName: Item_Mushroom_N
+- HashId: !u 0x5ced5045
+  Rotate: -1.94159281
+  SRTHash: -1705378886
+  Scale: 0.5
+  Translate: [-3955.14697, 92.8656235, -2424.94531]
+  UnitConfigName: FldObj_HeburaGeyser_01
+- HashId: !u 0x5cf18ecc
+  Rotate: 1.13999987
+  SRTHash: -1290392772
+  Translate: [-4100.21045, 128.461014, -2730.51489]
+  UnitConfigName: TwnObj_StoneLodgeStair_A_01
+- HashId: !u 0x5d56313d
+  SRTHash: 2021557412
+  Translate: [-4164.25635, 178.883118, -2820.97827]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0x5de74a9c
+  Rotate: 2.42126822
+  SRTHash: -639401454
+  Translate: [-4465.12744, 344.417603, -2738.89258]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0x5df1073c
+  Rotate: [-2.57227755, 0.366519183, -2.75031877]
+  SRTHash: -548628177
+  Translate: [-4376.25439, 250.692123, -2370.86279]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0x5e513183
+  Rotate: [-2.92402029, 5.49566507, -2.92402029]
+  SRTHash: -382912690
+  Translate: [-4158.53369, 214.680359, -2626.47607]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 0, WaterfallAngle: 90.0, WaterfallLength: 11.1999998,
+    WaterfallRadius: 0.0, WaterfallThickness: 0.280000001}
+  HashId: !u 0x5e756e90
+  Rotate: [2.71049643, 0.0415915586, 3.14159274]
+  SRTHash: 263756828
+  Scale: [4.19999981, 0.0139999995, 0.0139999995]
+  Translate: [-4053.5542, 145.465668, -2667.60107]
+  UnitConfigName: BoxWater
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5ef9bfc6
+  Rotate: [-0.553327978, 0.564648628, -0.319233775]
+  SRTHash: -1790430200
+  Translate: [-4029.06299, 176.195816, -2673.2002]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5f459da5
+  Rotate: 5.25315237
+  SRTHash: 1510467066
+  Translate: [-4073.42871, 143.239624, -2896.6084]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5f478e65
+  Rotate: 4.52203226
+  SRTHash: -1320446934
+  Translate: [-4426.38135, 369.43335, -2810.69531]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x600a9328
+  Rotate: 0.411463499
+  SRTHash: 1041219155
+  Translate: [-4412.24121, 350.683929, -2725.55444]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x6025bf35
+  Rotate: [0.488121957, -0.690706313, 0.0306924228]
+  SRTHash: -377164630
+  Translate: [-4506.34521, 221.033035, -2150.63965]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- HashId: !u 0x606490a1
+  Rotate: 1.72159231
+  SRTHash: -1023772198
+  Translate: [-4056.70117, 129.868195, -2675.23291]
+  UnitConfigName: Obj_RockSnow_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x60947858
+  Rotate: [-1.38854969, -0.024658205, 2.77331519]
+  SRTHash: 0
+  Translate: [-4170.12891, 240.257812, -2051.01172]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x60ee2e1d
+  Rotate: [-0.00753935659, 3.66815734, -0.00753935659]
+  SRTHash: -1923111474
+  Translate: [-4136.4502, 217.044342, -2606.70801]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x616dae5d
+  SRTHash: 1453101883
+  Translate: [-4588.25, 336.567474, -2929.06299]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0x61820d95
+  Rotate: [-0.413864851, 2.52962542, -0.413864851]
+  SRTHash: 2142384737
+  Translate: [-4135.16895, 216.344849, -2609.53101]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6198b902
+  Rotate: 3.37312007
+  SRTHash: 532250866
+  Translate: [-4542.89502, 217.011017, -2477.80542]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0x61c8d9d6
+  Rotate: -1.08000064
+  SRTHash: -900976117
+  Scale: 0.899999976
+  Translate: [-4092.04443, 323.660889, -2014.27808]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x624c2d71
+  Rotate: 1.44233024
+  SRTHash: -1665663110
+  Translate: [-4138.1626, 133.708084, -2710.78418]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0x62981217
+  Rotate: [2.27627921, -0.845560312, 2.45955324]
+  SRTHash: -897337812
+  Translate: [-4286.83594, 254.68335, -2001.25452]
+  UnitConfigName: Obj_RockSnow_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 1, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x630ba9a3
+  Rotate: -2.00712872
+  SRTHash: 1616827195
+  Translate: [-4120.09326, 303.987213, -1933.48462]
+  UnitConfigName: Item_Fruit_I
+- HashId: !u 0x636ed588
+  Rotate: [-0.00551811513, 3.08050203, -0.00551811513]
+  SRTHash: -694306544
+  Translate: [-4337.15137, 160.684509, -2068.6875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x63a87715
+  Rotate: 2.59746957
+  SRTHash: -1169961536
+  Translate: [-4133.65576, 154.677414, -2940.80762]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x63a9ea6c
+  Rotate: -1.69681454
+  SRTHash: 248646832
+  Translate: [-4341.49609, 160.60437, -2053.38257]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x63cbc74e
+  Rotate: [-0.0202344712, -0.198987514, 0.322019935]
+  SRTHash: -770938228
+  Translate: [-4073.49487, 213.561981, -2121.28784]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x65c96dca
+  Rotate: 0.480000019
+  SRTHash: -898111045
+  Translate: [-4224.94971, 278.969513, -1846.83911]
+  UnitConfigName: Obj_RockSetYellow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x65f4c5bf
+  SRTHash: -1433809412
+  Translate: [-4017.09399, 176.92189, -2877.88916]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x6665f885
+  SRTHash: 2020615583
+  Translate: [-4474.58984, 345.970734, -2750.64819]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- HashId: !u 0x6670c18e
+  Rotate: 0.456697613
+  SRTHash: -155567252
+  Translate: [-4333.16699, 160.779556, -2070.73315]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x6745e66f
+  Rotate: [-0.249956205, 2.17943764, -0.249956205]
+  SRTHash: 1097458240
+  Translate: [-4153.47656, 214.15506, -2630.22241]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x67b5d64c
+  Rotate: 0.59410274
+  SRTHash: 2063435357
+  Translate: [-4312.9502, 160.781693, -2048.97388]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x68e706c8
+  Rotate: [-2.02706456, 0.848581791, -1.65055418]
+  SRTHash: 1841362318
+  Translate: [-4148.24268, 220.126404, -2597.35278]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x68ef88f6
+  Rotate: [-0.424057156, 1.18727744, -0.437945098]
+  SRTHash: 953367763
+  Translate: [-4179.06201, 217.425629, -2617.64941]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {DropTable: HotMaterial_All, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6938b122
+  Rotate: [3.0906105, -0.331622213, 3.10446763]
+  SRTHash: 765415460
+  Translate: [-4160.36328, 243.514679, -2509.75732]
+  UnitConfigName: Barrel
+- HashId: !u 0x693ba976
+  Rotate: [0.165845692, -0.00577725982, 0.174968079]
+  SRTHash: 1236864744
+  Translate: [-4142.32324, 221.821915, -2063.14819]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0x695b5ed1
+  Rotate: 1.74318075
+  SRTHash: -1989579304
+  Translate: [-4012.04785, 352.093842, -1983.5415]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x696e9569
+  Rotate: 0.537461996
+  SRTHash: 464937032
+  Translate: [-4317.64209, 160.840073, -2056.21436]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x697cdbd0
+  Rotate: [1.78784168, 1.17810059, 0.197753891]
+  SRTHash: 0
+  Translate: [-4241.42188, 330.519531, -2732.72656]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x69b4bd92
+  Rotate: -0.200000003
+  SRTHash: -1133487642
+  Translate: [-4139.83057, 319.336151, -1953.27686]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x6aecd926
+  Rotate: -0.256810784
+  SRTHash: -106848000
+  Translate: [-4302.18604, 245.152603, -2006.20056]
+  UnitConfigName: Obj_RockSetYellow_A_01
+- HashId: !u 0x6b425f03
+  Rotate: 0.447111934
+  SRTHash: -998564538
+  Translate: [-4330.76807, 160.762238, -2070.66162]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6b641aab
+  SRTHash: -1269815148
+  Translate: [-4153.3501, 173.608276, -2813.37476]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x6b656ade
+  Rotate: 4.08694601
+  SRTHash: 9423889
+  Translate: [-4327.05371, 160.6138, -2067.89844]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6bfa615a
+  Rotate: 5.95712233
+  SRTHash: 1512129759
+  Translate: [-4034.94214, 129.244171, -2738.45483]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0x6cc2f5f7
+  Rotate: -0.340000004
+  SRTHash: -295517614
+  Translate: [-4044.82031, 144.975403, -2889.53394]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6cd1a03d
+  Rotate: 2.16485023
+  SRTHash: 291225475
+  Translate: [-4114.55811, 189.448807, -2637.02246]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0x6d057b92
+  Rotate: 5.15477514
+  SRTHash: -422418986
+  Translate: [-4326.04834, 160.831589, -2054.42139]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x6d1b0998
+  SRTHash: -751368515
+  Translate: [-3992.11987, 179.986618, -2637.09717]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0x6d4251b2
+  Rotate: -2.56000018
+  SRTHash: -1708564407
+  Translate: [-4182.43701, 292.8479, -1848.25085]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- HashId: !u 0x6d437990
+  Rotate: [0.670819819, -0.894441068, -0.144549772]
+  SRTHash: 981372653
+  Translate: [-4047.23608, 346.051819, -1943.01489]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6d55cf74
+  Rotate: 0.856912911
+  SRTHash: 1136153690
+  Translate: [-4505.86377, 335.50592, -2560.01172]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x6ea681b3
+  Rotate: 2.11184835
+  SRTHash: 1715123939
+  Scale: 0.5
+  Translate: [-4130.18555, 90.7022934, -2271.3501]
+  UnitConfigName: FldObj_HeburaGeyser_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6ed11b1a
+  Rotate: 5.76019859
+  SRTHash: 422016056
+  Translate: [-4486.15527, 336.877319, -2691.78101]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0x6ee89911
+  Rotate: [0.0716653019, 5.03414774, 0.0716653019]
+  SRTHash: -780704859
+  Translate: [-4144.67578, 212.41539, -2641.13672]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6f4ab408
+  SRTHash: -1519621072
+  Translate: [-4496.37207, 337.931274, -2543.37598]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x6fb4eb8f
+  Rotate: -1.97681391
+  SRTHash: -1468970077
+  Translate: [-4334.67822, 160.722015, -2052.70972]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6feb86d6
+  Rotate: [0.032592766, -1.2786864, 1.0665282]
+  SRTHash: 0
+  Translate: [-4107.35547, 106.667969, -2216.01953]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x70a7ee42
+  Rotate: 3.8566637
+  SRTHash: -6906646
+  Translate: [-4470.73242, 343.997589, -2719.20264]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x70d2e684
+  Rotate: [-2.66657901, 1.01962185, -2.7182703]
+  SRTHash: -1903182783
+  Translate: [-4039.6228, 130.327179, -2673.65747]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x70ef378d
+  Rotate: [-1.96328378, -0.270239949, 2.61523676]
+  SRTHash: 956870833
+  Translate: [-4048.8562, 138.672592, -2671.02954]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7285f836
+  Rotate: [3.14147925, -0.860595644, 3.14147925]
+  SRTHash: -2106427717
+  Translate: [-4471.73438, 217.893219, -2404.54297]
+  UnitConfigName: Item_Mushroom_N
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x72a9b010
+  Rotate: 0.755126297
+  SRTHash: -1409249061
+  Translate: [-4533.37695, 216.029922, -2440.50537]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x72ae9878
+  Rotate: 4.1219573
+  SRTHash: -295699547
+  Translate: [-4541.2959, 333.710999, -2715.67993]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x72e1501b
+  Rotate: 2.20902371
+  SRTHash: -1910326597
+  Translate: [-4137.7749, 144.18042, -2855.1438]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0x7331e172
+  SRTHash: 789697189
+  Translate: [-4100.4126, 177.252686, -2651.8877]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7408bc8d
+  Rotate: 0.930517554
+  SRTHash: 2087936366
+  Translate: [-3969.26343, 171.121094, -2605.41821]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x752ba0af
+  SRTHash: -1876544617
+  Translate: [-4025.16724, 185.165359, -2651.98096]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x756644dc
+  Rotate: -0.219999984
+  SRTHash: 1664912952
+  Translate: [-4077.15332, 88.3563995, -2478.33447]
+  UnitConfigName: Obj_RockSnow_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x758c9402
+  Rotate: 1.81611192
+  SRTHash: 246148435
+  Translate: [-4121.85498, 146.018829, -2901.61914]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- '!Parameters': {DropTable: Ore, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x75aaa451
+  SRTHash: -1523881496
+  Translate: [-4396.47656, 221.083771, -2009.29199]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0x75c4548e
+  Rotate: 0.819999933
+  SRTHash: 1069163788
+  Translate: [-4327.11914, 160.773041, -2052.82202]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x75dad4e4
+  Rotate: [-2.41987109, 3.93929005, -2.41987109]
+  SRTHash: 328966446
+  Translate: [-4336.33936, 161.195297, -2038.99194]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    GolemSleepType: SleepForward_A
+    GolemWeakPointLocation: Point_A
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x767f4278
+  Rotate: [0.185086176, -0.202691346, -0.190165967]
+  SRTHash: 939218680
+  Translate: [-4433.98779, 214.563599, -2226.61426]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- HashId: !u 0x76a8a438
+  Rotate: 0.189925015
+  SRTHash: 502274368
+  Translate: [-4313.22266, 160.766083, -2046.78174]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x76c1f3be
+  Rotate: -0.620000005
+  SRTHash: 1036263420
+  Translate: [-4113.29395, 209.777069, -2604.38354]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {EquipItem3: Weapon_Sword_024, EquipItem4: Weapon_Bow_036, EquipItem5: Weapon_Lsword_002, GiantArmor2: GiantGreave_Iron_L,
+    GiantRoamType: 0, IsNearCreate: false, LevelSensorMode: 1, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, UniqueNameMessageLabel: 'Giant_[A-2]77CB9A7E'}
+  HashId: !u 0x77cb9a7e
+  SRTHash: -800993434
+  Translate: [-4531.0, 333.44986, -2679.27344]
+  UnitConfigName: Enemy_Giant_Senior
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 1, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x77d5a51c
+  Rotate: 2.87979317
+  SRTHash: 1010067907
+  Translate: [-4123.34912, 304.170837, -1931.07715]
+  UnitConfigName: Item_Fruit_I
+- HashId: !u 0x77e99ccf
+  Rotate: [0.0924175754, 1.00522852, 0.0600739345]
+  SRTHash: 1929057076
+  Translate: [-4089.70825, 293.703156, -1851.47888]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x78b7e56d
+  Rotate: 1.81691229
+  SRTHash: -1289359969
+  Translate: [-4136.65869, 133.402359, -2720.90454]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0x79530029
+  Rotate: 3.90167069
+  SRTHash: 77120119
+  Translate: [-4138.58545, 212.39476, -2638.90796]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x7973b5c3
+  Rotate: [2.83657503, -0.705566645, -2.95484066]
+  SRTHash: 321003354
+  Translate: [-4343.09814, 258.2117, -2341.37231]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x79e7dad6
+  Rotate: 4.69502068
+  SRTHash: -1047108095
+  Translate: [-4534.35156, 333.379456, -2597.37549]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x79f48e35
+  Rotate: 0.24000001
+  SRTHash: -385341133
+  Translate: [-4086.69385, 89.9238968, -2459.09131]
+  UnitConfigName: FidObj_TorchStand_A_01
+- HashId: !u 0x7a54fd66
+  Rotate: [-3.07986331, -0.258008897, 3.02165604]
+  SRTHash: -1007441482
+  Translate: [-4277.35498, 255.0961, -1903.26196]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7a97bb33
+  SRTHash: 37429982
+  Translate: [-4167.63232, 239.166824, -2540.62109]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0x7bab2bcc
+  Rotate: [-0.259218365, 0.686550498, -0.286945939]
+  SRTHash: 1242118948
+  Scale: 1.03564501
+  Translate: [-4149.41406, 237.365204, -2533.12109]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 1, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7bb83e19
+  Rotate: 2.00712872
+  SRTHash: 876982483
+  Translate: [-4126.67334, 303.863556, -1933.50464]
+  UnitConfigName: Item_Fruit_I
+- HashId: !u 0x7bdc8d70
+  Rotate: 0.152833432
+  SRTHash: 649647485
+  Translate: [-4582.6582, 332.813171, -2720.74194]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0x7bdfd3d9
+  SRTHash: -1909118778
+  Translate: [-4532.5, 333.883911, -2662.0]
+  UnitConfigName: GrassCutTag
+- HashId: !u 0x7c06e59b
+  Rotate: 4.23366165
+  SRTHash: 1361822290
+  Translate: [-4313.26514, 160.833679, -2051.11084]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x7ca60421
+  Rotate: [1.42312253, 1.92052233, 1.42312253]
+  SRTHash: 429917699
+  Translate: [-4151.48633, 220.302094, -2597.32715]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x7d188b27
+  Rotate: -2.19681478
+  SRTHash: -1479064840
+  Translate: [-4330.74902, 160.931656, -2045.48022]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x7d2fed59
+  Rotate: 5.95074987
+  SRTHash: -977279622
+  Translate: [-4529.35449, 221.417191, -2494.14111]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7d3c69a8
+  Rotate: [-1.9045409, -0.0626220629, 3.12377906]
+  SRTHash: 0
+  Translate: [-4072.45703, 125.300781, -2303.75391]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x7d500ed6
+  Rotate: [0.357411534, 4.89833546, 0.357411534]
+  SRTHash: -1501228415
+  Translate: [-4140.13184, 218.443115, -2601.37964]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x7debd5b3
+  Rotate: [-2.08642316, -0.410896987, -3.12264776]
+  SRTHash: 838060894
+  Translate: [-4138.40479, 225.588669, -2059.62036]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x7def8f5f
+  SRTHash: 838853381
+  Translate: [-4419.69238, 359.556519, -2785.88062]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0x7e3ce8f2
+  Rotate: -0.600000083
+  SRTHash: 736755740
+  Translate: [-4139.03467, 133.307617, -2716.8335]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7ed7f290
+  Rotate: 4.0010066
+  SRTHash: 1594608742
+  Translate: [-4534.09082, 333.735229, -2699.93311]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7f19e65a
+  Rotate: [0.918579042, 0.262084931, -0.33581543]
+  SRTHash: 0
+  Translate: [-4346.74609, 341.925781, -2446.76172]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7f3e609e
+  Rotate: [0.532142937, -0.498728603, -0.997749984]
+  SRTHash: 862073554
+  Translate: [-4030.96216, 176.909439, -2673.08301]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x7f53ee81
+  Rotate: [0.31433785, -0.119330958, 0.600945532]
+  SRTHash: -1960435177
+  Translate: [-4398.89404, 313.035919, -2502.94067]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x7f993261
+  Rotate: -0.879999936
+  SRTHash: 199434826
+  Translate: [-4103.47119, 132.225677, -2693.43555]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7fe2f239
+  Rotate: 0.50000006
+  SRTHash: -1182770144
+  Translate: [-4206.14844, 281.533997, -1848.62109]
+  UnitConfigName: Obj_TreeWhiteBirch_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7feb70d1
+  Rotate: 6.00200272
+  SRTHash: 2018560668
+  Translate: [-4174.30566, 243.954651, -2517.677]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x80d00a95
+  SRTHash: 1979481618
+  Translate: [-4494.56738, 214.680756, -2354.82593]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x80dd23e7
+  Rotate: [-2.21704078, -0.21667479, -2.87133765]
+  SRTHash: 0
+  Translate: [-4077.51953, 252.34375, -2102.83594]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x80f7af50
+  Rotate: 0.130446479
+  SRTHash: 1084396894
+  Translate: [-4419.04346, 350.716278, -2754.60352]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x812800ab
+  Rotate: [0.0, -0.439999878, 0.119999982]
+  SRTHash: -783835067
+  Translate: [-4285.73926, 246.677795, -1998.35059]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x817c9584
+  SRTHash: -352366289
+  Translate: [-4075.67139, 173.576324, -2657.46631]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x820fedab
+  Rotate: 6.27681208
+  SRTHash: -1939580400
+  Translate: [-4074.36841, 132.846252, -2763.34668]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0x82197440
+  Rotate: 1.46159077
+  SRTHash: -2082972146
+  Translate: [-4134.70215, 138.493439, -2652.3335]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x82dd12c0
+  Rotate: 3.12152863
+  SRTHash: -1448156918
+  Translate: [-4320.62451, 160.998611, -2041.92505]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x830d246e
+  Rotate: -1.49401844
+  SRTHash: 526499376
+  Translate: [-4515.34863, 334.091278, -2720.87476]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0x832572ab
+  SRTHash: -185128482
+  Translate: [-4527.04834, 338.022949, -2642.14087]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0x8329e296
+  Rotate: 3.13529444
+  SRTHash: -1932656425
+  Translate: [-4450.30127, 349.446869, -2744.05176]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0x834fe304
+  Rotate: 0.240000024
+  SRTHash: -1491069886
+  Translate: [-4529.7627, 332.983673, -2641.64502]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x835bae58
+  Rotate: 2.88820052
+  SRTHash: -1852219989
+  Translate: [-4408.64014, 338.779327, -2581.9502]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x83f1f1c6
+  Rotate: 1.16000009
+  SRTHash: 163517177
+  Translate: [-4023.5686, 89.73526, -2526.35229]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- HashId: !u 0x84209f1c
+  Rotate: [-0.0572002903, 0.433803111, -0.337951809]
+  SRTHash: -1374868978
+  Translate: [-4135.62793, 229.460754, -2551.30322]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x84ac29b4
+  Rotate: 1.98372018
+  SRTHash: 1738207768
+  Translate: [-4583.44336, 335.5, -2673.06152]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    GolemSleepType: SleepForward_A
+    GolemWeakPointLocation: Point_A
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x84c9e3a4
+  Rotate: [0.0610227101, -0.276583105, -0.0592815466]
+  SRTHash: 333102153
+  Translate: [-4430.10938, 213.879089, -2221.74414]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8514ac31
+  Rotate: [3.14147925, 0.210082993, 3.14147925]
+  SRTHash: 1944449006
+  Translate: [-4159.92188, 235.742554, -2546.00781]
+  UnitConfigName: Item_Mushroom_F
+- HashId: !u 0x852e3dd0
+  Rotate: [-0.369399548, 1.06254601, -0.327461034]
+  SRTHash: 1717629089
+  Scale: 1.00488305
+  Translate: [-4445.82422, 387.424805, -2923.48438]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0x85bf7255
+  Rotate: [0.0, 0.0, 0.11999999]
+  SRTHash: 166249064
+  Translate: [-4484.44971, 338.949005, -2708.59204]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x85ed89db
+  Rotate: 0.414407283
+  SRTHash: 641444535
+  Translate: [-4338.32178, 160.750183, -2058.95166]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x865a976d
+  Rotate: 2.67999935
+  SRTHash: 721347910
+  Translate: [-4302.29736, 255.393188, -1987.98511]
+  UnitConfigName: Obj_RockSetYellow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x866c5883
+  Rotate: 0.888671815
+  SRTHash: 500267551
+  Translate: [-4456.10938, 345.909882, -2751.53516]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0x8685f913
+  Rotate: -0.900000036
+  SRTHash: -2094543082
+  Translate: [-3981.34863, 181.403473, -2867.94897]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x869e247b
+  SRTHash: -1415518357
+  Translate: [-4494.69141, 215.535309, -2377.66528]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0x86a38023
+  Rotate: [-0.363874793, -0.305002004, -0.338445008]
+  SRTHash: 1103945430
+  Translate: [-4174.37988, 233.062302, -2560.31201]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x86dfb173
+  Rotate: 2.55720162
+  SRTHash: 461718603
+  Translate: [-4225.24854, 276.019226, -1875.89575]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x87b2be2f
+  Rotate: 3.35690761
+  SRTHash: 850355569
+  Translate: [-4451.43896, 341.039551, -2675.9165]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x888a1fbe
+  Rotate: [3.14147925, -1.08837891, 3.14147925]
+  SRTHash: -159774422
+  Translate: [-4104.64062, 136.907654, -2681.30078]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x88eb5b4c
+  SRTHash: 1172247117
+  Translate: [-4208.29932, 151.019714, -2413.95825]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x893b2713
+  SRTHash: 1965677610
+  Translate: [-4485.20996, 215.344742, -2342.61182]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0x8990008a
+  Rotate: [-0.324780971, 0.84390831, -0.488942415]
+  SRTHash: 202529611
+  Scale: 0.925293028
+  Translate: [-4175.10547, 241.491745, -2540.12891]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0x89924d54
+  Rotate: [0.0872643068, -0.553877652, -0.164818734]
+  SRTHash: -1202399696
+  Translate: [-4166.771, 178.020432, -2818.88403]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0x8ae093f9
+  Rotate: [-0.00593642704, 4.95758009, -0.00593642704]
+  SRTHash: -1372198443
+  Translate: [-4162.40869, 213.6297, -2636.27832]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x8b5d044d
+  Rotate: -0.75999999
+  SRTHash: -255317996
+  Translate: [-4150.34326, 230.809357, -2531.23804]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x8b997811
+  Rotate: [-1.09630668, 3.85983467, -1.09630668]
+  SRTHash: -970793264
+  Translate: [-4338.43701, 160.91394, -2067.06665]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x8bc5bedf
+  Rotate: 2.29999995
+  SRTHash: 1394498467
+  Translate: [-4001.1958, 183.992188, -2637.3042]
+  UnitConfigName: FldObj_TorchStandBone_A_01
+- HashId: !u 0x8bc878ce
+  Rotate: 3.08318496
+  SRTHash: -863555783
+  Translate: [-4020.51807, 339.439941, -2020.92151]
+  UnitConfigName: Obj_RockSnow_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8cfd8d77
+  SRTHash: 205563096
+  Translate: [-4537.90479, 333.914917, -2648.74585]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x8d5cd60a
+  Rotate: [0.463263273, -0.712498069, -0.145829856]
+  SRTHash: 1387644973
+  Scale: 0.959960997
+  Translate: [-4057.88281, 141.850861, -2881.24219]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8d933ef5
+  Rotate: -0.517211854
+  SRTHash: 372921441
+  Translate: [-4243.82031, 210.124619, -2404.19922]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0x8db51a07
+  Rotate: [0.0331423506, 3.97465253, 0.0331423506]
+  SRTHash: -301128809
+  Translate: [-4145.19385, 214.974655, -2621.28711]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x8e5e9b0a
+  Rotate: 0.279999733
+  SRTHash: 1667670231
+  Translate: [-4493.0791, 219.859207, -2478.94019]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- HashId: !u 0x8f07269d
+  Rotate: [-0.322016209, 0.615956247, -0.322016209]
+  SRTHash: 1578131290
+  Translate: [-4134.16113, 215.365784, -2615.84546]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x8f2f071c
+  Rotate: -0.640000045
+  SRTHash: 246868356
+  Translate: [-4028.54761, 356.281769, -1977.87219]
+  UnitConfigName: FldObj_TorchStandBone_A_01
+- HashId: !u 0x8f321bef
+  Rotate: [-0.0824965909, 4.20307064, -0.0824965909]
+  SRTHash: 810730815
+  Translate: [-4150.50586, 214.044708, -2631.6084]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8f453a64
+  Rotate: -0.539999962
+  SRTHash: 1200565206
+  Translate: [-4247.42432, 271.077606, -1877.10254]
+  UnitConfigName: Obj_TreeWhiteBirch_A_01
+- HashId: !u 0x8f5abe56
+  Rotate: [-0.103304446, 5.79026079, -0.103304446]
+  SRTHash: 962641967
+  Translate: [-4141.30127, 214.139618, -2630.0769]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x8ff0dba4
+  Rotate: 1.026245
+  SRTHash: 715429635
+  Scale: 1.05908203
+  Translate: [-4140.92969, 98.4198608, -2178.89844]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0x9045a8ee
+  Rotate: [-0.941532254, 1.33507729, -0.710422158]
+  SRTHash: 1815555222
+  Scale: 0.979004025
+  Translate: [-4029.36719, 178.557907, -2710.19531]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0x90739cce
+  Rotate: 1.26000071
+  SRTHash: -1897990529
+  Translate: [-4287.30176, 310.921814, -2922.98633]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x90833097
+  Rotate: [3.08090377, 3.38952971, 3.08090377]
+  SRTHash: -608260998
+  Translate: [-4152.1001, 216.701675, -2615.87207]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x91f86e9e
+  Rotate: -1.60159457
+  SRTHash: 109023481
+  Scale: 0.5
+  Translate: [-4102.33691, 97.610611, -2489.77441]
+  UnitConfigName: FldObj_HeburaGeyser_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x92779d44
+  Rotate: [-0.303957552, 0.904342055, -0.132228881]
+  SRTHash: -1055745222
+  Translate: [-4167.61377, 318.287262, -1955.54517]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x9296c331
+  Rotate: 1.04000068
+  SRTHash: 1814414103
+  Translate: [-4326.05908, 160.86702, -2044.8092]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x92c53ae1
+  Rotate: [0.431496739, 0.802276015, 0.54507184]
+  SRTHash: 2040168823
+  Scale: 1.02831995
+  Translate: [-4111.88672, 136.019241, -2682.88281]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 0, WaterfallAngle: 88.5, WaterfallLength: 7.0,
+    WaterfallRadius: 1.39999998, WaterfallThickness: 0.280000001}
+  HashId: !u 0x92df6e0e
+  Rotate: 3.1000011
+  SRTHash: -196002986
+  Scale: [2.79999995, 0.699999988, 0.699999988]
+  Translate: [-4053.72778, 148.980423, -2666.69263]
+  UnitConfigName: BoxWater
+- HashId: !u 0x92fe2881
+  Rotate: [0.926984131, -0.172663644, -0.872002184]
+  SRTHash: -1262713608
+  Translate: [-4019.90894, 344.571777, -1944.78955]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x93265ec1
+  Rotate: -2.25999784
+  SRTHash: 70036958
+  Translate: [-4115.47949, 189.77359, -2632.17725]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9393dc7b
+  Rotate: [3.14147925, 0.327392548, 3.14147925]
+  SRTHash: 1403793052
+  Translate: [-4171.44531, 214.136597, -2636.21094]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x93d516a9
+  Rotate: [-2.92727256, -0.0162468273, 3.12150788]
+  SRTHash: 854522970
+  Translate: [-4206.81787, 150.998077, -2414.77051]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    GolemSleepType: SleepForward_A
+    GolemWeakPointLocation: Point_A
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+  HashId: !u 0x941d81a4
+  Rotate: [0.385442078, -0.465824932, -0.197090641]
+  SRTHash: 927135346
+  Translate: [-4217.30029, 295.568176, -2710.34814]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- HashId: !u 0x9422bd23
+  Rotate: [2.7274096, 5.96529627, 2.7274096]
+  SRTHash: 1848519978
+  Translate: [-4157.64258, 218.333206, -2609.93213]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x9442a3ba
+  Rotate: 1.61999977
+  SRTHash: -322766400
+  Translate: [-4406.17627, 336.284363, -2533.42139]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x94a0d0ca
+  Rotate: [-2.76059985, 1.40141022, -2.70576]
+  SRTHash: 340254584
+  Translate: [-4332.68311, 160.792007, -2051.40259]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x94bd2778
+  Rotate: 2.51134443
+  SRTHash: 699075774
+  Translate: [-4077.43091, 141.113831, -2886.87769]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x951b0259
+  Rotate: 3.45004892
+  SRTHash: 1216195972
+  Translate: [-4071.32935, 132.599731, -2774.15918]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0x957bcbf4
+  Rotate: -2.00712872
+  SRTHash: 1113754615
+  Translate: [-4118.92676, 303.863708, -1932.80444]
+  UnitConfigName: TravelersGuardianDeity_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x95d69842
+  SRTHash: 8063309
+  Translate: [-4603.46143, 333.765076, -2867.80054]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x95f796c5
+  Rotate: [1.66320789, -0.398193359, -0.126953125]
+  SRTHash: 0
+  Translate: [-4401.14453, 292.09375, -2435.78906]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x96064b1d
+  Rotate: -0.179999888
+  SRTHash: 132990706
+  Translate: [-4147.80078, 208.557144, -2648.22974]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x962c5df4
+  Rotate: -0.859999776
+  SRTHash: -1672843396
+  Translate: [-4083.27271, 88.9906921, -2479.52417]
+  UnitConfigName: FldObj_PierSnow_A_02
+- HashId: !u 0x9646d743
+  SRTHash: 729622094
+  Translate: [-4088.74292, 173.309204, -2656.80371]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x9648663b
+  Rotate: -0.300000012
+  SRTHash: 13486584
+  Translate: [-4438.38672, 208.055237, -2171.93628]
+  UnitConfigName: Animal_Elk_A
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 0, WaterfallAngle: 90.0, WaterfallLength: 0.0,
+    WaterfallRadius: 0.0, WaterfallThickness: 0.699999988}
+  HashId: !u 0x981a6717
+  Rotate: 3.1000011
+  SRTHash: -1214839155
+  Scale: 0.699999988
+  Translate: [-4050.07812, 124.21199, -2681.25244]
+  UnitConfigName: BoxWater
+- HashId: !u 0x982000eb
+  Rotate: -3.12699103
+  SRTHash: -388944528
+  Scale: [10.0, 29.5976658, 10.0]
+  Translate: [-4015.63647, 88.9046631, -2553.51489]
+  UnitConfigName: AscendingCurrent
+- HashId: !u 0x989f2a4e
+  SRTHash: 118593935
+  Translate: [-4101.30176, 89.8964462, -2450.53198]
+  UnitConfigName: FidObj_TorchStand_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x990d86a1
+  Rotate: 4.73236322
+  SRTHash: -157805467
+  Translate: [-3985.18433, 175.997803, -2621.41064]
+  UnitConfigName: Obj_TreeConiferousDead_A_Snow_01
+- HashId: !u 0x99600ff9
+  Rotate: 1.52961349
+  SRTHash: -139578643
+  Translate: [-4322.06641, 160.725861, -2056.88525]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x99818adf
+  Rotate: [3.14147925, -0.203124985, 3.14147925]
+  SRTHash: 680852189
+  Translate: [-4478.76562, 342.918732, -2734.27344]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0x99a1ce9d
+  Rotate: [-1.17592061, 1.76573062, -1.17592061]
+  SRTHash: -1482033959
+  Translate: [-4335.28027, 160.66893, -2070.06616]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x99da47f1
+  Rotate: [0.0, -1.0999999, -0.159999982]
+  SRTHash: 2136811578
+  Translate: [-4171.69189, 180.16156, -2707.30688]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x99fd77e6
+  Rotate: 1.99044108
+  SRTHash: -1090127158
+  Translate: [-4316.03906, 160.810852, -2043.25049]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x9a66592e
+  Rotate: -1.46000028
+  SRTHash: 1708845366
+  Translate: [-4032.2041, 89.4577255, -2540.80054]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9ad37e10
+  Rotate: [2.65222168, -0.697753847, -0.430419892]
+  SRTHash: 0
+  Translate: [-4628.61719, 211.050781, -2752.77344]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x9ae8817d
+  Rotate: [2.88819575, 0.585355759, -3.06050968]
+  SRTHash: -390605457
+  Scale: 1.20000005
+  Translate: [-4399.54248, 210.395706, -2196.81201]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0x9aedc6e2
+  Rotate: 2.24000025
+  SRTHash: -687541946
+  Scale: [15.0, 52.9997749, 15.0]
+  Translate: [-4139.55225, 138.268097, -2669.1311]
+  UnitConfigName: AscendingCurrent
+- HashId: !u 0x9b20253d
+  Rotate: 0.160000101
+  SRTHash: 118170295
+  Translate: [-4239.89893, 89.025177, -2177.88232]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0x9b3a2860
+  Rotate: 0.620000184
+  SRTHash: -1552689752
+  Translate: [-4201.01465, 309.661163, -1923.47412]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x9b713e32
+  Rotate: [-0.76398164, 5.47508097, -0.76398164]
+  SRTHash: 1534890451
+  Translate: [-4170.38037, 218.646393, -2613.34326]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x9bd117da
+  Rotate: [0.0376748815, -1.09801495, -0.230826259]
+  SRTHash: -2010364803
+  Translate: [-4530.12354, 217.331055, -2263.21313]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0x9bdf0b62
+  Rotate: 2.44318461
+  SRTHash: 915297421
+  Translate: [-4268.13135, 236.531769, -2017.03271]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x9c0cd9df
+  Rotate: [0.0999999866, 0.0, -0.199999928]
+  SRTHash: -1135452065
+  Translate: [-4161.0791, 160.045624, -2944.83594]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0x9c7a46e4
+  Rotate: [-0.284782231, 0.879894078, -0.221890837]
+  SRTHash: 791676457
+  Translate: [-4292.55322, 255.98407, -1993.39868]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0x9cb32656
+  Rotate: [2.93942046, -0.319980711, 0.00357791572]
+  SRTHash: -88564667
+  Translate: [-4048.42334, 117.733841, -2512.07129]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9cbe0ff4
+  Rotate: 0.972900331
+  SRTHash: -1525438756
+  Translate: [-4052.57031, 132.906876, -2740.58203]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9cef3137
+  Rotate: 2.87728977
+  SRTHash: 894454240
+  Translate: [-4030.91235, 177.139847, -2714.20654]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0x9d304141
+  SRTHash: 1549609181
+  Translate: [-4045.57397, 93.2546539, -2525.49268]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0x9d508c16
+  Rotate: [0.0, -0.320000052, -0.139999986]
+  SRTHash: -2100532531
+  Translate: [-4012.93774, 87.7283325, -2539.80542]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0x9e288ba9
+  Rotate: [0.0105100656, 2.26713252, 0.0105100656]
+  SRTHash: -1817493551
+  Translate: [-4161.16455, 216.218048, -2620.73193]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9f135609
+  Rotate: [-1.66296375, -1.14526367, -2.93225098]
+  SRTHash: 0
+  Translate: [-4451.50391, 258.910156, -1989.42188]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x9f9a801b
+  SRTHash: 1850704362
+  Translate: [-4477.57178, 342.802673, -2716.24927]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9fb5e7b3
+  Rotate: [0.801757753, -0.806396425, 0.314819336]
+  SRTHash: 0
+  Translate: [-4558.34766, 361.625, -2832.44141]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xa065e3b4
+  Rotate: [2.36748719, 1.92717063, 2.36748719]
+  SRTHash: 1484370349
+  Translate: [-4168.84912, 219.370361, -2607.72144]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xa0a06854
+  Rotate: -0.73999989
+  SRTHash: 1541022328
+  Translate: [-4071.41772, 89.665657, -2450.96289]
+  UnitConfigName: FldObj_PierSnowProp_A_01
+- HashId: !u 0xa0e318ee
+  Rotate: -1.48000085
+  SRTHash: -1165848043
+  Translate: [-4110.87598, 181.516098, -2640.65015]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa12aea6f
+  Rotate: 4.21975613
+  SRTHash: 1354225471
+  Translate: [-4568.14551, 335.833984, -2659.70947]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa1358386
+  SRTHash: 147813051
+  Translate: [-4429.90625, 214.138626, -2225.54492]
+  UnitConfigName: Obj_TreeDead_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa17934c5
+  Rotate: 0.74000001
+  SRTHash: -257430792
+  Translate: [-4079.92358, 132.323639, -2766.72876]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa1febd16
+  Rotate: -2.41999984
+  SRTHash: -480410629
+  Translate: [-4160.60449, 292.86145, -1834.70386]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa2d4ec62
+  Rotate: 2.58628535
+  SRTHash: -665452941
+  Translate: [-4596.83154, 333.250641, -2747.57178]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xa3987cce
+  Rotate: [0.0, -0.459999979, -0.0799999908]
+  SRTHash: 876354132
+  Translate: [-4300.61328, 247.173004, -2004.12195]
+  UnitConfigName: Obj_RockSetYellow_A_02
+- HashId: !u 0xa3df9cb3
+  Rotate: [-1.66036832, -0.735328674, -0.0739480406]
+  SRTHash: 512406133
+  Translate: [-4023.35718, 135.597137, -2548.48389]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0xa3f9f74b
+  Rotate: 0.520000041
+  SRTHash: -321828178
+  Translate: [-4568.6084, 335.117737, -2650.40161]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- '!Parameters': {DropActor: Obj_BombArrow_A_02, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa4ad690a
+  Rotate: [-0.195188329, -0.584322929, 0.41240406]
+  SRTHash: -1329458022
+  Translate: [-4245.48828, 308.868347, -2887.50171]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0xa4d55556
+  Rotate: 2.56160045
+  SRTHash: 534171853
+  Translate: [-4225.03711, 280.110352, -1839.86328]
+  UnitConfigName: Obj_RockSetYellow_A_L_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa4e8d8fa
+  Rotate: [-0.140000075, -0.740000427, 0.319999963]
+  SRTHash: -275625698
+  Translate: [-4142.0498, 221.341675, -2060.12891]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0xa4fe1298
+  SRTHash: -1649791998
+  Translate: [-4044.31763, 91.8507309, -2525.07397]
+  UnitConfigName: Obj_RockSnow_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa5353aec
+  Rotate: [3.13830543, -1.2734375, -1.81567371]
+  SRTHash: 0
+  Translate: [-3870.125, 171.921875, -2498.92188]
+  UnitConfigName: Item_Plant_O
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    GolemSleepType: SleepForward_A
+    GolemWeakPointLocation: Point_A
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+  HashId: !u 0xa554bb17
+  Rotate: [-0.134530365, -0.594889045, 0.091704689]
+  SRTHash: -726562580
+  Translate: [-4212.6709, 297.203613, -2714.71069]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa60ef0e8
+  Rotate: 0.307177424
+  SRTHash: -1968846031
+  Translate: [-4131.41504, 149.276917, -2913.07324]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa617f37d
+  Rotate: 3.03703809
+  SRTHash: -1166758816
+  Translate: [-4051.68433, 132.922699, -2740.20483]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0xa624856c
+  Rotate: -0.119999975
+  SRTHash: -1908926764
+  Translate: [-4058.9978, 91.0511856, -2525.48633]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0xa6e81d8f
+  Rotate: 3.02073002
+  SRTHash: -1154488387
+  Translate: [-4327.90283, 160.902542, -2050.61548]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa70d1889
+  SRTHash: -527715897
+  Translate: [-4281.3916, 260.556732, -1930.11499]
+  UnitConfigName: Obj_TreeWhiteBirch_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa765e0e9
+  Rotate: 0.820020854
+  SRTHash: -55631536
+  Translate: [-4160.67139, 236.024109, -2545.92578]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa766df8b
+  Rotate: 4.96082163
+  SRTHash: 696845881
+  Translate: [-4147.89697, 148.748886, -2875.81543]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0xa76e3752
+  Rotate: [0.0226073265, -0.107834615, 0.0909675062]
+  SRTHash: 14195194
+  Scale: 1.01708996
+  Translate: [-4598.51562, 332.936584, -2830.66016]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0xa76ff2f5
+  Rotate: [-0.638378322, 2.17435741, -0.638378322]
+  SRTHash: 485970592
+  Translate: [-4170.08643, 217.676163, -2619.33813]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xa78aefec
+  Rotate: [0.596324563, -1.30845511, -0.701929629]
+  SRTHash: 292519576
+  Scale: 1.00195301
+  Translate: [-4120.71484, 137.433441, -2856.39062]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0xa79f1767
+  Rotate: 0.819999933
+  SRTHash: -284426459
+  Translate: [-4328.60791, 160.699722, -2069.51733]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xa7bb9a33
+  Rotate: [0.474815398, 0.433997422, 0.474815398]
+  SRTHash: -941771333
+  Translate: [-4146.36963, 217.770721, -2609.74536]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xa7d666ad
+  Rotate: [-6.36562545e-05, -0.00319574261, 0.0398722403]
+  SRTHash: 1193430867
+  Translate: [-4026.96362, 156.681717, -2529.23218]
+  UnitConfigName: FldObj_BankingFlat_A_07
+- HashId: !u 0xa852ea98
+  Rotate: 0.639999926
+  SRTHash: 1047232378
+  Translate: [-3976.26782, 302.422913, -1955.46484]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0xa9168052
+  Rotate: [0.545588791, -1.38751388, -0.194894835]
+  SRTHash: 1468878415
+  Scale: 1.05322301
+  Translate: [-4073.05078, 91.3411484, -2479.39844]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- HashId: !u 0xa97b2843
+  Rotate: [1.05406439, -1.42219937, -0.788189888]
+  SRTHash: 387822473
+  Translate: [-4084.97314, 213.234619, -2103.96655]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0xa9f1e731
+  Rotate: [0.579999864, 0.819999933, 0.0]
+  SRTHash: -882315681
+  Translate: [-4097.17139, 306.435089, -1870.86609]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0xaa16fa84
+  Rotate: [-1.34368479, 6.15173912, -1.34368479]
+  SRTHash: 1368478518
+  Translate: [-4147.27832, 213.996124, -2631.68945]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xab151658
+  Rotate: 0.953125
+  SRTHash: 37694792
+  Translate: [-4015.69922, 175.592209, -2683.57812]
+  UnitConfigName: Item_Mushroom_B
+- HashId: !u 0xabbe375f
+  SRTHash: -2029328449
+  Translate: [-4010.53955, 191.730301, -2602.90356]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xad53b329
+  Rotate: 4.25667381
+  SRTHash: -1470243920
+  Translate: [-4152.16064, 241.741882, -2512.58765]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xadb36e02
+  Rotate: 1.20516765
+  SRTHash: -1974898069
+  Translate: [-4388.76611, 383.546051, -2808.7478]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xaeb7e9d0
+  SRTHash: -1713090893
+  Translate: [-4282.92725, 240.890503, -2016.91016]
+  UnitConfigName: Obj_TreeWhiteBirch_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xaf087732
+  SRTHash: 1290990483
+  Translate: [-4157.84619, 169.182236, -2841.52173]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xaf50d142
+  Rotate: [-0.340307385, 1.48670924, -0.414600968]
+  SRTHash: 791920825
+  Translate: [-4068.41992, 156.773788, -2264.25537]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xaf6d3261
+  Rotate: 5.98881149
+  SRTHash: -1755569683
+  Translate: [-4020.25293, 192.578415, -2592.09814]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xafcc8f7c
+  Rotate: -0.0999999866
+  SRTHash: 1879398520
+  Translate: [-4136.61035, 326.588074, -2000.02673]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xb019b8db
+  Rotate: -0.139999986
+  SRTHash: -1799141639
+  Translate: [-4024.30347, 191.427475, -2608.62061]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb0758377
+  Rotate: [1.65222156, 1.12463379, 0.0877685621]
+  SRTHash: 0
+  Translate: [-4199.08203, 208.734375, -2943.71875]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xb1d3624e
+  Rotate: [0.0198727679, -0.00479075452, 0.0597925484]
+  SRTHash: -649726531
+  Translate: [-4035.02271, 156.616043, -2539.27393]
+  UnitConfigName: FldObj_BankingFlat_A_07
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb1dde6d7
+  Rotate: [3.14147925, -0.713012636, 3.14147925]
+  SRTHash: -2040775617
+  Translate: [-4149.25391, 149.366333, -2875.43359]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xb21b13d0
+  Rotate: 2.55999923
+  SRTHash: -759412359
+  Scale: 100.0
+  Translate: [-4052.6521, 193.098572, -2626.00806]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb2692425
+  Rotate: [1.33752429, -0.674316406, -0.018310545]
+  SRTHash: 0
+  Translate: [-4554.67578, 352.53125, -2803.54688]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xb31a23d6
+  Rotate: [-0.655768931, 0.524776518, -0.116008379]
+  SRTHash: 374015152
+  Translate: [-4029.11475, 340.513947, -2013.35754]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0xb36429ac
+  Rotate: [-2.99504542, 5.23847914, -2.99504542]
+  SRTHash: -930478139
+  Translate: [-4338.9458, 160.632843, -2053.84473]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xb39a3ea9
+  Rotate: 5.75791454
+  SRTHash: 651312541
+  Translate: [-4035.2019, 348.974518, -1996.62305]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0xb3c2552c
+  Rotate: 1.27793157
+  SRTHash: 847576669
+  Translate: [-4422.06982, 348.231506, -2746.73682]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0xb405fceb
+  SRTHash: -29675975
+  Translate: [-4176.61133, 174.143433, -2783.80469]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb50ea62d
+  SRTHash: 1510180278
+  Translate: [-4014.77295, 337.001007, -2042.60852]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {Direction: 0, Shape: Box, WindSpeed: 10.0}
+  HashId: !u 0xb54c5cd8
+  Rotate: -0.798147798
+  SRTHash: -1599423426
+  Scale: [62.4000015, 16.2999992, 31.2999992]
+  Translate: [-3885.85034, 88.6990967, -2611.2251]
+  UnitConfigName: PointWindSetTag
+- HashId: !u 0xb54dd2db
+  Rotate: [0.446993262, 3.47671914, 0.446993262]
+  SRTHash: 956264612
+  Translate: [-4142.50635, 218.919785, -2599.99634]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb584dcad
+  Rotate: 4.77749252
+  SRTHash: -142703863
+  Translate: [-4499.56494, 335.69577, -2699.92212]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xb5a40c2d
+  Rotate: 0.778946221
+  SRTHash: -1277145407
+  Translate: [-4339.85107, 160.768356, -2062.89478]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb5fea336
+  Rotate: 0.472045869
+  SRTHash: -859605317
+  Translate: [-4365.03906, 382.766113, -2823.79688]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb60cf5ad
+  SRTHash: 21179604
+  Translate: [-4310.00684, 238.651184, -2020.07544]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb652240d
+  Rotate: -0.620000005
+  SRTHash: 284242501
+  Translate: [-4162.78662, 234.815979, -2553.80469]
+  UnitConfigName: Obj_TreeConiferousDead_A_Snow_01
+- HashId: !u 0xb661d923
+  Rotate: [-0.337016672, 1.06621921, -0.539154589]
+  SRTHash: 947749823
+  Scale: 1.07666004
+  Translate: [-4146.46484, 237.140518, -2531.29688]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: false
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 1
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xb6d86bb1
+  Rotate: [0.22345604, 0.756829917, 0.352136225]
+  SRTHash: 1013077179
+  Translate: [-4039.17871, 131.126892, -2678.15918]
+  UnitConfigName: Weapon_Shield_021
+- HashId: !u 0xb75b0fb7
+  Rotate: [0.0507903956, -0.701658368, -0.0785911456]
+  SRTHash: -1602649634
+  Translate: [-4428.97754, 355.1745, -2785.04102]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0xb780eca3
+  Rotate: [-0.243099049, -1.2734549, 0.344088763]
+  SRTHash: -1477139278
+  Scale: 0.881835997
+  Translate: [-4519.27734, 366.756958, -2890.38281]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0xb87e7194
+  Rotate: [-0.180526555, 3.88910246, -0.180526555]
+  SRTHash: 365264135
+  Translate: [-4135.87939, 214.847778, -2622.15698]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb8848494
+  Rotate: -0.540000021
+  SRTHash: -1183997349
+  Translate: [-4488.8584, 215.415741, -2361.38599]
+  UnitConfigName: Obj_TreeConiferousDead_A_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb8b9c043
+  Rotate: 1.43579102
+  SRTHash: 1224504390
+  Translate: [-4504.00781, 227.523514, -2494.60156]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: true
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xb8c91fb5
+  Rotate: 1.81999934
+  SRTHash: 1127420295
+  Translate: [-4037.62207, 196.098572, -2627.76929]
+  UnitConfigName: Enemy_Keese
+- HashId: !u 0xb8d08822
+  Rotate: 0.680000186
+  SRTHash: -721633177
+  Translate: [-4453.81299, 221.667725, -2468.32837]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0xb9241cd0
+  Rotate: 1.04000068
+  SRTHash: 344898927
+  Translate: [-4334.74316, 160.64505, -2056.2522]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xb93c0438
+  Rotate: 0.680000186
+  SRTHash: -1280706623
+  Translate: [-4505.75439, 223.18335, -2502.26587]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb94c9c12
+  Rotate: [1.59692383, 0.394897461, 0.3280029]
+  SRTHash: 0
+  Translate: [-4432.81641, 326.261719, -2502.52344]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xba249c07
+  Rotate: [-0.220241562, -1.39919281, 0.235246107]
+  SRTHash: 1203605549
+  Translate: [-4147.1084, 221.191971, -2059.62305]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0xba9a672d
+  Rotate: 1.25999999
+  SRTHash: 1308771665
+  Translate: [-4519.80908, 332.408234, -2718.25977]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0xbc081b6f
+  Rotate: -2.3599999
+  SRTHash: 1227326600
+  Translate: [-4078.55396, 88.9906921, -2454.32104]
+  UnitConfigName: FldObj_PierSnow_A_02
+- HashId: !u 0xbc684044
+  Rotate: -2.65999866
+  SRTHash: -424065954
+  Translate: [-4187.18652, 289.531342, -1861.11426]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0xbcc63a05
+  Rotate: [-0.0191138703, 3.97007918, -0.0191138703]
+  SRTHash: 1919393350
+  Translate: [-4138.04004, 217.734497, -2604.03052]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbce503a0
+  SRTHash: -508918205
+  Translate: [-4015.22217, 187.193512, -2647.28149]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbd19d94c
+  Rotate: -1.39999998
+  SRTHash: 1604440000
+  Translate: [-4462.41162, 219.502243, -2405.74072]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbd6ddd23
+  Rotate: 0.371542215
+  SRTHash: -2127177796
+  Translate: [-4141.94482, 133.515686, -2725.95435]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0xbd7ce7ea
+  Rotate: [-0.225652173, 5.80066633, -0.225652173]
+  SRTHash: -904042450
+  Translate: [-4156.44824, 214.309753, -2628.83643]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    GolemSleepType: SleepForward_A
+    GolemWeakPointLocation: Point_A
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+  HashId: !u 0xbdcaa1fa
+  Rotate: [0.0307864044, -0.00363467191, 0.235015973]
+  SRTHash: 619099748
+  Translate: [-4220.2334, 296.433014, -2716.28247]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- HashId: !u 0xbe12c8d8
+  Rotate: [0.157773182, -0.952817976, 0.599592447]
+  SRTHash: 1530872183
+  Translate: [-4207.66113, 282.573853, -1863.75049]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbe148a31
+  Rotate: [0.0799219161, -0.0694231093, 0.137928382]
+  SRTHash: -430840131
+  Translate: [-4172.27246, 317.858704, -1949.09619]
+  UnitConfigName: Obj_Mineral_B_01
+- HashId: !u 0xbe2eef0c
+  Rotate: [0.0399999954, 0.780000091, 0.0]
+  SRTHash: -438076181
+  Translate: [-4101.8667, 88.9906921, -2451.38354]
+  UnitConfigName: FldObj_PierSnow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbeb36aab
+  SRTHash: -1658131979
+  Translate: [-4101.89355, 204.945709, -2586.95068]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xbfac3bf5
+  Rotate: 3.04318857
+  SRTHash: -152619160
+  Translate: [-4262.1543, 295.626312, -2808.41187]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbfdacc48
+  Rotate: 1.44233024
+  SRTHash: 2047486827
+  Translate: [-4103.26416, 138.911774, -2693.2373]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0xc07e10eb
+  Rotate: [-1.10524035, 0.689641178, -0.826315939]
+  SRTHash: -1388178646
+  Translate: [-4281.60107, 250.49408, -2003.47754]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0xc0946473
+  Rotate: [0.195383921, -0.836556196, -0.317831784]
+  SRTHash: -1718902628
+  Translate: [-4376.1333, 195.60318, -2154.69238]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0xc1915ee2
+  Rotate: [-0.0740326643, -0.211130649, 0.0620968714]
+  SRTHash: -1104759898
+  Scale: 0.935546994
+  Translate: [-4605.53906, 331.778595, -2757.23047]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0xc24cfbf5
+  SRTHash: -1040450826
+  Translate: [-4306.33008, 259.166229, -1932.47913]
+  UnitConfigName: Obj_RockSetYellow_A_L_03
+- HashId: !u 0xc26ab51d
+  Rotate: 0.456430614
+  SRTHash: 880685107
+  Translate: [-4339.33936, 160.803741, -2060.84009]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc283ec3b
+  Rotate: 4.1184597
+  SRTHash: 294827807
+  Translate: [-4528.05469, 333.645966, -2714.83618]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xc33a53d5
+  Rotate: -0.73999989
+  SRTHash: 1262301722
+  Translate: [-4084.75269, 92.28125, -2511.44922]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xc34cbf92
+  Rotate: 2.55999923
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4052.6521, 193.098572, -2626.00806]
+  UnitConfigName: Area
+- HashId: !u 0xc3549217
+  Rotate: 0.819999993
+  SRTHash: -960343964
+  Translate: [-4228.8208, 273.669495, -1898.0686]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc3b20a6f
+  Rotate: 0.765258729
+  SRTHash: -2118636650
+  Translate: [-4100.92578, 204.653625, -2586.85938]
+  UnitConfigName: Item_Mushroom_B
+- HashId: !u 0xc3f8a34b
+  SRTHash: 536053448
+  Translate: [-4013.45703, 89.5348053, -2532.15747]
+  UnitConfigName: FidObj_TorchStand_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc43900e4
+  Rotate: 0.600000024
+  SRTHash: 487878421
+  Translate: [-4468.11621, 220.720123, -2455.48633]
+  UnitConfigName: Obj_TreeConiferousDead_A_Snow_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xc44b7d2f
+  Rotate: -1.63999975
+  SRTHash: -610720803
+  Translate: [-4464.41016, 215.404617, -2234.9458]
+  UnitConfigName: Animal_Elk_A
+- HashId: !u 0xc4cd8bc8
+  Rotate: [-0.142988831, 0.159233376, 0.0214721877]
+  SRTHash: -1530286106
+  Scale: 1.09619105
+  Translate: [-4333.90625, 342.035095, -2480.11328]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0xc5555a22
+  Rotate: [-2.84274983, 0.142977014, -2.84274983]
+  SRTHash: 431014061
+  Translate: [-4154.21533, 212.459457, -2641.04199]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xc5d853c6
+  Rotate: [-0.713614464, -1.4455328, 0.923538744]
+  SRTHash: 326015090
+  Translate: [-4162.40527, 287.522797, -1834.29199]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0xc681bcb8
+  Rotate: 1.19999993
+  SRTHash: -1057198682
+  Scale: 0.5
+  Translate: [-3942.77197, 106.587173, -2484.89478]
+  UnitConfigName: FldObj_HeburaGeyser_01
+- HashId: !u 0xc68fb4a4
+  Rotate: 0.299999982
+  SRTHash: -1347998359
+  Translate: [-4096.65723, 130.336441, -2703.36475]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0xc7049fff
+  Rotate: -0.239999995
+  SRTHash: -1863839097
+  Translate: [-3996.45483, 145.719482, -2537.36987]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- HashId: !u 0xc718c701
+  SRTHash: -110307067
+  Translate: [-4531.54297, 219.375214, -2497.09521]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc728f634
+  Rotate: -0.99999994
+  SRTHash: 380354965
+  Translate: [-4126.94971, 325.890625, -2004.5929]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xc7dfddbc
+  Rotate: -2.39619398
+  SRTHash: 1382431256
+  Translate: [-3991.7124, 145.023819, -2535.92041]
+  UnitConfigName: FidObj_TorchStand_A-2
+- HashId: !u 0xc83e1079
+  Rotate: 0.00477690436
+  SRTHash: 988185568
+  Translate: [-4314.39307, 160.848862, -2053.05127]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xc8447e71
+  SRTHash: 1987232661
+  Translate: [-4078.32739, 89.7115173, -2480.69116]
+  UnitConfigName: FidObj_TorchStand_A_01
+- HashId: !u 0xc886da3f
+  Rotate: -1.4768132
+  SRTHash: -787098244
+  Translate: [-4090.23315, 208.410095, -2604.01074]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- HashId: !u 0xc8979ffd
+  Rotate: 1.98569727
+  SRTHash: -566754824
+  Translate: [-4034.98193, 353.155884, -1975.15576]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc8bfaa84
+  SRTHash: -1879296169
+  Translate: [-4298.48047, 257.611023, -1984.71558]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0xc91bc11f
+  Rotate: [-0.0304748863, 2.77870989, -0.0304748863]
+  SRTHash: 1944525381
+  Translate: [-4144.49951, 216.967468, -2612.16919]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xc97a4c18
+  Rotate: 1.08000016
+  SRTHash: 1651561471
+  Scale: 0.899999976
+  Translate: [-4535.82715, 212.028229, -2445.33203]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcb16975b
+  Rotate: [0.0, 0.0, -0.439999968]
+  SRTHash: 1043730584
+  Translate: [-4069.69946, 155.983521, -2264.83545]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0xcb26e624
+  SRTHash: -461140137
+  Translate: [-4173.35938, 241.055557, -2539.57202]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcc1a389f
+  Rotate: 5.67688179
+  SRTHash: 1142625208
+  Translate: [-4121.88574, 139.158112, -2864.93774]
+  UnitConfigName: Obj_TreeWhiteBirch_A_01
+- HashId: !u 0xcc3aa34f
+  Rotate: [-0.527727008, 0.866492391, -0.373608321]
+  SRTHash: 1574509624
+  Translate: [-4014.09961, 332.64447, -2045.04236]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0xcc83ec71
+  Rotate: -1.69681454
+  SRTHash: 1959870756
+  Translate: [-4343.25928, 160.621033, -2052.16162]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xccafdec8
+  Rotate: [-0.579542041, -0.234164581, 1.230111]
+  SRTHash: -2088056496
+  Scale: 1.10000002
+  Translate: [-4008.29907, 225.668549, -2925.47144]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0xcccbecbe
+  Rotate: [2.36167955, 0.507202864, 2.36167955]
+  SRTHash: 1297733
+  Translate: [-4159.80566, 213.009827, -2638.56787]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xccdd3248
+  SRTHash: 970113525
+  Translate: [-4021.34766, 163.154648, -2560.45752]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xcd5ab3fd
+  Rotate: 6.01062632
+  SRTHash: -535634791
+  Translate: [-4097.28564, 186.958328, -2643.03003]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcd7622a7
+  Rotate: [-0.177590281, 0.0237480924, 0.00193277281]
+  SRTHash: -926804535
+  Translate: [-3848.05615, 135.448669, -2738.10596]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0xcd9ec6f4
+  SRTHash: -1279924774
+  Translate: [-4319.63867, 255.010712, -1930.95032]
+  UnitConfigName: Obj_RockSetYellow_A_L_04
+- HashId: !u 0xcdaacbcb
+  Rotate: 0.599999785
+  SRTHash: -772698822
+  Translate: [-4044.229, 129.507629, -2671.33911]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcdb0894a
+  Rotate: [0.91394037, -0.630493104, 0.141601562]
+  SRTHash: 0
+  Translate: [-3754.58594, 217.992188, -2619.00391]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xceb7d656
+  Rotate: 3.28872657
+  SRTHash: 886514853
+  Translate: [-4020.18311, 338.296234, -2035.12439]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcf6e30a6
+  Rotate: 3.37312007
+  SRTHash: 1970320584
+  Translate: [-4529.9126, 222.747253, -2502.7644]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0xcf887249
+  Rotate: 0.0999999866
+  SRTHash: 68198948
+  Translate: [-4248.61328, 88.598526, -2204.54028]
+  UnitConfigName: FldObj_PierSnow_A_02
+- HashId: !u 0xcfa710b5
+  Rotate: [0.0544852614, -0.497272849, -0.333836496]
+  SRTHash: 1806272414
+  Translate: [-4487.41748, 211.975006, -2366.29248]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0xcfbe71a2
+  Rotate: [0.319999903, -0.699999928, 0.0]
+  SRTHash: -789330026
+  Translate: [-4038.25952, 87.8409729, -2530.16455]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0xd0142b9d
+  Rotate: [0.421093404, -1.01080072, -0.314512908]
+  SRTHash: 1631292291
+  Translate: [-4194.92236, 298.218933, -1868.19788]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd144f4dc
+  Rotate: 1.27627039
+  SRTHash: -148439362
+  Translate: [-3990.32202, 345.261169, -2021.96362]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xd2fbd27b
+  Rotate: -0.260000169
+  SRTHash: -547352568
+  Translate: [-4036.51147, 128.319443, -2732.0083]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd341da23
+  SRTHash: -1603755741
+  Translate: [-4016.62695, 175.785416, -2682.62695]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xd35614cb
+  Rotate: -1.34000015
+  SRTHash: 1830591537
+  Translate: [-4490.5625, 337.555664, -2609.21924]
+  UnitConfigName: Animal_Bear_B
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd39f67c0
+  SRTHash: -1621341477
+  Translate: [-4153.95996, 318.143738, -1947.96216]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd49098a9
+  Rotate: [3.06708694, -0.432667732, -1.83492196]
+  SRTHash: -1297650094
+  Translate: [-4076.16479, 216.021851, -2116.37183]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd5aff230
+  Rotate: [-0.647759318, -1.11144292, 0.63590914]
+  SRTHash: 864099120
+  Translate: [-4100.84375, 291.389282, -2043.27917]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd5d7c1aa
+  Rotate: 0.431234151
+  SRTHash: 520196330
+  Translate: [-4068.60376, 133.187088, -2764.70142]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd602d6dd
+  Rotate: -1.5200001
+  SRTHash: -549821790
+  Translate: [-4242.32129, 275.111694, -1851.07385]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0xd6068af8
+  Rotate: [3.02056932, 5.69460106, 3.02056932]
+  SRTHash: -1147368021
+  Translate: [-4169.10107, 216.028397, -2625.32642]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xd637e3e1
+  Rotate: 0.980000317
+  SRTHash: 1533930029
+  Scale: 0.899999976
+  Translate: [-3997.13794, 339.202667, -2030.79443]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd66eb042
+  Rotate: 0.301044792
+  SRTHash: 135781525
+  Translate: [-4427.90088, 355.214691, -2779.63086]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xd6e283e9
+  Rotate: [0.0325224176, 0.817971349, 0.182198212]
+  SRTHash: -1856536851
+  Translate: [-4406.73535, 303.988251, -2459.37622]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0xd726689a
+  Rotate: [-3.14159226, 0.898406982, 3.00159264]
+  SRTHash: -1372972231
+  Translate: [-4174.1709, 183.307373, -2749.88306]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0xd7b5d976
+  Rotate: -0.137084946
+  SRTHash: 684217971
+  Translate: [-4048.17969, 139.671875, -2727.99219]
+  UnitConfigName: EnvSeEmitPointBirdTemperate
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd8726927
+  Rotate: [1.19091797, -0.626220703, 0.337158203]
+  SRTHash: 0
+  Translate: [-4441.81641, 341.320312, -2500.30469]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xd971d0d0
+  Rotate: 5.12854195
+  SRTHash: 900033089
+  Translate: [-4325.25391, 160.645035, -2060.03809]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xd98096ab
+  SRTHash: -1829841867
+  Translate: [-4175.05713, 188.601837, -2754.35962]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0xd9b70c90
+  SRTHash: 40823028
+  Translate: [-4268.38135, 262.496033, -1986.82324]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0xd9c3b6b4
+  Rotate: [0.561165035, -1.23888099, -0.523528814]
+  SRTHash: -1696811104
+  Scale: 0.993651986
+  Translate: [-4541.58594, 223.168488, -2508.85938]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters':
+    ArrowName: NormalArrow
+    CarryActorName: OctObj_Grass_08
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xd9cff607
+  Rotate: -1.18318641
+  SRTHash: -976256099
+  Translate: [-4073.646, 86.2600861, -2471.97339]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd9fb20aa
+  Rotate: 0.395816743
+  SRTHash: 1655118262
+  Translate: [-4069.36157, 132.777283, -2785.90454]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0xda28a98e
+  Rotate: [-1.49442184, -1.17069685, 1.59255695]
+  SRTHash: -1824203476
+  Translate: [-4304.21484, 248.386002, -1997.21851]
+  UnitConfigName: Obj_RockSetYellow_A_L_03
+- HashId: !u 0xda58eaf4
+  Rotate: 1.12159264
+  SRTHash: -913381133
+  Translate: [-4113.81396, 129.27179, -2736.9624]
+  UnitConfigName: FldObj_PierSnow_A_02
+- HashId: !u 0xdab54cf1
+  Rotate: [-0.865430832, 1.7315402, -0.865430832]
+  SRTHash: -1925023717
+  Translate: [-4151.04053, 212.485703, -2641.57495]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xdad6007f
+  Rotate: [0.0992062986, 0.372223169, -0.267650634]
+  SRTHash: -130825340
+  Scale: 1.04833996
+  Translate: [-4249.02734, 123.004616, -2143.49609]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0xdb13026a
+  Rotate: [-0.373282492, 0.412698567, 0.104248263]
+  SRTHash: -966501017
+  Translate: [-4096.65576, 138.498459, -2699.0835]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0xdb2110bf
+  Rotate: [-2.45953536, 1.50739634, -2.45855093]
+  SRTHash: -1493670515
+  Translate: [-4247.12646, 90.0791931, -2204.7605]
+  UnitConfigName: FldObj_RaftPile_A_01
+- HashId: !u 0xdb24ab05
+  Rotate: 3.61593366
+  SRTHash: 668347439
+  Translate: [-4332.43604, 160.699738, -2055.85645]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xdb826d7a
+  Rotate: [-6.36562545e-05, -0.00319574261, 0.0398722403]
+  SRTHash: -703488028
+  Translate: [-4008.66064, 156.738754, -2527.66577]
+  UnitConfigName: FldObj_BankingFlat_A_07
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdbfcd370
+  Rotate: [-0.0472751744, -0.0193253662, -0.35600397]
+  SRTHash: 1027717408
+  Translate: [-3847.12207, 135.386551, -2739.4624]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0xdc936df7
+  Rotate: [-0.0132458312, -0.295805365, 0.320308208]
+  SRTHash: -317057786
+  Scale: 0.880859017
+  Translate: [-4358.76953, 215.983109, -2209.54297]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0xdd345631
+  SRTHash: -12369025
+  Translate: [-4015.88672, 89.5348053, -2538.46216]
+  UnitConfigName: FidObj_TorchStand_A_01
+- HashId: !u 0xdd8d66bb
+  Rotate: [0.365770668, 1.95046937, 0.365770668]
+  SRTHash: -1658325220
+  Translate: [-4149.05322, 218.209198, -2607.91724]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xde216d61
+  Rotate: [-0.287396073, 2.6116786, -0.287396073]
+  SRTHash: -1681819773
+  Translate: [-4151.12988, 215.300995, -2621.05615]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdf936e40
+  Rotate: [0.0872664601, 0.00919907633, -0.0967185199]
+  SRTHash: 2052648592
+  Translate: [-4383.6084, 192.087326, -2136.57886]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdff21d50
+  SRTHash: -2002171260
+  Translate: [-4158.14941, 293.648376, -1841.172]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xe046e41d
+  Rotate: 1.24000025
+  SRTHash: 954412486
+  Translate: [-4439.69482, 347.82373, -2721.86938]
+  UnitConfigName: Animal_Bear_B
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe04c4b02
+  Rotate: 3.72030067
+  SRTHash: 311907283
+  Translate: [-3998.64478, 344.014984, -2032.28149]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xe04e91cf
+  SRTHash: -1909118778
+  Translate: [-4531.0, 333.48053, -2678.5]
+  UnitConfigName: GrassCutTag
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe0c2c654
+  Rotate: [0.288696289, 1.23693848, -1.2639159]
+  SRTHash: 0
+  Translate: [-4239.18359, 178.832031, -2347.01953]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe0d26ed0
+  Rotate: 1.40163171
+  SRTHash: -2099367129
+  Translate: [-4214.24268, 156.581894, -2412.44971]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0xe15c1604
+  Rotate: [-0.091975227, 0.577322662, 0.225113079]
+  SRTHash: 1028137620
+  Translate: [-4407.43311, 351.499939, -2750.81812]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xe18e4b2e
+  Rotate: -0.099999994
+  SRTHash: -826709117
+  Scale: 150.0
+  Translate: [-4493.3335, 218.683212, -2456.17798]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe1b06dd1
+  Rotate: -0.753417909
+  SRTHash: -876496957
+  Translate: [-4411.44922, 350.888306, -2725.16797]
+  UnitConfigName: Item_Mushroom_F
+- HashId: !u 0xe1b62672
+  Rotate: -3.03439498
+  SRTHash: 574360794
+  Translate: [-3993.69995, 147.0504, -2554.1001]
+  UnitConfigName: FidObj_TorchStand_A-2
+- HashId: !u 0xe264c86c
+  Rotate: -0.879997194
+  SRTHash: 678546485
+  Translate: [-4480.30518, 215.087006, -2342.87036]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0xe2984c7b
+  Rotate: [0.0, 0.820000052, -0.199999869]
+  SRTHash: -1409645472
+  Translate: [-4546.12305, 215.822433, -2368.42261]
+  UnitConfigName: Obj_RockSnow_A_01
+- HashId: !u 0xe29ee626
+  Rotate: 0.0402985178
+  SRTHash: -389433857
+  Translate: [-4315.6709, 160.874008, -2054.8335]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe2f4ab64
+  SRTHash: -1111684080
+  Translate: [-4162.60986, 176.432419, -2775.80835]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe34a55ed
+  Rotate: [-0.0182934236, 0.53443253, 0.136746734]
+  SRTHash: 621643738
+  Translate: [-4104.96533, 292.675659, -2036.90979]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe34f4ce6
+  SRTHash: -773041591
+  Translate: [-4174.27734, 176.445419, -2838.9502]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe3cca8c4
+  Rotate: [3.14147925, 1.53381336, 3.14147925]
+  SRTHash: -1599158668
+  Translate: [-4032.83203, 129.074005, -2728.44922]
+  UnitConfigName: Item_Mushroom_B
+- HashId: !u 0xe459910a
+  Rotate: 1.12000012
+  SRTHash: -452662648
+  Translate: [-4215.8291, 151.602661, -2409.76538]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe4a7aed0
+  Rotate: 1.25988758
+  SRTHash: 302019924
+  Translate: [-4118.14062, 186.629059, -2640.19922]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, IsFixedPlace: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe4be5435
+  Rotate: [0.0630359948, -0.0916041806, 0.365294486]
+  SRTHash: -1815218174
+  Translate: [-4459.55713, 397.76355, -2988.01587]
+  UnitConfigName: BrokenSnowBall
+- HashId: !u 0xe557ea52
+  Rotate: [0.457589507, 2.3215282, 0.457589507]
+  SRTHash: 1821741732
+  Translate: [-4165.76465, 220.176987, -2602.70679]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xe57911f8
+  Rotate: -0.919999719
+  SRTHash: -1181294482
+  Translate: [-4089.00708, 88.9906921, -2458.75073]
+  UnitConfigName: FldObj_PierSnow_A_02
+- HashId: !u 0xe5a7f2ff
+  Rotate: [-2.66887045, 4.43800831, -2.66887045]
+  SRTHash: 936220230
+  Translate: [-4334.31738, 160.980484, -2039.99585]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xe5d486c9
+  Rotate: -1.31567371
+  SRTHash: 2061928263
+  Translate: [-4056.26172, 131.660156, -2741.18359]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- '!Parameters': {DropActor: Item_Ore_B, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe6369697
+  Rotate: [2.80676913, 0.34367305, 3.12158275]
+  SRTHash: -789125064
+  Translate: [-4337.39893, 400.849731, -2723.28711]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0xe6371027
+  Rotate: 0.620000005
+  SRTHash: 1640755820
+  Translate: [-4504.48486, 332.284973, -2594.09985]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe6595942
+  SRTHash: 1649729530
+  Translate: [-4499.49219, 214.826874, -2361.92749]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0xe6e0d6e0
+  Rotate: 0.80000025
+  SRTHash: 293280738
+  Translate: [-4074.49512, 89.9499969, -2420.47876]
+  UnitConfigName: FldObj_RaftPile_A_01
+- HashId: !u 0xe7f1b263
+  Rotate: 0.623185158
+  SRTHash: 711842188
+  Translate: [-4077.6853, 139.213287, -2881.82764]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, SwitchTorchSpType: 0}
+  HashId: !u 0xe80c77cd
+  SRTHash: -433998206
+  Translate: [-4056.80981, 131.524124, -2676.85864]
+  UnitConfigName: FidObj_TorchStandOn_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe82e64eb
+  SRTHash: -1898545466
+  Translate: [-4172.80127, 188.008301, -2744.89282]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xe8a57219
+  Rotate: [-0.0264054853, 6.26162386, -0.0264054853]
+  SRTHash: 647383657
+  Translate: [-4144.15381, 215.439819, -2618.23877]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe905191a
+  Rotate: [1.75439441, -0.549194336, -0.164062485]
+  SRTHash: 0
+  Translate: [-4556.65625, 215.921875, -2575.02734]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {Direction: 0, Shape: Box, WindSpeed: 10.0}
+  HashId: !u 0xe919087d
+  Rotate: -0.114600725
+  SRTHash: -1532044241
+  Scale: [53.5, 16.2999992, 118.400002]
+  Translate: [-3871.90942, 88.6990967, -2733.92065]
+  UnitConfigName: PointWindSetTag
+- HashId: !u 0xe92a5024
+  Rotate: [-2.62588811, 0.492011726, -2.40074992]
+  SRTHash: 135598993
+  Translate: [-4072.49146, 213.357773, -2122.50659]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0xe9446011
+  Rotate: [-1.31689262, -0.621687412, 2.16314578]
+  SRTHash: -709557479
+  Translate: [-4141.45654, 222.042114, -2060.12891]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0xe966be14
+  SRTHash: -961703875
+  Translate: [-4081.05151, 89.7313232, -2484.16846]
+  UnitConfigName: FidObj_TorchStand_A_01
+- HashId: !u 0xe9684266
+  Rotate: [0.264568865, 0.0285200626, -0.273536712]
+  SRTHash: -1023056636
+  Translate: [-4305.46094, 224.703598, -2340.54248]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0xe9b85ba9
+  Rotate: 2.97999883
+  SRTHash: -1458163891
+  Translate: [-4020.39966, 340.947815, -2021.19287]
+  UnitConfigName: FldObj_TorchStandBone_A_01
+- HashId: !u 0xea575b7f
+  Rotate: 1.06382787
+  SRTHash: 1663639271
+  Translate: [-4508.34814, 221.879517, -2480.12793]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xea77aa11
+  Rotate: 2.55999923
+  SRTHash: -788680952
+  Scale: 50.0
+  Translate: [-4052.6521, 193.098572, -2626.00806]
+  UnitConfigName: Area
+- HashId: !u 0xea959202
+  Rotate: 2.66832376
+  SRTHash: -2067655894
+  Translate: [-4324.64404, 160.64505, -2062.23901]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xeacdd3bb
+  Rotate: 3.64296198
+  SRTHash: -668111771
+  Translate: [-4516.05029, 334.05191, -2720.802]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xeaf23f78
+  Rotate: [-0.200182796, -0.27694881, 0.18639046]
+  SRTHash: -1859718071
+  Translate: [-4138.10303, 224.906662, -2060.27051]
+  UnitConfigName: Obj_Mineral_B_01
+- HashId: !u 0xeb64ae25
+  Rotate: -0.380000055
+  SRTHash: 110788643
+  Translate: [-4447.56982, 344.485596, -2742.23511]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xebbffa54
+  SRTHash: 991984109
+  Translate: [-4005.53198, 175.146637, -2853.83374]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xebe801a1
+  Rotate: 3.00600243
+  SRTHash: 550286350
+  Translate: [-4031.63354, 129.001419, -2728.41333]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xec3f97b0
+  Rotate: [-0.265472442, 0.212598473, -0.36981529]
+  SRTHash: -1519302245
+  Translate: [-4053.72974, 151.709915, -2665.23413]
+  UnitConfigName: Obj_Mineral_B_01
+- HashId: !u 0xec69aa7d
+  Rotate: 1.32000017
+  SRTHash: 1334957828
+  Translate: [-4329.75195, 160.64505, -2055.9519]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xecb2a8bb
+  Rotate: 0.419999987
+  SRTHash: -462505589
+  Translate: [-4075.69019, 167.338257, -2654.88354]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0xed2fc512
+  Rotate: [-0.165957347, 1.9171921, -0.165957347]
+  SRTHash: 320184838
+  Translate: [-4164.55371, 214.035461, -2633.98218]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xed95ba6a
+  Rotate: [-0.989293635, -0.328740835, 0.188273117]
+  SRTHash: -107785604
+  Translate: [-4127.15234, 305.618195, -1923.92432]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0xedce2f60
+  SRTHash: -2140600125
+  Translate: [-4091.29053, 128.226532, -2537.37402]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xee296edc
+  SRTHash: -1620765182
+  Scale: 75.0
+  Translate: [-4531.0, 333.697144, -2678.5]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xee6f13b3
+  Rotate: [2.98547339, 1.25024402, 1.31445312]
+  SRTHash: 0
+  Translate: [-4322.53516, 321.785156, -3037.55078]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xeee2d043
+  SRTHash: 1230673167
+  Translate: [-4086.66846, 173.189056, -2663.38721]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- HashId: !u 0xef782eb9
+  SRTHash: 1349866353
+  Translate: [-4072.93921, 132.06601, -2769.0918]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0xeff989c3
+  Rotate: [2.95921946, 1.81651437, 2.95921946]
+  SRTHash: -1237577823
+  Translate: [-4167.89502, 215.212799, -2628.25195]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf02a6643
+  SRTHash: -931800451
+  Translate: [-4007.4165, 185.054474, -2649.86304]
+  UnitConfigName: Obj_TreeConiferousDead_A_Snow_01
+- HashId: !u 0xf03f585c
+  Rotate: [1.40448189, 1.95784855, 1.40448189]
+  SRTHash: 1854646787
+  Translate: [-4154.72949, 220.47226, -2597.30176]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf10f9af8
+  Rotate: [1.88301122, -0.0226761512, -2.09510756]
+  SRTHash: 881717617
+  Translate: [-4010.71826, 336.196167, -2046.98157]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0xf14f7384
+  Rotate: [-3.1101172, 0.209315151, -3.1101172]
+  SRTHash: 1708773433
+  Translate: [-4331.55859, 160.986664, -2043.36499]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xf1e30aa5
+  Rotate: [2.43603206, 3.53683472, 2.43603206]
+  SRTHash: -1478789888
+  Translate: [-4169.94678, 219.038025, -2610.46509]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf279106e
+  Rotate: 5.60916853
+  SRTHash: -1432818764
+  Translate: [-4402.50439, 358.716522, -2737.24927]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf2bff43a
+  Rotate: [3.14147925, -1.34777832, 3.14147925]
+  SRTHash: -1736087683
+  Translate: [-4179.79297, 242.449005, -2539.73828]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf2d41ed5
+  Rotate: [-2.42586207, 0.180600092, -1.64461541]
+  SRTHash: 1917459177
+  Translate: [-3845.89209, 92.9187088, -2594.48804]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf3315ad7
+  Rotate: 1.31953609
+  SRTHash: 213206471
+  Translate: [-4586.96826, 332.531769, -2714.65771]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xf36acb3f
+  Rotate: [0.614389539, 1.29077792, 0.595804334]
+  SRTHash: -1394153996
+  Translate: [-4002.84082, 179.247879, -2624.70508]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0xf3c7e188
+  SRTHash: -1077605945
+  Translate: [-4303.66211, 238.312256, -2014.073]
+  UnitConfigName: Obj_RockSetYellow_A_L_04
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf45c9ece
+  Rotate: 3.15919495
+  SRTHash: -1103275533
+  Translate: [-4500.00244, 337.227173, -2619.54297]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf51c4aed
+  Rotate: 2.93087029
+  SRTHash: -1569455797
+  Translate: [-4519.61279, 333.718201, -2697.26465]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf59ef4f9
+  Rotate: 5.68085194
+  SRTHash: -971325290
+  Translate: [-4042.6272, 130.808197, -2734.76782]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0xf5cf2a71
+  Rotate: [2.9537003, 1.14647472, 2.9537003]
+  SRTHash: -282030777
+  Translate: [-4332.65283, 161.085938, -2041.55713]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xf5d7120f
+  Rotate: [-3.13168383, 0.288922429, -3.13168383]
+  SRTHash: 136937489
+  Translate: [-4345.51562, 160.74823, -2044.54102]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf60e3005
+  Rotate: -1.01916492
+  SRTHash: 1866669821
+  Translate: [-4144.41797, 160.744217, -2953.76562]
+  UnitConfigName: Item_Mushroom_B
+- HashId: !u 0xf61a3a4a
+  SRTHash: 1035445836
+  Translate: [-4070.65161, 89.27285, -2532.16748]
+  UnitConfigName: FidObj_TorchStand_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf647159b
+  Rotate: 0.967895448
+  SRTHash: -829621257
+  Translate: [-4499.27734, 337.435822, -2619.83203]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf64f1fc6
+  Rotate: [3.14147925, -0.251342744, 3.14147925]
+  SRTHash: 1765225202
+  Translate: [-4062.13672, 123.245811, -2803.51172]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+  HashId: !u 0xf67e4c52
+  SRTHash: 940710495
+  Scale: 50.0
+  Translate: [-4107.25488, 140.146469, -2736.552]
+  UnitConfigName: Area
+- HashId: !u 0xf6af28d5
+  Rotate: 2.00000024
+  SRTHash: -590532354
+  Translate: [-4293.00977, 243.631073, -2007.4314]
+  UnitConfigName: Obj_RockSetSnow_A_04
+- HashId: !u 0xf7462d72
+  Rotate: [-1.20145011, 1.29907429, -1.59545982]
+  SRTHash: -25672606
+  Translate: [-4148.06299, 214.943771, -2621.86914]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf7b37d7c
+  Rotate: 0.522330582
+  SRTHash: -700719068
+  Translate: [-4103.85791, 137.471115, -2682.01074]
+  UnitConfigName: Obj_TreeWhiteBirch_A_02
+- HashId: !u 0xf7df6433
+  Rotate: [0.225821257, 1.11024177, 0.194950268]
+  SRTHash: 2107241397
+  Translate: [-4144.56787, 318.899048, -1988.5509]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0xf7e292a9
+  Rotate: -2.22000027
+  SRTHash: -1468886706
+  Translate: [-4092.16455, 130.601654, -2777.53687]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0xf7ea49ee
+  Rotate: 0.221313462
+  SRTHash: 1775822749
+  Translate: [-4113.89844, 141.570312, -2694.58594]
+  UnitConfigName: EnvSeEmitPointBirdTemperate
+- HashId: !u 0xf83d6de3
+  Rotate: [2.2601757, 3.2443943, 2.2601757]
+  SRTHash: 1602814736
+  Translate: [-4167.75098, 219.766663, -2604.97778]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf85b6831
+  SRTHash: 1636425672
+  Translate: [-4462.41162, 220.828751, -2328.20166]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0xf863315d
+  Rotate: 1.72636855
+  SRTHash: -1037393247
+  Translate: [-4344.64453, 160.633896, -2050.55981]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf8a32754
+  Rotate: -0.76171875
+  SRTHash: 724749559
+  Translate: [-4112.48047, 136.438553, -2684.43359]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf8d59fac
+  Rotate: 1.69999981
+  SRTHash: 1887683352
+  Translate: [-4507.66064, 334.701263, -2632.39551]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xf91a5c26
+  Rotate: 2.87979317
+  SRTHash: 1681807366
+  Translate: [-4123.62207, 304.127686, -1930.01147]
+  UnitConfigName: TravelersGuardianDeity_A_01
+- HashId: !u 0xf9565fc5
+  Rotate: [-0.24000001, 0.0, 0.0]
+  SRTHash: -398494114
+  Translate: [-4070.80078, 126.767395, -2544.61084]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfaa126af
+  Rotate: 5.88175583
+  SRTHash: -959221824
+  Translate: [-4163.7793, 168.157288, -2955.16455]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xfaaba2a3
+  Rotate: 4.8070612
+  SRTHash: -890101142
+  Translate: [-4324.32324, 160.783493, -2055.88647]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xfac5d277
+  SRTHash: -1655027051
+  Translate: [-4126.21826, 130.413803, -2728.67651]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0xfadcdfce
+  Rotate: [-1.33463097, 1.32720065, -1.14942503]
+  SRTHash: 1519120981
+  Scale: 1.00488305
+  Translate: [-4078.82422, 205.146271, -2140.76562]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0xfb04f4b7
+  Rotate: 0.900000393
+  SRTHash: 948574363
+  Scale: 0.600000024
+  Translate: [-4069.88525, 97.9554367, -2489.78174]
+  UnitConfigName: AirWallCreature
+- HashId: !u 0xfb70a33b
+  SRTHash: -214095990
+  Translate: [-4287.94727, 332.931702, -2822.03735]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0xfb85f294
+  Rotate: -2.3599999
+  SRTHash: -1052151588
+  Translate: [-4073.46021, 88.9906921, -2421.70386]
+  UnitConfigName: FldObj_PierSnow_A_02
+- HashId: !u 0xfb9140a5
+  SRTHash: 972702411
+  Translate: [-4486.64258, 340.835388, -2728.04907]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfbfa4873
+  Rotate: [-2.22885895, 0.141891986, 3.05894613]
+  SRTHash: 2011932754
+  Translate: [-4212.23877, 225.117645, -2068.51953]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xfc209411
+  SRTHash: 684474980
+  Translate: [-3991.66431, 182.191101, -2863.27563]
+  UnitConfigName: Obj_TreeConiferousLow_A_Snow_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfd17eeea
+  SRTHash: -1341825873
+  Translate: [-4518.25195, 333.905884, -2653.86841]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xfd4ba177
+  SRTHash: -1909118778
+  Translate: [-4528.5, 333.656799, -2693.5]
+  UnitConfigName: GrassCutTag
+- HashId: !u 0xfdb0f1f2
+  Rotate: -2.41999936
+  SRTHash: -1894863411
+  Translate: [-4477.55176, 217.233124, -2417.07227]
+  UnitConfigName: Obj_RockSetSnow_A_03
+- HashId: !u 0xfe000ab0
+  Rotate: [0.0923183486, -0.0702558905, 0.112549923]
+  SRTHash: -629582007
+  Scale: 0.939940989
+  Translate: [-4419.48438, 344.975708, -2673.48047]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0xfe7ae3eb
+  Rotate: [-0.0735746026, 3.5827179, -0.0735746026]
+  SRTHash: 606270917
+  Translate: [-4161.16992, 217.13443, -2617.59668]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfea4ab86
+  Rotate: 1.16781414
+  SRTHash: -1389302704
+  Translate: [-4040.18823, 352.445679, -1951.76196]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xfee8de5a
+  Rotate: [-0.224585205, 5.107337, -0.224585205]
+  SRTHash: 1239148974
+  Translate: [-4137.30469, 214.549805, -2625.07544]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: IceMeat, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xff28c882
+  Rotate: [-0.0632756427, 0.533714771, 0.0639338344]
+  SRTHash: 90949935
+  Translate: [-4160.96094, 243.473816, -2508.90454]
+  UnitConfigName: Barrel
+- HashId: !u 0xff6da87d
+  Rotate: -1.17999995
+  SRTHash: -1688788623
+  Translate: [-4275.09277, 261.953278, -1933.72656]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xff81aa8d
+  Rotate: [3.14147925, 0.278930664, 3.14147925]
+  SRTHash: 1996587694
+  Translate: [-4462.82422, 219.478882, -2406.85938]
+  UnitConfigName: Item_Mushroom_B
+- HashId: !u 0xffd3b2db
+  Rotate: -1.14706063
+  SRTHash: -384275989
+  Translate: [-4059.79443, 192.925262, -2622.78638]
+  UnitConfigName: FldObj_SnowEnemyLookout_B_01
+- '!Parameters': {DropActor: Weapon_Bow_035, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xffd89d9e
+  Rotate: [0.0, 0.0, 0.279999942]
+  SRTHash: 1827904844
+  Translate: [-4428.19629, 213.413788, -2223.86035]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: true
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00dd7
+  Rotate: 1.39999998
+  SRTHash: -1361032261
+  Translate: [-3995.50293, 153.292648, -2551.74927]
+  UnitConfigName: Enemy_Keese_Ice_AllDay
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: true
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00dd8
+  Rotate: 2.20000005
+  SRTHash: -1361032261
+  Translate: [-3997.62671, 152.692657, -2547.73657]
+  UnitConfigName: Enemy_Keese_Ice_AllDay
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: true
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00dd9
+  Rotate: -0.400000006
+  SRTHash: -1361032261
+  Translate: [-3993.59912, 153.092651, -2554.99658]
+  UnitConfigName: Enemy_Keese_Ice_AllDay
+- '!Parameters':
+    ArrowName: NormalArrow
+    CarryActorName: OctObj_Grass_08
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00dda
+  Rotate: -0.583186388
+  SRTHash: 0
+  Translate: [-4017.66699, 88.5472946, -2550.18359]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    CarryActorName: OctObj_Grass_08
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00ddb
+  Rotate: 1.81681359
+  SRTHash: 0
+  Translate: [-4037.71899, 88.5472946, -2525.72876]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: IceArrow
+    EquipItem1: Weapon_Bow_004
+    FortressEatPer: -1
+    IsCreateStalPart: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    RideHorseName: GameRomHorseBone_AllDay
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00de1
+  Rotate: -4.42000008
+  SRTHash: 0
+  Translate: [-4516.33301, 215.266495, -2324.6438]
+  UnitConfigName: Enemy_Bokoblin_Bone_Junior_AllDay
+- '!Parameters':
+    EquipItem1: Weapon_Lsword_004
+    FortressEatPer: -1
+    IsCreateStalPart: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    RideHorseName: GameRomHorseBone_AllDay
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00de2
+  Rotate: -2.01999998
+  SRTHash: 0
+  Translate: [-4507.9873, 215.266495, -2349.71875]
+  UnitConfigName: Enemy_Bokoblin_Bone_Junior_AllDay
+- '!Parameters':
+    EquipItem1: Weapon_Spear_034
+    FortressEatPer: -1
+    IsCreateStalPart: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    RideHorseName: GameRomHorseBone_AllDay
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00de3
+  Rotate: -5.42000008
+  SRTHash: 0
+  Translate: [-4498.85254, 215.266495, -2324.91455]
+  UnitConfigName: Enemy_Bokoblin_Bone_Junior_AllDay
+- '!Parameters':
+    EquipItem1: Weapon_Spear_004
+    FortressEatPer: -1
+    IsCreateStalPart: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    RideHorseName: GameRomHorseBone_AllDay
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00de4
+  Rotate: -6.21999979
+  SRTHash: 0
+  Translate: [-4504.94531, 215.266495, -2309.71289]
+  UnitConfigName: Enemy_Bokoblin_Bone_Junior
+- '!Parameters':
+    ArrowName: IceArrow
+    EquipItem1: Weapon_Bow_004
+    FortressEatPer: -1
+    IsCreateStalPart: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    RideHorseName: GameRomHorseBone_AllDay
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00de5
+  Rotate: -4.42000008
+  SRTHash: 0
+  Translate: [-4528.01611, 217.066498, -2342.78589]
+  UnitConfigName: Enemy_Bokoblin_Bone_Junior
+- '!Parameters':
+    EquipItem1: Weapon_Lsword_001
+    FortressEatPer: -1
+    IsCreateStalPart: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    RideHorseName: GameRomHorseBone_AllDay
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00de6
+  Rotate: -2.01999998
+  SRTHash: 0
+  Translate: [-4473.57666, 217.266495, -2366.53857]
+  UnitConfigName: Enemy_Bokoblin_Bone_Junior_AllDay
+- '!Parameters':
+    EquipItem1: Weapon_Lsword_004
+    FortressEatPer: -1
+    IsCreateStalPart: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    RideHorseName: GameRomHorseBone_AllDay
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00de7
+  Rotate: 0.780000031
+  SRTHash: 0
+  Translate: [-4458.271, 221.666504, -2334.00098]
+  UnitConfigName: Enemy_Bokoblin_Bone_Junior_AllDay
+- '!Parameters':
+    EquipItem1: Weapon_Lsword_004
+    FortressEatPer: -1
+    IsCreateStalPart: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    RideHorseName: GameRomHorseBone_AllDay
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00de8
+  Rotate: -5.42000008
+  SRTHash: 0
+  Translate: [-4479.27832, 215.066498, -2303.04004]
+  UnitConfigName: Enemy_Bokoblin_Bone_Junior_AllDay
+- '!Parameters':
+    EquipItem1: Weapon_Spear_034
+    FortressEatPer: -1
+    IsCreateStalPart: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    RideHorseName: GameRomHorseBone_AllDay
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00de9
+  Rotate: -6.21999979
+  SRTHash: 0
+  Translate: [-4478.78955, 215.266495, -2269.97681]
+  UnitConfigName: Enemy_Bokoblin_Bone_Junior
+- '!Parameters':
+    ArrowName: IceArrow
+    EquipItem1: Weapon_Bow_003
+    FortressEatPer: -1
+    IsCreateStalPart: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    RideHorseName: GameRomHorseBone_AllDay
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00dea
+  Rotate: -5.01999998
+  SRTHash: 0
+  Translate: [-4453.4375, 217.466507, -2293.40405]
+  UnitConfigName: Enemy_Bokoblin_Bone_Junior_AllDay
+- '!Parameters':
+    ArrowName: IceArrow
+    EquipItem1: Weapon_Bow_003
+    FortressEatPer: -1
+    IsCreateStalPart: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    RideHorseName: GameRomHorseBone_AllDay
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00deb
+  Rotate: -4.01999998
+  SRTHash: 0
+  Translate: [-4455.57471, 215.866501, -2261.74976]
+  UnitConfigName: Enemy_Bokoblin_Bone_Junior
+- '!Parameters':
+    EquipItem1: Weapon_Spear_002
+    FortressEatPer: -1
+    IsMimicry: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: true
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00dec
+  Rotate: [1.45808184, 2.79999995, -0.220901415]
+  SRTHash: 0
+  Translate: [-4255.68164, 114.361755, -2159.17529]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    EquipItem1: Weapon_Sword_002
+    FortressEatPer: -1
+    IsMimicry: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: true
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00ded
+  Rotate: [1.76704967, 2.79999995, -0.0907519534]
+  SRTHash: 0
+  Translate: [-4263.04736, 114.361755, -2162.3125]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    EquipItem1: Weapon_Spear_002
+    FortressEatPer: -1
+    IsMimicry: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00dee
+  Rotate: [0.0, -2.0, 0.0]
+  SRTHash: 0
+  Translate: [-4132.4209, 91.0175247, -2277.26392]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    EquipItem1: Weapon_Spear_002
+    FortressEatPer: -1
+    IsMimicry: true
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00def
+  Rotate: [0.0, 0.200000003, 0.0]
+  SRTHash: 0
+  Translate: [-4128.89014, 91.2175293, -2262.9707]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    EquipItem1: Weapon_Spear_002
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00df0
+  Rotate: [0.0, -3.20000005, 0.0]
+  SRTHash: 0
+  Translate: [-4246.75635, 89.5253372, -2182.30396]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_011
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: false
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00df1
+  Rotate: [0.0, 1.79999995, 0.0]
+  SRTHash: 0
+  Translate: [-4230.45752, 95.0592422, -2246.05835]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_011
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: true
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00df2
+  Rotate: [0.0, 1.79999995, 0.0]
+  SRTHash: 0
+  Translate: [-4114.49854, 92.4292068, -2414.27759]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_011
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: true
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00df3
+  Rotate: [0.0, 2.79999995, 0.0]
+  SRTHash: 0
+  Translate: [-4116.6001, 92.0292053, -2421.51929]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_011
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: false
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00df4
+  Rotate: [0.0, -1.0, 0.0]
+  SRTHash: 0
+  Translate: [-3951.48755, 103.108627, -2480.42896]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_011
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00df5
+  Rotate: [0.0, -3.0, 0.0]
+  SRTHash: 0
+  Translate: [-3946.00708, 101.90863, -2492.53223]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_011
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: true
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00df6
+  Rotate: [0.0, 4.4000001, 0.0]
+  SRTHash: 0
+  Translate: [-3874.60327, 97.7354507, -2753.8479]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_011
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: false
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00df7
+  Rotate: [0.0, 4.5999999, 0.0]
+  SRTHash: 0
+  Translate: [-3882.52783, 90.4657822, -2611.3811]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_011
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: false
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00df8
+  Rotate: [0.0, 3.4000001, 0.0]
+  SRTHash: 0
+  Translate: [-3878.39307, 91.0657806, -2614.88599]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: false
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00df9
+  Rotate: 0.399999976
+  SRTHash: -1361032261
+  Translate: [-4021.85083, 96.0835419, -2547.94214]
+  UnitConfigName: Enemy_Keese_Ice_AllDay
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: false
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00dfa
+  Rotate: -1.80000007
+  SRTHash: -1361032261
+  Translate: [-4017.97949, 96.0835419, -2541.78052]
+  UnitConfigName: Enemy_Keese_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: false
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00dfb
+  Rotate: -2.79999995
+  SRTHash: -1361032261
+  Translate: [-4029.28784, 95.2835388, -2530.30908]
+  UnitConfigName: Enemy_Keese_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_011
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: false
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00dfc
+  Rotate: [0.0, -0.200000003, 0.0]
+  SRTHash: 0
+  Translate: [-4234.74854, 94.8592377, -2241.89404]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: false
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00e02
+  Rotate: 2.20000005
+  SRTHash: 0
+  Translate: [-4013.1394, 192.992386, -2633.72803]
+  UnitConfigName: Enemy_Keese_Ice_AllDay
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: false
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00e03
+  Rotate: 1.60000002
+  SRTHash: 0
+  Translate: [-3991.80493, 185.192383, -2644.33105]
+  UnitConfigName: Enemy_Keese_Ice_AllDay
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: false
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00e04
+  Rotate: -2.39999986
+  SRTHash: 0
+  Translate: [-3990.52856, 186.39238, -2631.98267]
+  UnitConfigName: Enemy_Keese_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsCreateOnFace: false
+    IsNearCreate: false
+    LevelSensorMode: 1
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00e05
+  Rotate: -2.39999986
+  SRTHash: 0
+  Translate: [-4023.15845, 190.592392, -2637.4646]
+  UnitConfigName: Enemy_Keese_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    CarryActorName: OctObj_Grass_08
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00e06
+  Rotate: -5.55999994
+  SRTHash: 0
+  Translate: [-3923.42603, 82.9515839, -2719.31787]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    CarryActorName: OctObj_Grass_08
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00e07
+  Rotate: -4.55999994
+  SRTHash: 0
+  Translate: [-3938.92188, 80.5641479, -2561.64624]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    CarryActorName: OctObj_Grass_08
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00e08
+  Rotate: -2.3599999
+  SRTHash: 0
+  Translate: [-3910.61377, 84.3935013, -2500.7334]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    CarryActorName: OctObj_Grass_08
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xffe00e09
+  Rotate: -8.15999985
+  SRTHash: 0
+  Translate: [-3972.146, 85.8296738, -2420.25684]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    DropTable: Normal
+    EquipItem1: Weapon_Shield_034
+    EquipItem2: Weapon_Shield_007
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00e0a
+  Rotate: [0.0, -0.200000003, 0.0]
+  SRTHash: 0
+  Translate: [-3924.53198, 89.5759277, -2845.80396]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_011
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: false
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00e0b
+  Rotate: [0.0, 5.80000019, 0.0]
+  SRTHash: 0
+  Translate: [-3937.49731, 89.3759232, -2847.01636]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_011
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: true
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00e0c
+  Rotate: [0.0, 4.0, 0.0]
+  SRTHash: 0
+  Translate: [-4092.5083, 89.9115295, -2440.31934]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_011
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: true
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00e0d
+  Rotate: [0.0, 0.800000072, 0.0]
+  SRTHash: 0
+  Translate: [-4090.98267, 90.1115265, -2457.40747]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Bow_011
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    FortressEatPer: -1
+    IsMimicry: true
+    IsNearCreate: false
+    IsWatchKeeping: true
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    OnCliff: false
+    OnCliffTurn: true
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xffe00e0e
+  Rotate: [0.0, 1.60000014, 0.0]
+  SRTHash: 0
+  Translate: [-4083.26074, 89.9115295, -2480.12134]
+  UnitConfigName: Enemy_Lizalfos_Ice
+Rails: []

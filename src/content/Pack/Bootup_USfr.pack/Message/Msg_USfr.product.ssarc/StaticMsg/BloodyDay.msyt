@@ -1,0 +1,23 @@
+---
+group_count: 101
+atr1_unknown: 0
+entries:
+  IncomingBloodMoon:
+    contents:
+      - text: "Une lune de sang est imminente!\nDe nouveaux secrets sont apparus!"
+  HeartLoss:
+    contents:
+      - text: "Ta "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "Force vitale "
+      - control:
+          kind: reset_colour     
+      - text: "A diminué...\n\n"
+  HeartLossDanger:
+    contents:
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "DANGER IMMINENT"

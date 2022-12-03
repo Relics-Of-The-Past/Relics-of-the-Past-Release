@@ -1,0 +1,19 @@
+---
+group_count: 3
+atr1_unknown: 0
+entries:
+  NoMask4U:
+    contents:
+      - text: "Finis les épreuves de l'épée pour \nobtenir le Masque de Majora."
+  RelicsLWTrial:
+    contents:
+      - control:
+          kind: animation
+          name: Activate
+      - text: Le signal de la tour a été perdu.
+  RelicsLWTrial2:
+    contents:
+      - control:
+          kind: animation
+          name: Activate
+      - text: Impossible de définir la localisation.

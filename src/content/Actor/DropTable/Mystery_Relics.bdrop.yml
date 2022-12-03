@@ -1,0 +1,894 @@
+!io
+version: 0
+type: xml
+param_root: !list
+  objects:
+    Header: !obj
+      TableNum: 38
+      Table01: !str64 Normal
+      Table02: !str64 RelicsAllNormal
+      Table03: !str64 RelicsRare
+      Table04: !str64 RelicsRare2
+    Normal: !obj
+      RepeatNumMin: 3
+      RepeatNumMax: 5
+      ApproachType: 0
+      OccurrenceSpeedType: 0
+      ColumnNum: 100
+      ItemName01: !str64 Item_FishGet_A
+      ItemProbability01: 0.899999976
+      ItemName02: !str64 Item_FishGet_B
+      ItemProbability02: 0.899999976
+      ItemName03: !str64 Item_FishGet_C
+      ItemProbability03: 0.899999976
+      ItemName04: !str64 Item_FishGet_D
+      ItemProbability04: 0.899999976
+      ItemName05: !str64 Item_FishGet_E
+      ItemProbability05: 0.899999976
+      ItemName06: !str64 Item_FishGet_F
+      ItemProbability06: 0.899999976
+      ItemName07: !str64 Item_FishGet_G
+      ItemProbability07: 0.899999976
+      ItemName08: !str64 Item_FishGet_H
+      ItemProbability08: 0.899999976
+      ItemName09: !str64 Item_FishGet_I
+      ItemProbability09: 0.899999976
+      ItemName10: !str64 Item_Ore_J
+      ItemProbability10: 0.899999976
+      ItemName11: !str64 Item_FishGet_K
+      ItemProbability11: 0.899999976
+      ItemName12: !str64 Item_FishGet_L
+      ItemProbability12: 0.899999976
+      ItemName13: !str64 Item_FishGet_M
+      ItemProbability13: 0.899999976
+      ItemName14: !str64 Item_FishGet_X
+      ItemProbability14: 0.899999976
+      ItemName15: !str64 Item_FishGet_Z
+      ItemProbability15: 0.899999976
+      ItemName16: !str64 Item_Fruit_A
+      ItemProbability16: 0.899999976
+      ItemName17: !str64 Item_Fruit_B
+      ItemProbability17: 0.899999976
+      ItemName18: !str64 Item_Fruit_C
+      ItemProbability18: 0.899999976
+      ItemName19: !str64 Item_Fruit_D
+      ItemProbability19: 0.899999976
+      ItemName20: !str64 Item_Fruit_E
+      ItemProbability20: 0.899999976
+      ItemName21: !str64 Item_Fruit_F
+      ItemProbability21: 0.899999976
+      ItemName22: !str64 Item_Fruit_G
+      ItemProbability22: 0.899999976
+      ItemName23: !str64 Item_Fruit_H
+      ItemProbability23: 0.899999976
+      ItemName24: !str64 Item_Fruit_I
+      ItemProbability24: 0.899999976
+      ItemName25: !str64 Item_Fruit_J
+      ItemProbability25: 0.899999976
+      ItemName26: !str64 Item_Fruit_K
+      ItemProbability26: 0.899999976
+      ItemName27: !str64 Item_Fruit_L
+      ItemProbability27: 0.899999976
+      ItemName28: !str64 Item_Meat_01
+      ItemProbability28: 0.899999976
+      ItemName29: !str64 Item_Meat_02
+      ItemProbability29: 0.899999976
+      ItemName30: !str64 Item_Meat_06
+      ItemProbability30: 0.899999976
+      ItemName31: !str64 Item_Meat_07
+      ItemProbability31: 0.899999976
+      ItemName32: !str64 Item_Meat_11
+      ItemProbability32: 0.899999976
+      ItemName33: !str64 Item_Meat_12
+      ItemProbability33: 0.899999976
+      ItemName34: !str64 Item_MushroomGet_D
+      ItemProbability34: 0.899999976
+      ItemName35: !str64 Item_Mushroom_A
+      ItemProbability35: 0.899999976
+      ItemName36: !str64 Item_Mushroom_C
+      ItemProbability36: 0.899999976
+      ItemName37: !str64 Item_Mushroom_E
+      ItemProbability37: 0.899999976
+      ItemName38: !str64 Item_Mushroom_F
+      ItemProbability38: 0.899999976
+      ItemName39: !str64 Item_Mushroom_J
+      ItemProbability39: 0.899999976
+      ItemName40: !str64 Item_Mushroom_L
+      ItemProbability40: 0.899999976
+      ItemName41: !str64 Item_Mushroom_M
+      ItemProbability41: 0.899999976
+      ItemName42: !str64 Item_Mushroom_N
+      ItemProbability42: 0.899999976
+      ItemName43: !str64 Item_Mushroom_O
+      ItemProbability43: 0.899999976
+      ItemName44: !str64 Item_PlantGet_A
+      ItemProbability44: 0.899999976
+      ItemName45: !str64 Item_PlantGet_B
+      ItemProbability45: 0.899999976
+      ItemName46: !str64 Item_PlantGet_C
+      ItemProbability46: 0.899999976
+      ItemName47: !str64 Item_PlantGet_F
+      ItemProbability47: 0.899999976
+      ItemName48: !str64 Item_PlantGet_G
+      ItemProbability48: 0.899999976
+      ItemName49: !str64 Item_PlantGet_H
+      ItemProbability49: 0.899999976
+      ItemName50: !str64 Item_PlantGet_I
+      ItemProbability50: 0.899999976
+      ItemName51: !str64 Item_PlantGet_M
+      ItemProbability51: 0.899999976
+      ItemName52: !str64 Item_PlantGet_O
+      ItemProbability52: 0.899999976
+      ItemName53: !str64 Item_PlantGet_Q
+      ItemProbability53: 0.899999976
+      ItemName54: !str64 Item_Plant_Q
+      ItemProbability54: 0.899999976
+      ItemName55: !str64 Weapon_Sword_024
+      ItemProbability55: 0.899999976
+      ItemName56: !str64 Item_Ore_D
+      ItemProbability56: 0.899999976
+      ItemName57: !str64 Animal_Insect_X
+      ItemProbability57: 0.899999976
+      ItemName58: !str64 Item_Material_05
+      ItemProbability58: 0.899999976
+      ItemName59: !str64 Item_RoastFish_07
+      ItemProbability59: 0.899999976
+      ItemName60: !str64 Item_RoastFish_09
+      ItemProbability60: 0.899999976
+      ItemName61: !str64 Item_RoastFish_11
+      ItemProbability61: 0.899999976
+      ItemName62: !str64 Item_RoastFish_13
+      ItemProbability62: 0.899999976
+      ItemName63: !str64 Item_RoastFish_15
+      ItemProbability63: 0.899999976
+      ItemName64: !str64 Item_Roast_01
+      ItemProbability64: 0.899999976
+      ItemName65: !str64 Item_Roast_02
+      ItemProbability65: 0.899999976
+      ItemName66: !str64 Weapon_Spear_023
+      ItemProbability66: 0.899999976
+      ItemName67: !str64 Weapon_Lsword_014
+      ItemProbability67: 0.899999976
+      ItemName68: !str64 Item_Roast_05
+      ItemProbability68: 0.899999976
+      ItemName69: !str64 Item_Roast_06
+      ItemProbability69: 0.899999976
+      ItemName70: !str64 Item_Roast_07
+      ItemProbability70: 0.899999976
+      ItemName71: !str64 Item_Roast_08
+      ItemProbability71: 0.899999976
+      ItemName72: !str64 Item_Roast_09
+      ItemProbability72: 0.899999976
+      ItemName73: !str64 Animal_Insect_B
+      ItemProbability73: 0.899999976
+      ItemName74: !str64 Item_Roast_11
+      ItemProbability74: 0.899999976
+      ItemName75: !str64 Item_Roast_12
+      ItemProbability75: 0.899999976
+      ItemName76: !str64 Item_Roast_13
+      ItemProbability76: 0.899999976
+      ItemName77: !str64 Animal_Insect_K
+      ItemProbability77: 0.899999976
+      ItemName78: !str64 Item_Roast_16
+      ItemProbability78: 0.899999976
+      ItemName79: !str64 Item_Roast_18
+      ItemProbability79: 0.899999976
+      ItemName80: !str64 Item_Roast_19
+      ItemProbability80: 0.899999976
+      ItemName81: !str64 Item_Roast_24
+      ItemProbability81: 0.899999976
+      ItemName82: !str64 Weapon_Bow_030
+      ItemProbability82: 0.899999976
+      ItemName83: !str64 Item_Roast_28
+      ItemProbability83: 0.899999976
+      ItemName84: !str64 Weapon_Bow_023
+      ItemProbability84: 0.699999988
+      ItemName85: !str64 Item_Enemy_32
+      ItemProbability85: 0.899999976
+      ItemName86: !str64 Weapon_Shield_033
+      ItemProbability86: 0.899999976
+      ItemName87: !str64 Item_Enemy_36
+      ItemProbability87: 0.899999976
+      ItemName88: !str64 Item_Roast_37
+      ItemProbability88: 0.899999976
+      ItemName89: !str64 Item_Roast_38
+      ItemProbability89: 0.899999976
+      ItemName90: !str64 Weapon_Spear_034
+      ItemProbability90: 0.899999976
+      ItemName91: !str64 Item_Enemy_40
+      ItemProbability91: 0.899999976
+      ItemName92: !str64 Item_Enemy_41
+      ItemProbability92: 0.899999976
+      ItemName93: !str64 PutRupee_Silver
+      ItemProbability93: 0.899999976
+      ItemName94: !str64 PutRupee_Gold
+      ItemProbability94: 0.899999976
+      ItemName95: !str64 Item_Roast_48
+      ItemProbability95: 0.899999976
+      ItemName96: !str64 Item_Roast_49
+      ItemProbability96: 0.899999976
+      ItemName97: !str64 Item_Roast_50
+      ItemProbability97: 0.899999976
+      ItemName98: !str64 Item_Roast_51
+      ItemProbability98: 0.899999976
+      ItemName99: !str64 Item_Roast_52
+      ItemProbability99: 0.899999976
+      ItemName100: !str64 Item_Roast_53
+      ItemProbability100: 0.899999976
+    RelicsAllNormal: !obj
+      RepeatNumMin: 7
+      RepeatNumMax: 10
+      ApproachType: 0
+      OccurrenceSpeedType: 0
+      ColumnNum: 204
+      ItemName01: !str64 Weapon_Shield_027
+      ItemProbability01: 0.400000006
+      ItemName02: !str64 Weapon_Shield_030
+      ItemProbability02: 0.400000006
+      ItemName03: !str64 Weapon_Lsword_023
+      ItemProbability03: 0.400000006
+      ItemName04: !str64 Weapon_Sword_015
+      ItemProbability04: 0.400000006
+      ItemName05: !str64 Weapon_Lsword_060
+      ItemProbability05: 0.400000006
+      ItemName06: !str64 Weapon_Sword_026
+      ItemProbability06: 0.400000006
+      ItemName07: !str64 Weapon_Lsword_026
+      ItemProbability07: 0.400000006
+      ItemName08: !str64 Weapon_Spear_026
+      ItemProbability08: 0.400000006
+      ItemName09: !str64 Weapon_Bow_024
+      ItemProbability09: 0.400000006
+      ItemName10: !str64 Weapon_Bow_023
+      ItemProbability10: 0.400000006
+      ItemName11: !str64 Animal_Insect_F
+      ItemProbability11: 0.400000006
+      ItemName12: !str64 Weapon_Shield_037
+      ItemProbability12: 0.400000006
+      ItemName13: !str64 Weapon_Spear_050
+      ItemProbability13: 0.400000006
+      ItemName14: !str64 Weapon_Bow_028
+      ItemProbability14: 0.400000006
+      ItemName15: !str64 Weapon_Sword_023
+      ItemProbability15: 0.300000012
+      ItemName16: !str64 Item_Enemy_00
+      ItemProbability16: 0.400000006
+      ItemName17: !str64 Item_Enemy_01
+      ItemProbability17: 0.400000006
+      ItemName18: !str64 Item_Enemy_02
+      ItemProbability18: 0.400000006
+      ItemName19: !str64 Item_Enemy_03
+      ItemProbability19: 0.400000006
+      ItemName20: !str64 Item_Enemy_04
+      ItemProbability20: 0.400000006
+      ItemName21: !str64 Item_Enemy_05
+      ItemProbability21: 0.400000006
+      ItemName22: !str64 Item_Enemy_06
+      ItemProbability22: 0.400000006
+      ItemName23: !str64 Item_Enemy_07
+      ItemProbability23: 0.400000006
+      ItemName24: !str64 Item_Enemy_08
+      ItemProbability24: 0.400000006
+      ItemName25: !str64 Item_Enemy_12
+      ItemProbability25: 0.400000006
+      ItemName26: !str64 Item_Enemy_13
+      ItemProbability26: 0.400000006
+      ItemName27: !str64 Item_Enemy_14
+      ItemProbability27: 0.400000006
+      ItemName28: !str64 Item_Enemy_15
+      ItemProbability28: 0.400000006
+      ItemName29: !str64 Item_Enemy_16
+      ItemProbability29: 0.400000006
+      ItemName30: !str64 Item_Enemy_17
+      ItemProbability30: 0.400000006
+      ItemName31: !str64 Item_Enemy_18
+      ItemProbability31: 0.400000006
+      ItemName32: !str64 Item_Enemy_19
+      ItemProbability32: 0.400000006
+      ItemName33: !str64 Item_Enemy_20
+      ItemProbability33: 0.400000006
+      ItemName34: !str64 Item_Enemy_21
+      ItemProbability34: 0.400000006
+      ItemName35: !str64 Item_Enemy_24
+      ItemProbability35: 0.400000006
+      ItemName36: !str64 Item_Enemy_25
+      ItemProbability36: 0.400000006
+      ItemName37: !str64 Item_Enemy_26
+      ItemProbability37: 0.400000006
+      ItemName38: !str64 Item_Enemy_27
+      ItemProbability38: 0.400000006
+      ItemName39: !str64 Item_Enemy_28
+      ItemProbability39: 0.400000006
+      ItemName40: !str64 Item_Enemy_29
+      ItemProbability40: 0.400000006
+      ItemName41: !str64 Item_Enemy_30
+      ItemProbability41: 0.400000006
+      ItemName42: !str64 Item_Enemy_31
+      ItemProbability42: 0.400000006
+      ItemName43: !str64 Item_Enemy_32
+      ItemProbability43: 0.400000006
+      ItemName44: !str64 Item_Enemy_33
+      ItemProbability44: 0.400000006
+      ItemName45: !str64 Item_Enemy_34
+      ItemProbability45: 0.400000006
+      ItemName46: !str64 Item_Enemy_38
+      ItemProbability46: 0.400000006
+      ItemName47: !str64 Item_Enemy_39
+      ItemProbability47: 0.400000006
+      ItemName48: !str64 Item_Enemy_40
+      ItemProbability48: 0.400000006
+      ItemName49: !str64 Item_Enemy_41
+      ItemProbability49: 0.400000006
+      ItemName50: !str64 Item_Enemy_42
+      ItemProbability50: 0.400000006
+      ItemName51: !str64 Item_Enemy_43
+      ItemProbability51: 0.400000006
+      ItemName52: !str64 Item_Enemy_44
+      ItemProbability52: 0.400000006
+      ItemName53: !str64 Item_Enemy_45
+      ItemProbability53: 0.400000006
+      ItemName54: !str64 Item_Enemy_46
+      ItemProbability54: 0.400000006
+      ItemName55: !str64 Item_Enemy_47
+      ItemProbability55: 0.400000006
+      ItemName56: !str64 Item_Enemy_48
+      ItemProbability56: 0.400000006
+      ItemName57: !str64 Item_Enemy_49
+      ItemProbability57: 0.400000006
+      ItemName58: !str64 Item_Enemy_50
+      ItemProbability58: 0.400000006
+      ItemName59: !str64 Item_Enemy_51
+      ItemProbability59: 0.400000006
+      ItemName60: !str64 Item_Enemy_52
+      ItemProbability60: 0.400000006
+      ItemName61: !str64 Item_Enemy_53
+      ItemProbability61: 0.400000006
+      ItemName62: !str64 Item_Enemy_54
+      ItemProbability62: 0.400000006
+      ItemName63: !str64 Item_Enemy_55
+      ItemProbability63: 0.400000006
+      ItemName64: !str64 Item_Enemy_56
+      ItemProbability64: 0.400000006
+      ItemName65: !str64 Item_Enemy_57
+      ItemProbability65: 0.400000006
+      ItemName66: !str64 Item_FishGet_A
+      ItemProbability66: 0.400000006
+      ItemName67: !str64 Item_FishGet_B
+      ItemProbability67: 0.400000006
+      ItemName68: !str64 Item_FishGet_C
+      ItemProbability68: 0.400000006
+      ItemName69: !str64 Item_FishGet_D
+      ItemProbability69: 0.400000006
+      ItemName70: !str64 Item_FishGet_E
+      ItemProbability70: 0.400000006
+      ItemName71: !str64 Item_FishGet_F
+      ItemProbability71: 0.400000006
+      ItemName72: !str64 Item_FishGet_G
+      ItemProbability72: 0.400000006
+      ItemName73: !str64 Item_FishGet_H
+      ItemProbability73: 0.400000006
+      ItemName74: !str64 Item_FishGet_I
+      ItemProbability74: 0.400000006
+      ItemName75: !str64 Item_FishGet_J
+      ItemProbability75: 0.400000006
+      ItemName76: !str64 Item_FishGet_K
+      ItemProbability76: 0.400000006
+      ItemName77: !str64 Item_FishGet_L
+      ItemProbability77: 0.400000006
+      ItemName78: !str64 Item_FishGet_M
+      ItemProbability78: 0.400000006
+      ItemName79: !str64 Item_FishGet_X
+      ItemProbability79: 0.400000006
+      ItemName80: !str64 Item_FishGet_Z
+      ItemProbability80: 0.400000006
+      ItemName81: !str64 Item_Fruit_A
+      ItemProbability81: 0.400000006
+      ItemName82: !str64 Item_Fruit_B
+      ItemProbability82: 0.400000006
+      ItemName83: !str64 Item_Fruit_C
+      ItemProbability83: 0.400000006
+      ItemName84: !str64 Item_Fruit_D
+      ItemProbability84: 0.400000006
+      ItemName85: !str64 Item_Fruit_E
+      ItemProbability85: 0.400000006
+      ItemName86: !str64 Item_Fruit_F
+      ItemProbability86: 0.400000006
+      ItemName87: !str64 Item_Fruit_G
+      ItemProbability87: 0.400000006
+      ItemName88: !str64 Item_Fruit_H
+      ItemProbability88: 0.400000006
+      ItemName89: !str64 Item_Fruit_I
+      ItemProbability89: 0.400000006
+      ItemName90: !str64 Item_Fruit_J
+      ItemProbability90: 0.400000006
+      ItemName91: !str64 Item_Fruit_K
+      ItemProbability91: 0.400000006
+      ItemName92: !str64 Item_Fruit_L
+      ItemProbability92: 0.400000006
+      ItemName93: !str64 Item_Meat_01
+      ItemProbability93: 0.400000006
+      ItemName94: !str64 Item_Meat_02
+      ItemProbability94: 0.400000006
+      ItemName95: !str64 Item_Meat_06
+      ItemProbability95: 0.400000006
+      ItemName96: !str64 Item_Meat_07
+      ItemProbability96: 0.400000006
+      ItemName97: !str64 Item_Meat_11
+      ItemProbability97: 0.400000006
+      ItemName98: !str64 Item_Meat_12
+      ItemProbability98: 0.400000006
+      ItemName99: !str64 Item_MushroomGet_D
+      ItemProbability99: 0.400000006
+      ItemName100: !str64 Item_Mushroom_A
+      ItemProbability100: 0.400000006
+      ItemName101: !str64 Item_Mushroom_C
+      ItemProbability101: 0.400000006
+      ItemName102: !str64 Item_Mushroom_E
+      ItemProbability102: 0.400000006
+      ItemName103: !str64 Item_Mushroom_F
+      ItemProbability103: 0.400000006
+      ItemName104: !str64 Item_Mushroom_J
+      ItemProbability104: 0.400000006
+      ItemName105: !str64 Item_Mushroom_L
+      ItemProbability105: 0.400000006
+      ItemName106: !str64 Item_Mushroom_M
+      ItemProbability106: 0.400000006
+      ItemName107: !str64 Item_Mushroom_N
+      ItemProbability107: 0.400000006
+      ItemName108: !str64 Item_Mushroom_O
+      ItemProbability108: 0.400000006
+      ItemName109: !str64 Item_Ore_A
+      ItemProbability109: 0.400000006
+      ItemName110: !str64 Item_Ore_B
+      ItemProbability110: 0.400000006
+      ItemName111: !str64 Item_Ore_C
+      ItemProbability111: 0.400000006
+      ItemName112: !str64 Item_Ore_D
+      ItemProbability112: 0.400000006
+      ItemName113: !str64 Item_Ore_E
+      ItemProbability113: 0.400000006
+      ItemName114: !str64 Item_Ore_F
+      ItemProbability114: 0.400000006
+      ItemName115: !str64 Item_Ore_G
+      ItemProbability115: 0.400000006
+      ItemName116: !str64 Item_Ore_H
+      ItemProbability116: 0.400000006
+      ItemName117: !str64 Item_Ore_I
+      ItemProbability117: 0.400000006
+      ItemName118: !str64 Item_Ore_J
+      ItemProbability118: 0.400000006
+      ItemName119: !str64 Item_PlantGet_A
+      ItemProbability119: 0.400000006
+      ItemName120: !str64 Item_PlantGet_B
+      ItemProbability120: 0.400000006
+      ItemName121: !str64 Item_PlantGet_C
+      ItemProbability121: 0.400000006
+      ItemName122: !str64 Item_PlantGet_F
+      ItemProbability122: 0.400000006
+      ItemName123: !str64 Item_PlantGet_G
+      ItemProbability123: 0.400000006
+      ItemName124: !str64 Item_PlantGet_H
+      ItemProbability124: 0.400000006
+      ItemName125: !str64 Item_PlantGet_I
+      ItemProbability125: 0.400000006
+      ItemName126: !str64 Item_PlantGet_M
+      ItemProbability126: 0.400000006
+      ItemName127: !str64 Item_PlantGet_O
+      ItemProbability127: 0.400000006
+      ItemName128: !str64 Item_PlantGet_Q
+      ItemProbability128: 0.400000006
+      ItemName129: !str64 Item_Plant_Q
+      ItemProbability129: 0.400000006
+      ItemName130: !str64 Item_RoastFish_01
+      ItemProbability130: 0.400000006
+      ItemName131: !str64 Item_RoastFish_02
+      ItemProbability131: 0.400000006
+      ItemName132: !str64 Item_RoastFish_03
+      ItemProbability132: 0.400000006
+      ItemName133: !str64 Item_RoastFish_04
+      ItemProbability133: 0.400000006
+      ItemName134: !str64 Item_RoastFish_07
+      ItemProbability134: 0.400000006
+      ItemName135: !str64 Item_RoastFish_09
+      ItemProbability135: 0.400000006
+      ItemName136: !str64 Item_RoastFish_11
+      ItemProbability136: 0.400000006
+      ItemName137: !str64 Item_RoastFish_13
+      ItemProbability137: 0.400000006
+      ItemName138: !str64 Item_RoastFish_15
+      ItemProbability138: 0.400000006
+      ItemName139: !str64 Item_Roast_01
+      ItemProbability139: 0.400000006
+      ItemName140: !str64 Item_Roast_02
+      ItemProbability140: 0.400000006
+      ItemName141: !str64 Item_Roast_03
+      ItemProbability141: 0.400000006
+      ItemName142: !str64 Item_Roast_04
+      ItemProbability142: 0.400000006
+      ItemName143: !str64 Item_Roast_05
+      ItemProbability143: 0.400000006
+      ItemName144: !str64 Item_Roast_06
+      ItemProbability144: 0.400000006
+      ItemName145: !str64 Item_Roast_07
+      ItemProbability145: 0.400000006
+      ItemName146: !str64 Item_Roast_08
+      ItemProbability146: 0.400000006
+      ItemName147: !str64 Item_Roast_09
+      ItemProbability147: 0.400000006
+      ItemName148: !str64 Item_Roast_10
+      ItemProbability148: 0.400000006
+      ItemName149: !str64 Item_Roast_11
+      ItemProbability149: 0.400000006
+      ItemName150: !str64 Item_Roast_12
+      ItemProbability150: 0.400000006
+      ItemName151: !str64 Item_Roast_13
+      ItemProbability151: 0.400000006
+      ItemName152: !str64 Item_Roast_15
+      ItemProbability152: 0.400000006
+      ItemName153: !str64 Item_Roast_16
+      ItemProbability153: 0.400000006
+      ItemName154: !str64 Item_Roast_18
+      ItemProbability154: 0.400000006
+      ItemName155: !str64 Item_Roast_19
+      ItemProbability155: 0.899999976
+      ItemName156: !str64 Item_Roast_24
+      ItemProbability156: 0.400000006
+      ItemName157: !str64 Item_Roast_27
+      ItemProbability157: 0.400000006
+      ItemName158: !str64 Item_Roast_28
+      ItemProbability158: 0.400000006
+      ItemName159: !str64 Item_Roast_31
+      ItemProbability159: 0.400000006
+      ItemName160: !str64 Item_Roast_32
+      ItemProbability160: 0.400000006
+      ItemName161: !str64 Item_Roast_33
+      ItemProbability161: 0.400000006
+      ItemName162: !str64 Item_Roast_36
+      ItemProbability162: 0.400000006
+      ItemName163: !str64 Item_Roast_37
+      ItemProbability163: 0.400000006
+      ItemName164: !str64 Item_Roast_38
+      ItemProbability164: 0.400000006
+      ItemName165: !str64 Item_Roast_39
+      ItemProbability165: 0.400000006
+      ItemName166: !str64 Item_Roast_40
+      ItemProbability166: 0.400000006
+      ItemName167: !str64 Item_Roast_41
+      ItemProbability167: 0.400000006
+      ItemName168: !str64 Item_Roast_45
+      ItemProbability168: 0.400000006
+      ItemName169: !str64 Item_Roast_46
+      ItemProbability169: 0.400000006
+      ItemName170: !str64 Item_Roast_48
+      ItemProbability170: 0.400000006
+      ItemName171: !str64 Item_Roast_49
+      ItemProbability171: 0.400000006
+      ItemName172: !str64 Item_Roast_50
+      ItemProbability172: 0.400000006
+      ItemName173: !str64 Item_Roast_51
+      ItemProbability173: 0.400000006
+      ItemName174: !str64 Item_Roast_52
+      ItemProbability174: 0.400000006
+      ItemName175: !str64 Item_Roast_53
+      ItemProbability175: 0.400000006
+      ItemName176: !str64 Obj_AncientArrow_A_01
+      ItemProbability176: 0.400000006
+      ItemName177: !str64 Obj_AncientArrow_B_01
+      ItemProbability177: 0.400000006
+      ItemName178: !str64 Obj_AncientArrow_C_01
+      ItemProbability178: 0.400000006
+      ItemName179: !str64 Obj_ArrowBundle_A_01
+      ItemProbability179: 0.400000006
+      ItemName180: !str64 Obj_ArrowBundle_A_02
+      ItemProbability180: 0.400000006
+      ItemName181: !str64 Obj_ArrowNormal_A_01
+      ItemProbability181: 0.400000006
+      ItemName182: !str64 Obj_BombArrow_A_01
+      ItemProbability182: 0.400000006
+      ItemName183: !str64 Obj_BombArrow_A_02
+      ItemProbability183: 0.400000006
+      ItemName184: !str64 Obj_BombArrow_A_03
+      ItemProbability184: 0.400000006
+      ItemName185: !str64 Obj_BombArrow_A_04
+      ItemProbability185: 0.400000006
+      ItemName186: !str64 Obj_ElectricArrow_A_01
+      ItemProbability186: 0.400000006
+      ItemName187: !str64 Obj_ElectricArrow_A_02
+      ItemProbability187: 0.400000006
+      ItemName188: !str64 Obj_ElectricArrow_A_03
+      ItemProbability188: 0.400000006
+      ItemName189: !str64 Obj_FireArrow_A_01
+      ItemProbability189: 0.400000006
+      ItemName190: !str64 Obj_FireArrow_A_02
+      ItemProbability190: 0.400000006
+      ItemName191: !str64 Obj_FireArrow_A_03
+      ItemProbability191: 0.400000006
+      ItemName192: !str64 Obj_IceArrow_A_01
+      ItemProbability192: 0.400000006
+      ItemName193: !str64 Obj_IceArrow_A_02
+      ItemProbability193: 0.400000006
+      ItemName194: !str64 Obj_IceArrow_A_03
+      ItemProbability194: 0.400000006
+      ItemName195: !str64 PutRupee
+      ItemProbability195: 0.400000006
+      ItemName196: !str64 PutRupee_Blue
+      ItemProbability196: 0.400000006
+      ItemName197: !str64 PutRupee_Gold
+      ItemProbability197: 0.400000006
+      ItemName198: !str64 PutRupee_Purple
+      ItemProbability198: 0.400000006
+      ItemName199: !str64 PutRupee_Red
+      ItemProbability199: 0.400000006
+      ItemName200: !str64 PutRupee_Silver
+      ItemProbability200: 0.400000006
+      ItemName201: !str64 Obj_ArrowBundle_A_30
+      ItemProbability201: 0.400000006
+      ItemName202: !str64 Obj_ArrowBundle_A_50
+      ItemProbability202: 0.400000006
+      ItemName203: !str64 Obj_ArrowBundle_A_100
+      ItemProbability203: 0.400000006
+      ItemName204: !str64 Obj_StaminaUtuwa_B
+      ItemProbability204: 0.400000006
+    RelicsRare: !obj
+      RepeatNumMin: 2
+      RepeatNumMax: 4
+      ApproachType: 0
+      OccurrenceSpeedType: 0
+      ColumnNum: 15
+      ItemName01: !str64 Weapon_Shield_027
+      ItemProbability01: 4.5
+      ItemName02: !str64 Weapon_Shield_030
+      ItemProbability02: 4.5
+      ItemName03: !str64 Weapon_Sword_052
+      ItemProbability03: 4.5
+      ItemName04: !str64 Weapon_Sword_015
+      ItemProbability04: 4.5
+      ItemName05: !str64 Weapon_Lsword_060
+      ItemProbability05: 4.5
+      ItemName06: !str64 Weapon_Sword_026
+      ItemProbability06: 4.5
+      ItemName07: !str64 Weapon_Lsword_026
+      ItemProbability07: 4.5
+      ItemName08: !str64 Weapon_Spear_026
+      ItemProbability08: 4.5
+      ItemName09: !str64 Weapon_Bow_024
+      ItemProbability09: 4.5
+      ItemName10: !str64 Weapon_Bow_023
+      ItemProbability10: 4.5
+      ItemName11: !str64 Animal_Insect_F
+      ItemProbability11: 4.55999994
+      ItemName12: !str64 Weapon_Shield_037
+      ItemProbability12: 4.5
+      ItemName13: !str64 Weapon_Spear_050
+      ItemProbability13: 4.5
+      ItemName14: !str64 Weapon_Bow_028
+      ItemProbability14: 4.5
+      ItemName15: !str64 Weapon_Sword_023
+      ItemProbability15: 5.30000019
+    RelicsRare2: !obj
+      RepeatNumMin: 2
+      RepeatNumMax: 3
+      ApproachType: 0
+      OccurrenceSpeedType: 0
+      ColumnNum: 7
+      ItemName01: !str64 Obj_ArrowBundle_A_30
+      ItemProbability01: 20.0
+      ItemName02: !str64 Obj_ArrowBundle_A_50
+      ItemProbability02: 20.0
+      ItemName03: !str64 Obj_ArrowBundle_A_100
+      ItemProbability03: 20.0
+      ItemName04: !str64 Obj_StaminaUtuwa_B
+      ItemProbability04: 20.0
+      ItemName05: !str64 Item_PlantGet_C
+      ItemProbability05: 15.0
+      ItemName06: !str64 Item_FishGet_F
+      ItemProbability06: 15.0
+      ItemName07: !str64 Item_Ore_J
+      ItemProbability07: 15.0
+    Burnout: !obj
+      RepeatNumMin: 3
+      RepeatNumMax: 5
+      ApproachType: 0
+      OccurrenceSpeedType: 0
+      ColumnNum: 100
+      ItemName01: !str64 Item_FishGet_A
+      ItemProbability01: 0.899999976
+      ItemName02: !str64 Item_FishGet_B
+      ItemProbability02: 0.899999976
+      ItemName03: !str64 Item_FishGet_C
+      ItemProbability03: 0.899999976
+      ItemName04: !str64 Item_FishGet_D
+      ItemProbability04: 0.899999976
+      ItemName05: !str64 Item_FishGet_E
+      ItemProbability05: 0.899999976
+      ItemName06: !str64 Item_FishGet_F
+      ItemProbability06: 0.899999976
+      ItemName07: !str64 Item_FishGet_G
+      ItemProbability07: 0.899999976
+      ItemName08: !str64 Item_FishGet_H
+      ItemProbability08: 0.899999976
+      ItemName09: !str64 Item_FishGet_I
+      ItemProbability09: 0.899999976
+      ItemName10: !str64 Item_Ore_J
+      ItemProbability10: 0.899999976
+      ItemName11: !str64 Item_FishGet_K
+      ItemProbability11: 0.899999976
+      ItemName12: !str64 Item_FishGet_L
+      ItemProbability12: 0.899999976
+      ItemName13: !str64 Item_FishGet_M
+      ItemProbability13: 0.899999976
+      ItemName14: !str64 Item_FishGet_X
+      ItemProbability14: 0.899999976
+      ItemName15: !str64 Item_FishGet_Z
+      ItemProbability15: 0.899999976
+      ItemName16: !str64 Item_Fruit_A
+      ItemProbability16: 0.899999976
+      ItemName17: !str64 Item_Fruit_B
+      ItemProbability17: 0.899999976
+      ItemName18: !str64 Item_Fruit_C
+      ItemProbability18: 0.899999976
+      ItemName19: !str64 Item_Fruit_D
+      ItemProbability19: 0.899999976
+      ItemName20: !str64 Item_Fruit_E
+      ItemProbability20: 0.899999976
+      ItemName21: !str64 Item_Fruit_F
+      ItemProbability21: 0.899999976
+      ItemName22: !str64 Item_Fruit_G
+      ItemProbability22: 0.899999976
+      ItemName23: !str64 Item_Fruit_H
+      ItemProbability23: 0.899999976
+      ItemName24: !str64 Item_Fruit_I
+      ItemProbability24: 0.899999976
+      ItemName25: !str64 Item_Fruit_J
+      ItemProbability25: 0.899999976
+      ItemName26: !str64 Item_Fruit_K
+      ItemProbability26: 0.899999976
+      ItemName27: !str64 Item_Fruit_L
+      ItemProbability27: 0.899999976
+      ItemName28: !str64 Item_Meat_01
+      ItemProbability28: 0.899999976
+      ItemName29: !str64 Item_Meat_02
+      ItemProbability29: 0.899999976
+      ItemName30: !str64 Item_Meat_06
+      ItemProbability30: 0.899999976
+      ItemName31: !str64 Item_Meat_07
+      ItemProbability31: 0.899999976
+      ItemName32: !str64 Item_Meat_11
+      ItemProbability32: 0.899999976
+      ItemName33: !str64 Item_Meat_12
+      ItemProbability33: 0.899999976
+      ItemName34: !str64 Item_MushroomGet_D
+      ItemProbability34: 0.899999976
+      ItemName35: !str64 Item_Mushroom_A
+      ItemProbability35: 0.899999976
+      ItemName36: !str64 Item_Mushroom_C
+      ItemProbability36: 0.899999976
+      ItemName37: !str64 Item_Mushroom_E
+      ItemProbability37: 0.899999976
+      ItemName38: !str64 Item_Mushroom_F
+      ItemProbability38: 0.899999976
+      ItemName39: !str64 Item_Mushroom_J
+      ItemProbability39: 0.899999976
+      ItemName40: !str64 Item_Mushroom_L
+      ItemProbability40: 0.899999976
+      ItemName41: !str64 Item_Mushroom_M
+      ItemProbability41: 0.899999976
+      ItemName42: !str64 Item_Mushroom_N
+      ItemProbability42: 0.899999976
+      ItemName43: !str64 Item_Mushroom_O
+      ItemProbability43: 0.899999976
+      ItemName44: !str64 Item_PlantGet_A
+      ItemProbability44: 0.899999976
+      ItemName45: !str64 Item_PlantGet_B
+      ItemProbability45: 0.899999976
+      ItemName46: !str64 Item_PlantGet_C
+      ItemProbability46: 0.899999976
+      ItemName47: !str64 Item_PlantGet_F
+      ItemProbability47: 0.899999976
+      ItemName48: !str64 Item_PlantGet_G
+      ItemProbability48: 0.899999976
+      ItemName49: !str64 Item_PlantGet_H
+      ItemProbability49: 0.899999976
+      ItemName50: !str64 Item_PlantGet_I
+      ItemProbability50: 0.899999976
+      ItemName51: !str64 Item_PlantGet_M
+      ItemProbability51: 0.899999976
+      ItemName52: !str64 Item_PlantGet_O
+      ItemProbability52: 0.899999976
+      ItemName53: !str64 Item_PlantGet_Q
+      ItemProbability53: 0.899999976
+      ItemName54: !str64 Item_Plant_Q
+      ItemProbability54: 0.899999976
+      ItemName55: !str64 Weapon_Sword_024
+      ItemProbability55: 0.899999976
+      ItemName56: !str64 Item_Ore_D
+      ItemProbability56: 0.899999976
+      ItemName57: !str64 Animal_Insect_X
+      ItemProbability57: 0.899999976
+      ItemName58: !str64 Item_Material_05
+      ItemProbability58: 0.899999976
+      ItemName59: !str64 Item_RoastFish_07
+      ItemProbability59: 0.899999976
+      ItemName60: !str64 Item_RoastFish_09
+      ItemProbability60: 0.899999976
+      ItemName61: !str64 Item_RoastFish_11
+      ItemProbability61: 0.899999976
+      ItemName62: !str64 Item_RoastFish_13
+      ItemProbability62: 0.899999976
+      ItemName63: !str64 Item_RoastFish_15
+      ItemProbability63: 0.899999976
+      ItemName64: !str64 Item_Roast_01
+      ItemProbability64: 0.899999976
+      ItemName65: !str64 Item_Roast_02
+      ItemProbability65: 0.899999976
+      ItemName66: !str64 Weapon_Lsword_014
+      ItemProbability66: 0.899999976
+      ItemName67: !str64 Weapon_Lsword_014
+      ItemProbability67: 0.899999976
+      ItemName68: !str64 Item_Roast_05
+      ItemProbability68: 0.899999976
+      ItemName69: !str64 Item_Roast_06
+      ItemProbability69: 0.899999976
+      ItemName70: !str64 Item_Roast_07
+      ItemProbability70: 0.899999976
+      ItemName71: !str64 Item_Roast_08
+      ItemProbability71: 0.899999976
+      ItemName72: !str64 Item_Roast_09
+      ItemProbability72: 0.899999976
+      ItemName73: !str64 Animal_Insect_B
+      ItemProbability73: 0.899999976
+      ItemName74: !str64 Item_Roast_11
+      ItemProbability74: 0.899999976
+      ItemName75: !str64 Item_Roast_12
+      ItemProbability75: 0.899999976
+      ItemName76: !str64 Item_Roast_13
+      ItemProbability76: 0.899999976
+      ItemName77: !str64 Animal_Insect_K
+      ItemProbability77: 0.899999976
+      ItemName78: !str64 Item_Roast_16
+      ItemProbability78: 0.899999976
+      ItemName79: !str64 Item_Roast_18
+      ItemProbability79: 0.899999976
+      ItemName80: !str64 Item_Roast_19
+      ItemProbability80: 0.899999976
+      ItemName81: !str64 Item_Roast_24
+      ItemProbability81: 0.899999976
+      ItemName82: !str64 Weapon_Bow_030
+      ItemProbability82: 0.899999976
+      ItemName83: !str64 Item_Roast_28
+      ItemProbability83: 0.899999976
+      ItemName84: !str64 Weapon_Bow_023
+      ItemProbability84: 0.699999988
+      ItemName85: !str64 Item_Enemy_32
+      ItemProbability85: 0.899999976
+      ItemName86: !str64 Weapon_Shield_033
+      ItemProbability86: 0.899999976
+      ItemName87: !str64 Item_Enemy_36
+      ItemProbability87: 0.899999976
+      ItemName88: !str64 Item_Roast_37
+      ItemProbability88: 0.899999976
+      ItemName89: !str64 Item_Roast_38
+      ItemProbability89: 0.899999976
+      ItemName90: !str64 Weapon_Spear_033
+      ItemProbability90: 0.899999976
+      ItemName91: !str64 Item_Enemy_40
+      ItemProbability91: 0.899999976
+      ItemName92: !str64 Item_Enemy_41
+      ItemProbability92: 0.899999976
+      ItemName93: !str64 PutRupee_Silver
+      ItemProbability93: 0.899999976
+      ItemName94: !str64 PutRupee_Gold
+      ItemProbability94: 0.899999976
+      ItemName95: !str64 Item_Roast_48
+      ItemProbability95: 0.899999976
+      ItemName96: !str64 Item_Roast_49
+      ItemProbability96: 0.899999976
+      ItemName97: !str64 Item_Roast_50
+      ItemProbability97: 0.899999976
+      ItemName98: !str64 Item_Roast_51
+      ItemProbability98: 0.899999976
+      ItemName99: !str64 Item_Roast_52
+      ItemProbability99: 0.899999976
+      ItemName100: !str64 Item_Roast_53
+      ItemProbability100: 0.899999976
+  lists: {}

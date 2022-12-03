@@ -1,0 +1,166 @@
+!io
+version: 0
+type: xml
+param_root: !list
+  objects: {}
+  lists:
+    ParamSet: !list
+      objects:
+        1258832850: !obj
+          use_rigid_body_set_num: 1
+          use_ragdoll: false
+          use_cloth: false
+          use_support_bone: false
+          use_character_controller: false
+          use_contact_info: false
+          use_edge_rigid_body_num: 0
+          use_system_group_handler: true
+      lists:
+        RigidBodySet: !list
+          objects: {}
+          lists:
+            RigidBodySet_0: !list
+              objects:
+                4288596824: !obj
+                  set_name: !str32 Body
+                  type: !str32 from_resource
+                  num: 4
+                  setup_file_path: !str256 DgnObj_IbutsuElectricDrum_A/DgnObj_IbutsuElectricDrum_A_01.hkrb
+              lists:
+                RigidBody_0: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Drum_A_RigidBody_Box_g
+                      mass: 1.0
+                      inertia: !vec3 [252.629807, 273.265411, 470.857513]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 2477.35767
+                      toi: false
+                      center_of_mass: !vec3 [-0.740956008, -0.826636016, -1.54735208]
+                      bounding_center: !vec3 [0.0, -9.99999997e-07, -1.99993801]
+                      bounding_extents: !vec3 [49.6000748, 49.328392, 21.0001488]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: true
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: false
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                882113641: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Drum_A_RigidBody_Cylinder_g
+                      mass: 1.0
+                      inertia: !vec3 [3.493958, 6.66124916, 3.493958]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 58.5954361
+                      toi: false
+                      center_of_mass: !vec3 [10.9500017, 13.3999996, 0.0]
+                      bounding_center: !vec3 [10.9500008, 13.3999996, 0.0]
+                      bounding_extents: !vec3 [7.29999924, 1.40000105, 7.29999924]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: true
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: false
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                2912595411: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Drum_A_RigidBody_Hull_g
+                      mass: 1.0
+                      inertia: !vec3 [110.043297, 259.434387, 354.872192]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 360.308685
+                      toi: false
+                      center_of_mass: !vec3 [2.69685411, -6.61506701, -0.160689995]
+                      bounding_center: !vec3 [-9.99999975e-06, 0.533183992, -2.19899893]
+                      bounding_extents: !vec3 [49.9627686, 38.0300598, 20.5427246]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: true
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: false
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                3667762501: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Drum_A_RigidBody_wireNet_Box_g
+                      mass: 1.0
+                      inertia: !vec3 [11.8013, 28.5608292, 16.7604694]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 4.28404284
+                      toi: true
+                      center_of_mass: !vec3 [9.99999997e-07, 13.9875002, -3.95000005]
+                      bounding_center: !vec3 [0.0, 13.9875002, -3.95000005]
+                      bounding_extents: !vec3 [10.8000002, 0.0750010014, 11.9000015]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: true
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Arrow,Bomb,Magnet
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Fixed
+                  lists: {}

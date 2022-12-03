@@ -1,0 +1,38 @@
+---
+group_count: 1
+atr1_unknown: 4
+entries:
+  "0000":
+    attributes: NPC_GodVoice
+    contents:
+      - text: "Yes"
+  "0001":
+    attributes: NPC_GodVoice
+    contents:
+      - text: "No"
+  CombatPractice:
+    attributes: NPC_GodVoice
+    contents:
+      - text: "Begin "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Combat Practice
+      - control:
+          kind: reset_colour
+      - text: "?"
+      - control:
+          kind: choice
+          choice_labels:
+            - 0
+            - 1
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Relics_DeathMT:
+    attributes: Starter
+    contents:
+      - control:
+          kind: text_size
+          percent: 110
+      - text: "You must eliminate all enemies to gain\naccess to the cannon."

@@ -1,0 +1,974 @@
+!io
+version: 0
+type: xml
+param_root: !list
+  objects: {}
+  lists:
+    ParamSet: !list
+      objects:
+        1258832850: !obj
+          use_rigid_body_set_num: 1
+          use_ragdoll: false
+          use_cloth: false
+          use_support_bone: false
+          use_character_controller: false
+          use_contact_info: false
+          use_edge_rigid_body_num: 0
+          use_system_group_handler: true
+      lists:
+        RigidBodySet: !list
+          objects: {}
+          lists:
+            RigidBodySet_0: !list
+              objects:
+                4288596824: !obj
+                  set_name: !str32 Body
+                  type: !str32 from_resource
+                  num: 27
+                  setup_file_path: !str256 MergedGrudge_RemainsFire_2_0/MergedGrudge_RemainsFire_2_0.hkrb
+              lists:
+                RigidBody_0: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_Body_Col1_7
+                      mass: 1.0
+                      inertia: !vec3 [1.37552702, 0.955842018, 0.715444028]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 3.4909749
+                      toi: false
+                      center_of_mass: !vec3 [-3.0618279, -0.603246987, -1.69017792]
+                      bounding_center: !vec3 [-3.01101303, -1.50101101, -1.68270707]
+                      bounding_extents: !vec3 [2.20327902, 3.60207605, 3.63740206]
+                      max_linear_velocity: 200.0
+                      bone: !str64 ''
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: ''
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                882113641: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_Body_Col2_8
+                      mass: 1.0
+                      inertia: !vec3 [1.21897995, 0.955869019, 0.872078001]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 3.49091196
+                      toi: false
+                      center_of_mass: !vec3 [2.88253808, -0.603239, 2.30394411]
+                      bounding_center: !vec3 [2.84276199, -1.501019, 2.31464791]
+                      bounding_extents: !vec3 [2.85989714, 3.60209203, 3.45531702]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                2912595411: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_Body_Col_5
+                      mass: 1.0
+                      inertia: !vec3 [1.06307304, 0.95579499, 1.02789402]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 3.49095798
+                      toi: false
+                      center_of_mass: !vec3 [2.8158741, -0.60324198, -2.97181201]
+                      bounding_center: !vec3 [2.84359598, -1.50101209, -2.94526696]
+                      bounding_extents: !vec3 [3.09332204, 3.60207415, 3.35352612]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                3667762501: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_Body_Col_6
+                      mass: 1.0
+                      inertia: !vec3 [0.994295001, 0.95580399, 1.09668803]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 3.49084902
+                      toi: false
+                      center_of_mass: !vec3 [-1.86849904, -0.603236973, 2.75121689]
+                      bounding_center: !vec3 [-1.89039803, -1.50102103, 2.7198019]
+                      bounding_extents: !vec3 [3.24006796, 3.60209513, 3.1990881]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                1157171430: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_GrudgeSlow_Col1_2
+                      mass: 1.0
+                      inertia: !vec3 [1.00599504, 1.43134999, 0.443414003]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 2.113621
+                      toi: false
+                      center_of_mass: !vec3 [-3.17925596, -0.225630999, -1.28572202]
+                      bounding_center: !vec3 [-2.94205403, -0.246769994, -1.59831595]
+                      bounding_extents: !vec3 [3.46862698, 0.564345002, 4.67849302]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                872298608: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_GrudgeSlow_Col2_3
+                      mass: 1.0
+                      inertia: !vec3 [0.850042999, 1.42236197, 0.590358019]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 2.10655904
+                      toi: false
+                      center_of_mass: !vec3 [3.13253903, -0.225564003, 2.30428004]
+                      bounding_center: !vec3 [2.78660393, -0.246776, 2.49360204]
+                      bounding_extents: !vec3 [3.92951608, 0.564346015, 4.33553886]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                2868341194: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_GrudgeSlow_Col3_4
+                      mass: 1.0
+                      inertia: !vec3 [0.262697011, 1.42904699, 1.18444002]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 2.11681795
+                      toi: false
+                      center_of_mass: !vec3 [0.551055014, -0.225591004, 0.164636001]
+                      bounding_center: !vec3 [0.0505729988, -0.246769994, 0.105475001]
+                      bounding_extents: !vec3 [5.01178789, 0.564336002, 2.53775787]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                3723516252: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_GrudgeSlow_Col_0
+                      mass: 1.0
+                      inertia: !vec3 [0.807762027, 1.40075302, 0.611003995]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 2.09290504
+                      toi: false
+                      center_of_mass: !vec3 [2.38676095, 0.274641991, -2.95171213]
+                      bounding_center: !vec3 [2.38829398, 0.253223985, -2.45395207]
+                      bounding_extents: !vec3 [3.64731312, 0.564341009, 4.43197393]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                1297040589: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_GrudgeSlow_Col_1
+                      mass: 1.0
+                      inertia: !vec3 [0.523759007, 1.42634404, 0.920630991]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 2.109375
+                      toi: false
+                      center_of_mass: !vec3 [-1.779706, 0.274405986, 3.02854204]
+                      bounding_center: !vec3 [-2.023839, 0.253217995, 2.72928905]
+                      bounding_extents: !vec3 [4.50022602, 0.564329982, 3.73932195]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                977826907: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_Camera_Camera_Col1_2
+                      mass: 1.0
+                      inertia: !vec3 [1.18924701, 1.70953393, 0.554556012]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 3.54531908
+                      toi: false
+                      center_of_mass: !vec3 [-3.15303206, -0.274102986, -1.299963]
+                      bounding_center: !vec3 [-2.9692359, -0.298346013, -1.56603301]
+                      bounding_extents: !vec3 [3.66045904, 0.716296971, 4.90501976]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Animal,Arrow,AttackHitEnemy,AttackHitPlayer,Bomb,Camera,Giant,Grudge,HitAll,IK,LineOfSight,Magnet,MovingTrolley,NPC,Player
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                3229717793: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_Camera_Camera_Col2_3
+                      mass: 1.0
+                      inertia: !vec3 [1.00493395, 1.701105, 0.730397999]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 3.53408504
+                      toi: false
+                      center_of_mass: !vec3 [3.10430908, -0.274026006, 2.31412697]
+                      bounding_center: !vec3 [2.81581497, -0.298343003, 2.46502995]
+                      bounding_extents: !vec3 [4.12998199, 0.716304004, 4.56452084]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Animal,Arrow,AttackHitEnemy,AttackHitPlayer,Bomb,Camera,Giant,Grudge,HitAll,IK,LineOfSight,Magnet,MovingTrolley,NPC,Player
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                3079054775: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_Camera_Camera_Col3_4
+                      mass: 1.0
+                      inertia: !vec3 [0.336021006, 1.70793796, 1.40625501]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 3.55134106
+                      toi: false
+                      center_of_mass: !vec3 [0.530521989, -0.274062008, 0.143022999]
+                      bounding_center: !vec3 [0.0775220022, -0.298330992, 0.124969997]
+                      bounding_extents: !vec3 [5.24384212, 0.716323972, 2.70979786]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Animal,Arrow,AttackHitEnemy,AttackHitPlayer,Bomb,Camera,Giant,Grudge,HitAll,IK,LineOfSight,Magnet,MovingTrolley,NPC,Player
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                781186061: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_Camera_Camera_Col_0
+                      mass: 1.0
+                      inertia: !vec3 [0.993279994, 1.68572593, 0.72665298]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 3.51950598
+                      toi: false
+                      center_of_mass: !vec3 [2.38909912, 0.226135999, -2.92110491]
+                      bounding_center: !vec3 [2.36909199, 0.201654002, -2.48129392]
+                      bounding_extents: !vec3 [3.87779307, 0.716318011, 4.64261198]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Animal,Arrow,AttackHitEnemy,AttackHitPlayer,Bomb,Camera,Giant,Grudge,HitAll,IK,LineOfSight,Magnet,MovingTrolley,NPC,Player
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                1502135451: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_Camera_Camera_Col_1
+                      mass: 1.0
+                      inertia: !vec3 [0.65090102, 1.70496202, 1.08830297]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 3.53874803
+                      toi: false
+                      center_of_mass: !vec3 [-1.791682, 0.225944996, 3.00099492]
+                      bounding_center: !vec3 [-1.99358296, 0.201664999, 2.75769186]
+                      bounding_extents: !vec3 [4.7286768, 0.716315985, 3.93663096]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Animal,Arrow,AttackHitEnemy,AttackHitPlayer,Bomb,Camera,Giant,Grudge,HitAll,IK,LineOfSight,Magnet,MovingTrolley,NPC,Player
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                3354153272: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_FilterArrow_Filter_Arrow1_2
+                      mass: 1.0
+                      inertia: !vec3 [0.405966014, 0.138252005, 0.292010993]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 0.342408001
+                      toi: false
+                      center_of_mass: !vec3 [-3.22091007, -0.557986975, -1.25650799]
+                      bounding_center: !vec3 [-3.229424, -0.636768997, -1.25223994]
+                      bounding_extents: !vec3 [0.50998503, 1.86303997, 1.60052502]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Arrow,Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                2968215982: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_FilterArrow_Filter_Arrow2_3
+                      mass: 1.0
+                      inertia: !vec3 [0.385457993, 0.138262004, 0.312530994]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 0.342350006
+                      toi: false
+                      center_of_mass: !vec3 [3.13889408, -0.55805701, 1.91975594]
+                      bounding_center: !vec3 [3.14252996, -0.636747003, 1.91623306]
+                      bounding_extents: !vec3 [0.819810987, 1.86299598, 1.50660992]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Arrow,Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                702689300: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_FilterArrow_Filter_Arrow_0
+                      mass: 1.0
+                      inertia: !vec3 [0.340512991, 0.138275996, 0.357493997]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 0.342189997
+                      toi: false
+                      center_of_mass: !vec3 [2.50101495, -0.558058023, -3.3098011]
+                      bounding_center: !vec3 [2.49844003, -0.636739016, -3.31415391]
+                      bounding_extents: !vec3 [1.33748007, 1.86295009, 1.10252297]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Arrow,Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                1592066178: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityGround_FilterArrow_Filter_Arrow_1
+                      mass: 1.0
+                      inertia: !vec3 [0.330143005, 0.138270006, 0.367826998]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 0.342307001
+                      toi: false
+                      center_of_mass: !vec3 [-1.52713394, -0.557964981, 3.06245208]
+                      bounding_center: !vec3 [-1.52422702, -0.636740983, 3.06654191]
+                      bounding_extents: !vec3 [1.40506601, 1.86298394, 1.00878406]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityGround
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 NOT_USE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Arrow,Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                3462012179: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityNoHit_Ground_CutNavMesh1_2
+                      mass: 1.0
+                      inertia: !vec3 [2.0244379, 1.27134895, 1.46480501]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 21.1430473
+                      toi: false
+                      center_of_mass: !vec3 [-3.18438697, -1.05742502, -1.42433703]
+                      bounding_center: !vec3 [-3.06369996, -1.63025999, -1.77389407]
+                      bounding_extents: !vec3 [3.17323995, 4.30546093, 4.74379206]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityNoHit
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 DYNAMIC_SILHOUETTE_AND_OBSTACLE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                3109891461: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityNoHit_Ground_CutNavMesh2_3
+                      mass: 1.0
+                      inertia: !vec3 [1.89361799, 1.27132201, 1.595716]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 21.1434631
+                      toi: false
+                      center_of_mass: !vec3 [3.06406689, -1.05747604, 2.07424498]
+                      bounding_center: !vec3 [2.86480594, -1.63034105, 2.385777]
+                      bounding_extents: !vec3 [3.90853214, 4.30560303, 4.67816401]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityNoHit
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 DYNAMIC_SILHOUETTE_AND_OBSTACLE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                3953968866: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityNoHit_Ground_CutNavMesh_0
+                      mass: 1.0
+                      inertia: !vec3 [1.75612903, 1.27133, 1.73314297]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 21.1424046
+                      toi: false
+                      center_of_mass: !vec3 [2.63410306, -1.05746496, -3.20135498]
+                      bounding_center: !vec3 [2.89135885, -1.63039899, -2.93568802]
+                      bounding_extents: !vec3 [4.36410379, 4.30572319, 4.42221403]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityNoHit
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 DYNAMIC_SILHOUETTE_AND_OBSTACLE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                2628515444: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityNoHit_Ground_CutNavMesh_1
+                      mass: 1.0
+                      inertia: !vec3 [1.69824302, 1.27135503, 1.79099894]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 21.1438961
+                      toi: false
+                      center_of_mass: !vec3 [-1.66864395, -1.05742204, 2.96516395]
+                      bounding_center: !vec3 [-1.94657803, -1.63033009, 2.72140193]
+                      bounding_extents: !vec3 [4.50202513, 4.30559683, 4.26736498]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityNoHit
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 DYNAMIC_SILHOUETTE_AND_OBSTACLE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                94545870: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityNoHit_Water_CutNavMesh3_2
+                      mass: 1.0
+                      inertia: !vec3 [2.27469802, 3.21567702, 1.08305502]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 13.1146441
+                      toi: false
+                      center_of_mass: !vec3 [-2.95174193, -0.358013988, -1.50443506]
+                      bounding_center: !vec3 [-3.08482599, -0.358013988, -1.42653096]
+                      bounding_extents: !vec3 [4.74535608, 0.980399013, 6.03591299]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityNoHit
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 DYNAMIC_SILHOUETTE_AND_OBSTACLE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                1923454808: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityNoHit_Water_CutNavMesh4_3
+                      mass: 1.0
+                      inertia: !vec3 [1.96583498, 3.21585202, 1.39208603]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 13.1143379
+                      toi: false
+                      center_of_mass: !vec3 [2.87121296, -0.358013988, 2.48279095]
+                      bounding_center: !vec3 [2.89202309, -0.358013988, 2.34198999]
+                      bounding_extents: !vec3 [5.28495121, 0.980373025, 5.86184406]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityNoHit
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 DYNAMIC_SILHOUETTE_AND_OBSTACLE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                3972072187: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityNoHit_Water_CutNavMesh5_4
+                      mass: 1.0
+                      inertia: !vec3 [0.718096018, 3.215873, 2.63984394]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 13.1139202
+                      toi: false
+                      center_of_mass: !vec3 [0.274791002, -0.358013988, 0.00320399995]
+                      bounding_center: !vec3 [0.208633006, -0.358013988, 0.314204991]
+                      bounding_extents: !vec3 [6.05318213, 0.980367005, 3.58590698]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityNoHit
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 DYNAMIC_SILHOUETTE_AND_OBSTACLE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                2613457517: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityNoHit_Water_CutNavMesh_0
+                      mass: 1.0
+                      inertia: !vec3 [1.87645602, 3.21588802, 1.48150396]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 13.1142035
+                      toi: false
+                      center_of_mass: !vec3 [2.50093007, 0.141987994, -2.6512289]
+                      bounding_center: !vec3 [2.27696204, 0.141987994, -2.51136398]
+                      bounding_extents: !vec3 [5.35490513, 0.980382979, 5.81868887]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityNoHit
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 DYNAMIC_SILHOUETTE_AND_OBSTACLE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}
+                47145943: !list
+                  objects:
+                    948250248: !obj
+                      rigid_body_name: !str64 Collision_EntityNoHit_Water_CutNavMesh_1
+                      mass: 1.0
+                      inertia: !vec3 [1.25104797, 3.21592093, 2.10694098]
+                      linear_damping: 0.0
+                      angular_damping: 0.0500000007
+                      max_impulse: -1.0
+                      col_impulse_scale: 1.0
+                      ignore_normal_for_impulse: false
+                      volume: 13.1136179
+                      toi: false
+                      center_of_mass: !vec3 [-1.97648501, 0.141987994, 2.78138494]
+                      bounding_center: !vec3 [-1.86278498, 0.141987994, 2.85152006]
+                      bounding_extents: !vec3 [5.95692921, 0.980370998, 5.06439781]
+                      max_linear_velocity: 200.0
+                      bone: !str64 Root
+                      water_buoyancy_scale: 1.0
+                      water_flow_effective_rate: 1.0
+                      link_matrix: Root
+                      layer: !str32 EntityNoHit
+                      no_hit_ground: false
+                      no_hit_water: false
+                      navmesh: !str32 DYNAMIC_SILHOUETTE_AND_OBSTACLE
+                      navmesh_sub_material: !str32 ''
+                      magne_mass_scaling_factor: 1.0
+                      always_character_mass_scaling: false
+                      groundhit: !str32 HitAll
+                      use_ground_hit_type_mask: true
+                      ground_hit_type_mask: Grudge
+                      no_char_standing_on: false
+                      max_angular_velocity_rad: 198.967529
+                      motion_type: !str32 Keyframed
+                  lists: {}

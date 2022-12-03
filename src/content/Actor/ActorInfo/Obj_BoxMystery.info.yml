@@ -1,0 +1,23 @@
+aabbMax: {X: 1.03499997, Y: 2.00999999, Z: 0.99000001}
+aabbMin: {X: -1.04466999, Y: -0.0199999996, Z: -0.99000001}
+attackPower: 0
+bfres: Obj_BoxMystery
+boundingForTraverse: 2.02999997
+bugMask: 3
+drops:
+  Normal: [Item_FishGet_A, Item_FishGet_B, Item_FishGet_C, Item_FishGet_D, Item_FishGet_E, Item_FishGet_F, Item_FishGet_G,
+    Item_FishGet_H, Item_FishGet_I, Item_Ore_J]
+elink: KibakoHang
+generalLife: 40
+instSize: 49832
+mainModel: Obj_BoxMystery
+name: Obj_BoxMystery
+profile: MapDynamicPassive
+rigidBodyCenterY: 1.0
+slink: KibakoHang
+sortKey: -9
+systemIsGetItemSelf: false
+systemSameGroupActorName: ''
+tags: {tag09e9e131: 166322481, tag0ba4a61e: 195339806, tag8fda6cdd: !u 0x8fda6cdd, tagb51794dc: !u 0xb51794dc, tagc2ac3213: !u 0xc2ac3213,
+  tagd369c30f: !u 0xd369c30f, tagff53ef86: !u 0xff53ef86}
+yLimitAlgorithm: LimitYDiff

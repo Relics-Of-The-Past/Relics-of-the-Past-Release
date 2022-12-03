@@ -1,0 +1,30 @@
+---
+group_count: 101
+atr1_unknown: 0
+entries:
+  HeartLoss:
+    contents:
+      - text: "Your "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "Life Force "
+      - control:
+          kind: reset_colour
+      - text: "was decreased...\n\n"
+  HeartLossDanger:
+    contents:
+      - control:
+          kind: set_colour
+          colour: red
+      - text: DANGER INCOMING...
+  IncomingBloodMoon:
+    contents:
+      - text: "A "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "Blood Moon "
+      - control:
+          kind: reset_colour
+      - text: "Is Imminent!\nNew Secrets Have Appeared!"

@@ -1,0 +1,286 @@
+---
+group_count: 5
+atr1_unknown: 0
+entries:
+  QL_HyruleCastleQuest_Desc:
+    contents:
+      - text: "Upon reaching "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: Hyrule Castle
+      - control:
+          kind: reset_colour
+      - text: ",\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Zelda
+      - control:
+          kind: reset_colour
+      - text: " informed you that in order\nto even get close to "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Calamity Ganon
+      - control:
+          kind: reset_colour
+      - text: " you\nwould first have to defeat both "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: gatehouses
+      - control:
+          kind: reset_colour
+      - text: " guarding\nthe "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: sanctum
+      - control:
+          kind: reset_colour
+      - text: "."
+  QL_HyruleCastleQuest_Finish:
+    contents:
+      - text: "Upon reaching "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: Hyrule Castle
+      - control:
+          kind: reset_colour
+      - text: ",\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Zelda
+      - control:
+          kind: reset_colour
+      - text: " informed you that in order\nto even get close to "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Calamity Ganon
+      - control:
+          kind: reset_colour
+      - text: " you\nwould first have to defeat both "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: gatehouses
+      - control:
+          kind: reset_colour
+      - text: " guarding\nthe "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: sanctum
+      - control:
+          kind: reset_colour
+      - text: ".\n\n\nAfter obtaining the "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: map
+      - control:
+          kind: reset_colour
+      - text: ", you set off to defeat the two "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: gatehouses
+      - control:
+          kind: reset_colour
+      - text: ".\nFinally, you set out to destroy "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: Ganon
+      - control:
+          kind: reset_colour
+      - text: ".\nDue to defeating the "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: gatehouses
+      - control:
+          kind: reset_colour
+      - text: ", you knew how\nto bypass the protective spells\nguarding "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: the sanctum
+      - control:
+          kind: reset_colour
+      - text: "."
+  QL_HyruleCastleQuest_Name:
+    contents:
+      - text: "Hyrule Castle: Freeing Hyrule"
+  QL_HyruleCastleQuest_Step01:
+    contents:
+      - text: "Upon reaching "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: Hyrule Castle
+      - control:
+          kind: reset_colour
+      - text: ",\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Zelda
+      - control:
+          kind: reset_colour
+      - text: " informed you that in order\nto even get close to "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Calamity Ganon
+      - control:
+          kind: reset_colour
+      - text: " you\nwould first have to defeat both "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: gatehouses
+      - control:
+          kind: reset_colour
+      - text: " guarding\nthe "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: sanctum
+      - control:
+          kind: reset_colour
+      - text: ".\n\n\nAfter obtaining the "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: map
+      - control:
+          kind: reset_colour
+      - text: ", you set off to defeat the two "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: gatehouses
+      - control:
+          kind: reset_colour
+      - text: ".\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: 0/2 Gatehouses Defeated
+  QL_HyruleCastleQuest_Step02:
+    contents:
+      - text: "Upon reaching "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: Hyrule Castle
+      - control:
+          kind: reset_colour
+      - text: ",\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Zelda
+      - control:
+          kind: reset_colour
+      - text: " informed you that in order\nto even get close to "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Calamity Ganon
+      - control:
+          kind: reset_colour
+      - text: " you\nwould first have to defeat both "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: gatehouses
+      - control:
+          kind: reset_colour
+      - text: " guarding\nthe "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: sanctum
+      - control:
+          kind: reset_colour
+      - text: ".\n\n\nAfter obtaining the "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: map
+      - control:
+          kind: reset_colour
+      - text: ", you set off to defeat the two "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: gatehouses
+      - control:
+          kind: reset_colour
+      - text: ".\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: 1/2 Gatehouses Defeated
+  QL_HyruleCastleQuest_Step03:
+    contents:
+      - text: "Upon reaching "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: Hyrule Castle
+      - control:
+          kind: reset_colour
+      - text: ",\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Zelda
+      - control:
+          kind: reset_colour
+      - text: " informed you that in order\nto even get close to "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Calamity Ganon
+      - control:
+          kind: reset_colour
+      - text: " you\nwould first have to defeat both "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: gatehouses
+      - control:
+          kind: reset_colour
+      - text: " guarding\nthe "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: sanctum
+      - control:
+          kind: reset_colour
+      - text: ".\n\n\nAfter obtaining the "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: map
+      - control:
+          kind: reset_colour
+      - text: ", you set off to defeat the two "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: gatehouses
+      - control:
+          kind: reset_colour
+      - text: ".\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: 2/2 Gatehouses Defeated

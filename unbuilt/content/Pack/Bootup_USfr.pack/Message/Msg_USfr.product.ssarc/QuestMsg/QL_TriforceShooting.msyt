@@ -1,0 +1,48 @@
+---
+group_count: 3
+atr1_unknown: 4
+entries:
+  QL_TriforceShooting_Desc:
+    contents:
+      - text: "Une voix mystérieuse t'a fait une devinette à propos "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: "\nd'une flèche"
+      - control:
+          kind: reset_colour
+      - text: "volant à travers "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: le centre
+      - control:
+          kind: reset_colour
+      - text: "\ndu "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "Courage, de la Sagesse, et de la Force "
+      - control:
+          kind: reset_colour
+      - text: "\ndans le coeur du château.\n\nQu'est-ce que cela peut signifier ?"
+  QL_TriforceShooting_Finish:
+    contents:
+      - text: "Tu as tiré une flèche dans le centre "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "\nde la triforce"
+      - control:
+          kind: reset_colour
+      - text: " suspendue dans les premiers quartiers,\nte permettant d'obtenir"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: "l'Arc de Lumière"
+      - control:
+          kind: reset_colour
+      - text: "."
+  QL_TriforceShooting_Name:
+    contents:
+      - text: Une flèche volant tout droit

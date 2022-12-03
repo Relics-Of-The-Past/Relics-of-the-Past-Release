@@ -1,0 +1,27 @@
+---
+group_count: 4
+atr1_unknown: 4
+entries:
+  QL_RelicsLostWoodsTrial_Desc:
+    contents:
+      - text: "Une épreuve de force et de courage\nt'attend."
+  QL_RelicsLostWoodsTrial_Finish:
+    contents:
+      - text: "Après avoir surpassé les défis que\ntu as rencontrés, tu entres dans la forêt Korogu\nOù ton destin t'attend."
+  QL_RelicsLostWoodsTrial_Name:
+    contents:
+      - text: "Forêt Korogu: Purge des ténèbres"
+  QL_RelicsLostWoodsTrial_Step01:
+    contents:
+      - text: "L'épreuve ne fait que commencer,\ntu ressens une sensation familière,\ncomme si tu étais déjà venu. Avec le chemin\ndans la forêt libéré, tu te prépares.\n\nQu'est-ce qui t'attend dans les profondeurs ed la forêt?\nUne seule façon de le savoir.\n\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Tu dois trouver et éliminer 3 Boss.
+      - control:
+          kind: reset_colour
+      - text: "\n\n"
+      - control:
+          kind: set_colour
+          colour: red
+      - text: "Le Lynel. L'Octorok. Le Gardien."
