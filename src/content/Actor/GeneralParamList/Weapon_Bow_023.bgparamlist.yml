@@ -60,8 +60,8 @@ param_root: !list
       SharpWeaponAddCrit: false
       SharpWeaponAddGuardMin: 0
       SharpWeaponAddGuardMax: 0
-      PoweredSharpAddAtkMin: 11
-      PoweredSharpAddAtkMax: 18
+      PoweredSharpAddAtkMin: 14
+      PoweredSharpAddAtkMax: 27
       PoweredSharpAddLifeMin: 25
       PoweredSharpAddLifeMax: 60
       PoweredSharpWeaponAddGuardMin: 0
@@ -81,7 +81,7 @@ param_root: !list
       BaseAttackPowerRatio: 1.0
       IsLeadShot: false
       LeadShotNum: 0
-      LeadShotAng: 45.0
+      LeadShotAng: 0
       LeadShotInterval: 0
       IsRapidFire: false
       RapidFireNum: 0

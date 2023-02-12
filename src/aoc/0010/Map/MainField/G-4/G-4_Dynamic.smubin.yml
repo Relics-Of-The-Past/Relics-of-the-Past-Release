@@ -208,7 +208,7 @@ Objs:
   SRTHash: 0
   Translate: [1208.36719, 131.597656, -914.257812]
   UnitConfigName: EnvSeEmitPointInsectTemperate
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Food, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0x07167982
   Rotate: [3.12709928, -1.09780049, -3.12719941]
   SRTHash: 1768709708
@@ -788,7 +788,7 @@ Objs:
   Scale: 0.914062977
   Translate: [1917.90234, 123.222015, -344.445312]
   UnitConfigName: Obj_Plant_CypressLow_A_02
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Guardian, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0x1c2909ec
   Rotate: [0.0086452933, -0.054098431, 0.000377516]
   SRTHash: 1768709708
@@ -988,7 +988,7 @@ Objs:
   SRTHash: 1976065449
   Translate: [1725.43555, 118.128609, -90.982605]
   UnitConfigName: TBox_Field_Wood
-- '!Parameters': {DropActor: Weapon_Spear_047, EnableRevival: false, IsInGround: false, LevelSensorMode: 1, SharpWeaponJudgeType: 3}
+- '!Parameters': {DropActor: Weapon_Spear_026, EnableRevival: false, IsInGround: false, LevelSensorMode: 1, SharpWeaponJudgeType: 3}
   HashId: !u 0x27181481
   Rotate: [3.14093041, 0.156199247, 3.14120293]
   SRTHash: -1246106774
@@ -1518,7 +1518,7 @@ Objs:
   SRTHash: 0
   Translate: [1474.93359, 141.804688, -218.1875]
   UnitConfigName: Item_Mushroom_D
-- '!Parameters': {DropActor: PutRupee_Purple, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: PutRupee_Gold, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x3cc4c056
   Rotate: [3.13032937, -0.405021518, -3.13487744]
   SRTHash: 1680841227
@@ -2276,7 +2276,7 @@ Objs:
   SRTHash: -1147756641
   Translate: [1867.0896, 193.431473, -750.329346]
   UnitConfigName: Item_Mushroom_C
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: MoneyRelics, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0x5e0c0e91
   Rotate: [0.0123083377, 0.619354486, 0.00187557854]
   SRTHash: 1768709708
@@ -2684,7 +2684,7 @@ Objs:
   SRTHash: 2132562716
   Translate: [1525.42578, 115.37294, -157.453125]
   UnitConfigName: Item_Plant_H
-- '!Parameters': {DropActor: Obj_ArrowBundle_A_02, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Bow_023, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x6e0cf26b
   Rotate: [-4.68965627e-05, -1.02008474, 0.000148356063]
   SRTHash: -496834991
@@ -4805,7 +4805,7 @@ Objs:
   SRTHash: -1043925618
   Translate: [1841.3717, 192.736374, -829.169189]
   UnitConfigName: Obj_TreeBroadleafLow_Branch_A_01
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Food, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xc4d24270
   Rotate: [3.14155364, 0.165492639, 3.14077568]
   SRTHash: -1671722891
@@ -5117,7 +5117,7 @@ Objs:
   SRTHash: -1159322968
   Translate: [1084.87085, 164.98616, -219.708466]
   UnitConfigName: Obj_LiftRockWhite_Korok_A_01
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: RandoArrows, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xd0830972
   Rotate: [0.000746113015, 1.28111649, 0.000701520825]
   SRTHash: 1768709708
@@ -7037,4 +7037,27 @@ Objs:
   SRTHash: -494278694
   Translate: [1411.83313, 115.636482, -501.009979]
   UnitConfigName: Enemy_Lizalfos_Guard_Junior
+- '!Parameters':
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfff5f9dd
+  Rotate: -2.74000001
+  SRTHash: -1923163669
+  Translate: [1074.00989, 200.027542, -333.946289]
+  UnitConfigName: Enemy_Bokoblin_Junior
+- '!Parameters': {DropTable: RandoArrows, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0xfff5f9de
+  Rotate: [0.000746113015, 1.28111649, 0.000701520825]
+  SRTHash: 1768709708
+  Translate: [1413.06531, 117.712425, -483.229797]
+  UnitConfigName: Kibako_Contain_01
 Rails: []

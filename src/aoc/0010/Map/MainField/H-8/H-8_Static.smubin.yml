@@ -1546,7 +1546,7 @@ Objs:
   SRTHash: 463828571
   Translate: [2824.28101, 122.858643, 3365.18164]
   UnitConfigName: Item_Fruit_G
-- '!Parameters': {DropActor: Weapon_Bow_002, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Bow_023, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x24a1fbb2
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4c760eed}
@@ -10144,6 +10144,121 @@ Objs:
   SRTHash: -391644791
   Translate: [2103.96387, 96.1139832, 3922.08301]
   UnitConfigName: FldObj_ScaffoldWood_A_01
+- HashId: !u 0xfff95afd
+  SRTHash: 0
+  Translate: [2492.61084, 249.448975, 3581.68701]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95afe
+  SRTHash: 0
+  Translate: [2496.09155, 249.448975, 3577.37793]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95aff
+  SRTHash: 0
+  Translate: [2497.50342, 249.448975, 3577.07764]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b00
+  SRTHash: 0
+  Translate: [2496.87598, 249.448975, 3575.20703]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b01
+  SRTHash: 0
+  Translate: [2495.02563, 249.448975, 3575.54907]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b02
+  SRTHash: 0
+  Translate: [2493.19043, 249.448975, 3576.8584]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b03
+  SRTHash: 0
+  Translate: [2495.05664, 249.448975, 3578.91772]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b04
+  SRTHash: 0
+  Translate: [2494.5127, 249.448975, 3572.63208]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b05
+  SRTHash: 0
+  Translate: [2495.53955, 249.448975, 3572.6084]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b06
+  SRTHash: 0
+  Translate: [2492.76733, 249.448975, 3572.8584]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b07
+  SRTHash: 0
+  Translate: [2500.06226, 249.448975, 3574.31299]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b08
+  SRTHash: 0
+  Translate: [2499.07471, 249.448975, 3577.90625]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b09
+  SRTHash: 0
+  Translate: [2496.51099, 249.448975, 3578.63184]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b0a
+  SRTHash: 0
+  Translate: [2498.02832, 249.448975, 3579.88525]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b0b
+  SRTHash: 0
+  Translate: [2494.40063, 249.448975, 3580.23389]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b0c
+  SRTHash: 0
+  Translate: [2491.31885, 249.448975, 3578.92627]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b0d
+  SRTHash: 0
+  Translate: [2501.1582, 249.448975, 3577.91553]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b0e
+  SRTHash: 0
+  Translate: [2501.52222, 249.448975, 3575.01855]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b0f
+  SRTHash: 0
+  Translate: [2500.21875, 249.448975, 3579.93506]
+  UnitConfigName: Animal_Fish_F
+- HashId: !u 0xfff95b10
+  SRTHash: 0
+  Translate: [2496.26953, 249.448975, 3581.77515]
+  UnitConfigName: Animal_Fish_F
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: WM_BloodyDay, SaveFlagOnOffType: 0}
+  HashId: !u 0xfff95b12
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95afd}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95afe}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95aff}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b00}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b01}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b02}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b03}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b04}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b05}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b06}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b07}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b08}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b09}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b0a}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b0b}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b0c}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b0d}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b0e}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b0f}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b10}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff95b11}
+  SRTHash: 0
+  Translate: [2491.51514, 254.22226, 3577.92627]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropActor: Weapon_Shield_038, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+  HashId: !u 0xfff95b13
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4c760eed}
+  Rotate: [3.13680959, 1.33672547, 3.13303399]
+  SRTHash: 355490287
+  Translate: [2799.27173, 201.866165, 3191.91284]
+  UnitConfigName: TBox_Field_Wood
 Rails:
 - HashId: !u 0x180b25d3
   IsClosed: false

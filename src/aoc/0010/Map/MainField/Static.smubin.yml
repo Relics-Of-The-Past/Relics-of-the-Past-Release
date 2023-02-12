@@ -13190,6 +13190,11 @@ LocationMarker:
   Translate: {X: 4736.61816, Y: 227.000153, Z: 3771.5918}
   WarpDestMapName: MainField/J-8
   WarpDestPosName: StartPos_CDungeon097
+- Icon: Dungeon
+  MessageID: BloodmoonSpawn
+  Priority: 0
+  SaveFlag: Location_BloodmoonSpawns
+  Translate: {X: 338.600006, Y: 133.600006, Z: -268.200012}
 LocationPointer:
 - LocationPriority: 0
   MessageID: HeburaFossil
@@ -39103,7 +39108,7 @@ StartPos:
 - Map: D-6
   PlayerState: Wait
   PosName: NewGamePlus_Reload
-  Rotate: {X: 0.0, Y: 106.403893, Z: 0.0}
+  Rotate: {X: 0.0, Y: 145.0, Z: 0.0}
   Translate: {X: -1128.58801, Y: 237.39267, Z: 1912.87}
 - Map: E-4
   PosName: LynelFight_StartPoint

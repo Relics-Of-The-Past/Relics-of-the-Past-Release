@@ -39,23 +39,6 @@ Objs:
   SRTHash: -1494678706
   Translate: [2821.82764, 186.499374, 75.0076294]
   UnitConfigName: Obj_RockSetGray_A_L_01
-- '!Parameters':
-    HiddenKorokBodyColor: 3
-    HiddenKorokLeftPlantType: 1
-    HiddenKorokMaskType: 1
-    HiddenKorokRightPlantType: 2
-    IsAppearCheck: false
-    IsHiddenKorokLiftAppear: false
-    IsInvisibleKorok: false
-    KorokEventStartWaitFrame: 45
-    PlacementType: Ground
-    RailMoveSpeed: 0.100000001
-    TerritoryArea: 0.0
-  HashId: !u 0x0256acdb
-  Rotate: 1.06318545
-  SRTHash: 1257283389
-  Translate: [2132.42236, 321.115082, 678.848816]
-  UnitConfigName: Npc_HiddenKorokGround
 - HashId: !u 0x0269059b
   Rotate: [-0.445716769, -0.0546318144, 0.112213396]
   SRTHash: 190369869
@@ -346,20 +329,6 @@ Objs:
   SRTHash: 597658054
   Translate: [2623.94531, 261.234375, 371.0]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x0de69694
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x709590cc
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x975c2f6f
-  Rotate: -1.35999954
-  SRTHash: 2061510553
-  Scale: 2.0
-  Translate: [2470.0459, 240.289948, 467.631897]
-  UnitConfigName: LinkTagOr
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
   HashId: !u 0x0eab4208
   LinksToObj:
@@ -390,31 +359,6 @@ Objs:
   SRTHash: 40293516
   Translate: [2677.0542, 236.332642, 132.816864]
   UnitConfigName: FldObj_CliffGrayParts_A_08
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x0f7d4b31
-  LinksToObj:
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x98e25a18}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x3e9551ac
-  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0x6cad7e0b}
-  Rotate: -1.73999774
-  SRTHash: -812349416
-  Translate: [2891.12549, 236.503296, 517.328857]
-  UnitConfigName: LinkTagOr
-- '!Parameters':
-    EffectDIspOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-    EffectDispActorName: Item_Fruit_A
-    EffectDispSize: 1.0
-    IsNoResponceSound: true
-  HashId: !u 0x0fab1c63
-  LinksToObj:
-  - {DefinitionName: Reference, DestUnitHashId: !u 0x82816147}
-  Rotate: 1.06318545
-  SRTHash: 1197379402
-  Scale: 0.5
-  Translate: [2137.0249, 324.753571, 672.255615]
-  UnitConfigName: KorokAnswerResponce
 - '!Parameters': {DropActor: Item_Ore_B, DropTable: Normal, EnableRevival: false, IsHardModeActor: true, IsInGround: false,
     SharpWeaponJudgeType: 0}
   HashId: !u 0x0fdd3c20
@@ -467,20 +411,6 @@ Objs:
     DestUnitHashId: !u 0x65eebd63
   SRTHash: 0
   Translate: [2080.52686, 175.126541, 135.916748]
-  UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x10c92587
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0xad034949
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x342f29f8
-  Rotate: -1.35999954
-  SRTHash: -1526089213
-  Scale: 2.0
-  Translate: [2472.97949, 244.289948, 467.00415]
   UnitConfigName: LinkTagAnd
 - HashId: !u 0x116a55da
   Rotate: [2.76159239, -0.641592801, 3.14159274]
@@ -579,13 +509,6 @@ Objs:
   SRTHash: -2069811718
   Translate: [2769.94702, 124.216286, 348.84613]
   UnitConfigName: FldObj_KorokTarget_A_01
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0x151e706e
-  Rotate: 1.06318545
-  SRTHash: 641933382
-  Scale: 0.300000012
-  Translate: [2123.72778, 326.107117, 685.197266]
-  UnitConfigName: Area
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x158e7bf8
   LinksToObj:
@@ -623,19 +546,6 @@ Objs:
   SRTHash: -552311876
   Translate: [1988.24084, 285.273285, 920.689331]
   UnitConfigName: TwnObj_Village_SheikerCliff_A_02_Far
-- '!Parameters': {ActorName: Item_Fruit_A, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0x16184b11
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xecace4c5}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xeaa0923b
-  Rotate: 1.06318545
-  SRTHash: -1259010292
-  Scale: 1.5
-  Translate: [2130.1853, 325.299347, 684.285339]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0x169d2737
   Rotate: [2.00179505, -0.582326114, 3.14120984]
   SRTHash: 384411705
@@ -788,19 +698,6 @@ Objs:
   SRTHash: 1933942687
   Translate: [2145.19995, 264.981903, 794.329224]
   UnitConfigName: ActorObserverTag
-- '!Parameters': {ActorName: Obj_KorokPot_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0, TargetUniqueName: H51}
-  HashId: !u 0x1d3222c2
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xcad0a29a}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xa77c9d9a
-  Rotate: -1.35999954
-  SRTHash: -1382785325
-  Scale: 2.0
-  Translate: [2491.41431, 233.289948, 448.92691]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0x1d71367b
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xcd2ae1bd}
@@ -890,11 +787,6 @@ Objs:
   SRTHash: -1909826825
   Scale: 2.5
   Translate: [2753.73218, 347.806183, 919.724976]
-  UnitConfigName: Area
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0x224eeba8
-  SRTHash: 109621062
-  Translate: [2082.45703, 129.736237, 183.921448]
   UnitConfigName: Area
 - HashId: !u 0x22b3e370
   LinksToObj:
@@ -986,13 +878,6 @@ Objs:
   SRTHash: 1830881886
   Translate: [2951.94141, 289.323181, 124.267609]
   UnitConfigName: FldObj_RockZoraSet_A_05_Far
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0x26383ff8
-  Rotate: -1.35999954
-  SRTHash: 1263986787
-  Scale: 5.0
-  Translate: [2490.9873, 224.45401, 469.377441]
-  UnitConfigName: Area
 - HashId: !u 0x2666e387
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xff75f728}
@@ -1020,19 +905,6 @@ Objs:
   SRTHash: 998233205
   Translate: [2636.65918, 230.056519, 32.2881775]
   UnitConfigName: FldObj_CliffGrayParts_A_07
-- '!Parameters':
-    EffectDIspOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-    EffectDispActorName: Item_Fruit_A
-    EffectDispSize: 1.0
-    IsNoResponceSound: false
-  HashId: !u 0x26f85afb
-  LinksToObj:
-  - {DefinitionName: Reference, DestUnitHashId: !u 0x740f93d5}
-  Rotate: 1.06318545
-  SRTHash: 1562255467
-  Scale: 0.5
-  Translate: [2128.81055, 324.803955, 685.995117]
-  UnitConfigName: KorokAnswerResponce
 - '!Parameters': {IncrementSave: false, IsHardModeActor: true, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: AoC_HardMode_Enabled,
     SaveFlagOnOffType: 0}
   HashId: !u 0x27660a97
@@ -1175,16 +1047,6 @@ Objs:
   SRTHash: 0
   Translate: [2087.5, 198.815521, 124.000061]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x2c73e214
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0xb7d6ae7b
-  Rotate: -1.01840305
-  SRTHash: -939776961
-  Translate: [2086.05029, 132.288773, 182.088043]
-  UnitConfigName: LinkTagOr
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x2c9cfa2a
   Rotate: -0.779999912
@@ -1305,17 +1167,6 @@ Objs:
   SRTHash: 1825234782
   Translate: [2239.95215, 340.471466, 726.762268]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x31685838
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x76443846
-  Rotate: -1.35999954
-  SRTHash: -191931396
-  Scale: 2.0
-  Translate: [2479.82446, 235.289948, 465.53949]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0x319dce95
   Rotate: [0.0, 0.0, 0.5]
   SRTHash: 28225262
@@ -1346,20 +1197,6 @@ Objs:
   - {DefinitionName: Delete, DestUnitHashId: !u 0xe80ba815}
   SRTHash: 1907968185
   Translate: [2998.96924, 514.928284, 179.491882]
-  UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x342f29f8
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x57a6391a
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x73151d2d
-  Rotate: -1.35999954
-  SRTHash: 1632445530
-  Scale: 2.0
-  Translate: [2473.88892, 237.289948, 461.69635]
   UnitConfigName: LinkTagAnd
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x34300759
@@ -1476,21 +1313,6 @@ Objs:
   Scale: 135.0
   Translate: [2970.18433, 462.279938, 235.467285]
   UnitConfigName: Area
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x38837cb0
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x5d9a912a
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x46648ab3
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xa70a4e1e
-  SRTHash: 0
-  Translate: [2474.99976, 240.289948, 450.392975]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x38b0b5b3
   LinksToObj:
@@ -1595,17 +1417,6 @@ Objs:
   Scale: 0.5
   Translate: [2308.13354, 249.269608, 729.49762]
   UnitConfigName: SwitchTimeLag
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 15.0}
-  HashId: !u 0x3b178ceb
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x38837cb0
-  Rotate: [-1.57079637, -1.35999954, 0.0]
-  SRTHash: -1512917138
-  Scale: 0.5
-  Translate: [2474.99976, 240.289948, 450.392975]
-  UnitConfigName: SwitchTimeLimited
 - HashId: !u 0x3b8a93e1
   Rotate: [-2.70691824, 0.736274004, -2.48861647]
   SRTHash: 1611540259
@@ -1676,12 +1487,6 @@ Objs:
   SRTHash: -677322711
   Translate: [2097.40259, 210.657791, 135.500183]
   UnitConfigName: Enemy_AirOctarock
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0x3c98d273
-  Rotate: -1.35999954
-  SRTHash: -424679271
-  Translate: [2490.88037, 229.180573, 469.415833]
-  UnitConfigName: Area
 - HashId: !u 0x3cb570fe
   Rotate: [-0.332588732, -0.43644172, -0.254773557]
   SRTHash: 1650796797
@@ -1739,16 +1544,6 @@ Objs:
   SRTHash: 655146669
   Translate: [2247.25415, 157.675507, 35.4289246]
   UnitConfigName: Enemy_Moriblin_Middle
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x3e9551ac
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x6cad7e0b
-  Rotate: -1.73999774
-  SRTHash: 1553151816
-  Translate: [2890.94043, 236.503296, 518.413147]
-  UnitConfigName: LinkTagOr
 - HashId: !u 0x3ebf3d1d
   SRTHash: -1740114842
   Translate: [2763.9917, 327.487549, 847.119507]
@@ -1885,21 +1680,6 @@ Objs:
   Scale: 2.5
   Translate: [2706.85596, 343.15802, 906.827026]
   UnitConfigName: Area
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x441c0c91
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xabd2e1c3
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xb02cfa5a
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x51423ef7
-  SRTHash: 0
-  Translate: [2475.56274, 240.289948, 469.519287]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {ShelterFromRainTagType: 0}
   HashId: !u 0x442b0419
   LinksToObj:
@@ -1929,17 +1709,6 @@ Objs:
   SRTHash: -1970178094
   Translate: [2814.89551, 230.228989, 166.125244]
   UnitConfigName: Obj_TreeConiferous_A_03
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x46648ab3
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xa70a4e1e
-  Rotate: -1.35999954
-  SRTHash: 452738581
-  Scale: 2.0
-  Translate: [2474.5813, 240.289948, 448.437256]
-  UnitConfigName: LinkTagNOr
 - HashId: !u 0x4675239e
   Rotate: [-0.56038475, -0.259021372, -0.0370101184]
   SRTHash: -1894849279
@@ -1952,13 +1721,6 @@ Objs:
   SRTHash: 972116059
   Translate: [2964.62402, 212.867126, 20.8666382]
   UnitConfigName: FldObj_RockZoraCliff_A_04
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0x46e1b237
-  Rotate: 1.06318545
-  SRTHash: 1539229607
-  Scale: 0.300000012
-  Translate: [2129.55884, 326.825592, 678.169067]
-  UnitConfigName: Area
 - HashId: !u 0x471d0937
   Rotate: [2.49710131, -0.972499847, -2.91791344]
   SRTHash: -1202497386
@@ -2046,17 +1808,6 @@ Objs:
   Translate: [2770.5481, 231.310303, 151.736206]
   UnitConfigName: Obj_RockSetGray_A_L_01
 - '!Parameters':
-    EffectDIspOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-    EffectDispActorName: none
-    EffectDispSize: 1.0
-    IsNoResponceSound: false
-  HashId: !u 0x4a898a09
-  Rotate: -1.35999954
-  SRTHash: 206570551
-  Scale: 0.5
-  Translate: [2474.30737, 234.789948, 463.6521]
-  UnitConfigName: KorokAnswerResponce
-- '!Parameters':
     HiddenKorokBodyColor: 2
     HiddenKorokLeftPlantType: 0
     HiddenKorokMaskType: 5
@@ -2125,17 +1876,6 @@ Objs:
   SRTHash: 573826800
   Translate: [2743.28198, 216.110474, 544.580872]
   UnitConfigName: Obj_RockSetWhite_A_L_01_Far
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Capsule}
-  HashId: !u 0x4df0e91b
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x67b57dc0
-  Rotate: [-1.13999939, 8.63634213e-08, 1.57079613]
-  SRTHash: 833966612
-  Scale: [3.5782938, 1.67987585, 3.5782938]
-  Translate: [2469.35327, 230.477448, 462.790436]
-  UnitConfigName: Area
 - HashId: !u 0x4e60b73c
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x41a20307}
@@ -2218,28 +1958,6 @@ Objs:
   SRTHash: 1648929981
   Translate: [2423.03296, 215.328659, 465.250854]
   UnitConfigName: Obj_RockLayerMoss_A_Cliff_02
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x5134ed73
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x76443846
-  Rotate: -1.35999954
-  SRTHash: 171379564
-  Scale: 2.0
-  Translate: [2475.56274, 247.289948, 469.519287]
-  UnitConfigName: LinkTagNAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x51423ef7
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x482cd482
-  Rotate: -1.35999954
-  SRTHash: -1568219263
-  Scale: 2.0
-  Translate: [2477.1001, 241.289948, 467.145081]
-  UnitConfigName: LinkTagOr
 - '!Parameters': {IncrementSave: false, IsHardModeActor: true, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: AoC_HardMode_Enabled,
     SaveFlagOnOffType: 0}
   HashId: !u 0x514cb30f
@@ -2250,16 +1968,6 @@ Objs:
   SRTHash: 0
   Translate: [2814.81006, 183.550003, -13.0800171]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x5166880b
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x98340d4a
-  Rotate: 1.06318545
-  SRTHash: 541923043
-  Translate: [2127.95239, 327.593018, 688.299927]
-  UnitConfigName: LinkTagNAnd
 - HashId: !u 0x51b7279f
   Rotate: 2.63640141
   SRTHash: 968218481
@@ -2289,33 +1997,11 @@ Objs:
   SRTHash: 1744106757
   Translate: [2625.28174, 230.4151, 27.3406982]
   UnitConfigName: FldObj_CliffGrayParts_A_08_Far
-- '!Parameters': {ActorName: Obj_LiftRockEldin_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0x55d03958
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x224eeba8}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xcd734e48
-  SRTHash: -1085475964
-  Translate: [2081.45703, 131.336243, 183.921448]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0x56ca2f0a
   Rotate: [2.28159285, -0.28159228, 3.14159274]
   SRTHash: -1929315124
   Translate: [2403.46021, 153.263046, 289.462402]
   UnitConfigName: FldObj_CliffWhiteWall_A_01_Far
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 10.0}
-  HashId: !u 0x57a6391a
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xfdf00974
-  Rotate: [-1.57079637, -1.35999954, 0.0]
-  SRTHash: -307323863
-  Scale: 0.5
-  Translate: [2474.09814, 236.289948, 462.674225]
-  UnitConfigName: SwitchTimeLag
 - HashId: !u 0x57d10625
   Rotate: [2.43086576, -0.687519908, 3.12781382]
   SRTHash: 1164105985
@@ -2456,41 +2142,10 @@ Objs:
   Translate: [2087.0, 201.5, 123.0]
   UniqueName: Manager
   UnitConfigName: AirOcta_Tag
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x5b4b39a0
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x86dde025
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x61145f86
-  Rotate: -1.35999954
-  SRTHash: 1704373981
-  Scale: 2.0
-  Translate: [2472.41626, 242.289948, 447.877869]
-  UnitConfigName: LinkTagNAnd
 - HashId: !u 0x5b8917c6
   SRTHash: 0
   Translate: [2409.54688, 270.605255, 849.318909]
   UnitConfigName: LinkTagNone
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
-  HashId: !u 0x5bed30e4
-  LinksToObj:
-  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0xb7d6ae7b}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x2c73e214
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x224eeba8}
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0xbaed9cb8
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x11a1a5cf}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xe5c3ee5c}
-  Rotate: -1.01840305
-  SRTHash: 1825234782
-  Translate: [2085.52515, 132.288773, 181.23703]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {IsStopWithoutReductionY: false, Shape: Sphere, Sound: MusicianSpotBgm, SpotBgmLifeScaleMargin: 0.0}
   HashId: !u 0x5c00d280
   SRTHash: -705479293
@@ -2532,17 +2187,6 @@ Objs:
   Scale: 0.800000012
   Translate: [2293.01538, 338.148865, 976.437378]
   UnitConfigName: FldObj_CliffWhiteWall_A_05
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x5d9a912a
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x86dde025
-  Rotate: -1.35999954
-  SRTHash: -1214537774
-  Scale: 2.0
-  Translate: [2473.04395, 240.289948, 450.811462]
-  UnitConfigName: LinkTagNAnd
 - HashId: !u 0x5e2ca705
   Rotate: -2.16000032
   SRTHash: -2046777688
@@ -2676,17 +2320,6 @@ Objs:
   SRTHash: -32406360
   Translate: [2005.93433, 285.311371, 953.452515]
   UnitConfigName: TwnObj_Village_SheikerCliff_A_02
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x61145f86
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0xbe64a46b
-  Rotate: -1.35999954
-  SRTHash: 393555955
-  Scale: 2.0
-  Translate: [2472.20703, 240.289948, 446.899994]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x61156351
   Rotate: [0.413689435, -1.09027696, -0.217692792]
   SRTHash: -1592494513
@@ -2747,19 +2380,6 @@ Objs:
   SRTHash: 666853851
   Translate: [2019.19238, 284.316101, 887.606934]
   UnitConfigName: TwnObj_Village_SheikerCliff_A_01_Far
-- '!Parameters': {ActorName: Item_Fruit_A, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0x6280a29e
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x151e706e}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x5166880b
-  Rotate: 1.06318545
-  SRTHash: -1963264022
-  Scale: 1.5
-  Translate: [2127.95239, 325.807159, 688.299866]
-  UnitConfigName: ActorObserverTag
 - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x62c47652
   LinksToObj:
@@ -2819,35 +2439,10 @@ Objs:
   SRTHash: 0
   Translate: [2088.53052, 175.157791, 133.053955]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {ActorName: Item_Fruit_A, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0x678aef1f
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xfc2fa370}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xcac3c464
-  Rotate: 1.06318545
-  SRTHash: -1024522131
-  Scale: 1.5
-  Translate: [2129.65747, 327.807159, 685.234375]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0x6798e4c3
   SRTHash: 808247530
   Translate: [2434.3999, 254.002441, 1020.40002]
   UnitConfigName: DragonDropItemTarget
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x67b57dc0
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x0de69694
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xfbaee67d
-  SRTHash: 0
-  Translate: [2469.35327, 230.477448, 462.790436]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x68aef558
   Rotate: [-1.73083234, 0.106143966, -0.419150591]
   SRTHash: 259582692
@@ -2908,23 +2503,6 @@ Objs:
   SRTHash: 2108610555
   Translate: [2763.01611, 232.109039, 125.533691]
   UnitConfigName: FldObj_CliffGrayParts_A_07_Far
-- '!Parameters':
-    HiddenKorokBodyColor: 2
-    HiddenKorokLeftPlantType: 0
-    HiddenKorokMaskType: 0
-    HiddenKorokRightPlantType: 0
-    IsAppearCheck: true
-    IsHiddenKorokLiftAppear: false
-    IsInvisibleKorok: false
-    KorokEventStartWaitFrame: 0
-    PlacementType: Air
-    RailMoveSpeed: 0.100000001
-    TerritoryArea: 0.0
-  HashId: !u 0x6cad7e0b
-  Rotate: -1.73999774
-  SRTHash: 1388527781
-  Translate: [2891.03296, 234.159531, 517.870972]
-  UnitConfigName: Npc_HiddenKorokFly
 - HashId: !u 0x6d4f2922
   SRTHash: 2110415278
   Translate: [2499.02075, 204.437607, 690.266968]
@@ -3020,20 +2598,6 @@ Objs:
   Translate: [2680.177, 211.153458, 549.542664]
   UnitConfigName: Obj_RockSetWhite_A_L_01_Far
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x709590cc
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x0de69694
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xb02cfa5a
-  Rotate: -1.35999954
-  SRTHash: 1387498763
-  Scale: 2.0
-  Translate: [2473.18872, 240.289948, 467.982025]
-  UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x70d845b4
   LinksToObj:
   - '!Parameters': {NoAutoDemoMember: false}
@@ -3056,16 +2620,6 @@ Objs:
   SRTHash: 0
   Translate: [2081.7688, 200.126541, 126.746887]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x7105de54
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x98340d4a
-  Rotate: 1.06318545
-  SRTHash: -61378564
-  Translate: [2131.15747, 325.936768, 682.537537]
-  UnitConfigName: LinkTagNAnd
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x7166f90b
   LinksToObj:
@@ -3113,15 +2667,6 @@ Objs:
   SRTHash: 1466222709
   Translate: [2856.18408, 186.345367, 89.5545044]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x725cff75
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xaff360d8
-  SRTHash: 1040823728
-  Translate: [2086.22754, 133.358261, 180.308258]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {ActorName: FldObj_PushRock_A_M_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
     IsSendMessage: false, IsStopFromStopTimer: 0}
   HashId: !u 0x728af147
@@ -3158,16 +2703,6 @@ Objs:
   SRTHash: 1069580137
   Translate: [2860.5, 166.5, 27.5]
   UnitConfigName: Obj_RockSetGray_A_L_01
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x73151d2d
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x9c47abcc
-  Rotate: -1.35999954
-  SRTHash: -939776961
-  Translate: [2473.9939, 233.969635, 462.185242]
-  UnitConfigName: LinkTagOr
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x731cb76c
   LinksToObj:
@@ -3304,17 +2839,6 @@ Objs:
   Translate: [2364.06714, 214.263962, 510.629913]
   UnitConfigName: FldObj_CliffWhite_A_03_Far
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x76443846
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xcd5ffc02
-  Rotate: -1.35999954
-  SRTHash: -1337267233
-  Scale: 2.0
-  Translate: [2475.56274, 244.289948, 469.519287]
-  UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x764a91dd
   LinksToObj:
   - '!Parameters': {NoAutoDemoMember: false}
@@ -3355,19 +2879,6 @@ Objs:
   SRTHash: -1983182621
   Translate: [2370.62329, 246.156494, 833.265869]
   UnitConfigName: FldObj_CliffWhiteLumpRock_A_01
-- '!Parameters': {ActorName: Item_Fruit_A, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0x7835ce93
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xe096b983}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xec3b1291
-  Rotate: 1.06318545
-  SRTHash: -1361565154
-  Scale: 1.5
-  Translate: [2136.57666, 326.412964, 672.7948]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0x7838e9ea
   Rotate: [2.723104, -0.878291965, -3.11719966]
   SRTHash: 31901222
@@ -3453,19 +2964,6 @@ Objs:
   SRTHash: 0
   Translate: [2082.96191, 186.126556, 117.90921]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {ActorName: Obj_KorokPot_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0, TargetUniqueName: H51}
-  HashId: !u 0x7aea441f
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x26383ff8}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xc72028d1
-  Rotate: -1.35999954
-  SRTHash: -838557568
-  Scale: 2.0
-  Translate: [2479.26123, 230.289948, 446.413208]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0x7b150a2e
   Rotate: [-0.246009946, -0.463075161, -0.361821383]
   SRTHash: -348174230
@@ -3607,17 +3105,6 @@ Objs:
   SRTHash: 922797972
   Translate: [2594.09375, 234.625, 444.804688]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x800c48af
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x3b178ceb
-  Rotate: -1.35999954
-  SRTHash: -1337267233
-  Scale: 2.0
-  Translate: [2474.99976, 244.289948, 450.392975]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x8138cca8
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x178f7a42}
@@ -3741,20 +3228,6 @@ Objs:
   Translate: [2005.43799, 285.281158, 910.720215]
   UnitConfigName: TwnObj_Village_SheikerCliff_A_02
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x86dde025
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xfbaee67d
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x46648ab3
-  Rotate: -1.35999954
-  SRTHash: 1387498763
-  Scale: 2.0
-  Translate: [2472.62549, 240.289948, 448.855743]
-  UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x871be1d6
   LinksToObj:
   - '!Parameters': {AppearFade: false}
@@ -3777,24 +3250,6 @@ Objs:
   SRTHash: 1471912643
   Translate: [2704.20215, 214.850464, 601.714294]
   UnitConfigName: Obj_RockSetWhite_A_L_01_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x88ae23e5
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0xa9dc17d7
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x0fab1c63
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x26f85afb
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x99f3e0b4
-  SRTHash: 0
-  Translate: [2136.29321, 329.764557, 678.714355]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x88ea83a8
   SRTHash: 1756430974
   Translate: [2442.68579, 231.160568, 660.385315]
@@ -3909,19 +3364,6 @@ Objs:
   SRTHash: -773895694
   Translate: [2934.2019, 276.697327, 823.534058]
   UnitConfigName: DragonDropItemTarget
-- '!Parameters': {ActorName: Obj_KorokPot_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0, TargetUniqueName: H52}
-  HashId: !u 0x8ca234f6
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xd0704f11}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x31685838
-  Rotate: -1.35999954
-  SRTHash: -838557568
-  Scale: 2.0
-  Translate: [2479.82446, 230.289948, 465.53949]
-  UnitConfigName: ActorObserverTag
 - '!Parameters': {IncrementSave: false, IsHardModeActor: true, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: AoC_HardMode_Enabled,
     SaveFlagOnOffType: 0}
   HashId: !u 0x8cda6a8a
@@ -3963,13 +3405,6 @@ Objs:
   SRTHash: 1465962891
   Translate: [2860.97363, 177.65921, 39.0032883]
   UnitConfigName: TBox_Field_Iron
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0x8dbd077e
-  Rotate: 1.06318545
-  SRTHash: 1922205432
-  Scale: 0.300000012
-  Translate: [2124.91772, 324.849304, 681.884644]
-  UnitConfigName: Area
 - '!Parameters': {ActorName: FldObj_KorokStoneLift_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
     IsSendMessage: false, IsStopFromStopTimer: 0}
   HashId: !u 0x8e0baad5
@@ -4008,42 +3443,6 @@ Objs:
   SRTHash: 998233205
   Translate: [2636.65918, 230.056519, 32.2881775]
   UnitConfigName: FldObj_CliffGrayParts_A_07_Far
-- '!Parameters': {ActorName: Item_Fruit_A, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0x8ebb3c01
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x98340d4a
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xf925eef1}
-  Rotate: 1.06318545
-  SRTHash: -1361565154
-  Scale: 1.5
-  Translate: [2128.79907, 326.463348, 686.777344]
-  UnitConfigName: ActorObserverTag
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 10.0}
-  HashId: !u 0x8feb27ab
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x88ae23e5
-  Rotate: [-1.57079637, 1.06318545, 0.0]
-  SRTHash: -1172490107
-  Scale: 0.5
-  Translate: [2136.29321, 329.764557, 678.714355]
-  UnitConfigName: SwitchTimeLag
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x90034b8e
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0xe5c3ee5c
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x2c73e214
-  SRTHash: 0
-  Translate: [2087.14185, 134.36615, 181.442017]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0x90537291
   Rotate: -0.300000042
   SRTHash: 2016429213
@@ -4284,17 +3683,6 @@ Objs:
   Translate: [2103.5, 212.0, 131.0]
   UnitConfigName: LinkTagAnd
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x975c2f6f
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x482cd482
-  Rotate: -1.35999954
-  SRTHash: 393555955
-  Scale: 2.0
-  Translate: [2472.77026, 240.289948, 466.026306]
-  UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x977fc036
   LinksToObj:
   - '!Parameters': {AppearFade: false}
@@ -4339,16 +3727,6 @@ Objs:
   SRTHash: 632500069
   Translate: [2086.5, 199.0, 122.0]
   UnitConfigName: Enemy_Lizalfos_Guard_Junior_LongVisibility
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x98340d4a
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xec3b1291
-  Rotate: 1.06318545
-  SRTHash: 1416029631
-  Translate: [2124.44092, 332.303955, 683.564697]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {ActorName: FldObj_KorokStoneLift_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
     IsSendMessage: false, IsStopFromStopTimer: 0}
   HashId: !u 0x98849b9e
@@ -4361,17 +3739,6 @@ Objs:
   SRTHash: 590981507
   Translate: [2924.10376, 294.90683, 330.55603]
   UnitConfigName: ActorObserverTag
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0x98e25a18
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x3e9551ac
-  Rotate: -1.73999774
-  SRTHash: 231680722
-  Scale: 15.0
-  Translate: [2889.79102, 232.409424, 518.891846]
-  UnitConfigName: Area
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
   HashId: !u 0x98e72fd2
   LinksToObj:
@@ -4399,22 +3766,6 @@ Objs:
   SRTHash: 414144033
   Translate: [2561.81226, 174.491547, 345.731445]
   UnitConfigName: FldObj_CliffWhiteWall_A_01
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
-  HashId: !u 0x9993c04f
-  LinksToObj:
-  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0x9c47abcc}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x73151d2d
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x4a898a09}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x4df0e91b}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xd0704f11}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x26383ff8}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xef6535e9}
-  Rotate: -1.35999954
-  SRTHash: 1825234782
-  Translate: [2473.78418, 233.969635, 461.207458]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
   HashId: !u 0x99bddd9c
   Rotate: 0.57620573
@@ -4422,16 +3773,6 @@ Objs:
   Scale: 50.0
   Translate: [2428.03979, 216.40892, 520.269043]
   UnitConfigName: Area
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0x99f3e0b4
-  LinksToObj:
-  - '!Parameters': {AppearFade: false}
-    DefinitionName: Create
-    DestUnitHashId: !u 0x0256acdb
-  Rotate: 1.06318545
-  SRTHash: -939776961
-  Translate: [2132.66504, 323.615082, 678.411743]
-  UnitConfigName: LinkTagOr
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x9b323635
   LinksToObj:
@@ -4464,23 +3805,6 @@ Objs:
   SRTHash: 0
   Translate: [2819.0, 185.100616, 43.5]
   UnitConfigName: LinkTagAnd
-- '!Parameters':
-    HiddenKorokBodyColor: 0
-    HiddenKorokLeftPlantType: 0
-    HiddenKorokMaskType: 3
-    HiddenKorokRightPlantType: 0
-    IsAppearCheck: false
-    IsHiddenKorokLiftAppear: false
-    IsInvisibleKorok: false
-    KorokEventStartWaitFrame: 55
-    PlacementType: Air
-    RailMoveSpeed: 0.100000001
-    TerritoryArea: 0.0
-  HashId: !u 0x9c47abcc
-  Rotate: -1.35999954
-  SRTHash: 1257283389
-  Translate: [2473.88892, 231.469635, 461.69635]
-  UnitConfigName: Npc_HiddenKorokFly
 - HashId: !u 0x9c80e99f
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x4675239e}
@@ -4703,17 +4027,6 @@ Objs:
   SRTHash: 529780574
   Translate: [2551.13867, 303.061951, 875.446655]
   UnitConfigName: FldObj_CliffWhiteLumpRock_A_01
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xa70a4e1e
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xbe64a46b
-  Rotate: -1.35999954
-  SRTHash: -1568219263
-  Scale: 2.0
-  Translate: [2476.53687, 241.289948, 448.018768]
-  UnitConfigName: LinkTagOr
 - '!Parameters': {IncrementSave: false, IsHardModeActor: true, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: AoC_HardMode_Enabled,
     SaveFlagOnOffType: 0}
   HashId: !u 0xa70f37f2
@@ -4744,17 +4057,6 @@ Objs:
   Scale: 2.0
   Translate: [2414.23584, 267.769318, 850.928101]
   UnitConfigName: ActorObserverTag
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xa77c9d9a
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x800c48af
-  Rotate: -1.35999954
-  SRTHash: 171379564
-  Scale: 2.0
-  Translate: [2474.99976, 247.289948, 450.392975]
-  UnitConfigName: LinkTagNAnd
 - '!Parameters': {IncrementSave: true, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Location_LanayruWestEntrance, SaveFlagOnOffType: 0}
   HashId: !u 0xa7805557
   SRTHash: 0
@@ -4780,19 +4082,6 @@ Objs:
   SRTHash: -1572379477
   Translate: [2653.99976, 215.014557, 75.3574829]
   UnitConfigName: FldObj_CliffGrayParts_A_05_Far
-- '!Parameters':
-    EffectDIspOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-    EffectDispActorName: Item_Fruit_A
-    EffectDispSize: 1.0
-    IsNoResponceSound: true
-  HashId: !u 0xa9dc17d7
-  LinksToObj:
-  - {DefinitionName: Reference, DestUnitHashId: !u 0x24f66af3}
-  Rotate: 1.06318545
-  SRTHash: 1197379402
-  Scale: 0.5
-  Translate: [2133.13599, 324.86618, 679.246887]
-  UnitConfigName: KorokAnswerResponce
 - HashId: !u 0xaa01b278
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x45c97f4b}
@@ -4858,17 +4147,6 @@ Objs:
   SRTHash: 0
   Translate: [2103.0, 209.388916, 132.0]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xabd2e1c3
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x709590cc
-  Rotate: -1.35999954
-  SRTHash: -1214537774
-  Scale: 2.0
-  Translate: [2473.60718, 240.289948, 469.937744]
-  UnitConfigName: LinkTagNAnd
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xabfc2d70
   LinksToObj:
@@ -4883,20 +4161,6 @@ Objs:
   Scale: 1.20000005
   Translate: [2820.15234, 205.048828, 565.911072]
   UnitConfigName: FldObj_CliffWhiteParts_A_03_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xad034949
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x709590cc
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x975c2f6f
-  Rotate: -1.35999954
-  SRTHash: 1704373981
-  Scale: 2.0
-  Translate: [2472.97949, 242.289948, 467.00415]
-  UnitConfigName: LinkTagNAnd
 - HashId: !u 0xad4ce933
   Rotate: [-0.531920254, -0.317433059, 0.37781778]
   SRTHash: 1922206929
@@ -5068,17 +4332,6 @@ Objs:
   SRTHash: -1588260575
   Translate: [2818.92798, 184.676559, -8.00650024]
   UnitConfigName: Enemy_AirOctarock
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
-  HashId: !u 0xaff360d8
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x90034b8e
-  Rotate: [-1.57079637, 0.0, 0.0]
-  SRTHash: -1573138490
-  Scale: 0.5
-  Translate: [2087.14185, 134.36615, 181.442017]
-  UnitConfigName: SwitchTimeLag
 - HashId: !u 0xaff95b36
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x4c1df845}
@@ -5087,17 +4340,6 @@ Objs:
   Scale: 1.10000002
   Translate: [2758.44434, 220.543167, 9.52941895]
   UnitConfigName: FldObj_CliffGrayParts_A_10
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xb02cfa5a
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x51423ef7
-  Rotate: -1.35999954
-  SRTHash: 452738581
-  Scale: 2.0
-  Translate: [2475.14429, 240.289948, 467.563538]
-  UnitConfigName: LinkTagNOr
 - '!Parameters': {IsHardModeActor: true}
   HashId: !u 0xb0372346
   SRTHash: 0
@@ -5313,23 +4555,6 @@ Objs:
   Scale: 0.5
   Translate: [2725.59546, 347.60144, 919.612976]
   UnitConfigName: SwitchTimeLag
-- '!Parameters':
-    HiddenKorokBodyColor: 3
-    HiddenKorokLeftPlantType: 0
-    HiddenKorokMaskType: 4
-    HiddenKorokRightPlantType: 1
-    IsAppearCheck: false
-    IsHiddenKorokLiftAppear: false
-    IsInvisibleKorok: false
-    KorokEventStartWaitFrame: 45
-    PlacementType: Ground
-    RailMoveSpeed: 0.100000001
-    TerritoryArea: 0.0
-  HashId: !u 0xb7d6ae7b
-  Rotate: -1.01840305
-  SRTHash: 1257283389
-  Translate: [2085.7876, 129.788773, 181.662567]
-  UnitConfigName: Npc_HiddenKorokGround
 - '!Parameters': {EventFlowEntryName: EntryPoint0, EventFlowName: Animal_Forest, IsEndlessEvent: false, LaunchEventByOffSignal: false,
     LaunchEventByOnSignal: true}
   HashId: !u 0xb8ec4dd2
@@ -5360,17 +4585,6 @@ Objs:
   SRTHash: -10055060
   Translate: [2958.76489, 224.620728, 750.241516]
   UnitConfigName: FldObj_CliffWhiteWall_A_01
-- '!Parameters': {ActorName: Obj_LiftRockWhite_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0xb9eba7c7
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x224eeba8}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xcd734e48
-  SRTHash: 242113791
-  Translate: [2083.45703, 131.336243, 183.921448]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0xbaed9cb8
   SRTHash: -362586482
   Translate: [2082.45703, 129.136246, 183.921448]
@@ -5475,17 +4689,6 @@ Objs:
   SRTHash: -705459153
   Translate: [2341.86255, 275.134216, 790.506592]
   UnitConfigName: FldObj_CliffWhiteWall_A_02_Far
-- '!Parameters': {CrayLaunchSpeed: 180.0, DropTable: Normal, IsCrayShot: true, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
-  HashId: !u 0xbe64a46b
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0xe681556e
-  Rotate: [1.47561812, -0.950017273, -1.52494133]
-  SRTHash: -1424845800
-  Translate: [2490.36816, 232.289948, 444.037598]
-  UniqueName: H51
-  UnitConfigName: Obj_KorokPot_A_01
 - HashId: !u 0xbeca345a
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x3cb570fe}
@@ -5757,17 +4960,6 @@ Objs:
   Translate: [2802.12939, 190.891861, 61.2304993]
   UnitConfigName: FldObj_CliffGrayParts_A_04
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xc72028d1
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x800c48af
-  Rotate: -1.35999954
-  SRTHash: -191931396
-  Scale: 2.0
-  Translate: [2479.26123, 235.289948, 446.413208]
-  UnitConfigName: LinkTagOr
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0xc7242a81
   LinksToObj:
   - '!Parameters': {NoAutoDemoMember: false}
@@ -5891,22 +5083,6 @@ Objs:
   SRTHash: 1257283389
   Translate: [2769.94702, 123.216286, 348.84613]
   UnitConfigName: Npc_HiddenKorokFly
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xcac3c464
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x98340d4a
-  Rotate: 1.06318545
-  SRTHash: 674558454
-  Translate: [2129.65747, 328.85083, 685.234375]
-  UnitConfigName: LinkTagNAnd
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0xcad0a29a
-  Rotate: -1.35999954
-  SRTHash: -424679271
-  Translate: [2490.36816, 232.289948, 444.037598]
-  UnitConfigName: Area
 - HashId: !u 0xcb31805e
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x2553e3aa}
@@ -5960,31 +5136,11 @@ Objs:
   SRTHash: 910795041
   Translate: [2724.79834, 209.453705, 601.665344]
   UnitConfigName: FldObj_CliffWhiteWaterFall_A_01_Far
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 15.0}
-  HashId: !u 0xcd5ffc02
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x441c0c91
-  Rotate: [-1.57079637, -1.35999954, 0.0]
-  SRTHash: -1512917138
-  Scale: 0.5
-  Translate: [2475.56274, 240.289948, 469.519287]
-  UnitConfigName: SwitchTimeLimited
 - HashId: !u 0xcd65a239
   Rotate: [2.25239301, 0.643678844, -3.11285925]
   SRTHash: -532805268
   Translate: [2802.12939, 190.891861, 61.2304993]
   UnitConfigName: FldObj_CliffGrayParts_A_04_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xcd734e48
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x725cff75
-  SRTHash: -1034123843
-  Translate: [2082.45703, 132.336243, 183.921448]
-  UnitConfigName: LinkTagOr
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Capsule}
   HashId: !u 0xcd96bd51
   Rotate: [2.18166161, 3.58062699e-08, 1.57079637]
@@ -6025,17 +5181,6 @@ Objs:
   SRTHash: 1825234782
   Translate: [2288.0271, 253.297897, 699.602295]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {ActorName: Obj_LiftRockGerudo_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0xce757537
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x224eeba8}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xcd734e48
-  SRTHash: -1924470694
-  Translate: [2082.45703, 131.336243, 183.921448]
-  UnitConfigName: ActorObserverTag
 - '!Parameters': {DropTable: Normal, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xcea31749
   LinksToObj:
@@ -6088,13 +5233,6 @@ Objs:
   SRTHash: 1770090788
   Translate: [1982.11047, 284.139404, 971.49884]
   UnitConfigName: TwnObj_Village_SheikerCliff_A_02_Far
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0xd0704f11
-  Rotate: -1.35999954
-  SRTHash: 1263986787
-  Scale: 5.0
-  Translate: [2490.34717, 227.696198, 444.021332]
-  UnitConfigName: Area
 - '!Parameters':
     EffectDIspOffset: {X: 0.0, Y: 0.0, Z: 0.0}
     EffectDispActorName: Obj_KorokPlate_A_01
@@ -6340,19 +5478,6 @@ Objs:
   SRTHash: -1395868335
   Translate: [3001.08911, 175.277832, 565.418823]
   UnitConfigName: FldObj_CliffWhite_A_S_01
-- '!Parameters': {ActorName: Item_Fruit_A, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0xde42c527
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x46e1b237}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0xec3b1291
-  Rotate: 1.06318545
-  SRTHash: -1361565154
-  Scale: 1.5
-  Translate: [2132.68774, 326.525574, 679.786072]
-  UnitConfigName: ActorObserverTag
 - '!Parameters': {DropTable: Normal, InitBurnState: false, IsDrop: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xdeeb6e0d
   LinksToObj:
@@ -6409,13 +5534,6 @@ Objs:
   SRTHash: 255467045
   Translate: [2589.6521, 232.88385, 352.874481]
   UnitConfigName: Item_Fruit_A
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0xe096b983
-  Rotate: 1.06318545
-  SRTHash: 1539229607
-  Scale: 0.300000012
-  Translate: [2133.44775, 326.712982, 671.177856]
-  UnitConfigName: Area
 - HashId: !u 0xe0c43758
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x0af551e8}
@@ -6526,17 +5644,6 @@ Objs:
   Scale: 2.5
   Translate: [2741.79663, 344.544067, 897.778198]
   UnitConfigName: Area
-- '!Parameters':
-    EffectDIspOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-    EffectDispActorName: DesignerLocaterKorokRock
-    EffectDispSize: 1.5
-    IsNoResponceSound: false
-  HashId: !u 0xe5c3ee5c
-  LinksToObj:
-  - {DefinitionName: Reference, DestUnitHashId: !u 0xbaed9cb8}
-  SRTHash: 1835260255
-  Translate: [2080.65527, 132.348114, 178.662567]
-  UnitConfigName: KorokAnswerResponce
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
   HashId: !u 0xe5d9de1d
   LinksToObj:
@@ -6564,20 +5671,6 @@ Objs:
   SRTHash: 1257283389
   Translate: [2378.29004, 231.616302, 373.14679]
   UnitConfigName: Npc_HiddenKorokGround
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xe681556e
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x5b4b39a0
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x342f29f8
-  Rotate: -1.35999954
-  SRTHash: -1526089213
-  Scale: 2.0
-  Translate: [2472.41626, 244.289948, 447.877869]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0xe72d420f
   Rotate: [-2.6047709, -1.38931179, 2.19228005]
   SRTHash: 471575983
@@ -6760,16 +5853,6 @@ Objs:
   Scale: 1.20000005
   Translate: [2330.11328, 188.329773, 353.094238]
   UnitConfigName: FldObj_CliffWhiteWall_A_05_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xeaa0923b
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x98340d4a
-  Rotate: 1.06318545
-  SRTHash: 458585121
-  Translate: [2130.1853, 326.522705, 684.2854]
-  UnitConfigName: LinkTagNAnd
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xeadd3e03
   LinksToObj:
@@ -6789,41 +5872,11 @@ Objs:
   Scale: 0.899999976
   Translate: [2108.23145, 298.066711, 588.299072]
   UnitConfigName: FldObj_CliffWhiteWall_A_02
-- '!Parameters': {ActorName: Obj_KorokPot_A_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0, TargetUniqueName: H52}
-  HashId: !u 0xeb7a522b
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x3c98d273}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x5134ed73
-  Rotate: -1.35999954
-  SRTHash: -1382785325
-  Scale: 2.0
-  Translate: [2491.92651, 230.180573, 474.305176]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0xec0c7b15
   Rotate: [2.95439148, 0.265591472, 2.77307177]
   SRTHash: 1211477625
   Translate: [2803.19385, 189.09436, 32.1913147]
   UnitConfigName: FldObj_CliffGrayParts_A_10_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xec3b1291
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x8feb27ab
-  Rotate: 1.06318545
-  SRTHash: -625641231
-  Translate: [2136.29321, 331.764557, 678.714355]
-  UnitConfigName: LinkTagAnd
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0xecace4c5
-  Rotate: 1.06318545
-  SRTHash: -1792234748
-  Scale: 0.300000012
-  Translate: [2124.0625, 325.599304, 682.496094]
-  UnitConfigName: Area
 - '!Parameters': {ActorName: Animal_Deer_A, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
     IsSendMessage: false, IsStopFromStopTimer: 0}
   HashId: !u 0xecc6ceae
@@ -6835,34 +5888,6 @@ Objs:
   SRTHash: -1246904360
   Translate: [2592.0, 234.0, 451.0]
   UnitConfigName: ActorObserverTag
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
-  HashId: !u 0xee6d3244
-  LinksToObj:
-  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0x0256acdb}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x99f3e0b4
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x46e1b237}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xecace4c5}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x8dbd077e}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xfc2fa370}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xf925eef1}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x151e706e}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xe096b983}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x82816147}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x24f66af3}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x740f93d5}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xefaadfba}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x00977a5a}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x7709a8aa}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x9b323635}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xa9dc17d7}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x26f85afb}
-  - {DefinitionName: Delete, DestUnitHashId: !u 0x0fab1c63}
-  Rotate: 1.06318545
-  SRTHash: 1825234782
-  Translate: [2132.17944, 323.615082, 679.285889]
-  UnitConfigName: LinkTagAnd
 - HashId: !u 0xee87efaf
   Rotate: -0.860000014
   SRTHash: -1055480972
@@ -7090,13 +6115,6 @@ Objs:
   SRTHash: 1558804292
   Translate: [2791.26172, 199.662231, 195.363983]
   UnitConfigName: FldObj_CliffWhiteWall_A_01
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0xf925eef1
-  Rotate: 1.06318545
-  SRTHash: 1539229607
-  Scale: 0.300000012
-  Translate: [2125.67017, 326.763367, 685.1604]
-  UnitConfigName: Area
 - HashId: !u 0xf944c224
   SRTHash: 1426203813
   Translate: [2383.58789, 265.598206, 856.417725]
@@ -7113,19 +6131,6 @@ Objs:
   Scale: 0.100000001
   Translate: [2923.56152, 293.170074, 330.316833]
   UnitConfigName: Area
-- '!Parameters': {ActorName: Item_Fruit_A, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
-    IsSendMessage: false, IsStopFromStopTimer: 0}
-  HashId: !u 0xfa23d58e
-  LinksToObj:
-  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x8dbd077e}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x7105de54
-  Rotate: 1.06318545
-  SRTHash: -2003923497
-  Scale: 1.5
-  Translate: [2131.15747, 324.549347, 682.537537]
-  UnitConfigName: ActorObserverTag
 - HashId: !u 0xfa816bde
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x48fe5ba9}
@@ -7165,27 +6170,6 @@ Objs:
   SRTHash: 200772727
   Translate: [2789.66748, 222.919006, 639.391846]
   UnitConfigName: FldObj_CliffWhiteWall_A_02_Far
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xfbaee67d
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x86dde025
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x61145f86
-  Rotate: -1.35999954
-  SRTHash: 2061510553
-  Scale: 2.0
-  Translate: [2469.48267, 240.289948, 448.505585]
-  UnitConfigName: LinkTagOr
-- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
-  HashId: !u 0xfc2fa370
-  Rotate: 1.06318545
-  SRTHash: 1415828622
-  Scale: 0.300000012
-  Translate: [2126.71313, 328.107117, 684.828552]
-  UnitConfigName: Area
 - HashId: !u 0xfc80b7bb
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xb422a5c7}
@@ -7295,15 +6279,6 @@ Objs:
   SRTHash: 590981507
   Translate: [2145.90674, 264.981903, 794.313782]
   UnitConfigName: ActorObserverTag
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
-  HashId: !u 0xfdf00974
-  LinksToObj:
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0x4a898a09
-  SRTHash: 0
-  Translate: [2474.09814, 236.289948, 462.674225]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {ActorName: FldObj_PushRock_A_M_01, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false, IsMagneGrabbed: 0,
     IsSendMessage: false, IsStopFromStopTimer: 0}
   HashId: !u 0xfe02a25e
@@ -7534,7 +6509,7 @@ Objs:
     LevelSensorMode: 1
     NearCreateAppearID: 0
     RotAngle: 0.0
-    SharpWeaponJudgeType: 0
+    SharpWeaponJudgeType: 3
     TerritoryArea: 0.0
     WaitTime: 1.0
   HashId: !u 0xffc35307

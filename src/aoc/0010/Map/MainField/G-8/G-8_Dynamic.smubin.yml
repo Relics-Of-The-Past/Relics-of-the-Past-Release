@@ -478,7 +478,7 @@ Objs:
   SRTHash: -1837554557
   Translate: [1879.7793, 233.800018, 3145.0791]
   UnitConfigName: FldObj_RuinStonePillar_A_04
-- '!Parameters': {DropTable: Fruit1, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Food, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0x0ab82a04
   Rotate: [3.12989235, -1.44387782, -3.04595089]
   SRTHash: 1768709708
@@ -3052,7 +3052,7 @@ Objs:
   SRTHash: -1561190003
   Translate: [1700.61011, 190.632843, 3244.46729]
   UnitConfigName: Obj_Mineral_A_01
-- '!Parameters': {DropActor: Item_Ore_C, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Enemy_31, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x3aa2b72e
   Rotate: [0.0589301214, -1.31753886, -0.0623875707]
   SRTHash: 140034369
@@ -6525,7 +6525,7 @@ Objs:
   SRTHash: -1664362739
   Translate: [1116.82751, 149.305603, 3035.91431]
   UnitConfigName: Obj_TreeTropicalLow_A_01
-- '!Parameters': {DropTable: Fruit1, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Food, SharpWeaponJudgeType: 0}
   HashId: !u 0x7f164676
   Rotate: [-0.0256220363, -0.0803527161, 0.000580814725]
   SRTHash: 401516482
@@ -7543,7 +7543,7 @@ Objs:
   Scale: 0.800000012
   Translate: [1547.39087, 165.0, 3568.37524]
   UnitConfigName: FldObj_RuinStoneWall_A_05
-- '!Parameters': {DropTable: Fruit1, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Food, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0x911d666b
   Rotate: [-3.12170649, 0.123912454, -3.08140802]
   SRTHash: -1671722891
@@ -12068,7 +12068,7 @@ Objs:
   SRTHash: 216223693
   Translate: [1570.93372, 212.5, 3188.59155]
   UnitConfigName: FldObj_RuinStoneWall_A_05
-- '!Parameters': {DropActor: Item_Ore_C, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Ore_J, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xe8ddb213
   Rotate: [3.10460162, -0.221673504, 3.13870859]
   SRTHash: 1823544411
@@ -12774,7 +12774,7 @@ Objs:
     IsFixedPlace: false
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 1
+    LevelSensorMode: 0
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xf648c472
@@ -13385,7 +13385,7 @@ Objs:
   SRTHash: 564413069
   Translate: [1402.19617, 253.797791, 3233.14258]
   UnitConfigName: Enemy_Place_Holder_03
-- '!Parameters': {IsFixedPlace: true}
+- '!Parameters': {IsFixedPlace: true, ResetType: 0}
   HashId: !u 0xfff3bad1
   SRTHash: 0
   Translate: [1475.58948, 192.000153, 3263.53564]

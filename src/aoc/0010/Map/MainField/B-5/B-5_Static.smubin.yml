@@ -367,13 +367,6 @@ Objs:
   SRTHash: -1450457556
   Translate: [-3812.47559, 635.518127, 790.993652]
   UnitConfigName: FldObj_GerudoHighlandRock_A_03_Far
-- '!Parameters': {KorokFlowerColorNum: 5}
-  HashId: !u 0x17510bf6
-  Rotate: [0.00351916719, 0.261715919, 0.0490910001]
-  SRTHash: 1434250441
-  Scale: 1.04999983
-  Translate: [-3464.0144, 172.166199, 171.287933]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - HashId: !u 0x17c38d22
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x85601b30}
@@ -518,13 +511,6 @@ Objs:
   Scale: 0.969588935
   Translate: [-3608.18506, 572.036316, 787.563171]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_04
-- '!Parameters': {KorokFlowerColorNum: 0}
-  HashId: !u 0x202bc502
-  Rotate: [0.00344243064, 0.698022187, 0.0829913691]
-  SRTHash: -1396602169
-  Scale: 0.949999988
-  Translate: [-3455.43799, 172.696732, 169.527039]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - HashId: !u 0x202d2c43
   Rotate: -1.03266478
   SRTHash: -1659009109
@@ -643,13 +629,6 @@ Objs:
   SRTHash: 1160917275
   Translate: [-3497.54541, 685.928711, 1005.75952]
   UnitConfigName: Item_Fruit_B
-- '!Parameters': {KorokFlowerColorNum: 0}
-  HashId: !u 0x26b9116b
-  Rotate: [3.02256131, 1.21656609, 3.07249522]
-  SRTHash: -838960844
-  Scale: 0.929999948
-  Translate: [-3467.20532, 172.46904, 156.658936]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - HashId: !u 0x272f64ea
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xcc6c5f44}
@@ -1049,13 +1028,6 @@ Objs:
   Scale: 10.0
   Translate: [-3488.11035, 294.872559, 469.974121]
   UnitConfigName: Area
-- '!Parameters': {KorokFlowerColorNum: 0}
-  HashId: !u 0x3d047611
-  Rotate: [0.00273040636, -0.261905044, 0.0800719336]
-  SRTHash: 636630232
-  Scale: 1.04999983
-  Translate: [-3456.48462, 172.612534, 169.326935]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - HashId: !u 0x3d281cfb
   Rotate: [0.0639763176, -0.763405681, -0.322349936]
   SRTHash: 1333034977
@@ -1101,12 +1073,6 @@ Objs:
   SRTHash: 1688232085
   Translate: [-3945.625, 641.157227, 790.601318]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_04
-- '!Parameters': {KorokFlowerColorNum: 1}
-  HashId: !u 0x3e88f660
-  Rotate: 2.6431849
-  SRTHash: -653688078
-  Translate: [-3465.06909, 176.553558, 164.861389]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - HashId: !u 0x3f13154e
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xdea4275a}
@@ -1241,13 +1207,6 @@ Objs:
   SRTHash: -1990608112
   Translate: [-3413.36108, 303.992554, 561.0]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_10_Far
-- '!Parameters': {KorokFlowerColorNum: 0}
-  HashId: !u 0x46e5a420
-  Rotate: [0.236797825, 1.39429581, 0.275858909]
-  SRTHash: 412165984
-  Scale: 0.959999979
-  Translate: [-3467.78369, 172.415054, 157.36972]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0x46fc601c
   LinksToObj:
@@ -1625,12 +1584,6 @@ Objs:
   SRTHash: 866214781
   Translate: [-3527.54541, 660.748718, 952.604736]
   UnitConfigName: ConstraintDummy
-- '!Parameters': {KorokFlowerColorNum: 3}
-  HashId: !u 0x5d58c35a
-  Rotate: [0.00770854251, 1.22161436, 0.0880222693]
-  SRTHash: -1662068452
-  Translate: [-3455.93628, 172.658752, 168.626984]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - HashId: !u 0x5dbf88de
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x786b24d0}
@@ -2145,13 +2098,6 @@ Objs:
   SRTHash: -1465149218
   Translate: [-3798.70996, 379.53067, 341.929047]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_11
-- '!Parameters': {KorokFlowerColorNum: 0}
-  HashId: !u 0x770dbebd
-  Rotate: [0.00361759728, -0.349145621, 0.046942886]
-  SRTHash: -1767265211
-  Scale: 1.01999998
-  Translate: [-3464.71362, 172.130783, 171.787872]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - HashId: !u 0x773d3d3b
   Rotate: [3.06554985, -1.08649158, -2.79156947]
   SRTHash: -2136421337
@@ -2688,13 +2634,6 @@ Objs:
   SRTHash: -1732340900
   Translate: [-3618.40845, 123.146744, 264.431427]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_10
-- '!Parameters': {KorokFlowerColorNum: 2}
-  HashId: !u 0x98fffdd4
-  Rotate: [-3.10953546, -0.744353473, -3.09516764]
-  SRTHash: 593792316
-  Scale: 1.04999995
-  Translate: [-3470.39844, 171.954773, 172.087982]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - HashId: !u 0x991b380e
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x4af82dea}
@@ -2773,13 +2712,6 @@ Objs:
   SRTHash: 1422016991
   Translate: [-2924.1958, 234.324097, 928.053223]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_10
-- '!Parameters': {KorokFlowerColorNum: 4}
-  HashId: !u 0x9b737da5
-  Rotate: [2.91208792, 1.38872981, 2.95835948]
-  SRTHash: 640524810
-  Scale: 0.979999959
-  Translate: [-3468.55322, 172.40448, 156.830841]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
@@ -2968,7 +2900,7 @@ Objs:
   SRTHash: -1466170071
   Translate: [-3798.46021, 741.525574, 893.689087]
   UnitConfigName: FldObj_GerudoHighlandRock_A_04_Far
-- '!Parameters': {DropActor: Item_Ore_B, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Bow_028, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xa6f1734f
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xdea4275a}
@@ -3024,13 +2956,6 @@ Objs:
   Scale: 3.0
   Translate: [-3673.78589, 551.692383, 698.304688]
   UnitConfigName: Area
-- '!Parameters': {KorokFlowerColorNum: 0}
-  HashId: !u 0xaa9b6738
-  Rotate: [0.00339932973, -8.19060879e-05, 0.0481801741]
-  SRTHash: 261917203
-  Scale: 0.920000017
-  Translate: [-3464.51392, 172.138046, 172.487885]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - HashId: !u 0xab4f9c1b
   SRTHash: -1015681619
   Translate: [-3737.99902, 729.403503, 798.75769]
@@ -3187,13 +3112,6 @@ Objs:
   SRTHash: -1514758020
   Translate: [-3531.97852, 218.56073, 472.84201]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_10_Far
-- '!Parameters': {KorokFlowerColorNum: 0}
-  HashId: !u 0xb7b4d42b
-  Rotate: [0.0067976173, 1.04710579, 0.0540670753]
-  SRTHash: 1433110960
-  Scale: 0.949999988
-  Translate: [-3463.31519, 172.197876, 171.88797]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - HashId: !u 0xb8003280
   Rotate: 0.801592886
   SRTHash: 370689537
@@ -3472,12 +3390,6 @@ Objs:
   SRTHash: -375337914
   Translate: [-3896.80054, 678.06189, 733.526611]
   UnitConfigName: SeekerSimbol2_Far
-- '!Parameters': {KorokFlowerColorNum: 0}
-  HashId: !u 0xcac7d273
-  Rotate: [0.0041495692, 0.610779345, 0.0505602658]
-  SRTHash: 195315176
-  Translate: [-3463.56494, 172.183289, 172.63797]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - HashId: !u 0xcb14e6ee
   Rotate: [0.157785729, -1.07499099, -0.219699249]
   SRTHash: 329165262
@@ -3920,13 +3832,6 @@ Objs:
   SRTHash: 1815545711
   Translate: [-3889.20532, 124.635788, 53.1043396]
   UnitConfigName: FldObj_GerudoHighlandCliff_A_10
-- '!Parameters': {KorokFlowerColorNum: 0}
-  HashId: !u 0xe58cfb8c
-  Rotate: [-3.11798978, -0.0464649834, -3.07454133]
-  SRTHash: -1818173863
-  Scale: 0.949999988
-  Translate: [-3469.72534, 171.987183, 171.515167]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
   HashId: !u 0xe58fcefd
   LinksToObj:
@@ -4156,7 +4061,7 @@ Objs:
   Rotate: -0.919999957
   SRTHash: -759412359
   Scale: 100.0
-  Translate: [-3624.56641, 594.833252, 949.80481]
+  Translate: [-3624.59717, 595.033264, 949.709656]
   UnitConfigName: Area
 - HashId: !u 0xf09427a8
   Rotate: 2.47999954
@@ -4294,12 +4199,6 @@ Objs:
   SRTHash: -1258006443
   Translate: [-3953.69702, 798.127075, 840.091003]
   UnitConfigName: FldObj_GerudoHighlandRock_C_03
-- '!Parameters': {KorokFlowerColorNum: 0}
-  HashId: !u 0xfb2fc8ee
-  Rotate: [3.08795667, 0.694563568, -3.13333511]
-  SRTHash: -323646605
-  Translate: [-3467.91724, 172.462601, 156.079376]
-  UnitConfigName: Obj_Plant_KorokColor_A_01
 - HashId: !u 0xfc1c1485
   Rotate: 1.32000005
   SRTHash: -15386172
@@ -4386,6 +4285,281 @@ Objs:
   SRTHash: -2126199512
   Translate: [-3650.39893, 599.1875, 954.687866]
   UnitConfigName: EnemyLookTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: WM_BloodyDay, SaveFlagOnOffType: 0}
+  HashId: !u 0xfff27003
+  LinksToObj:
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfff27004}
+  Rotate: 0.980000019
+  SRTHash: 0
+  Scale: 1.5
+  Translate: [-4012.00586, 565.233948, 426.909058]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: WM_BloodyDay, SaveFlagOnOffType: 0}
+  HashId: !u 0xfff27004
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27007}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27006}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27008}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff2700f}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27010}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27013}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27014}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff2701a}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff2701b}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff2701c}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff2701d}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff2701e}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff2701f}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27020}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27021}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27022}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27023}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27024}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27025}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27026}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27027}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27028}
+  Rotate: 16.6599998
+  SRTHash: 0
+  Translate: [-4006.28687, 565.244019, 429.619385]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: '', SaveFlagOnOffType: 0}
+  HashId: !u 0xfff27005
+  LinksToObj:
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfff27009}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff2700b}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfff2700f}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfff27010}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfff27013}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfff27014}
+  Rotate: 16.6599998
+  SRTHash: 0
+  Translate: [-4001.4187, 565.325256, 422.588928]
+  UnitConfigName: LinkTagAnd
+- '!Parameters':
+    ArrowName: IceArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Sword_034
+    EquipItem2: Weapon_Shield_030
+    EquipItem3: Weapon_Bow_023
+    EquipItem4: Default
+    IsLazyTraverse: true
+    IsNearCreate: false
+    LevelSensorMode: 0
+    SharpWeaponJudgeType: 3
+    TerritoryArea: 0.0
+  HashId: !u 0xfff27006
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfff27005}
+  Rotate: 8.82318592
+  SRTHash: 598192775
+  Translate: [-3973.27246, 548.101135, 405.625946]
+  UnitConfigName: Enemy_Lynel_Gold
+- '!Parameters':
+    DropTable: Normal
+    EquipItem1: Weapon_Lsword_034
+    EquipItem2: Default
+    EquipItem4: Default
+    IsNearCreate: true
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfff27007
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfff27005}
+  Rotate: 4.89820051
+  SRTHash: 0
+  Translate: [-3959.75073, 551.979126, 432.399719]
+  UnitConfigName: Enemy_Moriblin_Gold_Volcano
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Weapon_Lsword_100
+    EquipItem3: Weapon_Sword_043
+    EquipItem4: Default
+    IsNearCreate: true
+    IsWatchKeeping: true
+    LevelSensorMode: 0
+    NearCreateAppearID: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+    WaitTime: 1.0
+  HashId: !u 0xfff27008
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfff27005}
+  Rotate: 27.3582001
+  SRTHash: 0
+  Translate: [-4011.22119, 559.904663, 443.09906]
+  UnitConfigName: Enemy_Yiga_New
+- '!Parameters': {EventFlowEntryName: SignalWait30SE, EventFlowName: Demo024_0, IsEndlessEvent: false, LaunchEventByOffSignal: false,
+    LaunchEventByOnSignal: true}
+  HashId: !u 0xfff27009
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xfff2700a}
+  Rotate: 0.980000019
+  SRTHash: 295738227
+  Translate: [-3979.22217, 545.858582, 362.607056]
+  UnitConfigName: EventTag
+- HashId: !u 0xfff2700a
+  Rotate: 24.5799999
+  SRTHash: 0
+  Translate: [-3976.64941, 540.958008, 368.650604]
+  UnitConfigName: LookTag
+- '!Parameters':
+    AddParam: 60
+    AddSpecialFlag: 1
+    DropTable: Normal
+    EnemyOwnItem: true
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: false
+    IsNearCreate: true
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xfff2700b
+  SRTHash: 0
+  Translate: [-3974.42456, 539.813049, 365.468781]
+  UnitConfigName: Weapon_Sword_026
+- HashId: !u 0xfff2700c
+  Rotate: 0.980000019
+  SRTHash: 0
+  Scale: 0.5
+  Translate: [-3974.52954, 538.694885, 365.384613]
+  UnitConfigName: BoxPartTop
+- '!Parameters': {ActorName: Enemy_Keese_Electric_AllDay, CreateLimit: 2, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff2700e
+  Rotate: [301.896118, 7.55999994, 308.117554]
+  SRTHash: 2017117671
+  Translate: [0.0991210938, -0.0638427734, -0.0478515625]
+  UnitConfigName: TwnObj_GanonGrudgeSolid_Generator_A_01
+- HashId: !u 0xfff2700f
+  SRTHash: 0
+  Scale: 1.0
+  Translate: [-3966.75098, 565.14978, 446.34552]
+  UnitConfigName: RailLift
+- '!Parameters': {ActorName: Enemy_Keese_Ice_AllDay, CreateLimit: 2, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff27010
+  Rotate: [301.896118, 7.55999994, 308.117554]
+  SRTHash: 2017117671
+  Translate: [-3966.65186, 565.085938, 446.297668]
+  UnitConfigName: TwnObj_GanonGrudgeSolid_Generator_A_01
+- HashId: !u 0xfff27013
+  SRTHash: 0
+  Scale: 1.0
+  Translate: [-4024.7334, 565.14978, 432.010284]
+  UnitConfigName: RailLift
+- '!Parameters': {ActorName: Enemy_Keese_Ice_AllDay, CreateLimit: 2, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfff27014
+  Rotate: [301.896118, 7.55999994, 308.117554]
+  SRTHash: 2017117671
+  Translate: [-4024.63428, 565.085938, 431.962433]
+  UnitConfigName: TwnObj_GanonGrudgeSolid_Generator_A_01
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xfff27017
+  Rotate: 14.54
+  SRTHash: 0
+  Translate: [-4066.27588, 568.906799, 438.019714]
+  UnitConfigName: Enemy_Guardian_B
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: false, SharpWeaponJudgeType: 1}
+  HashId: !u 0xfff27018
+  Rotate: 5.51999998
+  SRTHash: 0
+  Translate: [-3869.00244, 540.706787, 381.686218]
+  UnitConfigName: Enemy_Guardian_B
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: WM_BloodyDay, SaveFlagOnOffType: 0}
+  HashId: !u 0xfff27019
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff27017}
+  SRTHash: 0
+  Translate: [-4063.50269, 575.3302, 436.912933]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0xfff2701a
+  SRTHash: 0
+  Translate: [-3971.3252, 546.163208, 397.016724]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- HashId: !u 0xfff2701b
+  SRTHash: 0
+  Translate: [-3998.3186, 557.963196, 438.492035]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- HashId: !u 0xfff2701c
+  SRTHash: 0
+  Translate: [-3976.96216, 556.963196, 440.026489]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- HashId: !u 0xfff2701d
+  SRTHash: 0
+  Translate: [-3997.57495, 546.36322, 389.681213]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- HashId: !u 0xfff2701e
+  SRTHash: 0
+  Translate: [-4017.73999, 554.36322, 417.547791]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- HashId: !u 0xfff2701f
+  SRTHash: 0
+  Translate: [-3995.96069, 553.763245, 422.279144]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- HashId: !u 0xfff27020
+  SRTHash: 0
+  Translate: [-4011.18604, 550.963196, 402.962982]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- HashId: !u 0xfff27021
+  SRTHash: 0
+  Translate: [-4034.48291, 554.563232, 411.491425]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- HashId: !u 0xfff27022
+  SRTHash: 0
+  Translate: [-4030.79614, 558.963196, 433.618561]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- HashId: !u 0xfff27023
+  SRTHash: 0
+  Translate: [-3988.15894, 549.763245, 407.595612]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- HashId: !u 0xfff27024
+  SRTHash: 0
+  Translate: [-3962.27124, 551.963196, 433.253601]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- HashId: !u 0xfff27025
+  SRTHash: 0
+  Translate: [-3967.99707, 549.36322, 412.832947]
+  UnitConfigName: Enemy_Golem_Little_Ice
+- '!Parameters': {EquipItem1: Weapon_Sword_049, IsNearCreate: false, LevelSensorMode: 1, NearCreateAppearID: 0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0}
+  HashId: !u 0xfff27026
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfff27005}
+  Rotate: 2.96000004
+  SRTHash: 102270810
+  Translate: [-3953.177, 557.565308, 396.394257]
+  UnitConfigName: Enemy_Wizzrobe_Ice_Senior
+- '!Parameters': {EquipItem1: Weapon_Sword_049, IsNearCreate: false, LevelSensorMode: 1, NearCreateAppearID: 0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0}
+  HashId: !u 0xfff27027
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfff27005}
+  Rotate: 2.96000004
+  SRTHash: 102270810
+  Translate: [-3951.2854, 562.76532, 432.790649]
+  UnitConfigName: Enemy_Wizzrobe_Ice_Senior
+- '!Parameters': {EquipItem1: Weapon_Sword_049, IsNearCreate: false, LevelSensorMode: 1, NearCreateAppearID: 0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0}
+  HashId: !u 0xfff27028
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfff27005}
+  Rotate: 0.0
+  SRTHash: 102270810
+  Translate: [-3989.68628, 551.165283, 365.914307]
+  UnitConfigName: Enemy_Wizzrobe_Ice_Senior
 Rails:
 - HashId: !u 0x102859e4
   IsClosed: false

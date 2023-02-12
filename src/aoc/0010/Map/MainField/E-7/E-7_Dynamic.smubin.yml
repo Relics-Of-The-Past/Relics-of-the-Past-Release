@@ -944,7 +944,7 @@ Objs:
   SRTHash: 445754088
   Translate: [20.7441406, 180.976013, 2973.10938]
   UnitConfigName: FldObj_PlantBokoFortress_A_02
-- '!Parameters': {DropTable: NormalHigh, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0x299552ae
   Rotate: [2.78385949, -1.03958213, -2.75126171]
   SRTHash: -1671722891
@@ -1614,7 +1614,7 @@ Objs:
   Translate: [-833.755249, 190.195694, 2293.53442]
   UnitConfigName: Obj_TreeConiferous_A_01
 - '!Parameters':
-    EquipItem1: Weapon_Sword_007
+    EquipItem1: Weapon_Sword_015
     FortressEatPer: -1
     IsMimicry: false
     IsNearCreate: false
@@ -2066,7 +2066,7 @@ Objs:
   Scale: 1.05723441
   Translate: [-813.58728, 229.746521, 2897.80347]
   UnitConfigName: Obj_TreeConiferous_A_01
-- '!Parameters': {DropActor: Item_Ore_E, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Bow_023, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x55bb3b03
   Rotate: [0.0864008144, 0.000735079811, -0.00235581957]
   SRTHash: 157561975
@@ -3622,7 +3622,7 @@ Objs:
   SRTHash: -1942246949
   Translate: [61.5266113, 161.219666, 2958.78809]
   UnitConfigName: Obj_Plant_CypressLow_A_01
-- '!Parameters': {DropActor: Weapon_Spear_003, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Enemy_56, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x9f4dc0e9
   Rotate: [-0.000294600904, -0.0255734641, 0.0991574675]
   SRTHash: -158229786
@@ -4052,7 +4052,7 @@ Objs:
   SRTHash: -1301997795
   Translate: [-365.191406, 91.2077026, 2572.79761]
   UnitConfigName: FldObj_RockGashamahi_A_02
-- '!Parameters': {DropActor: Weapon_Spear_027, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Lsword_023, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0xb0807d1a
   Rotate: [-0.000874740828, 0.000414629583, -0.000196529028]
   SRTHash: -986693799
@@ -4612,7 +4612,7 @@ Objs:
   Scale: 0.957031012
   Translate: [-919.367188, 265.979156, 2704.11719]
   UnitConfigName: Obj_Plant_HopBush_A_02
-- '!Parameters': {DropActor: PutRupee_Purple, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Animal_Insect_F, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
   HashId: !u 0xc6cc5f70
   Rotate: [0.34906584, 3.14159274, 0.17453292]
   SRTHash: -1575652427
@@ -4824,7 +4824,7 @@ Objs:
   SRTHash: 1258341413
   Translate: [-801.495239, 193.183823, 2265.55029]
   UnitConfigName: Obj_TreeBroadleafFallenTree_A_M_01
-- '!Parameters': {DropActor: Obj_IceArrow_A_03, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_100, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xd01a6de2
   Rotate: [0.00567390583, -1.16821884e-05, -0.00225883792]
   SRTHash: 859427612
@@ -4875,7 +4875,7 @@ Objs:
   UnitConfigName: Obj_ShieldFenceWood_A_M_01
 - '!Parameters':
     ArrowName: NormalArrow
-    EquipItem1: Weapon_Bow_006
+    EquipItem1: Weapon_Bow_023
     EquipItem3: LizalfosPipe
     FortressEatPer: -1
     IsMimicry: false
@@ -5368,7 +5368,7 @@ Objs:
   SRTHash: -1287972920
   Translate: [-56.5058289, 202.814804, 2999.23804]
   UnitConfigName: FldObj_FenceWoodDamage_A_01
-- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsPlayerPut: false, SharpWeaponJudgeType: 0, TresasureSpotType: 0}
+- '!Parameters': {DropActor: Item_Ore_J, InitMotionStatus: 0, IsPlayerPut: false, SharpWeaponJudgeType: 0, TresasureSpotType: 0}
   HashId: !u 0xe42bdafd
   Rotate: 2.48318458
   SRTHash: -239704092
@@ -5479,7 +5479,7 @@ Objs:
   SRTHash: 155020240
   Translate: [-685.997253, 189.549728, 2119.99585]
   UnitConfigName: Butterfly
-- '!Parameters': {DropActor: Item_Ore_F, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Ore_J, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xe77c8f70
   Rotate: [0.00419279141, 0.0131016364, 4.10609391e-05]
   SRTHash: 3995892
@@ -5508,7 +5508,7 @@ Objs:
   SRTHash: 1945913370
   Translate: [-145.68808, 193.621735, 2953.28369]
   UnitConfigName: Obj_Plant_HopBush_B_01
-- '!Parameters': {DropTable: NormalHigh, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xe81b8d6e
   Rotate: [0.160820231, -0.498676777, 0.018643206]
   SRTHash: 1768709708
@@ -5860,7 +5860,7 @@ Objs:
   SRTHash: -599451726
   Translate: [-895.041565, 189.840805, 2326.03809]
   UnitConfigName: FldObj_BankingFlat_A_01
-- '!Parameters': {DropTable: NormalHigh, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Food, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xf51ebdd6
   Rotate: [-2.46633101, 1.49856949, -2.39446235]
   SRTHash: 1768709708

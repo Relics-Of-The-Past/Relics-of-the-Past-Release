@@ -1659,7 +1659,7 @@ Objs:
   Scale: [22.5846386, 48.5245743, 22.5846386]
   Translate: [-3809.14722, 281.656494, -3826.12769]
   UnitConfigName: AscendingCurrent
-- '!Parameters': {DropActor: Item_Ore_C, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Shield_030, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x60bf23f1
   Rotate: [-0.235392436, 0.0472417809, 0.374412954]
   SRTHash: -252885997
@@ -1989,7 +1989,7 @@ Objs:
   Scale: 1.06445301
   Translate: [-3647.19141, 472.078247, -3324.87891]
   UnitConfigName: Obj_Plant_CypressLow_B_01
-- '!Parameters': {DropActor: PutRupee_Silver, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_StaminaUtuwa_A_01, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x70e3ded6
   Rotate: [0.177680939, -1.17695773, -0.110762022]
   SRTHash: 1254343174
@@ -3385,7 +3385,7 @@ Objs:
   SRTHash: 877540047
   Translate: [-3787.49023, 426.88562, -3076.10767]
   UnitConfigName: TBox_Field_Iron
-- '!Parameters': {DropTable: Tabanta, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Dragon, SharpWeaponJudgeType: 0}
   HashId: !u 0xb9ac90e4
   Rotate: [0.0239559356, 0.34016633, 0.0290529579]
   SRTHash: 1211734492

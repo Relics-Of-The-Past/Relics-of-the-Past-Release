@@ -151,7 +151,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
   HashId: !u 0x09c954df
@@ -348,7 +348,7 @@ Objs:
   HashId: !u 0x13a2656f
   Rotate: 0.280000001
   SRTHash: -456078189
-  Translate: [-1689.5, 340.906677, -3557.0]
+  Translate: [-1686.85669, 340.906677, -3554.30176]
   UnitConfigName: Enemy_Lynel_Senior
 - HashId: !u 0x13ab01e7
   Rotate: [0.117538437, 0.825339735, -0.133214951]
@@ -623,7 +623,7 @@ Objs:
     GolemSleepType: SleepForward_A
     GolemWeakPointLocation: Point_A
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
   HashId: !u 0x2ab1266f
@@ -1305,7 +1305,7 @@ Objs:
     GolemSleepType: SleepForward_A
     GolemWeakPointLocation: Point_A
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
   HashId: !u 0x543ba7f9
@@ -1849,12 +1849,6 @@ Objs:
   SRTHash: -850945456
   Translate: [-1167.27466, 473.697266, -3291.85107]
   UnitConfigName: Obj_TreeBroadleafLow_Branch_A_01
-- HashId: !u 0x7d34f180
-  Rotate: [-0.0786334127, -1.26050127, 0.132001325]
-  SRTHash: -1210992895
-  Scale: 0.939453006
-  Translate: [-1641.99219, 345.744629, -3254.03125]
-  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
 - '!Parameters':
     ArrowName: NormalArrow
     DropTable: Normal
@@ -1864,7 +1858,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
   HashId: !u 0x7d51bd50
@@ -1893,7 +1887,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
   HashId: !u 0x7e57862f
@@ -2232,7 +2226,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
   HashId: !u 0x926c18b0
@@ -2315,22 +2309,22 @@ Objs:
   Translate: [-1229.09497, 400.737518, -3454.26514]
   UnitConfigName: Obj_RockDeathMt_C_L_08
 - '!Parameters':
-    AddParam: 0
-    AddSpecialFlag: 0
+    AddParam: 25
+    AddSpecialFlag: 3
     EnemyOwnItem: true
     IsCreateSharpWeapon: false
     IsEmitLandNoise: false
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
-    SharpWeaponJudgeType: 0
+    SharpWeaponJudgeType: 3
   HashId: !u 0x977cf55b
   Rotate: [1.87711263, -0.446626902, -0.0847803503]
   SRTHash: -1325425499
   Translate: [-1285.07947, 509.292999, -3122.88232]
-  UnitConfigName: Weapon_Spear_003
+  UnitConfigName: Weapon_Spear_023
 - HashId: !u 0x97c5a519
   Rotate: 1.1713866
   SRTHash: 2054559877
@@ -2434,7 +2428,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0x9e5645f6
@@ -2509,12 +2503,12 @@ Objs:
   SRTHash: -187350111
   Translate: [-1431.97815, 371.871155, -3409.6377]
   UnitConfigName: Obj_RockSetDeathMt_C_04
-- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Sphere}
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, NoAutoDemoMember: false, Shape: Sphere}
   HashId: !u 0xa31de04b
   Rotate: 0.280000001
   SRTHash: -826709117
   Scale: 150.000015
-  Translate: [-1689.5, 340.906677, -3557.0]
+  Translate: [-1689.46155, 340.906677, -3557.18042]
   UnitConfigName: Area
 - HashId: !u 0xa3296edb
   Rotate: [-0.168500274, 0.735107183, 0.135672569]
@@ -2760,7 +2754,7 @@ Objs:
   SRTHash: 356443562
   Translate: [-1110.39453, 426.051971, -3036.99512]
   UnitConfigName: Obj_RockDeathMt_A_L_03
-- '!Parameters': {DropActor: Obj_ElectricArrow_A_03, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Animal_Insect_F, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xb615d0d3
   Rotate: [2.98952556, -0.203162491, 3.12256265]
   SRTHash: 1976065449
@@ -2905,7 +2899,7 @@ Objs:
   SRTHash: -1203193477
   Translate: [-1134.95911, 315.590668, -3573.80273]
   UnitConfigName: Obj_RockSetDeathMt_C_03
-- '!Parameters': {DropActor: Obj_IceArrow_A_03, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_AncientArrow_B_01, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xc2cc985a
   Rotate: [3.11916924, 0.456689656, 3.0252347]
   SRTHash: -47397689
@@ -3254,7 +3248,7 @@ Objs:
     GolemSleepType: SleepForward_A
     GolemWeakPointLocation: Point_A
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
   HashId: !u 0xd87765fc
@@ -3324,7 +3318,7 @@ Objs:
     IsFixedPlace: true
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     Life: -1
     SharpWeaponJudgeType: 0
   HashId: !u 0xdd306070
@@ -3484,7 +3478,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 0
     TerritoryArea: 0.0
   HashId: !u 0xe6f4f13f
@@ -3522,7 +3516,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: true
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0xe9c89706
@@ -4061,7 +4055,7 @@ Objs:
     IsCreateStalPart: true
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     RideHorseName: GameRomHorseBone
     RotAngle: 0.0
@@ -4116,7 +4110,7 @@ Objs:
     IsCreateStalPart: true
     IsNearCreate: false
     IsWatchKeeping: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     NearCreateAppearID: 0
     RideHorseName: GameRomHorseBone_AllDay
     RotAngle: 0.0
@@ -4155,7 +4149,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0xfff76cda
@@ -4172,7 +4166,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0xfff76cdb
@@ -4189,7 +4183,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0xfff76cdc
@@ -4206,7 +4200,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0xfff76cdd
@@ -4223,7 +4217,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0xfff76cde
@@ -4240,7 +4234,7 @@ Objs:
     EquipItem4: Default
     IsCreateOnFace: false
     IsNearCreate: false
-    LevelSensorMode: 0
+    LevelSensorMode: 1
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
   HashId: !u 0xfff76cdf
@@ -4248,4 +4242,10 @@ Objs:
   SRTHash: -1361032261
   Translate: [-1823.29919, 359.209961, -3212.1167]
   UnitConfigName: Enemy_Keese_Ice
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, SwitchTorchSpType: 2}
+  HashId: !u 0xfff76d37
+  Rotate: 5.25142336
+  SRTHash: -1778824952
+  Translate: [-1715.66663, 346.693604, -3213.22461]
+  UnitConfigName: TwnObj_AncientCandlePoleRoofOff_A_01
 Rails: []

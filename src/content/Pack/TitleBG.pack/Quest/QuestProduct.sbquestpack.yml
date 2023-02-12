@@ -1,3 +1,106 @@
+- Location: MapArea_CentralHyrule
+  Name: BloodmoonSpawns
+  NotPostNote: false
+  Orderer: NPC_GodVoice
+  QuestDependencyFlag: HasAoCVer2
+  QuestDependencyFlagType: bool
+  StepDependencyFlags: []
+  Steps:
+  - {AttentionOff: false, MessageName: Desc, Name: Ready, NextFlag: IsCreate_BloodyDaySpawns_Ready, UpdateStep: true}
+  - AttentionOff: false
+    IndicatorLocations:
+    - Location: {X: -4040.14697, Y: 131.527466, Z: -2677.13672}
+      OffFlag: ''
+    - Location: {X: -4004.52856, Y: 362.54715, Z: -1993.11646}
+      OffFlag: ''
+    - Location: {X: -4010.90137, Y: 565.233948, Z: 428.687927}
+      OffFlag: ''
+    - Location: {X: -3787.00732, Y: 470.165253, Z: 1677.91516}
+      OffFlag: ''
+    - Location: {X: -3896.43726, Y: 398.046387, Z: 1637.96057}
+      OffFlag: ''
+    - Location: {X: -3651.35596, Y: 289.715149, Z: 2151.32568}
+      OffFlag: ''
+    - Location: {X: -4051.2251, Y: 145.710663, Z: 3457.02759}
+      OffFlag: ''
+    - Location: {X: -1661.52502, Y: 351.685486, Z: -3276.625}
+      OffFlag: ''
+    - Location: {X: -1677.84766, Y: 348.816956, Z: -3551.29517}
+      OffFlag: ''
+    - Location: {X: -1618.75732, Y: 257.397888, Z: 684.821167}
+      OffFlag: ''
+    - Location: {X: -1438.73767, Y: 153.516937, Z: 450.861176}
+      OffFlag: ''
+    - Location: {X: -583.535339, Y: 339.16095, Z: -3539.87622}
+      OffFlag: ''
+    - Location: {X: 48.1168213, Y: 143.691742, Z: -397.4953}
+      OffFlag: ''
+    - Location: {X: -742.632263, Y: 136.001328, Z: -375.625183}
+      OffFlag: ''
+    - Location: {X: -981.998169, Y: 164.062698, Z: -29.7555809}
+      OffFlag: ''
+    - Location: {X: -185.598984, Y: 124.244316, Z: 122.419243}
+      OffFlag: ''
+    - Location: {X: 158.763779, Y: 123.505363, Z: 80.7153931}
+      OffFlag: ''
+    - Location: {X: -301.783478, Y: 146.281784, Z: 927.593201}
+      OffFlag: ''
+    - Location: {X: -907.62384, Y: 217.125488, Z: 1850.20984}
+      OffFlag: ''
+    - Location: {X: -524.216248, Y: 102.642693, Z: 2771.34741}
+      OffFlag: ''
+    - Location: {X: 338.62854, Y: 133.620697, Z: -268.240204}
+      OffFlag: ''
+    - Location: {X: -143.101364, Y: 131.253204, Z: 581.030396}
+      OffFlag: ''
+    - Location: {X: 195.917038, Y: 126.73542, Z: 185.129623}
+      OffFlag: ''
+    - Location: {X: 633.930115, Y: 142.955215, Z: 185.364334}
+      OffFlag: ''
+    - Location: {X: 655.617737, Y: 147.85495, Z: 786.089355}
+      OffFlag: ''
+    - Location: {X: 580.587036, Y: 178.716141, Z: 564.65918}
+      OffFlag: ''
+    - Location: {X: 888.791687, Y: 123.93103, Z: 2485.31055}
+      OffFlag: ''
+    - Location: {X: 779.362732, Y: 127.255371, Z: 2670.3999}
+      OffFlag: ''
+    - Location: {X: 1486.20251, Y: 518.626953, Z: -2738.1355}
+      OffFlag: ''
+    - Location: {X: 1409.70557, Y: 127.310287, Z: -851.41803}
+      OffFlag: ''
+    - Location: {X: 1618.3114, Y: 367.314758, Z: 2917.5708}
+      OffFlag: ''
+    - Location: {X: 1482.81299, Y: 105.592628, Z: 3936.00635}
+      OffFlag: ''
+    - Location: {X: 2455.89355, Y: 734.691162, Z: -2326.96338}
+      OffFlag: ''
+    - Location: {X: 2585.64795, Y: 256.526672, Z: -1160.66772}
+      OffFlag: ''
+    - Location: {X: 2378.4126, Y: 197.652618, Z: -613.504333}
+      OffFlag: ''
+    - Location: {X: 2491.51514, Y: 254.22226, Z: 3577.92627}
+      OffFlag: ''
+    - Location: {X: 3431.47119, Y: 344.886749, Z: 49.0260201}
+      OffFlag: ''
+    - Location: {X: 3088.24854, Y: 208.218994, Z: 1665.37012}
+      OffFlag: ''
+    - Location: {X: 3284.32178, Y: 278.141144, Z: 1223.12952}
+      OffFlag: ''
+    - Location: {X: 3937.3894, Y: 574.788635, Z: 1340.57153}
+      OffFlag: ''
+    - Location: {X: 4028.77808, Y: 388.559998, Z: -940.068115}
+      OffFlag: ''
+    - Location: {X: 4443.03955, Y: 416.102051, Z: -798.629822}
+      OffFlag: ''
+    - Location: {X: 4473.88135, Y: 108.253891, Z: 1553.28003}
+      OffFlag: ''
+    - Location: {X: 4084.25024, Y: 111.109695, Z: 2974.10156}
+      OffFlag: ''
+    MessageName: Desc
+    Name: Activated
+    NextFlag: IsCreate_BloodyDaySpawns_Activated
+    UpdateStep: true
 - Location: MapArea_HyruleForest
   Name: RelicsLostWoodsTrial
   NotPostNote: false
@@ -76,6 +179,7 @@
     NextFlag: FirstTower_Finish
     UpdateStep: true
   Type: Main
+  prev_quest: TriforceShooting
 - Location: HopesPlateau
   Name: FindDungeon
   NotPostNote: false
@@ -97,6 +201,7 @@
     UpdateStep: true
   - {AttentionOff: false, MessageName: Finish, Name: Finish, NextFlag: FindDungeon_Finish, UpdateStep: true}
   Type: Main
+  prev_quest: FirstTower
 - Location: HopesPlateau
   Name: GanonQuest
   NotPostNote: false
@@ -116,6 +221,7 @@
     NextFlag: GanonQuest_Finished
     UpdateStep: true
   Type: Main
+  prev_quest: FindDungeon
 - Location: HopesPlateau
   Name: Find_Impa
   NotPostNote: false
@@ -427,6 +533,7 @@
     NextFlag: Find_Impa_Finish
     UpdateStep: true
   Type: Main
+  prev_quest: GanonQuest
 - Location: Cokiri
   Name: Get_MasterSword
   NotPostNote: false
@@ -443,6 +550,7 @@
     NextFlag: Get_MasterSword_Finish
     UpdateStep: true
   Type: Main
+  prev_quest: Find_Impa
 - Location: Kakariko
   Name: Find_4Relic
   NotPostNote: false
@@ -566,6 +674,7 @@
     NextFlag: Find_4Relic_Finish
     UpdateStep: true
   Type: Main
+  prev_quest: Get_MasterSword
 - Location: Kakariko
   Name: CarryingBlueFireEXMini
   NotPostNote: false
@@ -1069,6 +1178,7 @@
     NextFlag: CarryingBlueFireEXMini_Finish
     UpdateStep: true
   Type: Main
+  prev_quest: Find_4Relic
 - Location: Rito
   Name: Wind_Relic
   NotPostNote: false
@@ -3864,6 +3974,7 @@
     NextFlag: Wind_Relic_Finished
     UpdateStep: true
   Type: Main
+  prev_quest: CarryingBlueFireEXMini
 - Location: Goron
   Name: Fire_Relic
   NotPostNote: false
@@ -5601,6 +5712,7 @@
     NextFlag: Fire_Relic_Finished
     UpdateStep: true
   Type: Main
+  prev_quest: Wind_Relic
 - Location: SusukadiBridge
   Name: GotoZoraVillage
   NotPostNote: false
@@ -6381,6 +6493,7 @@
     NextFlag: GotoZoraVillage_Finish
     UpdateStep: true
   Type: Main
+  prev_quest: Fire_Relic
 - Location: WhiteZora
   Name: Water_Relic
   NotPostNote: false
@@ -9449,6 +9562,7 @@
     NextFlag: Water_Relic_Finished
     UpdateStep: true
   Type: Main
+  prev_quest: GotoZoraVillage
 - Location: Gerudo
   Name: Drag_Hero
   NotPostNote: false
@@ -10178,6 +10292,7 @@
     NextFlag: Drag_Hero_Finish
     UpdateStep: true
   Type: Main
+  prev_quest: Water_Relic
 - Location: Gerudo
   Name: Electric_Relic
   NotPostNote: false
@@ -11652,6 +11767,7 @@
     NextFlag: Electric_Relic_Finished
     UpdateStep: true
   Type: Main
+  prev_quest: Drag_Hero
 - AocVersion: 2
   Location: StartPoint
   Name: BalladOfHeroes
@@ -14430,6 +14546,7 @@
     NextFlag: BalladOfHeroes_Finish
     UpdateStep: true
   Type: Main
+  prev_quest: Electric_Relic
 - AocVersion: 2
   Location: EastGerudoPlateau
   Name: BalladOfHeroGerudo
@@ -17529,6 +17646,7 @@
     NextFlag: BalladOfHeroGerudo_Finish
     UpdateStep: true
   Type: Main
+  prev_quest: BalladOfHeroes
 - AocVersion: 2
   Location: MapArea_EldinMountains
   Name: BalladOfHeroGoron
@@ -20708,6 +20826,7 @@
     NextFlag: BalladOfHeroGoron_Finish
     UpdateStep: true
   Type: Main
+  prev_quest: BalladOfHeroGerudo
 - AocVersion: 2
   Location: RapikuruPlateau
   Name: BalladOfHeroZora
@@ -22442,6 +22561,7 @@
     NextFlag: BalladOfHeroZora_Finish
     UpdateStep: true
   Type: Main
+  prev_quest: BalladOfHeroGoron
 - AocVersion: 2
   Location: HashibiroLake
   Name: BalladOfHeroRito
@@ -23851,6 +23971,7 @@
     NextFlag: BalladOfHeroRito_Finish
     UpdateStep: true
   Type: Main
+  prev_quest: BalladOfHeroZora
 - Location: Kakariko
   Name: PictureMemory
   NotPostNote: false
@@ -23915,6 +24036,7 @@
     NextFlag: PictureMemory_Finish
     UpdateStep: true
   Type: Main
+  prev_quest: BalladOfHeroRito
 - Location: Kakariko
   Name: FairyFountain
   NotPostNote: false
@@ -24231,6 +24353,7 @@
     NextFlag: FairyFountain_Finish
     UpdateStep: true
   Type: Main
+  prev_quest: PictureMemory
 - Location: AncientLabo
   Name: DokuroEye
   NotPostNote: false
@@ -24817,6 +24940,7 @@
     NextFlag: DokuroEye_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: FairyFountain
 - Location: MacusePeninsula
   Name: MacuseIseki
   NotPostNote: false
@@ -24847,6 +24971,7 @@
     NextFlag: MacuseIseki_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: DokuroEye
 - Location: LomeiIslands
   Name: Solitary_Maze
   NotPostNote: false
@@ -24864,6 +24989,7 @@
     NextFlag: Solitary_Maze_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: MacuseIseki
 - Location: TamourHatago
   Name: HigakkareMini_RedDragon
   NotPostNote: false
@@ -25305,6 +25431,7 @@
     NextFlag: HigakkareMini_RedDragon_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: Solitary_Maze
 - Location: GameGutsCriff
   Name: GoronCamp
   NotPostNote: false
@@ -25950,6 +26077,7 @@
     NextFlag: GoronCamp_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: HigakkareMini_RedDragon
 - Location: Goron
   Name: GoronsRock
   NotPostNote: false
@@ -26722,6 +26850,7 @@
     NextFlag: GoronsRock_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: GoronCamp
 - Location: DeathMountainHatago
   Name: MtMotelMini_Landscape
   NotPostNote: false
@@ -26850,6 +26979,7 @@
     NextFlag: MtMotelMini_Landscape_Finished
     UpdateStep: true
   Type: Sub
+  prev_quest: GoronsRock
 - Location: EastGerudo
   Name: Gerudo_CarryIce
   NotPostNote: false
@@ -28724,6 +28854,7 @@
     NextFlag: Gerudo_CarryIce_Finished
     UpdateStep: true
   Type: Sub
+  prev_quest: MtMotelMini_Landscape
 - Location: FenaMt
   Name: Gaman
   NotPostNote: false
@@ -35104,6 +35235,7 @@
     NextFlag: Gaman_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: Gerudo_CarryIce
 - Location: Tower03
   Name: Shadow_Sign
   NotPostNote: false
@@ -35231,6 +35363,7 @@
     NextFlag: Shadow_Sign_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: Gaman
 - Location: Gerudo
   Name: MagneticFld
   NotPostNote: false
@@ -35359,6 +35492,7 @@
     NextFlag: MagneticFld_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: Shadow_Sign
 - Location: NantanCastle
   Name: Desert_Maze
   NotPostNote: false
@@ -35376,6 +35510,7 @@
     NextFlag: Desert_Maze_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: MagneticFld
 - Location: Gerudo
   Name: KnightDoll
   NotPostNote: false
@@ -35500,6 +35635,7 @@
     NextFlag: KnightDoll_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: Desert_Maze
 - Location: Oasis
   Name: SandStorm
   NotPostNote: false
@@ -35788,6 +35924,7 @@
     NextFlag: SandStorm_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: KnightDoll
 - Location: MorugaMt
   Name: SecretofObject
   NotPostNote: false
@@ -35807,6 +35944,7 @@
     NextFlag: SecretofObject_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: SandStorm
 - Location: GameZarashiRace
   Name: SunazarashiRace
   NotPostNote: false
@@ -37038,6 +37176,7 @@
     NextFlag: SunazarashiRace_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: SecretofObject
 - Location: RonronRiver
   Name: DontDamageFlower
   NotPostNote: false
@@ -37170,6 +37309,7 @@
     NextFlag: DontDamageFlower_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: SunazarashiRace
 - Location: TerumeMt
   Name: Threebros_giant
   NotPostNote: false
@@ -37202,6 +37342,7 @@
     NextFlag: Threebros_giant_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: DontDamageFlower
 - Location: Hateno
   Name: HatenoMini_ThreeTree
   NotPostNote: false
@@ -37498,6 +37639,7 @@
     NextFlag: HatenoMini_ThreeTree_Finished
     UpdateStep: true
   Type: Sub
+  prev_quest: Threebros_giant
 - Location: HatenoGate
   Name: CursedStatue
   NotPostNote: false
@@ -38041,6 +38183,7 @@
     NextFlag: CursedStatue_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: HatenoMini_ThreeTree
 - Location: YashinoLegacy
   Name: SearchStone
   NotPostNote: false
@@ -38279,6 +38422,7 @@
     NextFlag: SearchStone_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: CursedStatue
 - Location: Kakariko
   Name: StolenBook
   NotPostNote: false
@@ -40063,6 +40207,7 @@
     NextFlag: StolenBook_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: SearchStone
 - Location: PafaBeach
   Name: Remains_Fancier
   NotPostNote: false
@@ -40270,6 +40415,7 @@
     NextFlag: Remains_Fancier_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: StolenBook
 - Location: RaruLake
   Name: Thunder_Sword
   NotPostNote: false
@@ -40734,6 +40880,7 @@
     NextFlag: Thunder_Sword_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: Remains_Fancier
 - Location: SugrantForest
   Name: MouthofDragon
   NotPostNote: false
@@ -40929,6 +41076,7 @@
     NextFlag: MouthofDragon_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: Thunder_Sword
 - Location: Cohorint
   Name: NakedIsland
   NotPostNote: false
@@ -41014,6 +41162,7 @@
     NextFlag: NakedIsland_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: MouthofDragon
 - Location: Rito
   Name: RitoRabitMountain
   NotPostNote: false
@@ -41310,6 +41459,7 @@
     NextFlag: RitoRabitMountain_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: NakedIsland
 - Location: Rito
   Name: Rito_BrosRock
   NotPostNote: false
@@ -42961,6 +43111,7 @@
     NextFlag: Rito_BrosRock_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: RitoRabitMountain
 - Location: Rito
   Name: RitoSongMystery
   NotPostNote: false
@@ -43811,6 +43962,7 @@
     NextFlag: RitoSongMystery_Finished
     UpdateStep: true
   Type: Sub
+  prev_quest: Rito_BrosRock
 - Location: SaihokuCastle
   Name: Cliff_Maze
   NotPostNote: false
@@ -43828,6 +43980,7 @@
     NextFlag: Cliff_Maze_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: RitoSongMystery
 - Location: Hateno
   Name: HatenoMini_WhiteDragon
   NotPostNote: false
@@ -44420,6 +44573,7 @@
     NextFlag: HatenoMini_WhiteDragon_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: Cliff_Maze
 - Location: WhiteZora
   Name: StatueofZora
   NotPostNote: false
@@ -44933,6 +45087,7 @@
     NextFlag: StatueofZora_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: HatenoMini_WhiteDragon
 - Location: KaiyanPlain
   Name: Animal_Forest
   NotPostNote: false
@@ -45064,6 +45219,7 @@
     NextFlag: Animal_Forest_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: StatueofZora
 - Location: PaiyuBay
   Name: Relief_Landing
   NotPostNote: false
@@ -45195,6 +45351,7 @@
     NextFlag: Relief_Landing_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: Animal_Forest
 - Location: Cokiri
   Name: FirstOhenro
   NotPostNote: false
@@ -45684,6 +45841,7 @@
     NextFlag: FirstOhenro_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: Relief_Landing
 - Location: GakanakkyoPlain
   Name: TwoWheels
   NotPostNote: false
@@ -45811,6 +45969,7 @@
     NextFlag: TwoWheels_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: FirstOhenro
 - Location: BlindForest
   Name: DarkWoods
   NotPostNote: false
@@ -45827,6 +45986,7 @@
     NextFlag: DarkWoods_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: TwoWheels
 - Location: MapArea_HyruleHill
   Name: BloodyMoonRelief
   NotPostNote: false
@@ -46229,6 +46389,7 @@
     NextFlag: BloodyMoonRelief_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: DarkWoods
 - Location: TabantaBridgeHatago
   Name: SeekerEye
   NotPostNote: false
@@ -46438,6 +46599,7 @@
     NextFlag: SeekerEye_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: BloodyMoonRelief
 - Location: Cokiri
   Name: GodTree
   NotPostNote: false
@@ -46569,6 +46731,7 @@
     NextFlag: GodTree_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: SeekerEye
 - Location: Cokiri
   Name: ShieldofKolog
   NotPostNote: false
@@ -46819,6 +46982,7 @@
     NextFlag: ShieldofKolog_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: GodTree
 - Location: LightningPlateau
   Name: FourJewel
   NotPostNote: false
@@ -46835,6 +46999,7 @@
     NextFlag: FourJewel_Finish
     UpdateStep: true
   Type: Sub
+  prev_quest: ShieldofKolog
 - AocVersion: 1
   Location: Cokiri
   Name: 100enemy
@@ -47102,6 +47267,7 @@
     NextFlag: 100enemy_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: FourJewel
 - AocVersion: 1
   Location: ForestHatago
   Name: TreasureHunt01
@@ -47289,6 +47455,7 @@
     NextFlag: TreasureHunt01_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: 100enemy
 - AocVersion: 1
   Location: TamurulHatago_02
   Name: TreasureHunt02
@@ -47476,6 +47643,7 @@
     NextFlag: TreasureHunt02_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: TreasureHunt01
 - AocVersion: 1
   Location: PostTownRuin
   Name: TreasureHunt_touzoku01
@@ -47509,6 +47677,7 @@
     NextFlag: TreasureHunt_touzoku01_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: TreasureHunt02
 - AocVersion: 1
   Location: PostTownRuin
   Name: TreasureHunt_touzoku03
@@ -47542,6 +47711,7 @@
     NextFlag: TreasureHunt_touzoku03_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: TreasureHunt_touzoku01
 - AocVersion: 1
   Location: PostTownRuin
   Name: TreasureHunt_touzoku02
@@ -47575,6 +47745,7 @@
     NextFlag: TreasureHunt_touzoku02_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: TreasureHunt_touzoku03
 - AocVersion: 1
   Location: PostTownRuin
   Name: TreasureHunt_touzoku04
@@ -47608,6 +47779,7 @@
     NextFlag: TreasureHunt_touzoku04_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: TreasureHunt_touzoku02
 - AocVersion: 2
   Location: FaronHatago002
   Name: TreasureHunt03
@@ -47795,6 +47967,7 @@
     NextFlag: TreasureHunt03_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: TreasureHunt_touzoku04
 - AocVersion: 2
   Location: RiverSideHatago
   Name: TreasureHunt04
@@ -47982,6 +48155,7 @@
     NextFlag: TreasureHunt04_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: TreasureHunt03
 - AocVersion: 2
   Location: AdeyaVillage
   Name: TreasureHunt_touzoku05
@@ -48015,6 +48189,7 @@
     NextFlag: TreasureHunt_touzoku05_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: TreasureHunt04
 - AocVersion: 2
   Location: AdeyaVillage
   Name: TreasureHunt_touzoku06
@@ -48048,6 +48223,7 @@
     NextFlag: TreasureHunt_touzoku06_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: TreasureHunt_touzoku05
 - AocVersion: 2
   Location: AdeyaVillage
   Name: TreasureHunt_touzoku07
@@ -48081,6 +48257,7 @@
     NextFlag: TreasureHunt_touzoku07_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: TreasureHunt_touzoku06
 - AocVersion: 2
   Location: AdeyaVillage
   Name: TreasureHunt_touzoku08
@@ -48114,6 +48291,7 @@
     NextFlag: TreasureHunt_touzoku08_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: TreasureHunt_touzoku07
 - Location: HatenoLabo
   Name: HatenoMini_BlueFire
   NotPostNote: false
@@ -48877,6 +49055,7 @@
     NextFlag: HatenoMini_BlueFire_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: TreasureHunt_touzoku08
 - Location: Hateno
   Name: UMiiMini_MakeVillage
   NotPostNote: false
@@ -50125,6 +50304,7 @@
     NextFlag: UMiiMini_MakeVillage_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: HatenoMini_BlueFire
 - Location: UMiiVillage
   Name: UMiiMini_GiveCake
   NotPostNote: false
@@ -51134,6 +51314,7 @@
     NextFlag: UMiiMini_GiveCake_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: UMiiMini_MakeVillage
 - Location: UMiiVillage
   Name: UMiiMini_RichmansHobby
   NotPostNote: false
@@ -51449,6 +51630,7 @@
     NextFlag: UMiiMini_RichmansHobby_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: UMiiMini_GiveCake
 - Location: TamourHatago
   Name: HigakkareMini_StrangeMan
   NotPostNote: false
@@ -51581,6 +51763,7 @@
     NextFlag: HigakkareMini_StrangeMan_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: UMiiMini_RichmansHobby
 - Location: TamurulHatago_02
   Name: MinakkareMini_Dragonfly
   NotPostNote: false
@@ -52946,6 +53129,7 @@
     NextFlag: MinakkareMini_Dragonfly_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: HigakkareMini_StrangeMan
 - Location: Hateno
   Name: HatenoMini_MyHome
   NotPostNote: false
@@ -53600,6 +53784,7 @@
     NextFlag: HatenoMini_MyHome_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: MinakkareMini_Dragonfly
 - Location: Hateno
   Name: HatenoMini_DevilSeal
   NotPostNote: false
@@ -53673,6 +53858,7 @@
     NextFlag: HatenoMini_DevilSeal_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: HatenoMini_MyHome
 - Location: Hateno
   Name: HatenoMini_LoveInsects
   NotPostNote: false
@@ -54421,6 +54607,7 @@
     NextFlag: HatenoMini_LoveInsects_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: HatenoMini_DevilSeal
 - Location: Hateno
   Name: HatenoMini_WeaponMania
   NotPostNote: false
@@ -55745,6 +55932,7 @@
     NextFlag: HatenoMini_WeaponMania_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: HatenoMini_LoveInsects
 - Location: Hateno
   Name: HatenoMini_GoatThief
   NotPostNote: false
@@ -55938,6 +56126,7 @@
     NextFlag: HatenoMini_GoatThief_Finished
     UpdateStep: true
   Type: Mini
+  prev_quest: HatenoMini_WeaponMania
 - Location: HatenoLabo
   Name: HatenoMini_CameraBoy
   NotPostNote: false
@@ -56506,6 +56695,7 @@
     NextFlag: HatenoMini_CameraBoy_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: HatenoMini_GoatThief
 - Location: HatenoLabo
   Name: Hateno_SheikPad_PowerUp
   NotPostNote: false
@@ -56704,6 +56894,7 @@
     NextFlag: Hateno_SheikPad_PowerUp_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: HatenoMini_CameraBoy
 - Location: Taura
   Name: UotoriMini_SinkTreasure
   NotPostNote: false
@@ -57146,6 +57337,7 @@
     NextFlag: UotoriMini_SinkTreasure_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Hateno_SheikPad_PowerUp
 - Location: Taura
   Name: UotoriMini_RecipeSea
   NotPostNote: false
@@ -57687,6 +57879,7 @@
     NextFlag: UotoriMini_RecipeSea_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: UotoriMini_SinkTreasure
 - Location: Taura
   Name: UotoriMini_RecoverBay
   NotPostNote: false
@@ -58249,6 +58442,7 @@
     NextFlag: UotoriMini_RecoverBay_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: UotoriMini_RecipeSea
 - Location: Kakariko
   Name: Kakariko_Cha_001
   NotPostNote: false
@@ -58809,6 +59003,7 @@
     NextFlag: Kakariko_Cha_001_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: UotoriMini_RecoverBay
 - Location: Kakariko
   Name: Kakariko_Ch_Cooking2
   NotPostNote: false
@@ -58827,6 +59022,7 @@
     NextFlag: Kakariko_Ch_Cooking2_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Kakariko_Cha_001
 - Location: Kakariko
   Name: Kakariko_Ch_Cooking3
   NotPostNote: false
@@ -58845,6 +59041,7 @@
     NextFlag: Kakariko_Ch_Cooking3_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Kakariko_Ch_Cooking2
 - Location: Kakariko
   Name: Kakariko_Ch_Cooking4
   NotPostNote: false
@@ -58863,6 +59060,7 @@
     NextFlag: Kakariko_Ch_Cooking4_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Kakariko_Ch_Cooking3
 - Location: Kakariko
   Name: Kakariko_Ch_005
   NotPostNote: false
@@ -59686,6 +59884,7 @@
     NextFlag: Kakariko_Ch_005_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Kakariko_Ch_Cooking4
 - Location: Kakariko
   Name: Kakariko_Ch_004
   NotPostNote: false
@@ -59981,6 +60180,7 @@
     NextFlag: Kakariko_Ch_004_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Kakariko_Ch_005
 - Location: Kakariko
   Name: Kakariko_Cha_003
   NotPostNote: false
@@ -60590,6 +60790,7 @@
     NextFlag: Kakariko_Cha_003_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Kakariko_Ch_004
 - Location: MapArea_WestHateru
   Name: OldKorok_Help
   NotPostNote: false
@@ -60837,6 +61038,7 @@
     NextFlag: OldKorok_Help_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Kakariko_Cha_003
 - Location: Kakariko
   Name: Kakariko_Ch_006
   NotPostNote: false
@@ -61035,6 +61237,7 @@
     NextFlag: Kakariko_Ch_006_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: OldKorok_Help
 - Location: TabantaHatago
   Name: SetugenUmayadoMini_Umahonephoto
   NotPostNote: false
@@ -61169,6 +61372,7 @@
     NextFlag: SetugenUmayadoMini_Umahonephoto_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Kakariko_Ch_006
 - Location: RitoHatago
   Name: RitoUmayadoMini_HotRecipe
   NotPostNote: false
@@ -61464,6 +61668,7 @@
     NextFlag: RitoUmayadoMini_HotRecipe_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: SetugenUmayadoMini_Umahonephoto
 - Location: Rito
   Name: Rito_KeelSearch
   NotPostNote: false
@@ -61922,6 +62127,7 @@
     NextFlag: Rito_KeelSearch_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: RitoUmayadoMini_HotRecipe
 - Location: Rito
   Name: RitoMini_IceGolem
   NotPostNote: false
@@ -62117,6 +62323,7 @@
     NextFlag: RitoMini_IceGolem_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Rito_KeelSearch
 - Location: Rito
   Name: RitoMini_Cook
   NotPostNote: false
@@ -62412,6 +62619,7 @@
     NextFlag: RitoMini_Cook_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: RitoMini_IceGolem
 - Location: Rito
   Name: RitoMini_Flint
   NotPostNote: false
@@ -62707,6 +62915,7 @@
     NextFlag: RitoMini_Flint_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: RitoMini_Cook
 - Location: Goron
   Name: GoronMini_ImportGem
   NotPostNote: false
@@ -63004,6 +63213,7 @@
     NextFlag: GoronMini_ImportGem_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: RitoMini_Flint
 - Location: GoronSpa
   Name: GoronMini_WallCrackTBox
   NotPostNote: false
@@ -63579,6 +63789,7 @@
     NextFlag: GoronMini_WallCrackTBox_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: GoronMini_ImportGem
 - Location: Goron
   Name: GoronCityMini_BeatGolem
   NotPostNote: false
@@ -64019,6 +64230,7 @@
     NextFlag: GoronCityMini_BeatGolem_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: GoronMini_WallCrackTBox
 - Location: SouthMine
   Name: SanrokuMini_Lizard
   NotPostNote: false
@@ -64314,6 +64526,7 @@
     NextFlag: SanrokuMini_Lizard_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: GoronCityMini_BeatGolem
 - Location: ForestHatago
   Name: HyrulePlainMini_Balloon
   NotPostNote: false
@@ -64609,6 +64822,7 @@
     NextFlag: HyrulePlainMini_Balloon_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: SanrokuMini_Lizard
 - Location: Gerudo
   Name: Gerudo_Ch_Helmet
   NotPostNote: false
@@ -64742,6 +64956,7 @@
     NextFlag: Gerudo_Ch_Helmet_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: HyrulePlainMini_Balloon
 - Location: Gerudo
   Name: Gerudo_Ch_FindingValetta
   NotPostNote: false
@@ -65548,6 +65763,7 @@
     NextFlag: Gerudo_Ch_FindingValetta_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Gerudo_Ch_Helmet
 - Location: Gerudo
   Name: Gerudo_Ch_SandWarm
   NotPostNote: false
@@ -66311,6 +66527,7 @@
     NextFlag: Gerudo_Ch_SandWarm_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Gerudo_Ch_FindingValetta
 - Location: MapArea_GerudoDesert
   Name: Gerudo_Ch_SnowMT
   NotPostNote: false
@@ -66445,6 +66662,7 @@
     NextFlag: Gerudo_Ch_SnowMT_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Gerudo_Ch_SandWarm
 - Location: Gerudo
   Name: Gerudo_Ch_Poison
   NotPostNote: false
@@ -67244,6 +67462,7 @@
     NextFlag: Gerudo_Ch_Poison_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Gerudo_Ch_SnowMT
 - Location: Gerudo
   Name: Gerudo_Ch_SecretClub
   NotPostNote: false
@@ -67359,6 +67578,7 @@
     NextFlag: Gerudo_Ch_SecretClub_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Gerudo_Ch_Poison
 - Location: Gerudo
   Name: GerudoMiniJewel
   NotPostNote: false
@@ -67490,6 +67710,7 @@
     NextFlag: GerudoMiniJewel_Finished
     UpdateStep: true
   Type: Mini
+  prev_quest: Gerudo_Ch_SecretClub
 - Location: MapArea_GerudoDesert
   Name: Gerudo_Ch_SnowBoots
   NotPostNote: false
@@ -67706,6 +67927,7 @@
     NextFlag: Gerudo_Ch_SnowBoots_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: GerudoMiniJewel
 - Location: GerudoHatago
   Name: OneHundred
   NotPostNote: false
@@ -69534,6 +69756,7 @@
     NextFlag: OneHundred_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Gerudo_Ch_SnowBoots
 - Location: GerudoHatago
   Name: Gerudo_tsukamidake
   NotPostNote: false
@@ -69829,6 +70052,7 @@
     NextFlag: Gerudo_tsukamidake_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: OneHundred
 - Location: GerudoCanyon
   Name: Gerudo_HorseBuyer
   NotPostNote: false
@@ -69960,6 +70184,7 @@
     NextFlag: Gerudo_HorseBuyer_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Gerudo_tsukamidake
 - Location: Oasis
   Name: Oasis_Drug_Challenge
   NotPostNote: false
@@ -70173,6 +70398,7 @@
     NextFlag: Oasis_Drug_Challenge_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Gerudo_HorseBuyer
 - Location: MapArea_HyruleForest
   Name: KorokMini_RodShiren
   NotPostNote: false
@@ -70312,6 +70538,7 @@
     NextFlag: KorokMini_RodShiren_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Oasis_Drug_Challenge
 - Location: MapArea_HyruleForest
   Name: KorokMini_KorokShiren
   NotPostNote: false
@@ -70526,6 +70753,7 @@
     NextFlag: KorokMini_KorokShiren_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: KorokMini_RodShiren
 - Location: MapArea_HyruleForest
   Name: KorokMini_RiddleShiren
   NotPostNote: false
@@ -70903,6 +71131,7 @@
     NextFlag: KorokMini_RiddleShiren_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: KorokMini_KorokShiren
 - Location: MapArea_HyruleForest
   Name: KorokMini_UMAShiren
   NotPostNote: false
@@ -71205,6 +71434,7 @@
     NextFlag: KorokMini_UMAShiren_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: KorokMini_RiddleShiren
 - Location: HopeBridge
   Name: Bottle_Mes
   NotPostNote: false
@@ -71876,6 +72106,7 @@
     NextFlag: Bottle_Mes_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: KorokMini_UMAShiren
 - Location: WhiteZora
   Name: RinelSearch
   NotPostNote: false
@@ -72010,6 +72241,7 @@
     NextFlag: RinelSearch_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Bottle_Mes
 - Location: WhiteZora
   Name: Giant_ZoraMini
   NotPostNote: false
@@ -72205,6 +72437,7 @@
     NextFlag: Giant_ZoraMini_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: RinelSearch
 - Location: WhiteZora
   Name: Zora_FlogMini
   NotPostNote: false
@@ -72584,6 +72817,7 @@
     NextFlag: Zora_FlogMini_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Giant_ZoraMini
 - Location: WhiteZora
   Name: ZoraMini_ReliefSearch
   NotPostNote: false
@@ -72782,6 +73016,7 @@
     NextFlag: ZoraMini_ReliefSearch_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Zora_FlogMini
 - Location: WhiteZora
   Name: ZoraMini_DiveChallenge
   NotPostNote: false
@@ -73041,6 +73276,7 @@
     NextFlag: ZoraMini_DiveChallenge_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: ZoraMini_ReliefSearch
 - Location: WhiteZora
   Name: ZoraMini_HarvestingStone
   NotPostNote: false
@@ -73584,6 +73820,7 @@
     NextFlag: ZoraMini_HarvestingStone_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: ZoraMini_DiveChallenge
 - Location: WhiteZora
   Name: ZoraMini_FlowedWife
   NotPostNote: false
@@ -73987,6 +74224,7 @@
     NextFlag: ZoraMini_FlowedWife_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: ZoraMini_HarvestingStone
 - Location: LocationDungeon
   Name: CompleteDungeon
   NotPostNote: false
@@ -74006,6 +74244,7 @@
     NextFlag: CompleteDungeon_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: ZoraMini_FlowedWife
 - Location: HatenoBay
   Name: HateeluMini_Treasure
   NotPostNote: false
@@ -74134,6 +74373,7 @@
     NextFlag: HateeluMini_Treasure_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: CompleteDungeon
 - Location: FaronHatago000
   Name: MinamihateeluMini_touzoku
   NotPostNote: false
@@ -74412,6 +74652,7 @@
     NextFlag: MinamihateeluMini_touzoku_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: HateeluMini_Treasure
 - Location: FaronHatago000
   Name: HutagoHatago_Ch_001
   NotPostNote: false
@@ -74713,6 +74954,7 @@
     NextFlag: HutagoHatago_Ch_001_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: MinamihateeluMini_touzoku
 - Location: MapRegion_Firone
   Name: FironeMini_HeartPond
   NotPostNote: false
@@ -75185,6 +75427,7 @@
     NextFlag: FironeMini_HeartPond_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: HutagoHatago_Ch_001
 - Location: GameYabusame
   Name: FironeMini_GiantHorse
   NotPostNote: false
@@ -75395,6 +75638,7 @@
     NextFlag: FironeMini_GiantHorse_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: FironeMini_HeartPond
 - Location: FaronHatago002
   Name: FironeMini_HorseEnemy
   NotPostNote: false
@@ -76001,6 +76245,7 @@
     NextFlag: FironeMini_HorseEnemy_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: FironeMini_GiantHorse
 - Location: FaronHatago001
   Name: FironeMini_TerribleThunder
   NotPostNote: false
@@ -76566,6 +76811,7 @@
     NextFlag: FironeMini_TerribleThunder_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: FironeMini_HorseEnemy
 - Location: TabantaBridgeHatago
   Name: TabantaBridgeMini_Sundial
   NotPostNote: false
@@ -77009,6 +77255,7 @@
     NextFlag: TabantaBridgeMini_Sundial_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: FironeMini_TerribleThunder
 - Location: HyruleWestHatago
   Name: MarittaMini_BigWhales
   NotPostNote: false
@@ -77421,6 +77668,7 @@
     NextFlag: MarittaMini_BigWhales_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: TabantaBridgeMini_Sundial
 - Location: RiverSideHatago
   Name: RiversideMini_CastleWeapon
   NotPostNote: false
@@ -77716,6 +77964,7 @@
     NextFlag: RiversideMini_CastleWeapon_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: MarittaMini_BigWhales
 - Location: RiverSideHatago
   Name: RiversideMini_RoyalRecipe
   NotPostNote: false
@@ -78017,6 +78266,7 @@
     NextFlag: RiversideMini_RoyalRecipe_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: RiversideMini_CastleWeapon
 - Location: NorthHatelHatago
   Name: isso_treasure_mini
   NotPostNote: false
@@ -78412,6 +78662,7 @@
     NextFlag: isso_treasure_mini_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: RiversideMini_RoyalRecipe
 - Location: HyruleDepthHatago
   Name: My_Hero
   NotPostNote: false
@@ -78706,6 +78957,7 @@
     NextFlag: My_Hero_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: isso_treasure_mini
 - Location: HyruleDepthHatago
   Name: Carnivorous_Boy
   NotPostNote: false
@@ -78837,6 +79089,7 @@
     NextFlag: Carnivorous_Boy_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: My_Hero
 - Location: HyruleDepthHatago
   Name: HyruleDepthMini_WhiteHorse
   NotPostNote: false
@@ -79132,6 +79385,7 @@
     NextFlag: HyruleDepthMini_WhiteHorse_Finish
     UpdateStep: true
   Type: Mini
+  prev_quest: Carnivorous_Boy
 - Location: Unknown
   Name: bf2_collabo
   NotPostNote: false
@@ -79141,6 +79395,7 @@
   - {AttentionOff: false, MessageName: Desc, Name: Ready, NextFlag: bf2_collabo_Activated, UpdateStep: true}
   - {AttentionOff: false, MessageName: Finish, Name: Finish, NextFlag: bf2_collabo_Finish, UpdateStep: true}
   Type: Mini
+  prev_quest: HyruleDepthMini_WhiteHorse
 - Location: ''
   Name: MiniGame_ParasailArchery
   NotPostNote: true
@@ -79666,6 +79921,7 @@
     NextFlag: MiniGame_ParasailArchery_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: bf2_collabo
 - Location: ''
   Name: MiniGame_HillTower_BirdMan
   NotPostNote: true
@@ -79944,6 +80200,7 @@
     NextFlag: MiniGame_HillTower_BirdMan_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: MiniGame_ParasailArchery
 - Location: ''
   Name: MiniGame_Bowling
   NotPostNote: true
@@ -80222,6 +80479,7 @@
     NextFlag: MiniGame_Bowling_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: MiniGame_HillTower_BirdMan
 - Location: ''
   Name: MiniGame_HorsebackArchery
   NotPostNote: true
@@ -80437,6 +80695,7 @@
     NextFlag: MiniGame_HorsebackArchery_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: MiniGame_Bowling
 - Location: ''
   Name: MiniGame_SmashGolf
   NotPostNote: true
@@ -80827,6 +81086,7 @@
     NextFlag: MiniGame_SmashGolf_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: MiniGame_HorsebackArchery
 - Location: ''
   Name: ShieldofKolog_mini
   NotPostNote: true
@@ -81056,6 +81316,7 @@
     NextFlag: ShieldofKolog_mini_Goal
     UpdateStep: false
   Type: Sub
+  prev_quest: MiniGame_SmashGolf
 - Location: ''
   Name: SunazarashiRace_mini
   NotPostNote: true
@@ -81489,6 +81750,7 @@
     NextFlag: SunazarashiRace_mini_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: ShieldofKolog_mini
 - Location: ''
   Name: TutorialDungeon
   NotPostNote: true
@@ -81622,6 +81884,7 @@
     NextFlag: TutorialDungeon_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: SunazarashiRace_mini
 - Location: ''
   Name: GoronCamp_mini
   NotPostNote: true
@@ -82337,6 +82600,7 @@
     NextFlag: GoronCamp_mini_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: TutorialDungeon
 - Location: ''
   Name: MiniGame_TimeLimitHunting
   NotPostNote: true
@@ -82510,6 +82774,7 @@
     NextFlag: MiniGame_TimeLimitHunting_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: GoronCamp_mini
 - Location: ''
   Name: MiniGame_ShieldSurfing
   NotPostNote: true
@@ -82842,6 +83107,7 @@
     NextFlag: MiniGame_ShieldSurfing_Exit
     UpdateStep: false
   Type: Sub
+  prev_quest: MiniGame_TimeLimitHunting
 - Location: ''
   Name: MiniGame_KitakkareBF
   NotPostNote: true
@@ -83020,6 +83286,7 @@
     NextFlag: MiniGame_KitakkareBF_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: MiniGame_ShieldSurfing
 - Location: ''
   Name: MiniGame_HorseRace
   NotPostNote: true
@@ -83276,6 +83543,7 @@
     NextFlag: MiniGame_HorseRace_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: MiniGame_KitakkareBF
 - Location: ''
   Name: Gerudo_CarryIce_mini
   NotPostNote: true
@@ -83908,6 +84176,7 @@
     NextFlag: Gerudo_CarryIce_mini_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: MiniGame_HorseRace
 - Location: ''
   Name: MiniGame_ParasailRide
   NotPostNote: true
@@ -84136,6 +84405,7 @@
     NextFlag: MiniGame_ParasailRide_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: Gerudo_CarryIce_mini
 - Location: ''
   Name: MiniGame_GambleTreasureBox
   NotPostNote: true
@@ -84309,6 +84579,7 @@
     NextFlag: MiniGame_GambleTreasureBox_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: MiniGame_ParasailRide
 - Location: ''
   Name: MiniGame_Crosscountry
   NotPostNote: true
@@ -84579,6 +84850,7 @@
     NextFlag: MiniGame_Crosscountry_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: MiniGame_GambleTreasureBox
 - AocVersion: 1
   Location: ''
   Name: MiniGame100enemy
@@ -84669,3 +84941,4 @@
     NextFlag: MiniGame100enemy_Finish
     UpdateStep: false
   Type: Sub
+  prev_quest: MiniGame_Crosscountry

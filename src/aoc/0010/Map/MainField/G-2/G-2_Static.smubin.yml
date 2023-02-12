@@ -8969,11 +8969,6 @@ Objs:
   SRTHash: -138270635
   Translate: [2170.90405, 596.382263, -2910.39429]
   UnitConfigName: FldObj_CliffDeathMt_D_04_Far
-- HashId: !u 0xa81053b8
-  Rotate: [0.0, 0.0, -0.439999878]
-  SRTHash: -1872701524
-  Translate: [1548.98389, 431.0755, -2084.72974]
-  UnitConfigName: FldObj_DeathMtRuinGuardian_A
 - HashId: !u 0xa8129e89
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x1ffc5dd5}
@@ -10186,8 +10181,8 @@ Objs:
   - {DefinitionName: SensorBind, DestUnitHashId: !u 0x468f8a9a}
   Rotate: 0.174532905
   SRTHash: -546318475
-  Scale: 3.0
-  Translate: [1650.28015, 528.288513, -2660.34131]
+  Scale: 170.0
+  Translate: [1637.27039, 482.102051, -2831.53271]
   UnitConfigName: Area
 - HashId: !u 0xbbf88867
   Rotate: -1.13999987
@@ -10321,7 +10316,7 @@ Objs:
   SRTHash: -829426957
   Translate: [1934.63623, 663.532776, -2247.43726]
   UnitConfigName: VolcanoEruptionField
-- '!Parameters': {DropTable: Ordin, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: MoneyRelics, SharpWeaponJudgeType: 0}
   HashId: !u 0xbe57b92a
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x2739409a}
@@ -14485,13 +14480,6 @@ Objs:
   Scale: 1.0
   Translate: [1734.14673, 522.378357, -2738.72144]
   UnitConfigName: DgnObj_FirePillar
-- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: '', SaveFlagOnOffType: 0}
-  HashId: !u 0xffffeb33
-  LinksToObj:
-  - {DefinitionName: Delete, DestUnitHashId: !u 0xa81053b8}
-  SRTHash: 0
-  Translate: [1556.0459, 442.171875, -2079.47437]
-  UnitConfigName: LinkTagAnd
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: IsPlayed_Demo700_0, SaveFlagOnOffType: 0}
   HashId: !u 0xffffeb34
   LinksToObj:

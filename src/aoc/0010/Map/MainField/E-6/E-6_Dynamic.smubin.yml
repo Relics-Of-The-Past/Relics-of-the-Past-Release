@@ -16685,8 +16685,8 @@ Objs:
   Translate: [-319.703522, 127.077003, 1912.84216]
   UnitConfigName: PutRupee_Blue
 - '!Parameters':
-    AddParam: 0
-    AddSpecialFlag: 0
+    AddParam: 5
+    AddSpecialFlag: -2147483632
     DropTable: Normal
     EnemyOwnItem: false
     IsCreateSharpWeapon: false
@@ -16694,13 +16694,13 @@ Objs:
     IsFixedPlace: false
     IsPlayerPut: false
     IsWeaponCreateByRawLife: false
-    LevelSensorMode: 2
-    Life: -1
-    SharpWeaponJudgeType: 3
+    LevelSensorMode: 0
+    Life: 150
+    SharpWeaponJudgeType: 0
   HashId: !u 0xfffd486a
   SRTHash: 0
   Translate: [-330.091583, 126.680305, 1913.24072]
-  UnitConfigName: Weapon_Bow_036
+  UnitConfigName: Weapon_Bow_023
 - '!Parameters': {EquipItem1: Weapon_Sword_002, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 2,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xfffd486f
@@ -16781,6 +16781,7 @@ Objs:
     LevelSensorMode: 0
     NearCreateAppearID: 0
     NearCreateAppearType: 0
+    ResetType: -1
     RotAngle: 0.0
     SharpWeaponJudgeType: 1
     TerritoryArea: 0.0
@@ -16790,34 +16791,34 @@ Objs:
   SRTHash: 0
   Translate: [-656.733582, 161.5, 1609.60706]
   UnitConfigName: Kevin_The_Electric_Lizalfos
-- '!Parameters': {NoFlag: true}
+- '!Parameters': {NoFlag: true, ResetType: 0}
   HashId: !u 0xfffd4892
   Rotate: [-1.43846881, 0.400000006, -0.268342286]
   SRTHash: 0
   Translate: [-972.311829, 188.714905, 1560.90015]
   UnitConfigName: BarrelBomb
-- '!Parameters': {NoFlag: true}
+- '!Parameters': {NoFlag: true, ResetType: 0}
   HashId: !u 0xfffd4893
   SRTHash: 0
   Translate: [-971.939941, 188.714905, 1555.40222]
   UnitConfigName: BarrelBomb
-- '!Parameters': {NoFlag: true}
+- '!Parameters': {NoFlag: true, ResetType: 0}
   HashId: !u 0xfffd4894
   SRTHash: 0
   Translate: [-976.945129, 188.714905, 1562.19763]
   UnitConfigName: BarrelBomb
-- '!Parameters': {NoFlag: true}
+- '!Parameters': {NoFlag: true, ResetType: 0}
   HashId: !u 0xfffd4895
   SRTHash: 0
   Translate: [-989.337341, 189.914902, 1553.13928]
   UnitConfigName: BarrelBomb
-- '!Parameters': {NoFlag: true}
+- '!Parameters': {NoFlag: true, ResetType: 0}
   HashId: !u 0xfffd4896
   SRTHash: 0
   Scale: 1.0
   Translate: [-593.461487, 171.302444, 1808.64001]
   UnitConfigName: DgnObj_BoxShutter_4x4x4
-- '!Parameters': {NoFlag: true}
+- '!Parameters': {NoFlag: true, ResetType: 0}
   HashId: !u 0xfffd4899
   Rotate: 0.600000024
   SRTHash: 0
@@ -16831,13 +16832,13 @@ Objs:
   SRTHash: 0
   Translate: [-593.555725, 175.202896, 1808.57495]
   UnitConfigName: Enemy_Guardian_Mini_Junior_Dark
-- '!Parameters': {NoFlag: true}
+- '!Parameters': {NoFlag: true, ResetType: 0}
   HashId: !u 0xfffd48a6
   SRTHash: 0
   Scale: 1.0
   Translate: [-593.546753, 173.302444, 1796.06165]
   UnitConfigName: DgnObj_BoxShutter_4x4x4
-- '!Parameters': {NoFlag: true}
+- '!Parameters': {NoFlag: true, ResetType: 0}
   HashId: !u 0xfffd48a7
   SRTHash: 0
   Scale: 1.0
@@ -16857,14 +16858,14 @@ Objs:
   SRTHash: 0
   Translate: [-593.632324, 177.402893, 1796.03198]
   UnitConfigName: Enemy_Guardian_Mini_Junior_Dark
-- '!Parameters': {NoFlag: true}
+- '!Parameters': {NoFlag: true, ResetType: 0}
   HashId: !u 0xfffd48aa
   Rotate: 0.600000024
   SRTHash: 0
   Scale: 4.16114044
   Translate: [-570.272522, 172.902451, 1810.54395]
   UnitConfigName: DgnObj_BoxShutter_4x4x4
-- '!Parameters': {AddParam: 0, IsFixedPlace: true, NoFlag: true}
+- '!Parameters': {AddParam: 0, IsFixedPlace: true, NoFlag: true, ResetType: 0}
   HashId: !u 0xfffd48ab
   Rotate: 0.600000024
   SRTHash: 0
@@ -16907,13 +16908,13 @@ Objs:
   SRTHash: 0
   Translate: [-766.375305, 171.193161, 1562.75574]
   UnitConfigName: Weapon_Sword_024
-- '!Parameters': {AddParam: 0, IsFixedPlace: true, NoFlag: true}
+- '!Parameters': {AddParam: 0, IsFixedPlace: true, NoFlag: true, ResetType: 0}
   HashId: !u 0xfffd48b7
   Rotate: 0.600000024
   SRTHash: 0
   Translate: [-574.88147, 189.697693, 1804.64038]
   UnitConfigName: DgnObj_BoxNet_A
-- '!Parameters': {AddParam: 0, IsFixedPlace: true, NoFlag: true}
+- '!Parameters': {AddParam: 0, IsFixedPlace: true, NoFlag: true, ResetType: 0}
   HashId: !u 0xfffd48b8
   Rotate: 0.600000024
   SRTHash: 0
@@ -16991,7 +16992,7 @@ Objs:
   SRTHash: 0
   Translate: [-631.530151, 176.684296, 1916.75378]
   UnitConfigName: Enemy_Keese_Electric
-- '!Parameters': {AddParam: 0, IsFixedPlace: true, NoFlag: true}
+- '!Parameters': {AddParam: 0, IsFixedPlace: true, NoFlag: true, ResetType: 0}
   HashId: !u 0xfffd48c3
   Rotate: 0.600000024
   SRTHash: 0
@@ -17123,7 +17124,7 @@ Objs:
   Scale: 1.20000005
   Translate: [-962.66217, 210.9599, 1611.52222]
   UnitConfigName: FldObj_RuinGuardianArm_A_01_RotP
-- '!Parameters': {DropTable: Normal, InitMotionStatus: 1, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 1, IsEnemyLiftable: true, IsPlayerPut: false, ResetType: 0, SharpWeaponJudgeType: 0}
   HashId: !u 0xfffd48f0
   Rotate: -0.169204503
   SRTHash: 1361920455
@@ -17195,19 +17196,11 @@ Objs:
   SRTHash: -1241710618
   Translate: [-340.420929, 125.482224, 1892.73853]
   UnitConfigName: Enemy_Moriblin_Senior
-- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_BrokenLeg_S, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_BrokenLeg_L, GuardianLegType4: Guardian_A_BrokenLeg_S,
-    GuardianLegType5: Guardian_A_Leg, IsSuspended: false, SharpWeaponJudgeType: 1}
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, IsSuspended: false, SharpWeaponJudgeType: 1}
   HashId: !u 0xfffd48fd
-  LinksToObj:
-  - {DefinitionName: LifeZero, DestUnitHashId: !u 0x73abe28c}
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
-    DestUnitHashId: !u 0x21b746e8
   Rotate: -3.0
-  SRTHash: 1082078387
+  SRTHash: 0
   Translate: [-322.101318, 130.676926, 1975.28687]
-  UniqueName: Guardian_BootUp_2
   UnitConfigName: Enemy_Guardian_A_Fixed_Moss
 - '!Parameters': {BeamRange: 0.0, DropTable: Normal, EquipItem1: Weapon_Lsword_014, EquipItem2: Weapon_Spear_015, IsAnnihilateDungeonEnemy: false,
     IsNearCreate: false, LevelSensorMode: 2, NearCreateAppearID: 0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0}

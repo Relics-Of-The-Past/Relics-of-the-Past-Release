@@ -2162,6 +2162,13 @@ Objs:
   Scale: 2.0
   Translate: [-2487.09839, 311.209747, 592.180542]
   UnitConfigName: ActorObserverTag
+- HashId: !u 0x5a1aba1d
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x764ece04}
+  Rotate: [-0.167148694, 1.03466928, -0.0779739842]
+  SRTHash: -44914856
+  Translate: [-2108.65552, 200.036682, 680.346558]
+  UnitConfigName: FldObj_CliffYellowWall_A_09
 - HashId: !u 0x5a3b2991
   LinksToObj:
   - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xaea12aef}
@@ -6017,13 +6024,6 @@ Objs:
   SRTHash: 0
   Translate: [-2471.65527, 314.502075, 551.063904]
   UnitConfigName: Weapon_Spear_049
-- HashId: !u 0x5a1aba1d
-  LinksToObj:
-  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x764ece04}
-  Rotate: [-0.167148694, 1.03466928, -0.0779739842]
-  SRTHash: -44914856
-  Translate: [-2108.65552, 200.036682, 680.346558]
-  UnitConfigName: FldObj_CliffYellowWall_A_09
 - '!Parameters': {DeleteEndNushiTime: false, DropTable: Normal, EnableNoEntryAreaCheck: false, IsLocatorCreate: false, SharpWeaponJudgeType: 0,
     TerritoryArea: 0.0}
   HashId: !u 0xfffe0152

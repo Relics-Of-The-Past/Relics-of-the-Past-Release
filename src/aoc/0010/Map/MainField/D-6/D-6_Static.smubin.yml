@@ -16680,13 +16680,15 @@ Objs:
   Scale: 0.5
   Translate: [-1125.77283, 242.971008, 1912.68628]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {DropActor: Obj_HeartUtuwa_A_01, EnableRevival: false, IsInGround: false, IsNearCreate: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_HeartUtuwa_A_01, EnableRevival: false, IsInGround: false, IsNearCreate: true, ResetType: 0,
+    SharpWeaponJudgeType: 0}
   HashId: !u 0xfffd48c1
   Rotate: 6.0
   SRTHash: -1709674313
   Translate: [-1124.6897, 237.371552, 1905.72852]
   UnitConfigName: TBox_Dungeon_Stone
-- '!Parameters': {DropActor: Obj_StaminaUtuwa_B, EnableRevival: false, IsInGround: false, IsNearCreate: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_StaminaUtuwa_B, EnableRevival: false, IsInGround: false, IsNearCreate: true, ResetType: 0,
+    SharpWeaponJudgeType: 0}
   HashId: !u 0xfffd48c2
   Rotate: 5.4000001
   SRTHash: -1709674313
@@ -16758,6 +16760,14 @@ Objs:
   SRTHash: 0
   Translate: [-1102.81384, 156.004333, 1168.98853]
   UnitConfigName: Enemy_Guardian_Mini_Junior_Dark
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: IsPlayed_Demo103_0, SaveFlagOnOffType: 0}
+  HashId: !u 0xfffd48c7
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfffd48c1}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfffd48c2}
+  SRTHash: 0
+  Translate: [-1123.42639, 239.371552, 1906.12659]
+  UnitConfigName: LinkTagAnd
 Rails:
 - '!Parameters': {DisableRenderMap: false, IsEnableHorseTrace: true, IsWalkable: false, RouteId: A}
   HashId: !u 0x09e10a24

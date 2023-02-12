@@ -575,3 +575,52 @@ entries:
             - 0
             - 4
       - text: "If you're lookin' for Yunobo, he rushed\noff earlier, baaaack to Goron City."
+  talk26:
+    attributes: Npc_Goron030
+    contents:
+      - text: "This is one of the feeeew cannons that are\nstiiil usable..."
+  talk27:
+    attributes: Npc_Goron030
+    contents:
+      - text: "Those lizards over\ntheeeeerre stole the lever to\nthe farthest cannon."
+  talk28:
+    attributes: Npc_Goron030
+    contents:
+      - text: "And there seems to have been "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: a cave-in
+      - control:
+          kind: reset_colour
+      - text: " over at\nthe entrance to our supply storage..."
+  talk29:
+    attributes: Npc_Goron030
+    contents:
+      - text: "Which we can't remove withouuuut\nusing that "
+      - control:
+          kind: set_colour
+          colour: red
+      - text: canoooon
+      - control:
+          kind: reset_colour
+      - text: "."
+  talk30:
+    attributes: Npc_Goron030
+    contents:
+      - text: "So now we caaaan't get in\nto get more supplies."
+  talk31:
+    attributes: Npc_Goron030
+    contents:
+      - control:
+          kind: text_size
+          percent: 80
+      - control:
+          kind: set_colour
+          colour: light_grey
+      - text: "oh yeah Yunobo also got trapped\nin there too I guess..."
+      - control:
+          kind: text_size
+          percent: 100
+      - control:
+          kind: reset_colour
