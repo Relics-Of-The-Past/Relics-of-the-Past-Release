@@ -17851,6 +17851,14 @@ Objs:
   SRTHash: -2107917187
   Translate: [-3239.35718, 126.601051, 2232.9043]
   UnitConfigName: EnemyFortressMgrTag
+- '!Parameters': {ChaseRange: 1200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
+    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
+    IsSuspended: true, SharpWeaponJudgeType: 1}
+  HashId: !u 0xffb62cd9
+  Rotate: [0.0, 0.0, 0.0]
+  SRTHash: 1466309386
+  Translate: [-3806.13159, 246.931122, 2127.75]
+  UnitConfigName: Enemy_Guardian_A
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
   HashId: !u 0xffb62cda
   LinksToObj:
@@ -17867,14 +17875,6 @@ Objs:
   SRTHash: 0
   Translate: [-3806.13159, 249.931122, 2127.75]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {ChaseRange: 1200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg, GuardianLegType1: Guardian_A_Leg,
-    GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg, GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg,
-    IsSuspended: true, SharpWeaponJudgeType: 1}
-  HashId: !u 0xffb62cd9
-  Rotate: [0.0, 0.0, 0.0]
-  SRTHash: 1466309386
-  Translate: [-3806.13159, 246.931122, 2127.75]
-  UnitConfigName: Enemy_Guardian_A
 - '!Parameters':
     ChaseRange: 1200.0
     DropTable: Normal

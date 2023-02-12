@@ -7077,7 +7077,8 @@ Objs:
   SRTHash: -152613556
   Translate: [-2285.07153, 230.363937, -720.31897]
   UnitConfigName: Item_Plant_O
-- HashId: !u 0xfffa74ff
+- '!Parameters': {ResetType: 0}
+  HashId: !u 0xfffa74ff
   SRTHash: 0
   Translate: [-2435.69385, 331.093018, -510.852905]
   UnitConfigName: Item_Ore_J

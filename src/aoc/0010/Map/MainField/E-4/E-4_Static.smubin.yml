@@ -18878,6 +18878,14 @@ Objs:
   SRTHash: -1923163669
   Translate: [-199.68080139160156, 195.50279235839844, -875.6137084960938]
   UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters': {EquipItem1: Weapon_Lsword_100, FortressEatPer: -1, IsNearCreate: true,
+    IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 3,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffecf73e
+  Rotate: -7.940000534057617
+  SRTHash: 0
+  Translate: [-182.4957275390625, 211.67539978027344, -873.1128540039062]
+  UnitConfigName: Enemy_Yiga_New
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0xffecf762
   LinksToObj:
@@ -19297,12 +19305,6 @@ Objs:
   - '!Parameters': {AppearFade: false}
     DefinitionName: Create
     DestUnitHashId: !u 0x54eb0976
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0xffecf9b6
-  - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSigOnOnly
-    DestUnitHashId: !u 0xffecf9b8
   SRTHash: -1377023422
   Translate: [-254.0, 294.835205078125, -1027.06298828125]
   UnitConfigName: LinkTagOr
@@ -20176,14 +20178,20 @@ Objs:
   Translate: [-254.4481658935547, 380.52520751953125, -1060.320556640625]
   UnitConfigName: LookTag
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
-    IsNearCreate: true, Shape: Cylinder}
+    IsNearCreate: false, Shape: Box}
   HashId: !u 0xffecf9d9
   LinksToObj:
   - '!Parameters': {NoAutoDemoMember: false}
-    DefinitionName: BasicSig
+    DefinitionName: BasicSigOnOnly
     DestUnitHashId: !u 0xffecf9dc
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xffecfa95
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xffecfa98
   SRTHash: -1615176547
-  Scale: [28.0, 24.0, 28.0]
+  Scale: [27.0, 24.0, 27.0]
   Translate: [-254.0648651123047, 313.6246337890625, -1060.83544921875]
   UnitConfigName: Area
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false}
@@ -20200,7 +20208,7 @@ Objs:
   - {DefinitionName: BasicSig, DestUnitHashId: !u 0xffecfa10}
   Rotate: 1.0200061798095703
   SRTHash: 458173223
-  Translate: [-154.9550323486328, 255.0094757080078, -871.89599609375]
+  Translate: [-154.974853515625, 255.0094757080078, -871.893310546875]
   UnitConfigName: LinkTagAnd
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
   HashId: !u 0xffecf9dc
@@ -20372,33 +20380,32 @@ Objs:
   SRTHash: -1085475964
   Translate: [-240.33763122558594, 316.378662109375, -1044.3372802734375]
   UnitConfigName: ActorObserverTag
-- '!Parameters': {IncrementSave: true, NoChangeSignal: false, SaveFlag: Defeated_Gatehouse_Num,
-    SaveFlagOnOffType: 0}
+- '!Parameters': {IncrementSave: true, NoChangeSignal: false, SaveFlag: '', SaveFlagOnOffType: 0}
   HashId: !u 0xffecf9ff
   LinksToObj:
   - {DefinitionName: BasicSig, DestUnitHashId: !u 0xffecfa00}
   - {DefinitionName: BasicSig, DestUnitHashId: !u 0xffecfa01}
   SRTHash: 0
-  Translate: [-235.9869384765625, 301.79571533203125, -817.498291015625]
+  Translate: [-246.5605926513672, 301.79571533203125, -808.4204711914062]
   UnitConfigName: LinkTagOr
 - '!Parameters': {IncrementSave: false, NoChangeSignal: false, SaveFlag: IsDefeated_Gatehouse1,
     SaveFlagOnOffType: 1}
   HashId: !u 0xffecfa00
   SRTHash: 0
-  Translate: [-230.69398498535156, 300.5957336425781, -819.397216796875]
+  Translate: [-243.37454223632812, 305.19573974609375, -814.6046752929688]
   UnitConfigName: LinkTagAnd
 - HashId: !u 0xffecfa01
   LinksToObj:
   - {DefinitionName: BasicSig, DestUnitHashId: !u 0xffecfa02}
   SRTHash: 0
-  Translate: [-224.90533447265625, 303.9957275390625, -813.91162109375]
+  Translate: [-248.87181091308594, 303.9957275390625, -810.662109375]
   UnitConfigName: LinkTagAnd
 - '!Parameters': {EventFlowEntryName: AdvanceQuest_Gatehouses, EventFlowName: HyruleCastle,
     IsEndlessEvent: false, LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
   HashId: !u 0xffecfa02
   Rotate: -2.094395160675049
   SRTHash: 1991561031
-  Translate: [-253.05401611328125, 303.9957275390625, -828.0184326171875]
+  Translate: [-254.35794067382812, 303.9957275390625, -817.33544921875]
   UnitConfigName: EventTag
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', FieldBodyGroup: 0,
     ForceCalcInEvent: false, Shape: Sphere}
@@ -20445,27 +20452,26 @@ Objs:
   SRTHash: -837872448
   Translate: [-500.9797668457031, 126.08100128173828, -1013.3212890625]
   UnitConfigName: TBox_Field_Iron
-- '!Parameters': {IncrementSave: true, NoChangeSignal: false, SaveFlag: Defeated_Gatehouse_Num,
-    SaveFlagOnOffType: 0}
+- '!Parameters': {IncrementSave: true, NoChangeSignal: false, SaveFlag: '', SaveFlagOnOffType: 0}
   HashId: !u 0xffecfa10
   LinksToObj:
   - {DefinitionName: BasicSig, DestUnitHashId: !u 0xffecfa11}
   - {DefinitionName: BasicSig, DestUnitHashId: !u 0xffecfa12}
   SRTHash: 0
-  Translate: [-227.86904907226562, 298.9957275390625, -814.5924682617188]
+  Translate: [-228.97430419921875, 298.9957275390625, -811.5755615234375]
   UnitConfigName: LinkTagOr
 - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: IsDefeated_Gatehouse2,
     SaveFlagOnOffType: 1}
   HashId: !u 0xffecfa11
   SRTHash: 0
-  Translate: [-234.05950927734375, 298.9957275390625, -814.049560546875]
+  Translate: [-234.23106384277344, 301.19573974609375, -814.7214965820312]
   UnitConfigName: LinkTagAnd
 - '!Parameters': {EventFlowEntryName: AdvanceQuest_Gatehouses, EventFlowName: HyruleCastle,
     IsEndlessEvent: false, LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
   HashId: !u 0xffecfa12
   Rotate: -2.094395160675049
   SRTHash: 1991561031
-  Translate: [-253.6658477783203, 303.9957275390625, -832.5172119140625]
+  Translate: [-237.47921752929688, 303.9957275390625, -823.7630615234375]
   UnitConfigName: EventTag
 - HashId: !u 0xffecfa14
   LinksToObj:
@@ -20713,7 +20719,7 @@ Objs:
   Translate: [-324.2370300292969, 196.66905212402344, -834.6431274414062]
   UnitConfigName: LinkTagAnd
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
-    Shape: Box}
+    IsNearCreate: true, Shape: Box}
   HashId: !u 0xffecfa35
   LinksToObj:
   - '!Parameters': {NoAutoDemoMember: false}
@@ -20845,7 +20851,7 @@ Objs:
   UnitConfigName: TwnObj_HyruleCastleObject_WeaponStand_A_01
 - '!Parameters': {IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true,
     IsPlayerPut: false, IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1,
-    SharpWeaponJudgeType: 0}
+    ResetType: 0, SharpWeaponJudgeType: 0}
   HashId: !u 0xffecfa46
   LinksToObj:
   - {DefinitionName: DeadUp, DestUnitHashId: !u 0xffecfa52}
@@ -21145,9 +21151,9 @@ Objs:
   SRTHash: 1687336004
   Translate: [-90.46228790283203, 143.61221313476562, -362.75421142578125]
   UnitConfigName: Enemy_ChuChu_Junior
-- '!Parameters': {AddParam: 35, AddSpecialFlag: -2147483647, DropTable: Normal, EnemyOwnItem: true,
+- '!Parameters': {AddParam: 35, AddSpecialFlag: 3, DropTable: Normal, EnemyOwnItem: true,
     IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false,
-    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, ResetType: 0, SharpWeaponJudgeType: 0}
   HashId: !u 0xffecfa73
   Rotate: [-1.6413557529449463, 0.0, -6.283720970153809]
   SRTHash: 0
@@ -21179,7 +21185,24 @@ Objs:
   SRTHash: RelicsEntry
   Translate: [-512.2433471679688, 132.90122985839844, -368.09906005859375]
   UnitConfigName: Enemy_Guardian_A
-- HashId: !u 0xffecfa7b
+- '!Parameters': {EquipItem1: Weapon_Lsword_003, FortressEatPer: -1, IsNearCreate: false,
+    IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 3,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffecfa79
+  Rotate: 3.799999952316284
+  SRTHash: 0
+  Translate: [-192.5436248779297, 195.867919921875, -942.2976684570312]
+  UnitConfigName: Enemy_Lizalfos_Malice
+- '!Parameters': {EquipItem1: Weapon_Spear_009, FortressEatPer: -1, IsNearCreate: false,
+    IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 3,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffecfa7a
+  Rotate: 0.9999999403953552
+  SRTHash: 0
+  Translate: [-196.09329223632812, 195.867919921875, -947.5967407226562]
+  UnitConfigName: Enemy_Lizalfos_Malice
+- '!Parameters': {ResetType: 1}
+  HashId: !u 0xffecfa7b
   SRTHash: 0
   Translate: [-254.0, 192.0, -1061.5]
   UnitConfigName: Item_Ore_J
@@ -21265,38 +21288,6 @@ Objs:
   SRTHash: 0
   Translate: [158.76377868652344, 123.50536346435547, 80.71539306640625]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {EquipItem1: Weapon_Lsword_100, FortressEatPer: -1, IsNearCreate: true,
-    IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 3,
-    TerritoryArea: 0.0, WaitTime: 1.0}
-  HashId: !u 0xffecf73e
-  Rotate: -7.940000534057617
-  SRTHash: 0
-  Translate: [-182.4957275390625, 211.67539978027344, -873.1128540039062]
-  UnitConfigName: Enemy_Yiga_New
-- '!Parameters': {EquipItem1: Weapon_Spear_009, FortressEatPer: -1, IsNearCreate: false,
-    IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 3,
-    TerritoryArea: 0.0, WaitTime: 1.0}
-  HashId: !u 0xffecf8a9
-  Rotate: 2.799999952316284
-  SRTHash: 564413069
-  Translate: [-194.4231719970703, 195.46792602539062, -956.0545654296875]
-  UnitConfigName: Enemy_Lizalfos_Dark
-- '!Parameters': {EquipItem1: Weapon_Lsword_003, FortressEatPer: -1, IsNearCreate: false,
-    IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 3,
-    TerritoryArea: 0.0, WaitTime: 1.0}
-  HashId: !u 0xffecfa79
-  Rotate: 3.799999952316284
-  SRTHash: 0
-  Translate: [-192.5436248779297, 195.867919921875, -942.2976684570312]
-  UnitConfigName: Enemy_Lizalfos_Malice
-- '!Parameters': {EquipItem1: Weapon_Spear_009, FortressEatPer: -1, IsNearCreate: false,
-    IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 3,
-    TerritoryArea: 0.0, WaitTime: 1.0}
-  HashId: !u 0xffecfa7a
-  Rotate: 0.9999999403953552
-  SRTHash: 0
-  Translate: [-196.09329223632812, 195.867919921875, -947.5967407226562]
-  UnitConfigName: Enemy_Lizalfos_Malice
 - '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
     Shape: Box}
   HashId: !u 0xffecfa8f
@@ -21352,6 +21343,59 @@ Objs:
   SRTHash: 0
   Translate: [-117.2160415649414, 215.014404296875, -844.218017578125]
   UnitConfigName: EnemyNoticeTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: '',
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xffecfa95
+  LinksToObj:
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xffecfa96}
+  SRTHash: 0
+  Scale: 5.0
+  Translate: [-270.9897155761719, 337.4124755859375, -1140.407470703125]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {EventFlowEntryName: DisableSaveAndWarp, EventFlowName: Common, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0xffecfa96
+  Rotate: 0.0
+  SRTHash: 295738227
+  Scale: 5.0
+  Translate: [-286.9866638183594, 341.1231994628906, -1142.44384765625]
+  UnitConfigName: EventTag
+- '!Parameters': {EventFlowEntryName: EnableSaveAndWarp, EventFlowName: Common, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0xffecfa97
+  Rotate: 0.0
+  SRTHash: 295738227
+  Scale: 5.0
+  Translate: [-248.6678009033203, 341.1231994628906, -1137.15478515625]
+  UnitConfigName: EventTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: '',
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xffecfa98
+  LinksToObj:
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xffecfa97}
+  SRTHash: 0
+  Scale: 5.0
+  Translate: [-241.349853515625, 337.4124755859375, -1136.9110107421875]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: EvilMasterSword_Activated,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xffecfa99
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xffecfa35}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xffecfa36}
+  Rotate: [1.72341787815094, 0.800000011920929, 0.37915417551994324]
+  SRTHash: 0
+  Scale: 2.0
+  Translate: [-252.29238891601562, 311.7511901855469, -1089.260986328125]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {EquipItem1: Weapon_Spear_009, FortressEatPer: -1, IsNearCreate: false,
+    IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 3,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffecf8a9
+  Rotate: 2.799999952316284
+  SRTHash: 564413069
+  Translate: [-194.4231719970703, 195.46792602539062, -956.0545654296875]
+  UnitConfigName: Enemy_Lizalfos_Dark
 Rails:
 - '!Parameters': {DisableRenderMap: false, IsEnableHorseTrace: true, IsWalkable: false}
   HashId: !u 0x017ab246

@@ -23,7 +23,7 @@ Objs:
   SRTHash: -991443823
   Translate: [460.0, 142.057953, 244.999969]
   UnitConfigName: Obj_TreeBroadleaf_A_L
-- '!Parameters': {DropActor: Item_Ore_A, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Ore_J, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x00ce1dcd
   Rotate: 2.59619474
   SRTHash: 2146721127
@@ -3998,6 +3998,12 @@ Objs:
   Scale: 1.03955102
   Translate: [7.5, 127.227905, 362.582031]
   UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropActor: PutRupee_Gold, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+  HashId: !u 0x54410d0e
+  Rotate: 0.123185396
+  SRTHash: 0
+  Translate: [386.770294, 142.202087, 133.45726]
+  UnitConfigName: TBox_Field_Iron
 - '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x54456387
   Rotate: 0.665067375
@@ -6050,7 +6056,7 @@ Objs:
   SRTHash: 2144799505
   Translate: [965.329956, 130.654861, 298.868896]
   UnitConfigName: Obj_Plant_HopBush_A_01
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Happy, SharpWeaponJudgeType: 0}
   HashId: !u 0x7f633e92
   Rotate: [0.300000072, 0.540000021, 0.0]
   SRTHash: -600828762
@@ -6617,7 +6623,7 @@ Objs:
   SRTHash: 345737261
   Translate: [847.710938, 131.447311, 235.421875]
   UnitConfigName: Item_Plant_H
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: PutRupee_Gold, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x8b5265e5
   Rotate: [-0.0245828927, 0.00690986263, -0.0800891593]
   SRTHash: 1151414959
@@ -10521,7 +10527,7 @@ Objs:
   SRTHash: 280292907
   Translate: [750.45166, 115.390778, 380.687683]
   UnitConfigName: Obj_TreeBroadleaf_A_SS
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Food, SharpWeaponJudgeType: 0}
   HashId: !u 0xd754d379
   Rotate: [0.0903393775, 0.00503231492, -0.0541480184]
   SRTHash: 299111386
@@ -10575,7 +10581,7 @@ Objs:
   Scale: 0.98339802
   Translate: [966.777344, 132.700058, 336.761719]
   UnitConfigName: Obj_Plant_CypressLow_A_02
-- '!Parameters': {DropActor: Weapon_Bow_033, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+- '!Parameters': {DropActor: Weapon_Bow_023, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0xd7ff57c4
   Rotate: [0.0487523191, 0.798499644, 0.0356230848]
   SRTHash: 1976065449
@@ -12667,7 +12673,7 @@ Objs:
   UnitConfigName: Obj_Plant_CypressLow_A_01
 - '!Parameters':
     AddParam: 72
-    AddSpecialFlag: -2147483647
+    AddSpecialFlag: 5
     EnemyOwnItem: true
     IsCreateSharpWeapon: false
     IsEmitLandNoise: false
@@ -12682,7 +12688,13 @@ Objs:
   SRTHash: 0
   Translate: [384.499115, 143.093796, 133.738754]
   UnitConfigName: Weapon_Lsword_047
-- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_50, DropTable: Normal, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+  HashId: !u 0xfff9d1c5
+  Rotate: 0.123185396
+  SRTHash: 0
+  Translate: [388.760193, 142.202087, 133.052322]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropTable: Happy, SharpWeaponJudgeType: 0}
   HashId: !u 0xfff9d1c6
   Rotate: [0.658699274, 0.540000021, 0.693782985]
   SRTHash: -600828762
@@ -12825,7 +12837,7 @@ Objs:
   Translate: [696.490723, 122.429008, 781.718079]
   UnitConfigName: Enemy_Bokoblin_Dark
 - '!Parameters':
-    ArrowName: IceArrow
+    ArrowName: FireArrow
     DropTable: Normal
     EquipItem1: Weapon_Sword_017
     EquipItem2: Weapon_Shield_018
@@ -12839,7 +12851,7 @@ Objs:
   HashId: !u 0xfff9d1e1
   Rotate: 3.12318516
   SRTHash: 598192775
-  Translate: [-152.322556, 129.053207, 571.543213]
+  Translate: [-157.181229, 129.053207, 576.962769]
   UnitConfigName: Enemy_Lynel_Dark
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xfff9d1e6

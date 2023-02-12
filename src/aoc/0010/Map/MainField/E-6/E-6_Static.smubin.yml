@@ -17354,7 +17354,8 @@ Objs:
   SRTHash: 1687336004
   Translate: [-774.859924, 189.750198, 1792.80396]
   UnitConfigName: Enemy_Chuchu_Electric_Middle
-- '!Parameters': {ChaseRange: 200.0, DropActor: Obj_StaminaUtuwa_B, EnableRevival: false, IsSuspended: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {ChaseRange: 200.0, DropActor: Obj_StaminaUtuwa_B, EnableRevival: false, IsSuspended: true, ResetType: 0,
+    SharpWeaponJudgeType: 0}
   HashId: !u 0xfffd48c8
   Rotate: 2.20000005
   SRTHash: 0

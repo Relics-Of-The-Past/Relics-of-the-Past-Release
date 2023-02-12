@@ -4,7 +4,7 @@ type: xml
 param_root: !list
   objects:
     Header: !obj
-      TableNum: 17
+      TableNum: 20
       Table01: !str64 FireArrow
       Table02: !str64 IceArrow
       Table03: !str64 ElectricArrow
@@ -22,6 +22,9 @@ param_root: !list
       Table15: !str64 Normal3
       Table16: !str64 Normal4
       Table17: !str64 Normal5
+      Table18: !str64 NormalArrow
+      Table19: !str64 NormalArrow2
+      Table20: !str64 NormalArrow3
     FireArrow: !obj
       RepeatNumMin: 3
       RepeatNumMax: 6
@@ -223,13 +226,45 @@ param_root: !list
       ItemName01: !str64 Item_Enemy_00
       ItemProbability01: 100.0
     NormalArrow: !obj
-      RepeatNumMin: 3
-      RepeatNumMax: 6
+      RepeatNumMin: 1
+      RepeatNumMax: 2
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 2
       ItemName01: !str64 Obj_ArrowBundle_A_02
       ItemProbability01: 50.0
       ItemName02: !str64 PutRupee_Gold
-      ItemProbability02: 10.0
+      ItemProbability02: 30.0
+    NormalArrow2: !obj
+      RepeatNumMin: 2
+      RepeatNumMax: 2
+      ApproachType: 0
+      OccurrenceSpeedType: 0
+      ColumnNum: 4
+      ItemName01: !str64 PutRupee_Purple
+      ItemProbability01: 25.0
+      ItemName02: !str64 Item_Ore_B
+      ItemProbability02: 24.0
+      ItemName03: !str64 Item_Ore_C
+      ItemProbability03: 24.0
+      ItemName04: !str64 Item_Ore_A
+      ItemProbability04: 24.0
+    NormalArrow3: !obj
+      RepeatNumMin: 3
+      RepeatNumMax: 4
+      ApproachType: 0
+      OccurrenceSpeedType: 0
+      ColumnNum: 6
+      ItemName01: !str64 Item_Ore_F
+      ItemProbability01: 20.0
+      ItemName02: !str64 Item_Ore_E
+      ItemProbability02: 15.0
+      ItemName03: !str64 Item_Ore_D
+      ItemProbability03: 15.0
+      ItemName04: !str64 Item_Ore_B
+      ItemProbability04: 15.0
+      ItemName05: !str64 Item_Ore_C
+      ItemProbability05: 15.0
+      ItemName06: !str64 Obj_AncientArrow_A_01
+      ItemProbability06: 8.5
   lists: {}

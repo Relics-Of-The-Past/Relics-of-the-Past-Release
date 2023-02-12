@@ -6553,6 +6553,38 @@ Objs:
   SRTHash: 418781001
   Translate: [-4522.04883, 332.82428, -2671.04565]
   UnitConfigName: Enemy_Moriblin_Bone_Junior_AllDay
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: WM_BloodyDay, SaveFlagOnOffType: 0}
+  HashId: !u 0xffe00e10
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xb6d86bb1}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xffe00e11}
+  SRTHash: 0
+  Translate: [-4040.85254, 133.127472, -2675.7085]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: RelicsRare, SharpWeaponJudgeType: 3}
+  HashId: !u 0xffe00e11
+  Rotate: 0.0
+  SRTHash: 0
+  Translate: [-4041.58862, 131.07164, -2676.73047]
+  UnitConfigName: Obj_BoxMystery
+- '!Parameters':
+    AddParam: 1000
+    AddSpecialFlag: -2147483646
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: false
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xb6d86bb1
+  Rotate: [0.22345604, 0.756829917, 0.352136225]
+  SRTHash: 1013077179
+  Translate: [-4039.12207, 131.126892, -2677.42798]
+  UnitConfigName: Weapon_Shield_030
 Rails:
 - HashId: !u 0x54a0d4d9
   IsClosed: true

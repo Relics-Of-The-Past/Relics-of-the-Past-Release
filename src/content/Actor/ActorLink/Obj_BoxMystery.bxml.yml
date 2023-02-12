@@ -6,7 +6,7 @@ param_root: !list
     LinkTarget: !obj
       ActorNameJpn: 木箱(汎用）
       Priority: Default
-      AIProgramUser: DummyDropTable
+      AIProgramUser: MysteryBox
       AIScheduleUser: Dummy
       ASUser: Dummy
       AttentionUser: Dummy
@@ -40,6 +40,7 @@ param_root: !list
       Tag4: EnemyHide
       Tag5: CanPush
       Tag6: CanBalloonParasite
+      Tag7: TreasureBox
     1115720914: !obj
       Tag0: FitIsArtifact
   lists: {}

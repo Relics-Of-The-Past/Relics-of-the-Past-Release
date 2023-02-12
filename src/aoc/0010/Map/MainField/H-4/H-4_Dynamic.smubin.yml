@@ -110,7 +110,7 @@ Objs:
   SRTHash: 1838278995
   Translate: [2896.0, 269.5, -103.0]
   UnitConfigName: FldObj_FenceWoodDamage_A_01
-- '!Parameters': {DropActor: Weapon_Bow_014, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Enemy_52, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x0232183f
   Rotate: [-3.12472987, 1.13802743, -3.13713002]
   SRTHash: -1763209502
@@ -202,7 +202,7 @@ Objs:
   Scale: 1.05742455
   Translate: [2578.38354, 139.391754, -344.888062]
   UnitConfigName: Obj_TreeConiferous_A_02
-- '!Parameters': {DropActor: Item_Ore_E, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Ore_A, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x04193421
   Rotate: [-0.0233693141, -0.0668244138, -0.0128150126]
   SRTHash: -572432431
@@ -2475,7 +2475,7 @@ Objs:
   SRTHash: -980683714
   Translate: [2689.0, 199.5, -289.5]
   UnitConfigName: Obj_RockGray_A_L_01
-- '!Parameters': {DropActor: AncientBowMark, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: AncientBowMark, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x2c58f1a2
   Rotate: [0.110658653, -1.11375892, -0.127911627]
   SRTHash: -47397689
@@ -2967,7 +2967,7 @@ Objs:
   SRTHash: 1645213912
   Translate: [2308.31152, 208.99704, -131.78833]
   UnitConfigName: FldObj_HyliaWoodRuinTunnel_A_01
-- '!Parameters': {DropActor: Obj_ArrowBundle_A_01, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_30, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x34c45ef1
   Rotate: [-0.183151379, 1.16108203, -0.081753552]
   SRTHash: -923939864
@@ -4796,7 +4796,7 @@ Objs:
   Scale: 50.0
   Translate: [2488.91821, 179.62883, -921.210571]
   UnitConfigName: Area
-- '!Parameters': {DropActor: Obj_BombArrow_A_01, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Bow_033, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x50c6a1c3
   Rotate: [3.13384891, 1.08206069, 3.12688351]
   SRTHash: 144722058
@@ -5385,7 +5385,7 @@ Objs:
   SRTHash: 10241318
   Translate: [2823.64966, 194.418182, -52.4041443]
   UnitConfigName: FldObj_ArtifactZoraCandlestick_A_01
-- '!Parameters': {DropActor: PutRupee_Silver, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_AncientArrow_B_01, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x5b828689
   Rotate: [-0.00132095453, -1.3090899, 0.00779910944]
   SRTHash: 1993639979
@@ -6504,11 +6504,6 @@ Objs:
   Scale: 1.14999998
   Translate: [2539.9248, 244.557526, -27.7210388]
   UnitConfigName: Obj_TreeConiferous_A_02
-- HashId: !u 0x70007f57
-  SRTHash: -1790877370
-  Scale: [1.74938488, 5.00379848, 1.67189884]
-  Translate: [2746.22559, 239.161636, -175.394226]
-  UnitConfigName: AirWallHorse_HiddnKorok
 - HashId: !u 0x703fc107
   Rotate: [-0.0734971538, -0.680008173, 0.0943054184]
   SRTHash: -1050412759
@@ -7042,7 +7037,7 @@ Objs:
   Scale: 0.859786987
   Translate: [2724.05371, 234.663513, -924.007812]
   UnitConfigName: Obj_RockWhite_A_L_02
-- '!Parameters': {DropActor: Weapon_Bow_002, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Bow_023, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x78cc341a
   Rotate: -1.30899692
   SRTHash: 1769921935
@@ -11404,7 +11399,7 @@ Objs:
   SRTHash: 1926394914
   Translate: [2213.8374, 154.656509, -295.957825]
   UnitConfigName: Obj_TreeConiferous_A_02
-- '!Parameters': {DropActor: Item_Ore_E, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Obj_AncientArrow_B_01, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xc3e2fc45
   Rotate: [-3.13595176, -0.349311262, 3.12736917]
   SRTHash: 1347971094
@@ -14830,9 +14825,9 @@ Objs:
     TerritoryArea: 0.0
     WaitTime: 1.0
   HashId: !u 0xffff945d
-  Rotate: 5.90318584
+  Rotate: 5.30318594
   SRTHash: 2121481496
-  Translate: [2395.91846, 154.961594, -616.562317]
+  Translate: [2394.26172, 154.761597, -621.181213]
   UnitConfigName: Enemy_Moriblin_Dark
 - '!Parameters':
     DropTable: ZoraSpecial
@@ -15490,7 +15485,7 @@ Objs:
   SRTHash: -83606067
   Translate: [2265.04541, 195.379517, -26.3677521]
   UnitConfigName: Enemy_Bokoblin_Senior
-- '!Parameters': {IsFixedPlace: true}
+- '!Parameters': {IsFixedPlace: true, ResetType: 0}
   HashId: !u 0xffff949d
   SRTHash: 0
   Translate: [2426.31372, 287.375122, -414.021423]
@@ -15519,4 +15514,10 @@ Objs:
   SRTHash: 1063387092
   Translate: [2761.0835, 444.984283, -536.181519]
   UnitConfigName: Item_Plant_B
+- '!Parameters': {DropActor: Obj_StaminaUtuwa_B, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
+  HashId: !u 0xffff94be
+  Rotate: [0.110658653, -1.11375892, -0.127911627]
+  SRTHash: -47397689
+  Translate: [2143.72803, 100.122604, -629.856812]
+  UnitConfigName: TBox_Field_Iron
 Rails: []

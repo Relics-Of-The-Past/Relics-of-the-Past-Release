@@ -2433,7 +2433,7 @@ Objs:
   SRTHash: -1004322159
   Translate: [1118.35083, 164.717133, 3251.11499]
   UnitConfigName: FldObj_CliffTropicsWall_A_06
-- '!Parameters': {DropTable: Fruit1, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x194eda9a
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9729bacd}
@@ -3450,7 +3450,7 @@ Objs:
   SRTHash: -1989257685
   Translate: [1795.5, 180.000015, 3193.0]
   UnitConfigName: Enemy_Lizalfos_Junior
-- '!Parameters': {DropTable: Fruit1, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x249c9d41
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9729bacd}
@@ -3813,7 +3813,7 @@ Objs:
   Scale: 0.5
   Translate: [1734.11633, 174.05928, 3450.29395]
   UnitConfigName: SwitchTimeLag
-- '!Parameters': {DropTable: Fruit1, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x27ed847a
   LinksToObj:
   - {DefinitionName: StackLink, DestUnitHashId: !u 0x48c130fb}
@@ -7103,7 +7103,7 @@ Objs:
   SRTHash: 1698147045
   Translate: [1495.49841, 164.297668, 3461.36694]
   UnitConfigName: FldObj_CliffTropicsWall_A_01
-- '!Parameters': {DropTable: Fruit1, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x48c130fb
   Rotate: [-0.0261489898, -0.136182994, 0.0341849104]
   SRTHash: 573362696
@@ -10789,7 +10789,7 @@ Objs:
   SRTHash: 1283121422
   Translate: [1908.56274, 153.912415, 3453.50781]
   UnitConfigName: Item_Fruit_H
-- '!Parameters': {DropTable: Fruit1, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x6dd63315
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9729bacd}
@@ -12872,7 +12872,7 @@ Objs:
   Scale: 1.20000005
   Translate: [1512.94763, 185.696075, 3272.69971]
   UnitConfigName: FldObj_CliffTropicsWallParts_A_01_Far
-- '!Parameters': {DropTable: Fruit1, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0x82eb96f5
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9729bacd}
@@ -16810,7 +16810,7 @@ Objs:
   SRTHash: 2096831781
   Translate: [1097.47119, 111.660965, 3824.14185]
   UnitConfigName: Weapon_Lsword_003
-- '!Parameters': {DropTable: Fruit1, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xaa4ed0cf
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9729bacd}
@@ -18820,7 +18820,7 @@ Objs:
   Scale: 0.800000012
   Translate: [1676.28015, 281.98114, 3663.72437]
   UnitConfigName: Obj_TreeTropical_A_LL_01
-- '!Parameters': {DropTable: Fruit1, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xbf39d12e
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9729bacd}
@@ -19459,7 +19459,7 @@ Objs:
   SRTHash: -150059529
   Translate: [1406.57654, 259.698914, 3499.09766]
   UnitConfigName: Item_Fruit_D
-- '!Parameters': {DropTable: Fruit1, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xc49d5e98
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9729bacd}
@@ -20138,7 +20138,7 @@ Objs:
   SRTHash: -485331843
   Translate: [1205.0, 149.36792, 3367.5]
   UnitConfigName: LinkTagAnd
-- '!Parameters': {DropTable: Fruit1, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
   HashId: !u 0xcba138a1
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9729bacd}
@@ -25624,6 +25624,380 @@ Objs:
   SRTHash: 0
   Translate: [1568.271, 215.613373, 3186.81421]
   UnitConfigName: Weapon_Spear_024
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: WM_BloodyDay, SaveFlagOnOffType: 0}
+  HashId: !u 0xfff3bafb
+  LinksToObj:
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfff3bafc}
+  Rotate: 0.980000019
+  SRTHash: 0
+  Translate: [1482.81299, 105.592628, 3936.00635]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: '', SaveFlagOnOffType: 0}
+  HashId: !u 0xfff3bafc
+  LinksToObj:
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfff3bafd}
+  Rotate: 0.980000019
+  SRTHash: 0
+  Translate: [1486.76697, 107.203224, 3935.78174]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: '', SaveFlagOnOffType: 0}
+  HashId: !u 0xfff3bafd
+  LinksToObj:
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb18}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb17}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb16}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb0c}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb0e}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb0d}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb10}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb0f}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb14}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb11}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb09}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb0a}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb08}
+  - {DefinitionName: Create, DestUnitHashId: !u 0x74ddbabe}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb13}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb07}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb12}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb0b}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb06}
+  Rotate: 16.6599998
+  SRTHash: 0
+  Translate: [1487.82324, 112.413307, 3941.25928]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: '', SaveFlagOnOffType: 0}
+  HashId: !u 0xfff3bafe
+  LinksToObj:
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfff3bb02}
+  - {DefinitionName: Create, DestUnitHashId: !u 0xfff3bb15}
+  Rotate: 16.6599998
+  SRTHash: 0
+  Translate: [1489.53943, 112.494545, 3930.46704]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {EventFlowEntryName: SignalWait30SE, EventFlowName: Demo024_0, IsEndlessEvent: false, LaunchEventByOffSignal: false,
+    LaunchEventByOnSignal: true}
+  HashId: !u 0xfff3bb02
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xfff3bb03}
+  Rotate: 0.980000019
+  SRTHash: 295738227
+  Translate: [1575.49683, 112.827805, 3923.24976]
+  UnitConfigName: EventTag
+- HashId: !u 0xfff3bb03
+  Rotate: 16.7399998
+  SRTHash: 0
+  Translate: [1577.16919, 110.727264, 3924.69458]
+  UnitConfigName: LookTag
+- HashId: !u 0xfff3bb05
+  Rotate: 0.980000019
+  SRTHash: 0
+  Scale: 0.5
+  Translate: [1579.81055, 109.464172, 3926.40186]
+  UnitConfigName: BoxPartTop
+- HashId: !u 0xfff3bb15
+  SRTHash: 0
+  Translate: [1579.87012, 110.467209, 3926.57227]
+  UnitConfigName: Obj_StaminaUtuwa_A_01
+- '!Parameters': {EquipItem1: Weapon_Spear_024, EquipItem2: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfff3bb16
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfff3bafe}
+  Rotate: 7.69999981
+  SRTHash: 564413069
+  Translate: [1521.86584, 105.840813, 3907.02783]
+  UnitConfigName: Enemy_Lizalfos_Senior
+- '!Parameters': {EquipItem1: Weapon_Spear_026, EquipItem2: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 3, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfff3bb17
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfff3bafe}
+  Rotate: 7.69999981
+  SRTHash: 564413069
+  Translate: [1531.19592, 106.04081, 3905.16333]
+  UnitConfigName: Enemy_Lizalfos_Malice
+- '!Parameters': {EquipItem1: Weapon_Spear_024, EquipItem2: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xfff3bb18
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xfff3bafe}
+  Rotate: 7.69999981
+  SRTHash: 564413069
+  Translate: [1531.6698, 106.04081, 3912.70605]
+  UnitConfigName: Enemy_Lizalfos_Senior
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0x74ddbabe
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1531.28015, 104.197609, 3929.7334]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb10
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1531.42346, 103.397614, 3940.14111]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb06
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1529.76709, 104.397614, 3922.91504]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb0c
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1529.54431, 105.59761, 3914.29419]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb12
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1522.59631, 105.197609, 3914.8186]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb0d
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1533.25146, 104.397614, 3931.63428]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb0f
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1534.09961, 103.997612, 3934.02026]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb0e
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1531.79712, 104.59761, 3925.3606]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb09
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1525.18091, 104.197617, 3921.32739]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb07
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1528.53137, 105.597618, 3916.78638]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb0a
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1507.90601, 103.397614, 3919.34399]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb13
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1520.55994, 105.397614, 3913.55371]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb08
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1506.09131, 103.397614, 3911.57935]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb14
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1512.32361, 104.997612, 3902.84741]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb11
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1521.60852, 105.197609, 3900.92578]
+  UnitConfigName: Enemy_Octarock
+- '!Parameters':
+    ArrowName: NormalArrow
+    DropTable: Normal
+    EquipItem1: Default
+    EquipItem2: Default
+    EquipItem3: Default
+    EquipItem4: Default
+    IsNearCreate: false
+    LevelSensorMode: 1
+    NearCreateAppearID: 0
+    SharpWeaponJudgeType: 1
+    TerritoryArea: 0.0
+  HashId: !u 0xfff3bb0b
+  Rotate: 14.0200005
+  SRTHash: 1041562400
+  Translate: [1514.34253, 105.397614, 3893.49854]
+  UnitConfigName: Enemy_Octarock
 Rails:
 - HashId: !u 0x0ad636dd
   IsClosed: false

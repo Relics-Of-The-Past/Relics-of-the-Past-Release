@@ -6376,7 +6376,8 @@ Objs:
   SRTHash: -494278694
   Translate: [-3803.56274, 340.269867, -388.556824]
   UnitConfigName: Enemy_Lizalfos_Guard_Junior
-- HashId: !u 0xffee522b
+- '!Parameters': {ResetType: 0}
+  HashId: !u 0xffee522b
   SRTHash: 0
   Translate: [-3207.65967, 5.65178251, -336.025085]
   UnitConfigName: Item_Ore_J

@@ -9849,7 +9849,7 @@ Objs:
   SRTHash: 4882447
   Translate: [-2184.82812, 229.410278, 1241.55469]
   UnitConfigName: Item_Mushroom_H
-- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xba90ea34
   Rotate: [-0.014232927, 0.000540057896, -0.0233775489]
   SRTHash: 376221392
@@ -11274,7 +11274,7 @@ Objs:
   UnitConfigName: EnvSeEmitPointBirdSubarctic
 - '!Parameters':
     AddParam: 70
-    AddSpecialFlag: -2147483647
+    AddSpecialFlag: 5
     EnemyOwnItem: true
     IsCreateSharpWeapon: false
     IsEmitLandNoise: false
@@ -12986,7 +12986,7 @@ Objs:
   SRTHash: 1934081924
   Translate: [-2401.76855, 399.039795, 1389.51123]
   UnitConfigName: Obj_Plant_HopBush_C_02
-- '!Parameters': {DropActor: Item_Ore_F, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Ore_J, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
   HashId: !u 0xf5da6016
   Rotate: 2.96318507
   SRTHash: 2109860648
@@ -13517,49 +13517,49 @@ Objs:
   Scale: 0.200000003
   Translate: [-2636.02954, 676.27478, 1574.16357]
   UnitConfigName: Tower
-- '!Parameters': {DropTable: Rare1, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: RandoArrows, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xfff171f0
   Rotate: [-0.014232927, 0.000540057896, -0.0233775489]
   SRTHash: 376221392
   Translate: [-2686.60449, 640.783264, 1523.63745]
   UnitConfigName: Kibako_Contain_01
-- '!Parameters': {DropTable: Castle_Plants, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Food, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xfff171f1
   Rotate: [-0.014232927, 0.000540057896, -0.0233775489]
   SRTHash: 376221392
   Translate: [-2684.63403, 638.783264, 1519.771]
   UnitConfigName: Kibako_Contain_01
-- '!Parameters': {DropTable: Castle_Mushroom, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Guardian, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xfff171f2
   Rotate: [-0.014232927, 0.000540057896, -0.0233775489]
   SRTHash: 376221392
   Translate: [-2686.78467, 638.783264, 1519.74109]
   UnitConfigName: Kibako_Contain_01
-- '!Parameters': {DropTable: Castle_Arrow, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: RandoArrows, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xfff171f3
   Rotate: [-0.014232927, 0.000540057896, -0.0233775489]
   SRTHash: 376221392
   Translate: [-2685.49023, 640.783264, 1519.94617]
   UnitConfigName: Kibako_Contain_01
-- '!Parameters': {DropTable: Castle_Mushroom, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Dragon, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xfff171f4
   Rotate: [-0.014232927, 0.000540057896, -0.0233775489]
   SRTHash: 376221392
   Translate: [-2682.13135, 638.783264, 1521.04126]
   UnitConfigName: Kibako_Contain_01
-- '!Parameters': {DropTable: Castle_Plants, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Food, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xfff171f5
   Rotate: [-0.014232927, 0.000540057896, -0.0233775489]
   SRTHash: 376221392
   Translate: [-2682.6106, 638.783264, 1523.82361]
   UnitConfigName: Kibako_Contain_01
-- '!Parameters': {DropTable: Castle_Mushroom, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Dragon, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xfff171f6
   Rotate: [-0.014232927, 0.000540057896, -0.0233775489]
   SRTHash: 376221392
   Translate: [-2682.66675, 638.783264, 1526.61682]
   UnitConfigName: Kibako_Contain_01
-- '!Parameters': {DropTable: Rare1, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: Food, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0xfff171f7
   Rotate: [-0.014232927, 0.000540057896, -0.0233775489]
   SRTHash: 376221392

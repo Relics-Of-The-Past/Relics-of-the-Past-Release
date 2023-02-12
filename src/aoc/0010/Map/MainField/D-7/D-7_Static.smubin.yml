@@ -3544,10 +3544,11 @@ Objs:
   Scale: 2.20000005
   Translate: [-1229.40002, 365.5, 2196.8999]
   UnitConfigName: BrokenSnowBall
-- '!Parameters': {DropActor: Weapon_Shield_003, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Shield_030, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x565fd250
   LinksToObj:
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xe29d17e1}
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfffa4a92}
   Rotate: -2.12546515
   SRTHash: 767407825
   Translate: [-1659.19556, 95.2305298, 2383.49829]
@@ -5186,6 +5187,7 @@ Objs:
     DefinitionName: BasicSigOnOnly
     DestUnitHashId: !u 0xfdf42c6a
   - {DefinitionName: SyncLink, DestUnitHashId: !u 0xe29d17e1}
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfffa4a90}
   Rotate: -2.12546515
   SRTHash: 1445814597
   Translate: [-1664.87134, 111.842773, 2371.25342]
@@ -11040,6 +11042,20 @@ Objs:
   SRTHash: 0
   Translate: [-1129.87793, 190.321548, 2451.61963]
   UnitConfigName: Enemy_Octorock_Senior
+- '!Parameters': {EventFlowEntryName: GiantsWallet, EventFlowName: HyruleCastle, IsEndlessEvent: false, LaunchEventByOffSignal: false,
+    LaunchEventByOnSignal: true}
+  HashId: !u 0xfffa4a91
+  Rotate: 0.149411231
+  SRTHash: -387393472
+  Translate: [-1660.06335, 100.030533, 2376.94214]
+  UnitConfigName: EventTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xfffa4a92
+  LinksToObj:
+  - {DefinitionName: BasicSig, DestUnitHashId: !u 0xfffa4a91}
+  SRTHash: -939776961
+  Translate: [-1661.54822, 96.2305298, 2378.47876]
+  UnitConfigName: LinkTagAnd
 Rails:
 - HashId: !u 0x04ab05bd
   IsClosed: false

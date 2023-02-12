@@ -5966,34 +5966,13 @@ Objs:
   SRTHash: 0
   Translate: [-3654.92798, 284.058319, 2153.34424]
   UnitConfigName: BoxPartTop
-- '!Parameters': {EquipItem1: Weapon_Lsword_055, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
+- '!Parameters': {EquipItem1: Weapon_Lsword_017, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
-  HashId: !u 0xffb62cfa
-  Rotate: -3.20000005
+  HashId: !u 0xffb62cf1
+  Rotate: 4.4000001
   SRTHash: 564413069
-  Translate: [-3473.76855, 141.251419, 2952.95996]
-  UnitConfigName: Enemy_Moriblin_Gold
-- '!Parameters': {EquipItem1: Weapon_Bow_036, EquipItem3: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
-    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
-  HashId: !u 0xffb62cf5
-  Rotate: -1.60000002
-  SRTHash: -1923163669
-  Translate: [-3499.94702, 143.604416, 2954.00903]
-  UnitConfigName: Enemy_Bokoblin_Guard_Middle
-- '!Parameters': {EquipItem1: Weapon_Bow_030, EquipItem3: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
-    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
-  HashId: !u 0xffb62cf8
-  Rotate: -5.34000015
-  SRTHash: -1923163669
-  Translate: [-3480.12622, 141.368271, 2948.15137]
-  UnitConfigName: Enemy_Bokoblin_Dark
-- '!Parameters': {EquipItem1: Weapon_Bow_009, EquipItem3: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
-    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
-  HashId: !u 0xffb62cf7
-  Rotate: -0.74000001
-  SRTHash: -1923163669
-  Translate: [-3469.76587, 141.879318, 2946.07056]
-  UnitConfigName: Enemy_Bokoblin_Dark
+  Translate: [-3445.86157, 138.153046, 2959.85181]
+  UnitConfigName: Enemy_Lizalfos_Dark
 - '!Parameters': {EquipItem1: Weapon_Sword_034, EquipItem2: Weapon_Shield_017, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
     LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xffb62cf2
@@ -6008,13 +5987,6 @@ Objs:
   SRTHash: 564413069
   Translate: [-3454.26904, 141.543671, 2941.43823]
   UnitConfigName: Enemy_Lizalfos_Electric
-- '!Parameters': {EquipItem1: Weapon_Lsword_017, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
-    RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
-  HashId: !u 0xffb62cf1
-  Rotate: 4.4000001
-  SRTHash: 564413069
-  Translate: [-3445.86157, 138.153046, 2959.85181]
-  UnitConfigName: Enemy_Lizalfos_Dark
 - '!Parameters': {EquipItem1: Weapon_Sword_035, EquipItem2: Weapon_Sword_035, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
     LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xffb62cf4
@@ -6022,6 +5994,27 @@ Objs:
   SRTHash: 564413069
   Translate: [-3446.65674, 139.458572, 2948.74512]
   UnitConfigName: Enemy_Lizalfos_Electric
+- '!Parameters': {EquipItem1: Weapon_Bow_036, EquipItem3: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffb62cf5
+  Rotate: -1.60000002
+  SRTHash: -1923163669
+  Translate: [-3499.94702, 143.604416, 2954.00903]
+  UnitConfigName: Enemy_Bokoblin_Guard_Middle
+- '!Parameters': {EquipItem1: Weapon_Bow_009, EquipItem3: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffb62cf7
+  Rotate: -0.74000001
+  SRTHash: -1923163669
+  Translate: [-3469.76587, 141.879318, 2946.07056]
+  UnitConfigName: Enemy_Bokoblin_Dark
+- '!Parameters': {EquipItem1: Weapon_Bow_030, EquipItem3: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffb62cf8
+  Rotate: -5.34000015
+  SRTHash: -1923163669
+  Translate: [-3480.12622, 141.368271, 2948.15137]
+  UnitConfigName: Enemy_Bokoblin_Dark
 - '!Parameters': {EquipItem1: Weapon_LSword_018, EquipItem3: Default, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
     LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xffb62cf9
@@ -6029,19 +6022,33 @@ Objs:
   SRTHash: -1923163669
   Translate: [-3455.02563, 139.368271, 2959.85059]
   UnitConfigName: Enemy_Bokoblin_Senior
-- '!Parameters': {EquipItem1: Weapon_Lsword_035, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
+- '!Parameters': {EquipItem1: Weapon_Lsword_055, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
-  HashId: !u 0xffb62d04
-  Rotate: 1.80000007
+  HashId: !u 0xffb62cfa
+  Rotate: -3.20000005
   SRTHash: 564413069
-  Translate: [-3011.36865, 126.384094, 2675.85181]
-  UnitConfigName: Enemy_Moriblin_Dark
+  Translate: [-3473.76855, 141.251419, 2952.95996]
+  UnitConfigName: Enemy_Moriblin_Gold
+- '!Parameters': {EquipItem1: Weapon_Sword_035, EquipItem2: Weapon_Sword_035, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffb62d00
+  Rotate: 2.79999995
+  SRTHash: 564413069
+  Translate: [-3006.14868, 125.887489, 2686.44458]
+  UnitConfigName: Enemy_Lizalfos_Electric
 - '!Parameters': {EquipItem1: Weapon_Spear_014, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
   HashId: !u 0xffb62d01
   Rotate: 0.99999994
   SRTHash: 564413069
   Translate: [-3008.28784, 127.087486, 2665.40112]
+  UnitConfigName: Enemy_Lizalfos_Dark
+- '!Parameters': {EquipItem1: Weapon_Sword_014, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
+    RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xffb62d02
+  Rotate: 4.80000019
+  SRTHash: 564413069
+  Translate: [-2995.73584, 126.252815, 2680.59473]
   UnitConfigName: Enemy_Lizalfos_Dark
 - '!Parameters': {EquipItem1: Weapon_Lsword_034, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
@@ -6050,18 +6057,11 @@ Objs:
   SRTHash: 564413069
   Translate: [-2998.7417, 126.384094, 2668.71655]
   UnitConfigName: Enemy_Moriblin_Dark
-- '!Parameters': {EquipItem1: Weapon_Sword_014, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
+- '!Parameters': {EquipItem1: Weapon_Lsword_035, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
     RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
-  HashId: !u 0xffb62d02
-  Rotate: 4.80000019
+  HashId: !u 0xffb62d04
+  Rotate: 1.80000007
   SRTHash: 564413069
-  Translate: [-2995.73584, 126.252815, 2680.59473]
-  UnitConfigName: Enemy_Lizalfos_Dark
-- '!Parameters': {EquipItem1: Weapon_Sword_035, EquipItem2: Weapon_Sword_035, FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
-    LevelSensorMode: 1, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
-  HashId: !u 0xffb62d00
-  Rotate: 2.79999995
-  SRTHash: 564413069
-  Translate: [-3006.14868, 125.887489, 2686.44458]
-  UnitConfigName: Enemy_Lizalfos_Electric
+  Translate: [-3011.36865, 126.384094, 2675.85181]
+  UnitConfigName: Enemy_Moriblin_Dark
 Rails: []

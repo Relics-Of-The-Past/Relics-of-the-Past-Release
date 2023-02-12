@@ -18887,6 +18887,12 @@ Objs:
   SRTHash: -973429521
   Translate: [-2341.68774, 445.052856, 444.927094]
   UnitConfigName: Item_Plant_J
+- '!Parameters': {DropActor: Obj_AncientArrow_B_01, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfffe0153
+  Rotate: -0.800000072
+  SRTHash: 0
+  Translate: [-2430.83716, 307.048065, 539.96167]
+  UnitConfigName: TBox_Field_Iron
 - '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xfffe0154
   Rotate: 1.64033556
@@ -18923,12 +18929,6 @@ Objs:
   SRTHash: 499771123
   Translate: [-2299.552, 417.178802, 541.684143]
   UnitConfigName: Item_Plant_Q
-- '!Parameters': {DropActor: Obj_AncientArrow_B_01, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
-  HashId: !u 0xfffe0153
-  Rotate: -0.800000072
-  SRTHash: 0
-  Translate: [-2430.83716, 307.048065, 539.96167]
-  UnitConfigName: TBox_Field_Iron
 - '!Parameters': {AddParam: 69, AddSpecialFlag: -2147483647, SharpWeaponJudgeType: 0}
   HashId: !u 0xfffe015b
   SRTHash: 0

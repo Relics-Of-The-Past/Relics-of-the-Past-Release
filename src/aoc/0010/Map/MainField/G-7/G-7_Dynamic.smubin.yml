@@ -367,9 +367,9 @@ Objs:
 - '!Parameters': {ArrowName: ElectricArrow, EquipItem1: Weapon_Spear_016, EquipItem3: Weapon_Bow_009, IsNearCreate: false,
     LevelSensorMode: 1, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
   HashId: !u 0x0de2b992
-  Rotate: -0.139999852
+  Rotate: 1.82000017
   SRTHash: -456078189
-  Translate: [1619.39124, 366.654602, 2928.56396]
+  Translate: [1625.27527, 366.654602, 2925.63477]
   UnitConfigName: Enemy_Lynel_Junior
 - HashId: !u 0x0e0734a8
   Rotate: [0.143167615, -0.575295627, -0.0782714039]
@@ -690,7 +690,7 @@ Objs:
   SRTHash: -1010681177
   Translate: [1744.71643, 373.576843, 2608.0498]
   UnitConfigName: Obj_TreeConiferous_A_01
-- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Ore_A, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x19806896
   SRTHash: -1841272231
   Translate: [1621.79675, 115.834579, 2077.72388]
@@ -1001,7 +1001,7 @@ Objs:
   SRTHash: 852714038
   Translate: [1911.62891, 144.348938, 2358.71484]
   UnitConfigName: Item_Mushroom_M
-- '!Parameters': {DropTable: Meat, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: RandoArrows, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x222efd6f
   Rotate: [-0.00338593242, 2.61387572e-06, 0.000461803313]
   SRTHash: -1302920942
@@ -2212,7 +2212,7 @@ Objs:
   Scale: 1.20000005
   Translate: [1365.87561, 190.513855, 2779.82568]
   UnitConfigName: FldObj_CliffWhiteLumpRock_A_02
-- '!Parameters': {DropActor: Item_Ore_E, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Shield_033, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x50811c41
   Rotate: [-0.345317662, -1.19111013, 0.188168794]
   SRTHash: 2002275647
@@ -3309,7 +3309,7 @@ Objs:
   SRTHash: 1032369385
   Translate: [1764.91797, 285.218933, 2426.51172]
   UnitConfigName: Item_Plant_A
-- '!Parameters': {DropActor: Weapon_Shield_002, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Lsword_015, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0x77bbdec8
   Rotate: [0.102728233, -1.17829108, -0.0880728438]
   SRTHash: 507188766
@@ -3714,7 +3714,7 @@ Objs:
   SRTHash: -127919781
   Translate: [1632.99219, 331.130493, 2559.42969]
   UnitConfigName: Item_Mushroom_M
-- '!Parameters': {DropActor: Item_Ore_E, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Ore_J, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0x843fe295
   Rotate: [0.0181303509, 0.000883202534, 0.0221985988]
   SRTHash: -1164087513
@@ -6352,7 +6352,7 @@ Objs:
   SRTHash: 1097108673
   Translate: [1701.61719, 118.932304, 2289.90625]
   UnitConfigName: Item_Plant_A
-- '!Parameters': {DropActor: Obj_ElectricArrow_A_03, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Enemy_31, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
   HashId: !u 0xd6b73aff
   Rotate: [0.0201237034, -0.519709051, -0.013527561]
   SRTHash: -1187269891
@@ -6686,7 +6686,7 @@ Objs:
   SRTHash: 1438016858
   Translate: [1357.09485, 182.136078, 2643.84521]
   UnitConfigName: Obj_TreeDeadLeaf_A_01
-- '!Parameters': {DropActor: Weapon_Bow_029, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Bow_032, EnableRevival: false, IsInGround: false, SharpWeaponJudgeType: 3}
   HashId: !u 0xe2eb8ff2
   Rotate: [0.00384101178, 0.37915042, 0.00747973146]
   SRTHash: -1393507677
@@ -7728,4 +7728,28 @@ Objs:
   SRTHash: -413425671
   Translate: [1332.79846, 182.462997, 2663.26367]
   UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters':
+    AddParam: 50
+    AddSpecialFlag: 7
+    DropTable: Normal
+    EnemyOwnItem: true
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: false
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 0
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xfffcd62d
+  Rotate: [1.53145146, 0.0, 0.042833291]
+  SRTHash: 0
+  Translate: [1384.68213, 285.826294, 2275.32861]
+  UnitConfigName: Weapon_Spear_015
+- '!Parameters': {ResetType: 0}
+  HashId: !u 0xfffcd62e
+  Rotate: 1.79999995
+  SRTHash: 0
+  Translate: [1974.11707, 347.654907, 2631.67358]
+  UnitConfigName: Obj_HeartUtuwa_A_01
 Rails: []

@@ -10852,7 +10852,8 @@ Objs:
   SRTHash: -455447613
   Translate: [2739.2019, 141.026993, 1863.00818]
   UnitConfigName: Enemy_Place_Holder_03
-- HashId: !u 0xfffa5cfb
+- '!Parameters': {ResetType: 0}
+  HashId: !u 0xfffa5cfb
   SRTHash: 0
   Translate: [2691.68726, 221.092621, 1330.36841]
   UnitConfigName: Obj_HeartUtuwa_A_01

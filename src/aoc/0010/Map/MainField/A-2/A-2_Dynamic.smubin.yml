@@ -3134,24 +3134,6 @@ Objs:
   Scale: 1.07666004
   Translate: [-4146.46484, 237.140518, -2531.29688]
   UnitConfigName: Obj_Plant_HopBush_C_Snow_01
-- '!Parameters':
-    AddParam: 0
-    AddSpecialFlag: 0
-    DropTable: Normal
-    EnemyOwnItem: false
-    IsCreateSharpWeapon: false
-    IsEmitLandNoise: false
-    IsFixedPlace: false
-    IsPlayerPut: false
-    IsWeaponCreateByRawLife: false
-    LevelSensorMode: 1
-    Life: -1
-    SharpWeaponJudgeType: 0
-  HashId: !u 0xb6d86bb1
-  Rotate: [0.22345604, 0.756829917, 0.352136225]
-  SRTHash: 1013077179
-  Translate: [-4039.17871, 131.126892, -2678.15918]
-  UnitConfigName: Weapon_Shield_021
 - HashId: !u 0xb75b0fb7
   Rotate: [0.0507903956, -0.701658368, -0.0785911456]
   SRTHash: -1602649634
@@ -5170,7 +5152,7 @@ Objs:
   UnitConfigName: Enemy_Octarock
 - '!Parameters':
     DropTable: Normal
-    EquipItem1: Weapon_Shield_034
+    EquipItem1: Weapon_Sword_034
     EquipItem2: Weapon_Shield_007
     FortressEatPer: -1
     IsMimicry: false
@@ -5285,4 +5267,22 @@ Objs:
   SRTHash: 0
   Translate: [-4083.26074, 89.9115295, -2480.12134]
   UnitConfigName: Enemy_Lizalfos_Ice
+- '!Parameters':
+    AddParam: 0
+    AddSpecialFlag: 0
+    DropTable: Normal
+    EnemyOwnItem: false
+    IsCreateSharpWeapon: false
+    IsEmitLandNoise: false
+    IsFixedPlace: false
+    IsPlayerPut: false
+    IsWeaponCreateByRawLife: false
+    LevelSensorMode: 1
+    Life: -1
+    SharpWeaponJudgeType: 0
+  HashId: !u 0xffe00e0f
+  Rotate: [0.22345604, 0.756829917, 0.352136225]
+  SRTHash: 1013077179
+  Translate: [-4039.17871, 131.126892, -2678.15918]
+  UnitConfigName: Weapon_Shield_021
 Rails: []

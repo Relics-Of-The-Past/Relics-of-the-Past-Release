@@ -663,7 +663,7 @@ Objs:
   Scale: 1.08449376
   Translate: [-3056.6687, 241.989258, 691.279175]
   UnitConfigName: Obj_Plant_HopBush_C_02
-- '!Parameters': {DropActor: Obj_FireArrow_A_03, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Sword_023, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
   HashId: !u 0x129b87ed
   Rotate: 1.44318497
   SRTHash: -394442793
@@ -2034,7 +2034,7 @@ Objs:
   Scale: 1.08896458
   Translate: [-3477.60596, 538.250793, 722.364197]
   UnitConfigName: Obj_Plant_HopBush_C_02
-- '!Parameters': {DropTable: Tabanta, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: MoneyRelics, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0x3aac65af
   Rotate: [0.0252122562, -0.0415387042, -0.0778282285]
   SRTHash: -463202831
@@ -2046,7 +2046,7 @@ Objs:
   Scale: 1.00170553
   Translate: [-3018.63599, 192.296844, 256.034668]
   UnitConfigName: Obj_Plant_HopBush_C_01
-- '!Parameters': {DropTable: Tabanta, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: Food, SharpWeaponJudgeType: 0}
   HashId: !u 0x3ad32c4c
   Rotate: [0.0306663942, -0.719489515, -0.153848991]
   SRTHash: 1296034098
@@ -4109,7 +4109,7 @@ Objs:
   SRTHash: 1625401655
   Translate: [-3573.57178, 172.697601, 98.2753906]
   UnitConfigName: FldObj_HyliaWoodRuinDebris_A_01
-- '!Parameters': {DropTable: Tabanta, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: RandoArrows, SharpWeaponJudgeType: 0}
   HashId: !u 0x6d660861
   Rotate: [1.97887063, 1.44827604, 1.89046419]
   SRTHash: -518449101
@@ -4892,7 +4892,7 @@ Objs:
   Scale: 1.01127684
   Translate: [-3086.15674, 316.081665, 81.0535583]
   UnitConfigName: Obj_Plant_HopBush_C_02
-- '!Parameters': {DropTable: Tabanta, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropTable: MoneyRelics, SharpWeaponJudgeType: 0}
   HashId: !u 0x7fa4ad17
   Rotate: [0.189490825, 0.941432953, 0.0642010048]
   SRTHash: 1433248378
@@ -4927,7 +4927,7 @@ Objs:
   Scale: 1.04656971
   Translate: [-3696.70776, 339.394012, 312.300537]
   UnitConfigName: Obj_Plant_HopBush_C_02
-- '!Parameters': {DropTable: Tabanta, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+- '!Parameters': {DropTable: MoneyRelics, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
   HashId: !u 0x80843b33
   Rotate: [-0.0718071163, 0.680099607, -0.255709141]
   SRTHash: -1857008060
@@ -5971,7 +5971,7 @@ Objs:
   Scale: 1.06215203
   Translate: [-3452.72217, 185.966385, 15.3504944]
   UnitConfigName: Obj_Plant_CypressLow_A_01
-- '!Parameters': {DropActor: Weapon_Shield_003, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Weapon_Shield_003, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 3}
   HashId: !u 0x9ff7764d
   Rotate: [-2.95185757, -0.61671406, 2.82099533]
   SRTHash: 0
@@ -6153,12 +6153,6 @@ Objs:
   SRTHash: 969463480
   Translate: [-3649.98438, 716.467407, 782.095642]
   UnitConfigName: FldObj_GerudoHighlandRock_A_05
-- '!Parameters': {GolemSleepType: SleepForward_A, GolemWeakPointLocation: Point_B, IsNearCreate: false, LevelSensorMode: 1,
-    SharpWeaponJudgeType: 0, TerritoryArea: 0.0, UniqueNameMessageLabel: 'Golem_[B-5]A4B34A2A'}
-  HashId: !u 0xa4b34a2a
-  SRTHash: -750058869
-  Translate: [-3137.5, 317.307678, 72.898407]
-  UnitConfigName: Enemy_Golem_Senior
 - HashId: !u 0xa4ca9500
   Rotate: [0.289342016, -0.016247848, 0.119384341]
   SRTHash: -724946078
@@ -6657,7 +6651,7 @@ Objs:
   SRTHash: 405704571
   Translate: [-3185.39014, 317.658722, 647.723877]
   UnitConfigName: FldObj_GerudoHighlandRock_B_02
-- '!Parameters': {DropActor: Item_Ore_E, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+- '!Parameters': {DropActor: Item_Ore_J, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
   HashId: !u 0xb3ef7edf
   Rotate: 1.44318497
   SRTHash: 1093967119
@@ -9405,7 +9399,7 @@ Objs:
   UnitConfigName: Item_Plant_B
 - HashId: !u 0xfff26fee
   SRTHash: 0
-  Translate: [-3482.573, 173.30188, 132.535431]
+  Translate: [-3485.49707, 172.30188, 145.376465]
   UnitConfigName: Item_Plant_C
 - HashId: !u 0xfff26fef
   SRTHash: 0
@@ -9486,4 +9480,40 @@ Objs:
   SRTHash: 0
   Translate: [-3454.95703, 184.331329, 23.7943401]
   UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0xfff27029
+  SRTHash: 0
+  Translate: [-3482.573, 173.30188, 132.535431]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xfff2702a
+  SRTHash: 0
+  Translate: [-3481.05664, 172.30188, 141.997559]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xfff2702b
+  SRTHash: 0
+  Translate: [-3478.83716, 172.901886, 136.841507]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xfff2702c
+  SRTHash: 0
+  Translate: [-3493.74146, 172.30188, 129.660751]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xfff2702d
+  SRTHash: 0
+  Translate: [-3497.37329, 172.30188, 136.681976]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xfff2702e
+  SRTHash: 0
+  Translate: [-3410.74707, 189.35434, 42.164875]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xfff2702f
+  SRTHash: 0
+  Translate: [-3410.08228, 189.35434, 43.9464417]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xfff27030
+  SRTHash: 0
+  Translate: [-3412.14136, 188.954346, 43.2419739]
+  UnitConfigName: Item_Plant_C
+- HashId: !u 0xfff27031
+  SRTHash: 0
+  Translate: [-3411.31348, 188.754333, 44.9285774]
+  UnitConfigName: Item_Plant_C
 Rails: []

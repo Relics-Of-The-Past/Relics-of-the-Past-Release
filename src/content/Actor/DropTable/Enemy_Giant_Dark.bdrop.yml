@@ -12,20 +12,20 @@ param_root: !list
       RepeatNumMin: 5
       RepeatNumMax: 7
       ApproachType: 0
-      OccurrenceSpeedType: 2
+      OccurrenceSpeedType: 0
       ColumnNum: 6
       ItemName01: !str64 Item_Ore_A
-      ItemProbability01: 15.0
+      ItemProbability01: 10.0
       ItemName02: !str64 Item_Ore_E
-      ItemProbability02: 15.0
+      ItemProbability02: 10.0
       ItemName03: !str64 Item_Ore_D
-      ItemProbability03: 15.0
+      ItemProbability03: 10.0
       ItemName04: !str64 Item_Ore_B
-      ItemProbability04: 15.0
+      ItemProbability04: 10.0
       ItemName05: !str64 Item_Ore_C
-      ItemProbability05: 15.0
+      ItemProbability05: 10.0
       ItemName06: !str64 Item_Roast_46
-      ItemProbability06: 15.0
+      ItemProbability06: 10.0
     Normal2: !obj
       RepeatNumMin: 1
       RepeatNumMax: 1
@@ -38,10 +38,10 @@ param_root: !list
       RepeatNumMin: 5
       RepeatNumMax: 8
       ApproachType: 0
-      OccurrenceSpeedType: 2
+      OccurrenceSpeedType: 0
       ColumnNum: 2
       ItemName01: !str64 Item_Enemy_32
-      ItemProbability01: 40.0
+      ItemProbability01: 5.0
       ItemName02: !str64 Item_Enemy_33
-      ItemProbability02: 20.0
+      ItemProbability02: 5.0
   lists: {}

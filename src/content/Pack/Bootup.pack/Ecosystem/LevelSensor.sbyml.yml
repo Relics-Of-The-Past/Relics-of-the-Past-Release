@@ -973,3 +973,10 @@ weapon:
   - {name: Weapon_Shield_033, plus: 1, value: 120.0}
   not_rank_up: false
   series: OldSeries
+- actorType: WeaponSmallSword
+  actors:
+  - {name: Weapon_Sword_023, plus: -1, value: 30.0}
+  - {name: Weapon_Sword_023, plus: 0, value: 40.0}
+  - {name: Weapon_Sword_023, plus: 1, value: 50.0}
+  not_rank_up: false
+  series: AncientShortSword

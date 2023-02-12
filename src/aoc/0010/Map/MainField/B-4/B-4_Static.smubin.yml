@@ -701,7 +701,7 @@ Objs:
   Scale: 0.699999988
   Translate: [-3581.75659, 358.733246, -975.136902]
   UnitConfigName: FldObj_CliffYellowRock_A_01
-- '!Parameters': {FlowSpeedFactor: 0.0, SoundInDoorType: 0, WaterMaterial: 0, WaterfallAngle: 90.0, WaterfallLength: 0.0,
+- '!Parameters': {FlowSpeedFactor: 0.0, SoundInDoorType: 0, WaterMaterial: 4, WaterfallAngle: 90.0, WaterfallLength: 0.0,
     WaterfallRadius: 0.0, WaterfallThickness: 1.0}
   HashId: !u 0x16b9b734
   Rotate: -2.32892728
@@ -1404,7 +1404,7 @@ Objs:
   SRTHash: 928755861
   Translate: [-3674.68457, 375.238281, -352.577942]
   UnitConfigName: Obj_RockYellow_A_L_04_Far
-- '!Parameters': {FlowSpeedFactor: 0.0, SoundInDoorType: 0, WaterMaterial: 0, WaterfallAngle: 90.0, WaterfallLength: 0.0,
+- '!Parameters': {FlowSpeedFactor: 0.0, SoundInDoorType: 0, WaterMaterial: 4, WaterfallAngle: 90.0, WaterfallLength: 0.0,
     WaterfallRadius: 0.0, WaterfallThickness: 1.0}
   HashId: !u 0x2f348bf1
   Rotate: -2.32892728
@@ -1666,7 +1666,7 @@ Objs:
   SRTHash: -2137534273
   Translate: [-3700.40942, 263.323059, -644.070312]
   UnitConfigName: FldObj_CliffYellowPillar_A_01
-- '!Parameters': {FlowSpeedFactor: 0.0, SoundInDoorType: 0, WaterMaterial: 0, WaterfallAngle: 90.0, WaterfallLength: 0.0,
+- '!Parameters': {FlowSpeedFactor: 0.0, SoundInDoorType: 0, WaterMaterial: 4, WaterfallAngle: 90.0, WaterfallLength: 0.0,
     WaterfallRadius: 0.0, WaterfallThickness: 1.0}
   HashId: !u 0x384f9fb2
   Rotate: -2.32892728
@@ -2525,7 +2525,7 @@ Objs:
   SRTHash: -1123184724
   Translate: [-3532.72632, 347.335938, -466.05777]
   UnitConfigName: FldObj_CliffYellowRock_A_01
-- '!Parameters': {FlowSpeedFactor: 0.0, SoundInDoorType: 0, WaterMaterial: 0, WaterfallAngle: 90.0, WaterfallLength: 0.0,
+- '!Parameters': {FlowSpeedFactor: 0.0, SoundInDoorType: 0, WaterMaterial: 4, WaterfallAngle: 90.0, WaterfallLength: 0.0,
     WaterfallRadius: 0.0, WaterfallThickness: 1.0}
   HashId: !u 0x5c2ef27b
   Rotate: -2.32892728
@@ -7569,7 +7569,7 @@ Objs:
   SRTHash: -521529728
   Translate: [-3792.86792, 340.264557, -373.007294]
   UnitConfigName: Enemy_Lizalfos_Electric
-- '!Parameters': {IsFixedPlace: false}
+- '!Parameters': {IsFixedPlace: false, ResetType: 0}
   HashId: !u 0xffee522c
   SRTHash: 0
   Translate: [-3971.62183, 211.761047, -919.425171]
