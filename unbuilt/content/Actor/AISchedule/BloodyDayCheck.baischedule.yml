@@ -1,6 +1,0 @@
-ConditionalTimelines:
-- Condition: WM_BloodyDay
-  Nodes: []
-  TriggerEvents:
-  - {EvflEntry: EvilMasterSword_Awaken, IsPauseOtherActors: false, Trigger: EachFrame}
-DisplayDistanceMode: None
